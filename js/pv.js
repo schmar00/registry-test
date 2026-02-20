@@ -68,6 +68,7 @@ function showCodelist(uri) {
             (GROUP_CONCAT(distinct CONCAT('<a href="${BASE}?uri=',STR(?o),'">',?P,'</a>')) as ?Parent)
             (GROUP_CONCAT(distinct ?N; separator = '; ') as ?scopeNote)
             (COALESCE(?Lskos, ?Ldcterms) as ?title)
+            (MIN(?desc) as ?Description)
             where { GRAPH ?g {
             <${uri}> skos:hasTopConcept ?tc . ?tc skos:narrower* ?URI .
             ?URI skos:prefLabel ?L . filter(lang(?L)="de")
@@ -77,6 +78,7 @@ function showCodelist(uri) {
             optional {?URI skos:broader ?o . ?o skos:prefLabel ?P . filter(lang(?P)="de")}
             optional {<${uri}> skos:prefLabel ?Lskos . filter(lang(?Lskos)="de")}
             optional {<${uri}> dcterms:title ?Ldcterms . filter(lang(?Ldcterms)="de")}
+            optional {<${uri}> dcterms:description ?desc . filter(lang(?desc)="de")}
             }}
             group by ?URI ?L ?Lskos ?Ldcterms
             order by ?L`);
@@ -107,10 +109,11 @@ function showCodelist(uri) {
                         <span id="uri" style="word-wrap: break-word;">
                             &nbsp;${uri}
                         </span>
-                        <br><br>`);
+                        <br><br><p>${jsonData.results.bindings[0].Description.value}</p>
+                        <br>`);
 
-
-                $('#pageContent').append(`<div class="p-1 col-sm-12 sortable-table">
+// without pagination and sorting##############################################################
+/*                 $('#CodeList').append(`<hr><div class="p-1 col-sm-12 sortable-table">
                     <table class="table table-hover" id="codelist"></table>
                 </div>`);
         
@@ -130,6 +133,145 @@ function showCodelist(uri) {
                             event.colId=${event.colId}
                             event.sortDir=${event.sortDir}
                             event.data=\n${JSON.stringify(event.data)}`);
+                });
+
+            $('.progress-bar').css('width', '100%').attr('aria-valuenow', 100);
+            setTimeout(() => {
+                $('.progress').hide();
+            }, 300);
+        }); */                        
+//#############################################################################################
+// with pagination and sorting (client-side)###################################################
+
+                $('#CodeList').append(`<hr>
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                    <div class="small text-muted" id="codelist-info"></div>
+                    <nav aria-label="Codelist pagination">
+                        <ul class="pagination pagination-sm mb-0" id="codelist_pagination"></ul>
+                    </nav>
+                </div>
+                <div class="p-1 col-sm-12 sortable-table">
+                    <table class="table table-hover" id="codelist"></table>
+                </div>`);
+        
+            // build table header
+            document.getElementById('codelist').innerHTML = '<thead><tr>' +
+                Object.keys(data[0]).map(a => `<th scope="col" data-id="${a}" sortable>${a}</th>`).join('') +
+                '</tr></thead>';
+
+            const sortableTable = new SortableTable();
+            // set table element
+            sortableTable.setTable(document.querySelector('#codelist'));
+
+            // Pagination configuration
+            const masterData = Array.isArray(data) ? data.slice() : [];
+            const pageSize = 12; // change page size here
+            let currentPage = 1;
+            const totalPages = Math.max(1, Math.ceil(masterData.length / pageSize));
+
+            function getPageSlice(page) {
+                const start = (page - 1) * pageSize;
+                return masterData.slice(start, start + pageSize);
+            }
+
+            function updateCodelistInfo() {
+                const start = (masterData.length === 0) ? 0 : (currentPage - 1) * pageSize + 1;
+                const end = Math.min(masterData.length, currentPage * pageSize);
+                $('#codelist-info').text(`${start}–${end} of ${masterData.length}`);
+            }
+
+            function renderPagination() {
+                const $ul = $('#codelist_pagination');
+                $ul.empty();
+
+                if (totalPages <= 1) {
+                    $ul.hide();
+                    return;
+                }
+
+                $ul.show();
+
+                const makePageItem = (page, label = null, disabled = false, active = false) => {
+                    const text = label || page;
+                    const liClass = `page-item ${disabled ? 'disabled' : ''} ${active ? 'active' : ''}`;
+                    return `<li class="${liClass}"><a class="page-link codelist-page " href="#" data-page="${page}">${text}</a></li>`;
+                };
+
+                // Prev
+                $ul.append(makePageItem(Math.max(1, currentPage - 1), 'Prev', currentPage === 1));
+
+                // smart window for pages
+                const maxVisible = 7;
+                const half = Math.floor(maxVisible / 2);
+                let start = 1;
+                let end = totalPages;
+                if (totalPages > maxVisible) {
+                    start = Math.max(1, currentPage - half);
+                    end = Math.min(totalPages, currentPage + half);
+                    if (start === 1) end = maxVisible;
+                    if (end === totalPages) start = totalPages - maxVisible + 1;
+                }
+
+                if (start > 1) {
+                    $ul.append(makePageItem(1));
+                    if (start > 2) $ul.append(`<li class="page-item disabled"><span class="page-link">&hellip;</span></li>`);
+                }
+
+                for (let p = start; p <= end; p++) {
+                    $ul.append(makePageItem(p, null, false, p === currentPage));
+                }
+
+                if (end < totalPages) {
+                    if (end < totalPages - 1) $ul.append(`<li class="page-item disabled"><span class="page-link">&hellip;</span></li>`);
+                    $ul.append(makePageItem(totalPages));
+                }
+
+                // Next
+                $ul.append(makePageItem(Math.min(totalPages, currentPage + 1), 'Next', currentPage === totalPages));
+
+                // attach handler
+                $ul.find('.codelist-page').off('click').on('click', function (e) {
+                    e.preventDefault();
+                    const p = Number($(this).data('page')) || 1;
+                    if (p === currentPage) return;
+                    currentPage = Math.max(1, Math.min(totalPages, p));
+                    renderPage(currentPage);
+                });
+            }
+
+            function sortMasterData(colId, sortDir) {
+                const dir = sortDir === 'asc' ? 1 : -1;
+                const stripHtml = s => (typeof s === 'string') ? s.replace(/<[^>]*>/g, '').trim() : s;
+                masterData.sort((A, B) => {
+                    const a = stripHtml(A[colId] === undefined ? '' : A[colId]);
+                    const b = stripHtml(B[colId] === undefined ? '' : B[colId]);
+                    const na = parseFloat(a);
+                    const nb = parseFloat(b);
+                    if (!isNaN(na) && !isNaN(nb)) return na < nb ? -1 * dir : na > nb ? 1 * dir : 0;
+                    const ka = (a + '').toLowerCase();
+                    const kb = (b + '').toLowerCase();
+                    return ka < kb ? -1 * dir : ka > kb ? 1 * dir : 0;
+                });
+            }
+
+            function renderPage(page) {
+                const slice = getPageSlice(page);
+                sortableTable.setData(slice);
+                updateCodelistInfo();
+                renderPagination();
+            }
+
+            // initialize table with first page
+            renderPage(1);
+
+            // when user clicks a column to sort, SortableTable will emit the event;
+            // sort the masterData (so sort applies to whole dataset) and re-render current page
+            sortableTable.events()
+                .on('sort', (event) => {
+                    // event.colId & event.sortDir are provided by SortableTable
+                    sortMasterData(event.colId, event.sortDir);
+                    renderPage(currentPage);
+                    console.log(`[SortableTable#onSort] column=${event.colId} dir=${event.sortDir} totalRows=${masterData.length}`);
                 });
 
             $('.progress-bar').css('width', '100%').attr('aria-valuenow', 100);
@@ -158,20 +300,22 @@ function insertCodelists(vocProjects, divID) {
     let query = encodeURIComponent(`PREFIX dcterms:<http://purl.org/dc/terms/>
                                     PREFIX skos:<http://www.w3.org/2004/02/skos/core#>
                                     PREFIX adms:<http://www.w3.org/ns/adms#>
-                                    SELECT (CONCAT('<a href="${BASE}?uri=',STR(?cs),'">',?l,'</a>') AS ?Label) ?desc 
+                                    SELECT (CONCAT('<a href="${BASE}?uri=',STR(?cs),'">',?l,'</a>') AS ?Label) ?Description 
                                         (STRBEFORE(STR(?d),'T') AS ?Date)
                                     WHERE { GRAPH ?g {
-                                    ?cs a skos:ConceptScheme; dcterms:title ?l; dcterms:description ?desc; dcterms:created ?d . 
-                                    FILTER(LANG(?l)='de') FILTER(LANG(?desc)='de')
+                                    ?cs a skos:ConceptScheme; dcterms:title ?l; dcterms:description ?Description; dcterms:created ?d . 
+                                    FILTER(LANG(?l)='de') FILTER(LANG(?Description)='de')
                                     }} ORDER BY ?l
                                     `);
-    
+    let tblFields = ['Label', 'Description', 'Date'];
     fetch(ENDPOINT + '?query=' + query + '&format=json')
         .then(res => res.json())
         .then(jsonData => {
             let data = jsonData.results.bindings.map(obj =>
                 Object.fromEntries(
-                    Object.entries(obj).map(([key, val]) => [key, val.value])
+                    Object.entries(obj)
+                        .filter(([key]) => tblFields.includes(key))
+                        .map(([key, val]) => [key, val.value])
                 ));
 
             document.getElementById('reg-table').innerHTML = '<thead><tr>' +
@@ -667,10 +811,6 @@ function details(divID, uri, voc_uri) { //build the web page content
                     $('#altLabel').after('<div id="appsInsert" style="float:right;">' + r + '</div>');
                 }
 
-                 let updateBtn = `<button class="btn btn-outline-primary btn-sm" id="editorLink" onclick="Editor.start();" style="position:absolute;top:0px;right:20px;"><i class="fas fa-pen"></i>&nbsp;&nbsp;edit texts</button>`;
-                if (jsonData.results.bindings.map(a=>a.status.value).includes('http://purl.org/spar/pso/archived')) {
-                    updateBtn = '';
-                }
                 
                 $('#' + divID).append(`<hr>
                         <div style="cursor: pointer; color: #777;" id="detailsBtn"

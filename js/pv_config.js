@@ -1,4 +1,4 @@
-//let ENDPOINT = 'https://resource.geolba.ac.at/PoolParty/sparql/geoera';
+
 let ENDPOINT = 'https://fuseki.geoinformation.dev/inspire-at/sparql';
 
 var config = {
