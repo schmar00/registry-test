@@ -61,6 +61,7 @@ function showCodelist(uri) {
 
     let query = encodeURIComponent(`PREFIX dcterms: <http://purl.org/dc/terms/>
             PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+            PREFIX adms:<http://www.w3.org/ns/adms#>
             select distinct 
             (CONCAT('<a href="${BASE}?uri=',STR(?URI),'">',?L,'</a>') as ?Label)
             (GROUP_CONCAT(distinct ?n; separator = '; ') as ?Notation)
@@ -68,10 +69,11 @@ function showCodelist(uri) {
             (GROUP_CONCAT(distinct CONCAT('<a href="${BASE}?uri=',STR(?o),'">',?P,'</a>')) as ?Parent)
             (GROUP_CONCAT(distinct ?N; separator = '; ') as ?scopeNote)
             (COALESCE(?Lskos, ?Ldcterms) as ?title)
-            (MIN(?desc) as ?Description)
+            (COALESCE(MIN(?desc), "Beschreibung nicht verfügbar") as ?Description)
+            (MIN(CONCAT('<a href="', STR(?status), '">', REPLACE(STR(?status), "https://inspire.ec.europa.eu/registry/status/", ""), '</a>')) AS ?Status)
             where { GRAPH ?g {
             <${uri}> skos:hasTopConcept ?tc . ?tc skos:narrower* ?URI .
-            ?URI skos:prefLabel ?L . filter(lang(?L)="de")
+            ?URI skos:prefLabel ?L; adms:status ?status . filter(lang(?L)="de")
             optional {?URI skos:notation ?n}
             optional {?URI skos:definition ?D . filter(lang(?D)="de")}
             optional {?URI skos:scopeNote ?N . filter(lang(?N)="de")}
@@ -88,7 +90,7 @@ function showCodelist(uri) {
         .then(jsonData => {
             console.log(jsonData);
 
-            let tblFields = ['Label', 'Parent'];
+            let tblFields = ['Label', 'Definition', 'Status', 'Parent']; 
 
             let data = jsonData.results.bindings.map(obj =>
                 Object.fromEntries(
@@ -98,7 +100,7 @@ function showCodelist(uri) {
                 ));
                 console.log(data);
 
-               $('#pageContent').append(`<h1 class="mt-4">${jsonData.results.bindings[0].title.value}</h1>`);
+               $('#pageContent').append(`<h1 class="mt-4">${jsonData.results.bindings[0].title ? jsonData.results.bindings[0].title.value : 'Titel auf nicht verfügbar'}</h1>`);
                 $('#pageContent').append(`
                         <a id="uriBtn"
                             href="javascript:
@@ -109,7 +111,7 @@ function showCodelist(uri) {
                         <span id="uri" style="word-wrap: break-word;">
                             &nbsp;${uri}
                         </span>
-                        <br><br><p>${jsonData.results.bindings[0].Description.value}</p>
+                        <br><br><p>${jsonData.results.bindings[0].Description ? jsonData.results.bindings[0].Description.value : 'Beschreibung nicht verfügbar'}</p>
                         <br>`);
 
 // without pagination and sorting##############################################################
@@ -300,14 +302,17 @@ function insertCodelists(vocProjects, divID) {
     let query = encodeURIComponent(`PREFIX dcterms:<http://purl.org/dc/terms/>
                                     PREFIX skos:<http://www.w3.org/2004/02/skos/core#>
                                     PREFIX adms:<http://www.w3.org/ns/adms#>
-                                    SELECT (CONCAT('<a href="${BASE}?uri=',STR(?cs),'">',?l,'</a>') AS ?Label) ?Description 
-                                        (STRBEFORE(STR(?d),'T') AS ?Date)
+                                    SELECT (CONCAT('<a href="${BASE}?uri=',STR(?cs),'">',?l,'</a>') AS ?Label) 
+                                        (COALESCE(?desc, "Beschreibung nicht verfügbar") AS ?Definition)
+                                        (STRBEFORE(STR(?d),'T') AS ?Date) 
+                                        (CONCAT('<a href="', STR(?status), '">', REPLACE(STR(?status), "https://inspire.ec.europa.eu/registry/status/", ""), '</a>') AS ?Status)
                                     WHERE { GRAPH ?g {
-                                    ?cs a skos:ConceptScheme; dcterms:title ?l; dcterms:description ?Description; dcterms:created ?d . 
-                                    FILTER(LANG(?l)='de') FILTER(LANG(?Description)='de')
+                                    ?cs a skos:ConceptScheme; dcterms:title ?l; dcterms:created ?d; adms:status ?status . 
+                                    OPTIONAL{?cs dcterms:description ?desc . FILTER(LANG(?desc)='de')}
+                                    FILTER(LANG(?l)='de') 
                                     }} ORDER BY ?l
                                     `);
-    let tblFields = ['Label', 'Description', 'Date'];
+    let tblFields = ['Label', 'Definition', 'Status'];
     fetch(ENDPOINT + '?query=' + query + '&format=json')
         .then(res => res.json())
         .then(jsonData => {
@@ -950,7 +955,7 @@ function createFrontPart(divID, uri, data, props, voc_uri) {
                 case 'scope':
                     //console.log(ul);
                     //html += '<br><p class="text-secondary">Interpretation: ' + setUserLang(Array.from(ul).join('|').replace(/  <span class="lang">/g, '@').replace(/<\/span>/g, '')) + '</p>';
-                    html += '<br><p class="text-secondary">Interpretation:<br>' + Array.from(ul).map(a => a.split('<')[0]).join('<br><br>') + '</p>';
+                    html += '<br><p class="text-secondary">Anmerkung:<br>' + Array.from(ul).map(a => a.split('<')[0]).join('<br><br>') + '</p>';
                     break;
                 case 'citation':
                     let a = []; 
