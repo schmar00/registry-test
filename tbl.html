@@ -19,7 +19,7 @@
         (GROUP_CONCAT(distinct ?P; separator = '; ') as ?Parents)
         (GROUP_CONCAT(distinct ?N; separator = '; ') as ?scopeNote)
         (COALESCE(?Lskos, ?Ldcterms, strafter(str(<§>),'https://registry.inspire.gv.at/')) as ?title)
-        where {
+        where { GRAPH ?g {
         {<§> skos:hasTopConcept ?tc . ?tc skos:narrower* ?URI }
         UNION {<§> skos:narrower* ?URI }
         ?URI skos:prefLabel ?Label filter(lang(?Label)="de")
@@ -29,7 +29,7 @@
         optional {?URI skos:broader ?o . ?o skos:prefLabel ?P filter(lang(?P)="de")}
         optional {<§> skos:prefLabel ?Lskos filter(lang(?Lskos)="de")}
         optional {<§> dcterms:title ?Ldcterms filter(lang(?Ldcterms)="de")}
-        }
+        }}
         group by ?URI ?Label ?title ?Lskos ?Ldcterms
         order by ?Label`;
 
@@ -43,7 +43,7 @@
         //***********************HTML Table download***************************************
 
         function htmlTable(qry){ 
-            fetch('https://fuseki.geoinformation.dev/registry.inspire.gv.at/sparql?query=' + encodeURIComponent(qry) + '&format=json')
+            fetch('https://fuseki.geoinformation.dev/inspire-at/sparql?query=' + encodeURIComponent(qry) + '&format=json')
                     .then(res => res.json())
                     .then(jsonData => {console.log(jsonData);
                         let s = 'border: 1px solid black; border-collapse: collapse; word-wrap: break-all; padding:5px;';
