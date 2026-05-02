@@ -62,7 +62,7 @@ function showCodelist(uri) {
     let query = encodeURIComponent(`PREFIX dcterms: <http://purl.org/dc/terms/>
             PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
             PREFIX adms:<http://www.w3.org/ns/adms#>
-            select distinct 
+            select distinct ?g
             (CONCAT('<a href="${BASE}?uri=',STR(?URI),'">',?L,'</a>') as ?Label)
             (GROUP_CONCAT(distinct ?n; separator = '; ') as ?Notation)
             (GROUP_CONCAT(distinct ?D; separator = '; ') as ?Definition)
@@ -82,13 +82,14 @@ function showCodelist(uri) {
             optional {<${uri}> dcterms:title ?Ldcterms . filter(lang(?Ldcterms)="de")}
             optional {<${uri}> dcterms:description ?desc . filter(lang(?desc)="de")}
             }}
-            group by ?URI ?L ?Lskos ?Ldcterms
+            group by ?URI ?L ?Lskos ?Ldcterms ?g
             order by ?L`);
     
     fetch(ENDPOINT + '?query=' + query + '&format=json')
         .then(res => res.json()) 
         .then(jsonData => {
             console.log(jsonData);
+            console.log('query', decodeURIComponent(query));
 
             let tblFields = ['Label', 'Definition', 'Status', 'Parent']; 
 
@@ -147,9 +148,9 @@ function showCodelist(uri) {
 // with pagination and sorting (client-side)###################################################
 
                 //dummy text for codelist info - to be replaced by actual metadata from SPARQL query
-                $('#pageContent').append(`<div class="mb-3">This version: &nbsp;https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330:1<br>
-                Version history: &nbsp;&nbsp;<a href="#">https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330:0</a><br>
-                status: &nbsp;&nbsp;<a href="#">Valid</a><br>
+                $('#pageContent').append(`<div class="mb-3">This version: &nbsp;${jsonData.results.bindings[0].g.value}<br>
+                Version history: &nbsp;&nbsp;<a href="#">${uri + ':' + (parseInt(jsonData.results.bindings[0].g.value.split(':')[2]) - 1)}</a><br>
+                Status: &nbsp;&nbsp;<a href="#">Valid</a><br>
                 Insert date: &nbsp;&nbsp;2022-11-28 14:31 UTC<br>
                 Edit date: &nbsp;&nbsp;2022-04-20 15:54 UTC<br>
                 Available formats: &nbsp;&nbsp;<a href="#">RDF/XML</a> &nbsp;&nbsp;<a href="#">TriG/Turtle</a> &nbsp;&nbsp;<a href="#">JSON-LD</a> &nbsp;&nbsp;<a href="#">CSV</a> &nbsp;&nbsp;<a href="#">Text</a></div><br>
@@ -302,7 +303,7 @@ function insertPageDesc() {
 
     //$('#page_desc').append(`<br><h1 id="title"><span style="color: lightgray;">registry</span> inspire-at</h1>`);//&nbsp;&nbsp;<img src="img/egdi.png" style="height: 40px;"></h1>`);
     //$('#page_desc').append('<h5>Austrian INSPIRE Registry</h5>');
-    $('#page_desc').append(`<p>Im Rahmen der INSPIRE Spezifikation wurde die Unterscheidung zwischen der Vorhaltung von Registern und Codelisten aufgrund einer übersichtlichen Gruppierung empfohlen. Codelisten umfassen die eindeutige semantische Ebene, das Vokabular, zu den INSPIRE Datenmodellen. Register dienen der eindeutigen und perssitenten Zuordnung von Themen, Applikationsschemen, Namensräumen.</p>`);
+    $('#page_desc').append(`<p>Das österreichische Codelistenregister enthält Referenzcodes für Vokabulare und dessen Erweiterung für die INSPIRE Implementierung. Bestehende Codelisten und deren Werte können für weitere Anpassungen des kontrollierten Vokabulars ausserhalb INSPIRE verwendet werden.</p>`);
 }
 
 //*********************list of codelists on start page******************************
