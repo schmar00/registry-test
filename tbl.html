@@ -36,7 +36,8 @@
         let urlParams = new URLSearchParams(window.location.search);
         let uri
         if (urlParams.has('uri')) {
-            uri = decodeURI(urlParams.get('uri').replace(/["';><]/gi, ''));
+            let raw = urlParams.get('uri');
+            uri = decodeURI((raw.slice(0, 30) == 'https://registry.inspire.gv.at') ? raw : '');
             htmlTable(query.replace(/§/g, uri));
         }
 

@@ -8,7 +8,8 @@ var d3data = {
     _project: null,
     init: function (afterInit, expandTo) {
         let urlParams = new URLSearchParams(window.location.search);
-        let uri = urlParams.get('uri');
+        let raw = urlParams.get('uri');
+        let uri = decodeURI((raw.slice(0, 30) == 'https://registry.inspire.gv.at') ? raw : '');
         let project = ws.getProject(uri);
         let lang = 'de';//urlParams.get('lang');
 

@@ -38,9 +38,6 @@ $(document).ready(function () {
         ); */
 
 
-
-
-
     if (urlParams.has('search')) {
         $('header').empty();
         $('header').removeClass('py-5');
@@ -50,7 +47,6 @@ $(document).ready(function () {
         $('header').empty();
         $('header').removeClass('py-5');
         let baseURIs = ['https://registry.inspire.gv.at'];
-        //let uri = decodeURI(urlParams.get('uri').replace(/["';><]/gi, '')); //avoid injection
         let raw = urlParams.get('uri');
         let uri = decodeURI((raw.slice(0, 30) == baseURIs[0]) ? raw : '');
 
