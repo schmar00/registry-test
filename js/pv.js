@@ -36,12 +36,14 @@ $(document).ready(function () {
 
         if ((uriArr[3] == 'dataprovider' && uriArr.length == 4) || (uriArr[3] == 'codelist' && uriArr.length == 5)){
             showCodelist(uri);
+            
         } else {
 
             details('pageContent', uri, voc_uri);
             if (voc_uri) {
-                insertProjCards('proj_links', vocProjects, uri.includes(baseURIs[0]) ? uri.split('\/')[5] : uri.split('\/')[3]);
+                //insertProjCards('proj_links', vocProjects, uri.includes(baseURIs[0]) ? uri.split('\/')[5] : uri.split('\/')[3]);
                 //console.log('uri', uri, );
+                
 
 
             }
@@ -50,12 +52,32 @@ $(document).ready(function () {
     } else {
         insertPageDesc(); //general intro
         insertCodelists(vocProjects, 'proj_desc');
+        
         //$('#proj_links').append(`<hr><div style="text-align:center;"><strong>Data Provider</strong></div><hr>`);
         insertDataProviderList();
         insertProjCards('proj_links', vocProjects);   
     }
     initSearch(); //provides js for fuse search
 });
+
+
+function insertDataProviderCard(header, title, text, link) {
+    $('#data_providers').empty();
+    if ($('#data_providers .data-provider-info-card').length > 0) {
+        return;
+    }
+
+    let card = `<div class="card border-info mb-3 data-provider-info-card">
+        <div class="card-header">${header}</div>
+        <div class="card-body">
+        <h4 class="card-title">${title}</h4>
+        <p class="card-text">${text}</p>
+        <a href="${link}" class="btn btn-info">More Info</a>
+        </div>
+        </div>`;
+
+    $('#data_providers').prepend(card);
+}
 
 
 function insertDataProviderList() {
@@ -132,7 +154,8 @@ function showCodelist(uri) {
         PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
         PREFIX adms:<http://www.w3.org/ns/adms#>
 
-        SELECT DISTINCT ?g ?insertDate ?editDate
+        SELECT DISTINCT ?g ?insertDate ?editDate 
+        (MIN(CONCAT('<a href="', STR(?cls), '">', REPLACE(STR(?cls), "http://inspire.ec.europa.eu/registry/status/", ""), '</a>')) AS ?CLS)
         (CONCAT('<a href="${BASE}?uri=',STR(?URI),'">',COALESCE(?l1,?l),'</a>') AS ?Label)
         (GROUP_CONCAT(DISTINCT ?n; separator = '; ') as ?Notation)
         (GROUP_CONCAT(DISTINCT ?D; separator = '; ') as ?Definition)
@@ -140,6 +163,9 @@ function showCodelist(uri) {
         (GROUP_CONCAT(DISTINCT COALESCE(?tit1,?tit)) AS ?Title)
 		(GROUP_CONCAT(DISTINCT COALESCE(?desc1,?desc)) AS ?Description)
         (MIN(CONCAT('<a href="', STR(?status), '">', REPLACE(STR(?status), "http://inspire.ec.europa.eu/registry/status/", ""), '</a>')) AS ?Status)
+        (MIN(?pub) AS ?pubURI)
+        (GROUP_CONCAT(DISTINCT COALESCE(?pubLabel1,?pubLabel)) AS ?Publisher)
+        (MIN(?pubdef) AS ?PublisherDefinition)
 
         WHERE { GRAPH ?g {
             <${uri}> skos:hasTopConcept ?tc; dcterms:title ?tit .
@@ -150,21 +176,31 @@ function showCodelist(uri) {
             OPTIONAL {<${uri}> dcterms:description ?desc1 . FILTER(lang(?desc1)="${USER_LANG}")}
     		OPTIONAL {<${uri}> dcterms:created ?insertDate}
     		OPTIONAL {<${uri}> dcterms:modified ?editDate}
+            OPTIONAL {<${uri}> adms:status ?cls}
+            OPTIONAL {<${uri}> dcterms:publisher ?pub . }
             OPTIONAL {?URI skos:notation ?n}
             OPTIONAL {?URI skos:definition ?D . filter(lang(?D)="${USER_LANG}")}
             OPTIONAL {?URI skos:broader ?o . ?o skos:prefLabel ?p .}
     		OPTIONAL {?URI skos:broader ?o . ?o skos:prefLabel ?p1 . FILTER(lang(?p1)="${USER_LANG}")}
-        }}
+        }
+            GRAPH ?dp {
+            OPTIONAL {?pub skos:prefLabel ?pubLabel . }
+            OPTIONAL {?pub skos:definition ?pubdef . }
+            OPTIONAL {?pub skos:prefLabel ?pubLabel1 . FILTER(lang(?pubLabel1)="en")}
+            }
+        }
 
         GROUP BY ?URI ?Label ?g ?l ?l1 ?p ?p1 ?tit ?tit1 ?desc ?desc1 ?insertDate ?editDate
         ORDER BY ?Label`);
-    
+        console.log('query', decodeURIComponent(query));
+
     fetch(ENDPOINT + '?query=' + query + '&format=json')
         .then(res => res.json()) 
         .then(jsonData => {
             console.log('jsonData', jsonData);
-            console.log('query', decodeURIComponent(query));
 
+            insertDataProviderCard('Data Provider', jsonData.results.bindings[0].Publisher.value, jsonData.results.bindings[0].PublisherDefinition.value, `${BASE}?uri=${jsonData.results.bindings[0].pubURI.value}`);
+            
             let tblFields = ['Notation', 'Label', 'Definition', 'Parent', 'Status']; 
 
             let data = jsonData.results.bindings.map(obj =>
@@ -192,7 +228,7 @@ function showCodelist(uri) {
                 const fileName = 'rdf/'+jsonData.results.bindings[0].g.value.split('/')[4].replace(':','-v');
                 $('#pageContent').append(`<div class="mb-3">This version: &nbsp;${jsonData.results.bindings[0].g.value}<br>
                 ${jsonData.results.bindings[0].g.value.split(':')[2]==1 ? '' : ('Version history: &nbsp;&nbsp;<a href="#">'+uri + ':' + (parseInt(jsonData.results.bindings[0].g.value.split(':')[2]) - 1)+'</a><br>')}
-                Status: &nbsp;&nbsp;<a href="http://inspire.ec.europa.eu/registry/status/valid">Valid</a><br>
+                Status: &nbsp;&nbsp;${jsonData.results.bindings[0].CLS ? jsonData.results.bindings[0].CLS.value : 'N/A'}<br>
                 Insert date: &nbsp;&nbsp;${jsonData.results.bindings[0].insertDate ? jsonData.results.bindings[0].insertDate.value : 'N/A'}<br>
                 ${jsonData.results.bindings[0].editDate ? 'Edit date: &nbsp;&nbsp;'+jsonData.results.bindings[0].editDate.value+'<br>' : ''}
                 Available formats: &nbsp;&nbsp;<a href="${fileName+'.rdf'}">RDF/XML</a> &nbsp;&nbsp;<a href="${fileName+'.trig'}">TriG/Turtle</a> &nbsp;&nbsp;<a href="${fileName+'.json'}">JSON-LD</a> &nbsp;&nbsp;<a href="${fileName+'.csv'}">CSV</a> &nbsp;&nbsp;<a href="${fileName+'.txt'}">Text</a></div><br>
