@@ -1,0 +1,73 @@
+@prefix agg: <http://jena.apache.org/ARQ/function/aggregate#> .
+@prefix sail: <http://www.openrdf.org/config/sail#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix geof: <http://www.opengis.net/def/function/geosparql/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spif: <http://spinrdf.org/spif#> .
+@prefix path: <http://www.ontotext.com/path#> .
+@prefix array: <http://www.w3.org/2005/xpath-functions/array> .
+@prefix apf: <http://jena.apache.org/ARQ/property#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rep: <http://www.openrdf.org/config/repository#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix map: <http://www.w3.org/2005/xpath-functions/map> .
+@prefix sr: <http://www.openrdf.org/config/repository/sail#> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix afn: <http://jena.apache.org/ARQ/function#> .
+@prefix hike: <https://data.geoscience.earth/def/hike#> .
+@prefix list: <http://jena.apache.org/ARQ/list#> .
+@prefix eurio: <http://data.europa.eu/s66#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ofn: <http://www.ontotext.com/sparql/functions/> .
+@prefix geoext: <http://rdf.useekm.com/ext#> .
+@prefix graphdb: <http://www.ontotext.com/config/graphdb#> .
+@prefix math: <http://www.w3.org/2005/xpath-functions/math> .
+@prefix omgeo: <http://www.ontotext.com/owlim/geo#> .
+
+<http://egdi_euroscivoc> {
+  <http://data.europa.eu/8mn/euroscivoc/e4f1674a-c71f-4cad-b99b-5461ed81d0a6> rdfs:label
+      "climatic changes" .
+  
+  <http://data.europa.eu/8mn/euroscivoc/ae68c142-4643-4df3-bc77-b2c15cce63de> rdfs:label
+      "natural disasters" .
+  
+  <http://data.europa.eu/8mn/euroscivoc/75c3d647-f4fe-4906-abfb-62aa052724b7> rdfs:label
+      "fossil energy" .
+  
+  <http://data.europa.eu/8mn/euroscivoc/22ea0d5d-4358-4568-8c42-c728869ba3b9> rdfs:label
+      "renewable energy" .
+  
+  <http://data.europa.eu/8mn/euroscivoc/4a174a1e-bab0-4d76-988c-9712b5703e35> rdfs:label
+      "carbon capture engineering" .
+  
+  <http://data.europa.eu/8mn/euroscivoc/060a0080-34de-404c-b235-ee69daa67ada> rdfs:label
+      "mining and mineral processing" .
+  
+  <http://data.europa.eu/8mn/euroscivoc/8a64da82-b46e-4940-b896-bfc79ad3f6f8> rdfs:label
+      "palaeontology" .
+  
+  <http://data.europa.eu/8mn/euroscivoc/4fc54e32-5c0e-4f9f-aec1-18bb20609eba> rdfs:label
+      "geochemistry" .
+  
+  <http://data.europa.eu/8mn/euroscivoc/59f6b691-53b4-4ee6-9bc2-d428584ec8b2> rdfs:label
+      "seismology" .
+  
+  <http://data.europa.eu/8mn/euroscivoc/84a41eb4-356e-40a4-bc70-216beaf3d33d> rdfs:label
+      "geophysics" .
+  
+  <http://data.europa.eu/8mn/euroscivoc/969ab3ad-46f6-4637-a09b-92670ed60152> rdfs:label
+      "geotechnics" .
+  
+  <http://data.europa.eu/8mn/euroscivoc/a90b6f46-eb48-46d0-81c2-37cf667fd4a5> rdfs:label
+      "hydrology" .
+  
+  <http://data.europa.eu/8mn/euroscivoc/b486d48d-b7d5-46d8-9c7a-3e921eebe3d5> rdfs:label
+      "soil sciences" .
+  
+  <http://data.europa.eu/8mn/euroscivoc/acfa84a9-7d59-42ba-8028-92bdad6272d1> rdfs:label
+      "remote sensing" .
+}

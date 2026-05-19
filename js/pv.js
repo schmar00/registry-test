@@ -1,47 +1,26 @@
 //******************************************************************************************************
 //*****START********************************************************************************************
 
-let USER_LANG = 'de';
+let USER_LANG = (navigator.language || navigator.userLanguage).substring(0, 2);
+
+if (USER_LANG !== 'de') {
+    USER_LANG = 'en';
+};
+
 let BASE = location.protocol + '//' + location.host + location.pathname;
 
 $(document).ready(function () {
-    let vocProjects = new Map(); //key of vocProjects is identical with URI path!
-    addVocProj(vocProjects); //-> var assigned in projects.js
+    let vocProjects = new Map(); //key of vocProjects is identical with URI path! ??????????????
+    //addVocProj(vocProjects); //-> var assigned in projects.js
     let urlParams = new URLSearchParams(window.location.search);
-
+    
     insertSearchCard('search_widget'); //inserts search widget only
-
-
-/* if (urlParams.has("search")) {
-        //need lang parameter only for sparql requests
-        search.insertSearch(decodeURI(urlParams.get("search")).replace(/[^a-z\p{L}-]/uig, "").slice(0, 15)); //avoid injection
-        this.insertProjCards(); //quick access cards, plus extended project comments from sparql
-      } else if (urlParams.has("info")) {
-        this.insertInfo(decodeURI(urlParams.get("info")).replace(/[^a-z]/gi, "")); //avoid injection
-        this.insertProjCards(); //quick access cards, plus extended project comments from sparql
-      }  else if (urlParams.has("list")) {
-        $("#pageContent").empty();
-        let uri = "§";
-        let label = "§";
-        if (urlParams.has("uri")) {
-          uri = decodeURI(urlParams.get("uri").replace(/["';><]/gi, "")); //avoid injection
-          this.uriParameter = uri;
-          label = decodeURI(urlParams.get("list").replace(/["';><]/gi, "")); //avoid injection
-        }
-        search.insertSparql(uri, label);
-        this.insertProjCards(); //quick access cards, plus extended project comments from sparql
-      }  else if (urlParams.has("uri")) {
-        let raw = urlParams.get("uri");
-        let uri = config.checkUri(
-          ((raw.slice(0, 35) == 'https://resource.geosphere.at/thes/') ||
-          (raw.slice(0, 29) == 'http://resource.geolba.ac.at/')) ? raw : ''
-        ); */
 
 
     if (urlParams.has('search')) {
         $('header').empty();
         $('header').removeClass('py-5');
-        search(decodeURI(urlParams.get('search').replace(/[^a-z\p{L}-]/uig, "").slice(0, 20)), vocProjects);
+        search(decodeURI(urlParams.get('search').replace(/[^a-z\p{L} -]/uig, "").slice(0, 20)), vocProjects);
 
     } else if (urlParams.has('uri')) {
         $('header').empty();
@@ -69,20 +48,52 @@ $(document).ready(function () {
         }
 
     } else {
-        $('header').addClass('py-5');
-        document.getElementsByTagName('header').innerHTML = `<div class="container">
-                                                                    <div class="text-center my-5">
-                                                                        <h1>Geodatenstellen Register</h1>
-                                                                        <p class="lead mb-0">INSPIRE Daten- &amp; Dienste Provider und Codelisten</p>
-                                                                    </div>
-                                                                </div>`;
         insertPageDesc(); //general intro
         insertCodelists(vocProjects, 'proj_desc');
         //$('#proj_links').append(`<hr><div style="text-align:center;"><strong>Data Provider</strong></div><hr>`);
+        insertDataProviderList();
         insertProjCards('proj_links', vocProjects);   
     }
     initSearch(); //provides js for fuse search
 });
+
+
+function insertDataProviderList() {
+    
+    let query = encodeURIComponent(`PREFIX dcterms: <http://purl.org/dc/terms/>
+                PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+                PREFIX adms: <http://www.w3.org/ns/adms#>
+
+                SELECT DISTINCT ?s (COALESCE(?l1,?l) AS ?label) (COUNT(?cl) AS ?count)
+                WHERE {
+                GRAPH ?graph {
+                    ?s a skos:Concept; skos:prefLabel ?l; adms:status <http://inspire.ec.europa.eu/registry/status/valid> .
+                    OPTIONAL {?s skos:prefLabel ?l1 . FILTER(LANG(?l1)='${USER_LANG}')}
+                    FILTER(STRSTARTS(STR(?s), 'https://registry.inspire.gv.at/dataprovider'))
+                }
+                OPTIONAL {GRAPH ?graph {?s dcterms:relation ?cl .}
+                    GRAPH ?otherGraph {?cl adms:status <http://inspire.ec.europa.eu/registry/status/valid> .}
+                }
+                }
+                GROUP BY ?s ?label ?l1 ?l
+                ORDER BY ?label`);
+
+    fetch(ENDPOINT + '?query=' + query + '&format=json')
+        .then(res => res.json()) 
+        .then(jsonData => {
+            $('#data_provider_list').empty();
+            $('#data_provider_list_all').empty();
+
+            jsonData.results.bindings.filter(x=>x.count.value > 0).forEach(a => { 
+                let dp = `<div style="margin-bottom: 7px;"><a href="${BASE}?uri=${a.s.value}">${a.label.value}</a> <small>(${a.count.value})</small></div>`;
+                $('#data_provider_list').append(dp);
+            });
+            jsonData.results.bindings.filter(x=>x.count.value == 0).forEach(b => { 
+                let dp = `<div style="margin-bottom: 7px;"><a href="${BASE}?uri=${b.s.value}">${b.label.value}</a></div>`;
+                $('#data_provider_list_all').append(dp);
+            });            
+        });
+}
 
 //************************     show CODELIST page     ****************************************************
 
@@ -99,7 +110,7 @@ function showCodelist(uri) {
             (GROUP_CONCAT(distinct ?N; separator = '; ') as ?scopeNote)
             (COALESCE(?Lskos, ?Ldcterms) as ?title)
             (COALESCE(MIN(?desc), "Beschreibung nicht verfügbar") as ?Description)
-            (MIN(CONCAT('<a href="', STR(?status), '">', REPLACE(STR(?status), "https://inspire.ec.europa.eu/registry/status/", ""), '</a>')) AS ?Status)
+            (MIN(CONCAT('<a href="', STR(?status), '">', REPLACE(STR(?status), "http://inspire.ec.europa.eu/registry/status/", ""), '</a>')) AS ?Status)
             where { GRAPH ?g {
             <${uri}> skos:hasTopConcept ?tc . ?tc skos:narrower* ?URI .
             ?URI skos:prefLabel ?L; adms:status ?status . #filter(lang(?L)="de")
@@ -326,13 +337,15 @@ function showCodelist(uri) {
 }
 
 
-//********set the title of PV homepage********************************************************************
+//********set start page texts for browser language********************************************************************
+// menu text in English only
 
 function insertPageDesc() {
-
-    //$('#page_desc').append(`<br><h1 id="title"><span style="color: lightgray;">registry</span> inspire-at</h1>`);//&nbsp;&nbsp;<img src="img/egdi.png" style="height: 40px;"></h1>`);
-    //$('#page_desc').append('<h5>Austrian INSPIRE Registry</h5>');
-    $('#page_desc').append(`<p>Das österreichische Codelistenregister enthält Referenzcodes für Vokabulare und dessen Erweiterung für die INSPIRE Implementierung. Bestehende Codelisten und deren Werte können für weitere Anpassungen des kontrollierten Vokabulars ausserhalb INSPIRE verwendet werden.</p>`);
+    $('#page_desc').append(`
+        <h1>${PAGE.codelist.heading[USER_LANG]}</h1>
+        <p class="lead mb-0">${PAGE.codelist.subheading[USER_LANG]}</p>
+        <p>${PAGE.codelist.desc[USER_LANG]}</p>`);
+    $('#tabheading-en').text(PAGE.dataprovider.tabheading[USER_LANG]);
 }
 
 //*********************list of codelists on start page******************************
@@ -346,11 +359,11 @@ function insertCodelists(vocProjects, divID) {
                                     SELECT (CONCAT('<a href="${BASE}?uri=',STR(?cs),'">',?l,'</a>') AS ?Label) 
                                         (COALESCE(?desc, "Beschreibung nicht verfügbar") AS ?Definition)
                                         (STRBEFORE(STR(?d),'T') AS ?Date) 
-                                        (CONCAT('<a href="', STR(?status), '">', REPLACE(STR(?status), "https://inspire.ec.europa.eu/registry/status/", ""), '</a>') AS ?Status)
+                                        (CONCAT('<a href="', STR(?status), '">', REPLACE(STR(?status), "http://inspire.ec.europa.eu/registry/status/", ""), '</a>') AS ?Status)
                                     WHERE { GRAPH ?g {
-                                    ?cs a skos:ConceptScheme; dcterms:title ?l; dcterms:created ?d; adms:status ?status . 
-                                    OPTIONAL{?cs dcterms:description ?desc . FILTER(LANG(?desc)='de')}
-                                    FILTER(LANG(?l)='de') 
+                                    ?cs a skos:ConceptScheme; dcterms:title ?l; dcterms:created ?d; adms:status ?status; adms:status <http://inspire.ec.europa.eu/registry/status/valid> . #only valid codelists 
+                                    OPTIONAL{?cs dcterms:description ?desc . FILTER(LANG(?desc)='${USER_LANG}')}
+                                    FILTER(LANG(?l)='${USER_LANG}') 
                                     }} ORDER BY ?l
                                     `);
     let tblFields = ['Label', 'Definition', 'Status'];
@@ -363,6 +376,23 @@ function insertCodelists(vocProjects, divID) {
                         .filter(([key]) => tblFields.includes(key))
                         .map(([key, val]) => [key, val.value])
                 ));
+            $('#reg-table').before(`<div class="mb-3"><strong>Code Lists:</strong></div><hr></hr>`);
+            if (!data.length) {
+                $('#reg-table').html('');
+                return;
+            }
+
+            if ($('#reg-table_pagination_wrap').length === 0) {
+                $('#reg-table').before(`<div id="reg-table_pagination_wrap" class="d-flex justify-content-between align-items-center mt-2">
+                    <div class="small text-muted" id="reg-table-info"></div>
+                    <nav aria-label="Registry table pagination">
+                        <ul class="pagination pagination-sm mb-0" id="reg-table_pagination"></ul>
+                    </nav>
+                </div>`);
+            } else {
+                // Keep controls positioned above the table even after re-renders.
+                $('#reg-table').before($('#reg-table_pagination_wrap'));
+            }
 
             document.getElementById('reg-table').innerHTML = '<thead><tr>' +
                 Object.keys(data[0]).map(a => `<th scope="col" data-id="${a}" sortable>${a}</th>`).join('') +
@@ -371,15 +401,114 @@ function insertCodelists(vocProjects, divID) {
             const sortableTable = new SortableTable();
             // set table element
             sortableTable.setTable(document.querySelector('#reg-table'));
-            // set data to be sorted
-            sortableTable.setData(data);
-            // handling events
+
+            // Pagination configuration
+            const masterData = Array.isArray(data) ? data.slice() : [];
+            const pageSize = 12;
+            let currentPage = 1;
+            const totalPages = Math.max(1, Math.ceil(masterData.length / pageSize));
+
+            function getPageSlice(page) {
+                const start = (page - 1) * pageSize;
+                return masterData.slice(start, start + pageSize);
+            }
+
+            function updateTableInfo() {
+                const start = (masterData.length === 0) ? 0 : (currentPage - 1) * pageSize + 1;
+                const end = Math.min(masterData.length, currentPage * pageSize);
+                $('#reg-table-info').text(`${start}–${end} of ${masterData.length}`);
+            }
+
+            function renderPagination() {
+                const $ul = $('#reg-table_pagination');
+                $ul.empty();
+
+                if (totalPages <= 1) {
+                    $ul.hide();
+                    return;
+                }
+
+                $ul.show();
+
+                const makePageItem = (page, label = null, disabled = false, active = false) => {
+                    const text = label || page;
+                    const liClass = `page-item ${disabled ? 'disabled' : ''} ${active ? 'active' : ''}`;
+                    return `<li class="${liClass}"><a class="page-link reg-page" href="#" data-page="${page}">${text}</a></li>`;
+                };
+
+                // Prev
+                $ul.append(makePageItem(Math.max(1, currentPage - 1), 'Prev', currentPage === 1));
+
+                // smart window for pages
+                const maxVisible = 7;
+                const half = Math.floor(maxVisible / 2);
+                let start = 1;
+                let end = totalPages;
+                if (totalPages > maxVisible) {
+                    start = Math.max(1, currentPage - half);
+                    end = Math.min(totalPages, currentPage + half);
+                    if (start === 1) end = maxVisible;
+                    if (end === totalPages) start = totalPages - maxVisible + 1;
+                }
+
+                if (start > 1) {
+                    $ul.append(makePageItem(1));
+                    if (start > 2) $ul.append(`<li class="page-item disabled"><span class="page-link">&hellip;</span></li>`);
+                }
+
+                for (let p = start; p <= end; p++) {
+                    $ul.append(makePageItem(p, null, false, p === currentPage));
+                }
+
+                if (end < totalPages) {
+                    if (end < totalPages - 1) $ul.append(`<li class="page-item disabled"><span class="page-link">&hellip;</span></li>`);
+                    $ul.append(makePageItem(totalPages));
+                }
+
+                // Next
+                $ul.append(makePageItem(Math.min(totalPages, currentPage + 1), 'Next', currentPage === totalPages));
+
+                // attach handler
+                $ul.find('.reg-page').off('click').on('click', function (e) {
+                    e.preventDefault();
+                    const p = Number($(this).data('page')) || 1;
+                    if (p === currentPage) return;
+                    currentPage = Math.max(1, Math.min(totalPages, p));
+                    renderPage(currentPage);
+                });
+            }
+
+            function sortMasterData(colId, sortDir) {
+                const dir = sortDir === 'asc' ? 1 : -1;
+                const stripHtml = s => (typeof s === 'string') ? s.replace(/<[^>]*>/g, '').trim() : s;
+                masterData.sort((A, B) => {
+                    const a = stripHtml(A[colId] === undefined ? '' : A[colId]);
+                    const b = stripHtml(B[colId] === undefined ? '' : B[colId]);
+                    const na = parseFloat(a);
+                    const nb = parseFloat(b);
+                    if (!isNaN(na) && !isNaN(nb)) return na < nb ? -1 * dir : na > nb ? 1 * dir : 0;
+                    const ka = (a + '').toLowerCase();
+                    const kb = (b + '').toLowerCase();
+                    return ka < kb ? -1 * dir : ka > kb ? 1 * dir : 0;
+                });
+            }
+
+            function renderPage(page) {
+                const slice = getPageSlice(page);
+                sortableTable.setData(slice);
+                updateTableInfo();
+                renderPagination();
+            }
+
+            // initialize table with first page
+            renderPage(1);
+
+            // sort full dataset and re-render current page
             sortableTable.events()
                 .on('sort', (event) => {
-                    console.log(`[SortableTable#onSort]
-                            event.colId=${event.colId}
-                            event.sortDir=${event.sortDir}
-                            event.data=\n${JSON.stringify(event.data)}`);
+                    sortMasterData(event.colId, event.sortDir);
+                    renderPage(currentPage);
+                    console.log(`[SortableTable#onSort] column=${event.colId} dir=${event.sortDir} totalRows=${masterData.length}`);
                 });
 
             $('.progress-bar').css('width', '100%').attr('aria-valuenow', 100);
@@ -769,7 +898,7 @@ const FRONT_LIST = {
     abstract: DESCRIPTION_1,
     scope: DESCRIPTION_3,
     citation: CITATION,
-    relatedConcepts: [...RELATIONS_1, ...RELATIONS_2]
+    relatedConcepts: [...RELATIONS_1, ...RELATIONS_2, ...RELATIONS_3],
 };
 const TECHNICAL_LIST = {
     descriptions: [...REPLACES, ...STATUS, ...NOTATION, ...PREF_LABEL, ...SYNONYMS, ...DESCRIPTION_1, ...DESCRIPTION_2],
@@ -1018,7 +1147,7 @@ function createFrontPart(divID, uri, data, props, voc_uri) {
                         html += '<hr><h4 style="margin-bottom: 1rem;">Concept relations</h4>';
                     }
                     //hyperlinksAbstract = hyperlinksAbstract.concat(Array.from(ul).map(a => a.split('</a>')[0].split('href="')[1].split('&lang=en">')));
-                    html += '<table><tr><td class="skosRel' + i.search('Match') + ' skosRel">' + i.replace(n.skos, '').replace(n.gc3d, '').replace(n.geosparql, '').replace(n.prov, '') + '</td><td class="skosRelUl"><ul><li>' + shortenText(Array.from(ul).join('</li><li>')) + '</li></ul></td></tr></table>';
+                    html += '<table><tr><td class="skosRel' + i.search('Match') + ' skosRel">' + i.replace(n.skos, '').replace(n.gc3d, '').replace(n.geosparql, '').replace(n.prov, '').replace('http://purl.org/dc/terms/relation', 'codelists') + '</td><td class="skosRelUl"><ul><li>' + shortenText(Array.from(ul).join('</li><li>')) + '</li></ul></td></tr></table>';
 
                     //hyperlinksAbstract = hyperlinksAbstract.sort((a, b) => b[1].length - a[1].length);
                     //console.log(hyperlinksAbstract);
@@ -1276,34 +1405,29 @@ function provideAll(divID, uri, offset) { //provide all available concepts for n
                 console.log(data.results.bindings.length);
                 $('#conceptsList').hide();
             } else if (offset == 0) {
+                //console.log(data.results.bindings);
+
                 $('#allConceptsHeader').html(data.results.bindings[0].Title.value + ' (alphabetical list of concepts)');
-                allConcepts.empty().append('<div class="allConceptsPerex"><br>' + data.results.bindings[0].Desc.value.slice(0, 400) + '</div><br>');
-                data.results.bindings.forEach((i) => {
+                allConcepts.empty().append('<div class="allConceptsPerex">' + data.results.bindings[0].Desc.value.slice(0, 400) + '</div><br>');
+
+                ([...new Map(data.results.bindings.map(({ c, sColor, Label, Desc }) => ({ c, sColor, Label, Desc })).map(item => [item.c.value, item])).values()]).forEach((i) => {
                     let color = i.sColor && i.sColor.value ? ' style="background-color:' + i.sColor.value + ';" ' : '';
-                    
-                      if (i.isTopConcept.value == 'true') {
-                        a.push('<div' + color + '><a ' + AT + 'data-toggle="tooltip" data-placement="right" data-html="true" title="' + i.Label.value + ' - ' + i.Desc.value.slice(0, 230) + '.." href="' + BASE + '?uri=' + i.c.value + '&lang=' + USER_LANG + '"><strong>' + i.Label.value + '</strong></a></div>');
-                        
-                        } else {
-                            a.push('<div' + color + '><a ' + AT + 'data-toggle="tooltip" data-placement="right" data-html="true" title="' + i.Label.value + ' - ' + i.Desc.value.slice(0, 230) + '.." href="' + BASE + '?uri=' + i.c.value + '&lang=' + USER_LANG + '">' + i.Label.value + '</a></div>');
-                        }  
+                    a.push('<div' + color + '><a ' + AT + 'data-toggle="tooltip" data-placement="right" data-html="true" title="' + i.Label.value + ' - ' + i.Desc.value.slice(0, 230) + '.." href="' + BASE + '?uri=' + i.c.value + '&lang=' + USER_LANG + '">' + trnc(i.Label.value) + '</a></div>');
                 });
+
                 let links = a.join('\n\n');
                 allConcepts.append('<div class="allConceptsCards">' + links + '</div>');
                 allConcepts.append(`<div id="coBr" style="justify-content: center; display:flex; margin:5px;">
-                    <button type="button" id="rightBtn" class="btn btn-outline-primary" style="" onclick="provideAll('allConcepts', '${uri}', Number(this.value)+100)">
+                    <button type="button" id="rightBtn" class="btn" style="background-color: #004953; color:white;" onclick="provideAll('allConcepts', '${uri}', Number(this.value)+100)">
                         Show next 100...
                     </button>
             </div>
                 `);
             } else {
-                data.results.bindings.forEach((i) => {
-                    if (i.isTopConcept.value == 'true') {
-                        a.push('<div><a ' + AT + 'data-toggle="tooltip" data-placement="right" data-html="true" title="' + i.Label.value + ' - ' + i.Desc.value.slice(0, 230) + '.." href="' + BASE + '?uri=' + i.c.value + '&lang=' + USER_LANG + '"><strong>' + i.Label.value + '</strong></a></div>');
-                    } else {
-                        a.push('<div><a ' + AT + 'data-toggle="tooltip" data-placement="right" data-html="true" title="' + i.Label.value + ' - ' + i.Desc.value.slice(0, 230) + '.." href="' + BASE + '?uri=' + i.c.value + '&lang=' + USER_LANG + '">' + i.Label.value + '</a></div>');
-                    }
-
+                //console.log(data.results.bindings);
+                ([...new Map(data.results.bindings.map(({ c, sColor, Label, Desc }) => ({ c, sColor, Label, Desc })).map(item => [item.c.value, item])).values()]).forEach((i) => {
+                    let color = i.sColor && i.sColor.value ? ' style="background-color:' + i.sColor.value + ';" ' : '';
+                    a.push('<div' + color + '><a ' + AT + 'data-toggle="tooltip" data-placement="right" data-html="true" title="' + i.Label.value + ' - ' + i.Desc.value.slice(0, 230) + '.." href="' + BASE + '?uri=' + i.c.value + '&lang=' + USER_LANG + '">' + trnc(i.Label.value) + '</a></div>');
                 });
                 let links = a.join('\n\n');
                 $(".allConceptsCards").append(links);
@@ -1313,6 +1437,17 @@ function provideAll(divID, uri, offset) { //provide all available concepts for n
                 $("#coBr").hide();
             }
         });
+}
+
+
+function trnc(label) {
+    return label.split(" ").map(function(word) {
+        if (word.length > 14) {
+        // Keep 10 characters and add ".." for a total of 14
+        return word.substring(0, 12) + "..";
+        }
+        return word;
+    }).join(" ");
 }
 
 

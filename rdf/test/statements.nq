@@ -1,0 +1,14 @@
+<http://data.europa.eu/8mn/euroscivoc/e4f1674a-c71f-4cad-b99b-5461ed81d0a6> <http://www.w3.org/2000/01/rdf-schema#label> "climatic changes" <http://egdi_euroscivoc> .
+<http://data.europa.eu/8mn/euroscivoc/ae68c142-4643-4df3-bc77-b2c15cce63de> <http://www.w3.org/2000/01/rdf-schema#label> "natural disasters" <http://egdi_euroscivoc> .
+<http://data.europa.eu/8mn/euroscivoc/75c3d647-f4fe-4906-abfb-62aa052724b7> <http://www.w3.org/2000/01/rdf-schema#label> "fossil energy" <http://egdi_euroscivoc> .
+<http://data.europa.eu/8mn/euroscivoc/22ea0d5d-4358-4568-8c42-c728869ba3b9> <http://www.w3.org/2000/01/rdf-schema#label> "renewable energy" <http://egdi_euroscivoc> .
+<http://data.europa.eu/8mn/euroscivoc/4a174a1e-bab0-4d76-988c-9712b5703e35> <http://www.w3.org/2000/01/rdf-schema#label> "carbon capture engineering" <http://egdi_euroscivoc> .
+<http://data.europa.eu/8mn/euroscivoc/060a0080-34de-404c-b235-ee69daa67ada> <http://www.w3.org/2000/01/rdf-schema#label> "mining and mineral processing" <http://egdi_euroscivoc> .
+<http://data.europa.eu/8mn/euroscivoc/8a64da82-b46e-4940-b896-bfc79ad3f6f8> <http://www.w3.org/2000/01/rdf-schema#label> "palaeontology" <http://egdi_euroscivoc> .
+<http://data.europa.eu/8mn/euroscivoc/4fc54e32-5c0e-4f9f-aec1-18bb20609eba> <http://www.w3.org/2000/01/rdf-schema#label> "geochemistry" <http://egdi_euroscivoc> .
+<http://data.europa.eu/8mn/euroscivoc/59f6b691-53b4-4ee6-9bc2-d428584ec8b2> <http://www.w3.org/2000/01/rdf-schema#label> "seismology" <http://egdi_euroscivoc> .
+<http://data.europa.eu/8mn/euroscivoc/84a41eb4-356e-40a4-bc70-216beaf3d33d> <http://www.w3.org/2000/01/rdf-schema#label> "geophysics" <http://egdi_euroscivoc> .
+<http://data.europa.eu/8mn/euroscivoc/969ab3ad-46f6-4637-a09b-92670ed60152> <http://www.w3.org/2000/01/rdf-schema#label> "geotechnics" <http://egdi_euroscivoc> .
+<http://data.europa.eu/8mn/euroscivoc/a90b6f46-eb48-46d0-81c2-37cf667fd4a5> <http://www.w3.org/2000/01/rdf-schema#label> "hydrology" <http://egdi_euroscivoc> .
+<http://data.europa.eu/8mn/euroscivoc/b486d48d-b7d5-46d8-9c7a-3e921eebe3d5> <http://www.w3.org/2000/01/rdf-schema#label> "soil sciences" <http://egdi_euroscivoc> .
+<http://data.europa.eu/8mn/euroscivoc/acfa84a9-7d59-42ba-8028-92bdad6272d1> <http://www.w3.org/2000/01/rdf-schema#label> "remote sensing" <http://egdi_euroscivoc> .

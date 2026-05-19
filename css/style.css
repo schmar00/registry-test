@@ -257,6 +257,14 @@ ul.notation li {
             line-clamp: 3;
             -webkit-line-clamp: 3;
         }
+
+.data-provider-tabs .nav-link {
+    color: #6c757d;
+}
+
+.data-provider-tabs .nav-link.active {
+    color: #000;
+}
  
 summary {
     margin-top: 0px;

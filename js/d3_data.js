@@ -18,7 +18,7 @@ var d3data = {
         d3data._project = project;
         d3data._itopic = document.getElementById("itopic");
         //console.log(d3data)
-        this.prepareData(uri, lang, ws.endpoint, project, afterInit, expandTo);
+        this.prepareData(uri, lang, ENDPOINT, project, afterInit, expandTo);
     },
     setVisData: function (data) {
         d3data.visData = data;

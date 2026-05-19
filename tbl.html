@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>INSPIRE-AT Codelist - View</title>
+    <script src="js/pv_config.js"></script>
 </head>
 
 <body>
@@ -18,7 +19,7 @@
         (GROUP_CONCAT(distinct ?D; separator = '; ') as ?Definition)
         (GROUP_CONCAT(distinct ?P; separator = '; ') as ?Parents)
         (GROUP_CONCAT(distinct ?N; separator = '; ') as ?scopeNote)
-        (COALESCE(?Lskos, ?Ldcterms, strafter(str(<§>),'https://registry.inspire.gv.at/')) as ?title)
+        (COALESCE(?Lskos, ?Ldcterms, strafter(str(<§>),'${DOMAIN}/')) as ?title)
         where { GRAPH ?g {
         {<§> skos:hasTopConcept ?tc . ?tc skos:narrower* ?URI }
         UNION {<§> skos:narrower* ?URI }
@@ -37,14 +38,14 @@
         let uri
         if (urlParams.has('uri')) {
             let raw = urlParams.get('uri');
-            uri = decodeURI((raw.slice(0, 30) == 'https://registry.inspire.gv.at') ? raw : '');
+            uri = decodeURI((raw.slice(0, 30) == DOMAIN) ? raw : '');
             htmlTable(query.replace(/§/g, uri));
         }
 
         //***********************HTML Table download***************************************
 
         function htmlTable(qry){ 
-            fetch('https://fuseki.geoinformation.dev/inspire-at/sparql?query=' + encodeURIComponent(qry) + '&format=json')
+            fetch(`${ENDPOINT}?query=${encodeURIComponent(qry)}&format=json`)
                     .then(res => res.json())
                     .then(jsonData => {console.log(jsonData);
                         let s = 'border: 1px solid black; border-collapse: collapse; word-wrap: break-all; padding:5px;';
