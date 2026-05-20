@@ -10,8 +10,6 @@ if (USER_LANG !== 'de') {
 let BASE = location.protocol + '//' + location.host + location.pathname;
 
 $(document).ready(function () {
-    let vocProjects = new Map(); //key of vocProjects is identical with URI path! ??????????????
-    //addVocProj(vocProjects); //-> var assigned in projects.js
     let urlParams = new URLSearchParams(window.location.search);
     
     insertSearchCard('search_widget'); //inserts search widget only
@@ -20,42 +18,30 @@ $(document).ready(function () {
     if (urlParams.has('search')) {
         $('header').empty();
         $('header').removeClass('py-5');
-        search(decodeURI(urlParams.get('search').replace(/[^a-z\p{L} -]/uig, "").slice(0, 20)), vocProjects);
+        $('#data_providers').empty();
+        search(decodeURI(urlParams.get('search').replace(/[^a-z\p{L} -]/uig, "").slice(0, 25)));
 
     } else if (urlParams.has('uri')) {
         $('header').empty();
         $('header').removeClass('py-5');
-        let baseURIs = ['https://registry.inspire.gv.at'];
         let raw = urlParams.get('uri');
-        let uri = decodeURI((raw.slice(0, 30) == baseURIs[0]) ? raw : '');
-
-        let voc_uri = uri.includes(baseURIs[0]) != uri.includes(baseURIs[1]); //true for geoscience.earth or europe-geology
+        let uri = decodeURI((raw.slice(0, 30) == DOMAIN) ? raw : '');
         $('#pageContent').empty();
+        $('#data_providers').empty();
 
-        let uriArr = uri.split('\/');
-
-        if ((uriArr[3] == 'dataprovider' && uriArr.length == 4) || (uriArr[3] == 'codelist' && uriArr.length == 5)){
-            showCodelist(uri);
-            
+        if (uri == 'https://registry.inspire.gv.at/dataprovider') {
+            showCodelist(uri, 'dataprovider');
+        } else if (uri.replace('https://registry.inspire.gv.at/codelist','').split('\/').length == 2) {
+            showCodelist(uri, uri.replace('https://registry.inspire.gv.at/codelist/',''));
         } else {
-
-            details('pageContent', uri, voc_uri);
-            if (voc_uri) {
-                //insertProjCards('proj_links', vocProjects, uri.includes(baseURIs[0]) ? uri.split('\/')[5] : uri.split('\/')[3]);
-                //console.log('uri', uri, );
-                
-
-
-            }
+            details('pageContent', uri);
         }
 
-    } else {
+    } else { //startpage
         insertPageDesc(); //general intro
-        insertCodelists(vocProjects, 'proj_desc');
-        
+        insertCodelists('proj_desc');
         //$('#proj_links').append(`<hr><div style="text-align:center;"><strong>Data Provider</strong></div><hr>`);
         insertDataProviderList();
-        insertProjCards('proj_links', vocProjects);   
     }
     initSearch(); //provides js for fuse search
 });
@@ -63,16 +49,13 @@ $(document).ready(function () {
 
 function insertDataProviderCard(header, title, text, link) {
     $('#data_providers').empty();
-    if ($('#data_providers .data-provider-info-card').length > 0) {
-        return;
-    }
 
-    let card = `<div class="card border-info mb-3 data-provider-info-card">
+    let card = `<div class="card border-light mb-3 data-provider-secondary-card">
         <div class="card-header">${header}</div>
         <div class="card-body">
         <h4 class="card-title">${title}</h4>
         <p class="card-text">${text}</p>
-        <a href="${link}" class="btn btn-info">More Info</a>
+        <a href="${link}" >${link.split('=')[1]}</a>
         </div>
         </div>`;
 
@@ -119,37 +102,8 @@ function insertDataProviderList() {
 
 //************************     show CODELIST page     ****************************************************
 
-function showCodelist(uri) {
-
-    /* PREFIX dcterms: <http://purl.org/dc/terms/>
-        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-        PREFIX adms:<http://www.w3.org/ns/adms#>
-
-        SELECT DISTINCT ?g
-        (CONCAT('<a href="${BASE}?uri=',STR(?URI),'">',COALESCE(?l1,?l),'</a>') AS ?Label)
-        (GROUP_CONCAT(DISTINCT ?n; separator = '; ') as ?Notation)
-        (GROUP_CONCAT(DISTINCT ?D; separator = '; ') as ?Definition)
-        (GROUP_CONCAT(DISTINCT CONCAT('<a href="',STR(?o),'">',COALESCE(?p1,?p),'</a>')) as ?Parent)
-        (GROUP_CONCAT(DISTINCT COALESCE(?tit1,?tit)) AS ?Title)
-		(GROUP_CONCAT(DISTINCT COALESCE(?desc1,?desc)) AS ?Description)
-        (MIN(CONCAT('<a href="', STR(?status), '">', REPLACE(STR(?status), "http://inspire.ec.europa.eu/registry/status/", ""), '</a>')) AS ?Status)
-
-        WHERE { GRAPH ?g {
-            <${uri}> skos:hasTopConcept ?tc; dcterms:title ?tit .
-            ?tc skos:narrower* ?URI . ?URI skos:prefLabel ?l; adms:status ?status . 
-            OPTIONAL {?URI skos:prefLabel ?l1 . FILTER(lang(?l1)="${USER_LANG}")}
-            OPTIONAL {<${uri}> dcterms:title ?tit1 . FILTER(lang(?tit1)="${USER_LANG}")}
-            OPTIONAL {<${uri}> dcterms:description ?desc}
-            OPTIONAL {<${uri}> dcterms:description ?desc1 . FILTER(lang(?desc1)="${USER_LANG}")}
-            OPTIONAL {?URI skos:notation ?n}
-            OPTIONAL {?URI skos:definition ?D . filter(lang(?D)="${USER_LANG}")}
-            OPTIONAL {?URI skos:broader ?o . ?o skos:prefLabel ?p .}
-    		OPTIONAL {?URI skos:broader ?o . ?o skos:prefLabel ?p1 . FILTER(lang(?p1)="${USER_LANG}")}
-        }}
-
-        GROUP BY ?URI ?Label ?g ?l ?l1 ?p ?p1 ?tit ?tit1 ?desc ?desc1
-        ORDER BY ?Label */
-
+function showCodelist(uri, cl) {
+    
     let query = encodeURIComponent(`PREFIX dcterms: <http://purl.org/dc/terms/>
         PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
         PREFIX adms:<http://www.w3.org/ns/adms#>
@@ -177,17 +131,13 @@ function showCodelist(uri) {
     		OPTIONAL {<${uri}> dcterms:created ?insertDate}
     		OPTIONAL {<${uri}> dcterms:modified ?editDate}
             OPTIONAL {<${uri}> adms:status ?cls}
-            OPTIONAL {<${uri}> dcterms:publisher ?pub . }
+            ${cl !== 'dataprovider' ? 'OPTIONAL {<' + uri + '> dcterms:publisher ?pub . }' : ''}
             OPTIONAL {?URI skos:notation ?n}
             OPTIONAL {?URI skos:definition ?D . filter(lang(?D)="${USER_LANG}")}
             OPTIONAL {?URI skos:broader ?o . ?o skos:prefLabel ?p .}
     		OPTIONAL {?URI skos:broader ?o . ?o skos:prefLabel ?p1 . FILTER(lang(?p1)="${USER_LANG}")}
         }
-            GRAPH ?dp {
-            OPTIONAL {?pub skos:prefLabel ?pubLabel . }
-            OPTIONAL {?pub skos:definition ?pubdef . }
-            OPTIONAL {?pub skos:prefLabel ?pubLabel1 . FILTER(lang(?pubLabel1)="en")}
-            }
+            ${cl !== 'dataprovider' ? 'GRAPH ?dp { OPTIONAL {?pub skos:prefLabel ?pubLabel} OPTIONAL {?pub skos:definition ?pubdef} OPTIONAL {?pub skos:prefLabel ?pubLabel1 . FILTER(lang(?pubLabel1)="${USER_LANG}")}}' : ''}
         }
 
         GROUP BY ?URI ?Label ?g ?l ?l1 ?p ?p1 ?tit ?tit1 ?desc ?desc1 ?insertDate ?editDate
@@ -197,9 +147,9 @@ function showCodelist(uri) {
     fetch(ENDPOINT + '?query=' + query + '&format=json')
         .then(res => res.json()) 
         .then(jsonData => {
-            console.log('jsonData', jsonData);
+            console.log('jsonData codelist', jsonData);
 
-            insertDataProviderCard('Data Provider', jsonData.results.bindings[0].Publisher.value, jsonData.results.bindings[0].PublisherDefinition.value, `${BASE}?uri=${jsonData.results.bindings[0].pubURI.value}`);
+            if (cl !== 'dataprovider') insertDataProviderCard('Data Provider', jsonData.results.bindings[0].Publisher.value, jsonData.results.bindings[0].PublisherDefinition.value, `${BASE}?uri=${jsonData.results.bindings[0].pubURI.value}`);
             
             let tblFields = ['Notation', 'Label', 'Definition', 'Parent', 'Status']; 
 
@@ -225,9 +175,11 @@ function showCodelist(uri) {
                         <hr>`);
 
 // with pagination and sorting (client-side)###################################################
-                const fileName = 'rdf/'+jsonData.results.bindings[0].g.value.split('/')[4].replace(':','-v');
+                let version = jsonData.results.bindings[0].g.value.split(':')[2];
+                //console.log('version', version);
+                const fileName = 'rdf/' + cl + '-v' + version;
                 $('#pageContent').append(`<div class="mb-3">This version: &nbsp;${jsonData.results.bindings[0].g.value}<br>
-                ${jsonData.results.bindings[0].g.value.split(':')[2]==1 ? '' : ('Version history: &nbsp;&nbsp;<a href="#">'+uri + ':' + (parseInt(jsonData.results.bindings[0].g.value.split(':')[2]) - 1)+'</a><br>')}
+                ${parseInt(version) > 1 ? 'Version history: &nbsp;&nbsp;<a href="'+fileName+'.rdf">'+uri + ':' + (parseInt(version) - 1)+'</a><br>' : ''}
                 Status: &nbsp;&nbsp;${jsonData.results.bindings[0].CLS ? jsonData.results.bindings[0].CLS.value : 'N/A'}<br>
                 Insert date: &nbsp;&nbsp;${jsonData.results.bindings[0].insertDate ? jsonData.results.bindings[0].insertDate.value : 'N/A'}<br>
                 ${jsonData.results.bindings[0].editDate ? 'Edit date: &nbsp;&nbsp;'+jsonData.results.bindings[0].editDate.value+'<br>' : ''}
@@ -388,8 +340,7 @@ function insertPageDesc() {
 
 //*********************list of codelists on start page******************************
 
-function insertCodelists(vocProjects, divID) { 
-    console.log(vocProjects, divID)
+function insertCodelists(divID) {
     
     let query = encodeURIComponent(`PREFIX dcterms:<http://purl.org/dc/terms/>
                                     PREFIX skos:<http://www.w3.org/2004/02/skos/core#>
@@ -580,121 +531,6 @@ function rdfCS(v) { //create concept scheme RDF for download IN PROGRESS
 }
 
 
-
-//*********************descriptions insert of vocabularies for the start page******************************
-
-/* function insertCodelists(vocProjects, divID) { 
-    
-    let query = encodeURIComponent(`PREFIX dcterms:<http://purl.org/dc/terms/>
-PREFIX skos:<http://www.w3.org/2004/02/skos/core#>
-PREFIX prov:<https://www.w3.org/TR/prov-o/#>
-PREFIX foaf:<http://xmlns.com/foaf/0.1/>
-PREFIX adms:<http://www.w3.org/ns/adms#>
-SELECT ?cs ?csl ?D ?date 
-(COUNT(DISTINCT ?c) AS ?count) (COUNT(DISTINCT ?x) AS ?new) 
-(CONCAT("https://author","§","author") AS ?authors)
-#(GROUP_CONCAT(DISTINCT ?N; separator = "|") as ?authors)
-(CONCAT("https://author","§","ref") AS ?isRefBy)
-#(GROUP_CONCAT(DISTINCT ?ref; separator = "|") as ?isRefBy)
-(GROUP_CONCAT(DISTINCT ?L; separator = "|") as ?topConcepts)
-(COALESCE(?st, '') AS ?stat)
-WHERE {
-    ?cs skos:hasTopConcept ?tc; dcterms:title ?csl; 
-    dcterms:created ?date; dcterms:description ?D .#; adms:status ?stat . 
-    FILTER(lang(?D)="de")
-    ?tc skos:narrower* ?c; skos:prefLabel ?tcl . FILTER(lang(?csl)="de")
-    FILTER(lang(?tcl)="de")
-    BIND(CONCAT(STR(?tcl),"$",STR(?tc)) AS ?L)
-    OPTIONAL{?cs prov:qualifiedAttribution ?ctr . ?ctr foaf:lastName ?n 
-    BIND(CONCAT(STR(?ctr),"§",?n) AS ?N)}
-    OPTIONAL{?cs adms:status ?st}
-    OPTIONAL {?cs dcterms:isReferencedBy ?ref}
-    OPTIONAL{BIND(?c AS ?x) FILTER(STRSTARTS(STR(?c), STR(?cs)))}
-} GROUP BY ?cs ?csl ?date ?D ?st
-ORDER BY ?cs`);
-    
-    fetch(ENDPOINT + '?query=' + query + '&format=json')
-                                    
-        .then(res => res.json())
-        .then(jsonData => { //console.log(jsonData);
-            for (let [key, value] of vocProjects.entries()) {
-                let uri_path = new RegExp(key); //console.log(uri_path)
-                jsonData.results.bindings.filter(item => uri_path.test(item.cs.value)).forEach(function (item) {
-                    let tc = item.topConcepts.value.split('|'); 
-                    tc.sort(); //console.log(item);
-                    let topConcepts = tc.map(a => `<a href="${BASE}?uri=${a.split('$')[1]}&lang=${USER_LANG}">${a.split('$')[0]}</a>`).join(', ');
-                    $('#' + divID).append(`
-                    <div class="card bg-light mb-4" style="">
-                        <div class="card-body scroll-box" style="font-size: 1rem; background: #f8f8f8;">
-                            <h4><strong><a href="tbl.html?uri=${item.cs.value}">${item.csl.value}</a></strong> (${value.acronym})</h4>
-                        
-                            <div style="">
-                                ${item.D.value}<br>
-                                <strong>Top concepts:</strong> ${topConcepts}
-                            </div>
-                        </div>
-                        <div class="card-footer text-muted" style="font-size: smaller; background: white;">
-                            <strong>Concepts:</strong> ${item.count.value}
-                            ${(item.new.value!=item.count.value)?('('+ (parseInt(item.count.value) - parseInt(item.new.value)) + ' reused)'):''}
-                            &nbsp;&nbsp;&nbsp;
-                            <strong><a href="http://purl.org/dc/terms/issued">Issued:</a></strong> ${item.date.value.split('T')[0]}
-                            &nbsp;&nbsp;&nbsp;
-                            <strong><a href="https://www.w3.org/TR/prov-o/#qualifiedAttribution">Edited by:</a></strong> ${doiLinks(item.authors.value)}
-                            <br>
-                            <strong><a href="http://www.w3.org/ns/adms#status">Status:</a></strong> <a href="${item.stat.value}">${doiLinks(item.stat.value.replace('http://purl.org/spar/pso/',''))}</a>
-                            &nbsp;&nbsp;&nbsp;
-                            <strong><a href="http://purl.org/dc/terms/isReferencedBy">Referenced by:</a></strong> ${doiLinks(item.isRefBy.value)}
-                            &nbsp;&nbsp;&nbsp;
-                            <strong>Download:</strong> 
-                            <a href="javascript:rdfCS('${item.cs.value}')" title="RDF download">RDF</a>, 
-                            <a href="tbl.html?uri=${item.cs.value}" title="table view" target="_blank">HTML</a>
-                            <a href="">, CSV, TSV, JSON-LD</a>
-                        </div>
-                    </div>`);
-                });
-            }
-            $('.progress-bar').css('width', '100%').attr('aria-valuenow', 100);
-            setTimeout(() => {$('.progress').hide();}, 300);
-        });
-}
-
-function doiLinks(a) {
-    //https://doi.org/10.5281/zenodo.10057197|https://doi.org/10.13140/RG.2.2.35909.52968
-    a = a == undefined ? '' : a;
-    if (a.includes('§')) { //create <a>
-        return a.split('|').map(a => `<a href="${a.split('§')[0]}" target="_blank">${a.split('§')[1]}</a>`).join(', ')
-    } else {
-         return a.split('|').map(a => a.includes('zenodo') ? `<a href="${a}" target="_blank">zenodo</a>` : a)
-        .map(a => a.includes('egu') ? `<a href="${a}" target="_blank">EGU</a>` : a)
-        .map(a => a.includes('RG') ? `<a href="${a}" target="_blank">ResearchGate</a>` : a)
-        .map(a => a.includes('researchgate') ? `<a href="${a}" target="_blank">ResearchGate</a>` : a)
-        .map(a => a.includes('orcid') ? `<a href="${a}" target="_blank">ORCID</a>` : a)
-        .join(', ')
-    }
-}
-
-function rdfCS(v) { //create concept scheme RDF for download IN PROGRESS
-    $('#other_desc').append(`<form id="irdfForm" target="_blank" style="display:none;" method="post" action="${ENDPOINT}">
-                            <input type="hidden" name="query" id="irdfQuery"/>
-                            </form>`);
-    document.getElementById('irdfQuery').value = `PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-                CONSTRUCT {?s ?p ?o} 
-                WHERE {
-                select distinct ?s ?p ?o
-                where { 
-                VALUES ?v {<${v}>} #a skos:ConceptScheme
-                ?v skos:hasTopConcept ?tc . ?tc skos:narrower* ?n
-                    {?v ?p ?o BIND(?v as ?s)}
-                    UNION
-                    {?tc ?p ?o BIND(?tc as ?s)}
-                    UNION
-                    {?n ?p ?o BIND(?n as ?s)}
-                } 
-                }`;
-//"CONSTRUCT {?s ?p ?o} WHERE {VALUES ?s {" + v + "} ?s ?p ?o}";
-    document.getElementById('irdfForm').submit();
-} */
-
 //***********************set the input box for concept search****************************************
 
 function insertSearchCard(widgetID) {
@@ -737,7 +573,7 @@ function insertSearchCard(widgetID) {
                 $.each(autoSuggest.slice(0, 10), function (index, value) {
                     let entry = value.L.value;
                     if (c.indexOf(entry) !== c.lastIndexOf(entry)) {
-                        entry = entry + ' (' + value.s.value.split('\/')[5] + ')';
+                        entry = entry + ' (' + value.s.value.split('\/')[4].split('_').at(-1) + ')';
                     }
                     $('#dropdown').append('<tr><td class="searchLink dropdown-item" onclick="document.location.href = \'' + BASE + '?uri=' + value.s.value + '&lang=' + USER_LANG + '\';">' + entry + '</td></tr>');
                 });
@@ -762,7 +598,7 @@ function initSearch() {
 
     fetch(ENDPOINT + '?query=' + query + '&format=json')
         .then(res => res.json())
-        .then(jsonData => {console.log(jsonData);
+        .then(jsonData => {//console.log('initSearch', jsonData);
             const options = { 
                 shouldSort: true,
                 tokenize: true,
@@ -798,7 +634,7 @@ function sparqlEncode(str) {
 
 //************************perform the search for a term typed in the inputbox************************
 
-function search(searchText, vocProjects) {
+function search(searchText) {
     let HITS_SEARCHRESULTS = '0 results for ';
     $('#pageContent').empty();
     $('#pageContent').append('<br><h1>Search results</h1><p id="hits" class="lead">' + HITS_SEARCHRESULTS +
@@ -829,17 +665,11 @@ function search(searchText, vocProjects) {
     fetch(ENDPOINT + '?query=' + query + '&format=json')
         .then(res => res.json())
         .then(jsonData => { //console.log(jsonData);
-            jsonData.results.bindings.forEach(function (a) { // insert project name ${vocProjects.get(a.s.value.split('\/')[3]).acronym}
-                let projName = '';
-                try {
-                    projName = '(' + vocProjects.get(a.s.value.split('\/')[4]).acronym + ')';
-                } catch (e) {
-                    //Catch Statement
-                }
+            jsonData.results.bindings.forEach(function (a) { 
 
                 $('#searchresults').append(`<li>
                                         <a href="${BASE}?uri=${a.s.value}&lang=${USER_LANG}">
-                                            <strong>${a.title.value}</strong> ${projName}
+                                            <strong>${a.title.value}</strong> 
                                         </a>
                                         <br>
                                         <span class="searchPropTyp">URI: </span>
@@ -897,7 +727,6 @@ const n = {
     rdfs: 'http://www.w3.org/2000/01/rdf-schema#',
     dbpo: 'http://dbpedia.org/ontology/',
     rdf: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
-    gc3d: 'https://data.geoscience.earth/def/geoconnect3d#',
     schema: 'https://schema.org/',
     geosparql: 'http://www.opengis.net/ont/geosparql#',
     prov: 'http://www.w3.org/ns/prov#',
@@ -957,41 +786,46 @@ function rdfTS(v) { //create RDF narrowers for download
 
 //************set the "details page" to view a single concept ***********************************************************************
 
-function details(divID, uri, voc_uri) { //build the web page content
+function details(divID, uri) { //build the web page content
+    let dp = uri.indexOf('dataprovider') == 31 ? true : false;
     $('#' + divID).append(`<form id="irdfForm" target="_blank" style="display:none;" method="post" action="${ENDPOINT}"><input type="hidden" name="query" id="irdfQuery"/></form>`);
     
     let query = encodeURIComponent(`PREFIX skos:<http://www.w3.org/2004/02/skos/core#>
         PREFIX dcterms: <http://purl.org/dc/terms/>
         PREFIX adms: <http://www.w3.org/ns/adms#>
-        SELECT DISTINCT ?s ?p ?o (GROUP_CONCAT(DISTINCT CONCAT(STR(?L), "@", lang(?L)) ; separator="|") AS ?Label)
-        (COUNT(distinct(?sr)) AS ?count) (GROUP_CONCAT(?source ; separator="|") AS ?pdf)
-        #(IRI(STRBEFORE(STR(?s),(CONCAT("/",REPLACE(STR(?s), "^.*/([^/]*)$", "$1"))))) as ?x) only test
+        SELECT DISTINCT ?s ?p ?o 
+        (GROUP_CONCAT(DISTINCT CONCAT(STR(?L), "@", lang(?L)) ; separator="|") AS ?Label)
+        (COUNT(distinct(?sr)) AS ?count)
         (COALESCE(?stat,"") AS ?status)
-        WHERE {GRAPH ?g {
-        VALUES ?uri {<${uri}>}
-        OPTIONAL{?new dcterms:replaces ?uri} BIND(COALESCE(?new,?uri) AS ?s)
-        {?s ?p ?o .
-        OPTIONAL {?o skos:prefLabel ?L}
-        OPTIONAL {?o skos:narrower|skos:related ?sr}
-        OPTIONAL {?o adms:status ?stat}
-        }UNION{
-        VALUES ?p {<http://purl.org/dc/terms/bibliographicCitation>}
-        ?s ?x ?r . ?r ?p ?o
-        OPTIONAL{?r <http://purl.org/dc/terms/source> ?source}
+        (MIN(?pub) AS ?pubURI)
+        (COALESCE(?pubLabel1,?pubLabel) AS ?Publisher)
+        (MIN(?pubdef) AS ?PublisherDefinition)
+
+        WHERE { GRAPH ?g 
+            { VALUES ?s {<${uri}>}
+            ?s ?p ?o .
+            OPTIONAL {?o skos:prefLabel ?L}
+            OPTIONAL {?o skos:narrower|skos:related ?sr}
+            OPTIONAL {?o adms:status ?stat}
+            ${dp ? '':'OPTIONAL {?s skos:inScheme ?cs . ?cs dcterms:publisher ?pub . }'}
+            }
+            ${dp ? '':'GRAPH ?dp { OPTIONAL {?pub skos:prefLabel ?pubLabel . } OPTIONAL {?pub skos:definition ?pubdef . } OPTIONAL {?pub skos:prefLabel ?pubLabel1 . FILTER(lang(?pubLabel1)="${USER_LANG}")}}'}
         }
-        }}
-        GROUP BY ?s ?p ?o ?stat
+        GROUP BY ?s ?p ?o ?stat ?pubLabel1 ?pubLabel
         ORDER BY ?Label`);
 
     fetch(ENDPOINT + '?query=' + query + '&format=json')
         .then(res => res.json())
         .then(jsonData => {
-            console.log(jsonData);
+            //console.log('827',jsonData);
+            if (!dp && jsonData.results.bindings.length > 0) {
+                insertDataProviderCard('Data Provider', jsonData.results.bindings[0].Publisher.value, jsonData.results.bindings[0].PublisherDefinition.value, `${BASE}?uri=${jsonData.results.bindings[0].pubURI.value}`);
+            }
 
             if (jsonData.results.bindings.length > 1) {
                 uri = jsonData.results.bindings[0].s.value;
                 
-                for (key in FRONT_LIST) createFrontPart(divID, uri, jsonData, Array.from(FRONT_LIST[key].values()), voc_uri);
+                for (key in FRONT_LIST) createFrontPart(divID, uri, jsonData, Array.from(FRONT_LIST[key].values()));
 
                 // RDF download icon added to apps (notation div or altLabel div)
                 let r_links = jsonData.results.bindings.map(a => [a.p.value, '<' + a.o.value + '>']).filter(b => b[0] == REF_LINKS[0]).map(c => c[1]).join(' ');
@@ -1064,7 +898,7 @@ function toggleRead(divBtn, divTxt, text) {
 
 //*************create the upper part of details page - always visible *********************************************************************
 
-function createFrontPart(divID, uri, data, props, voc_uri) {
+function createFrontPart(divID, uri, data, props) {
     //console.log(data.results.bindings)
     //let sourceLinks = data.results.bindings.map(a => [a.pdf.value, a.o.value]).filter(b => b[0].length > 0);
     //console.log(sourceLinks);
@@ -1072,11 +906,10 @@ function createFrontPart(divID, uri, data, props, voc_uri) {
     let html = '';
     let pL = '';
     let uris4rdf = '<' + uri + '>';
-    //console.log(data);
-    //let hyperlinksAbstract = []; //HotLime hyperlinked description texts
+    //console.log('ul data', data);
 
     props.forEach((i) => {
-        let ul = getObj(data, i); console.log(i, ul);
+        let ul = getObj(data, i); //console.log(data,i, ul);
         if (ul.size > 0) {
             switch (key) {
                 case 'prefLabel':
@@ -1092,9 +925,9 @@ function createFrontPart(divID, uri, data, props, voc_uri) {
                         <li class="breadcrumb-item active">${pL}</li>
                     </ol>`;
                         
-                    html += `<h1 id="prefLabel" class="mt-4${(!voc_uri?` text-muted`:'')}">${pL}</h1>`;
+                    html += `<h1 id="prefLabel" class="mt-4">${pL}</h1>`;
 
-                    html += `<p class="${(!voc_uri?' text-muted">':'">')}
+                    html += `<p>
                         <a id="uriBtn"
                             href="javascript:
                             var dummy = $('<input>').val('${uri}').appendTo('body').select();
@@ -1104,7 +937,6 @@ function createFrontPart(divID, uri, data, props, voc_uri) {
                         <span id="uri" style="word-wrap: break-word;">
                             &nbsp;${uri}
                         </span>
-                        ${(!voc_uri?'&nbsp;&nbsp;&nbsp;<a title="external URI" href="' + uri + '"><i class="fa fa-external-link uriImp"></i></a>':'')}
                     </p>
                     <hr>`; //console.log(pL);
                     break;
@@ -1185,7 +1017,7 @@ function createFrontPart(divID, uri, data, props, voc_uri) {
                         html += '<hr><h4 style="margin-bottom: 1rem;">Concept relations</h4>';
                     }
                     //hyperlinksAbstract = hyperlinksAbstract.concat(Array.from(ul).map(a => a.split('</a>')[0].split('href="')[1].split('&lang=en">')));
-                    html += '<table><tr><td class="skosRel' + i.search('Match') + ' skosRel">' + i.replace(n.skos, '').replace(n.gc3d, '').replace(n.geosparql, '').replace(n.prov, '').replace('http://purl.org/dc/terms/relation', 'codelists') + '</td><td class="skosRelUl"><ul><li>' + shortenText(Array.from(ul).join('</li><li>')) + '</li></ul></td></tr></table>';
+                    html += '<table><tr><td class="skosRel' + i.search('Match') + ' skosRel">' + i.replace(n.skos, '').replace(n.gc3d, '').replace(n.geosparql, '').replace(n.prov, '').replace(n.dcterms, '') + '</td><td class="skosRelUl"><ul><li>' + shortenText(Array.from(ul).join('</li><li>')) + '</li></ul></td></tr></table>';
 
                     //hyperlinksAbstract = hyperlinksAbstract.sort((a, b) => b[1].length - a[1].length);
                     //console.log(hyperlinksAbstract);
@@ -1228,7 +1060,8 @@ function shortenText(htmlText) {
         INSPIRE: 'http://inspire.ec.europa.eu/featureconcept/',
         INSPIRE: 'https://inspire.ec.europa.eu/registry/status/',
         DBpedia: 'http://dbpedia.org/resource/',
-        WIKIDATA: 'http://www.wikidata.org/entity/'
+        WIKIDATA: 'http://www.wikidata.org/entity/',
+        codelist: 'https://registry.inspire.gv.at/codelist/'
     };
     for (let i in abbrev) {
         htmlText = htmlText.split('>' + abbrev[i]).map(a => a.replace('<', ` (${i})<`)).join('>').replace(` (${i})`, '');

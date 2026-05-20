@@ -70,81 +70,6 @@ User manual
 Administrator manual
 Contact
 E-Mail
-
-https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema	Nature protection category
-https://registry.inspire.gv.at/codelist/bglLandUseValue	BGL Land Use Value
-https://registry.inspire.gv.at/codelist/BiotoptypenAT	National habitat types Austria
-https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor	Biotop Type Wildlife Corridor
-https://registry.inspire.gv.at/codelist/DirectiveRelevance	Directive Relevance
-https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart	INVEKOS Feldstuecksnutzungsart
-https://registry.inspire.gv.at/codelist/forestInventoryTypeValue	Forest Inventory Type
-https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe	Generalized Habitatcomplexes
-https://registry.inspire.gv.at/codelist/ktnLandUseValue	KTN Land Use Value
-https://registry.inspire.gv.at/codelist/LISALandCoverClassValue	LISA Land Cover Class
-https://registry.inspire.gv.at/codelist/Naturraumregionen	Physiogeographic Ecoregions
-https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK	Physiogeographic Ecoregions Styria
-https://registry.inspire.gv.at/codelist/noeLandUseValue	NOE Land Use Value
-https://registry.inspire.gv.at/codelist/OgdCategoryAustria	OGD Category
-https://registry.inspire.gv.at/codelist/ooeLandUseValue	OOE Land Use Value
-https://registry.inspire.gv.at/codelist/PlanTypeNameValue	Plan Type Name
-https://registry.inspire.gv.at/codelist/referenzart	INVEKOS Referenzart
-https://registry.inspire.gv.at/codelist/sbgLandUseValue	SBG Land Use Value
-https://registry.inspire.gv.at/codelist/schlagnutzungsart	INVEKOS Schlagnutzungsart
-https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172	BORIS Soil Type S172
-https://registry.inspire.gv.at/codelist/SoilType_BORIS_S322	BORIS Soil Type S322
-https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330	BORIS Soil Type S330
-https://registry.inspire.gv.at/codelist/specialisedZoneType	specialised Zone Type Code Austria
-https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk	Zone Type Code Styria
-https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP	specific exposed area regarding GZP
-https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV	specific exposed element type of WLV
-https://registry.inspire.gv.at/codelist/specificHazardTypeValue	specific exposed element type
-https://registry.inspire.gv.at/codelist/stmLandUseValue	STM Land Use Value
-https://registry.inspire.gv.at/codelist/vbgLandUseValue	VBG Land Use Value
-https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt	Zone Type Code Austria Extension
-
-
-
-https://registry.inspire.gv.at/dataprovider/0001" 0001 Österreichische Agentur für Gesundheit und Ernährungssicherheit GmbH
-https://registry.inspire.gv.at/dataprovider/0002" 0002 Bundesamt für Eich- und Vermessungswesen
-https://registry.inspire.gv.at/dataprovider/0003" 0003 Bundesministerium für Finanzen
-https://registry.inspire.gv.at/dataprovider/0006" 0006 Bundesforschungs- und Ausbildungszentrum für Wald, Naturgefahren und Landschaft
-https://registry.inspire.gv.at/dataprovider/0008" 0008 Umweltbundesamt GmbH
-https://registry.inspire.gv.at/dataprovider/0009" 0009 Forsttechnischer Dienst für Wildbach- und Lawinenverbauung
-https://registry.inspire.gv.at/dataprovider/0010" 0010 Bundesministerium
-https://registry.inspire.gv.at/dataprovider/0011" 0011 ASFINAG Autobahnen- und Schnellstraßen-Finanzierungs-Aktiengesellschaft
-https://registry.inspire.gv.at/dataprovider/0012" 0012 Austro Control
-https://registry.inspire.gv.at/dataprovider/0013" 0013 ÖBB-Infrastruktur AG
-https://registry.inspire.gv.at/dataprovider/0014" 0014 via donau - Österreichische Wasserstraßen-Gesellschaft mbH
-https://registry.inspire.gv.at/dataprovider/0015" 0015 Geologische Bundesanstalt
-https://registry.inspire.gv.at/dataprovider/0018" 0018 Land Burgenland - Amt der Burgenländischen Landesregierung
-https://registry.inspire.gv.at/dataprovider/0019" 0019 Land Kärnten - Amt der Kärntner Landesregierung
-https://registry.inspire.gv.at/dataprovider/0021" 0021 Land Oberösterreich - Amt der OÖ Landesregierung
-https://registry.inspire.gv.at/dataprovider/0022" 0022 Land Salzburg - Amt der Salzburger Landesregierung
-https://registry.inspire.gv.at/dataprovider/0023" 0023 Land Steiermark - Amt der Steiermärkischen Landesregierung
-https://registry.inspire.gv.at/dataprovider/0024" 0024 Land Tirol - Amt der Tiroler Landesregierung
-https://registry.inspire.gv.at/dataprovider/0025" 0025 Land Vorarlberg - Amt der Vorarlberger Landesregierung
-https://registry.inspire.gv.at/dataprovider/0027" 0027 Statistik Austria
-https://registry.inspire.gv.at/dataprovider/0033" 0033 Salzburg AG für Energie, Verkehr &amp; Telekommunikation
-https://registry.inspire.gv.at/dataprovider/0038" 0038 Zentralanstalt für Meteorologie und Geodynamik
-https://registry.inspire.gv.at/dataprovider/0043" 0043 Bundeskanzleramt Österreich
-https://registry.inspire.gv.at/dataprovider/0046" 0046 Land Niederösterreich - Amt der NÖ Landesregierung
-https://registry.inspire.gv.at/dataprovider/0049" 0049 Bundesministerium für Landesverteidigung
-https://registry.inspire.gv.at/dataprovider/0051" 0051 Bundesministerium für Digitalisierung und Wirtschaftsstandort
-https://registry.inspire.gv.at/dataprovider/0052" 0052 Land Wien - Amt der Wiener Landesregierung
-https://registry.inspire.gv.at/dataprovider/0056" 0056 Bundesministerium für Bildung, Wissenschaft und Forschung
-https://registry.inspire.gv.at/dataprovider/0061" 0061 Land-, forst- und wasserwirtschaftliches Rechenzentrum GmbH
-https://registry.inspire.gv.at/dataprovider/0064" 0064 Netz Burgenland GmbH
-https://registry.inspire.gv.at/dataprovider/0065" 0065 Netz Oberösterreich GmbH
-https://registry.inspire.gv.at/dataprovider/0067" 0067 Netz Niederösterreich GmbH
-https://registry.inspire.gv.at/dataprovider/0068" 0068 KNG-Kärnten Netz GmbH
-https://registry.inspire.gv.at/dataprovider/0078" 0078 TINETZ-Tiroler Netze GmbH
-https://registry.inspire.gv.at/dataprovider/0080" 0080 VERBUND Hydro Power GmbH
-https://registry.inspire.gv.at/dataprovider/0090" 0090 Federal Institute of Agricultural Economics
-https://registry.inspire.gv.at/dataprovider/0095" 0095 Agrarmarkt Austria
-https://registry.inspire.gv.at/dataprovider/0111" 0111 Vorarlberger Energienetze GmbH
-https://registry.inspire.gv.at/dataprovider/0115" 0115 Austrian Power Grid AG
-https://registry.inspire.gv.at/dataprovider/0130" 0130 Energienetze Steiermark GmbH
-https://registry.inspire.gv.at/dataprovider/0131" 0131 Österreichisches Institut für Verkehrsdateninfrastruktur
  */
 
 var config = {
@@ -167,39 +92,65 @@ function addVocProj(vocProjects) {
     config.projectConfiguration = vocProjects;
     config.init(false);
     
-    vocProjects.set('BORIS', {
-        acronym: 'UBA',
-        title: 'Umweltbundesamt GmbH',
-        description: 'Spittelauer Lände 5, 1090 Wien',
-        image: '',
-        project_page: 'https://www.umweltbundesamt.at',
-        rdf_download: []
-    });
-
-    vocProjects.set('schlagnutzungsart', {
-        acronym: 'AMA',
-        title: 'Agrarmarkt Austria',
-        description: 'Dresdner Straße 70, 1200 Wien',
-        image: '',
-        project_page: 'https://www.ama.at',
-        rdf_download: []
-    });
-
-    vocProjects.set('dataprovider', {
-        acronym: 'NKS',
-        title: 'Assistenzstelle',
-        description: 'Die Schaffung der Assistenzstelle für die Umsetzung von INSPIRE AT wurde bei der Besprechung der Nationalen Koordinierungsstelle INSPIRE AT vom 30.03.2016 im Zuge der Schaffung eines Aktionsplans beschlossen.',
-        image: '',
-        project_page: 'https://www.inspire.gv.at/assistenzstelle',
-        rdf_download: []
-    });
-
-    /*    vocProjects.set('keywords', {
-            acronym: 'GIP-P keywords',
-            title: 'Compilation of a keyword thesaurus',
-            description: 'GIP-P WP4 introduces Linked Data technology to GeoERA projects is to enable a Semantic Text Search. Search for data is the basic task for all data infrastructures. It needs to put all keywords used to tag datasets into a single hierarchy like a thesaurus. Data queries then can use this kind of a word net also to get search results for similar keywords within a semantic radius. For metadata descriptions, the clarification of the meaning of textual attributes applies mainly to keywords and the implementation of a semantic search within a metadata catalog. Here WP4 strives for a compilation (SKOS thesaurus) of keywords with URIs suitable for tagging metadata (-> use case: Multilingual Semantic Text Search).',
-            image: 'falte.png',
-            project_page: 'http://geoera.eu/gip-p/',
-            rdf_download: 'http://resource.geolba.ac.at/structure/export/keywords.rdf'
-        });  */
 }
+
+var ws = {
+    endpoint: ENDPOINT,
+    getProject: function (uri) {
+        return config.getProject(uri);
+    },
+    doc: function (query, thenFunc) {
+        return fetch(this.endpoint + '?query=' + encodeURIComponent(query) + '&format=json').then(thenFunc);
+    },
+    json: function (uriPart, query, filteredItem, thenFunc) {
+        query = ws.processSparql(uriPart, query, filteredItem);
+        return fetch(this.endpoint + '?query=' + encodeURIComponent(query) + '&format=json')
+            .then(res => res.json())
+            .then(thenFunc)
+            .catch(error => $('#pageContent').append(`<br>no results for <br>URI: <span style="color: red;"><strong>${uriPart}</strong></span> <br>`));
+    },
+    docJson: function (query, thenFunc) {
+        return fetch(this.endpoint + '?query=' + encodeURIComponent(query) + '&format=json')
+            .then(res => res.json())
+            .then(thenFunc);
+    },
+    projectJson: function (projectId, query, filteredItem, thenFunc) { 
+        console.log(query)
+        query = ws.processSparql(projectId, query, filteredItem);
+        console.log(query)
+        return fetch(this.endpoint + '?query=' + encodeURIComponent(query) + '&format=json')
+            .then(res => res.json())
+            .then(thenFunc)
+            .catch(error => {
+                if (!$('#outOfService').length) {
+                    $('#rightSidebar').append(`<div id="outOfService" class="alert alert-dismissible alert-primary">
+                                                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                                                <h4 class="alert-heading">Service downtime:</h4>
+                                                    <p class="mb-0">
+                                                        PV is currently not available!
+                                                    </p>
+                                                </div>`);
+                }
+            });
+    },
+    processSparql: function (projectId, query, filteredItem) {
+        let project = projectId ? config.projectConfiguration[projectId] : null;
+        let filter = project ? config.projectConfiguration[projectId].filter : null;
+        if (!filter) {
+            filter = "";
+        }
+        if (!filteredItem) {
+            filteredItem = "c";
+        }
+        query = query.replaceAll('@@filter', filter).replaceAll('@@item', filteredItem);
+
+        let from = project ? project.from : null;
+        if (!from) {
+            from = "";
+        }
+        query = query.replaceAll('@@from', from);
+
+        return query;
+    },
+    getProjUrl: function (projectId, query) {}
+};
