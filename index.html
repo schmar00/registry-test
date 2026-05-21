@@ -33,9 +33,9 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto py-3 py-lg-0">
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-2" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-2" href="https://www.inspire.gv.at/assistenzstelle/registry.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-2" href="post.html">Sample Post</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-2" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-2" href="https://www.inspire.gv.at/assistenzstelle/registry.html">Registry</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-2" href="https://www.inspire.gv.at/assistenzstelle/registry/codelist-erweiterungen.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-2" href="mailto:service@bmluk.gv.at">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -100,6 +100,7 @@
                     <br>
                     <!-- <div style="text-align: center;"><strong>Geodatenstellen</strong></div>
                     <hr> -->
+                    <br><br>
                     <div>
                         <ul class="nav nav-tabs data-provider-tabs" role="tablist">
                             <li id="dp-tab1" class="nav-item" role="presentation" style="width: 40%;">
@@ -109,7 +110,7 @@
                                 <a class="nav-link" data-bs-toggle="tab" href="#dpAll" aria-selected="false" role="tab" tabindex="-1" style="width: 100%; text-align: center;"><small><span id="tabheading-en">more Data Providers</span></small></a> <!-- weitere Geodatenstellen -->
                             </li>
                         </ul>
-                        <div id="data_provider_tabs" class="tab-content" style="padding-top: 10px; max-height: 700px; overflow-y: auto; border-left: 1px solid #ced4da; border-right: 1px solid #ced4da; border-bottom: 1px solid #ced4da; border-radius: 0 0 0.375rem 0.375rem; padding: 2rem;">
+                        <div id="data_provider_tabs" class="tab-content" style="padding-top: 10px; max-height: 800px; overflow-y: auto; border-left: 1px solid #ced4da; border-right: 1px solid #ced4da; border-bottom: 1px solid #ced4da; border-radius: 0 0 0.375rem 0.375rem; padding: 2rem;">
                             <div class="tab-pane fade active show" id="dp" role="tabpanel">
                                 <div id="data_provider_list" class=""></div>
                             </div>
@@ -133,11 +134,14 @@
                     <img src="img/logo-text.png" alt="Registry logo" style="height:auto; max-height:120px;">
                 </div>
                 <div class="flex-grow-1 text-center">
-                    <p class="m-0 text-white">Copyright &copy; Your Website 2026</p>
+                    <p class="m-0 text-white">&copy; <span id="currentYear"></span> inspire.gv.at - Alle Rechte vorbehalten | <a href="https://www.inspire.gv.at/impressum.html" class="text-white">Impressum</a></p>
                 </div>
             </div>
         </div>
     </footer>
+    <script>
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
 </body>
 
 </html>

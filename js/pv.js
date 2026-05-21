@@ -40,18 +40,17 @@ $(document).ready(function () {
     } else { //startpage
         insertPageDesc(); //general intro
         insertCodelists('proj_desc');
-        //$('#proj_links').append(`<hr><div style="text-align:center;"><strong>Data Provider</strong></div><hr>`);
         insertDataProviderList();
     }
     initSearch(); //provides js for fuse search
 });
 
 
-function insertDataProviderCard(header, title, text, link) {
+function insertDataProviderCard(title, text, link) {
     $('#data_providers').empty();
 
     let card = `<div class="card border-light mb-3 data-provider-secondary-card">
-        <div class="card-header">${header}</div>
+        <div class="card-header">${PAGE.dataprovider.cardheader[USER_LANG]}</div>
         <div class="card-body">
         <h4 class="card-title">${title}</h4>
         <p class="card-text">${text}</p>
@@ -113,7 +112,7 @@ function showCodelist(uri, cl) {
         (CONCAT('<a href="${BASE}?uri=',STR(?URI),'">',COALESCE(?l1,?l),'</a>') AS ?Label)
         (GROUP_CONCAT(DISTINCT ?n; separator = '; ') as ?Notation)
         (GROUP_CONCAT(DISTINCT ?D; separator = '; ') as ?Definition)
-        (GROUP_CONCAT(DISTINCT CONCAT('<a href="',STR(?o),'">',COALESCE(?p1,?p),'</a>')) as ?Parent)
+        (GROUP_CONCAT(DISTINCT CONCAT('<a href="${BASE}?uri=',STR(?o),'">',COALESCE(?p1,?p),'</a>')) as ?Parent)
         (GROUP_CONCAT(DISTINCT COALESCE(?tit1,?tit)) AS ?Title)
 		(GROUP_CONCAT(DISTINCT COALESCE(?desc1,?desc)) AS ?Description)
         (MIN(CONCAT('<a href="', STR(?status), '">', REPLACE(STR(?status), "http://inspire.ec.europa.eu/registry/status/", ""), '</a>')) AS ?Status)
@@ -149,7 +148,7 @@ function showCodelist(uri, cl) {
         .then(jsonData => {
             console.log('jsonData codelist', jsonData);
 
-            if (cl !== 'dataprovider') insertDataProviderCard('Data Provider', jsonData.results.bindings[0].Publisher.value, jsonData.results.bindings[0].PublisherDefinition.value, `${BASE}?uri=${jsonData.results.bindings[0].pubURI.value}`);
+            if (cl !== 'dataprovider') insertDataProviderCard(jsonData.results.bindings[0].Publisher.value, jsonData.results.bindings[0].PublisherDefinition.value, `${BASE}?uri=${jsonData.results.bindings[0].pubURI.value}`);
             
             let tblFields = ['Notation', 'Label', 'Definition', 'Parent', 'Status']; 
 
@@ -334,7 +333,7 @@ function insertPageDesc() {
     $('#page_desc').append(`
         <h1>${PAGE.codelist.heading[USER_LANG]}</h1>
         <p class="lead mb-0">${PAGE.codelist.subheading[USER_LANG]}</p>
-        <p>${PAGE.codelist.desc[USER_LANG]}</p>`);
+        <p>${PAGE.codelist.desc[USER_LANG].replace('§', BASE)}</p>`);
     $('#tabheading-en').text(PAGE.dataprovider.tabheading[USER_LANG]);
 }
 
@@ -507,30 +506,6 @@ function insertCodelists(divID) {
         });
     }
 
-
-function rdfCS(v) { //create concept scheme RDF for download IN PROGRESS
-    $('#other_desc').append(`<form id="irdfForm" target="_blank" style="display:none;" method="post" action="${ENDPOINT}">
-                            <input type="hidden" name="query" id="irdfQuery"/>
-                            </form>`);
-    document.getElementById('irdfQuery').value = `PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-                CONSTRUCT {?s ?p ?o} 
-                WHERE {
-                select distinct ?s ?p ?o
-                where { 
-                VALUES ?v {<${v}>} #a skos:ConceptScheme
-                ?v skos:hasTopConcept ?tc . ?tc skos:narrower* ?n
-                    {?v ?p ?o BIND(?v as ?s)}
-                    UNION
-                    {?tc ?p ?o BIND(?tc as ?s)}
-                    UNION
-                    {?n ?p ?o BIND(?n as ?s)}
-                } 
-                }`;
-//"CONSTRUCT {?s ?p ?o} WHERE {VALUES ?s {" + v + "} ?s ?p ?o}";
-    document.getElementById('irdfForm').submit();
-}
-
-
 //***********************set the input box for concept search****************************************
 
 function insertSearchCard(widgetID) {
@@ -629,8 +604,6 @@ function sparqlEncode(str) {
 
     return result
 }
-
-
 
 //************************perform the search for a term typed in the inputbox************************
 
@@ -749,7 +722,6 @@ const RELATIONS_2 = [n.skos + 'exactMatch', n.skos + 'closeMatch', n.skos + 'rel
 const RELATIONS_3 = [n.dbpo + 'category', n.owl + 'sameAs', n.dcterms + 'relation', n.dcterms + 'hasPart', n.dcterms + 'isPartOf'];
 const WEB_LINK = [n.dcterms + 'source', n.dcterms + 'isReferencedBy', n.dcterms + 'subject', n.dcterms + 'isRequiredBy', n.dcterms + 'identifier', n.foaf + 'isPrimaryTopicOf', n.schema + 'subjectOf', n.foaf + 'page', n.schema + 'hasMap'];
 const ICONS = [n.foaf + 'isPrimaryTopicOf', n.schema + 'subjectOf', n.foaf + 'page', n.dcterms + 'isPartOf', n.dcterms + 'hasPart'];
-const MAPS = [n.schema + 'hasMap'];
 const appIcons = ['<i class="fab fa-twitter"></i>', '<i class="fas fa-blog"></i>', '<i class="fab fa-youtube"></i>', '<i class="fab fa-wikipedia-w"></i>'];
 const VISUALIZATION = [n.dbpo + 'colourHexCode'];
 const LOCATION = [n.geo + 'lat', n.geo + 'long', n.geo + 'location', n.dcterms + 'spatial'];
@@ -761,7 +733,6 @@ const FRONT_LIST = {
     altLabel: [...PREF_LABEL, ...SYNONYMS],
     notation: NOTATION,
     apps: ICONS,
-    //maps: MAPS,
     abstract: DESCRIPTION_1,
     scope: DESCRIPTION_3,
     citation: CITATION,
@@ -778,11 +749,9 @@ const TECHNICAL_LIST = {
 };
 
 function rdfTS(v) { //create RDF narrowers for download
-    document.getElementById('irdfQuery').value = "CONSTRUCT {?s ?p ?o} WHERE {VALUES ?s {" + v + "} ?s ?p ?o}";
+    document.getElementById('irdfQuery').value = "CONSTRUCT {?s ?p ?o} WHERE { GRAPH ?g {VALUES ?s {" + v + "} ?s ?p ?o}}";
     document.getElementById('irdfForm').submit();
 }
-
-
 
 //************set the "details page" to view a single concept ***********************************************************************
 
@@ -819,7 +788,7 @@ function details(divID, uri) { //build the web page content
         .then(jsonData => {
             //console.log('827',jsonData);
             if (!dp && jsonData.results.bindings.length > 0) {
-                insertDataProviderCard('Data Provider', jsonData.results.bindings[0].Publisher.value, jsonData.results.bindings[0].PublisherDefinition.value, `${BASE}?uri=${jsonData.results.bindings[0].pubURI.value}`);
+                insertDataProviderCard(jsonData.results.bindings[0].Publisher.value, jsonData.results.bindings[0].PublisherDefinition.value, `${BASE}?uri=${jsonData.results.bindings[0].pubURI.value}`);
             }
 
             if (jsonData.results.bindings.length > 1) {
@@ -899,10 +868,6 @@ function toggleRead(divBtn, divTxt, text) {
 //*************create the upper part of details page - always visible *********************************************************************
 
 function createFrontPart(divID, uri, data, props) {
-    //console.log(data.results.bindings)
-    //let sourceLinks = data.results.bindings.map(a => [a.pdf.value, a.o.value]).filter(b => b[0].length > 0);
-    //console.log(sourceLinks);
-
     let html = '';
     let pL = '';
     let uris4rdf = '<' + uri + '>';
@@ -920,7 +885,7 @@ function createFrontPart(divID, uri, data, props) {
                     const codelist = uri.split('/').slice(0, -1).join('/');
                     
                     html += `<ol class="breadcrumb mt-3" style="margin-left: -12px;">
-                        <li class="breadcrumb-item"><a href="${BASE}">Registry</a></li>
+                        <li class="breadcrumb-item"><a href="${BASE}">registry</a></li>
                         <li class="breadcrumb-item"><a href="${BASE}?uri=${codelist}">${codelist.split('/').pop()}</a></li>
                         <li class="breadcrumb-item active">${pL}</li>
                     </ol>`;
@@ -947,16 +912,6 @@ function createFrontPart(divID, uri, data, props) {
                     $('#' + divID).append('<hr><span></span>');
                     html += `<ul id="notation" class="${key}">
                             <li>Notation: ${Array.from(ul)[0]}</li>`;
-                    /* if (uri.indexOf('codelist')>0){
-                        let uri_arr = uri.split('/');
-                        uri_arr.pop();
-                        html += `<li>-</li>
-                            <li>Collection: <a href="${uri_arr.join('/')}">${uri_arr[4]}</a></li>
-                            <li>-</li>
-                            <li>Status: <a href="https://inspire.ec.europa.eu/registry/status/valid">valid</a></li>
-                            </ul>`;
-                    }      */   
-                            
                     break;
                 case 'apps':
                     html += '<div style="float:right;" id="appsInsert">';
@@ -980,15 +935,6 @@ function createFrontPart(divID, uri, data, props) {
                     }
                     html += `</div>`;
                     break;
-                case 'maps':
-                    html += '<div style="float:right;" id="mapsInsert">';
-                    for (let i of ul) {
-                        html += `<span style="margin: 5px;">
-                                    ${i.split('>')[0]+'><i style="" class="fas fa-map"></i></a>'}
-                                </span>`;
-                    }
-                    html += `</div>`;
-                    break;
                 case 'abstract':
                     html += '<hr><div class="' + key + '">' + setUserLang(Array.from(ul).join('|').replace(/  <span class="lang">/g, '@').replace(/<\/span>/g, '')) + '</div>';
                     break;
@@ -1000,15 +946,6 @@ function createFrontPart(divID, uri, data, props) {
                 case 'citation':
                     let a = []; 
                     if (uri.indexOf('ref')>1){ html += '<br>' }
-                    /* for (let i of ul) {
-                        let pdf = '';
-                        for (let k of sourceLinks) {
-                            if (k[1] + '  ' === i) {
-                                pdf = `<a href="${k[0]}">&nbsp;<i class="fas fa-sm fa-external-link-alt"></i></a>`;
-                            }
-                        }
-                        a.push(i.replace('\:', ':<cite title="Source Title">') + '</cite>' + pdf);
-                    } */
                     html += '<br><footer class="blockquote-footer">' + Array.from(a).join('</footer><footer class="blockquote-footer">') + '</footer>';
                     break;
                 case 'relatedConcepts':
@@ -1016,11 +953,7 @@ function createFrontPart(divID, uri, data, props) {
                     if (html.search('<h4') == -1) {
                         html += '<hr><h4 style="margin-bottom: 1rem;">Concept relations</h4>';
                     }
-                    //hyperlinksAbstract = hyperlinksAbstract.concat(Array.from(ul).map(a => a.split('</a>')[0].split('href="')[1].split('&lang=en">')));
                     html += '<table><tr><td class="skosRel' + i.search('Match') + ' skosRel">' + i.replace(n.skos, '').replace(n.gc3d, '').replace(n.geosparql, '').replace(n.prov, '').replace(n.dcterms, '') + '</td><td class="skosRelUl"><ul><li>' + shortenText(Array.from(ul).join('</li><li>')) + '</li></ul></td></tr></table>';
-
-                    //hyperlinksAbstract = hyperlinksAbstract.sort((a, b) => b[1].length - a[1].length);
-                    //console.log(hyperlinksAbstract);
                     break;
                 case 'picture':
                     insertImage(Array.from(ul).map(a => a.split('\"')[1]), 'image_links');
@@ -1168,59 +1101,6 @@ function setUserLang(x) {
         return x.substr(0, x.indexOf('@')).split('|').slice(-1).pop();
     } else {
         return x.split('|')[0];
-    }
-}
-
-//********************************************************************************************************
-//************************insert the corresponding vocabulary description*********************************
-
-function insertProjCards(divID, projects, p) {
-    if (projects.has(p)) {
-        //console.log(p);
-        iPC(projects.get(p), divID, false);
-    } else {
-        for (let project of projects.values()) {
-            iPC(project, divID, true);
-        }
-    }
-}
-
-//***************************get the corresponding vocabulary description********************************
-
-function iPC(project, divID, startPage) {
-    let rdf_dl = project.rdf_download.map(a => `<a href="${'rdf/' + a}">${a.split('.')[1].toUpperCase()}</a>`).join(', ')
-
-    if (startPage) {
-        $('#' + divID).append(`
-                <div class="card mb-4">
-                    <div class="card-header"><strong>${project.acronym}</strong> - ${project.title}</div>
-                    <div class="card-body">
-                    ${project.description}
-                        <div class="text-muted" style="font-size: smaller; margin-top: 5px;">
-                            <strong>Website:</strong>
-                            <a title="website" href="${project.project_page}">${project.project_page}</a>&nbsp;&nbsp;
-                            
-                        </div>
-                    </div>
-                </div>`);
-    } else {
-        //console.log(project);
-
-        $('#' + divID).append(`
-        <div class="card my-4">
-            <h5 class="card-header">
-                <strong>${project.acronym}</strong><small> - ${project.title}</small>
-            </h5>
-            <div class="card-body">
-                ${project.description.slice(0, 490)}..<br>
-                <div class="text-muted" style="margin-top: 5px;">
-                    <strong>Website:</strong>
-                    <a title="website" target="_blank" href="${project.project_page}"></a>&nbsp;&nbsp;
-                    <strong>Download:</strong> ${rdf_dl}
-                </div>
-            </div>
-        </div>`);                 
-
     }
 }
 
