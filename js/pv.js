@@ -5,14 +5,122 @@ let USER_LANG = (navigator.language || navigator.userLanguage).substring(0, 2);
 
 if (USER_LANG !== 'de') {
     USER_LANG = 'en';
-};
+}
 
 let BASE = location.protocol + '//' + location.host + location.pathname;
+
+function escapeHtml(value) {
+    return String(value ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+function escapeAttr(value) {
+    return escapeHtml(value).replace(/`/g, '&#96;');
+}
+
+function normalizeRegistryUri(raw) {
+    if (typeof raw !== 'string' || raw.length === 0) {
+        return '';
+    }
+    let decoded;
+    try {
+        decoded = decodeURI(raw);
+    } catch (e) {
+        return '';
+    }
+    try {
+        const parsed = new URL(decoded);
+        if (parsed.protocol === 'https:' && parsed.hostname === 'registry.inspire.gv.at') {
+            return parsed.href;
+        }
+    } catch (e) {
+        return '';
+    }
+    return '';
+}
+
+function safeHttpUrl(url) {
+    if (typeof url !== 'string' || url.length === 0) {
+        return '';
+    }
+    try {
+        const parsed = new URL(url);
+        if (parsed.protocol === 'http:' || parsed.protocol === 'https:') {
+            return parsed.href;
+        }
+    } catch (e) {
+        return '';
+    }
+    return '';
+}
+
+function copyToClipboard(text) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        return navigator.clipboard.writeText(text);
+    }
+    const dummy = $('<input>').val(text).appendTo('body').select();
+    document.execCommand('copy');
+    dummy.remove();
+    return Promise.resolve();
+}
+
+function setSortableHeader(tableSelector, columns) {
+    const table = document.querySelector(tableSelector);
+    if (!table) return;
+    table.textContent = '';
+    const thead = document.createElement('thead');
+    const tr = document.createElement('tr');
+    columns.forEach((column) => {
+        const th = document.createElement('th');
+        th.setAttribute('scope', 'col');
+        th.setAttribute('data-id', column);
+        th.setAttribute('sortable', '');
+        th.textContent = column;
+        tr.appendChild(th);
+    });
+    thead.appendChild(tr);
+    table.appendChild(thead);
+}
+
+function makePaginationItemElement(page, label, disabled, active, linkClass, ariaPrefix) {
+    const text = label || page;
+    const $li = $('<li>', { class: `page-item ${active ? 'active' : ''}`.trim() });
+    if (disabled) {
+        $li.addClass('disabled').attr('aria-disabled', 'true');
+        $li.append($('<span>', { class: 'page-link', text }));
+        return $li;
+    }
+    const ariaLabel = label
+        ? `Go to ${label.toLowerCase()} page of ${ariaPrefix}`
+        : `Go to page ${page} of ${ariaPrefix}`;
+    const $a = $('<a>', {
+        class: `page-link ${linkClass}`,
+        href: '#',
+        text,
+        'data-page': String(page),
+        'aria-label': ariaLabel
+    });
+    if (active) {
+        $a.attr('aria-current', 'page');
+    }
+    $li.append($a);
+    return $li;
+}
+
+function makePaginationEllipsisElement() {
+    const $li = $('<li>', { class: 'page-item disabled' }).attr('aria-disabled', 'true');
+    $li.append($('<span>', { class: 'page-link', html: '&hellip;' }));
+    return $li;
+}
 
 $(document).ready(function () {
     let urlParams = new URLSearchParams(window.location.search);
     
-    insertSearchCard('search_widget'); //inserts search widget only
+    insertSearchCard(); // inserts search widget only
 
     if (urlParams.has('search')) {
         $('header').empty();
@@ -24,11 +132,11 @@ $(document).ready(function () {
         $('header').empty();
         $('header').removeClass('py-5');
         let raw = urlParams.get('uri');
-        let uri = decodeURI((raw.slice(0, 30) == DOMAIN) ? raw : '');
+        let uri = normalizeRegistryUri(raw);
         $('#pageContent').empty();
         $('#data_providers').empty();
 
-        if (uri == 'https://registry.inspire.gv.at/dataprovider') {
+        if (uri === 'https://registry.inspire.gv.at/dataprovider') {
             showCodelist(uri, 'dataprovider');
         } else if (uri.replace('https://registry.inspire.gv.at/codelist','').split('\/').length == 2) {
             showCodelist(uri, uri.replace('https://registry.inspire.gv.at/codelist/',''));
@@ -42,16 +150,62 @@ $(document).ready(function () {
         insertDataProviderList();
     }
     initSearch(); //provides js for fuse search
+
+    function copyUriFromTrigger(el) {
+        const uri = String($(el).attr('data-uri') || '');
+        if (!uri) return;
+        copyToClipboard(uri).catch(() => undefined);
+    }
+
+    function setCopyUriHoverState(el, isHover) {
+        const $el = $(el);
+        const $label = $el.find('strong').first();
+        if (!$label.length) return;
+        if (!$el.attr('data-default-label')) {
+            $el.attr('data-default-label', $label.text());
+        }
+        if (isHover) {
+            $label.text('copy URI:');
+        } else {
+            $label.text($el.attr('data-default-label') || 'URI:');
+        }
+    }
+
+    $(document).on('click', '.copy-uri-btn', function (e) {
+        e.preventDefault();
+        copyUriFromTrigger(this);
+    });
+
+    // Security-compliant hover copy: uses validated data attribute + clipboard helper (no inline JS).
+    $(document).on('mouseenter', '.copy-uri-btn', function () {
+        setCopyUriHoverState(this, true);
+        copyUriFromTrigger(this);
+    });
+
+    $(document).on('mouseleave', '.copy-uri-btn', function () {
+        setCopyUriHoverState(this, false);
+    });
+
+    $(document).on('click', '#detailsBtn', function (e) {
+        e.preventDefault();
+        toggleRead('detailsBtn', 'detailsToggle', 'RDF statements');
+    });
+
+    $(document).on('click', '#rightBtn', function (e) {
+        e.preventDefault();
+        const uri = String($(this).attr('data-uri') || '');
+        provideAll('allConcepts', uri, Number(this.value) + 100);
+    });
 });
 
 //********set start page texts for browser language********************************************************************
 // menu text in English only
 
 function insertPageDesc() {
-    $('#page_desc').append(`
-        <h1>${PAGE.codelist.heading[USER_LANG]}</h1>
-        <p class="lead mb-0">${PAGE.codelist.subheading[USER_LANG]}</p>
-        <p>${PAGE.codelist.desc[USER_LANG].replace('§', BASE)}</p>`);
+    const $pageDesc = $('#page_desc');
+    $pageDesc.append($('<h1>', { text: PAGE.codelist.heading[USER_LANG] }));
+    $pageDesc.append($('<p>', { class: 'lead mb-0', text: PAGE.codelist.subheading[USER_LANG] }));
+    $pageDesc.append($('<p>').html(PAGE.codelist.desc[USER_LANG].replace('§', BASE)));
     $('#tabheading-en').text(PAGE.dataprovider.tabheading[USER_LANG]);
 }
 
@@ -90,7 +244,7 @@ function insertCodelists(divID) {
 
             if ($('#reg-table_pagination_wrap').length === 0) {
                 $('#reg-table').before(`<div id="reg-table_pagination_wrap" class="d-flex justify-content-between align-items-center mt-2">
-                    <div class="small text-muted" id="reg-table-info"></div>
+                    <div class="small text-muted" id="reg-table-info" role="status" aria-live="polite" aria-atomic="true"></div>
                     <nav aria-label="Registry table pagination">
                         <ul class="pagination pagination-sm mb-0" id="reg-table_pagination"></ul>
                     </nav>
@@ -100,9 +254,7 @@ function insertCodelists(divID) {
                 $('#reg-table').before($('#reg-table_pagination_wrap'));
             }
 
-            document.getElementById('reg-table').innerHTML = '<thead><tr>' +
-                Object.keys(data[0]).map(a => `<th scope="col" data-id="${a}" sortable>${a}</th>`).join('') +
-                '</tr></thead>';
+            setSortableHeader('#reg-table', Object.keys(data[0]));
 
             const sortableTable = new SortableTable();
             // set table element
@@ -137,9 +289,7 @@ function insertCodelists(divID) {
                 $ul.show();
 
                 const makePageItem = (page, label = null, disabled = false, active = false) => {
-                    const text = label || page;
-                    const liClass = `page-item ${disabled ? 'disabled' : ''} ${active ? 'active' : ''}`;
-                    return `<li class="${liClass}"><a class="page-link reg-page" href="#" data-page="${page}">${text}</a></li>`;
+                    return makePaginationItemElement(page, label, disabled, active, 'reg-page', 'registry code lists');
                 };
 
                 // Prev
@@ -159,7 +309,7 @@ function insertCodelists(divID) {
 
                 if (start > 1) {
                     $ul.append(makePageItem(1));
-                    if (start > 2) $ul.append(`<li class="page-item disabled"><span class="page-link">&hellip;</span></li>`);
+                    if (start > 2) $ul.append(makePaginationEllipsisElement());
                 }
 
                 for (let p = start; p <= end; p++) {
@@ -167,7 +317,7 @@ function insertCodelists(divID) {
                 }
 
                 if (end < totalPages) {
-                    if (end < totalPages - 1) $ul.append(`<li class="page-item disabled"><span class="page-link">&hellip;</span></li>`);
+                    if (end < totalPages - 1) $ul.append(makePaginationEllipsisElement());
                     $ul.append(makePageItem(totalPages));
                 }
 
@@ -214,7 +364,6 @@ function insertCodelists(divID) {
                 .on('sort', (event) => {
                     sortMasterData(event.colId, event.sortDir);
                     renderPage(currentPage);
-                    console.log(`[SortableTable#onSort] column=${event.colId} dir=${event.sortDir} totalRows=${masterData.length}`);
                 });
 
             $('.progress-bar').css('width', '100%').attr('aria-valuenow', 100);
@@ -253,12 +402,23 @@ function insertDataProviderList() {
             $('#data_provider_list_all').empty();
 
             jsonData.results.bindings.filter(x=>x.count.value > 0).forEach(a => { 
-                let dp = `<div style="margin-bottom: 7px;"><a href="${BASE}?uri=${a.s.value}">${a.label.value}</a> <small>(${a.count.value})</small></div>`;
-                $('#data_provider_list').append(dp);
+                const $row = $('<div>').css('margin-bottom', '7px');
+                const $link = $('<a>', {
+                    href: `${BASE}?uri=${encodeURIComponent(a.s.value)}`,
+                    text: a.label.value
+                });
+                const $count = $('<small>').text(`(${a.count.value})`);
+                $row.append($link).append(' ').append($count);
+                $('#data_provider_list').append($row);
             });
             jsonData.results.bindings.filter(x=>x.count.value == 0).forEach(b => { 
-                let dp = `<div style="margin-bottom: 7px;"><a href="${BASE}?uri=${b.s.value}">${b.label.value}</a></div>`;
-                $('#data_provider_list_all').append(dp);
+                const $row = $('<div>').css('margin-bottom', '7px');
+                const $link = $('<a>', {
+                    href: `${BASE}?uri=${encodeURIComponent(b.s.value)}`,
+                    text: b.label.value
+                });
+                $row.append($link);
+                $('#data_provider_list_all').append($row);
             });            
         });
 }
@@ -305,13 +465,9 @@ function showCodelist(uri, cl) {
 
         GROUP BY ?URI ?Label ?g ?l ?l1 ?p ?p1 ?tit ?tit1 ?desc ?desc1 ?insertDate ?editDate
         ORDER BY ?Label`);
-        console.log('query', decodeURIComponent(query));
-
     fetch(ENDPOINT + '?query=' + query + '&format=json')
         .then(res => res.json()) 
         .then(jsonData => {
-            console.log('jsonData codelist', jsonData);
-
             if (cl !== 'dataprovider') insertDataProviderCard(jsonData.results.bindings[0].Publisher.value, jsonData.results.bindings[0].PublisherDefinition.value, `${BASE}?uri=${jsonData.results.bindings[0].pubURI.value}`);
             
             let tblFields = ['Label', 'Notation', 'Definition', 'Parent', 'Status']; 
@@ -320,51 +476,86 @@ function showCodelist(uri, cl) {
                 Object.fromEntries(
                     tblFields.map((key) => [key, (obj[key] && obj[key].value) ? obj[key].value : ''])
                 ));
-                console.log('table data: ', data);
 
-               $('#pageContent').append(`<h1 class="mt-4">${jsonData.results.bindings[0].Title ? jsonData.results.bindings[0].Title.value : 'Titel auf nicht verfügbar'}</h1>`);
+                const $pageContent = $('#pageContent');
+                $pageContent.append($('<h1>', {
+                    class: 'mt-4',
+                    text: jsonData.results.bindings[0].Title ? jsonData.results.bindings[0].Title.value : 'Titel auf nicht verfügbar'
+                }));
 
-                $('#pageContent').append(`
-                        <a id="uriBtn"
-                            href="javascript:
-                            var dummy = $('<input>').val('${uri}').appendTo('body').select();
-                            document.execCommand('copy');
-                            dummy.remove();"><strong>URI:</strong>
-                        </a>
-                        <span id="uri" style="word-wrap: break-word;">
-                            &nbsp;${uri}
-                        </span>
-                        <br><br><p>${jsonData.results.bindings[0].Description ? jsonData.results.bindings[0].Description.value : 'Beschreibung nicht verfügbar'}</p>
-                        <hr>`);
+                const $copyUriLink = $('<a>', {
+                    class: 'copy-uri-btn',
+                    'data-uri': uri,
+                    href: '#'
+                }).append($('<strong>', { text: 'URI:' }));
+
+                const $uriSpan = $('<span>', { id: 'uri' }).css('word-wrap', 'break-word').text(` ${uri}`);
+                $pageContent.append($copyUriLink);
+                $pageContent.append($uriSpan);
+                $pageContent.append($('<br>'));
+                $pageContent.append($('<br>'));
+                $pageContent.append($('<p>', {
+                    text: jsonData.results.bindings[0].Description ? jsonData.results.bindings[0].Description.value : 'Beschreibung nicht verfügbar'
+                }));
+                $pageContent.append($('<hr>'));
 
 // with pagination and sorting (client-side)###################################################
                 let version = jsonData.results.bindings[0].g.value.split(':')[2];
-                //console.log('version', version);
                 const fileName = 'rdf/' + cl + '-v' + version;
-                $('#pageContent').append(`<div class="mb-3">This version: &nbsp;${jsonData.results.bindings[0].g.value}<br>
-                ${parseInt(version) > 1 ? 'Version history: &nbsp;&nbsp;<a href="'+fileName+'.rdf">'+uri + ':' + (parseInt(version) - 1)+'</a><br>' : ''}
-                Status: &nbsp;&nbsp;${jsonData.results.bindings[0].CLS ? jsonData.results.bindings[0].CLS.value : 'N/A'}<br>
-                Insert date: &nbsp;&nbsp;${jsonData.results.bindings[0].insertDate ? jsonData.results.bindings[0].insertDate.value : 'N/A'}<br>
-                ${jsonData.results.bindings[0].editDate ? 'Edit date: &nbsp;&nbsp;'+jsonData.results.bindings[0].editDate.value+'<br>' : ''}
-                Available formats: &nbsp;&nbsp;<a href="${fileName+'.rdf'}">RDF/XML</a> &nbsp;&nbsp;<a href="${fileName+'.trig'}">TriG/Turtle</a> &nbsp;&nbsp;<a href="${fileName+'.json'}">JSON-LD</a> &nbsp;&nbsp;<a href="${fileName+'.csv'}">CSV</a> &nbsp;&nbsp;<a href="${fileName+'.txt'}">Text</a></div><br>
-                <div class="mb-3"><strong>Available items:</strong></div>`);
+                const $meta = $('<div>', { class: 'mb-3' });
+                $meta.append(document.createTextNode(`This version: ${jsonData.results.bindings[0].g.value}`));
+                $meta.append($('<br>'));
+                if (parseInt(version) > 1) {
+                    $meta.append(document.createTextNode('Version history:  '));
+                    $meta.append($('<a>', {
+                        href: `${fileName}.rdf`,
+                        text: `${uri}:${parseInt(version) - 1}`
+                    }));
+                    $meta.append($('<br>'));
+                }
+                $meta.append(document.createTextNode(`Status:  ${jsonData.results.bindings[0].CLS ? jsonData.results.bindings[0].CLS.value.replace(/<[^>]*>/g, '') : 'N/A'}`));
+                $meta.append($('<br>'));
+                $meta.append(document.createTextNode(`Insert date:  ${jsonData.results.bindings[0].insertDate ? jsonData.results.bindings[0].insertDate.value : 'N/A'}`));
+                $meta.append($('<br>'));
+                if (jsonData.results.bindings[0].editDate) {
+                    $meta.append(document.createTextNode(`Edit date:  ${jsonData.results.bindings[0].editDate.value}`));
+                    $meta.append($('<br>'));
+                }
+                $meta.append(document.createTextNode('Available formats:  '));
+                [
+                    { ext: 'rdf', label: 'RDF/XML' },
+                    { ext: 'trig', label: 'TriG/Turtle' },
+                    { ext: 'json', label: 'JSON-LD' },
+                    { ext: 'csv', label: 'CSV' },
+                    { ext: 'txt', label: 'Text' }
+                ].forEach((fmt, idx) => {
+                    if (idx > 0) $meta.append(document.createTextNode('  '));
+                    $meta.append($('<a>', { href: `${fileName}.${fmt.ext}`, text: fmt.label }));
+                });
+                $pageContent.append($meta);
+                $pageContent.append($('<br>'));
+                $pageContent.append($('<div>', { class: 'mb-3' }).append($('<strong>', { text: 'Available items:' })));
 
-
-                $('#CodeList').append(`<hr>
-                <div class="d-flex justify-content-between align-items-center mt-2">
-                    <div class="small text-muted" id="codelist-info"></div>
-                    <nav aria-label="Codelist pagination">
-                        <ul class="pagination pagination-sm mb-0" id="codelist_pagination"></ul>
-                    </nav>
-                </div>
-                <div class="p-1 col-sm-12 sortable-table">
-                    <table class="table table-hover" id="codelist"></table>
-                </div>`);
+                const $codeList = $('#CodeList');
+                $codeList.append($('<hr>'));
+                const $topBar = $('<div>', { class: 'd-flex justify-content-between align-items-center mt-2' });
+                $topBar.append($('<div>', {
+                    class: 'small text-muted',
+                    id: 'codelist-info',
+                    role: 'status',
+                    'aria-live': 'polite',
+                    'aria-atomic': 'true'
+                }));
+                const $nav = $('<nav>', { 'aria-label': 'Codelist pagination' });
+                $nav.append($('<ul>', { class: 'pagination pagination-sm mb-0', id: 'codelist_pagination' }));
+                $topBar.append($nav);
+                $codeList.append($topBar);
+                const $tableWrap = $('<div>', { class: 'p-1 col-sm-12 sortable-table' });
+                $tableWrap.append($('<table>', { class: 'table table-hover', id: 'codelist' }));
+                $codeList.append($tableWrap);
         
             // build table header
-            document.getElementById('codelist').innerHTML = '<thead><tr>' +
-                tblFields.map(a => `<th scope="col" data-id="${a}" sortable>${a}</th>`).join('') +
-                '</tr></thead>';
+            setSortableHeader('#codelist', tblFields);
 
             const sortableTable = new SortableTable();
             // set table element
@@ -399,9 +590,7 @@ function showCodelist(uri, cl) {
                 $ul.show();
 
                 const makePageItem = (page, label = null, disabled = false, active = false) => {
-                    const text = label || page;
-                    const liClass = `page-item ${disabled ? 'disabled' : ''} ${active ? 'active' : ''}`;
-                    return `<li class="${liClass}"><a class="page-link codelist-page " href="#" data-page="${page}">${text}</a></li>`;
+                    return makePaginationItemElement(page, label, disabled, active, 'codelist-page', 'codelist entries');
                 };
 
                 // Prev
@@ -421,7 +610,7 @@ function showCodelist(uri, cl) {
 
                 if (start > 1) {
                     $ul.append(makePageItem(1));
-                    if (start > 2) $ul.append(`<li class="page-item disabled"><span class="page-link">&hellip;</span></li>`);
+                    if (start > 2) $ul.append(makePaginationEllipsisElement());
                 }
 
                 for (let p = start; p <= end; p++) {
@@ -429,7 +618,7 @@ function showCodelist(uri, cl) {
                 }
 
                 if (end < totalPages) {
-                    if (end < totalPages - 1) $ul.append(`<li class="page-item disabled"><span class="page-link">&hellip;</span></li>`);
+                    if (end < totalPages - 1) $ul.append(makePaginationEllipsisElement());
                     $ul.append(makePageItem(totalPages));
                 }
 
@@ -476,7 +665,6 @@ function showCodelist(uri, cl) {
                     // event.colId & event.sortDir are provided by SortableTable
                     sortMasterData(event.colId, event.sortDir);
                     renderPage(currentPage);
-                    console.log(`[SortableTable#onSort] column=${event.colId} dir=${event.sortDir} totalRows=${masterData.length}`);
                 });
 
             $('.progress-bar').css('width', '100%').attr('aria-valuenow', 100);
@@ -489,10 +677,10 @@ function showCodelist(uri, cl) {
 
 //***********************set the input box for concept search****************************************
 
-function insertSearchCard(widgetID) {
+function insertSearchCard() {
 
     $('#searchInput').keydown(function (e) {
-        if (e.which == 13 && $('#searchInput').val().length > 0) {
+        if (e.which === 13 && $('#searchInput').val().length > 0) {
             openSearchList('search=' + encodeURI($('#searchInput').val()));
             $('#dropdown').empty();
             $('#searchInput').val('');
@@ -531,7 +719,16 @@ function insertSearchCard(widgetID) {
                     if (c.indexOf(entry) !== c.lastIndexOf(entry)) {
                         entry = entry + ' (' + value.s.value.split('\/')[4].split('_').at(-1) + ')';
                     }
-                    $('#dropdown').append('<tr><td class="searchLink dropdown-item" onclick="document.location.href = \'' + BASE + '?uri=' + value.s.value + '&lang=' + USER_LANG + '\';">' + entry + '</td></tr>');
+                    const $a = $('<a>', {
+                        class: 'searchLink dropdown-item',
+                        href: `${BASE}?uri=${encodeURIComponent(value.s.value)}&lang=${encodeURIComponent(USER_LANG)}`,
+                        text: entry
+                    });
+                    const $tr = $('<tr>');
+                    const $td = $('<td>');
+                    $td.append($a);
+                    $tr.append($td);
+                    $('#dropdown').append($tr);
                 });
             }
         }, 200);
@@ -554,7 +751,7 @@ function initSearch() {
 
     fetch(ENDPOINT + '?query=' + query + '&format=json')
         .then(res => res.json())
-        .then(jsonData => {//console.log('initSearch', jsonData);
+        .then(jsonData => {
             const options = { 
                 shouldSort: true,
                 tokenize: true,
@@ -591,10 +788,10 @@ function sparqlEncode(str) {
 function search(searchText) {
     let HITS_SEARCHRESULTS = '0 results for ';
     $('#pageContent').empty();
-    $('#pageContent').append('<br><h1>Search results</h1><p id="hits" class="lead">' + HITS_SEARCHRESULTS +
-        '\"' + searchText + '\"</p><hr><ul id="searchresults" class="searchresults"></ul>');
+    $('#pageContent').append('<br><h1>Search results</h1><p id="hits" class="lead" role="status" aria-live="polite" aria-atomic="true"></p><hr><ul id="searchresults" class="searchresults"></ul>');
+    $('#hits').text(HITS_SEARCHRESULTS + '"' + searchText + '"');
     $('#searchresults').bind("DOMSubtreeModified", function () {
-        $('#hits').html(HITS_SEARCHRESULTS.replace('0', $('#searchresults li').length) + '\"' + searchText + '\"');
+        $('#hits').text(HITS_SEARCHRESULTS.replace('0', $('#searchresults li').length) + '"' + searchText + '"');
     });
 
     //NEU*******************************
@@ -618,31 +815,33 @@ function search(searchText) {
 
     fetch(ENDPOINT + '?query=' + query + '&format=json')
         .then(res => res.json())
-        .then(jsonData => { //console.log(jsonData);
+        .then(jsonData => {
             jsonData.results.bindings.forEach(function (a) { 
+                const $li = $('<li>');
+                const $link = $('<a>', {
+                    href: `${BASE}?uri=${encodeURIComponent(a.s.value)}&lang=${encodeURIComponent(USER_LANG)}`
+                });
+                $link.append($('<strong>').text(a.title.value));
 
-                $('#searchresults').append(`<li>
-                                        <a href="${BASE}?uri=${a.s.value}&lang=${USER_LANG}">
-                                            <strong>${a.title.value}</strong> 
-                                        </a>
-                                        <br>
-                                        <span class="searchPropTyp">URI: </span>
-                                        <span class="searchResultURI">
-                                            ${a.s.value}
-                                        </span>
-                                        <br>
-                                        <p class="searchResultText">
-                                            ${createSearchResultsText(a.text.value, searchText)}
-                                        </p>
-                                        </li>`);
-                $('#hits').html(HITS_SEARCHRESULTS.replace('0', $('#searchresults li').length) + '\"' + searchText + '\"');
+                const $propType = $('<span>', { class: 'searchPropTyp', text: 'URI: ' });
+                const $uri = $('<span>', { class: 'searchResultURI', text: a.s.value });
+                const $text = $('<p>', { class: 'searchResultText' }).html(createSearchResultsText(a.text.value, searchText));
+
+                $li.append($link)
+                    .append('<br>')
+                    .append($propType)
+                    .append($uri)
+                    .append('<br>')
+                    .append($text);
+
+                $('#searchresults').append($li);
+                $('#hits').text(HITS_SEARCHRESULTS.replace('0', $('#searchresults li').length) + '"' + searchText + '"');
                 if ($('#searchresults li').length > 99) {
                     $('#hits').prepend('>');
                 }
             });
 
         }).catch(function (error) {
-            //console.log(error);
         });
 }
 
@@ -657,11 +856,12 @@ function createSearchResultsText(sparqlText, searchText) {
     let resultText = '';
 
     for (let propPart of sparqlText.split('\$')) {
-        resultText += propPart.split('|')[0].replace('http:\/\/www.w3.org\/2004\/02\/skos\/core#', '<span class="searchPropTyp">skos:').replace('http://purl.org/dc/terms/', '<span class="searchPropTyp">dcterms:') + '</span> - ';
+        resultText += escapeHtml(propPart.split('|')[0]).replace('http:\/\/www.w3.org\/2004\/02\/skos\/core#', '<span class="searchPropTyp">skos:').replace('http://purl.org/dc/terms/', '<span class="searchPropTyp">dcterms:') + '</span> - ';
         let textArr = propPart.split('|')[1].split('\. ');
         for (let i of textArr) {
             if (i.search(new RegExp(searchText, "i")) > -1) {
-                resultText += i.replace(regex1, '<strong>' + searchText1 + '</strong>').replace(regex2, '<strong>' + searchText2 + '</strong>') + ' .. ';
+                const escapedSentence = escapeHtml(i);
+                resultText += escapedSentence.replace(regex1, '<strong>' + escapeHtml(searchText1) + '</strong>').replace(regex2, '<strong>' + escapeHtml(searchText2) + '</strong>') + ' .. ';
             }
         }
         resultText += '<br>';
@@ -737,8 +937,15 @@ function rdfTS(v) { //create RDF narrowers for download
 //************set the "details page" to view a single concept ***********************************************************************
 
 function details(divID, uri) { //build the web page content
-    let dp = uri.indexOf('dataprovider') == 31 ? true : false;
-    $('#' + divID).append(`<form id="irdfForm" target="_blank" style="display:none;" method="post" action="${ENDPOINT}"><input type="hidden" name="query" id="irdfQuery"/></form>`);
+    const dp = uri.indexOf('dataprovider') === 31;
+    const $rdfForm = $('<form>', {
+        id: 'irdfForm',
+        target: '_blank',
+        method: 'post',
+        action: ENDPOINT
+    }).css('display', 'none');
+    $rdfForm.append($('<input>', { type: 'hidden', name: 'query', id: 'irdfQuery' }));
+    $('#' + divID).append($rdfForm);
     
     let query = encodeURIComponent(`PREFIX skos:<http://www.w3.org/2004/02/skos/core#>
         PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -767,7 +974,6 @@ function details(divID, uri) { //build the web page content
     fetch(ENDPOINT + '?query=' + query + '&format=json')
         .then(res => res.json())
         .then(jsonData => {
-            //console.log('827',jsonData);
             if (!dp && jsonData.results.bindings.length > 0) {
                 insertDataProviderCard(jsonData.results.bindings[0].Publisher.value, jsonData.results.bindings[0].PublisherDefinition.value, `${BASE}?uri=${jsonData.results.bindings[0].pubURI.value}`);
             }
@@ -779,62 +985,112 @@ function details(divID, uri) { //build the web page content
 
                 // RDF download icon added to apps (notation div or altLabel div)
                 let r_links = jsonData.results.bindings.map(a => [a.p.value, '<' + a.o.value + '>']).filter(b => b[0] == REF_LINKS[0]).map(c => c[1]).join(' ');
-                //console.log('narrower:', jsonData.results.bindings.filter(a => a.p.value == 'http://www.w3.org/2004/02/skos/core#narrower'));
-                let r = `<span>
-                            <a href="javascript:rdfTS('<${uri}> ${r_links}')" title="RDF download" style="text-decoration: none;">
-                                <img src="assets/rdf-svgrepo-com.svg" class="downscaled-svg blue-svg" alt="RDF icon">
-                            </a>
-                        </span>&nbsp;`;
+                const $row = $('<div>');
+                const $rdfWrap = $('<span>');
+                const $rdfLink = $('<a>', {
+                    href: '#',
+                    title: 'RDF download',
+                    style: 'text-decoration: none;'
+                }).on('click', function (e) {
+                    e.preventDefault();
+                    rdfTS('<' + uri + '> ' + r_links);
+                });
+                $rdfLink.append($('<img>', {
+                    src: 'assets/rdf-svgrepo-com.svg',
+                    class: 'downscaled-svg blue-svg',
+                    alt: 'RDF icon'
+                }));
+                $rdfWrap.append($rdfLink);
+                $row.append($rdfWrap).append('&nbsp;');
 
                 if (jsonData.results.bindings.filter(a => a.p.value == 'http://www.w3.org/2004/02/skos/core#narrower').length > 0) {
-                    r += `<span>
-                            <a href="tbl.html?uri=${uri}" title="table view" target="_blank" style="text-decoration: none;">
-                                <img src="assets/table-list.svg" class="downscaled-svg blue-svg" alt="table icon">
-                            </a>
-                        </span>&nbsp;
-                        <span>
-                            <a href="diagram.html?uri=${uri}" title="tree view" target="_blank" style="text-decoration: none;">
-                                <img src="assets/sitemap-solid-full.svg" class="downscaled-svg blue-svg" alt="tree icon">
-                            </a>
-                        </span>`;
+                    const $tblWrap = $('<span>');
+                    const $tblLink = $('<a>', {
+                        href: `tbl.html?uri=${encodeURIComponent(uri)}`,
+                        title: 'table view',
+                        target: '_blank',
+                        style: 'text-decoration: none;'
+                    });
+                    $tblLink.append($('<img>', {
+                        src: 'assets/table-list.svg',
+                        class: 'downscaled-svg blue-svg',
+                        alt: 'table icon'
+                    }));
+                    $tblWrap.append($tblLink);
+
+                    const $treeWrap = $('<span>');
+                    const $treeLink = $('<a>', {
+                        href: `diagram.html?uri=${encodeURIComponent(uri)}`,
+                        title: 'tree view',
+                        target: '_blank',
+                        style: 'text-decoration: none;'
+                    });
+                    $treeLink.append($('<img>', {
+                        src: 'assets/sitemap-solid-full.svg',
+                        class: 'downscaled-svg blue-svg',
+                        alt: 'tree icon'
+                    }));
+                    $treeWrap.append($treeLink);
+
+                    $row.append($tblWrap).append('&nbsp;').append($treeWrap);
                 }
-                
 
                 if ($('#appsInsert').length > 0) {
-                    $('#appsInsert').append('<div>' + r +'</div>');
-                } else if ($('#notation').length > 0) {
-                    $('#notation').after('<div id="appsInsert" style="float:right;">' + r + '</div>');
+                    $('#appsInsert').append($row);
                 } else {
-                    $('#altLabel').after('<div id="appsInsert" style="float:right;">' + r + '</div>');
+                    const $appsInsert = $('<div>', { id: 'appsInsert' }).css('float', 'right');
+                    $appsInsert.append($row);
+                    if ($('#notation').length > 0) {
+                        $('#notation').after($appsInsert);
+                    } else {
+                        $('#altLabel').after($appsInsert);
+                    }
                 }
 
                 
-                $('#' + divID).append(`<hr>
-                        <div style="cursor: pointer; color: #777;" id="detailsBtn"
-                        onclick="javascript: toggleRead(\'detailsBtn\', \'detailsToggle\', \'RDF statements\');"><img src="assets/caret-right-solid.svg" class="downscaled-svg grey-svg" alt="caretRight icon"><em>&nbsp;&nbsp;RDF statements</em>
-                        </div>
-                        <div style="display:none;position: relative;" id="detailsToggle">
-                        <br>
-                        <table id="details"></table>
-                        
-                        </div>`); 
+                const $detailsWrap = $('#' + divID);
+                $detailsWrap.append($('<hr>'));
+                const $detailsBtn = $('<button>', {
+                    type: 'button',
+                    class: 'btn btn-link p-0 text-start',
+                    id: 'detailsBtn',
+                    'aria-expanded': 'false',
+                    'aria-controls': 'detailsToggle'
+                }).css({ color: '#777', textDecoration: 'none' });
+                $detailsBtn.append($('<img>', {
+                    src: 'assets/caret-right-solid.svg',
+                    class: 'downscaled-svg grey-svg',
+                    alt: 'caretRight icon'
+                }));
+                $detailsBtn.append($('<em>').html('&nbsp;&nbsp;RDF statements'));
+                $detailsWrap.append($detailsBtn);
 
-                //console.log('jsonData: ', jsonData.results.bindings);
+                const $detailsToggle = $('<div>', {
+                    id: 'detailsToggle',
+                    hidden: 'hidden',
+                    'aria-hidden': 'true'
+                }).css({ display: 'none', position: 'relative' });
+                $detailsToggle.append($('<br>'));
+                $detailsToggle.append($('<table>', { id: 'details' }));
+                $detailsWrap.append($detailsToggle);
 
 
                 for (key in TECHNICAL_LIST) createTechnicalPart('details', jsonData, Array.from(TECHNICAL_LIST[key].values()));
-                $('#' + divID).append('');
 
                 if (!dp){insertConceptBrowser(divID, uri, 50);}
 
             } else {
-                console.log(uri);
-                $('#' + divID).append(`<hr>
-                    <div class="alert alert-dismissible alert-warning">
-                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-                    <h4 class="alert-heading">Can´t open the page!</h4>
-                    <p class="mb-0">404 Resource Not Found<br>${uri}</p>
-                    </div>`);
+                const $wrap = $('#' + divID);
+                $wrap.append($('<hr>'));
+                const $alert = $('<div>', { class: 'alert alert-dismissible alert-warning' });
+                $alert.append($('<button>', { type: 'button', class: 'btn-close', 'data-bs-dismiss': 'alert' }));
+                $alert.append($('<h4>', { class: 'alert-heading', text: 'Can´t open the page!' }));
+                const $p = $('<p>', { class: 'mb-0' });
+                $p.append(document.createTextNode('404 Resource Not Found'));
+                $p.append($('<br>'));
+                $p.append(document.createTextNode(uri));
+                $alert.append($p);
+                $wrap.append($alert);
             }
         });
 }
@@ -842,9 +1098,20 @@ function details(divID, uri) { //build the web page content
 //************************toggle the hidden details **************
 
 function toggleRead(divBtn, divTxt, text) {
-    let txt = $('#' + divTxt).is(':visible') ? '<img src="assets/caret-right-solid.svg" class="downscaled-svg grey-svg" alt="caretRight icon"><em>&nbsp;&nbsp;' + text + '</em>' : '<img src="assets/caret-down-solid.svg" class="downscaled-svg grey-svg" alt="caretDown icon"><em>&nbsp;&nbsp;' + text + '</em>';
-    $('#' + divBtn).html(txt);
-    $('#' + divTxt).slideToggle();
+    const $btn = $('#' + divBtn);
+    const $target = $('#' + divTxt);
+    const expanded = $target.is(':hidden');
+    const txt = expanded
+        ? '<img src="assets/caret-down-solid.svg" class="downscaled-svg grey-svg" alt="caretDown icon"><em>&nbsp;&nbsp;' + text + '</em>'
+        : '<img src="assets/caret-right-solid.svg" class="downscaled-svg grey-svg" alt="caretRight icon"><em>&nbsp;&nbsp;' + text + '</em>';
+
+    $btn.html(txt).attr('aria-expanded', expanded ? 'true' : 'false');
+
+    if (expanded) {
+        $target.removeAttr('hidden').attr('aria-hidden', 'false').show();
+    } else {
+        $target.attr('hidden', 'hidden').attr('aria-hidden', 'true').hide();
+    }
 }
 
 //*************create the upper part of details page - always visible *********************************************************************
@@ -852,40 +1119,33 @@ function toggleRead(divBtn, divTxt, text) {
 function createFrontPart(divID, uri, data, props) {
     let html = '';
     let pL = '';
-    let uris4rdf = '<' + uri + '>';
-    //console.log('ul data', data);
 
     props.forEach((i) => {
-        let ul = getObj(data, i); console.log('ul', ul);
+        let ul = getObj(data, i);
         if (ul.size > 0) {
             switch (key) {
                 case 'prefLabel':
-                    //console.log(ul);
                     pL = setUserLang(Array.from(ul).join('|').replace(/  <span class="lang">/g, '@').replace(/<\/span>/g, ''));
-                    //BREADCRUMBS
-                    //$('.navbar-brand').append(` / ${uri.split('/')[4]} / ${pL}`);
                     const codelist = uri.split('/').slice(0, -1).join('/');
                     
                     html += `<ol class="breadcrumb mt-3" style="margin-left: -12px;">
                         <li class="breadcrumb-item"><a href="${BASE}">registry</a></li>
-                        <li class="breadcrumb-item"><a href="${BASE}?uri=${codelist}">${codelist.split('/').pop()}</a></li>
-                        <li class="breadcrumb-item active">${pL}</li>
+                        <li class="breadcrumb-item"><a href="${BASE}?uri=${encodeURIComponent(codelist)}">${escapeHtml(codelist.split('/').pop())}</a></li>
+                        <li class="breadcrumb-item active">${escapeHtml(pL)}</li>
                     </ol>`;
                         
-                    html += `<h1 id="prefLabel" class="mt-4">${pL}</h1>`;
+                    html += `<h1 id="prefLabel" class="mt-4">${escapeHtml(pL)}</h1>`;
 
                     html += `<p>
-                        <a id="uriBtn"
-                            href="javascript:
-                            var dummy = $('<input>').val('${uri}').appendTo('body').select();
-                            document.execCommand('copy');
-                            dummy.remove();"><strong>URI:</strong>
+                        <a class="copy-uri-btn"
+                            data-uri="${escapeAttr(uri)}"
+                            href="#"><strong>URI:</strong>
                         </a>
                         <span id="uri" style="word-wrap: break-word;">
-                            &nbsp;${uri}
+                            &nbsp;${escapeHtml(uri)}
                         </span>
                     </p>
-                    <hr>`; //console.log(pL);
+                    <hr>`;
                     break;
                 case 'altLabel':
                     html += '<ul id="altLabel" class="' + key + '"><li>' + Array.from(ul).join('</li><li>') + '</li></ul>';
@@ -921,8 +1181,6 @@ function createFrontPart(divID, uri, data, props) {
                     html += '<hr><div class="' + key + '">' + setUserLang(Array.from(ul).join('|').replace(/  <span class="lang">/g, '@').replace(/<\/span>/g, '')) + '</div>';
                     break;
                 case 'scope':
-                    //console.log(ul);
-                    //html += '<br><p class="text-secondary">Interpretation: ' + setUserLang(Array.from(ul).join('|').replace(/  <span class="lang">/g, '@').replace(/<\/span>/g, '')) + '</p>';
                     html += '<br><p class="text-secondary">Anmerkung:<br>' + Array.from(ul).map(a => a.split('<')[0]).join('<br><br>') + '</p>';
                     break;
                 case 'citation':
@@ -952,17 +1210,26 @@ function createFrontPart(divID, uri, data, props) {
 function insertImage(links, divID) {
     links.forEach((i) => {
         let capt = decodeURIComponent(i.split('\/').pop().split('.')[0]).replace(/_/g, ' ');
-        $('#' + divID).append(`
-                <div class="card my-4">
-                    <div class="card-body">
-                        <figure>
-                            <a href="${i}">
-                              <img class="img-fluid" src="${i}" alt="Chania" title="">
-                              <figcaption>${i.indexOf('wikimedia')>0?'<img src="../img/wikimedia.png" alt="Wikimedia" height="12">':''} ${capt}</figcaption>
-                            </a>
-                        </figure>
-                    </div>
-                </div>`);
+        const safeImageUrl = safeHttpUrl(i);
+        if (!safeImageUrl) return;
+
+        const $card = $('<div>', { class: 'card my-4' });
+        const $body = $('<div>', { class: 'card-body' });
+        const $figure = $('<figure>');
+        const $link = $('<a>', { href: safeImageUrl });
+        const $img = $('<img>', { class: 'img-fluid', src: safeImageUrl, alt: 'Chania', title: '' });
+        const $caption = $('<figcaption>');
+        if (safeImageUrl.indexOf('wikimedia') > 0) {
+            $caption.append($('<img>', { src: '../img/wikimedia.png', alt: 'Wikimedia', height: '12' }));
+            $caption.append(' ');
+        }
+        $caption.append(document.createTextNode(capt));
+
+        $link.append($img).append($caption);
+        $figure.append($link);
+        $body.append($figure);
+        $card.append($body);
+        $('#' + divID).append($card);
     });
 }
 
@@ -971,32 +1238,33 @@ function insertImage(links, divID) {
 function insertDataProviderCard(title, text, link) {
     $('#data_providers').empty();
 
-    let card = `<div class="card border-light mb-3 data-provider-secondary-card">
-        <div class="card-header">${PAGE.dataprovider.cardheader[USER_LANG]}</div>
-        <div class="card-body">
-        <h4 class="card-title">${title}</h4>
-        <p class="card-text">${text}</p>
-        URI: <a href="${link}">${link.split('=')[1]}</a>
-        </div>
-        </div>`;
+    const $card = $('<div>', { class: 'card border-light mb-3 data-provider-secondary-card' });
+    const $header = $('<div>', { class: 'card-header', text: PAGE.dataprovider.cardheader[USER_LANG] });
+    const $body = $('<div>', { class: 'card-body' });
+    $body.append($('<h4>', { class: 'card-title', text: title }));
+    $body.append($('<p>', { class: 'card-text', text: text }));
+    const $uriLabel = $('<span>').text('URI: ');
+    const $uriLink = $('<a>', { href: link, text: (link.split('=')[1] || '') });
+    $body.append($uriLabel).append($uriLink);
+    $card.append($header).append($body);
 
-    $('#data_providers').prepend(card);
+    $('#data_providers').prepend($card);
 }
 
 //*******************replace long URIs by acronyms************************************************************************
 
 function shortenText(htmlText) {
 
-    let abbrev = {
-        INSPIRE: 'http://inspire.ec.europa.eu/codelist/',
-        INSPIRE: 'http://inspire.ec.europa.eu/featureconcept/',
-        INSPIRE: 'https://inspire.ec.europa.eu/registry/status/',
-        DBpedia: 'http://dbpedia.org/resource/',
-        WIKIDATA: 'http://www.wikidata.org/entity/',
-        codelist: 'https://registry.inspire.gv.at/codelist/'
-    };
-    for (let i in abbrev) {
-        htmlText = htmlText.split('>' + abbrev[i]).map(a => a.replace('<', ` (${i})<`)).join('>').replace(` (${i})`, '');
+    const abbrevList = [
+        ['INSPIRE', 'http://inspire.ec.europa.eu/codelist/'],
+        ['INSPIRE', 'http://inspire.ec.europa.eu/featureconcept/'],
+        ['INSPIRE', 'https://inspire.ec.europa.eu/registry/status/'],
+        ['DBpedia', 'http://dbpedia.org/resource/'],
+        ['WIKIDATA', 'http://www.wikidata.org/entity/'],
+        ['codelist', 'https://registry.inspire.gv.at/codelist/']
+    ];
+    for (const [name, prefix] of abbrevList) {
+        htmlText = htmlText.split('>' + prefix).map(a => a.replace('<', ` (${name})<`)).join('>').replace(` (${name})`, '');
     }
     return htmlText;
 }
@@ -1004,44 +1272,45 @@ function shortenText(htmlText) {
 //******************create the hidden part of concept descriptions ***********************************************************************
 
 function createTechnicalPart(divID, data, props) { //loop all single properties
-    let html = '';
     let geoPath = 'http://www.w3.org/2003/01/geo/wgs84_pos#';
-    let coord = {};
+    const $rows = [];
 
     props.forEach((i) => {
-        let ul = getObj(data, i); //console.log(data);
+        let ul = getObj(data, i);
         if (ul.size > 0) {
-            html += '<tr><td class="propTech">' + createHref(i) + '</td><td><ul><li>' + shortenText(Array.from(ul).join('</li><li>')) + '</li></ul></td></tr>';
+            const $tr = $('<tr>');
+            const $tdProp = $('<td>', { class: 'propTech' }).html(createHref(i));
+            const $tdVal = $('<td>');
+            const $ul = $('<ul>');
+            Array.from(ul).forEach((item) => {
+                $ul.append($('<li>').html(shortenText(item)));
+            });
+            $tdVal.append($ul);
+            $tr.append($tdProp).append($tdVal);
+            $rows.push($tr);
 
-            if (i == geoPath + 'lat') {
-                coord.lat = Number(ul.values().next().value);
-            }
-            if (i == geoPath + 'long') {
-                coord.long = Number(ul.values().next().value);
+            if (i == geoPath + 'lat' || i == geoPath + 'long') {
+                // Coordinates are currently rendered as text in the technical table.
             }
         }
     });
 
-    if (html.length > 0) {
-        $('#' + divID).append(`
-                    <tr id="${key}">
-                        <th></th>
-                        <th>
-                            ${key}
-                        </th>
-                    </tr>
-                    <tr>
-                        ${html}
-                    </tr>`);
+    if ($rows.length > 0) {
+        const $target = $('#' + divID);
+        const $headRow = $('<tr>', { id: key });
+        $headRow.append($('<th>'));
+        $headRow.append($('<th>', { text: key }));
+        $target.append($headRow);
+        $rows.forEach(($r) => $target.append($r));
     }
 }
 //******************transform the sparql json query result into a set of HTML elements like <a> *************************************
 
-function getObj(data, i) { //console.log('getObj',data, i);
+function getObj(data, i) {
     return new Set(
         $.map(data.results.bindings.filter(item => item.p.value === i), (a => (
             a.Label !== undefined
-                ? '<a href="' + BASE + '?uri=' + a.o.value + '&lang=' + USER_LANG + '">' + setUserLang(a.Label.value) + '</a>  ' + addPlusSign(a.count['value'])
+                ? '<a href="' + BASE + '?uri=' + encodeURIComponent(a.o.value) + '&lang=' + encodeURIComponent(USER_LANG) + '">' + escapeHtml(setUserLang(a.Label.value)) + '</a>  ' + addPlusSign(a.count['value'])
                 : createHref(a.o.value) + ' ' + createDTLink(a.o.datatype) + ' ' + langTag(a.o['xml:lang'])
         )))
     );
@@ -1049,24 +1318,27 @@ function getObj(data, i) { //console.log('getObj',data, i);
 
 //*******************count of further concepts if > 0*******************
 function addPlusSign(x) {
-    if (x == "0") {
+    if (x === "0") {
         x = '';
     } else {
         x = `<span class="plusSign">(${x})</span>`; //cycled plus for narrower concepts
     }
-
-    //console.log(x);
     return x;
 }
 
 //*******************prepare HTML links for browsing the vocabulary***************************************************
 
-function createHref(x) { //console.log('createHref', x);
-    let r = x.substring(0, 30)==DOMAIN?true:false;
+function createHref(x) {
+    let isRegistry = normalizeRegistryUri(x) !== '';
     if (x.substring(0, 4) == 'http') {
+        const safeUrl = safeHttpUrl(x);
+        if (!safeUrl) {
+            return escapeHtml(x);
+        }
         let a = x;
         for (const [key, value] of Object.entries(n)) a = a.replace(value, key + ':');
-        x = `<a href="${r?BASE+'?uri=':''}${x}">${a.replace(/_/g, ' ')}</a>`;
+        const href = isRegistry ? `${BASE}?uri=${encodeURIComponent(safeUrl)}` : safeUrl;
+        x = `<a href="${escapeAttr(href)}">${escapeHtml(a.replace(/_/g, ' '))}</a>`;
     }
     return x;
 }
@@ -1075,7 +1347,7 @@ function createHref(x) { //console.log('createHref', x);
 
 function langTag(x) {
     if (typeof x !== 'undefined') {
-        x = '<span class="lang">' + x + '</span>';
+        x = '<span class="lang">' + escapeHtml(x) + '</span>';
     } else {
         x = '';
     }
@@ -1087,7 +1359,7 @@ function langTag(x) {
 function createDTLink(x) {
     if (typeof x !== 'undefined') {
         if (x.indexOf('XMLSchema') > 0) {
-            x = '<a class="datatype" href="' + x + '">' + x.replace('http://www.w3.org/2001/XMLSchema#', 'xsd:') + '</a>';
+            x = '<a class="datatype" href="' + escapeAttr(x) + '">' + escapeHtml(x.replace('http://www.w3.org/2001/XMLSchema#', 'xsd:')) + '</a>';
         }
     } else {
         x = '';
@@ -1113,24 +1385,26 @@ function setUserLang(x) {
 //***************create a bootstrap card with all concept links within a concept scheme******************
 
 function insertConceptBrowser(divID, uri, offset) {
-    $('#' + divID).append(`
-        <hr>
-            <details id="conceptsList">
-            <summary>
-            <img src="assets/caret-right-solid.svg" class="downscaled-svg grey-svg" alt="caretRight icon" style="margin-right: 5px;">
-            <em id="allConceptsHeader" style="display:inline-block;"></em>
-            </summary>
-            <div id="allConcepts" class="card-body"></div>
-            </details>
-        <hr>
-		`);
+    const $target = $('#' + divID);
+    $target.append($('<hr>'));
+    const $details = $('<details>', { id: 'conceptsList' });
+    const $summary = $('<summary>');
+    $summary.append($('<img>', {
+        src: 'assets/caret-right-solid.svg',
+        class: 'downscaled-svg grey-svg',
+        alt: 'caretRight icon'
+    }).css('margin-right', '5px'));
+    $summary.append($('<em>', { id: 'allConceptsHeader' }).css('display', 'inline-block'));
+    $details.append($summary);
+    $details.append($('<div>', { id: 'allConcepts', class: 'card-body' }));
+    $target.append($details);
+    $target.append($('<hr>'));
 
     provideAll('allConcepts', uri, 0);
 }
 //*******************the query to provide all concept links within a concept scheme****************************************************
 
 function provideAll(divID, uri, offset) { //provide all available concepts for navigation
-    let AT = "";
     let query = encodeURIComponent(`PREFIX dcterms:<http://purl.org/dc/terms/>
                                     PREFIX skos:<http://www.w3.org/2004/02/skos/core#>
                                     PREFIX dbpo:<http://dbpedia.org/ontology/>
@@ -1156,37 +1430,67 @@ function provideAll(divID, uri, offset) { //provide all available concepts for n
             let data = jsonData; 
             var allConcepts = $('#allConcepts');
             let a = [];
-            $('#' + divID).append('');
             if(data.results.bindings.length <1){
-                console.log(data.results.bindings.length);
                 $('#conceptsList').hide();
-            } else if (offset == 0) {
-                //console.log(data.results.bindings);
+            } else if (offset === 0) {
 
-                $('#allConceptsHeader').html(data.results.bindings[0].Title.value + ' (alphabetical list of concepts)');
-                allConcepts.empty().append('<div class="allConceptsPerex">' + data.results.bindings[0].Desc.value.slice(0, 400) + '</div><br>');
+                $('#allConceptsHeader').text(data.results.bindings[0].Title.value + ' (alphabetical list of concepts)');
+                allConcepts.empty();
+                allConcepts.append($('<div>', {
+                    class: 'allConceptsPerex',
+                    text: data.results.bindings[0].Desc.value.slice(0, 400)
+                }));
+                allConcepts.append($('<br>'));
 
                 ([...new Map(data.results.bindings.map(({ c, sColor, Label, Desc }) => ({ c, sColor, Label, Desc })).map(item => [item.c.value, item])).values()]).forEach((i) => {
-                    let color = i.sColor && i.sColor.value ? ' style="background-color:' + i.sColor.value + ';" ' : '';
-                    a.push('<div' + color + '><a ' + AT + 'data-toggle="tooltip" data-placement="right" data-html="true" title="' + i.Label.value + ' - ' + i.Desc.value.slice(0, 230) + '.." href="' + BASE + '?uri=' + i.c.value + '&lang=' + USER_LANG + '">' + trnc(i.Label.value) + '</a></div>');
+                    const $item = $('<div>');
+                    if (i.sColor && i.sColor.value) {
+                        $item.css('background-color', i.sColor.value);
+                    }
+                    const $link = $('<a>', {
+                        'data-toggle': 'tooltip',
+                        'data-placement': 'right',
+                        'data-html': 'true',
+                        title: `${i.Label.value} - ${i.Desc.value.slice(0, 230)}..`,
+                        href: `${BASE}?uri=${encodeURIComponent(i.c.value)}&lang=${encodeURIComponent(USER_LANG)}`,
+                        text: trnc(i.Label.value)
+                    });
+                    $item.append($link);
+                    a.push($item);
                 });
 
-                let links = a.join('\n\n');
-                allConcepts.append('<div class="allConceptsCards">' + links + '</div>');
-                allConcepts.append(`<div id="coBr" style="justify-content: center; display:flex; margin:5px;">
-                    <button type="button" id="rightBtn" class="btn" style="background-color: #004953; color:white;" onclick="provideAll('allConcepts', '${uri}', Number(this.value)+100)">
-                        Show next 100...
-                    </button>
-            </div>
-                `);
+                const $cards = $('<div>', { class: 'allConceptsCards' });
+                a.forEach($node => $cards.append($node));
+                allConcepts.append($cards);
+
+                const $controls = $('<div>', { id: 'coBr' }).css({ justifyContent: 'center', display: 'flex', margin: '5px' });
+                const $btn = $('<button>', {
+                    type: 'button',
+                    id: 'rightBtn',
+                    class: 'btn',
+                    'data-uri': uri,
+                    text: 'Show next 100...'
+                }).css({ backgroundColor: '#004953', color: 'white' });
+                $controls.append($btn);
+                allConcepts.append($controls);
             } else {
-                //console.log(data.results.bindings);
                 ([...new Map(data.results.bindings.map(({ c, sColor, Label, Desc }) => ({ c, sColor, Label, Desc })).map(item => [item.c.value, item])).values()]).forEach((i) => {
-                    let color = i.sColor && i.sColor.value ? ' style="background-color:' + i.sColor.value + ';" ' : '';
-                    a.push('<div' + color + '><a ' + AT + 'data-toggle="tooltip" data-placement="right" data-html="true" title="' + i.Label.value + ' - ' + i.Desc.value.slice(0, 230) + '.." href="' + BASE + '?uri=' + i.c.value + '&lang=' + USER_LANG + '">' + trnc(i.Label.value) + '</a></div>');
+                    const $item = $('<div>');
+                    if (i.sColor && i.sColor.value) {
+                        $item.css('background-color', i.sColor.value);
+                    }
+                    const $link = $('<a>', {
+                        'data-toggle': 'tooltip',
+                        'data-placement': 'right',
+                        'data-html': 'true',
+                        title: `${i.Label.value} - ${i.Desc.value.slice(0, 230)}..`,
+                        href: `${BASE}?uri=${encodeURIComponent(i.c.value)}&lang=${encodeURIComponent(USER_LANG)}`,
+                        text: trnc(i.Label.value)
+                    });
+                    $item.append($link);
+                    a.push($item);
                 });
-                let links = a.join('\n\n');
-                $(".allConceptsCards").append(links);
+                a.forEach($node => $(".allConceptsCards").append($node));
             }
             document.getElementById("rightBtn").value = offset;
             if (Object.keys(jsonData.results.bindings).length < 100) {

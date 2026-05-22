@@ -48,7 +48,8 @@ a:hover:not(.nav-link):not(.navbar-brand) {
 }
 
 .dropdown-item:hover {
-    background-color: gray !important;
+    background-color: rgb(166, 165, 165) !important;
+    color: white !important;
 }
 
 #allConcepts {
@@ -98,8 +99,7 @@ ul {
 }
 
 #dropdown td {
-    padding: .1rem;
-    padding-left: .75rem;
+    padding: 0px 0px;
 }
 
 .searchLink {
@@ -257,6 +257,14 @@ ul.notation li {
             line-clamp: 3;
             -webkit-line-clamp: 3;
         }
+
+#reg-table_pagination .page-item.disabled .page-link {
+    color: #495057;
+}
+
+#codelist_pagination .page-item.disabled .page-link {
+    color: #495057;
+}
 
 .data-provider-tabs .nav-link {
     color: #6c757d;

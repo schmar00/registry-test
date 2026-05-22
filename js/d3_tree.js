@@ -84,7 +84,7 @@ treeChart = function (data) {
                 }
             });
 
-        nodeEnter.append("title").html(d => `<p class="title">${d.data.name}</p>`);
+        nodeEnter.append("title").text(d => d.data.name || '');
 
         nodeEnter.append("circle")
             .attr("r", 8)
