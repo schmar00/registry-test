@@ -526,7 +526,7 @@ function showCodelist(uri, cl) {
                 [
                     { ext: 'rdf', label: 'RDF/XML' },
                     { ext: 'trig', label: 'TriG/Turtle' },
-                    { ext: 'json', label: 'JSON-LD' },
+                    { ext: 'jsonld', label: 'JSON-LD' },
                     { ext: 'csv', label: 'CSV' },
                     { ext: 'txt', label: 'Text' }
                 ].forEach((fmt, idx) => {
