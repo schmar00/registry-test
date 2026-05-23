@@ -136,10 +136,10 @@ $(document).ready(function () {
         $('#pageContent').empty();
         $('#data_providers').empty();
 
-        if (uri === 'https://registry.inspire.gv.at/dataprovider') {
+        if (uri === DOMAIN+'/dataprovider') {
             showCodelist(uri, 'dataprovider');
-        } else if (uri.replace('https://registry.inspire.gv.at/codelist','').split('\/').length == 2) {
-            showCodelist(uri, uri.replace('https://registry.inspire.gv.at/codelist/',''));
+        } else if (uri.replace(DOMAIN+'/codelist','').split('\/').length == 2) {
+            showCodelist(uri, uri.replace(DOMAIN+'/codelist/',''));
         } else {
             details('pageContent', uri);
         }
@@ -386,7 +386,7 @@ function insertDataProviderList() {
                 GRAPH ?graph {
                     ?s a skos:Concept; skos:prefLabel ?l; adms:status <http://inspire.ec.europa.eu/registry/status/valid> .
                     OPTIONAL {?s skos:prefLabel ?l1 . FILTER(LANG(?l1)='${USER_LANG}')}
-                    FILTER(STRSTARTS(STR(?s), 'https://registry.inspire.gv.at/dataprovider'))
+                    FILTER(STRSTARTS(STR(?s), '${DOMAIN}/dataprovider'))
                 }
                 OPTIONAL {GRAPH ?graph {?s dcterms:relation ?cl .}
                     GRAPH ?otherGraph {?cl adms:status <http://inspire.ec.europa.eu/registry/status/valid> .}
@@ -1001,7 +1001,7 @@ function details(divID, uri) { //build the web page content
                     alt: 'RDF icon'
                 }));
                 $rdfWrap.append($rdfLink);
-                $row.append($rdfWrap).append('&nbsp;');
+                $row.append($rdfWrap).append('&nbsp;&nbsp;');
 
                 if (jsonData.results.bindings.filter(a => a.p.value == 'http://www.w3.org/2004/02/skos/core#narrower').length > 0) {
                     const $tblWrap = $('<span>');
@@ -1261,7 +1261,7 @@ function shortenText(htmlText) {
         ['INSPIRE', 'https://inspire.ec.europa.eu/registry/status/'],
         ['DBpedia', 'http://dbpedia.org/resource/'],
         ['WIKIDATA', 'http://www.wikidata.org/entity/'],
-        ['codelist', 'https://registry.inspire.gv.at/codelist/']
+        ['codelist', DOMAIN+'/codelist/']
     ];
     for (const [name, prefix] of abbrevList) {
         htmlText = htmlText.split('>' + prefix).map(a => a.replace('<', ` (${name})<`)).join('>').replace(` (${name})`, '');
@@ -1406,23 +1406,22 @@ function insertConceptBrowser(divID, uri, offset) {
 
 function provideAll(divID, uri, offset) { //provide all available concepts for navigation
     let query = encodeURIComponent(`PREFIX dcterms:<http://purl.org/dc/terms/>
-                                    PREFIX skos:<http://www.w3.org/2004/02/skos/core#>
-                                    PREFIX dbpo:<http://dbpedia.org/ontology/>
-                                    SELECT DISTINCT 
-                                    ?c (MIN(COALESCE(?l, ?lEN)) AS ?Label) (MIN(?t) AS ?Title) (MIN(?d) AS ?Desc) ?sColor
-                                    (MIN(EXISTS{?cs skos:hasTopConcept ?c}) AS ?isTopConcept)
-                                    WHERE {GRAPH ?g {
-                                    VALUES ?cs {<${uri.split('/').slice(0, -1).join('/')}>}
-                                    ?cs skos:hasTopConcept ?tc; dcterms:title ?t . ?tc skos:narrower* ?c .
-                                    ?c skos:prefLabel ?lEN . FILTER(lang(?lEN)="de") .
-                                    FILTER(REGEX(STR(?c),STR(?cs))||!REGEX(STR(?c),'europe-geology|earth')) .  
-                                    OPTIONAL {?c skos:prefLabel ?l . FILTER(lang(?l)="de")}
-                                    OPTIONAL {?cs dcterms:description ?d . FILTER(lang(?d)="de")}
-                                    OPTIONAL {?c dbpo:colourHexCode ?sColor}
-                                    }} GROUP BY ?c ?sColor
-                                    ORDER BY ?Label
-                                    LIMIT 100
-                                    OFFSET ${offset}`);
+        PREFIX skos:<http://www.w3.org/2004/02/skos/core#>
+        PREFIX dbpo:<http://dbpedia.org/ontology/>
+        SELECT DISTINCT 
+        ?c (MIN(COALESCE(?l, ?lu)) AS ?Label) (MIN(?t) AS ?Title) (MIN(?d) AS ?Desc) ?sColor
+        (MIN(EXISTS{?cs skos:hasTopConcept ?c}) AS ?isTopConcept)
+        WHERE {GRAPH ?g {
+            VALUES ?cs {<${uri.split('/').slice(0, -1).join('/')}>}
+            ?cs skos:hasTopConcept ?tc; dcterms:title ?t . ?tc skos:narrower* ?c .
+            ?c skos:prefLabel ?lu . FILTER(REGEX(STR(?c),STR(?cs))) .  
+            OPTIONAL {?c skos:prefLabel ?l . FILTER(lang(?l)="${USER_LANG}")}
+            OPTIONAL {?cs dcterms:description ?d . FILTER(lang(?d)="${USER_LANG}")}
+            OPTIONAL {?c dbpo:colourHexCode ?sColor}
+        }} GROUP BY ?c ?sColor
+        ORDER BY ?Label
+        LIMIT 100
+        OFFSET ${offset}`);
 
     fetch(ENDPOINT + '?query=' + query + '&format=json')
         .then(res => res.json())
