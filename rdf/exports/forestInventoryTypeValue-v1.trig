@@ -1,0 +1,100 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://registry.inspire.gv.at/codelist/forestInventoryTypeValue:1> {
+    <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/nonForestAreas> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry> ;
+        skos:definition "Wald in unterrepraesentativer Auspraegung (z.B. Gebiete mit intensiver landwirtschaftlicher Nutzung, Gletscher oder Seen)."@de,
+            "Area is almost entirely non-forest (e.g. areas of intensive agricultural use, glaciers or lakes)."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue> ;
+        skos:notation "nonForestAreas" ;
+        skos:prefLabel "Nicht Wald"@de,
+            "non forest areas"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/productiveFunction> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry> ;
+        skos:definition "Wald mit Nutzfunktion fuer wirtschaftliche und nachhaltige Hervorbringung des Rohstoffes Holz."@de,
+            "Forest with productive function for economic and sustainable production of the raw material 'woodâ."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue> ;
+        skos:notation "productiveFunction" ;
+        skos:prefLabel "Nutzfunktion"@de,
+            "productive function"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/protectiveFunction> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry> ;
+        skos:definition "Wald mit Schutzfunktion, insbesondere vor Elementargefahren und schaedigenden Umwelteinfluessen, sowie die Erhaltung der Bodenkraft gegen Bodenabschwemmung und -verwehung, Geroellbildung und Hangrutschung."@de,
+            "Forest with protective function, especially against natural hazards and detrimental environmental impacts, as well as endangered of eroding forces of wind, water or gravity."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue> ;
+        skos:notation "protectiveFunction" ;
+        skos:prefLabel "Schutzfunktion"@de,
+            "protective function"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/recreationalFunction> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry> ;
+        skos:definition "Die Erholungsfunktion ist insbesondere die Wirkung des Waldes als Erholungsraum auf die Waldbesucher."@de,
+            "The recreational function refers especially to the effects of the forest as a recreational area for people visiting the forest."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue> ;
+        skos:notation "recreationalFunction" ;
+        skos:prefLabel "Erholungsfunktion"@de,
+            "recreational function"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/welfareFunction> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry> ;
+        skos:definition "Die Wohlfahrtsfunktion ist der Einfluss des Waldes auf die Umwelt und zwar insbesondere auf den Ausgleich des Klimas und des Wasserhaushaltes, sowie auf die Reinigung und Erneuerung von Luft und Wasser."@de,
+            "The welfare function refers to the effects of the forest on the environment, especially on balancing the climate and the water regime and on cleaning and renewing air and water."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue> ;
+        skos:notation "welfareFunction" ;
+        skos:prefLabel "Wohlfahrtsfunktion"@de,
+            "welfare function"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Waldflaechen zur Erzeugung von Holz und anderen Rohholzerzeugnissen und weiteren Funktionen."@de,
+            "Production of wood and other wood based primary products or related functions."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/nonForestAreas>,
+            <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/productiveFunction>,
+            <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/protectiveFunction>,
+            <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/recreationalFunction>,
+            <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/welfareFunction> ;
+        skos:notation "forestry" ;
+        skos:prefLabel "Forstwirschaft"@de,
+            "forestry"@en ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue> a skos:ConceptScheme ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:created "2026-05-05T14:30:11+00:00"^^xsd:dateTime ;
+        dcterms:description "Codeliste der Ã¶sterreichischen Waldinventurtypen"@de,
+            "Code list of Austrian forest Inventory types"@en ;
+        dcterms:publisher <https://registry.inspire.gv.at/dataprovider/0006> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        dcterms:title "Waldinventar Typen"@de,
+            "Forest Inventory Type"@en ;
+        dcterms:type <http://inspire.ec.europa.eu/codelist/LandUseClassificationValue> ;
+        owl:versionInfo "1.0.0" ;
+        skos:hasTopConcept <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry> ;
+        skos:scopeNote "INSPIRE extensibility: open, internal by value"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+}
+

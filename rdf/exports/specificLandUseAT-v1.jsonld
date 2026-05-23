@@ -1,0 +1,257 @@
+[
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/specificLandUseAT",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-05-05T14:30:11+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "Ãsterreichisches Paket zur Erweiterung spezifischer Landnutzungskategorien."
+      },
+      {
+        "@language": "en",
+        "@value": "Austrian extension vocabulary container on specific land use categories."
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "de",
+        "@value": "Spezifische Bodennutzung AT"
+      },
+      {
+        "@language": "en",
+        "@value": "Specific Land Use AT"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/LandUseClassificationValue"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1.0.0"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificLandUseAT/landUseZoningTypeValue"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificLandUseAT/invekosTypeValue"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificLandUseAT/forestInventoryTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE extensibility: open, internal by value"
+      },
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/submitted"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/specificLandUseAT/forestInventoryTypeValue",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "https://bfw.ac.at"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Codeliste der Ã¶sterreichischen Waldinventurtypen"
+      },
+      {
+        "@language": "en",
+        "@value": "Code list of Austrian forest Inventory types"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificLandUseAT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "forestInventoryTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Waldinventar Typen"
+      },
+      {
+        "@language": "en",
+        "@value": "Forest Inventory Type"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificLandUseAT"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/specificLandUseAT/invekosTypeValue",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "https://www.ama.at"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Gruppierung der Ã¶sterreichischen INVEKOS-Klassifikation"
+      },
+      {
+        "@language": "en",
+        "@value": "A group of Austrian INVEKOS classification"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificLandUseAT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "invekosTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "INVEKOS Type"
+      },
+      {
+        "@language": "de",
+        "@value": "INVEKOS Klassen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificLandUseAT"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/specificLandUseAT/landUseZoningTypeValue",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Gruppierung der Ã¶sterreichischen Bodennutzungs Typen"
+      },
+      {
+        "@language": "en",
+        "@value": "A group for Austrain land use classification types"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificLandUseAT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "landUseZoningTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Landnutzungszonen"
+      },
+      {
+        "@language": "en",
+        "@value": "land Use Zoning Type"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificLandUseAT"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  }
+]

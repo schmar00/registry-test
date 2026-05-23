@@ -1,0 +1,314 @@
+subject|predicate|object
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/rEGEN|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sONST|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/eNTSORG
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRAFT|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/wNUTZ|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/qU|http://www.w3.org/2004/02/skos/core#prefLabel|QU
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sONST|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/eNTSORG|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/gWANL|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sPEICHER|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vSRGANL|http://www.w3.org/2004/02/skos/core#definition|Water supply system
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sEE|http://www.w3.org/2004/02/skos/core#prefLabel|SEE
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/mUEHL|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRFTW|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/mUEHL|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vSRGANL|http://www.w3.org/2004/02/skos/core#prefLabel|VSRGANL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bHNDL|http://www.w3.org/2004/02/skos/core#prefLabel|BHNDL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kLRANL|http://www.w3.org/2004/02/skos/core#definition|Sewage treatment plant
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bHNDL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/wNUTZ
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRAFT|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bRUN|http://www.w3.org/2004/02/skos/core#definition|Fountains
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kLRANL|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kLRANL|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bHNDL|http://www.w3.org/2004/02/skos/core#prefLabel|BHNDL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bRUN|http://www.w3.org/2004/02/skos/core#prefLabel|BRUN
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/gWANL|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/wNUTZ|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bRUN|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vERF|http://www.w3.org/2004/02/skos/core#prefLabel|VERF
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sEE|http://www.w3.org/2004/02/skos/core#notation|sEE
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sPEICHER
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sONST|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sOANL|http://www.w3.org/2004/02/skos/core#prefLabel|SOANL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRFTW|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/eNTSORG|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vSRGANL|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/wNUTZ|http://www.w3.org/2004/02/skos/core#definition|Waermenutzung/Kuehlwasseranlage
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sPEICHER|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/qU|http://www.w3.org/2004/02/skos/core#definition|Source
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://purl.org/dc/terms/description|Klassifikation, die den Typ des Bewirtschaftungsgebiets, Schutzgebiets oder geregelten Gebiets definiert.
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vSRGANL|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRAFT|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRFTW|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRFTW
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sEE|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/qU
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sEE|http://www.w3.org/2004/02/skos/core#definition|Stehendes Gewaesser
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRAFT|http://www.w3.org/2004/02/skos/core#prefLabel|KRAFT
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/mUEHL|http://www.w3.org/2004/02/skos/core#notation|mUEHL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vERF|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/qU|http://www.w3.org/2004/02/skos/core#definition|Quelle
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/qU|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bRUN|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vSRGANL|http://www.w3.org/2004/02/skos/core#definition|Wasserversorgungsanlage
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRFTW|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/oWANL|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/eNTSORG|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bHNDL|http://www.w3.org/2004/02/skos/core#definition|Water treatment
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRAFT
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRAFT|http://www.w3.org/2004/02/skos/core#prefLabel|KRAFT
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bRUN|http://www.w3.org/2004/02/skos/core#notation|bRUN
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sTAU|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/eNTSORG|http://www.w3.org/2004/02/skos/core#notation|eNTSORG
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vERF|http://www.w3.org/2004/02/skos/core#prefLabel|VERF
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bETR|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sTAU|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sONST|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kLRANL|http://www.w3.org/2004/02/skos/core#definition|Klaeranlage
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/oWANL|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/wNUTZ|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sEE|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/mUEHL|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/qU|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bETR|http://www.w3.org/2004/02/skos/core#prefLabel|BETR
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sOANL|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRFTW|http://www.w3.org/2004/02/skos/core#definition|Wasserkraftwerk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kLRANL|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sTAU|http://www.w3.org/2004/02/skos/core#prefLabel|STAU
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/qU|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/2002/07/owl#versionInfo|1.0.0
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://purl.org/dc/terms/created|2026-05-05T14:30:11+00:00
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kLRANL|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sPEICHER|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bHNDL|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/wNUTZ|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sONST|http://www.w3.org/2004/02/skos/core#prefLabel|SONST
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sEE|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sONST|http://www.w3.org/2004/02/skos/core#prefLabel|SONST
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sPEICHER|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bHNDL|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bHNDL|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/oWANL|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sONST|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bHNDL|http://www.w3.org/2004/02/skos/core#definition|Wasseraufbereitung
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sOANL|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/oWANL|http://www.w3.org/2004/02/skos/core#definition|Fliessgewaesseranlage/Entnahme/Einleitung
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vSRGANL|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRAFT|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/rEGEN|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/rEGEN|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRAFT|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bRUN|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/mUEHL|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kLRANL|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/gWANL|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bRUN|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sEE|http://www.w3.org/2004/02/skos/core#definition|Standing waters
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/gWANL|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sEE|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bETR|http://www.w3.org/2004/02/skos/core#prefLabel|BETR
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sTAU
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sONST
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sPEICHER|http://www.w3.org/2004/02/skos/core#definition|Water storage
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/gWANL|http://www.w3.org/2004/02/skos/core#definition|Grundwasseranlage/Entnahme/Versickerung
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vERF|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sONST|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/mUEHL|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bRUN|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sONST|http://www.w3.org/2004/02/skos/core#notation|sONST
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRAFT|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kLRANL|http://www.w3.org/2004/02/skos/core#prefLabel|KLRANL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRAFT|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bETR|http://www.w3.org/2004/02/skos/core#definition|Betriebsanlage allgemein
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vSRGANL|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRAFT|http://www.w3.org/2004/02/skos/core#definition|Krafthaus Wasserkraftwerk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/wNUTZ|http://www.w3.org/2004/02/skos/core#prefLabel|WNUTZ
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/eNTSORG|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://purl.org/dc/terms/title|Zone Type Code Styria
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/wNUTZ|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/eNTSORG|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/gWANL|http://www.w3.org/2004/02/skos/core#definition|Groundwater system/collection/seepage
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vERF|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sOANL|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sONST|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/mUEHL|http://www.w3.org/2004/02/skos/core#prefLabel|MUEHL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/mUEHL|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRAFT|http://www.w3.org/2004/02/skos/core#notation|kRAFT
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vSRGANL|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/eNTSORG|http://www.w3.org/2004/02/skos/core#definition|Sewage disposal system/canal
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/mUEHL|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vSRGANL|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sTAU|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/oWANL|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/qU|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bETR|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRFTW|http://www.w3.org/2004/02/skos/core#definition|Hydroelectric power station
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sTAU|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/oWANL|http://www.w3.org/2004/02/skos/core#definition|Flowing water system/collection/discharge
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sOANL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRFTW|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/mUEHL|http://www.w3.org/2004/02/skos/core#definition|Muehle
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/eNTSORG|http://www.w3.org/2004/02/skos/core#prefLabel|ENTSORG
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRFTW|http://www.w3.org/2004/02/skos/core#prefLabel|KRFTW
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vSRGANL|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vERF|http://www.w3.org/2004/02/skos/core#notation|vERF
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sTAU|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sPEICHER|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sOANL|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sPEICHER|http://www.w3.org/2004/02/skos/core#prefLabel|SPEICHER
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/oWANL|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sOANL|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vERF|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/oWANL|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/qU|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bRUN|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vERF|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sEE
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kLRANL|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/rEGEN|http://www.w3.org/2004/02/skos/core#prefLabel|REGEN
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kLRANL|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/rEGEN|http://www.w3.org/2004/02/skos/core#prefLabel|REGEN
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/rEGEN|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRFTW|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vSRGANL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sEE|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bETR|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sTAU|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/gWANL|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/wNUTZ|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bHNDL|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bETR|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/gWANL|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRAFT|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/qU|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRAFT|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/qU|http://www.w3.org/2004/02/skos/core#notation|qU
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/oWANL|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bETR
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bETR|http://www.w3.org/2004/02/skos/core#notation|bETR
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#ConceptScheme
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://purl.org/dc/terms/type|http://inspire.ec.europa.eu/codelist/ZoneTypeCode
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/rEGEN|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sTAU|http://www.w3.org/2004/02/skos/core#prefLabel|STAU
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://purl.org/dc/terms/description|Classification defining the type of Management, Restriction or Regulation Zone.
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRFTW|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sONST|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sPEICHER|http://www.w3.org/2004/02/skos/core#definition|Wasserspeicher
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRAFT|http://www.w3.org/2004/02/skos/core#definition|Power house Hydroelectric power plant
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bHNDL|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kLRANL|http://www.w3.org/2004/02/skos/core#prefLabel|KLRANL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sEE|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bETR|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/gWANL|http://www.w3.org/2004/02/skos/core#prefLabel|GWANL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/eNTSORG|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bHNDL|http://www.w3.org/2004/02/skos/core#notation|bHNDL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sPEICHER|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/rEGEN|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/wNUTZ|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kLRANL|http://www.w3.org/2004/02/skos/core#notation|kLRANL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bRUN|http://www.w3.org/2004/02/skos/core#prefLabel|BRUN
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sONST|http://www.w3.org/2004/02/skos/core#definition|Sonderbauwerk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bETR|http://www.w3.org/2004/02/skos/core#definition|Plant in general
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/wNUTZ|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sPEICHER|http://www.w3.org/2004/02/skos/core#notation|sPEICHER
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/gWANL|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/mUEHL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bRUN|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/eNTSORG|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sPEICHER|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vERF|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sTAU|http://www.w3.org/2004/02/skos/core#definition|Stauanlage
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bRUN|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vSRGANL|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/mUEHL|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/mUEHL|http://www.w3.org/2004/02/skos/core#definition|Mill
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sTAU|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sEE|http://www.w3.org/2004/02/skos/core#prefLabel|SEE
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/rEGEN
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/oWANL|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/gWANL|http://www.w3.org/2004/02/skos/core#prefLabel|GWANL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/oWANL|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRFTW|http://www.w3.org/2004/02/skos/core#prefLabel|KRFTW
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vERF
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/rEGEN|http://www.w3.org/2004/02/skos/core#notation|rEGEN
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bRUN|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/gWANL|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/eNTSORG|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sPEICHER|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sOANL|http://www.w3.org/2004/02/skos/core#definition|Special plant
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/eNTSORG|http://www.w3.org/2004/02/skos/core#prefLabel|ENTSORG
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sOANL|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kLRANL|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/wNUTZ|http://www.w3.org/2004/02/skos/core#definition|Heat utilization/cooling water system
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/oWANL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bRUN|http://www.w3.org/2004/02/skos/core#definition|Brunnen
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/mUEHL|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bHNDL|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sTAU|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/qU|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sEE|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/oWANL|http://www.w3.org/2004/02/skos/core#notation|oWANL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sONST|http://www.w3.org/2004/02/skos/core#definition|Special building
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vSRGANL|http://www.w3.org/2004/02/skos/core#prefLabel|VSRGANL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/oWANL|http://www.w3.org/2004/02/skos/core#prefLabel|OWANL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bETR|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/wNUTZ|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vERF|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sOANL|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRFTW|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/rEGEN|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/mUEHL|http://www.w3.org/2004/02/skos/core#prefLabel|MUEHL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRFTW|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sTAU|http://www.w3.org/2004/02/skos/core#definition|Dam
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/rEGEN|http://www.w3.org/2004/02/skos/core#definition|Rainwater drainage
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/gWANL|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE extensibility: open, internal by value
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://purl.org/dc/terms/title|Code des Gebietstyps Steiermark
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://purl.org/dc/terms/publisher|https://registry.inspire.gv.at/dataprovider/0008
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bHNDL|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bETR|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/oWANL|http://www.w3.org/2004/02/skos/core#prefLabel|OWANL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sONST|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sTAU|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRFTW|http://www.w3.org/2004/02/skos/core#notation|kRFTW
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sOANL|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vSRGANL|http://www.w3.org/2004/02/skos/core#notation|vSRGANL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sPEICHER|http://www.w3.org/2004/02/skos/core#prefLabel|SPEICHER
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vERF|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bETR|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bHNDL|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sOANL|http://www.w3.org/2004/02/skos/core#definition|Sonderanlage
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/gWANL|http://www.w3.org/2004/02/skos/core#notation|gWANL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/eNTSORG|http://www.w3.org/2004/02/skos/core#definition|Abwasserentsorgungsanlage/Kanal
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kLRANL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/qU|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vERF|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/rEGEN|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sEE|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sOANL|http://www.w3.org/2004/02/skos/core#prefLabel|SOANL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/rEGEN|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sEE|http://purl.org/dc/terms/description|Def. STMK
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sTAU|http://www.w3.org/2004/02/skos/core#notation|sTAU
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/eNTSORG|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sOANL|http://www.w3.org/2004/02/skos/core#notation|sOANL
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/wNUTZ|http://www.w3.org/2004/02/skos/core#prefLabel|WNUTZ
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bRUN
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sPEICHER|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bETR|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bHNDL|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/qU|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sOANL|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/wNUTZ|http://www.w3.org/2004/02/skos/core#notation|wNUTZ
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vERF|http://www.w3.org/2004/02/skos/core#definition|Deponie/Verfuellung
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/qU|http://www.w3.org/2004/02/skos/core#prefLabel|QU
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vERF|http://www.w3.org/2004/02/skos/core#definition|Landfill/filling
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vSRGANL|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/rEGEN|http://www.w3.org/2004/02/skos/core#definition|Regenentwaesserung
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kLRANL|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk
+https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/gWANL

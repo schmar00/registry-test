@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:ns1="http://www.w3.org/ns/adms#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryArea">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops"/>
+    <skos:definition xml:lang="de">FlÃ¤chen, die zur forstwirtschaftlichen Rohstofferzeugung als auch das Erbringen immaterieller Leistungen insbesondere als Schutz- und Erholungsraum.</skos:definition>
+    <skos:definition xml:lang="en">Areas used for the production of forest products and the provision of intangible services, in particular as a protected and recreational area.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>forestryArea</skos:notation>
+    <skos:prefLabel xml:lang="de">forstwirtschaftliche Flaechen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">forestry area</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redZone">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone"/>
+    <skos:definition xml:lang="de">Bereiche die von Hochwasser mit mittlerer Eintrittswahrscheinlichkeit besonders gefÃ¤hrdet sind. Es besteht Gefahr fÃ¼r Leib und Leben und diese FlÃ¤chen sind fÃ¼r die Bebauung nicht geeignet.</skos:definition>
+    <skos:definition xml:lang="en">Areas that are particularly at risk from floods with medium probability of occurrence. There is danger to life and these areas are not suitable for building.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>redZone</skos:notation>
+    <skos:prefLabel xml:lang="de">Rote Zone</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">red zone</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/formerRedZone">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone"/>
+    <skos:definition xml:lang="en">These are risk areas where flood protection systems are in operation. When a flood event exceeds the degree of protection or a technical fault occurs, the flood protection system does not function, flooding occurs to a degree similar to the absence of the flood protection system. New buildings are to be built flood-proof in this area.</skos:definition>
+    <skos:definition xml:lang="de">Hierbei handelt es sich um Restrisikogebiete im Wirkungsbereich von Hochwasserschutzanlagen. Wenn ein Hochwasserereignis das Bemessungsereignis Ã¼bersteigt bzw. in Folge eines technischen Gebrechens die Hochwasserschutzanlage nicht funktioniert, kommt es im Wirkungsbereich der Hochwasserschutzanlage zu Ãberflutungen in einem AusmaÃ Ã¤hnlich wie bei Nichtvorhandensein der Hochwasserschutzanlage. Neubauten sind in diesem Bereich hochwassergeschÃ¼tzt zu errichten.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>formerRedZone</skos:notation>
+    <skos:prefLabel xml:lang="en">former red zone</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">ehemals Rote Zone</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/street">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"/>
+    <skos:definition xml:lang="en">Buildings used as transport routes connecting geographical locations on the land surface.</skos:definition>
+    <skos:definition xml:lang="de">Bauliche Objekte die als Transportweg genutzt und auf der LandoberflÃ¤che geografische Positionen verbinden.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>street</skos:notation>
+    <skos:prefLabel xml:lang="en">street</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Strasse</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalObjects">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops"/>
+    <skos:definition xml:lang="en">PObjects used for agricultural production of materials and products (including animals and fish stocks).</skos:definition>
+    <skos:definition xml:lang="de">Objekte die zur landwirtschaftliche Rohstofferzeugung dienen und Produkte (auch Tier und FischbestÃ¤nde) .</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>agriculturalObjects</skos:notation>
+    <skos:prefLabel xml:lang="de">landwirtschaftliche Objekte</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">agricultural objects</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="de">Bauliche Objekte die der Verkehrs- und Leitungsinfrastruktur dienen.</skos:definition>
+    <skos:definition xml:lang="en">Buildings serving as transport and network infrastructure.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterPipelines"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterpathTransport"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/telecommunicationNetwork"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/street"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/sewer"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/bridge"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/electricalInstallations"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestAndAgriculturalTrails"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/gasPipelines"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/railway"/>
+    <skos:notation>transporAndNetworkInfrastructure</skos:notation>
+    <skos:prefLabel xml:lang="en">transport and network infrastructure</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Verkehrs und Leitungsinfrastruktur</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/remainingRisk">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone"/>
+    <skos:definition xml:lang="de">Restlicher Ãberflutungsbereich eines Hochwassers mit seltener Eintrittswahrscheinlichkeit.</skos:definition>
+    <skos:definition xml:lang="en">Remaining areas of a flood with a rare probability of occurrence.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>remainingRisk</skos:notation>
+    <skos:prefLabel xml:lang="de">Restrisiko</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">remaining risk</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/residentialBuilding">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities"/>
+    <skos:definition xml:lang="en">Buildings that are primarily used for housing.</skos:definition>
+    <skos:definition xml:lang="de">Bauliche Anlagen, die vornehmlich dem wohnen dienen.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>residentialBuilding</skos:notation>
+    <skos:prefLabel xml:lang="de">Wohngebaeude</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">residential building</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingEconomicBenefit">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities"/>
+    <skos:definition xml:lang="en">Constructional facilities that are primarily used for the purpose of business activities such as hotels, restaurants, etc. and small businesses.</skos:definition>
+    <skos:definition xml:lang="de">Bauliche Anlagen, die vornehmlich zum Zwecke des Wirtschaftens wie Hotels, GasthÃ¤user, etc. und Kleingewerbe dient.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>buildingEconomicBenefit</skos:notation>
+    <skos:prefLabel xml:lang="de">Gebaeude Wirtschaftlicher Nutzen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">building economic benefit</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-05T14:30:11+00:00</dcterms:created>
+    <dcterms:description xml:lang="en">An additional classification of the natural hazard.</dcterms:description>
+    <dcterms:description xml:lang="de">ZusÃ¤tzliche Bezeichnung gefÃ¤hrdeter Elemente fÃ¼r Ãsterreich.</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <dcterms:title xml:lang="en">Specific Exposed Element Type for Austria</dcterms:title>
+    <dcterms:title xml:lang="de">Spezifischer Typ gefÃ¤hrdeter Elemente</dcterms:title>
+    <dcterms:type rdf:resource="http://inspire.ec.europa.eu/codelist/SpecificExposedElementTypeValue"/>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/protectionInfrastructure"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/miscellaneousLoss"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"/>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/submitted"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="de">Bauliche Anlagen die zur privaten, Ã¶ffentlichen als auch wirtschaftlichen Nutzung verhergesehen sind.</skos:definition>
+    <skos:definition xml:lang="en">Buildings for private, public and commercial use.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/residentialBuilding"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/publicBuilding"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalBuilding"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingEconomicBenefit"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/industrialAndCommercialBuilding"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/inventoryAndEquipment"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/outsideArea"/>
+    <skos:notation>buildingsAndFacilities</skos:notation>
+    <skos:prefLabel xml:lang="en">buildings and facilities</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Gebaeude und bauliche Anlagen</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/publicBuilding">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities"/>
+    <skos:definition xml:lang="en">Constructional facilities that serve the public and are therefore accessible to everyone.</skos:definition>
+    <skos:definition xml:lang="de">Bauliche Anlagen, die der Ãffentlichkeit dienen und daher fÃ¼r jedermann zugÃ¤nglich sind.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>publicBuilding</skos:notation>
+    <skos:prefLabel xml:lang="en">public building</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Oeffentliche Gebaeude</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/bridge">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"/>
+    <skos:definition xml:lang="en">Structural objects or utilities that overcome obstacles through technical constructions.</skos:definition>
+    <skos:definition xml:lang="de">Bauliche Objekte oder Versorgungseinrichtungen, die durch technische Konstruktionen Hindernisse Ã¼berwinden.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>bridge</skos:notation>
+    <skos:prefLabel xml:lang="de">Bruecke</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">bridge</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/industrialAndCommercialBuilding">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities"/>
+    <skos:definition xml:lang="en">Construction equipment used for secondary sector activities (industrial and commercial).</skos:definition>
+    <skos:definition xml:lang="de">Bauliche Anlagen, die fÃ¼r TÃ¤tigkeiten des SekundÃ¤rsektors (Industrie und Gewerbe) genutzt werden</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>industrialAndCommercialBuilding</skos:notation>
+    <skos:prefLabel xml:lang="de">Industrie und Gewerbegebaeude</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">industrial and commercial building</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/blueZone">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone"/>
+    <skos:definition xml:lang="en">This area is a water-based demand zone and is identified to carry out and maintain the functions of planned flood protection management measures.</skos:definition>
+    <skos:definition xml:lang="de">Dieser Bereich ist eine wasserwirtschaftliche Bedarfszone und wird auf FlÃ¤chen ausgewiesen, die fÃ¼r die DurchfÃ¼hrung sowie Aufrechterhaltung der Funktionen geplanter schutzwasserwirtschaftlicher MaÃnahmen benÃ¶tigt werden.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>blueZone</skos:notation>
+    <skos:prefLabel xml:lang="en">blue zone</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Blaue Zone</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/outsideArea">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities"/>
+    <skos:definition xml:lang="de">FlÃ¤chen die GebÃ¤ude und baulichen Anlagen direkt angrenzen.</skos:definition>
+    <skos:definition xml:lang="en">Areas directly adjoining buildings and facilities.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>outsideArea</skos:notation>
+    <skos:prefLabel xml:lang="en">outside area</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">AuÃenanlage</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/telecommunicationNetwork">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"/>
+    <skos:definition xml:lang="en">Structural infrastructure facilities for the production and supply of electricity.</skos:definition>
+    <skos:definition xml:lang="de">Bauliche Infrastrukturanlagen zur Kommunikationsversorgung.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>telecommunicationNetwork</skos:notation>
+    <skos:prefLabel xml:lang="de">Fernmeldeleitungen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">electrical installations</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryObjects">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops"/>
+    <skos:definition xml:lang="de">Objekte die zur forstwirtschaftlichen Rohstofferzeugung dienen und Produkte.</skos:definition>
+    <skos:definition xml:lang="en">Objects used for the production of forest materials and products.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>forestryObjects</skos:notation>
+    <skos:prefLabel xml:lang="de">forstwirtschaftliche Objekte</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">forestry objects</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterPipelines">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"/>
+    <skos:definition xml:lang="en">Structural infrastructure facilities for transporting water to places where it is not naturally available.</skos:definition>
+    <skos:definition xml:lang="de">Bauliche Infrastrukturanlagen zum Transport von Wasser an Orte, an denen es auf natÃ¼rlichem Wege nicht zur VerfÃ¼gung steht.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>waterPipelines</skos:notation>
+    <skos:prefLabel xml:lang="en">water pipelines</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Wasserleitungen</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/sewer">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"/>
+    <skos:definition xml:lang="en">Structural infrastructure facilities for the distribution and supply of natural gas or other fuels.</skos:definition>
+    <skos:definition xml:lang="de">Bauliche Infrastrukturanlagen zur Sammlung und Ableitung von Abwasser, Regen- oder Schmelzwasser durch unter- bzw. oberirdische KanÃ¤le.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>sewer</skos:notation>
+    <skos:prefLabel xml:lang="en">sewer</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Kanalisation</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalArea">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops"/>
+    <skos:definition xml:lang="de">FlÃ¤chen, die zur landwirtschaftlichen Rohstofferzeugung als auch BrachflÃ¤chen dienen. Landwirtschaftliche GebÃ¤ude- und HofflÃ¤chen sind nicht enthalten.</skos:definition>
+    <skos:definition xml:lang="en">Areas used for the production of agricultural products and fallow land. Agricultural buildings and yards are not included.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>agriculturalArea</skos:notation>
+    <skos:prefLabel xml:lang="de">landwirtschaftliche Flaechen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">agricultural area</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redYellowZone">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone"/>
+    <skos:definition xml:lang="en">These areas are intended as retention, drainage and water management priority zones and are of great importance for the safe discharge and flood retention in flood situations.</skos:definition>
+    <skos:definition xml:lang="de">Diese Bereiche sind als Retentions-, Abfluss- und wasserwirtschaftliche Vorrangzonen vorgesehen und sind fÃ¼r den schadlosen Abfluss und HochwasserrÃ¼ckhalt im Hochwasserfall von groÃer Bedeutung.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>redYellowZone</skos:notation>
+    <skos:prefLabel xml:lang="de">Rot Gelbe Zone</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">red yellow zone</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="en">Group of applied classification zones.</skos:definition>
+    <skos:definition xml:lang="de">Gruppe von verwendeten Klassen.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/yellowZone"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/blueZone"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/formerRedZone"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redYellowZone"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redZone"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/remainingRisk"/>
+    <skos:notation>classificationZone</skos:notation>
+    <skos:prefLabel xml:lang="en">classification zones</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Klassifikationszonen</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/miscellaneousLoss">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="de">SchÃ¤den, denen keine definierte Kategorie zuzuordnen sind.</skos:definition>
+    <skos:definition xml:lang="en">Losses to which no defined category can be assigned.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>miscellaneousLoss</skos:notation>
+    <skos:prefLabel xml:lang="de">Sonstige Schaeden</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">miscellaneous loss</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/electricalInstallations">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"/>
+    <skos:definition xml:lang="en">Shipping water areas, rivers and canals and their associated structures (e. g. jetties, locks).</skos:definition>
+    <skos:definition xml:lang="de">Bauliche Infrastrukturanlagen zur Herstellung und Versorgung durch elektrischen Strom.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>electricalInstallations</skos:notation>
+    <skos:prefLabel xml:lang="en">water path transport</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Elektrische Anlagen</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="de">FlÃ¤chen, die zur forst- und landwirtschaftlichen Rohstofferzeugung dienen.</skos:definition>
+    <skos:definition xml:lang="en">Areas used for forestry and agricultural production of resources.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryObjects"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryArea"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalObjects"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalArea"/>
+    <skos:notation>agriculturalAndForestryCrops</skos:notation>
+    <skos:prefLabel xml:lang="de">Land und forstwirtschaftliche Kulturen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">agricultural and forestry crops</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalBuilding">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities"/>
+    <skos:definition xml:lang="en">Constructional facilities used for the production of agricultural products, both primer and secondary.</skos:definition>
+    <skos:definition xml:lang="de">Bauliche Anlagen, die fÃ¼r die Erzeugung landwirtschaflicher Produkt, primaer als auch sekundÃ¤r genutzt werden.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>agriculturalBuilding</skos:notation>
+    <skos:prefLabel xml:lang="en">agricultural building</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Agrargebaeude</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/railway">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"/>
+    <skos:definition xml:lang="en">Structural objects to be assigned to railway network.</skos:definition>
+    <skos:definition xml:lang="de">Bauliche Objekte, die dem Zugverkehr zu zuordnen sind.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>railway</skos:notation>
+    <skos:prefLabel xml:lang="en">railway</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Eisenbahn</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestAndAgriculturalTrails">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"/>
+    <skos:definition xml:lang="en">Structural objects that serve as a transport route for the appropriate management of agricultural and forestry properties.</skos:definition>
+    <skos:definition xml:lang="de">Bauliche Objekte, die als Transportweg zur zweckmÃ¤Ãigen Bewirtschaftung von land- und forstwirtschaftlichen Liegenschaften dienen.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>forestAndAgriculturalTrails</skos:notation>
+    <skos:prefLabel xml:lang="de">Forst und Agrarwege</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Forest and agricultural trails</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/inventoryAndEquipment">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities"/>
+    <skos:definition xml:lang="de">Gesamtheit mobiler Objekte, die GebÃ¤uden und baulichen Anlagen im direkten Zusammenhang stehen.</skos:definition>
+    <skos:definition xml:lang="en">A set of mobile objects that are directly related to buildings and facilities.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>inventoryAndEquipment</skos:notation>
+    <skos:prefLabel xml:lang="en">inventory and equipment</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Inventar und Geraetschaften</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/yellowZone">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone"/>
+    <skos:definition xml:lang="de">Bereiche die von Hochwasser mit mittlerer Eintrittswahrscheinlichkeit geringer gefÃ¤hrdet sind. Neubauten in dieser Zone sind hochwassergeschÃ¼tzt zu errichten.</skos:definition>
+    <skos:definition xml:lang="en">Areas that are less vulnerable to floods with a medium probability of occurrence. New buildings in this zone are to be built flood-proof.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>yellowZone</skos:notation>
+    <skos:prefLabel xml:lang="en">yellow zone</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Gelbe Zone</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterpathTransport">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"/>
+    <skos:definition xml:lang="de">Schiffbare WasserflÃ¤chen, FlÃ¼sse und KanÃ¤le und deren dazugehÃ¶rgigen baulichen Anlagen (z.B. Anlegesteg, Schleussen)</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>waterpathTransport</skos:notation>
+    <skos:prefLabel xml:lang="de">Wasserweg</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/protectionInfrastructure">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="en">Constructional installations installed for the protection of infrastructure, objects and persons exposed to natural hazards.</skos:definition>
+    <skos:definition xml:lang="de">Bauliche Anlagen, die zum Schutz von Infastrukturobjekten und Personen durch Naturgefahren installiert worden sind.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>protectionInfrastructure</skos:notation>
+    <skos:prefLabel xml:lang="de">Schutzinfrastruktur</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">protection infrastructure</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/gasPipelines">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz-core"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"/>
+    <skos:definition xml:lang="en">Structural infrastructure facilities for communication supply.</skos:definition>
+    <skos:definition xml:lang="de">Bauliche Infrastrukturanlagen zur Verteilung und Versorgung Erdgas doer anderen Brenngasen.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"/>
+    <skos:notation>gasPipelines</skos:notation>
+    <skos:prefLabel xml:lang="en">telecommunication network</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Gasleitungen</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+</rdf:RDF>

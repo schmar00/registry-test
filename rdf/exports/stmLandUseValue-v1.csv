@@ -1,0 +1,299 @@
+subject,predicate,object
+https://registry.inspire.gv.at/codelist/stmLandUseValue/shoppingCenters,http://www.w3.org/2004/02/skos/core#definition,sind FlÃ¤chen fÃ¼r Einkaufszentren.
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAVillage,http://www.w3.org/2004/02/skos/core#notation,dAVillage
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/stmLandUseValue/dAVillage
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAVillage,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAIndustry,http://www.w3.org/2004/02/skos/core#notation,dAIndustry
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAVillage,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAResidentialArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/stmLandUseValue/villageAreas
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://purl.org/dc/terms/type,http://inspire.ec.europa.eu/codelist/LandUseClassificationValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/specialUseOpenland,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/openland,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/trafficAreas,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAVillage,http://www.w3.org/2004/02/skos/core#prefLabel,AF-Dorf
+https://registry.inspire.gv.at/codelist/stmLandUseValue/specialUseOpenland,http://www.w3.org/2004/02/skos/core#definition,"sind FlÃ¤chen, wenn auf Grund ihrer besonderen Standortgunst die flÃ¤chenhafte Nutzung im Vordergrund steht und diese nicht typischerweise einem Baulandgebiet zuzuordnen ist. Insbesondere sind das FlÃ¤chen fÃ¼r ErwerbsgÃ¤rtnereien, Erholungszwecke, Spielzwecke, Parkanlagen, FriedhÃ¶fe,â¦"
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAIndustry,http://www.w3.org/2004/02/skos/core#notation,rAIndustry
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAIndustry,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAResidentialArea,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/mainAreas,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/stmLandUseValue/waterBodies,http://www.w3.org/2004/02/skos/core#definition,Ersichtlichmachung der Ã¼berÃ¶rtlich rechtwirksamen Festlegung GewÃ¤sser.
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAIndustry,http://www.w3.org/2004/02/skos/core#definition,"RA-Industrial areas are not fully fledged building land, which become fully fledged industrial areas once defects have been remedied."
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAResidentialArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/stmLandUseValue/railway,http://www.w3.org/2004/02/skos/core#prefLabel,Bahn
+https://registry.inspire.gv.at/codelist/stmLandUseValue/trafficAreas,http://www.w3.org/2004/02/skos/core#notation,trafficAreas
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAVillage,http://www.w3.org/2004/02/skos/core#definition,"DA-Village are not yet fully-fledged village areas, but their production is expected and they are not designated as redevelopment areas."
+https://registry.inspire.gv.at/codelist/stmLandUseValue/shoppingCenters,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/stmLandUseValue/openland,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/openland,http://www.w3.org/2004/02/skos/core#prefLabel,Openland
+https://registry.inspire.gv.at/codelist/stmLandUseValue/industryAndCommerce,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/stmLandUseValue/waterBodies,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAIndustry,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/stmLandUseValue/waterBodies
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAIndustry,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/specialUseOpenland,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAVillage,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/stmLandUseValue/railway,http://www.w3.org/2004/02/skos/core#notation,railway
+https://registry.inspire.gv.at/codelist/stmLandUseValue/villageAreas,http://www.w3.org/2004/02/skos/core#notation,villageAreas
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAVillage,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAVillage,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAVillage,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAIndustry,http://www.w3.org/2004/02/skos/core#definition,"SG-Industrie sind nicht vollwertige BaulandflÃ¤chen, die nach Beseitigung von MÃ¤ngel zu vollwertigen Industriegebieten werden."
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAIndustry,http://www.w3.org/2004/02/skos/core#prefLabel,DA-Industry
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/stmLandUseValue/openland
+https://registry.inspire.gv.at/codelist/stmLandUseValue/industryAndCommerce,http://www.w3.org/2004/02/skos/core#definition,sind FlÃ¤chen fÃ¼r Gewerbe und Industrie inklusive VerwaltungsgebÃ¤uden und die fÃ¼r die Aufrechterhaltung erforderlichen Wohnungen.
+https://registry.inspire.gv.at/codelist/stmLandUseValue/specialUseOpenland,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#ConceptScheme
+https://registry.inspire.gv.at/codelist/stmLandUseValue/forest,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/trafficAreas,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/shoppingCenters,http://www.w3.org/2004/02/skos/core#prefLabel,Einkaufszentren
+https://registry.inspire.gv.at/codelist/stmLandUseValue/railway,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAVillage,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAVillage,http://www.w3.org/2004/02/skos/core#prefLabel,DA-Village
+https://registry.inspire.gv.at/codelist/stmLandUseValue/villageAreas,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAIndustry,http://www.w3.org/2004/02/skos/core#prefLabel,SG-Industrie
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAResidentialArea,http://www.w3.org/2004/02/skos/core#prefLabel,AS-Wohnen
+https://registry.inspire.gv.at/codelist/stmLandUseValue/industryAndCommerce,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAResidentialArea,http://www.w3.org/2004/02/skos/core#notation,rAResidentialArea
+https://registry.inspire.gv.at/codelist/stmLandUseValue/mainAreas,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAIndustry,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/stmLandUseValue/waterBodies,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAVillage,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/stmLandUseValue/specialUseOpenland,http://www.w3.org/2004/02/skos/core#prefLabel,Special use in the open land
+https://registry.inspire.gv.at/codelist/stmLandUseValue/villageAreas,http://www.w3.org/2004/02/skos/core#prefLabel,Dorfgebiet
+https://registry.inspire.gv.at/codelist/stmLandUseValue/waterBodies,http://www.w3.org/2004/02/skos/core#definition,Making visible the supra-local legally effective definition of water bodies.
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAVillage,http://www.w3.org/2004/02/skos/core#notation,fAVillage
+https://registry.inspire.gv.at/codelist/stmLandUseValue/residentialAreas,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAResidentialArea,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/shoppingCenters,http://www.w3.org/2004/02/skos/core#notation,shoppingCenters
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAResidentialArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAResidentialArea,http://www.w3.org/2004/02/skos/core#prefLabel,SG-Wohnen
+https://registry.inspire.gv.at/codelist/stmLandUseValue/railway,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/stmLandUseValue/shoppingCenters,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/railway,http://www.w3.org/2004/02/skos/core#definition,FlÃ¤chen die durch rechtwirksame Ã¼berÃ¶rtliche Festlegungen fÃ¼r den Bahnbetrieb festgelegt wurden.
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAVillage,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/stmLandUseValue/villageAreas,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAVillage,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAResidentialArea,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/openland,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/mainAreas,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAVillage,http://www.w3.org/2004/02/skos/core#definition,"FA-Village are undeveloped gaps in the building land, which can be declared a village area once the legal criteria have been met."
+https://registry.inspire.gv.at/codelist/stmLandUseValue/waterBodies,http://www.w3.org/2004/02/skos/core#prefLabel,GewÃ¤sser
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAVillage,http://www.w3.org/2004/02/skos/core#definition,"RA-Villages are not fully-fledged building land which, once defects have been remedied, become fully-fledged village areas."
+https://registry.inspire.gv.at/codelist/stmLandUseValue/waterBodies,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAResidentialArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/stmLandUseValue/villageAreas,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAResidentialArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/shoppingCenters,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAVillage,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAVillage,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAResidentialArea,http://www.w3.org/2004/02/skos/core#prefLabel,AF-Wohnen
+https://registry.inspire.gv.at/codelist/stmLandUseValue/trafficAreas,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAResidentialArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/stmLandUseValue/specialUseOpenland,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAResidentialArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/stmLandUseValue/rAVillage
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAVillage,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAIndustry,http://www.w3.org/2004/02/skos/core#definition,"AS-Industrie sind noch nicht vollwertige IndustrieflÃ¤chen, deren Herstellung aber zu erwarten ist und die nicht als Sanierungsgebiete ausgewiesen sind."
+https://registry.inspire.gv.at/codelist/stmLandUseValue/industryAndCommerce,http://www.w3.org/2004/02/skos/core#prefLabel,Industry and commerce
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAResidentialArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAResidentialArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAVillage,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAIndustry,http://www.w3.org/2004/02/skos/core#prefLabel,RA-Industry
+https://registry.inspire.gv.at/codelist/stmLandUseValue/forest,http://www.w3.org/2004/02/skos/core#definition,laut ForstbehÃ¶rde als Wald festgelegte Areale.
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAResidentialArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAVillage,http://www.w3.org/2004/02/skos/core#prefLabel,FA-Village
+https://registry.inspire.gv.at/codelist/stmLandUseValue/mainAreas,http://www.w3.org/2004/02/skos/core#prefLabel,Main areas
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAVillage,http://www.w3.org/2004/02/skos/core#notation,rAVillage
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAIndustry,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/industryAndCommerce,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAIndustry,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAResidentialArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAResidentialArea,http://www.w3.org/2004/02/skos/core#prefLabel,FA-Residential area
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAVillage,http://www.w3.org/2004/02/skos/core#prefLabel,AS-Dorf
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAIndustry,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/stmLandUseValue/fAResidentialArea
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAResidentialArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/2004/02/skos/core#scopeNote,"INSPIRE extensibility: open, internal by value"
+https://registry.inspire.gv.at/codelist/stmLandUseValue/specialUseOpenland,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/specialUseOpenland,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/stmLandUseValue/mainAreas,http://www.w3.org/2004/02/skos/core#notation,mainAreas
+https://registry.inspire.gv.at/codelist/stmLandUseValue/waterBodies,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAVillage,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAIndustry,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/forest,http://www.w3.org/2004/02/skos/core#notation,forest
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/stmLandUseValue/forest
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAResidentialArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/stmLandUseValue/industryAndCommerce,http://www.w3.org/2004/02/skos/core#notation,industryAndCommerce
+https://registry.inspire.gv.at/codelist/stmLandUseValue/residentialAreas,http://www.w3.org/2004/02/skos/core#prefLabel,Wohnen
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAResidentialArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/shoppingCenters,http://www.w3.org/2004/02/skos/core#prefLabel,Shopping centers
+https://registry.inspire.gv.at/codelist/stmLandUseValue/industryAndCommerce,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/forest,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://purl.org/dc/terms/description,Austrian extension for Styria specific land use classification
+https://registry.inspire.gv.at/codelist/stmLandUseValue/industryAndCommerce,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAVillage,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/stmLandUseValue/forest,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/mainAreas,http://www.w3.org/2004/02/skos/core#prefLabel,Kerngebiet
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAIndustry,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAResidentialArea,http://www.w3.org/2004/02/skos/core#definition,"AF-Wohnen sind unbebaute LÃ¼ckenÂ  im Bauland, die nach Vorliegen der rechtlichen Kriterien als Wohngebiet erklÃ¤rt werden kÃ¶nnen."
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAIndustry,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/stmLandUseValue/openland,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/stmLandUseValue/residentialAreas
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/stmLandUseValue/industryAndCommerce
+https://registry.inspire.gv.at/codelist/stmLandUseValue/waterBodies,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/stmLandUseValue/mainAreas,http://www.w3.org/2004/02/skos/core#definition,Are areas with a higher variety of uses and building density compared to other building areas.
+https://registry.inspire.gv.at/codelist/stmLandUseValue/specialUseOpenland,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/stmLandUseValue/shoppingCenters,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/stmLandUseValue/villageAreas,http://www.w3.org/2004/02/skos/core#definition,"Dorfgebiet sind FlÃ¤chen, die fÃ¼r BautenÂ  land- und forstwirtschaftlicher Nutzung in verdichteter Anordnung bestimmt sind."
+https://registry.inspire.gv.at/codelist/stmLandUseValue/trafficAreas,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAVillage,http://www.w3.org/2004/02/skos/core#definition,"SG-Dorf Â sind nicht vollwertige BaulandflÃ¤chen, die nach Beseitigung von MÃ¤ngel zu vollwertigen Dorfgebiet werden."
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAResidentialArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/stmLandUseValue/railway,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/railway,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/stmLandUseValue/openland,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/stmLandUseValue/mainAreas,http://www.w3.org/2004/02/skos/core#definition,Kerngebiete sind FlÃ¤chen mit einer im Vergleich zu anderen Baugebieten hÃ¶heren Nutzungsvielfalt und Bebauungsdichte.
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAVillage,http://www.w3.org/2004/02/skos/core#definition,"AF-Dorf sind unbebaute LÃ¼ckenÂ  im Bauland, die nach Vorliegen der rechtlichen Kriterien als Dorfgebiet erklÃ¤rt werden kÃ¶nnen."
+https://registry.inspire.gv.at/codelist/stmLandUseValue/villageAreas,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAVillage,http://www.w3.org/2004/02/skos/core#prefLabel,RA-Village
+https://registry.inspire.gv.at/codelist/stmLandUseValue/shoppingCenters,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/industryAndCommerce,http://www.w3.org/2004/02/skos/core#prefLabel,Industrie und Gewerbe
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/stmLandUseValue/mainAreas
+https://registry.inspire.gv.at/codelist/stmLandUseValue/trafficAreas,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAVillage,http://www.w3.org/2004/02/skos/core#prefLabel,SG-Dorf
+https://registry.inspire.gv.at/codelist/stmLandUseValue/residentialAreas,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/railway,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/stmLandUseValue/industryAndCommerce,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/stmLandUseValue/residentialAreas,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/stmLandUseValue/trafficAreas,http://www.w3.org/2004/02/skos/core#definition,"Traffic areas are those areas which are intended for the handling of moving and stationary traffic, as well as for the development of building land and open land"
+https://registry.inspire.gv.at/codelist/stmLandUseValue/villageAreas,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/stmLandUseValue/shoppingCenters,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/specialUseOpenland,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAIndustry,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/stmLandUseValue/shoppingCenters,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAVillage,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAResidentialArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/openland,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/mainAreas,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/openland,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAResidentialArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/stmLandUseValue/waterBodies,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/railway,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAResidentialArea,http://www.w3.org/2004/02/skos/core#notation,fAResidentialArea
+https://registry.inspire.gv.at/codelist/stmLandUseValue/industryAndCommerce,http://www.w3.org/2004/02/skos/core#definition,are areas for trade and industry including administrative buildings and the apartments required for maintenance.
+https://registry.inspire.gv.at/codelist/stmLandUseValue/industryAndCommerce,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/residentialAreas,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAIndustry,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAResidentialArea,http://www.w3.org/2004/02/skos/core#definition,"DA-Residential areas are not yet fully-fledged residential areas, but their construction is expected and they are not designated as redevelopment areas."
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://purl.org/dc/terms/title,STM Landnutzungsklassen
+https://registry.inspire.gv.at/codelist/stmLandUseValue/villageAreas,http://www.w3.org/2004/02/skos/core#prefLabel,Village areas
+https://registry.inspire.gv.at/codelist/stmLandUseValue/residentialAreas,http://www.w3.org/2004/02/skos/core#prefLabel,Residential areas
+https://registry.inspire.gv.at/codelist/stmLandUseValue/residentialAreas,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAIndustry,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAVillage,http://www.w3.org/2004/02/skos/core#definition,"AS-Dorf sind noch nicht vollwertige DorfflÃ¤chen, deren Herstellung aber zu erwarten ist und die nicht als Sanierungsgebiete ausgewiesen sind."
+https://registry.inspire.gv.at/codelist/stmLandUseValue/railway,http://www.w3.org/2004/02/skos/core#definition,Areas that have been defined for railway operation by legally effective supra-local regulations.
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAVillage,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/stmLandUseValue/industryAndCommerce,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/shoppingCenters,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAVillage,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/stmLandUseValue/trafficAreas
+https://registry.inspire.gv.at/codelist/stmLandUseValue/forest,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/stmLandUseValue/openland,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://purl.org/dc/terms/description,Ãsterreich-Erweiterung fÃ¼r Steiermark spezifische Landnutzungsklassifizierung
+https://registry.inspire.gv.at/codelist/stmLandUseValue/mainAreas,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/stmLandUseValue/railway,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/waterBodies,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/stmLandUseValue/residentialAreas,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAResidentialArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/stmLandUseValue/specialUseOpenland,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAResidentialArea,http://www.w3.org/2004/02/skos/core#definition,RA-Residential areas are not fully-fledged building land that becomes fully-fledged residential areas after defects have been remedied.
+https://registry.inspire.gv.at/codelist/stmLandUseValue/villageAreas,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/villageAreas,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAResidentialArea,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/mainAreas,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/stmLandUseValue/specialUseOpenland,http://www.w3.org/2004/02/skos/core#definition,"are areas if, due to their particular locational advantages, the focus is on land use and this is not typically assigned to a building land area. In particular, these are areas for commercial nurseries, recreational purposes, playgrounds, parks, cemeteries, etc."
+https://registry.inspire.gv.at/codelist/stmLandUseValue/waterBodies,http://www.w3.org/2004/02/skos/core#notation,waterBodies
+https://registry.inspire.gv.at/codelist/stmLandUseValue/forest,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAResidentialArea,http://www.w3.org/2004/02/skos/core#notation,dAResidentialArea
+https://registry.inspire.gv.at/codelist/stmLandUseValue/railway,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/trafficAreas,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAVillage,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAIndustry,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/stmLandUseValue/mainAreas,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/stmLandUseValue/villageAreas,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/residentialAreas,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAIndustry,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/stmLandUseValue/dAResidentialArea
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAVillage,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/stmLandUseValue/rAResidentialArea
+https://registry.inspire.gv.at/codelist/stmLandUseValue/trafficAreas,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAResidentialArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://purl.org/dc/terms/created,2026-05-05T14:30:11+00:00
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/stmLandUseValue/rAIndustry
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/2002/07/owl#versionInfo,1.0.0
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAResidentialArea,http://www.w3.org/2004/02/skos/core#definition,"SG-Wohnen sind nicht vollwertige BaulandflÃ¤chen, die nach Beseitigung von MÃ¤ngel zu vollwertigen Wohngebieten werden."
+https://registry.inspire.gv.at/codelist/stmLandUseValue/waterBodies,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/stmLandUseValue/forest,http://www.w3.org/2004/02/skos/core#definition,areas designated as forests according to the Forest Service.
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAIndustry,http://www.w3.org/2004/02/skos/core#prefLabel,AS-Industrie
+https://registry.inspire.gv.at/codelist/stmLandUseValue/residentialAreas,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/specialUseOpenland,http://www.w3.org/2004/02/skos/core#notation,specialUseOpenland
+https://registry.inspire.gv.at/codelist/stmLandUseValue/trafficAreas,http://www.w3.org/2004/02/skos/core#prefLabel,Traffic areas
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAIndustry,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAResidentialArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/openland,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/stmLandUseValue/trafficAreas,http://www.w3.org/2004/02/skos/core#prefLabel,Verkehr
+https://registry.inspire.gv.at/codelist/stmLandUseValue/villageAreas,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/forest,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/openland,http://www.w3.org/2004/02/skos/core#prefLabel,Freiland
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAVillage,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/stmLandUseValue/shoppingCenters,http://www.w3.org/2004/02/skos/core#definition,are areas for shopping centers.
+https://registry.inspire.gv.at/codelist/stmLandUseValue/trafficAreas,http://www.w3.org/2004/02/skos/core#definition,"VerkehrsflÃ¤chen sind solche FlÃ¤chen, die fÃ¼r die Abwicklung des flieÃenden und ruhenden Verkehrs, sowie fÃ¼r die AufschlieÃung des Baulandes und des Freilandes vorgesehen sind."
+https://registry.inspire.gv.at/codelist/stmLandUseValue/specialUseOpenland,http://www.w3.org/2004/02/skos/core#prefLabel,Sondernutzung im Freiland
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAVillage,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAVillage,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAResidentialArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/mainAreas,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/residentialAreas,http://www.w3.org/2004/02/skos/core#definition,Wohnen sind Gebiete die ausschlieÃlich oder vornehmlich fÃ¼r Wohnzwecke bestimmt sind.
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/stmLandUseValue/fAVillage
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAResidentialArea,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://purl.org/dc/terms/title,STM Land Use Value
+https://registry.inspire.gv.at/codelist/stmLandUseValue/trafficAreas,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAVillage,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/stmLandUseValue/residentialAreas,http://www.w3.org/2004/02/skos/core#notation,residentialAreas
+https://registry.inspire.gv.at/codelist/stmLandUseValue/trafficAreas,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/stmLandUseValue/shoppingCenters,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAResidentialArea,http://www.w3.org/2004/02/skos/core#prefLabel,RA-Residential area
+https://registry.inspire.gv.at/codelist/stmLandUseValue/forest,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/stmLandUseValue/forest,http://www.w3.org/2004/02/skos/core#prefLabel,Forest
+https://registry.inspire.gv.at/codelist/stmLandUseValue/waterBodies,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/stmLandUseValue/forest,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAResidentialArea,http://www.w3.org/2004/02/skos/core#definition,"FA-Residential area are undeveloped gaps in the building land, which can be declared a residential area once the legal criteria are met."
+https://registry.inspire.gv.at/codelist/stmLandUseValue/residentialAreas,http://www.w3.org/2004/02/skos/core#definition,Residential areas are areas that are exclusively or primarily intended for residential purposes.
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAIndustry,http://www.w3.org/2004/02/skos/core#definition,"DA-Industry are not yet fully developed industrial sites, but their production is expected and they are not designated as redevelopment sites."
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAResidentialArea,http://purl.org/dc/terms/description,Def. STMRK
+https://registry.inspire.gv.at/codelist/stmLandUseValue/openland,http://www.w3.org/2004/02/skos/core#notation,openland
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/stmLandUseValue/shoppingCenters
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAIndustry,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://purl.org/dc/terms/publisher,https://registry.inspire.gv.at/dataprovider/0023
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/stmLandUseValue/specialUseOpenland
+https://registry.inspire.gv.at/codelist/stmLandUseValue/forest,http://www.w3.org/2004/02/skos/core#prefLabel,Wald
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/stmLandUseValue/dAIndustry
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAResidentialArea,http://www.w3.org/2004/02/skos/core#prefLabel,DA-Residential area
+https://registry.inspire.gv.at/codelist/stmLandUseValue/railway,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAResidentialArea,http://www.w3.org/2004/02/skos/core#definition,"AS-Wohnen sind noch nicht vollwertige WohnflÃ¤chen, deren Herstellung aber zu erwarten ist und die nicht als Sanierungsgebiete ausgewiesen sind."
+https://registry.inspire.gv.at/codelist/stmLandUseValue/openland,http://www.w3.org/2004/02/skos/core#definition,Alle nicht als Bauland und Verkehrsland festgelegte GrundflÃ¤chen gehÃ¶ren zum Freiland. Im Freiland kÃ¶nnen Sondernutzungen festgelegt werden (z.B.: Ã¶ffentliche Parkanlagen).
+https://registry.inspire.gv.at/codelist/stmLandUseValue/forest,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/stmLandUseValue/dAIndustry,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/stmLandUseValue/fAVillage,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/openland,http://www.w3.org/2004/02/skos/core#definition,All land not designated as building land or traffic land belongs to the open land. Special uses can be defined in the open land (e.g.: public parks).
+https://registry.inspire.gv.at/codelist/stmLandUseValue/waterBodies,http://www.w3.org/2004/02/skos/core#prefLabel,Water Bodies
+https://registry.inspire.gv.at/codelist/stmLandUseValue/mainAreas,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/stmLandUseValue/industryAndCommerce,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/stmLandUseValue/rAVillage,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/stmLandUseValue
+https://registry.inspire.gv.at/codelist/stmLandUseValue/railway,http://www.w3.org/2004/02/skos/core#prefLabel,Railway
+https://registry.inspire.gv.at/codelist/stmLandUseValue/residentialAreas,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/stmLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/stmLandUseValue/railway
+https://registry.inspire.gv.at/codelist/stmLandUseValue/villageAreas,http://www.w3.org/2004/02/skos/core#definition,Village areas are areas which are intended for buildings of agricultural and forestry use in a dense arrangement.

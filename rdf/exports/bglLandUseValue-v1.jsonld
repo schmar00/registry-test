@@ -1,0 +1,123 @@
+[
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/bglLandUseValue",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-05-05T14:30:11+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "Ãsterreich-Erweiterung fÃ¼r Burgenland spezifische Landnutzungsklassifizierung"
+      },
+      {
+        "@language": "en",
+        "@value": "Austrian extension for Burgenland specific land use classification"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0018"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "de",
+        "@value": "BGL Landnutzungsklassen"
+      },
+      {
+        "@language": "en",
+        "@value": "BGL Land Use Value"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/LandUseClassificationValue"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1.0.0"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/bglLandUseValue/Weinbauriede"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE extensibility: open, internal by value"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/bglLandUseValue/Weinbauriede",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Weinbauriede sind Weinbaufluren oder Teile einer Weinbauflur, die sich durch natÃ¼rliche oder kÃ¼nstliche Grenzen oder infolge der weinbaulichen Nutzung als selbststÃ¤ndiger Gebietsteil darstellt und entweder schon bisher als Weinbauriede bezeichnet wurde oder infolge der Lage und Bodenbeschaffenheit die Hervorbringung gleichartiger und gleichwertiger Weine erwarten lÃ¤sst"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/bglLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "Weinbauriede"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Weinbauriede"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/bglLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  }
+]

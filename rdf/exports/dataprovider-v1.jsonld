@@ -1,0 +1,1919 @@
+[
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0068",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.733000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Arnulfplatz 2, 9020 Klagenfurt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "68"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "KNG-KÃ¤rnten Netz GmbH"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0095",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.739000+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/schlagnutzungsart"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/referenzart"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Dresdner StraÃe 70, 1200 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "95"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Agrarmarkt Austria"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0078",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.726000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Bert-KÃ¶llensperger-Str. 7, 6065 Thaur"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "78"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "TINETZ-Tiroler Netze GmbH"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0008",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.730000+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneType"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/Biotoptypen_AT"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/Naturraumregionen"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S322"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Spittelauer LÃ¤nde 5, 1090 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "8"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Umweltbundesamt GmbH"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0002",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.739000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Schiffamtsgasse 1-3, 1020 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Bundesamt fÃ¼r Eich- und Vermessungswesen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0065",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.729000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Neubauzeile 99, 4030 Linz"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "65"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Netz OberÃ¶sterreich GmbH"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0022",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.718000+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/sbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Chiemseehof, 5010 Salzburg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "22"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Land Salzburg - Amt der Salzburger Landesregierung"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0015",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.727000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Neulinggasse 38, 1030 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "15"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Geologische Bundesanstalt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0033",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.736000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "BayerhamerstraÃe 16, 5020 Salzburg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "33"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Salzburg AG fÃ¼r Energie, Verkehr & Telekommunikation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0018",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.721000+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/bglLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Europaplatz 1, 7000 Eisenstadt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "18"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Land Burgenland - Amt der BurgenlÃ¤ndischen Landesregierung"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0115",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.731000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Wagramer StraÃe 19, 1220 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "115"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Austrian Power Grid AG"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0061",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.726000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Hintere ZollamtsstraÃe 4, 1030 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "61"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Land-, forst- und wasserwirtschaftliches Rechenzentrum GmbH"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0052",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.721000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Rathaus, 1082 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "52"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Land Wien - Amt der Wiener Landesregierung"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0111",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.724000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "WeidachstraÃe 6, 6900 Bregenz"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "111"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Vorarlberger Energienetze GmbH"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0027",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.734000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Guglgasse 13, 1110 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "27"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Statistik Austria"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0019",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.719000+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ktnLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "FlatschacherstraÃe 70, 9020 Klagenfurt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "19"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Land KÃ¤rnten - Amt der KÃ¤rntner Landesregierung"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0014",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.737000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Donau-City-StraÃe 1, 1220 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "14"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "via donau - Ãsterreichische WasserstraÃen-Gesellschaft mbH"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:38:29.926000+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "Das Ã¶sterreichische Geodatenstellenregister enthÃ¤lt die INSPIRE Datenanbieter."
+      },
+      {
+        "@language": "en",
+        "@value": "The Austrian data provider register contains the contributing data providers."
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE data providers"
+      },
+      {
+        "@language": "de",
+        "@value": "INSPIRE Datenanbieter"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0131"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0130"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0115"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0111"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0090"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0080"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0078"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0068"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0067"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0065"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0064"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0061"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0056"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0052"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0051"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0049"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0038"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0033"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0027"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0024"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0015"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0014"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0013"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0012"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0011"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0010"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0003"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0002"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0001"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0025"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0023"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0005"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0009"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0008"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0018"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0021"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0043"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0095"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0006"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0019"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0046"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0022"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0038",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.732000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Hohe Warte 38, 1190 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "38"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Zentralanstalt fÃ¼r Meteorologie und Geodynamik"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0001",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.735000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Spargelfeldstr. 191, 1220 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Ãsterreichische Agentur fÃ¼r Gesundheit und ErnÃ¤hrungssicherheit GmbH"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0023",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.714000+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Landhausg. 7, 8010 Graz"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "23"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Land Steiermark - Amt der SteiermÃ¤rkischen Landesregierung"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0043",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.720000+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/OgdCategoryAustria"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/DirectiveRelevance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Ballhausplatz 2, 1010 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "43"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Bundeskanzleramt Ãsterreich"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0067",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.730000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "EVN Platz 1, 2344 Maria Enzersdorf"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "67"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Netz NiederÃ¶sterreich GmbH"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0003",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.720000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Johannesgasse 5, 1010 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "3"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Bundesministerium fÃ¼r Finanzen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0064",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.733000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "KasernenstraÃe 9, 7000 Eisenstadt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "64"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Netz Burgenland GmbH"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0010",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.714000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "RadetzkystraÃe 2, 1030 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "10"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Bundesministerium fÃ¼r Klimaschutz, Umwelt, Energie, MobilitÃ¤t, Innovation und Technologie"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0011",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.738000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "RotenturmstraÃe 5-9, 1011 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "11"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "ASFINAG Autobahnen- und SchnellstraÃen-Finanzierungs-Aktiengesellschaft"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0013",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.724000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Praterstern 3, 1020 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "13"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "ÃBB-Infrastruktur AG"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0051",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.715000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Stubenring 1, 1011 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "51"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Bundesministerium fÃ¼r Digitalisierung und Wirtschaftsstandort"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0009",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.736000+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Marxergasse 2, 1030 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "9"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Forsttechnischer Dienst fÃ¼r Wildbach- und Lawinenverbauung"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0021",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.715000+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Bahnhofplatz 1, 4021 Linz"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "21"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Land OberÃ¶sterreich - Amt der OÃ Landesregierung"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0012",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.728000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Wagramer StraÃe 19, 1220 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "12"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Austro Control"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0005",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.723000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Stubenring 1, 1010 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "5"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Bundesministerium fÃ¼r Land- und Forstwirtschaft, Regionen und Wasserwirtschaft"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0131",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.722000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Bahnhofplatz 5, 9020 Klagenfurt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "131"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Ãsterreichisches Institut fÃ¼r Verkehrsdateninfrastruktur"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0006",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.729000+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Seckendorff-Gudent-Weg 8, 1131 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "6"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Bundesforschungs- und Ausbildungszentrum fÃ¼r Wald, Naturgefahren und Landschaft"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0024",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.723000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Eduard-WallnÃ¶fer-Platz 3, 6020 Innsbruck"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "24"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Land Tirol - Amt der Tiroler Landesregierung"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0025",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.716000+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Johannitergasse 6, 6800 Feldkirch"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "25"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Land Vorarlberg - Amt der Vorarlberger Landesregierung"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0090",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.727000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Dietrichgasse 27, 1030 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "90"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Federal Institute of Agricultural Economics"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0080",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.732000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Europaplatz 2, 1150 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "80"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "VERBUND Hydro Power GmbH"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0056",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.718000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Minoritenplatz 5, 1010 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "56"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Bundesministerium fÃ¼r Bildung, Wissenschaft und Forschung"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0049",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.717000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "RoÃauer LÃ¤nde 1, 1090 Wien"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "49"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Bundesministerium fÃ¼r Landesverteidigung"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0046",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.717000+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/noeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Landhausplatz 1, 3109 St. PÃ¶lten"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "46"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Land NiederÃ¶sterreich - Amt der NÃ Landesregierung"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/dataprovider/0130",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-10-16T19:40:05.725000+00:00"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "LeonhardgÃ¼rtel 10, 8010 Graz"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "130"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Energienetze Steiermark GmbH"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  }
+]

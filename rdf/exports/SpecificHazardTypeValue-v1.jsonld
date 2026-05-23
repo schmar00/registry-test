@@ -1,0 +1,1416 @@
+[
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/thunderstorm",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/precipitation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "In general, a local storm, invariably produced by a cumulonimbus cloud and always accompanied by lightning and thunder, usually with strong gusts of wind, heavy rain, and sometimes with hail."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "thunderstorm"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "thunderstorm"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/continuousRain",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/precipitation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "-"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "continuousRain"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "continuous rain"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/massWasting",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "the dislodgement and downslope transport of soil and rock material under the direct application of gravitational body stresses. In contrast to other erosion processes, the debris removed by mass wasting is not carried within, on, or under another medium. The mass properties of the material being transported depend on the interaction of the soil and rock particles and on the moisture content."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/ductileFlow"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/groundSubsidence"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/landslide"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/mudflow"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/rockfall"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/snowAvalanche"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/snowPressure"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "massWasting"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "mass wasting"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/heavyRain",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/precipitation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Rainfall greater than or equal to 50 mm in past 24 hours"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "heavyRain"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "heavy rain"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/heatWave",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "A period of abnormally and uncomfortably hot and usually humid weather."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "heatWave"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "heat wave"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/snowAvalanche",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/massWasting"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "A snow mass with typically a volume greater than 100 m3 and a minimum length of 50 meters that slides rapidly downhill."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "snowAvalanche"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "snow avalanche"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/blindtromben",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/wind"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "In meteorology, a cloud column or inverted cloud cone, pendant from a cloud base. This supplementary feature occurs mostly with cumulus and cumulonimbus; when it reaches the earth's surface it constitutes the cloudy manifestation of an intense vortex, namely, a tornado or waterspout."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "blindtromben"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "blindtromben"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-05-05T14:30:11+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "An additional classification of the natural hazard."
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0005"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "de",
+        "@value": "Specific Hazard Type"
+      },
+      {
+        "@language": "en",
+        "@value": "Specific Hazard Type"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1.0.0"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/heatWave"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/fluviatileErosion"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/flood"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/wind"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/coldWave"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/precipitation"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/massWasting"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      },
+      {
+        "@language": "en",
+        "@value": "INSPIRE extensibility: open, internal by value"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/wind",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Air in motion relative to the surface of the earth."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/tornado"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/gustnado"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/dustDevil"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/blindtromben"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "wind"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "wind"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/hail",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/precipitation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "ice pellets or small hail (less than 5mm diameter in the Range with 20mm or more"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "hail"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "hail"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/groundSubsidence",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/massWasting"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Subsidence is the sinking or settling of the ground surface. It can occur by a number of methods. Ground subsidence can result from the settlement of native low density soils, or the caving in of natural or man-made underground voids."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "groundSubsidence"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Ground Subsidence"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/heavySnowfall",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/precipitation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Heavy Snowfall greater than or equal to 50 mm in past 24 hours"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "heavySnowfall"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "heavy snowfall"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/landslide",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/massWasting"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Processes of downhill slope movements of soil, rock, and organicMaterials related to different types of ground failure."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "landslide"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "landslide"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/mudflow",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/massWasting"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "mass of mud moving suddenly and quickly down a steep slope"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "mudflow"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "mudflow"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/flood",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Processes of inundation of usually dry (emerged) land, or temporary covering by water of land not normally covered by water."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "flood"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "flood"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/rockfall",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/massWasting"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "is the falling of a newly detached mass of rock from a cliff or down a very steep slope. Rocks in a rockfall can be of any dimension, from the size of baseballs to houses."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "rockfall"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "rockfall"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/dustDevil",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/wind"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Dust devils are occasionally strong enough to cause minor damage (up to EF0 on the Enhanced Fujita scale). Diameters range from about 3 m to greater than 30 m; their average height is about 200 m, but a few have been observed as high as 1 km or more. They have been observed to rotate anticyclonically as well as cyclonically. Although the vertical velocity is predominantly upward, the flow along the axis of large dust devils may be downward. Large dust devils may also contain secondary vortices. Dust devils are best developed on a hot, calm afternoon with clear skies, in a dry region when intense surface heating causes a very steep lapse rate of temperature in the lowest 100 m of the atmosphere."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "dustDevil"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "dust devil"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/precipitation",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "All liquid or solid phase aqueous particles that originate in the atmosphere and fall to the earth's surface."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/thunderstorm"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/heavySnowfall"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/heavyRain"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/hail"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/fog"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/continuousRain"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "precipitation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "precipitation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/snowPressure",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/massWasting"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "This refers to an excessive load of snow that damages the roof or the walls."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "snowPressure"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "snow pressure"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/fog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/precipitation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Water droplets suspended in the atmosphere in the vicinity the earth's surface that affect visibility."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "fog"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "fog"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/coldWave",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Popularly, a period of very cold weather."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "coldWave"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "cold wave"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/gustnado",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/wind"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Colloquial expression for a short-lived, shallow, generally weak, vertically oriented vortex found along a gust front. Gustnadoes are usually visualized by a rotating dust or debris cloud."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "gustnado"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "gustnado"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/ductileFlow",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/massWasting"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "deformation without apparent loss of continuity at the scale of observation."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "ductileFlow"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "ductile flow"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/fluviatileErosion",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Refers to the erosion, particle displacement (fluvial transport) by the flowing water, as well as corrasion by entrained solids."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "fluviatileErosion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "fluviatileErosion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/tornado",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/wind"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "A rotating column of air, in contact with the surface, pendant from a cumuliform cloud, and often visible as a funnel cloud and/or circulating debris/dust at the ground."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "tornado"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "tornado"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  }
+]

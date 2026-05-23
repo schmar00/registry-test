@@ -1,0 +1,190 @@
+subject,predicate,object
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/L,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/G,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/A,http://www.w3.org/2004/02/skos/core#prefLabel,ACKERLAND
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/DM,http://www.w3.org/2004/02/skos/core#notation,DM
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WT,http://www.w3.org/2004/02/skos/core#definition,WEINGARTENFLÃCHEN IM ERTRAG INKL. JUNGANLAGEN UND SCHNITTWEINGÃRTEN - TERRASSENANLAGEN
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/A,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/TF,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/TF,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/FO,http://www.w3.org/2004/02/skos/core#definition,FORST
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/PF,http://www.w3.org/2004/02/skos/core#notation,PF
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/PF,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/DM,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/ST,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/PF,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/GA,http://www.w3.org/2004/02/skos/core#prefLabel,GESCHÃTZTER ANBAU
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/A,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/PF,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WT,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/AN,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/ST,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/S,http://www.w3.org/2004/02/skos/core#prefLabel,SPEZIALKULTUREN
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://purl.org/dc/terms/description,Austrian extension for INVEKOS FeldstÃ¼ckart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/FO
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/TF,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI,http://www.w3.org/2004/02/skos/core#definition,WEINGARTENFLÃCHEN IM ERTRAG INKL. JUNGANLAGEN UND SCHNITTWEINGÃRTEN
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/G,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/D,http://www.w3.org/2004/02/skos/core#prefLabel,GEMEINSCHAFTSWEIDE
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI,http://www.w3.org/2004/02/skos/core#prefLabel,WEINGARTENFLÃCHEN
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/ST,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/GA,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/ST,http://www.w3.org/2004/02/skos/core#definition,SPEZIALKULTURFELDSTÃCKE IN TERASSENFORM
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/PF,http://www.w3.org/2004/02/skos/core#prefLabel,PFLEGEFLÃCHE
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/NF,http://www.w3.org/2004/02/skos/core#notation,NF
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/L,http://www.w3.org/2004/02/skos/core#prefLabel,ALMEN
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/AN,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/G,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/DM,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/D,http://www.w3.org/2004/02/skos/core#notation,D
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/NF,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/G,http://www.w3.org/2004/02/skos/core#notation,G
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/LM,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/PF,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WT,http://www.w3.org/2004/02/skos/core#notation,WT
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/FO,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/TF,http://www.w3.org/2004/02/skos/core#definition,TEICHFLÃCHEN
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/DM
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/NF,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/L
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/G,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WT,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/L,http://www.w3.org/2004/02/skos/core#notation,L
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/A,http://www.w3.org/2004/02/skos/core#notation,A
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WT,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/S,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/LM,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WT,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/LM,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/PF
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/G,http://www.w3.org/2004/02/skos/core#prefLabel,GRÃNLAND
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/ST,http://www.w3.org/2004/02/skos/core#notation,ST
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WT,http://www.w3.org/2004/02/skos/core#prefLabel,WEINGARTENFLÃCHEN TERRASSAN
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/G,http://www.w3.org/2004/02/skos/core#definition,GRÃNLAND
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/FO,http://www.w3.org/2004/02/skos/core#notation,FO
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/S
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/FO,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/ST,http://www.w3.org/2004/02/skos/core#prefLabel,SPEZIALKULTURFELDSTÃCKE IN TERASSENFORM
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/S,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/LM,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/GA,http://www.w3.org/2004/02/skos/core#notation,GA
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/FO,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://purl.org/dc/terms/description,Ãsterreich-Erweiterung fÃ¼r INVEKOS FeldstÃ¼ckart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/AN,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WT,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/DM,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/NF,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/DM,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/LM,http://www.w3.org/2004/02/skos/core#prefLabel,ALMFELDSTÃCK - MITBESTOSSEN
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://purl.org/dc/terms/title,INVEKOS FeldstÃ¼cksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/GA,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/DM,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/LM
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/A,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/S,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://purl.org/dc/terms/type,https://registry.gdi-de.org/codelist/de.iacs
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/TF,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WT,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/LM,http://www.w3.org/2004/02/skos/core#definition,ALMFELDSTÃCK - MITBESTOSSEN
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/TF,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/PF,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/GA
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/G
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/PF,http://www.w3.org/2004/02/skos/core#definition,PFLEGEFLÃCHE
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/D,http://www.w3.org/2004/02/skos/core#definition,GEMEINSCHAFTSWEIDE
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/L,http://www.w3.org/2004/02/skos/core#definition,ALMEN
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/ST,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/D,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/A
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WT
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/GA,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/GA,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/S,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/GA,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/DM,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/LM,http://www.w3.org/2004/02/skos/core#notation,LM
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/S,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/LM,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/L,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/D,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/D,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/AN,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#ConceptScheme
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/TF,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/D,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/G,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/A,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/G,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/NF,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/A,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/S,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://purl.org/dc/terms/publisher,https://registry.inspire.gv.at/dataprovider/0095
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WT,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/AN,http://www.w3.org/2004/02/skos/core#notation,AN
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/S,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/ST,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/LM,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/L,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/AN,http://www.w3.org/2004/02/skos/core#prefLabel,ACKER NICHT KPF BEIHILFEFÃHIG
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/ST,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/L,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/LM,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/PF,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/AN,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/AN
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/D,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/FO,http://www.w3.org/2004/02/skos/core#prefLabel,FORST
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/D
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/NF,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/G,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI,http://www.w3.org/2004/02/skos/core#notation,WI
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/FO,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/DM,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/GA,http://www.w3.org/2004/02/skos/core#definition,GESCHÃTZTER ANBAU
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/AN,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/L,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/A,http://www.w3.org/2004/02/skos/core#definition,ACKERLAND
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/TF,http://www.w3.org/2004/02/skos/core#notation,TF
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/NF,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/NF,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/GA,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/NF
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://purl.org/dc/terms/created,2026-05-05T14:30:11+00:00
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/FO,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://purl.org/dc/terms/title,INVEKOS FeldstÃ¼cksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/PF,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/NF,http://www.w3.org/2004/02/skos/core#prefLabel,SONSTIGE NUTZFLÃCHE
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://www.w3.org/2002/07/owl#versionInfo,1.0.0
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/ST,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/S
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/S,http://www.w3.org/2004/02/skos/core#definition,SPEZIALKULTUREN
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://www.w3.org/2004/02/skos/core#scopeNote,"INSPIRE extensibility: open, internal by value"
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/S,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/ST
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/S,http://www.w3.org/2004/02/skos/core#notation,S
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/D,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/TF,http://www.w3.org/2004/02/skos/core#prefLabel,TEICHFLÃCHEN
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/L,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/D,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/GA,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/FO,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/NF,http://www.w3.org/2004/02/skos/core#definition,SONSTIGE NUTZFLÃCHE
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/AN,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/TF,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/DM,http://www.w3.org/2004/02/skos/core#prefLabel,WEIDEFELDSTÃCK - MITBESTOSSEN
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/DM,http://www.w3.org/2004/02/skos/core#definition,WEIDEFELDSTÃCK - MITBESTOSSEN
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/FO,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/A,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/A,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/TF
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/AN,http://www.w3.org/2004/02/skos/core#definition,ACKER NICHT KPF BEIHILFEFÃHIG
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/L,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu

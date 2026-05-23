@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:ns1="http://www.w3.org/ns/adms#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/yellowAreaA">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
+    <dcterms:description xml:lang="en">OOE</dcterms:description>
+    <dcterms:description xml:lang="de">OOE</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
+    <skos:definition xml:lang="en">Section of an international important wildlife corridor with reduced functionality.</skos:definition>
+    <skos:definition xml:lang="de">Abschnitt eines international bedeutenden Wildtierkorridors mit eingeschrÃ¤nkter FunktionalitÃ¤t.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"/>
+    <skos:notation>yellowAreaA</skos:notation>
+    <skos:prefLabel xml:lang="en">yellow area - A</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Gelbzone - A</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/yellowAreaB">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
+    <dcterms:description xml:lang="en">OOE</dcterms:description>
+    <dcterms:description xml:lang="de">OOE</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
+    <skos:definition xml:lang="en">Section of a regional important wildlife corridor with reduced functionality.</skos:definition>
+    <skos:definition xml:lang="de">Abschnitt eines regional bedeutenden Wildtierkorridors mit eingeschrÃ¤nkter FunktionalitÃ¤t.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"/>
+    <skos:notation>yellowAreaB</skos:notation>
+    <skos:prefLabel xml:lang="en">yellow area -B</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Gelbzone - B</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/transitionArea">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
+    <dcterms:description xml:lang="en">OOE</dcterms:description>
+    <dcterms:description xml:lang="de">OOE</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
+    <skos:definition xml:lang="de">Gebiete mit signifikanter Waldausstattung (30-50 % FlÃ¤chenanteil) und eingeschrÃ¤nkter Eignung als Lebensraum fÃ¼r waldgebundene Tierarten mit groÃen RaumansprÃ¼chen. Strukturreiche Kulturlandschaft mit vielen KleinwaldflÃ¤chen, wenig Siedlungsinfrastruktur, geringe Zerschneidung durch hochrangige VerkehrstrÃ¤ger.</skos:definition>
+    <skos:definition xml:lang="en">Areas with a sginificant portion of woodland (30-50 % of total amount) and reduced habitat function for large forest animals. Diverse cultural landscape with small structured forest areas, only moderately fragmented by traffic infrastructure and settlements.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"/>
+    <skos:notation>transitionArea</skos:notation>
+    <skos:prefLabel xml:lang="de">Uebergangszone</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">transition area</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/redAreaA">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
+    <dcterms:description xml:lang="en">OOE</dcterms:description>
+    <dcterms:description xml:lang="de">OOE</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
+    <skos:definition xml:lang="en">Section of an international important wildlife corridor with highly reduced functionality.</skos:definition>
+    <skos:definition xml:lang="de">Abschnitt eines international bedeutenden Wildtierkorridors mit erheblich eingeschrÃ¤nkter FunktionalitÃ¤t.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"/>
+    <skos:notation>redAreaA</skos:notation>
+    <skos:prefLabel xml:lang="de">Rotzone - A</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">red area - A</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/redAreaB">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
+    <dcterms:description xml:lang="en">OOE</dcterms:description>
+    <dcterms:description xml:lang="de">OOE</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
+    <skos:definition xml:lang="en">Section of a regional important wildlife corridor with highly reduced functionality.</skos:definition>
+    <skos:definition xml:lang="de">Abschnitt eines regional bedeutenden Wildtierkorridors mit erheblich eingeschrÃ¤nkter FunktionalitÃ¤t.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"/>
+    <skos:notation>redAreaB</skos:notation>
+    <skos:prefLabel xml:lang="de">Rotzone - B</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">red area - B</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-05T14:30:11+00:00</dcterms:created>
+    <dcterms:description xml:lang="en">Habitat and Biotop Type Wildlife Corridor</dcterms:description>
+    <dcterms:description xml:lang="de">Habitat and Biotoptypen Wildtier Korridor</dcterms:description>
+    <dcterms:publisher rdf:resource="https://registry.inspire.gv.at/dataprovider/0021"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
+    <dcterms:title xml:lang="en">Biotop Type Wildlife Corridor</dcterms:title>
+    <dcterms:title xml:lang="de">Biotoptypen Wildtierkorridor</dcterms:title>
+    <dcterms:type rdf:resource="http://inspire.ec.europa.eu/codelist/LocalNameCodeValue"/>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/yellowAreaB"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/yellowAreaA"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/transitionArea"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/steppingStone"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/redAreaB"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/coreArea"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/corridorA"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/corridorB"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/redAreaA"/>
+    <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/steppingStone">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
+    <dcterms:description xml:lang="en">OOE</dcterms:description>
+    <dcterms:description xml:lang="de">OOE</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
+    <skos:definition xml:lang="en">Woodland areas highly important for ecological landscape connectivity along the Danube river.</skos:definition>
+    <skos:definition xml:lang="de">Waldgebiete mit RÃ¼ckzugs- und Vernetzungsfunktion entlang der Donau zur Ãberwindung natÃ¼rlicher Barrieren.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"/>
+    <skos:notation>steppingStone</skos:notation>
+    <skos:prefLabel xml:lang="de">Trittstein</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">stepping stone</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/corridorA">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
+    <dcterms:description xml:lang="en">OOE</dcterms:description>
+    <dcterms:description xml:lang="de">OOE</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
+    <skos:definition xml:lang="en">Wildlife corridor of international importance for the dispersion of migrating large mammals.</skos:definition>
+    <skos:definition xml:lang="de">International bedeutender Wildtierkorridor zur Lebensraumvernetzung fÃ¼r weitwandernde GroÃsÃ¤uger.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"/>
+    <skos:notation>corridorA</skos:notation>
+    <skos:prefLabel xml:lang="de">Korridor - A</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">corridor - A</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/corridorB">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
+    <dcterms:description xml:lang="en">OOE</dcterms:description>
+    <dcterms:description xml:lang="de">OOE</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
+    <skos:definition xml:lang="en">Wildlife corridor of regional importance for the dispersion of migrating large mammals.</skos:definition>
+    <skos:definition xml:lang="de">Regional bedeutender Wildtierkorridor zur Lebensraumvernetzung fÃ¼r weitwandernde GroÃsÃ¤uger.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"/>
+    <skos:notation>corridorB</skos:notation>
+    <skos:prefLabel xml:lang="de">Korridor - B</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">corridor - B</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/coreArea">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
+    <dcterms:description xml:lang="en">OOE</dcterms:description>
+    <dcterms:description xml:lang="de">OOE</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
+    <skos:definition xml:lang="de">Gebiete mit hoher Waldausstattung (&gt; 50 % FlÃ¤chenanteil) und guter Eignung als Lebensraum fÃ¼r waldgebundene Tierarten mit groÃen RaumansprÃ¼chen. GrÃ¶Ãere geschlossene Waldgebiete, kaum Siedlungsinfrastruktur und Zerschneidung durch hochrangige VerkehrstrÃ¤ger, kleinteilige Kulturlandschaft.</skos:definition>
+    <skos:definition xml:lang="en">Areas with a high portion of woodland (more than 50 % of total amount) and appropriate habitat function for large forest animals. Larger closed woodland areas or highly diverse cultural landscapes, hardly or not fragmented by traffic infrastructure and settlements.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"/>
+    <skos:notation>coreArea</skos:notation>
+    <skos:prefLabel xml:lang="de">Kernzone</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">core area</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+</rdf:RDF>

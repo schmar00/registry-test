@@ -1,0 +1,233 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://registry.inspire.gv.at/codelist/OgdCategoryAustria:1> {
+    <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/agriculture> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/base2> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme> ;
+        rdfs:seeAlso "https://www.data.gv.at/" ;
+        skos:definition "Best possible matching europeandataportal.eu according Agriculture, Fisheries, Forestry and Foods"@de,
+            "Best possible matching europeandataportal.eu according Agriculture, Fisheries, Forestry and Foods"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        skos:notation "agriculture" ;
+        skos:prefLabel "Land- und Forstwirtschaft"@de,
+            "agriculture"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/culture> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/base2> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme> ;
+        rdfs:seeAlso "https://www.data.gv.at/" ;
+        skos:definition "Best possible matching europeandataportal.eu according Education, Culture and Sport"@de,
+            "Best possible matching europeandataportal.eu according Education, Culture and Sport"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        skos:notation "culture" ;
+        skos:prefLabel "Kunst und Kultur"@de,
+            "culture"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/economyAndTourism> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/base2> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme> ;
+        rdfs:seeAlso "https://www.data.gv.at/" ;
+        skos:definition "Best possible matching europeandataportal.eu according Economy and Finance"@de,
+            "Best possible matching europeandataportal.eu according Economy and Finance"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        skos:notation "economyAndTourism" ;
+        skos:prefLabel "Wirtschaft und Tourismus"@de,
+            "economy and tourism"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/educationAndScience> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/base2> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme> ;
+        rdfs:seeAlso "https://www.data.gv.at/" ;
+        skos:definition "Best possible matching europeandataportal.eu according Education, Culture, Sport, Science and Technology"@de,
+            "Best possible matching europeandataportal.eu according Education, Culture, Sport, Science and Technology"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        skos:notation "educationAndScience" ;
+        skos:prefLabel "Bildung und Forschung"@de,
+            "education and science"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/environment> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/base2> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme> ;
+        rdfs:seeAlso "https://www.data.gv.at/" ;
+        skos:definition "Best possible matching europeandataportal.eu according Environment or Energy"@de,
+            "Best possible matching europeandataportal.eu according Environment or Energy"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        skos:notation "environment" ;
+        skos:prefLabel "Umwelt"@de,
+            "environment"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/finance> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/base2> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme> ;
+        rdfs:seeAlso "https://www.data.gv.at/" ;
+        skos:definition "Best possible matching europeandataportal.eu according Economy and Finance"@de,
+            "Best possible matching europeandataportal.eu according Economy and Finance"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        skos:notation "finance" ;
+        skos:prefLabel "Finanzen und Rechnungswesen"@de,
+            "finance"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/geographyAndPlanning> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/base2> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme> ;
+        rdfs:seeAlso "https://www.data.gv.at/" ;
+        skos:definition "Best possible matching europeandataportal.eu according Regions and Cities"@de,
+            "Best possible matching europeandataportal.eu according Regions and Cities"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        skos:notation "geographyAndPlanning" ;
+        skos:prefLabel "Geographie und Planung"@de,
+            "geography and planning"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/governmentAndPolitics> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/base2> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme> ;
+        rdfs:seeAlso "https://www.data.gv.at/" ;
+        skos:definition "Best possible matching europeandataportal.eu according Government and Public Sector"@de,
+            "Best possible matching europeandataportal.eu according Government and Public Sector"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        skos:notation "governmentAndPolitics" ;
+        skos:prefLabel "Verwaltung und Politik"@de,
+            "government and politics"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/health> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/base2> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme> ;
+        rdfs:seeAlso "https://www.data.gv.at/" ;
+        skos:definition "Best possible matching europeandataportal.eu according Health"@de,
+            "Best possible matching europeandataportal.eu according Health"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        skos:notation "health" ;
+        skos:prefLabel "Gesundheit"@de,
+            "health"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/labourAndEmployment> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/base2> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme> ;
+        rdfs:seeAlso "https://www.data.gv.at/" ;
+        skos:definition "Best possible matching europeandataportal.eu according Economy and Finance"@de,
+            "Best possible matching europeandataportal.eu according Economy and Finance"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        skos:notation "labourAndEmployment" ;
+        skos:prefLabel "Arbeit"@de,
+            "labour and employment"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/population> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/base2> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme> ;
+        rdfs:seeAlso "https://www.data.gv.at/" ;
+        skos:definition "Best possible matching europeandataportal.eu according Population and Society"@de,
+            "Best possible matching europeandataportal.eu according Population and Society"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        skos:notation "population" ;
+        skos:prefLabel "Bevoelkerung"@de,
+            "population"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/recreation> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/base2> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme> ;
+        rdfs:seeAlso "https://www.data.gv.at/" ;
+        skos:definition "Best possible matching europeandataportal.eu according Education, Culture and Sport"@de,
+            "Best possible matching europeandataportal.eu according Education, Culture and Sport"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        skos:notation "recreation" ;
+        skos:prefLabel "Sport und Freizeit"@de,
+            "recreation"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/society> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/base2> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme> ;
+        rdfs:seeAlso "https://www.data.gv.at/" ;
+        skos:definition "Best possible matching europeandataportal.eu according Population and Society"@de,
+            "Best possible matching europeandataportal.eu according Population and Society"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        skos:notation "society" ;
+        skos:prefLabel "Gesellschaft und Soziales"@de,
+            "society"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/transport> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/base2> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme> ;
+        rdfs:seeAlso "https://www.data.gv.at/" ;
+        skos:definition "Best possible matching europeandataportal.eu according Transport"@de,
+            "Best possible matching europeandataportal.eu according Transport"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        skos:notation "transport" ;
+        skos:prefLabel "Verkehr und Technik"@de,
+            "transport"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> a skos:ConceptScheme ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/base2> ;
+        dcterms:created "2026-05-05T14:30:11+00:00"^^xsd:dateTime ;
+        dcterms:description "Kategorisierung des Datensatzes, Dienstes oder Dokuments nach OGD Austria."@de,
+            "Categorization of data, data service or document according to OGD Austria."@en ;
+        dcterms:publisher <https://registry.inspire.gv.at/dataprovider/0043> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/> ;
+        dcterms:title "OGD Kategorien"@de,
+            "OGD Categories"@en ;
+        owl:versionInfo "1.0.0" ;
+        skos:hasTopConcept <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/agriculture>,
+            <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/culture>,
+            <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/economyAndTourism>,
+            <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/educationAndScience>,
+            <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/environment>,
+            <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/finance>,
+            <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/geographyAndPlanning>,
+            <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/governmentAndPolitics>,
+            <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/health>,
+            <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/labourAndEmployment>,
+            <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/population>,
+            <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/recreation>,
+            <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/society>,
+            <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/transport> ;
+        skos:scopeNote "INSPIRE governance level: national-technical",
+            "INSPIRE extensibility: open, internal by value"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+}
+

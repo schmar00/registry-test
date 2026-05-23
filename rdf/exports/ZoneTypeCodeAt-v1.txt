@@ -1,0 +1,172 @@
+subject|predicate|object
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Bewirtschaftungsgebiete|http://www.w3.org/2004/02/skos/core#definition|Landwirtschaftliche Lagen Ãsterreichs auf Basis NUTS III Gebiete
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Jagdkastaster
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Impoundment|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Sanierungsgebiet_Luftreinhalteprogramm|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Bewirtschaftungsgebiete|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/wISPointinformation|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/LandwirtschaftlicheHauptproduktionsgebiete|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Sanierungsgebiet_Luftreinhalteprogramm|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Almhauptregionen|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/ALSAG_Gebiete
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/fishingCadastre|http://www.w3.org/2004/02/skos/core#definition|fishing districts and owner of fishing license
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/saproWindEnergy|http://www.w3.org/2004/02/skos/core#definition|Dieses Entwicklungsprogramm hat die Festlegung von Ã¼berÃ¶rtlichen Vorgaben zum raumvertrÃ¤glichen Ausbau der Windenergie in der Steiermark zum Ziel.
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/fishingCadastre|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/LandwirtschaftlicheHauptproduktionsgebiete|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/wISPointinformation|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Sanierungsgebiet_Luftreinhalteprogramm|http://www.w3.org/2004/02/skos/core#definition|Sanierungsgebiet ist ein Gebiet, in dem sich die Emissionsquellen befinden, die einen erheblichen Beitrag zur Ãberschreitung eines Immissionsgrenzwerts geleistet haben und fÃ¼r die in einem Luftreinhalte-Programm MaÃnahmen vorgesehen werden kÃ¶nnen.
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Hydropeaking|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Impoundment|http://www.w3.org/2004/02/skos/core#definition|GewÃ¤sserstrecke mit anthropogen bedingter Reduktionen der mittleren FlieÃgeschwindigkeit im Querprofil auf unter 0.3 Meter pro Sekunde bei Mittelwasser (MQ).
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/saproWindEnergy
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Hydropeaking|http://www.w3.org/2000/01/rdf-schema#seeAlso|national-technical
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Sanierungsgebiet_Luftreinhalteprogramm|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/LandwirtschaftlicheHauptproduktionsgebiete|http://www.w3.org/2004/02/skos/core#notation|LandwirtschaftlicheHauptproduktionsgebiete
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Jagdkastaster|http://www.w3.org/2004/02/skos/core#notation|Jagdkastaster
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Impoundment
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/WaterAbstraction|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/WaterAbstraction|http://www.w3.org/2000/01/rdf-schema#seeAlso|national-technical
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/WaterAbstraction
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/wISPointinformation
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/LandwirtschaftlicheHauptproduktionsgebiete|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Almhauptregionen|http://www.w3.org/2004/02/skos/core#definition|Almregionen und Almhauptregionen Ãsterreichs auf Basis politischer Gemeinden
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/ALSAG_Gebiete|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/saproWindEnergy|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://purl.org/dc/terms/title|Zone Type Code Austria
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Jagdkastaster|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://purl.org/dc/terms/description|Austrian Extension on high-level classification defining the type of Management, Restriction or Regulation Zone.
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/saproWindEnergy|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/wISPointinformation|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Almhauptregionen|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/LandwirtschaftlicheHauptproduktionsgebiete|http://www.w3.org/2004/02/skos/core#prefLabel|Main agricultural production areas
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Bewirtschaftungsgebiete|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/fishingCadastre|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Hydropeaking|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Bewirtschaftungsgebiete|http://www.w3.org/2004/02/skos/core#prefLabel|Landwirtschaftliche Bewirtschaftungsgebiete
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Sanierungsgebiet_Luftreinhalteprogramm|http://purl.org/dc/terms/description|Def. UBA
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/WaterAbstraction|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Jagdkastaster|http://www.w3.org/2004/02/skos/core#prefLabel|hunting areas
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Bewirtschaftungsgebiete|http://www.w3.org/2004/02/skos/core#definition|Agricultural areas of Austria based on NUTS III regions
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/LandwirtschaftlicheHauptproduktionsgebiete|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/fishingCadastre|http://www.w3.org/2004/02/skos/core#prefLabel|fishing cadastre
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Hydropeaking|http://www.w3.org/2004/02/skos/core#prefLabel|Hydropeaking
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/wISPointinformation|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/WaterAbstraction|http://www.w3.org/2004/02/skos/core#notation|WaterAbstraction
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/saproWindEnergy|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/ALSAG_Gebiete|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/saproWindEnergy|http://www.w3.org/2004/02/skos/core#prefLabel|SAPRO Wind Energy Zone
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/fishingCadastre|http://www.w3.org/2004/02/skos/core#prefLabel|Fischereikataster
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Jagdkastaster|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/saproWindEnergy|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Bewirtschaftungsgebiete|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Jagdkastaster|http://www.w3.org/2004/02/skos/core#definition|hunting areas
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Jagdkastaster|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Sanierungsgebiet_Luftreinhalteprogramm|http://www.w3.org/2004/02/skos/core#prefLabel|Sanierungsgebiet Luftreinhalteprogramm
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Hydropeaking|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Almhauptregionen|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Hydropeaking|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/wISPointinformation|http://www.w3.org/2004/02/skos/core#prefLabel|WIS-Punktinformationen
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/WaterAbstraction|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/wISPointinformation|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/WaterAbstraction|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Hydropeaking|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/ALSAG_Gebiete|http://www.w3.org/2004/02/skos/core#definition|Areas pursuant to the Contaminated Sites Remediation Act.
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Almhauptregionen|http://www.w3.org/2004/02/skos/core#definition|Alpine pasture regions and main Alpine pasture regions of Austria on the basis of political municipalities
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/LandwirtschaftlicheHauptproduktionsgebiete|http://www.w3.org/2004/02/skos/core#definition|Landwirtschaftliche Klein- und Hauptproduktionsgebiete Ãsterreichs auf Basis politischer Gemeinden
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Sanierungsgebiet_Luftreinhalteprogramm|http://www.w3.org/2004/02/skos/core#notation|Sanierungsgebiet_Luftreinhalteprogramm
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Bewirtschaftungsgebiete
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/WaterAbstraction|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Impoundment|http://www.w3.org/2004/02/skos/core#definition|Water stretch with anthropogenically caused reductions of average flow velocity in cross sections to less than 0.3 meters per second for medium water level.
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Impoundment|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/saproWindEnergy|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Almhauptregionen|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Hydropeaking|http://www.w3.org/2004/02/skos/core#definition|GewÃ¤sserstrecke mit anthropogen bedingten WasserfÃ¼hrungsschwankungen mit Schwall-Sunk-Erscheinungen.
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#ConceptScheme
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://purl.org/dc/terms/type|http://inspire.ec.europa.eu/codelist/ZoneTypeCode
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/fishingCadastre|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Bewirtschaftungsgebiete|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/WaterAbstraction|http://www.w3.org/2004/02/skos/core#definition|Abschnitt eines GewÃ¤ssers, der durch anthropogen bedingte Ableitung bzw. durch anthropogen bedingten RÃ¼ckhalt von einer Abminderung des natÃ¼rlichen Abflusses betroffen ist.
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Jagdkastaster|http://www.w3.org/2004/02/skos/core#prefLabel|Jagdgebiet
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Hydropeaking|http://www.w3.org/2004/02/skos/core#notation|Hydropeaking
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Impoundment|http://www.w3.org/2004/02/skos/core#prefLabel|Impoundment
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/wISPointinformation|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://purl.org/dc/terms/created|2026-05-05T14:30:11+00:00
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Impoundment|http://www.w3.org/2004/02/skos/core#prefLabel|Staustrecke
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Bewirtschaftungsgebiete|http://www.w3.org/2004/02/skos/core#notation|Bewirtschaftungsgebiete
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Sanierungsgebiet_Luftreinhalteprogramm|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://purl.org/dc/terms/description|Klassifikation, die den Typ des Bewirtschaftungsgebiets, Schutzgebiets oder geregelten Gebiets definiert.
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Impoundment|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Hydropeaking|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Hydropeaking|http://www.w3.org/2004/02/skos/core#definition|Water stretch with anthropogenically caused runoff fluctuations and the occurrence of hydropeaking.
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Bewirtschaftungsgebiete|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/saproWindEnergy|http://www.w3.org/2004/02/skos/core#definition|The aim of this development program is to define supra-local guidelines for the spatially compatible expansion of wind energy in Styria.
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Impoundment|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/fishingCadastre|http://www.w3.org/2004/02/skos/core#notation|fishingCadastre
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/ALSAG_Gebiete|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/ALSAG_Gebiete|http://www.w3.org/2004/02/skos/core#prefLabel|Contaminated Site Area
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/LandwirtschaftlicheHauptproduktionsgebiete|http://www.w3.org/2004/02/skos/core#definition|Small and main agricultural production areas in Austria based on political municipalities
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/saproWindEnergy|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/fishingCadastre|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/fishingCadastre
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Almhauptregionen|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/WaterAbstraction|http://www.w3.org/2004/02/skos/core#prefLabel|Water abstraction
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Sanierungsgebiet_Luftreinhalteprogramm|http://www.w3.org/2004/02/skos/core#prefLabel|air quality improvement zone
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Bewirtschaftungsgebiete|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/fishingCadastre|http://www.w3.org/2004/02/skos/core#definition|Fischereireviere bzw. Fischereirechtsinhaber
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/fishingCadastre|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://purl.org/dc/terms/title|Code des Gebietstyps Ãsterreich
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Sanierungsgebiet_Luftreinhalteprogramm|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Impoundment|http://www.w3.org/2000/01/rdf-schema#seeAlso|national-technical
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/ALSAG_Gebiete|http://www.w3.org/2004/02/skos/core#definition|Gebiete gemaess Altlastensanierungsgesetz (ALSAG). Vom Landeshauptmann gemeldete Altablagerungen (alte Deponien) und Altstandorte (ehemalige Fabriken), die vor 1989 kontaminiert sein koennen, werden nach DurchfÃ¼hrung einer Gefaehrdungsabschaetzung und Feststellung einer erheblichen Gefaehrdung fÃ¼r die Umwelt und Gesundheit (nach Bewertung durch das Umweltbundesamt) als sicherungs- und sanierungsbeduerftige Altlasten vom Bundesminister in der AltlastenVO ausgewiesen. Die Bewertung der Dringlichkeit von erforderlichen Sanierungsmassnahmen werden mittels drei PrioritÃ¤tenklassen unterschieden. Eine Einstufung in die PrioritÃ¤tenklasse 1 bedeutet die hÃ¶echste Dringlichkeit von SanierungsmaÃnahmen. Nach Bestaetigung des Sanierungserfolges werden die Daten zur Altlast vom Umweltbundesamt aktualisiert und in der AltlastenVO vom Bundesminister als sanierte oder gesicherte Altlast gekennzeichnet.
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Almhauptregionen|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Almhauptregionen|http://www.w3.org/2004/02/skos/core#prefLabel|Almhauptregionen
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/ALSAG_Gebiete|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/wISPointinformation|http://www.w3.org/2004/02/skos/core#definition|Wasserrechtlich bewilligte Anlagen (Wasserbuch), Steiermark
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/saproWindEnergy|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/ALSAG_Gebiete|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Almhauptregionen|http://www.w3.org/2004/02/skos/core#prefLabel|main alpine regions
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Hydropeaking|http://www.w3.org/2004/02/skos/core#prefLabel|Schwallstrecke
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://www.w3.org/2002/07/owl#versionInfo|1.0.0
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/WaterAbstraction|http://www.w3.org/2004/02/skos/core#prefLabel|Restwasserstrecke
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Almhauptregionen|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/LandwirtschaftlicheHauptproduktionsgebiete|http://www.w3.org/2004/02/skos/core#prefLabel|Landwirtschaftliche Hauptproduktionsgebiete
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/ALSAG_Gebiete|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/wISPointinformation|http://www.w3.org/2004/02/skos/core#definition|Water law approved facilities (water register), Styria.
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Jagdkastaster|http://www.w3.org/2004/02/skos/core#definition|Ausweisung von Jagdteilgebieten aufgrund von jeweiligen Jagdgesetzen.
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE extensibility: open, internal by value
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/LandwirtschaftlicheHauptproduktionsgebiete|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Almhauptregionen|http://www.w3.org/2004/02/skos/core#notation|Almhauptregionen
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://purl.org/dc/terms/publisher|https://registry.inspire.gv.at/dataprovider/0008
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/ALSAG_Gebiete|http://www.w3.org/2004/02/skos/core#notation|ALSAG_Gebiete
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Sanierungsgebiet_Luftreinhalteprogramm|http://www.w3.org/2004/02/skos/core#definition|air quality improvement zone is an area in which the emission sources are located that have made a significant contribution to exceeding an air quality limit value and for which measures can be provided in an air pollution control program.
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Impoundment|http://www.w3.org/2004/02/skos/core#notation|Impoundment
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/WaterAbstraction|http://www.w3.org/2004/02/skos/core#definition|Section of a flowing water which is affected by anthropogenically caused drainage or restraint due to a reduction of its natural runoff.
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Jagdkastaster|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Almhauptregionen
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/ALSAG_Gebiete|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Impoundment|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/wISPointinformation|http://www.w3.org/2004/02/skos/core#prefLabel|waterinformationsystem
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/ALSAG_Gebiete|http://www.w3.org/2004/02/skos/core#prefLabel|Gebiete gemaess Altlastensanierungsgesetz
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/fishingCadastre|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/LandwirtschaftlicheHauptproduktionsgebiete|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/wISPointinformation|http://www.w3.org/2004/02/skos/core#notation|wISPointinformation
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Impoundment|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/saproWindEnergy|http://www.w3.org/2004/02/skos/core#notation|saproWindEnergy
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Jagdkastaster|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Sanierungsgebiet_Luftreinhalteprogramm|http://purl.org/dc/terms/description|Def. UBA
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Sanierungsgebiet_Luftreinhalteprogramm|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/fishingCadastre|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Jagdkastaster|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/wISPointinformation|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/WaterAbstraction|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/LandwirtschaftlicheHauptproduktionsgebiete
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Hydropeaking
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Bewirtschaftungsgebiete|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Sanierungsgebiet_Luftreinhalteprogramm|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/LandwirtschaftlicheHauptproduktionsgebiete|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Sanierungsgebiet_Luftreinhalteprogramm
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/saproWindEnergy|http://www.w3.org/2004/02/skos/core#prefLabel|SAPRO Windenergiezone
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Jagdkastaster|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Bewirtschaftungsgebiete|http://www.w3.org/2004/02/skos/core#prefLabel|Agricultural management areas

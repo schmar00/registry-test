@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:ns1="http://www.w3.org/ns/adms#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Bewirtschaftungsgebiete">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/am"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/am"/>
+    <skos:definition xml:lang="de">Landwirtschaftliche Lagen Ãsterreichs auf Basis NUTS III Gebiete</skos:definition>
+    <skos:definition xml:lang="en">Agricultural areas of Austria based on NUTS III regions</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <skos:notation>Bewirtschaftungsgebiete</skos:notation>
+    <skos:prefLabel xml:lang="de">Landwirtschaftliche Bewirtschaftungsgebiete</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Agricultural management areas</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/am"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-05T14:30:11+00:00</dcterms:created>
+    <dcterms:description xml:lang="de">Klassifikation, die den Typ des Bewirtschaftungsgebiets, Schutzgebiets oder geregelten Gebiets definiert.</dcterms:description>
+    <dcterms:description xml:lang="en">Austrian Extension on high-level classification defining the type of Management, Restriction or Regulation Zone.</dcterms:description>
+    <dcterms:publisher rdf:resource="https://registry.inspire.gv.at/dataprovider/0008"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/am"/>
+    <dcterms:title xml:lang="de">Code des Gebietstyps Ãsterreich</dcterms:title>
+    <dcterms:title xml:lang="en">Zone Type Code Austria</dcterms:title>
+    <dcterms:type rdf:resource="http://inspire.ec.europa.eu/codelist/ZoneTypeCode"/>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/wISPointinformation"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/WaterAbstraction"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/saproWindEnergy"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Sanierungsgebiet_Luftreinhalteprogramm"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/LandwirtschaftlicheHauptproduktionsgebiete"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Jagdkastaster"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Impoundment"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Hydropeaking"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Almhauptregionen"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/ALSAG_Gebiete"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Bewirtschaftungsgebiete"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/fishingCadastre"/>
+    <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Impoundment">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/am"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/am"/>
+    <skos:definition xml:lang="en">Water stretch with anthropogenically caused reductions of average flow velocity in cross sections to less than 0.3 meters per second for medium water level.</skos:definition>
+    <skos:definition xml:lang="de">GewÃ¤sserstrecke mit anthropogen bedingter Reduktionen der mittleren FlieÃgeschwindigkeit im Querprofil auf unter 0.3 Meter pro Sekunde bei Mittelwasser (MQ).</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <skos:notation>Impoundment</skos:notation>
+    <skos:prefLabel xml:lang="de">Staustrecke</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Impoundment</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Sanierungsgebiet_Luftreinhalteprogramm">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/am"/>
+    <dcterms:description xml:lang="en">Def. UBA</dcterms:description>
+    <dcterms:description xml:lang="de">Def. UBA</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/am"/>
+    <skos:definition xml:lang="de">Sanierungsgebiet ist ein Gebiet, in dem sich die Emissionsquellen befinden, die einen erheblichen Beitrag zur Ãberschreitung eines Immissionsgrenzwerts geleistet haben und fÃ¼r die in einem Luftreinhalte-Programm MaÃnahmen vorgesehen werden kÃ¶nnen.</skos:definition>
+    <skos:definition xml:lang="en">air quality improvement zone is an area in which the emission sources are located that have made a significant contribution to exceeding an air quality limit value and for which measures can be provided in an air pollution control program.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <skos:notation>Sanierungsgebiet_Luftreinhalteprogramm</skos:notation>
+    <skos:prefLabel xml:lang="de">Sanierungsgebiet Luftreinhalteprogramm</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">air quality improvement zone</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/wISPointinformation">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/am"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/am"/>
+    <skos:definition xml:lang="en">Water law approved facilities (water register), Styria.</skos:definition>
+    <skos:definition xml:lang="de">Wasserrechtlich bewilligte Anlagen (Wasserbuch), Steiermark</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <skos:notation>wISPointinformation</skos:notation>
+    <skos:prefLabel xml:lang="de">WIS-Punktinformationen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">waterinformationsystem</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/LandwirtschaftlicheHauptproduktionsgebiete">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/am"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/am"/>
+    <skos:definition xml:lang="en">Small and main agricultural production areas in Austria based on political municipalities</skos:definition>
+    <skos:definition xml:lang="de">Landwirtschaftliche Klein- und Hauptproduktionsgebiete Ãsterreichs auf Basis politischer Gemeinden</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <skos:notation>LandwirtschaftlicheHauptproduktionsgebiete</skos:notation>
+    <skos:prefLabel xml:lang="en">Main agricultural production areas</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Landwirtschaftliche Hauptproduktionsgebiete</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Almhauptregionen">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/am"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/am"/>
+    <skos:definition xml:lang="en">Alpine pasture regions and main Alpine pasture regions of Austria on the basis of political municipalities</skos:definition>
+    <skos:definition xml:lang="de">Almregionen und Almhauptregionen Ãsterreichs auf Basis politischer Gemeinden</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <skos:notation>Almhauptregionen</skos:notation>
+    <skos:prefLabel xml:lang="en">main alpine regions</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Almhauptregionen</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/fishingCadastre">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/am"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/am"/>
+    <skos:definition xml:lang="en">fishing districts and owner of fishing license</skos:definition>
+    <skos:definition xml:lang="de">Fischereireviere bzw. Fischereirechtsinhaber</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <skos:notation>fishingCadastre</skos:notation>
+    <skos:prefLabel xml:lang="en">fishing cadastre</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Fischereikataster</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/saproWindEnergy">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/am"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/am"/>
+    <skos:definition xml:lang="en">The aim of this development program is to define supra-local guidelines for the spatially compatible expansion of wind energy in Styria.</skos:definition>
+    <skos:definition xml:lang="de">Dieses Entwicklungsprogramm hat die Festlegung von Ã¼berÃ¶rtlichen Vorgaben zum raumvertrÃ¤glichen Ausbau der Windenergie in der Steiermark zum Ziel.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <skos:notation>saproWindEnergy</skos:notation>
+    <skos:prefLabel xml:lang="de">SAPRO Windenergiezone</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">SAPRO Wind Energy Zone</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Hydropeaking">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/am"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/am"/>
+    <skos:definition xml:lang="en">Water stretch with anthropogenically caused runoff fluctuations and the occurrence of hydropeaking.</skos:definition>
+    <skos:definition xml:lang="de">GewÃ¤sserstrecke mit anthropogen bedingten WasserfÃ¼hrungsschwankungen mit Schwall-Sunk-Erscheinungen.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <skos:notation>Hydropeaking</skos:notation>
+    <skos:prefLabel xml:lang="de">Schwallstrecke</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Hydropeaking</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Jagdkastaster">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/am"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/am"/>
+    <skos:definition xml:lang="en">hunting areas</skos:definition>
+    <skos:definition xml:lang="de">Ausweisung von Jagdteilgebieten aufgrund von jeweiligen Jagdgesetzen.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <skos:notation>Jagdkastaster</skos:notation>
+    <skos:prefLabel xml:lang="de">Jagdgebiet</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">hunting areas</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/WaterAbstraction">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>national-technical</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/am"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/am"/>
+    <skos:definition xml:lang="en">Section of a flowing water which is affected by anthropogenically caused drainage or restraint due to a reduction of its natural runoff.</skos:definition>
+    <skos:definition xml:lang="de">Abschnitt eines GewÃ¤ssers, der durch anthropogen bedingte Ableitung bzw. durch anthropogen bedingten RÃ¼ckhalt von einer Abminderung des natÃ¼rlichen Abflusses betroffen ist.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <skos:notation>WaterAbstraction</skos:notation>
+    <skos:prefLabel xml:lang="en">Water abstraction</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Restwasserstrecke</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/ALSAG_Gebiete">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/am"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/am"/>
+    <skos:definition xml:lang="de">Gebiete gemaess Altlastensanierungsgesetz (ALSAG). Vom Landeshauptmann gemeldete Altablagerungen (alte Deponien) und Altstandorte (ehemalige Fabriken), die vor 1989 kontaminiert sein koennen, werden nach DurchfÃ¼hrung einer Gefaehrdungsabschaetzung und Feststellung einer erheblichen Gefaehrdung fÃ¼r die Umwelt und Gesundheit (nach Bewertung durch das Umweltbundesamt) als sicherungs- und sanierungsbeduerftige Altlasten vom Bundesminister in der AltlastenVO ausgewiesen. Die Bewertung der Dringlichkeit von erforderlichen Sanierungsmassnahmen werden mittels drei PrioritÃ¤tenklassen unterschieden. Eine Einstufung in die PrioritÃ¤tenklasse 1 bedeutet die hÃ¶echste Dringlichkeit von SanierungsmaÃnahmen. Nach Bestaetigung des Sanierungserfolges werden die Daten zur Altlast vom Umweltbundesamt aktualisiert und in der AltlastenVO vom Bundesminister als sanierte oder gesicherte Altlast gekennzeichnet.</skos:definition>
+    <skos:definition xml:lang="en">Areas pursuant to the Contaminated Sites Remediation Act.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <skos:notation>ALSAG_Gebiete</skos:notation>
+    <skos:prefLabel xml:lang="de">Gebiete gemaess Altlastensanierungsgesetz</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Contaminated Site Area</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+</rdf:RDF>

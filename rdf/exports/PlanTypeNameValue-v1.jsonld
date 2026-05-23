@@ -1,0 +1,331 @@
+[
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/plu"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Sektorale Raumordnungsprogramme konkretisieren die Ziele des Landes NÃ fÃ¼r einzelne Landesteile und legen MaÃnahmen verbindlich fest. Sie sind die Grundlage fÃ¼r die weitere rÃ¤umliche Entwicklung NiederÃ¶sterreichs."
+      },
+      {
+        "@language": "en",
+        "@value": "Sectoral spatial planning programs specify the goals of the Province of Lower Austria for individual parts of the country and set binding measures. They form the basis for the further spatial development of Lower Austria."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "sectoralSpatialPlanningProgram"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Sektorales Raumordnungsprogramm"
+      },
+      {
+        "@language": "en",
+        "@value": "Sectoral spatial planning program"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/plu"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Zones to be kept undeveloped to provide steady conditions for agricultural and forestry use, tourism and recreational purposes as well as to foster climate and sanitation; to preserve the characteristics of towns and landscapes and to retain traditional settlement patterns. Provide a substantial basis for the protection and restoration of the ecosystem."
+      },
+      {
+        "@language": "de",
+        "@value": "Flaechen, die die Funktion fÃ¼r die Land- und Forstwirtschaft, die Erholung und den Tourismus, die Siedlungshygiene und die Klimaverhaeltnisse, die Siedlungs- und Raumgliederung, das typische Orts- und Landschaftsbild, die Sicherung oder Wiederherstellung eines ausgewogenen Natur- und Landschaftshaushalts beibehalten sollen und daher von Bebauung freigehalten werden mÃ¼ssen."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "greenArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Gruenzone"
+      },
+      {
+        "@language": "en",
+        "@value": "green area"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/base2"
+      }
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-05-05T14:30:11+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "Typen von PlÃ¤nen gemÃ¤Ã Definition in den Mitgliedstaaten."
+      },
+      {
+        "@language": "en",
+        "@value": "Types of plans as defined in the Member States."
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0021"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "de",
+        "@value": "Bezeichnung des Plantyps"
+      },
+      {
+        "@language": "en",
+        "@value": "Plan Type Name"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/PlanTypeNameValue"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1.0.0"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      },
+      {
+        "@language": "en",
+        "@value": "INSPIRE extensibility: open, internal by value"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/plu"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The zoning plan must classify the municipal area according to the intended goals and determine the types of zoning for all area."
+      },
+      {
+        "@language": "de",
+        "@value": "Der Flaechenwidmungsplan hat das Gemeindegebiet entsprechend den angestrebten Zielen zu gliedern und die Widmungsarten fÃ¼r alle Flaechen festzulegen."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "zoningPlan"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Zoning Plan"
+      },
+      {
+        "@language": "de",
+        "@value": "Flaechenwidmungsplan"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/plu"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Diese Flaechen (Zonen) sind auf Grund von naturschutz-, forstfachlichen, wasserrechtlichen und siedlungstechnischen GrÃ¼nden fÃ¼r Bergbau und einen Abbau nicht geeignet bzw. auf Grund von rechtlichen Bestimmung fÃ¼r Bergbau und einen Abbau auszuschlieÃen."
+      },
+      {
+        "@language": "en",
+        "@value": "Areas that are specifically excluded from any types of mining due to technical (i.e. conservation areas, forestry use, water regulations, settlement structures) or legal reasons."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "gravelControlPlan"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Kiesleitplan"
+      },
+      {
+        "@language": "en",
+        "@value": "gravel control plan"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  }
+]

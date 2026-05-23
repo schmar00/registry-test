@@ -1,0 +1,483 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue:1> {
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops> ;
+        skos:definition "FlÃ¤chen, die zur landwirtschaftlichen Rohstofferzeugung als auch BrachflÃ¤chen dienen. Landwirtschaftliche GebÃ¤ude- und HofflÃ¤chen sind nicht enthalten."@de,
+            "Areas used for the production of agricultural products and fallow land. Agricultural buildings and yards are not included."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "agriculturalArea" ;
+        skos:prefLabel "landwirtschaftliche Flaechen"@de,
+            "agricultural area"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalBuilding> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities> ;
+        skos:definition "Bauliche Anlagen, die fÃ¼r die Erzeugung landwirtschaflicher Produkt, primaer als auch sekundÃ¤r genutzt werden."@de,
+            "Constructional facilities used for the production of agricultural products, both primer and secondary."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "agriculturalBuilding" ;
+        skos:prefLabel "Agrargebaeude"@de,
+            "agricultural building"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalObjects> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops> ;
+        skos:definition "Objekte die zur landwirtschaftliche Rohstofferzeugung dienen und Produkte (auch Tier und FischbestÃ¤nde) ."@de,
+            "PObjects used for agricultural production of materials and products (including animals and fish stocks)."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "agriculturalObjects" ;
+        skos:prefLabel "landwirtschaftliche Objekte"@de,
+            "agricultural objects"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/blueZone> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone> ;
+        skos:definition "Dieser Bereich ist eine wasserwirtschaftliche Bedarfszone und wird auf FlÃ¤chen ausgewiesen, die fÃ¼r die DurchfÃ¼hrung sowie Aufrechterhaltung der Funktionen geplanter schutzwasserwirtschaftlicher MaÃnahmen benÃ¶tigt werden."@de,
+            "This area is a water-based demand zone and is identified to carry out and maintain the functions of planned flood protection management measures."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "blueZone" ;
+        skos:prefLabel "Blaue Zone"@de,
+            "blue zone"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/bridge> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure> ;
+        skos:definition "Bauliche Objekte oder Versorgungseinrichtungen, die durch technische Konstruktionen Hindernisse Ã¼berwinden."@de,
+            "Structural objects or utilities that overcome obstacles through technical constructions."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "bridge" ;
+        skos:prefLabel "Bruecke"@de,
+            "bridge"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingEconomicBenefit> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities> ;
+        skos:definition "Bauliche Anlagen, die vornehmlich zum Zwecke des Wirtschaftens wie Hotels, GasthÃ¤user, etc. und Kleingewerbe dient."@de,
+            "Constructional facilities that are primarily used for the purpose of business activities such as hotels, restaurants, etc. and small businesses."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "buildingEconomicBenefit" ;
+        skos:prefLabel "Gebaeude Wirtschaftlicher Nutzen"@de,
+            "building economic benefit"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/electricalInstallations> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure> ;
+        skos:definition "Bauliche Infrastrukturanlagen zur Herstellung und Versorgung durch elektrischen Strom."@de,
+            "Shipping water areas, rivers and canals and their associated structures (e. g. jetties, locks)."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "electricalInstallations" ;
+        skos:prefLabel "Elektrische Anlagen"@de,
+            "water path transport"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestAndAgriculturalTrails> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure> ;
+        skos:definition "Bauliche Objekte, die als Transportweg zur zweckmÃ¤Ãigen Bewirtschaftung von land- und forstwirtschaftlichen Liegenschaften dienen."@de,
+            "Structural objects that serve as a transport route for the appropriate management of agricultural and forestry properties."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "forestAndAgriculturalTrails" ;
+        skos:prefLabel "Forst und Agrarwege"@de,
+            "Forest and agricultural trails"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops> ;
+        skos:definition "FlÃ¤chen, die zur forstwirtschaftlichen Rohstofferzeugung als auch das Erbringen immaterieller Leistungen insbesondere als Schutz- und Erholungsraum."@de,
+            "Areas used for the production of forest products and the provision of intangible services, in particular as a protected and recreational area."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "forestryArea" ;
+        skos:prefLabel "forstwirtschaftliche Flaechen"@de,
+            "forestry area"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryObjects> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops> ;
+        skos:definition "Objekte die zur forstwirtschaftlichen Rohstofferzeugung dienen und Produkte."@de,
+            "Objects used for the production of forest materials and products."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "forestryObjects" ;
+        skos:prefLabel "forstwirtschaftliche Objekte"@de,
+            "forestry objects"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/formerRedZone> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone> ;
+        skos:definition "Hierbei handelt es sich um Restrisikogebiete im Wirkungsbereich von Hochwasserschutzanlagen. Wenn ein Hochwasserereignis das Bemessungsereignis Ã¼bersteigt bzw. in Folge eines technischen Gebrechens die Hochwasserschutzanlage nicht funktioniert, kommt es im Wirkungsbereich der Hochwasserschutzanlage zu Ãberflutungen in einem AusmaÃ Ã¤hnlich wie bei Nichtvorhandensein der Hochwasserschutzanlage. Neubauten sind in diesem Bereich hochwassergeschÃ¼tzt zu errichten."@de,
+            "These are risk areas where flood protection systems are in operation. When a flood event exceeds the degree of protection or a technical fault occurs, the flood protection system does not function, flooding occurs to a degree similar to the absence of the flood protection system. New buildings are to be built flood-proof in this area."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "formerRedZone" ;
+        skos:prefLabel "ehemals Rote Zone"@de,
+            "former red zone"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/gasPipelines> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure> ;
+        skos:definition "Bauliche Infrastrukturanlagen zur Verteilung und Versorgung Erdgas doer anderen Brenngasen."@de,
+            "Structural infrastructure facilities for communication supply."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "gasPipelines" ;
+        skos:prefLabel "Gasleitungen"@de,
+            "telecommunication network"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/industrialAndCommercialBuilding> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities> ;
+        skos:definition "Bauliche Anlagen, die fÃ¼r TÃ¤tigkeiten des SekundÃ¤rsektors (Industrie und Gewerbe) genutzt werden"@de,
+            "Construction equipment used for secondary sector activities (industrial and commercial)."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "industrialAndCommercialBuilding" ;
+        skos:prefLabel "Industrie und Gewerbegebaeude"@de,
+            "industrial and commercial building"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/inventoryAndEquipment> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities> ;
+        skos:definition "Gesamtheit mobiler Objekte, die GebÃ¤uden und baulichen Anlagen im direkten Zusammenhang stehen."@de,
+            "A set of mobile objects that are directly related to buildings and facilities."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "inventoryAndEquipment" ;
+        skos:prefLabel "Inventar und Geraetschaften"@de,
+            "inventory and equipment"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/miscellaneousLoss> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:definition "SchÃ¤den, denen keine definierte Kategorie zuzuordnen sind."@de,
+            "Losses to which no defined category can be assigned."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "miscellaneousLoss" ;
+        skos:prefLabel "Sonstige Schaeden"@de,
+            "miscellaneous loss"@en ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/outsideArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities> ;
+        skos:definition "FlÃ¤chen die GebÃ¤ude und baulichen Anlagen direkt angrenzen."@de,
+            "Areas directly adjoining buildings and facilities."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "outsideArea" ;
+        skos:prefLabel "AuÃenanlage"@de,
+            "outside area"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/protectionInfrastructure> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:definition "Bauliche Anlagen, die zum Schutz von Infastrukturobjekten und Personen durch Naturgefahren installiert worden sind."@de,
+            "Constructional installations installed for the protection of infrastructure, objects and persons exposed to natural hazards."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "protectionInfrastructure" ;
+        skos:prefLabel "Schutzinfrastruktur"@de,
+            "protection infrastructure"@en ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/publicBuilding> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities> ;
+        skos:definition "Bauliche Anlagen, die der Ãffentlichkeit dienen und daher fÃ¼r jedermann zugÃ¤nglich sind."@de,
+            "Constructional facilities that serve the public and are therefore accessible to everyone."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "publicBuilding" ;
+        skos:prefLabel "Oeffentliche Gebaeude"@de,
+            "public building"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/railway> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure> ;
+        skos:definition "Bauliche Objekte, die dem Zugverkehr zu zuordnen sind."@de,
+            "Structural objects to be assigned to railway network."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "railway" ;
+        skos:prefLabel "Eisenbahn"@de,
+            "railway"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redYellowZone> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone> ;
+        skos:definition "Diese Bereiche sind als Retentions-, Abfluss- und wasserwirtschaftliche Vorrangzonen vorgesehen und sind fÃ¼r den schadlosen Abfluss und HochwasserrÃ¼ckhalt im Hochwasserfall von groÃer Bedeutung."@de,
+            "These areas are intended as retention, drainage and water management priority zones and are of great importance for the safe discharge and flood retention in flood situations."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "redYellowZone" ;
+        skos:prefLabel "Rot Gelbe Zone"@de,
+            "red yellow zone"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redZone> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone> ;
+        skos:definition "Bereiche die von Hochwasser mit mittlerer Eintrittswahrscheinlichkeit besonders gefÃ¤hrdet sind. Es besteht Gefahr fÃ¼r Leib und Leben und diese FlÃ¤chen sind fÃ¼r die Bebauung nicht geeignet."@de,
+            "Areas that are particularly at risk from floods with medium probability of occurrence. There is danger to life and these areas are not suitable for building."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "redZone" ;
+        skos:prefLabel "Rote Zone"@de,
+            "red zone"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/remainingRisk> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone> ;
+        skos:definition "Restlicher Ãberflutungsbereich eines Hochwassers mit seltener Eintrittswahrscheinlichkeit."@de,
+            "Remaining areas of a flood with a rare probability of occurrence."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "remainingRisk" ;
+        skos:prefLabel "Restrisiko"@de,
+            "remaining risk"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/residentialBuilding> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities> ;
+        skos:definition "Bauliche Anlagen, die vornehmlich dem wohnen dienen."@de,
+            "Buildings that are primarily used for housing."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "residentialBuilding" ;
+        skos:prefLabel "Wohngebaeude"@de,
+            "residential building"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/sewer> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure> ;
+        skos:definition "Bauliche Infrastrukturanlagen zur Sammlung und Ableitung von Abwasser, Regen- oder Schmelzwasser durch unter- bzw. oberirdische KanÃ¤le."@de,
+            "Structural infrastructure facilities for the distribution and supply of natural gas or other fuels."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "sewer" ;
+        skos:prefLabel "Kanalisation"@de,
+            "sewer"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/street> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure> ;
+        skos:definition "Bauliche Objekte die als Transportweg genutzt und auf der LandoberflÃ¤che geografische Positionen verbinden."@de,
+            "Buildings used as transport routes connecting geographical locations on the land surface."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "street" ;
+        skos:prefLabel "Strasse"@de,
+            "street"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/telecommunicationNetwork> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure> ;
+        skos:definition "Bauliche Infrastrukturanlagen zur Kommunikationsversorgung."@de,
+            "Structural infrastructure facilities for the production and supply of electricity."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "telecommunicationNetwork" ;
+        skos:prefLabel "Fernmeldeleitungen"@de,
+            "electrical installations"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterPipelines> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure> ;
+        skos:definition "Bauliche Infrastrukturanlagen zum Transport von Wasser an Orte, an denen es auf natÃ¼rlichem Wege nicht zur VerfÃ¼gung steht."@de,
+            "Structural infrastructure facilities for transporting water to places where it is not naturally available."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "waterPipelines" ;
+        skos:prefLabel "Wasserleitungen"@de,
+            "water pipelines"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterpathTransport> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure> ;
+        skos:definition "Schiffbare WasserflÃ¤chen, FlÃ¼sse und KanÃ¤le und deren dazugehÃ¶rgigen baulichen Anlagen (z.B. Anlegesteg, Schleussen)"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "waterpathTransport" ;
+        skos:prefLabel "Wasserweg"@de ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/yellowZone> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone> ;
+        skos:definition "Bereiche die von Hochwasser mit mittlerer Eintrittswahrscheinlichkeit geringer gefÃ¤hrdet sind. Neubauten in dieser Zone sind hochwassergeschÃ¼tzt zu errichten."@de,
+            "Areas that are less vulnerable to floods with a medium probability of occurrence. New buildings in this zone are to be built flood-proof."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:notation "yellowZone" ;
+        skos:prefLabel "Gelbe Zone"@de,
+            "yellow zone"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:definition "FlÃ¤chen, die zur forst- und landwirtschaftlichen Rohstofferzeugung dienen."@de,
+            "Areas used for forestry and agricultural production of resources."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalArea>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalObjects>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryArea>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryObjects> ;
+        skos:notation "agriculturalAndForestryCrops" ;
+        skos:prefLabel "Land und forstwirtschaftliche Kulturen"@de,
+            "agricultural and forestry crops"@en ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:definition "Gruppe von verwendeten Klassen."@de,
+            "Group of applied classification zones."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/blueZone>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/formerRedZone>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redYellowZone>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redZone>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/remainingRisk>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/yellowZone> ;
+        skos:notation "classificationZone" ;
+        skos:prefLabel "Klassifikationszonen"@de,
+            "classification zones"@en ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:definition "Bauliche Anlagen die zur privaten, Ã¶ffentlichen als auch wirtschaftlichen Nutzung verhergesehen sind."@de,
+            "Buildings for private, public and commercial use."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalBuilding>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingEconomicBenefit>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/industrialAndCommercialBuilding>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/inventoryAndEquipment>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/outsideArea>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/publicBuilding>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/residentialBuilding> ;
+        skos:notation "buildingsAndFacilities" ;
+        skos:prefLabel "Gebaeude und bauliche Anlagen"@de,
+            "buildings and facilities"@en ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:definition "Bauliche Objekte die der Verkehrs- und Leitungsinfrastruktur dienen."@de,
+            "Buildings serving as transport and network infrastructure."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/bridge>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/electricalInstallations>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestAndAgriculturalTrails>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/gasPipelines>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/railway>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/sewer>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/street>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/telecommunicationNetwork>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterPipelines>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterpathTransport> ;
+        skos:notation "transporAndNetworkInfrastructure" ;
+        skos:prefLabel "Verkehrs und Leitungsinfrastruktur"@de,
+            "transport and network infrastructure"@en ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue> a skos:ConceptScheme ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:created "2026-05-05T14:30:11+00:00"^^xsd:dateTime ;
+        dcterms:description "ZusÃ¤tzliche Bezeichnung gefÃ¤hrdeter Elemente fÃ¼r Ãsterreich."@de,
+            "An additional classification of the natural hazard."@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        dcterms:title "Spezifischer Typ gefÃ¤hrdeter Elemente"@de,
+            "Specific Exposed Element Type for Austria"@en ;
+        dcterms:type <http://inspire.ec.europa.eu/codelist/SpecificExposedElementTypeValue> ;
+        owl:versionInfo "1.0.0" ;
+        skos:hasTopConcept <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/miscellaneousLoss>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/protectionInfrastructure>,
+            <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure> ;
+        skos:scopeNote "INSPIRE governance level: national-technical",
+            "INSPIRE extensibility: open, internal by value"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/submitted> .
+}
+

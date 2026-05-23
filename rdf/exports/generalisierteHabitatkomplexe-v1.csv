@@ -1,0 +1,79 @@
+subject,predicate,object
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/hb
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/hb
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/AuenObjekt,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe,http://purl.org/dc/terms/publisher,https://registry.inspire.gv.at/dataprovider/0008
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt,http://www.w3.org/2004/02/skos/core#definition,Invntory of Wetlands in Austria; total area of wetlands assessd in Nov. 2008 ammounts to 2744 km2 divided into 889 wetland objects
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe,http://purl.org/dc/terms/created,2026-05-05T14:30:11+00:00
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe,http://www.w3.org/2002/07/owl#versionInfo,1.0.0
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/AuenObjekt,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt,http://www.w3.org/2004/02/skos/core#notation,FeuchtgebietsObjekt
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/hb
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt,http://www.w3.org/2004/02/skos/core#definition,"MoorflÃ¤chen aus dem Moorschutzkatalog (Steiner et al. 1992), Hrsg.: Bundesministerium fÃ¼r Gesundheit und Umweltschutz, Credits: Gert Michael STEINER unter Mitarbeit von P. Englmaier, M. Fink, F, GrÃ¼nweis, I. HÃ¶fner I. Korner, A. StrÃ¶hle und W. Wolf (im Auftrag des Bundesministeriums fÃ¼r Gesundheit und Umweltschutz), Wien, 1992"
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/AuenObjekt,http://www.w3.org/2004/02/skos/core#definition,"Inventory of floodplain objects in Austria (minimum area 20 ha) and detailed mapping in Carinthia and Styria (minimum area 5 ha).822 floodplain properties with a total area of 95,541 ha were designated.Â  Credits: Werner LAZOWSKI and Ulrich SCHWARZ, Aueninventar Austria: Report on the nationwide overview of floodplain objects, Vienna, 2011; Reference: Siehe: https://www.bmlrt.gv.at/dam/jcr:988293c2-2c0e-424d-86dd-91721197be61/%C3%96sterreichisches%20Aueninventar_Final_20111108.pdf"
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/hb
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/hb
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/AuenObjekt,http://www.w3.org/2004/02/skos/core#definition,"Inventar der Auobjekte Ãsterreichs (MinimalflÃ¤che 20 ha) und Detailkartierung in KÃ¤rnten und Steiermark (MinimalflÃ¤che 5 ha). 822 Auenobjekte mit einer GesamtflÃ¤che von 95.541 ha. , Credits: Werner LAZOWSKI und Ulrich SCHWARZ, Aueninventar Ãsterreich: Bericht zur bundesweiten Ãbersicht der Auobjekte, Wien, 2011; Siehe: https://www.bmlrt.gv.at/dam/jcr:988293c2-2c0e-424d-86dd-91721197be61/%C3%96sterreichisches%20Aueninventar_Final_20111108.pdf"
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare,http://www.w3.org/2004/02/skos/core#prefLabel,Nature conservation inventories
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare,http://www.w3.org/2004/02/skos/core#prefLabel,Naturschutzinventare
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/hb
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/AuenObjekt,http://www.w3.org/2004/02/skos/core#prefLabel,Auenobjekt
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/AuenObjekt,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/AuenObjekt,http://www.w3.org/2004/02/skos/core#notation,AuenObjekt
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt,http://www.w3.org/2004/02/skos/core#notation,MoorObjekt
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt,http://www.w3.org/2004/02/skos/core#definition,Bog and mire inventory
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/AuenObjekt,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/hb
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe,http://purl.org/dc/terms/title,generalisierte Habitatkomplexe
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare,http://www.w3.org/2004/02/skos/core#definition,"nature conservation inventories that cover mostly very specific ecosystem types (e.g. bogs and mires, wetlands, dry grasslands, etc.)"
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare,http://www.w3.org/2004/02/skos/core#definition,"Naturschutzfachliche Inventare, die zumeist sehr spezifische Ãkosysteme (Moore, Feuchtgebiete, Trockenrasen etc.) abdecken"
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/AuenObjekt,http://www.w3.org/2004/02/skos/core#prefLabel,Floodplain object
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare,http://www.w3.org/2004/02/skos/core#notation,Naturschutzinventare
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt,http://www.w3.org/2004/02/skos/core#notation,TrockenrasenObjekt
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt,http://www.w3.org/2004/02/skos/core#prefLabel,Wetland object
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/AuenObjekt,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/hb
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#ConceptScheme
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/AuenObjekt,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/AuenObjekt
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe,http://purl.org/dc/terms/description,generalized habitat complexes that establish a functional relation between different habitat types and that are assessd in single projects
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/hb
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt,http://www.w3.org/2004/02/skos/core#definition,"FlÃ¤chenhaft abgegrenzte Trockenrasen Ãsterreichs mit Stand 1986; vielfach schon sehr veralterte Information, Gesamtanzahl der flÃ¤chenhaft abgegrenzten Trockenrasen: 682. Erstabgrenzung anhand der topographischen Karte ÃK 50; Abgrenzung vor allem in OstÃ¶sterreich (Sauberer), ErgÃ¤nzung im Jahr 2008 durch VINCA und Aufbereitung durch Digitalisierung."
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe,http://www.w3.org/2004/02/skos/core#scopeNote,"INSPIRE extensibility: open, internal by value"
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt,http://www.w3.org/2004/02/skos/core#prefLabel,Moorobjekt
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/hb
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/hb
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/hb
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt,http://www.w3.org/2004/02/skos/core#prefLabel,Bog and Mire object
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt,http://www.w3.org/2004/02/skos/core#prefLabel,Trockenrasenobjekt
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe,http://purl.org/dc/terms/title,generalized habitatcomplexes
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe,http://purl.org/dc/terms/description,"generalisierte Habitatkomplexe, die eine funktionalen Zusammenhang zwischen mehreren Biotoptypen darstellen und im Rahmen von Einzelprojekten erhoben werden"
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe,http://purl.org/dc/terms/type,http://inspire.ec.europa.eu/codelist/LocalNameCodeValue
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt,http://www.w3.org/2004/02/skos/core#definition,"Abgrenzung der Feuchtgebiete gemÃ¤Ã Feuchtgebietsinventar, Abgrenzung generalisiert; Insgesamt umfasst das Feuchtgebietsinventar Ãsterreich im November 2008 insgesamt 889 Feuchtgebiete. Die GesamtflÃ¤che der beschriebenen Gebiete betrÃ¤gt mehr als 2744.0 km2. Das Inventar wird laufend durch Expertenmeldungen laufend erweitert."
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/AuenObjekt,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt,http://www.w3.org/2004/02/skos/core#definition,Mapping of dry meadows in Austria
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt,http://www.w3.org/2004/02/skos/core#prefLabel,Feuchtgebietsobjekt
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt,http://www.w3.org/2004/02/skos/core#prefLabel,Dry meadow object
+https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical

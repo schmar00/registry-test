@@ -1,0 +1,166 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor:1> {
+    <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/coreArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/hb> ;
+        dcterms:description "OOE"@de,
+            "OOE"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/hb> ;
+        skos:definition "Gebiete mit hoher Waldausstattung (> 50 % FlÃ¤chenanteil) und guter Eignung als Lebensraum fÃ¼r waldgebundene Tierarten mit groÃen RaumansprÃ¼chen. GrÃ¶Ãere geschlossene Waldgebiete, kaum Siedlungsinfrastruktur und Zerschneidung durch hochrangige VerkehrstrÃ¤ger, kleinteilige Kulturlandschaft."@de,
+            "Areas with a high portion of woodland (more than 50 % of total amount) and appropriate habitat function for large forest animals. Larger closed woodland areas or highly diverse cultural landscapes, hardly or not fragmented by traffic infrastructure and settlements."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
+        skos:notation "coreArea" ;
+        skos:prefLabel "Kernzone"@de,
+            "core area"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/corridorA> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/hb> ;
+        dcterms:description "OOE"@de,
+            "OOE"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/hb> ;
+        skos:definition "International bedeutender Wildtierkorridor zur Lebensraumvernetzung fÃ¼r weitwandernde GroÃsÃ¤uger."@de,
+            "Wildlife corridor of international importance for the dispersion of migrating large mammals."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
+        skos:notation "corridorA" ;
+        skos:prefLabel "Korridor - A"@de,
+            "corridor - A"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/corridorB> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/hb> ;
+        dcterms:description "OOE"@de,
+            "OOE"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/hb> ;
+        skos:definition "Regional bedeutender Wildtierkorridor zur Lebensraumvernetzung fÃ¼r weitwandernde GroÃsÃ¤uger."@de,
+            "Wildlife corridor of regional importance for the dispersion of migrating large mammals."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
+        skos:notation "corridorB" ;
+        skos:prefLabel "Korridor - B"@de,
+            "corridor - B"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/redAreaA> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/hb> ;
+        dcterms:description "OOE"@de,
+            "OOE"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/hb> ;
+        skos:definition "Abschnitt eines international bedeutenden Wildtierkorridors mit erheblich eingeschrÃ¤nkter FunktionalitÃ¤t."@de,
+            "Section of an international important wildlife corridor with highly reduced functionality."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
+        skos:notation "redAreaA" ;
+        skos:prefLabel "Rotzone - A"@de,
+            "red area - A"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/redAreaB> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/hb> ;
+        dcterms:description "OOE"@de,
+            "OOE"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/hb> ;
+        skos:definition "Abschnitt eines regional bedeutenden Wildtierkorridors mit erheblich eingeschrÃ¤nkter FunktionalitÃ¤t."@de,
+            "Section of a regional important wildlife corridor with highly reduced functionality."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
+        skos:notation "redAreaB" ;
+        skos:prefLabel "Rotzone - B"@de,
+            "red area - B"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/steppingStone> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/hb> ;
+        dcterms:description "OOE"@de,
+            "OOE"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/hb> ;
+        skos:definition "Waldgebiete mit RÃ¼ckzugs- und Vernetzungsfunktion entlang der Donau zur Ãberwindung natÃ¼rlicher Barrieren."@de,
+            "Woodland areas highly important for ecological landscape connectivity along the Danube river."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
+        skos:notation "steppingStone" ;
+        skos:prefLabel "Trittstein"@de,
+            "stepping stone"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/transitionArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/hb> ;
+        dcterms:description "OOE"@de,
+            "OOE"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/hb> ;
+        skos:definition "Gebiete mit signifikanter Waldausstattung (30-50 % FlÃ¤chenanteil) und eingeschrÃ¤nkter Eignung als Lebensraum fÃ¼r waldgebundene Tierarten mit groÃen RaumansprÃ¼chen. Strukturreiche Kulturlandschaft mit vielen KleinwaldflÃ¤chen, wenig Siedlungsinfrastruktur, geringe Zerschneidung durch hochrangige VerkehrstrÃ¤ger."@de,
+            "Areas with a sginificant portion of woodland (30-50 % of total amount) and reduced habitat function for large forest animals. Diverse cultural landscape with small structured forest areas, only moderately fragmented by traffic infrastructure and settlements."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
+        skos:notation "transitionArea" ;
+        skos:prefLabel "Uebergangszone"@de,
+            "transition area"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/yellowAreaA> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/hb> ;
+        dcterms:description "OOE"@de,
+            "OOE"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/hb> ;
+        skos:definition "Abschnitt eines international bedeutenden Wildtierkorridors mit eingeschrÃ¤nkter FunktionalitÃ¤t."@de,
+            "Section of an international important wildlife corridor with reduced functionality."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
+        skos:notation "yellowAreaA" ;
+        skos:prefLabel "Gelbzone - A"@de,
+            "yellow area - A"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/yellowAreaB> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/hb> ;
+        dcterms:description "OOE"@de,
+            "OOE"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/hb> ;
+        skos:definition "Abschnitt eines regional bedeutenden Wildtierkorridors mit eingeschrÃ¤nkter FunktionalitÃ¤t."@de,
+            "Section of a regional important wildlife corridor with reduced functionality."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
+        skos:notation "yellowAreaB" ;
+        skos:prefLabel "Gelbzone - B"@de,
+            "yellow area -B"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> a skos:ConceptScheme ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/hb> ;
+        dcterms:created "2026-05-05T14:30:11+00:00"^^xsd:dateTime ;
+        dcterms:description "Habitat and Biotoptypen Wildtier Korridor"@de,
+            "Habitat and Biotop Type Wildlife Corridor"@en ;
+        dcterms:publisher <https://registry.inspire.gv.at/dataprovider/0021> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/hb> ;
+        dcterms:title "Biotoptypen Wildtierkorridor"@de,
+            "Biotop Type Wildlife Corridor"@en ;
+        dcterms:type <http://inspire.ec.europa.eu/codelist/LocalNameCodeValue> ;
+        owl:versionInfo "1.0.0" ;
+        skos:hasTopConcept <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/coreArea>,
+            <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/corridorA>,
+            <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/corridorB>,
+            <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/redAreaA>,
+            <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/redAreaB>,
+            <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/steppingStone>,
+            <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/transitionArea>,
+            <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/yellowAreaA>,
+            <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/yellowAreaB> ;
+        skos:scopeNote "INSPIRE extensibility: open, internal by value"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+}
+

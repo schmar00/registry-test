@@ -1,0 +1,342 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk:1> {
+    <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bETR> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
+        dcterms:description "Def. STMK"@de,
+            "Def. STMK"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
+        skos:definition "Betriebsanlage allgemein"@de,
+            "Plant in general"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        skos:notation "bETR" ;
+        skos:prefLabel "BETR"@de,
+            "BETR"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bHNDL> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
+        dcterms:description "Def. STMK"@de,
+            "Def. STMK"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
+        skos:definition "Wasseraufbereitung"@de,
+            "Water treatment"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        skos:notation "bHNDL" ;
+        skos:prefLabel "BHNDL"@de,
+            "BHNDL"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bRUN> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
+        dcterms:description "Def. STMK"@de,
+            "Def. STMK"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
+        skos:definition "Brunnen"@de,
+            "Fountains"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        skos:notation "bRUN" ;
+        skos:prefLabel "BRUN"@de,
+            "BRUN"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/eNTSORG> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
+        dcterms:description "Def. STMK"@de,
+            "Def. STMK"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
+        skos:definition "Abwasserentsorgungsanlage/Kanal"@de,
+            "Sewage disposal system/canal"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        skos:notation "eNTSORG" ;
+        skos:prefLabel "ENTSORG"@de,
+            "ENTSORG"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/gWANL> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
+        dcterms:description "Def. STMK"@de,
+            "Def. STMK"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
+        skos:definition "Grundwasseranlage/Entnahme/Versickerung"@de,
+            "Groundwater system/collection/seepage"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        skos:notation "gWANL" ;
+        skos:prefLabel "GWANL"@de,
+            "GWANL"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kLRANL> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
+        dcterms:description "Def. STMK"@de,
+            "Def. STMK"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
+        skos:definition "Klaeranlage"@de,
+            "Sewage treatment plant"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        skos:notation "kLRANL" ;
+        skos:prefLabel "KLRANL"@de,
+            "KLRANL"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRAFT> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
+        dcterms:description "Def. STMK"@de,
+            "Def. STMK"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
+        skos:definition "Krafthaus Wasserkraftwerk"@de,
+            "Power house Hydroelectric power plant"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        skos:notation "kRAFT" ;
+        skos:prefLabel "KRAFT"@de,
+            "KRAFT"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRFTW> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
+        dcterms:description "Def. STMK"@de,
+            "Def. STMK"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
+        skos:definition "Wasserkraftwerk"@de,
+            "Hydroelectric power station"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        skos:notation "kRFTW" ;
+        skos:prefLabel "KRFTW"@de,
+            "KRFTW"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/mUEHL> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
+        dcterms:description "Def. STMK"@de,
+            "Def. STMK"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
+        skos:definition "Muehle"@de,
+            "Mill"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        skos:notation "mUEHL" ;
+        skos:prefLabel "MUEHL"@de,
+            "MUEHL"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/oWANL> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
+        dcterms:description "Def. STMK"@de,
+            "Def. STMK"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
+        skos:definition "Fliessgewaesseranlage/Entnahme/Einleitung"@de,
+            "Flowing water system/collection/discharge"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        skos:notation "oWANL" ;
+        skos:prefLabel "OWANL"@de,
+            "OWANL"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/qU> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
+        dcterms:description "Def. STMK"@de,
+            "Def. STMK"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
+        skos:definition "Quelle"@de,
+            "Source"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        skos:notation "qU" ;
+        skos:prefLabel "QU"@de,
+            "QU"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/rEGEN> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
+        dcterms:description "Def. STMK"@de,
+            "Def. STMK"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
+        skos:definition "Regenentwaesserung"@de,
+            "Rainwater drainage"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        skos:notation "rEGEN" ;
+        skos:prefLabel "REGEN"@de,
+            "REGEN"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sEE> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
+        dcterms:description "Def. STMK"@de,
+            "Def. STMK"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
+        skos:definition "Stehendes Gewaesser"@de,
+            "Standing waters"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        skos:notation "sEE" ;
+        skos:prefLabel "SEE"@de,
+            "SEE"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sOANL> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
+        dcterms:description "Def. STMK"@de,
+            "Def. STMK"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
+        skos:definition "Sonderanlage"@de,
+            "Special plant"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        skos:notation "sOANL" ;
+        skos:prefLabel "SOANL"@de,
+            "SOANL"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sONST> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
+        dcterms:description "Def. STMK"@de,
+            "Def. STMK"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
+        skos:definition "Sonderbauwerk"@de,
+            "Special building"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        skos:notation "sONST" ;
+        skos:prefLabel "SONST"@de,
+            "SONST"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sPEICHER> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
+        dcterms:description "Def. STMK"@de,
+            "Def. STMK"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
+        skos:definition "Wasserspeicher"@de,
+            "Water storage"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        skos:notation "sPEICHER" ;
+        skos:prefLabel "SPEICHER"@de,
+            "SPEICHER"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sTAU> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
+        dcterms:description "Def. STMK"@de,
+            "Def. STMK"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
+        skos:definition "Stauanlage"@de,
+            "Dam"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        skos:notation "sTAU" ;
+        skos:prefLabel "STAU"@de,
+            "STAU"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vERF> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
+        dcterms:description "Def. STMK"@de,
+            "Def. STMK"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
+        skos:definition "Deponie/Verfuellung"@de,
+            "Landfill/filling"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        skos:notation "vERF" ;
+        skos:prefLabel "VERF"@de,
+            "VERF"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vSRGANL> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
+        dcterms:description "Def. STMK"@de,
+            "Def. STMK"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
+        skos:definition "Wasserversorgungsanlage"@de,
+            "Water supply system"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        skos:notation "vSRGANL" ;
+        skos:prefLabel "VSRGANL"@de,
+            "VSRGANL"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/wNUTZ> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
+        dcterms:description "Def. STMK"@de,
+            "Def. STMK"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
+        skos:definition "Waermenutzung/Kuehlwasseranlage"@de,
+            "Heat utilization/cooling water system"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        skos:notation "wNUTZ" ;
+        skos:prefLabel "WNUTZ"@de,
+            "WNUTZ"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> a skos:ConceptScheme ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
+        dcterms:created "2026-05-05T14:30:11+00:00"^^xsd:dateTime ;
+        dcterms:description "Klassifikation, die den Typ des Bewirtschaftungsgebiets, Schutzgebiets oder geregelten Gebiets definiert."@de,
+            "Classification defining the type of Management, Restriction or Regulation Zone."@en ;
+        dcterms:publisher <https://registry.inspire.gv.at/dataprovider/0008> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
+        dcterms:title "Code des Gebietstyps Steiermark"@de,
+            "Zone Type Code Styria"@en ;
+        dcterms:type <http://inspire.ec.europa.eu/codelist/ZoneTypeCode> ;
+        owl:versionInfo "1.0.0" ;
+        skos:hasTopConcept <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bETR>,
+            <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bHNDL>,
+            <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/bRUN>,
+            <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/eNTSORG>,
+            <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/gWANL>,
+            <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kLRANL>,
+            <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRAFT>,
+            <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/kRFTW>,
+            <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/mUEHL>,
+            <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/oWANL>,
+            <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/qU>,
+            <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/rEGEN>,
+            <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sEE>,
+            <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sOANL>,
+            <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sONST>,
+            <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sPEICHER>,
+            <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/sTAU>,
+            <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vERF>,
+            <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/vSRGANL>,
+            <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk/wNUTZ> ;
+        skos:scopeNote "INSPIRE extensibility: open, internal by value"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+}
+

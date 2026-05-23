@@ -1,0 +1,52 @@
+subject,predicate,object
+https://registry.inspire.gv.at/codelist/specificLandUseAT,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/specificLandUseAT/forestInventoryTypeValue
+https://registry.inspire.gv.at/codelist/specificLandUseAT/forestInventoryTypeValue,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/specificLandUseAT
+https://registry.inspire.gv.at/codelist/specificLandUseAT,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specificLandUseAT/landUseZoningTypeValue,http://www.w3.org/2004/02/skos/core#definition,A group for Austrain land use classification types
+https://registry.inspire.gv.at/codelist/specificLandUseAT/landUseZoningTypeValue,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/specificLandUseAT,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/specificLandUseAT/landUseZoningTypeValue,http://www.w3.org/2004/02/skos/core#prefLabel,land Use Zoning Type
+https://registry.inspire.gv.at/codelist/specificLandUseAT/landUseZoningTypeValue,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/specificLandUseAT
+https://registry.inspire.gv.at/codelist/specificLandUseAT/invekosTypeValue,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/specificLandUseAT
+https://registry.inspire.gv.at/codelist/specificLandUseAT/invekosTypeValue,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/specificLandUseAT/invekosTypeValue,http://www.w3.org/2004/02/skos/core#definition,Gruppierung der Ã¶sterreichischen INVEKOS-Klassifikation
+https://registry.inspire.gv.at/codelist/specificLandUseAT/forestInventoryTypeValue,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/specificLandUseAT/landUseZoningTypeValue,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/specificLandUseAT,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/submitted
+https://registry.inspire.gv.at/codelist/specificLandUseAT,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/specificLandUseAT,http://purl.org/dc/terms/title,Spezifische Bodennutzung AT
+https://registry.inspire.gv.at/codelist/specificLandUseAT/forestInventoryTypeValue,http://www.w3.org/2004/02/skos/core#notation,forestInventoryTypeValue
+https://registry.inspire.gv.at/codelist/specificLandUseAT/forestInventoryTypeValue,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/specificLandUseAT
+https://registry.inspire.gv.at/codelist/specificLandUseAT/landUseZoningTypeValue,http://www.w3.org/2004/02/skos/core#prefLabel,Landnutzungszonen
+https://registry.inspire.gv.at/codelist/specificLandUseAT/invekosTypeValue,http://www.w3.org/2004/02/skos/core#definition,A group of Austrian INVEKOS classification
+https://registry.inspire.gv.at/codelist/specificLandUseAT/landUseZoningTypeValue,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/specificLandUseAT
+https://registry.inspire.gv.at/codelist/specificLandUseAT/invekosTypeValue,http://www.w3.org/2004/02/skos/core#prefLabel,INVEKOS Type
+https://registry.inspire.gv.at/codelist/specificLandUseAT/invekosTypeValue,http://www.w3.org/2004/02/skos/core#prefLabel,INVEKOS Klassen
+https://registry.inspire.gv.at/codelist/specificLandUseAT/forestInventoryTypeValue,http://www.w3.org/2004/02/skos/core#prefLabel,Waldinventar Typen
+https://registry.inspire.gv.at/codelist/specificLandUseAT/landUseZoningTypeValue,http://www.w3.org/2004/02/skos/core#notation,landUseZoningTypeValue
+https://registry.inspire.gv.at/codelist/specificLandUseAT/forestInventoryTypeValue,http://www.w3.org/2004/02/skos/core#definition,Code list of Austrian forest Inventory types
+https://registry.inspire.gv.at/codelist/specificLandUseAT/landUseZoningTypeValue,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specificLandUseAT,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/specificLandUseAT/landUseZoningTypeValue
+https://registry.inspire.gv.at/codelist/specificLandUseAT/forestInventoryTypeValue,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specificLandUseAT/invekosTypeValue,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/specificLandUseAT
+https://registry.inspire.gv.at/codelist/specificLandUseAT/invekosTypeValue,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/specificLandUseAT/invekosTypeValue,http://www.w3.org/2004/02/skos/core#notation,invekosTypeValue
+https://registry.inspire.gv.at/codelist/specificLandUseAT/forestInventoryTypeValue,http://www.w3.org/2004/02/skos/core#definition,Codeliste der Ã¶sterreichischen Waldinventurtypen
+https://registry.inspire.gv.at/codelist/specificLandUseAT/forestInventoryTypeValue,http://www.w3.org/2004/02/skos/core#prefLabel,Forest Inventory Type
+https://registry.inspire.gv.at/codelist/specificLandUseAT/landUseZoningTypeValue,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specificLandUseAT/forestInventoryTypeValue,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specificLandUseAT,http://www.w3.org/2002/07/owl#versionInfo,1.0.0
+https://registry.inspire.gv.at/codelist/specificLandUseAT,http://purl.org/dc/terms/title,Specific Land Use AT
+https://registry.inspire.gv.at/codelist/specificLandUseAT/forestInventoryTypeValue,http://www.w3.org/2000/01/rdf-schema#seeAlso,https://bfw.ac.at
+https://registry.inspire.gv.at/codelist/specificLandUseAT/landUseZoningTypeValue,http://www.w3.org/2004/02/skos/core#definition,Gruppierung der Ã¶sterreichischen Bodennutzungs Typen
+https://registry.inspire.gv.at/codelist/specificLandUseAT,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#ConceptScheme
+https://registry.inspire.gv.at/codelist/specificLandUseAT,http://purl.org/dc/terms/created,2026-05-05T14:30:11+00:00
+https://registry.inspire.gv.at/codelist/specificLandUseAT/invekosTypeValue,http://www.w3.org/2000/01/rdf-schema#seeAlso,https://www.ama.at
+https://registry.inspire.gv.at/codelist/specificLandUseAT,http://www.w3.org/2004/02/skos/core#scopeNote,"INSPIRE extensibility: open, internal by value"
+https://registry.inspire.gv.at/codelist/specificLandUseAT/invekosTypeValue,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specificLandUseAT,http://purl.org/dc/terms/description,Austrian extension vocabulary container on specific land use categories.
+https://registry.inspire.gv.at/codelist/specificLandUseAT,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/specificLandUseAT/invekosTypeValue
+https://registry.inspire.gv.at/codelist/specificLandUseAT/invekosTypeValue,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specificLandUseAT,http://purl.org/dc/terms/type,http://inspire.ec.europa.eu/codelist/LandUseClassificationValue
+https://registry.inspire.gv.at/codelist/specificLandUseAT,http://purl.org/dc/terms/description,Ãsterreichisches Paket zur Erweiterung spezifischer Landnutzungskategorien.
+https://registry.inspire.gv.at/codelist/specificLandUseAT/forestInventoryTypeValue,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu

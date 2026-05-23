@@ -1,0 +1,614 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://registry.inspire.gv.at/codelist/ooeLandUseValue:1> {
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/PZBuildingLand> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 11502, 11503, 11500"@de,
+            "Def. OOE, Kennzahl 11502, 11503, 11500"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Schutz- oder Pufferzonen zur Gliederung und Abstimmung unterschiedlicher Widmungen"@de,
+            "Protection zone in building land for structuring different zoning"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "PZBuildingLand" ;
+        skos:prefLabel "Schutz- oder Pufferzone im Bauland"@de,
+            "Protection zone in building land (grassy and open space or structural measures)"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/SEAZoning> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 15001"@de,
+            "Def. OOE, Kennzahl 15001"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Widmung fuer die eine Strategische Umweltpruefung erforderlich ist"@de,
+            "Zoning with necessary Strategic Environmental Assessment"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "SEAZoning" ;
+        skos:prefLabel "SUP pflichtige Widmung"@de,
+            "SEA zoning"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/afforestationArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 13005"@de,
+            "Def. OOE, Kennzahl 13005"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Neuaufforstungsgebiete"@de,
+            "Afforestation area"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "afforestationArea" ;
+        skos:prefLabel "Neuaufforstungsgebiete"@de,
+            "Afforestation area"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/agricultureLand> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 13001"@de,
+            "Def. OOE, Kennzahl 13001"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen die fuer die Land- und Forstwirtschaft bestimmt sind oder oedland sind"@de,
+            "Areas for agriculture and forestry and wasteland"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "agricultureLand" ;
+        skos:prefLabel "Land- und Forstwirtschaft, oedland"@de,
+            "Agriculture and forestry, wasteland"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/allotmentGarden> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 13201"@de,
+            "Def. OOE, Kennzahl 13201"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen fuer Dauerkleingaerten"@de,
+            "Areas for allotment gardens"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "allotmentGarden" ;
+        skos:prefLabel "Dauerkleingaerten"@de,
+            "allotment garden"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/cemetery> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 13002"@de,
+            "Def. OOE, Kennzahl 13002"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen fuer Friedhoefe"@de,
+            "Areas for cemeteries"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "cemetery" ;
+        skos:prefLabel "Friedhof"@de,
+            "cemetery"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/centreZone> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 11002"@de,
+            "Def. OOE, Kennzahl 11002"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen mit ueberwiegend staedtischer oder typisch zentrumsbildender Struktur"@de,
+            "Areas with mainly urban structure"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "centreZone" ;
+        skos:prefLabel "Kerngebiet"@de,
+            "Centre zone"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/commercialArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 11011"@de,
+            "Def. OOE, Kennzahl 11011"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen fuer Betriebe und Lagerplaetze, die die Umgebung nicht erheblich stoeren und fuer zugeordnete Buero- und Verwaltungsgebaeude"@de,
+            "Areas for enterprises and storage places, that do not significantly disturb the environment and related office- and amdinistration buildings"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "commercialArea" ;
+        skos:prefLabel "Betriebsbaugebiet"@de,
+            "Commercial areas"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/compactedResidentialArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 11103"@de,
+            "Def. OOE, Kennzahl 11103"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen fuer Gebaeude in verdichteter Flachbauweise sowie fuer Bauwerke fuer den taeglichen Bedarf der Bewohnerinnen bzw. Bewohner"@de,
+            "Areas for compacted flat construction and for constructions fpr the daily needs of the inhabitants"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "compactedResidentialArea" ;
+        skos:prefLabel "Wohngebiet fuer Gebaeude in verdichterer Flachbauweise"@de,
+            "Residental areas for compacted flat construction"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/compostingPlant> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 13203"@de,
+            "Def. OOE, Kennzahl 13203"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen fuer Kompostieranlagen"@de,
+            "Areas for composting plants"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "compostingPlant" ;
+        skos:prefLabel "Kompostieranlage"@de,
+            "composting plant"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/embankmentArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 13006"@de,
+            "Def. OOE, Kennzahl 13006"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Aufschuettungsgebiete"@de,
+            "Embankment area"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "embankmentArea" ;
+        skos:prefLabel "Aufschuettungsgebiete"@de,
+            "Embankment area"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingBuilding> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 13601, 13602, 13603, 13010, 13011, 13701, 13702, 13703, 13704, 13012, 13013"@de,
+            "Def. OOE, Kennzahl 13601, 13602, 13603, 13010, 13011, 13701, 13702, 13703, 13704, 13012, 13013"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Bestehende Gebaeude im Gruenland und deren spezifische Festlegung, wie in etwa fuer bestehende Gasthoefe, bestehende Wohngebaeude oder landwirtschaftliche Gebaeude"@de,
+            "Existing building in green land with specific definition, like a special use of agricultural and forestry farms (living, replacement), restaurants, etc. or excisiting residential buildings"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "existingBuilding" ;
+        skos:prefLabel "Bestehende Gebaeude im Gruenland und deren spezifische Festlegung"@de,
+            "Existing building in green land with specific definition"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingFacilitiesReservedArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 14101, 14102, 14103, 14104, 14105, 14106, 14107, 14108, 14109, 14110, 14111, 14112, 14100" ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Bestehende Bauwerke und Anlagen auf Vorbehaltsflaechen fuer oeffentlichen Zwecken dienenden Bauwerken und Anlagen (Verwaltungsgebaeude, Schule, Krankenanstalt, Altersheim, Heil- und Pflegeanstalt, Altstoffsammelzentrum, Jugendheim oder Jugendherberge, Seelsorgeeinrichtung, Kindergarten, Hallenbad, Feuerwehr, Luftschutzanlage, Hochwasserschutzanlagen, Ergaenzungsmoeglichkeiten fuer Vorbehaltsflaechen)",
+            "Existing facilities on land reserved for public facilities (governmental office, school, hospital, retirement home, nursing home or sanatorium, waste collection center, youth center, counseling facility, kindergarden, indoor pool, fire department, air-raid shelter, flood protection, possible augmentation of facilty)" ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "existingFacilitiesReservedArea" ;
+        skos:prefLabel "Bestehende Einrichtungen auf Vorbehaltsflaechen",
+            "Bestehende Einrichtungen auf Vorbehaltsflaechen"@de,
+            "Existing facilities on reserved areas"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/industryArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 11003"@de,
+            "Def. OOE, Kennzahl 11003"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen fuer Grossbetriebe und Lagerplaetze"@de,
+            "Areas for large enterprises and storage places"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "industryArea" ;
+        skos:prefLabel "Industriegebiet"@de,
+            "Industry areas"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/limitedMixedUseArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 11010"@de,
+            "Def. OOE, Kennzahl 11010"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Zur funktionalen Gliederung kann in gemischten Baugebieten die Zulaessigkeit von Bauwerken und Anlagen, die in Wohngebieten errichtet werden duerfen, eingeschraenkt oder ausgeschlossen werden."@de,
+            "Possibility in mixed used areas to excluse or restrict residental constructions for functional structuring"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "limitedMixedUseArea" ;
+        skos:prefLabel "Eingeschraenkt Gemischtes Baugebiet"@de,
+            "Limited mixed use areas"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/mixedUseArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 11009"@de,
+            "Def. OOE, Kennzahl 11009"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen fuer Klein- und Mittelbetriebe, Lagerplaetze und Bauwerke wie im Wohngebiet"@de,
+            "Areas for small and medium-sized enterprises and construction as in residental areas"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "mixedUseArea" ;
+        skos:prefLabel "Gemischtes Baugebiet"@de,
+            "Mixed use areas"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyCompactedResidentialArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 11101"@de,
+            "Def. OOE, Kennzahl 11101"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen fuer foerderbare mehrgeschossige Wohnbauten oder Gebaeude in verdichteter Flachbauweise sowie fuer Bauwerke fuer den taeglichen Bedarf der Bewohnerinnen bzw. Bewohner"@de,
+            "Areas for multi storey residental buildings or compacted flat construction and for constructions fpr the daily needs of the inhabitants"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "multistoreyCompactedResidentialArea" ;
+        skos:prefLabel "Wohngebiet fuer mehrgeschossige gefoerderte Wohnbauten oder Gebaeude in verdichterer Flachbauweise"@de,
+            "Residental areas for multistorey and compacted flat construction"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyResidentialArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 11102"@de,
+            "Def. OOE, Kennzahl 11102"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen fuer foerderbare mehrgeschossige Wohnbauten sowie fuer Bauwerke fuer den taeglichen Bedarf der Bewohnerinnen bzw. Bewohner"@de,
+            "Areas for multi storey residental buildings and for constructions fpr the daily needs of the inhabitants"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "multistoreyResidentialArea" ;
+        skos:prefLabel "Wohngebiet fuer mehrgeschossige gefoerderte Wohnbauten"@de,
+            "Residental areas for multistorey"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/plantNursery> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 13202"@de,
+            "Def. OOE, Kennzahl 13202"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen fuer Gaertnereien"@de,
+            "Areas for market gardens and plant nurserys"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "plantNursery" ;
+        skos:prefLabel "Gaertnerei"@de,
+            "Market garden and plant nursery"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/protectionZone> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 13800, 13801"@de,
+            "Def. OOE, Kennzahl 13800, 13801"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Schutzzone im Gruenland oder Ueberflutungsgebiet mit spezifischer Festlegung"@de,
+            "Protection zone in green land"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "protectionZone" ;
+        skos:prefLabel "Schutzzone im Gruenland oder Ueberflutungsgebiet"@de,
+            "Protection zone in green land or flood areas"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/recreationalAreas> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 13101, 13102, 13103, 13104, 13105, 13106, 13107, 13108, 13109, 13110, 13100"@de,
+            "Def. OOE, Kennzahl 13101, 13102, 13103, 13104, 13105, 13106, 13107, 13108, 13109, 13110, 13100"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen fuer Erholungs- oder Sportanlagen wie Parkanlagen, Spiel- und Liegewiesen, Sport- und Spielflaechen, Freibaeder, Campingplaetze, Tennishallen, Golfplaetze, Reitsportanlagen, Gaststaetten und Schutzhuetten sowie Wintersportanlagen einschliesslich der Schipisten"@de,
+            "Areas for recreational, parks, playgrounds, sports facilities, outdoor swimming pools, campsites, tennis halls, golf courses, equestrian facilitiies, winter sport facilities, protective huts and slopes"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "recreationalAreas" ;
+        skos:prefLabel "Erholungsflaechen"@de,
+            "recreational areas"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/reservedArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 14001, 14002, 14003, 14004, 14005, 14006, 14007, 14008, 14009, 14010, 14011, 14012, 14013, 14000"@de,
+            "Def. OOE, Kennzahl 14001, 14002, 14003, 14004, 14005, 14006, 14007, 14008, 14009, 14010, 14011, 14012, 14013, 14000"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Vorbehaltsflaechen fuer oeffentlichen Zwecken dienenden Bauwerken und Anlagen (Verwaltungsgebaeude, Schule, Krankenanstalt, Altersheim, Heil- und Pflegeanstalt, Altstoffsammelzentrum, Jugendheim oder Jugendherberge, Seelsorgeeinrichtung, Kindergarten, Hallenbad, Feuerwehr, Luftschutzanlage, Hochwasserschutzanlagen, Ergaenzungsmoeglichkeiten fuer Vorbehaltsflaechen)"@de,
+            "Land reserved for public facilities (governmental office, school, hospital, retirement home, nursing home or sanatorium, waste collection center, youth center, counseling facility, kindergarden, indoor pool, fire department, air-raid shelter, flood protection, possible augmentation of facilty)"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "reservedArea" ;
+        skos:prefLabel "Vorbehaltsflaechen"@de,
+            "Reserved areas"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 11006"@de,
+            "Def. OOE, Kennzahl 11006"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen fuer Wohngebaeude, die einem dauernden Wohnbedarf dienen und fuer Bauwerke, die den wirtschaftlichen, sozialen oder kulturellen Beduerfnissen vorwiegend der Bewohnerinnen bzw. Bewohner dienen"@de,
+            "Areas for permanent residental buildings and constructions for the economic, social and culturell needs of the inhabitants"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "residentialArea" ;
+        skos:prefLabel "Wohngebiet"@de,
+            "Residental areas"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialOnlyArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 11007"@de,
+            "Def. OOE, Kennzahl 11007"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen einzig fuer Wohngebaeude, die einem dauernden Wohnbedarf dienen und fuer Bauwerke"@de,
+            "Areas only for permanent residental buildings"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "residentialOnlyArea" ;
+        skos:prefLabel "Reines Wohngebiet"@de,
+            "Residental only areas"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/resourceExtraction> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 13401, 13402, 13403, 13404"@de,
+            "Def. OOE, Kennzahl 13401, 13402, 13403, 13404"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Abgrabungsgebiete fuer Sand, Kies, Lehm bzw. Steinbrueche"@de,
+            "resource extraction sites sand, gravel , silt and quarries"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "resourceExtraction" ;
+        skos:prefLabel "Abgrabungsgebiete"@de,
+            "resource extraction sites"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/secondaryResidentalArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 11005"@de,
+            "Def. OOE, Kennzahl 11005"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen fuer Bauwerke fuer einen zeitweiligen Wohnbedarf"@de,
+            "Areas secondary residental buildings"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "secondaryResidentalArea" ;
+        skos:prefLabel "Zweitwohngebiet"@de,
+            "Secondary residental areas"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/shippingPier> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 11004"@de,
+            "Def. OOE, Kennzahl 11004"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen an Wasserstrassen, die fuer den Ãbergang des Personen- oder Gueterverkehrs vom Wasserweg auf den Landweg bestimmt sind"@de,
+            "Areas at waterways for passanger and freight transport"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "shippingPier" ;
+        skos:prefLabel "Laendeflaeche"@de,
+            "Shipping pier"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/shoppingArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 11301, 11302, 11303, 11304, 11305,"@de,
+            "Def. OOE, Kennzahl 11301, 11302, 11303, 11304, 11305,"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen fuer Handelsbetriebe mit einer Gesamtverkaufsflaeche von > 300mÂ²"@de,
+            "Areas for establishments selling durable and non-durable goods or merchandise for personal or household consumption or to other retailers."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "shoppingArea" ;
+        skos:prefLabel "Geschaeftsgebiete"@de,
+            "Wholesale and retail areas, shopping centers"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/spaArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 11008"@de,
+            "Def. OOE, Kennzahl 11008"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen fuer Kuranstalten und darauf abgestellte Tourismusbetriebe und Erholungseinrichtungen"@de,
+            "Spa areas and related tourism businesses"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "spaArea" ;
+        skos:prefLabel "Kurgebiet"@de,
+            "Spa areas"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialAgriculturalEnterprise> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 13200, 13301, 13302, 13303, 13304, 13305, 13300"@de,
+            "Def. OOE, Kennzahl 13200, 13301, 13302, 13303, 13304, 13305, 13300"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen fuer land- und forstwirtschaftliche Betriebe mit nicht herkoemmlichen Produktionsformen (Betriebe der bodenunabhaengigen Haltung landwirtschaftlicher Nutztiere, Tierparks, Zucht und Haltung von Tieren, die keine landwirtschaftlichen Nutztiere sind und dgl.)"@de,
+            "Areas for soilless livestock farming, animal park, biogas plant, livestock farming Â§ 30 Abs. 4 and other special forms of agricultural and forestry farms"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "specialAgriculturalEnterprise" ;
+        skos:prefLabel "Gruenland fuer Sonderformen von land- und forstwirtschaftlichen Betrieben"@de,
+            "Special agricultural enterprise"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialBuildingLand> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 11401"@de,
+            "Def. OOE, Kennzahl 11401"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen fuer Nutzungen, die einen besonderen Schutz erfordern oder zu sichern sind oder denen eine besondere Bedeutung zukommt, wie insbesonder Krankenanstalten, Schulen und Kirchen"@de,
+            "Areas for uses that require particular protection or that are to be assigned a specific location or that are particular importance, such as hospitals, schools and churches"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "specialBuildingLand" ;
+        skos:prefLabel "Sondergebiete des Baulandes"@de,
+            "Special area of building land"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialGreenLand> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 13009, 13501, 13502, 13503, 13500"@de,
+            "Def. OOE, Kennzahl 13009, 13501, 13502, 13503, 13500"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen fuer Schiessstaetten, Windkraftanlagen, Funkanlagen und Photovoltaikanlagen"@de,
+            "Areas for shooting areas, wind power, radio installation and photocoltaic plants"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "specialGreenLand" ;
+        skos:prefLabel "Sonderausweisung im Gruenland"@de,
+            "Special green Land"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialOpenGreenLand> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 13003, 13004, 13200"@de,
+            "Def. OOE, Kennzahl 13003, 13004, 13200"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Gruenzuege, Trenngruens und sonstige"@de,
+            "Greenways, separating green land and further"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "specialOpenGreenLand" ;
+        skos:prefLabel "Gruenflaeche mit besonderer Widmung"@de,
+            "Special open green land"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/technicalZone> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 16002"@de,
+            "Def. OOE, Kennzahl 16002"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Technische Widmung unter Ersichtlichmachungen gem. Â§ 30 ROG"@de,
+            "Technical zone"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "technicalZone" ;
+        skos:prefLabel "Technische Widmung"@de,
+            "Technical zone"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/trafficArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 12001, 12002, 12003, 12004, 12005"@de,
+            "Def. OOE, Kennzahl 12001, 12002, 12003, 12004, 12005"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen, die den fliessenden und ruhenden Verkehr dienen und besondere Verkehrsbedeutung besitzen, wie Parkplaetze, Parkhaeuser, unterirdische Parkflaechen und Fusswege"@de,
+            "Areas for steady and current traffic, like streets, parking area, multistorey parking space, unterground parking space and walkways"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "trafficArea" ;
+        skos:prefLabel "Flaechenmaessige Darstellung - fliessender Verkehr"@de,
+            "Traffic area"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/villageArea> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 11001"@de,
+            "Def. OOE, Kennzahl 11001"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen, die fuer Bauten land- und forstwirtschaftlicher Nutzung in verdichteter Anordnung bestimmt sind."@de,
+            "Areas which are intended for buildings of agricultural and forestry use in a dense arrangement."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "villageArea" ;
+        skos:prefLabel "Dorfgebiet"@de,
+            "Village areas"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue/wasteStorage> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:description "Def. OOE, Kennzahl 13007, 13008"@de,
+            "Def. OOE, Kennzahl 13007, 13008"@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Flaechen fuer die Ablagerung von Muell, Fahrzeugwracks und Altmaterial"@de,
+            "Areas for landfilling and storage of waste, scrap and vehicle wrecks"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:notation "wasteStorage" ;
+        skos:prefLabel "Ablagerungsplaetze"@de,
+            "land filling and storage"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/ooeLandUseValue> a skos:ConceptScheme ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:created "2026-05-05T14:30:11+00:00"^^xsd:dateTime ;
+        dcterms:description "Ãsterreich-Erweiterung fÃ¼r OberÃ¶sterreich spezifische Landnutzungsklassifizierung"@de,
+            "Austrian extension for Upper Austria specific land use classification"@en ;
+        dcterms:publisher <https://registry.inspire.gv.at/dataprovider/0046> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        dcterms:title "OOE Landnutzungsklassen"@de,
+            "OOE Land Use Value"@en ;
+        dcterms:type <http://inspire.ec.europa.eu/codelist/LandUseClassificationValue> ;
+        owl:versionInfo "1.0.0" ;
+        skos:hasTopConcept <https://registry.inspire.gv.at/codelist/ooeLandUseValue/PZBuildingLand>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/SEAZoning>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/afforestationArea>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/agricultureLand>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/allotmentGarden>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/cemetery>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/centreZone>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/commercialArea>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/compactedResidentialArea>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/compostingPlant>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/embankmentArea>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingBuilding>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingFacilitiesReservedArea>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/industryArea>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/limitedMixedUseArea>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/mixedUseArea>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyCompactedResidentialArea>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyResidentialArea>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/plantNursery>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/protectionZone>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/recreationalAreas>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/reservedArea>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialArea>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialOnlyArea>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/resourceExtraction>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/secondaryResidentalArea>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/shippingPier>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/shoppingArea>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/spaArea>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialAgriculturalEnterprise>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialBuildingLand>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialGreenLand>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialOpenGreenLand>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/technicalZone>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/trafficArea>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/villageArea>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue/wasteStorage> ;
+        skos:scopeNote "INSPIRE extensibility: open, internal by value"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+}
+

@@ -1,0 +1,738 @@
+[
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/steppingStone",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "OOE"
+      },
+      {
+        "@language": "de",
+        "@value": "OOE"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/hb"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Woodland areas highly important for ecological landscape connectivity along the Danube river."
+      },
+      {
+        "@language": "de",
+        "@value": "Waldgebiete mit RÃ¼ckzugs- und Vernetzungsfunktion entlang der Donau zur Ãberwindung natÃ¼rlicher Barrieren."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "steppingStone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Trittstein"
+      },
+      {
+        "@language": "en",
+        "@value": "stepping stone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/transitionArea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "OOE"
+      },
+      {
+        "@language": "de",
+        "@value": "OOE"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/hb"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Gebiete mit signifikanter Waldausstattung (30-50 % FlÃ¤chenanteil) und eingeschrÃ¤nkter Eignung als Lebensraum fÃ¼r waldgebundene Tierarten mit groÃen RaumansprÃ¼chen. Strukturreiche Kulturlandschaft mit vielen KleinwaldflÃ¤chen, wenig Siedlungsinfrastruktur, geringe Zerschneidung durch hochrangige VerkehrstrÃ¤ger."
+      },
+      {
+        "@language": "en",
+        "@value": "Areas with a sginificant portion of woodland (30-50 % of total amount) and reduced habitat function for large forest animals. Diverse cultural landscape with small structured forest areas, only moderately fragmented by traffic infrastructure and settlements."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "transitionArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Uebergangszone"
+      },
+      {
+        "@language": "en",
+        "@value": "transition area"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/yellowAreaA",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "OOE"
+      },
+      {
+        "@language": "de",
+        "@value": "OOE"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/hb"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Section of an international important wildlife corridor with reduced functionality."
+      },
+      {
+        "@language": "de",
+        "@value": "Abschnitt eines international bedeutenden Wildtierkorridors mit eingeschrÃ¤nkter FunktionalitÃ¤t."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "yellowAreaA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "yellow area - A"
+      },
+      {
+        "@language": "de",
+        "@value": "Gelbzone - A"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/redAreaA",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "OOE"
+      },
+      {
+        "@language": "de",
+        "@value": "OOE"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/hb"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Section of an international important wildlife corridor with highly reduced functionality."
+      },
+      {
+        "@language": "de",
+        "@value": "Abschnitt eines international bedeutenden Wildtierkorridors mit erheblich eingeschrÃ¤nkter FunktionalitÃ¤t."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "redAreaA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Rotzone - A"
+      },
+      {
+        "@language": "en",
+        "@value": "red area - A"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/redAreaB",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "OOE"
+      },
+      {
+        "@language": "de",
+        "@value": "OOE"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/hb"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Section of a regional important wildlife corridor with highly reduced functionality."
+      },
+      {
+        "@language": "de",
+        "@value": "Abschnitt eines regional bedeutenden Wildtierkorridors mit erheblich eingeschrÃ¤nkter FunktionalitÃ¤t."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "redAreaB"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Rotzone - B"
+      },
+      {
+        "@language": "en",
+        "@value": "red area - B"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/yellowAreaB",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "OOE"
+      },
+      {
+        "@language": "de",
+        "@value": "OOE"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/hb"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Section of a regional important wildlife corridor with reduced functionality."
+      },
+      {
+        "@language": "de",
+        "@value": "Abschnitt eines regional bedeutenden Wildtierkorridors mit eingeschrÃ¤nkter FunktionalitÃ¤t."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "yellowAreaB"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "yellow area -B"
+      },
+      {
+        "@language": "de",
+        "@value": "Gelbzone - B"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
+      }
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-05-05T14:30:11+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Habitat and Biotop Type Wildlife Corridor"
+      },
+      {
+        "@language": "de",
+        "@value": "Habitat and Biotoptypen Wildtier Korridor"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0021"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/hb"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": "Biotop Type Wildlife Corridor"
+      },
+      {
+        "@language": "de",
+        "@value": "Biotoptypen Wildtierkorridor"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/LocalNameCodeValue"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1.0.0"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/yellowAreaB"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/yellowAreaA"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/transitionArea"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/steppingStone"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/redAreaB"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/coreArea"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/corridorA"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/corridorB"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/redAreaA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE extensibility: open, internal by value"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/coreArea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "OOE"
+      },
+      {
+        "@language": "de",
+        "@value": "OOE"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/hb"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Gebiete mit hoher Waldausstattung (> 50 % FlÃ¤chenanteil) und guter Eignung als Lebensraum fÃ¼r waldgebundene Tierarten mit groÃen RaumansprÃ¼chen. GrÃ¶Ãere geschlossene Waldgebiete, kaum Siedlungsinfrastruktur und Zerschneidung durch hochrangige VerkehrstrÃ¤ger, kleinteilige Kulturlandschaft."
+      },
+      {
+        "@language": "en",
+        "@value": "Areas with a high portion of woodland (more than 50 % of total amount) and appropriate habitat function for large forest animals. Larger closed woodland areas or highly diverse cultural landscapes, hardly or not fragmented by traffic infrastructure and settlements."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "coreArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Kernzone"
+      },
+      {
+        "@language": "en",
+        "@value": "core area"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/corridorA",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "OOE"
+      },
+      {
+        "@language": "de",
+        "@value": "OOE"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/hb"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Wildlife corridor of international importance for the dispersion of migrating large mammals."
+      },
+      {
+        "@language": "de",
+        "@value": "International bedeutender Wildtierkorridor zur Lebensraumvernetzung fÃ¼r weitwandernde GroÃsÃ¤uger."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "corridorA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Korridor - A"
+      },
+      {
+        "@language": "en",
+        "@value": "corridor - A"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor/corridorB",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "OOE"
+      },
+      {
+        "@language": "de",
+        "@value": "OOE"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/hb"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Wildlife corridor of regional importance for the dispersion of migrating large mammals."
+      },
+      {
+        "@language": "de",
+        "@value": "Regional bedeutender Wildtierkorridor zur Lebensraumvernetzung fÃ¼r weitwandernde GroÃsÃ¤uger."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "corridorB"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Korridor - B"
+      },
+      {
+        "@language": "en",
+        "@value": "corridor - B"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  }
+]

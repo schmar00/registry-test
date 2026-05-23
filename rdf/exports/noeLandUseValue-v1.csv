@@ -1,0 +1,425 @@
+subject,predicate,object
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://purl.org/dc/terms/description,Austrian extension for Lower Austria specific land use classification
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centralZone,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandResourceExtractionSite,http://purl.org/dc/terms/description,Â§ 20 (2) Z 5
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centreZone,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWindPowerPlant,http://www.w3.org/2004/02/skos/core#prefLabel,Green land wind power plant
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centreZone,http://purl.org/dc/terms/description,Â§ 14 (2) Z 15 Â§ 18 (1)
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCoreAreaCommercialFacilities,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSmallGardenPlot,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCommercialUse,http://www.w3.org/2004/02/skos/core#prefLabel,building land commercial use
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSportsFacility,http://purl.org/dc/terms/description,Â§ 20 (2) Z 8
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandShelter,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSportsFacility,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandMarketGardenAndPlantNursery,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteTreatmentFacility,http://purl.org/dc/terms/description,Â§ 20 (2) Z 13
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandShelter,http://www.w3.org/2004/02/skos/core#notation,greenLandShelter
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWindPowerPlant,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandShelter,http://www.w3.org/2004/02/skos/core#prefLabel,Gruenland-Schutzhaus
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandAgricultureAndForestryFarm,http://purl.org/dc/terms/description,Â§ 20 (2) Z 1b
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteTreatmentFacility,http://www.w3.org/2004/02/skos/core#definition,Green land - waste treatment facilities.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandResourceExtractionSite,http://www.w3.org/2004/02/skos/core#prefLabel,Gruenland Materialgewinnungsstaette
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandResourceExtractionSite,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCommercialUse,http://purl.org/dc/terms/description,Â§ 16 (1) Z 3 and 4
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centreZone,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSmallGardenPlot,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centralZone,http://www.w3.org/2004/02/skos/core#prefLabel,Zentrumszone
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCampsite,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandMarketGardenAndPlantNursery,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandOpenSpaceArea,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandLandfill,http://www.w3.org/2004/02/skos/core#notation,greenLandLandfill
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandMarketGardenAndPlantNursery,http://purl.org/dc/terms/description,Â§ 20 (2) Z 6
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandMarketGardenAndPlantNursery,http://www.w3.org/2004/02/skos/core#prefLabel,Gruenland Gaertnerei
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centreZone,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://purl.org/dc/terms/description,Ãsterreich-Erweiterung fÃ¼r NiederÃsterreich spezifische Landnutzungsklassifizierung
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWindPowerPlant,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandSpecialZone,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCoreAreaCommercialFacilities,http://www.w3.org/2004/02/skos/core#definition,Bauland Kerngebiet-Handelseinrichtungen
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCoreAreaCommercialFacilities,http://www.w3.org/2004/02/skos/core#notation,buildingLandCoreAreaCommercialFacilities
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSportsFacility,http://www.w3.org/2004/02/skos/core#definition,Gruenland Sportstaetten.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteTreatmentFacility,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandParkArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandShelter,http://www.w3.org/2004/02/skos/core#definition,"Gruenland Schutzhauuser: Gast- und Beherbergungsbetriebe sowie Unterstandshuetten, die fÃ¼r die Beduerfnisse des fuÃwegigen Tourismus erforderlich sind."
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPlayground,http://www.w3.org/2004/02/skos/core#prefLabel,Gruenland Spielplatz
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCoreAreaCommercialFacilities,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centralZone,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCampsite,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandResidentialOrMixedUse
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandLandfill,http://www.w3.org/2004/02/skos/core#prefLabel,Green land landfill
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCampsite,http://www.w3.org/2004/02/skos/core#prefLabel,Gruenland Campingplatz
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPhotvoltaicPlant,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#scopeNote,"INSPIRE extensibility: open, internal by value"
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandLandfill,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandParkArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandParkArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteTreatmentFacility
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCampsite,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandStorageSpace
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandResourceExtractionSite,http://www.w3.org/2004/02/skos/core#prefLabel,Green land resource extraction site
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandOpenSpaceArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWindPowerPlant,http://www.w3.org/2004/02/skos/core#definition,Gruenland Windkraftanlagen.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteTreatmentFacility,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandAgricultureAndForestryFarm,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandAgricultureAndForestryFarm,http://www.w3.org/2004/02/skos/core#prefLabel,Gruenland land- und forstwirtschaftliche Hofstelle
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandResidentialOrMixedUse,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandAgricultureAndForestryFarm,http://www.w3.org/2004/02/skos/core#notation,greenLandAgricultureAndForestryFarm
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandSpecialZone,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCommercialUse,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteLand,http://www.w3.org/2004/02/skos/core#prefLabel,Gruenland-Oedland
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCoreAreaCommercialFacilities,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteTreatmentFacility,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWineCellarLane
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCemetery,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSmallGardenPlot
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCommercialUse,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSmallGardenPlot,http://www.w3.org/2004/02/skos/core#prefLabel,Gruenland Kleingarten
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPhotvoltaicPlant,http://www.w3.org/2004/02/skos/core#prefLabel,Green land photovoltaic plant
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteTreatmentFacility,http://www.w3.org/2004/02/skos/core#notation,greenLandWasteTreatmentFacility
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteTreatmentFacility,http://www.w3.org/2004/02/skos/core#prefLabel,Gruenland-Abfallbehandlungsanlage
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandResourceExtractionSite,http://www.w3.org/2004/02/skos/core#definition,Gruenland Materialgewinnungsstaetten (Gewinnung von div. Rohstoffen).
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandBuildingWorthyOfPreservation,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandLandfill,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centreZone,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPhotvoltaicPlant,http://www.w3.org/2004/02/skos/core#definition,Gruenland Photovoltaikanlagen.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandAgricultureAndForestryFarm,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPlayground,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPhotvoltaicPlant,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandSpecialZone,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCommercialUse,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandOpenSpaceArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandBuildingWorthyOfPreservation,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandLandfill,http://www.w3.org/2004/02/skos/core#prefLabel,Gruenland Aushubdeponie
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandStorageSpace,http://www.w3.org/2004/02/skos/core#definition,"Gruenland Lagerplaetze: Flaechen, die der vorÃ¼bergehenden Lagerung von Waren aller Art - auÃerhalb von Gebaeuden - dienen."
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWindPowerPlant
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWindPowerPlant,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCoreAreaCommercialFacilities,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandAgricultureAndForestryFarm,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPlayground,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centralZone,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCoreAreaCommercialFacilities
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandMarketGardenAndPlantNursery,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandResourceExtractionSite,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandBuildingWorthyOfPreservation,http://purl.org/dc/terms/description,Â§ 20 (2) Z 4
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPhotvoltaicPlant,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteLand,http://www.w3.org/2004/02/skos/core#definition,Green land - uncultivated/ecological areas: areas that serve no or only insignificant economic purpose
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandLandfill,http://www.w3.org/2004/02/skos/core#definition,Green land - landfills.
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandBuildingWorthyOfPreservation
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandBuildingWorthyOfPreservation,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteTreatmentFacility,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandOpenSpaceArea,http://www.w3.org/2004/02/skos/core#definition,Freihalteflaechen (ist von jeglicher Bebauung frei zu halten).
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandResidentialOrMixedUse,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCoreAreaCommercialFacilities,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centralZone,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSportsFacility,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandResourceExtractionSite,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandParkArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPlayground
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandSpecialZone,http://www.w3.org/2004/02/skos/core#definition,"Bauland Sondergebiete, fuer Nutzungen, die einen besonderen Schutz wie Krankenanstalten, Schulen, Pflegeheime erfordern oder denen ein bestimmter Standort zugeordnet werden soll wie Asphaltmischanalgen oder die sich nicht in die anderen Baulandwidmungen einordnen lassen wie Kasernen oder Sportanlagen."
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCemetery
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandSpecialZone
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCommercialUse,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSportsFacility,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandResourceExtractionSite,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSmallGardenPlot,http://www.w3.org/2004/02/skos/core#notation,greenLandSmallGardenPlot
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandStorageSpace,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandAgricultureAndForestryFarm
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandLandfill,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteLand,http://purl.org/dc/terms/description,Â§ 20 (2) Z 16
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandAgricultureAndForestryFarm,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCemetery,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCampsite,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPlayground,http://purl.org/dc/terms/description,Â§ 20 (2) Z 9
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandStorageSpace,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandStorageSpace,http://www.w3.org/2004/02/skos/core#notation,greenLandStorageSpace
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandMarketGardenAndPlantNursery,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandResidentialOrMixedUse,http://www.w3.org/2004/02/skos/core#definition,"Fasst die Baulandwidmungsarten Wohngebiete (BW), Agrargebiete (BA), Kerngebiete (BK) und Gebiete fuer erhaltenswerte Ortsstrukturen (BO) zusammen (inkl. AufschlieÃungszonen bzw. wenn als Folgenutzungsart angegeben)."
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandOpenSpaceArea,http://www.w3.org/2004/02/skos/core#prefLabel,Gruenland Freihalteflaeche Gruenland
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCemetery,http://www.w3.org/2004/02/skos/core#notation,greenLandCemetery
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandOpenSpaceArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandMarketGardenAndPlantNursery
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandBuildingWorthyOfPreservation,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandStorageSpace,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandSpecialZone,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandResidentialOrMixedUse,http://purl.org/dc/terms/description,"Â§ 16 (1) Z 1, 2, 5 and 7"
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCemetery,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandAgricultureAndForestryFarm,http://purl.org/dc/terms/description,Â§ 20 (2) Z 1b
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSportsFacility,http://www.w3.org/2004/02/skos/core#definition,Green land - sports facilities.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandParkArea,http://www.w3.org/2004/02/skos/core#prefLabel,Gruenland-Parkanlagen
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWineCellarLane,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandLandfill,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://purl.org/dc/terms/title,NOE Landnutzungsklassen
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centreZone,http://www.w3.org/2004/02/skos/core#definition,Zentrumszone.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSportsFacility,http://www.w3.org/2004/02/skos/core#prefLabel,Green land sports facility
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandOpenSpaceArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteLand,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSportsFacility,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPlayground,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandOpenSpaceArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCampsite,http://www.w3.org/2004/02/skos/core#definition,Gruenland Campingplaetze.
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandOpenSpaceArea
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSmallGardenPlot,http://purl.org/dc/terms/description,Â§ 20 (2) Z 7
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandOpenSpaceArea,http://purl.org/dc/terms/description,Â§ 20 (2) Z 18
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandLandfill
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centreZone,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWineCellarLane,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSmallGardenPlot,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCemetery,http://www.w3.org/2004/02/skos/core#prefLabel,Green land cemetery
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandParkArea,http://www.w3.org/2004/02/skos/core#prefLabel,Green land - park area
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandLandfill,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWineCellarLane,http://purl.org/dc/terms/description,Â§ 20 (2) Z 20
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandShelter,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWindPowerPlant,http://www.w3.org/2004/02/skos/core#notation,greenLandWindPowerPlant
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandBuildingWorthyOfPreservation,http://www.w3.org/2004/02/skos/core#notation,greenLandBuildingWorthyOfPreservation
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandBuildingWorthyOfPreservation,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centralZone,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteLand,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSportsFacility,http://www.w3.org/2004/02/skos/core#prefLabel,Gruenland Sportstaette
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCampsite,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandShelter,http://purl.org/dc/terms/description,Â§ 20 (2) Z 3
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandResidentialOrMixedUse,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWineCellarLane,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandOpenSpaceArea,http://www.w3.org/2004/02/skos/core#prefLabel,Green land open space area
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandStorageSpace,http://www.w3.org/2004/02/skos/core#prefLabel,Green land - storage space
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSportsFacility,http://purl.org/dc/terms/description,v
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCoreAreaCommercialFacilities,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandSpecialZone,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPhotvoltaicPlant,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandMarketGardenAndPlantNursery,http://purl.org/dc/terms/description,Â§ 20 (2) Z 6
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centralZone,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandResourceExtractionSite,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandSpecialZone,http://www.w3.org/2004/02/skos/core#notation,buildingLandSpecialZone
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCommercialUse,http://purl.org/dc/terms/description,Â§ 16 (1) Z 3 and 4
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteTreatmentFacility,http://www.w3.org/2004/02/skos/core#definition,Gruenland Abfallbehandlungsanlagen.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPhotvoltaicPlant,http://www.w3.org/2004/02/skos/core#prefLabel,Gruenland Photovoltaikanlage
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandAgricultureAndForestryFarm,http://www.w3.org/2004/02/skos/core#definition,Gruenland land- und forstwirtschaftliche Hofstellen.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSportsFacility,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCommercialUse,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandResourceExtractionSite,http://www.w3.org/2004/02/skos/core#definition,Green land - resource extraction sites (recovery of various raw materials).
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteTreatmentFacility,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandShelter
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCampsite,http://purl.org/dc/terms/description,Â§ 20 (2) Z 10
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCemetery,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPhotvoltaicPlant
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2002/07/owl#versionInfo,1.0.0
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://purl.org/dc/terms/created,2026-05-05T14:30:11+00:00
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandAgricultureAndForestryFarm,http://www.w3.org/2004/02/skos/core#definition,Green land - agricultural and forestry farms.
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#ConceptScheme
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandResidentialOrMixedUse,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandLandfill,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCommercialUse,http://www.w3.org/2004/02/skos/core#prefLabel,Bauland Betriebsnutzung
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteTreatmentFacility,http://www.w3.org/2004/02/skos/core#prefLabel,Green land waste treatment facility
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandSpecialZone,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandMarketGardenAndPlantNursery,http://www.w3.org/2004/02/skos/core#definition,Gruenland Gaertnereien.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPhotvoltaicPlant,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteLand,http://purl.org/dc/terms/description,Â§ 20 (2) Z 16
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWineCellarLane,http://www.w3.org/2004/02/skos/core#notation,greenLandWineCellarLane
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSmallGardenPlot,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centreZone,http://www.w3.org/2004/02/skos/core#notation,centreZone
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandAgricultureAndForestryFarm,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandMarketGardenAndPlantNursery,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteLand,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCommercialUse,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandBuildingWorthyOfPreservation,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centreZone,http://www.w3.org/2004/02/skos/core#prefLabel,Zentrumszone
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWineCellarLane,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteLand,http://www.w3.org/2004/02/skos/core#notation,greenLandWasteLand
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandMarketGardenAndPlantNursery,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCemetery,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWineCellarLane,http://www.w3.org/2004/02/skos/core#prefLabel,GruenlandKellergasse
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centreZone,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteLand
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandOpenSpaceArea,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandResidentialOrMixedUse,http://www.w3.org/2004/02/skos/core#prefLabel,Bauland Wohn oder Mischnutzung
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSportsFacility,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteLand,http://www.w3.org/2004/02/skos/core#prefLabel,Green land-waste land
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandMarketGardenAndPlantNursery,http://www.w3.org/2004/02/skos/core#definition,Green land - market gardens and plant nurseries.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCemetery,http://www.w3.org/2004/02/skos/core#definition,Green land cemeteries.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSportsFacility,http://purl.org/dc/terms/description,Â§ 20 (2) Z 8
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWindPowerPlant,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandResourceExtractionSite
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandParkArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSportsFacility,http://www.w3.org/2004/02/skos/core#notation,greenLandSportsFacility
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSmallGardenPlot,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandResidentialOrMixedUse,http://www.w3.org/2004/02/skos/core#definition,"Covers building land use types residential areas (BW), agricultural areas (BA), core areas (BK) and areas with local structures worth preserving (BO) (incl. development zones or if subsequent type of use is specified)."
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSmallGardenPlot,http://www.w3.org/2004/02/skos/core#definition,Gruenland Kleingaerten.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCommercialUse,http://www.w3.org/2004/02/skos/core#definition,Covers building land use types industrial areas (BI) and commercial (BB) areas.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWineCellarLane,http://www.w3.org/2004/02/skos/core#definition,Gruenland Kellergassen.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteLand,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWindPowerPlant,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCoreAreaCommercialFacilities,http://www.w3.org/2004/02/skos/core#definition,Building land - core area commercial facilities.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCommercialUse,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPhotvoltaicPlant,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCampsite,http://www.w3.org/2004/02/skos/core#definition,Green land - campsites.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPlayground,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWineCellarLane,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centreZone,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCoreAreaCommercialFacilities,http://www.w3.org/2004/02/skos/core#prefLabel,Building land core area commercial facilities
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandShelter,http://www.w3.org/2004/02/skos/core#definition,"Green land - shelters: guesthouses, lodgings and shelter structures that are required to meet the needs of pedestrian tourism"
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandStorageSpace,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCampsite,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteTreatmentFacility,http://purl.org/dc/terms/description,Â§ 20 (2) Z 13
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandSpecialZone,http://www.w3.org/2004/02/skos/core#prefLabel,Building land special zone
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCommercialUse,http://www.w3.org/2004/02/skos/core#definition,Fasst die Baulandwidmungsarten Industriegebiete (BI) und Betriebsgebiete (BB) zusammen.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandResidentialOrMixedUse,http://www.w3.org/2004/02/skos/core#prefLabel,Building land residential or mixed use
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWindPowerPlant,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSportsFacility
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandShelter,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandParkArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandLandfill,http://purl.org/dc/terms/description,Â§ 20 (2) Z 14
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCampsite,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandOpenSpaceArea,http://www.w3.org/2004/02/skos/core#notation,greenLandOpenSpaceArea
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandBuildingWorthyOfPreservation,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCommercialUse,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandResourceExtractionSite,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWineCellarLane,http://www.w3.org/2004/02/skos/core#prefLabel,Green land wine cellar lane
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWindPowerPlant,http://www.w3.org/2004/02/skos/core#definition,Green land - wind power plants.
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandParkArea
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPlayground,http://www.w3.org/2004/02/skos/core#prefLabel,Green land playground
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteTreatmentFacility,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandLandfill,http://www.w3.org/2004/02/skos/core#definition,Gruenland Aushubdeponien.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSmallGardenPlot,http://www.w3.org/2004/02/skos/core#prefLabel,Green land small garden plot
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCoreAreaCommercialFacilities,http://www.w3.org/2004/02/skos/core#prefLabel,Bauland-Kerngebiet Handelseinrichtungen
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPhotvoltaicPlant,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteTreatmentFacility,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandBuildingWorthyOfPreservation,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandBuildingWorthyOfPreservation,http://www.w3.org/2004/02/skos/core#definition,Erhaltenswerte Gebaeude im Gruenland.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSmallGardenPlot,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteLand,http://www.w3.org/2004/02/skos/core#definition,"Gruenland Oedland/Oekoflaechen: Flaechen, die keiner oder nur einer unbedeutenden wirtschaftlichen Nutzung dienen."
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandShelter,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandParkArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandResidentialOrMixedUse,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandSpecialZone,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandSpecialZone,http://www.w3.org/2004/02/skos/core#prefLabel,Bauland-Sondergebiet
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandShelter,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandParkArea,http://www.w3.org/2004/02/skos/core#notation,greenLandParkArea
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWindPowerPlant,http://www.w3.org/2004/02/skos/core#prefLabel,Gruenland Windkraftanlage
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandLandfill,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandBuildingWorthyOfPreservation,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centreZone,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteLand,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/centralZone
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWindPowerPlant,http://purl.org/dc/terms/description,Â§ 20 (2) Z 19
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandOpenSpaceArea,http://www.w3.org/2004/02/skos/core#definition,Green land - open space areas (to be left completely undeveloped).
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandSpecialZone,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWindPowerPlant,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWineCellarLane,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandAgricultureAndForestryFarm,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandParkArea,http://www.w3.org/2004/02/skos/core#definition,Green land - park areas: areas meant for recreation and/or representation in the outdoors and that are or are intended to be designed and planted according to an overall concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPlayground,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandStorageSpace,http://purl.org/dc/terms/description,Â§ 20 (2) Z 15
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPhotvoltaicPlant,http://www.w3.org/2004/02/skos/core#notation,greenLandPhotvoltaicPlant
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandResidentialOrMixedUse,http://www.w3.org/2004/02/skos/core#notation,buildingLandResidentialOrMixedUse
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPlayground,http://www.w3.org/2004/02/skos/core#notation,greenLandPlayground
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandAgricultureAndForestryFarm,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandResidentialOrMixedUse,http://www.w3.org/2004/02/skos/core#definition,"Fasst die Baulandwidmungsarten Wohngebiete (BW), Agrargebiete (BA), Kerngebiete (BK) und Gebiete fuer erhaltenswerte Ortsstrukturen (BO) zusammen (inkl. AufschlieâÃ¼ungszonen bzw. wenn als Folgenutzungsart angegeben)."
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSmallGardenPlot,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandMarketGardenAndPlantNursery,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandResidentialOrMixedUse,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandAgricultureAndForestryFarm,http://www.w3.org/2004/02/skos/core#prefLabel,Green land agricultural and forestry farm
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandMarketGardenAndPlantNursery,http://www.w3.org/2004/02/skos/core#prefLabel,Green land market garden and plant nursery
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandStorageSpace,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCemetery,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://purl.org/dc/terms/type,http://inspire.ec.europa.eu/codelist/LandUseClassificationValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandShelter,http://www.w3.org/2004/02/skos/core#prefLabel,Green land - shelter
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandShelter,http://purl.org/dc/terms/description,Â§ 20 (2) Z 3
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centralZone,http://www.w3.org/2004/02/skos/core#definition,Zentrumszone.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandMarketGardenAndPlantNursery,http://www.w3.org/2004/02/skos/core#notation,greenLandMarketGardenAndPlantNursery
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCampsite,http://www.w3.org/2004/02/skos/core#notation,greenLandCampsite
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPlayground,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandParkArea,http://purl.org/dc/terms/description,Â§ 20 (2) Z 12
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCampsite,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centreZone,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandResidentialOrMixedUse,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPhotvoltaicPlant,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centreZone,http://purl.org/dc/terms/description,Â§ 14 (2) Z 15 Â§ 18 (1)
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centralZone,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandStorageSpace,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCampsite,http://www.w3.org/2004/02/skos/core#prefLabel,Green land campsite
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandResourceExtractionSite,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCemetery,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCoreAreaCommercialFacilities,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandResourceExtractionSite,http://purl.org/dc/terms/description,Â§ 20 (2) Z 5
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPhotvoltaicPlant,http://purl.org/dc/terms/description,Â§ 20 (2) Z 21
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCommercialUse,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centralZone,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteLand,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteTreatmentFacility,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWindPowerPlant,http://purl.org/dc/terms/description,Â§ 20 (2) Z 19
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSmallGardenPlot,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCemetery,http://purl.org/dc/terms/description,Â§ 20 (2) Z 11
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPlayground,http://www.w3.org/2004/02/skos/core#definition,Green land - playgrounds.
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCampsite
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCemetery,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPlayground,http://www.w3.org/2004/02/skos/core#definition,Gruenland Spielplaetze.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandMarketGardenAndPlantNursery,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandBuildingWorthyOfPreservation,http://www.w3.org/2004/02/skos/core#prefLabel,Green land building worthy of preservation
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCampsite,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/centreZone
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCemetery,http://purl.org/dc/terms/description,Â§ 20 (2) Z 11
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCoreAreaCommercialFacilities,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSmallGardenPlot,http://purl.org/dc/terms/description,Â§ 20 (2) Z 7
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandParkArea,http://www.w3.org/2004/02/skos/core#definition,"Gruenland Parkanlagen: Flaechen, die zur Erholung und/oder Repraesentation im Freien dienen und nach einem Gesamtkonzept gestaltet und bepflanzt sind oder werden sollen."
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandLandfill,http://purl.org/dc/terms/description,Â§ 20 (2) Z 14
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandResourceExtractionSite,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCommercialUse
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteLand,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandBuildingWorthyOfPreservation,http://www.w3.org/2004/02/skos/core#definition,Green land - buildings worthy of preservation.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSmallGardenPlot,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandResidentialOrMixedUse,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandSpecialZone,http://purl.org/dc/terms/description,Â§ 16 (1) Z 6 and 16 (2)
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCampsite,http://purl.org/dc/terms/description,Â§ 20 (2) Z 10
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteTreatmentFacility,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWindPowerPlant,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandResidentialOrMixedUse,http://purl.org/dc/terms/description,"Â§ 16 (1) Z 1, 2, 5 and 7"
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCommercialUse,http://www.w3.org/2004/02/skos/core#notation,buildingLandCommercialUse
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandAgricultureAndForestryFarm,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPlayground,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://purl.org/dc/terms/publisher,https://registry.inspire.gv.at/dataprovider/0046
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centralZone,http://www.w3.org/2004/02/skos/core#notation,centralZone
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandBuildingWorthyOfPreservation,http://purl.org/dc/terms/description,Â§ 20 (2) Z 4
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWineCellarLane,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centreZone,http://www.w3.org/2004/02/skos/core#definition,The land use type 'Building land - core area commercial facilities' is only in this zone allowed.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandLandfill,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://purl.org/dc/terms/title,NOE Land Use Value
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandStorageSpace,http://purl.org/dc/terms/description,Â§ 20 (2) Z 15
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandBuildingWorthyOfPreservation,http://www.w3.org/2004/02/skos/core#prefLabel,Erhaltenswerte Gebaeude im Gruenland
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandSpecialZone,http://purl.org/dc/terms/description,Â§ 16 (1) Z 6 and 16 (2)
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPhotvoltaicPlant,http://purl.org/dc/terms/description,Â§ 20 (2) Z 21
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandShelter,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandResourceExtractionSite,http://www.w3.org/2004/02/skos/core#notation,greenLandResourceExtractionSite
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCemetery,http://www.w3.org/2004/02/skos/core#prefLabel,Gruenland-Friedhof
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandLandfill,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCemetery,http://www.w3.org/2004/02/skos/core#definition,Gruenland Friedhoefe.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandStorageSpace,http://www.w3.org/2004/02/skos/core#prefLabel,Gruenland-Lagerplatz
+https://registry.inspire.gv.at/codelist/noeLandUseValue,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandOpenSpaceArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCoreAreaCommercialFacilities,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandParkArea,http://purl.org/dc/terms/description,Â§ 20 (2) Z 12
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWineCellarLane,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandOpenSpaceArea,http://purl.org/dc/terms/description,Â§ 20 (2) Z 18
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPhotvoltaicPlant,http://www.w3.org/2004/02/skos/core#definition,Green land - photovoltaic plants.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandResidentialOrMixedUse,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPlayground,http://purl.org/dc/terms/description,Â§ 20 (2) Z 9
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandStorageSpace,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandAgricultureAndForestryFarm,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPlayground,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWindPowerPlant,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPhotvoltaicPlant,http://purl.org/dc/terms/description,Def. NOE
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandSpecialZone,http://www.w3.org/2004/02/skos/core#definition,"Building land - special zones for uses that require particular protection such as hospitals, schools, nursing homes, or that are to be assigned a specific location, such as asphalt mixing plants, or that cannot be categorised under other building use types, such as barracks or sports facilities."
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandStorageSpace,http://www.w3.org/2004/02/skos/core#definition,Green land - storage spaces: areas intended for temporary storage of all types of goods outside of buildings.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandMarketGardenAndPlantNursery,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandShelter,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSportsFacility,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/centreZone,http://www.w3.org/2004/02/skos/core#prefLabel,Centre zone
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPlayground,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandResourceExtractionSite,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandOpenSpaceArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSportsFacility,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWineCellarLane,http://purl.org/dc/terms/description,Â§ 20 (2) Z 20
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCemetery,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWineCellarLane,http://www.w3.org/2004/02/skos/core#definition,Green land - wine cellar lanes.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWineCellarLane,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/noeLandUseValue
+https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSmallGardenPlot,http://www.w3.org/2004/02/skos/core#definition,Green land - small garden plots.
+https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandSpecialZone,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu

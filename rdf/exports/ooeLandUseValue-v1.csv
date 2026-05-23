@@ -1,0 +1,569 @@
+subject,predicate,object
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/secondaryResidentalArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/cemetery,http://www.w3.org/2004/02/skos/core#prefLabel,Friedhof
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compostingPlant,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/mixedUseArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingFacilitiesReservedArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shoppingArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11301, 11302, 11303, 11304, 11305,"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/resourceExtraction,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13401, 13402, 13403, 13404"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyResidentialArea,http://www.w3.org/2004/02/skos/core#definition,Areas for multi storey residental buildings and for constructions fpr the daily needs of the inhabitants
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialBuildingLand,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/afforestationArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/allotmentGarden,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13201"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/compactedResidentialArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/secondaryResidentalArea,http://www.w3.org/2004/02/skos/core#notation,secondaryResidentalArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/protectionZone,http://www.w3.org/2004/02/skos/core#definition,Schutzzone im Gruenland oder Ueberflutungsgebiet mit spezifischer Festlegung
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shippingPier,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/centreZone
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/mixedUseArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialOnlyArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingBuilding,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compactedResidentialArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shoppingArea,http://www.w3.org/2004/02/skos/core#notation,shoppingArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/afforestationArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingFacilitiesReservedArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/protectionZone,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyCompactedResidentialArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialOnlyArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11007"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingFacilitiesReservedArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/allotmentGarden,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/mixedUseArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/villageArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11001"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/industryArea,http://www.w3.org/2004/02/skos/core#notation,industryArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/recreationalAreas,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/recreationalAreas,http://www.w3.org/2004/02/skos/core#prefLabel,recreational areas
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/technicalZone,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 16002"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/agricultureLand,http://www.w3.org/2004/02/skos/core#notation,agricultureLand
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/SEAZoning,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/PZBuildingLand,http://www.w3.org/2004/02/skos/core#prefLabel,Protection zone in building land (grassy and open space or structural measures)
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/limitedMixedUseArea,http://www.w3.org/2004/02/skos/core#prefLabel,Eingeschraenkt Gemischtes Baugebiet
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialBuildingLand,http://www.w3.org/2004/02/skos/core#prefLabel,Sondergebiete des Baulandes
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/limitedMixedUseArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2002/07/owl#versionInfo,1.0.0
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyCompactedResidentialArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialArea,http://www.w3.org/2004/02/skos/core#definition,"Flaechen fuer Wohngebaeude, die einem dauernden Wohnbedarf dienen und fuer Bauwerke, die den wirtschaftlichen, sozialen oder kulturellen Beduerfnissen vorwiegend der Bewohnerinnen bzw. Bewohner dienen"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyCompactedResidentialArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/trafficArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/cemetery,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13002"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/spaArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/limitedMixedUseArea,http://www.w3.org/2004/02/skos/core#prefLabel,Limited mixed use areas
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/spaArea,http://www.w3.org/2004/02/skos/core#notation,spaArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/plantNursery,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compostingPlant,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/trafficArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/commercialArea,http://www.w3.org/2004/02/skos/core#prefLabel,Betriebsbaugebiet
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/resourceExtraction,http://www.w3.org/2004/02/skos/core#prefLabel,Abgrabungsgebiete
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyCompactedResidentialArea,http://www.w3.org/2004/02/skos/core#definition,Flaechen fuer foerderbare mehrgeschossige Wohnbauten oder Gebaeude in verdichteter Flachbauweise sowie fuer Bauwerke fuer den taeglichen Bedarf der Bewohnerinnen bzw. Bewohner
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/wasteStorage,http://www.w3.org/2004/02/skos/core#prefLabel,Ablagerungsplaetze
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/plantNursery,http://www.w3.org/2004/02/skos/core#definition,Flaechen fuer Gaertnereien
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/mixedUseArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11009"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialOnlyArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyResidentialArea,http://www.w3.org/2004/02/skos/core#prefLabel,Residental areas for multistorey
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/technicalZone,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingBuilding,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/agricultureLand,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/spaArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/cemetery,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/allotmentGarden,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/recreationalAreas,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/afforestationArea,http://www.w3.org/2004/02/skos/core#prefLabel,Afforestation area
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/allotmentGarden,http://www.w3.org/2004/02/skos/core#definition,Flaechen fuer Dauerkleingaerten
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingFacilitiesReservedArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialAgriculturalEnterprise,http://www.w3.org/2004/02/skos/core#definition,"Flaechen fuer land- und forstwirtschaftliche Betriebe mit nicht herkoemmlichen Produktionsformen (Betriebe der bodenunabhaengigen Haltung landwirtschaftlicher Nutztiere, Tierparks, Zucht und Haltung von Tieren, die keine landwirtschaftlichen Nutztiere sind und dgl.)"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/resourceExtraction,http://www.w3.org/2004/02/skos/core#definition,"resource extraction sites sand, gravel , silt and quarries"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/PZBuildingLand,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/allotmentGarden,http://www.w3.org/2004/02/skos/core#definition,Areas for allotment gardens
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialOnlyArea,http://www.w3.org/2004/02/skos/core#notation,residentialOnlyArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/afforestationArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13005"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/commercialArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialAgriculturalEnterprise,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/SEAZoning,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://purl.org/dc/terms/description,Ãsterreich-Erweiterung fÃ¼r OberÃ¶sterreich spezifische Landnutzungsklassifizierung
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialGreenLand,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyResidentialArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/recreationalAreas,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/trafficArea,http://www.w3.org/2004/02/skos/core#prefLabel,Traffic area
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/SEAZoning,http://www.w3.org/2004/02/skos/core#prefLabel,SEA zoning
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/limitedMixedUseArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialOpenGreenLand,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/limitedMixedUseArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialOnlyArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyResidentialArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingBuilding,http://www.w3.org/2004/02/skos/core#prefLabel,Existing building in green land with specific definition
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/embankmentArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/secondaryResidentalArea,http://www.w3.org/2004/02/skos/core#prefLabel,Zweitwohngebiet
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/PZBuildingLand,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11502, 11503, 11500"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/villageArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11001"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/industryArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/spaArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingFacilitiesReservedArea,http://www.w3.org/2004/02/skos/core#definition,"Existing facilities on land reserved for public facilities (governmental office, school, hospital, retirement home, nursing home or sanatorium, waste collection center, youth center, counseling facility, kindergarden, indoor pool, fire department, air-raid shelter, flood protection, possible augmentation of facilty)"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/allotmentGarden
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/limitedMixedUseArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialAgriculturalEnterprise,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/plantNursery,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compostingPlant,http://www.w3.org/2004/02/skos/core#definition,Areas for composting plants
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/secondaryResidentalArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://purl.org/dc/terms/title,OOE Land Use Value
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/agricultureLand
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/embankmentArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13006"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/protectionZone,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/limitedMixedUseArea,http://www.w3.org/2004/02/skos/core#definition,Possibility in mixed used areas to excluse or restrict residental constructions for functional structuring
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/commercialArea,http://www.w3.org/2004/02/skos/core#prefLabel,Commercial areas
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyResidentialArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11102"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialOnlyArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/villageArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/limitedMixedUseArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/industryArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/shippingPier
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialBuildingLand,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11401"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingFacilitiesReservedArea,http://www.w3.org/2004/02/skos/core#prefLabel,Bestehende Einrichtungen auf Vorbehaltsflaechen
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/cemetery,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/reservedArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/resourceExtraction,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13401, 13402, 13403, 13404"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/technicalZone,http://www.w3.org/2004/02/skos/core#prefLabel,Technical zone
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/wasteStorage,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/commercialArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialArea,http://www.w3.org/2004/02/skos/core#definition,"Areas for permanent residental buildings and constructions for the economic, social and culturell needs of the inhabitants"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/resourceExtraction
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/allotmentGarden,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13201"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/limitedMixedUseArea,http://www.w3.org/2004/02/skos/core#notation,limitedMixedUseArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialAgriculturalEnterprise,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/embankmentArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/commercialArea,http://www.w3.org/2004/02/skos/core#notation,commercialArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#ConceptScheme
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shippingPier,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11004"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/recreationalAreas,http://www.w3.org/2004/02/skos/core#definition,"Areas for recreational, parks, playgrounds, sports facilities, outdoor swimming pools, campsites, tennis halls, golf courses, equestrian facilitiies, winter sport facilities, protective huts and slopes"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compostingPlant,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialBuildingLand,http://www.w3.org/2004/02/skos/core#definition,"Areas for uses that require particular protection or that are to be assigned a specific location or that are particular importance, such as hospitals, schools and churches"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shippingPier,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyResidentialArea,http://www.w3.org/2004/02/skos/core#prefLabel,Wohngebiet fuer mehrgeschossige gefoerderte Wohnbauten
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/recreationalAreas,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/secondaryResidentalArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11005"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compactedResidentialArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/villageArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialAgriculturalEnterprise,http://www.w3.org/2004/02/skos/core#prefLabel,Special agricultural enterprise
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/plantNursery,http://www.w3.org/2004/02/skos/core#prefLabel,Market garden and plant nursery
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/limitedMixedUseArea,http://www.w3.org/2004/02/skos/core#definition,"Zur funktionalen Gliederung kann in gemischten Baugebieten die Zulaessigkeit von Bauwerken und Anlagen, die in Wohngebieten errichtet werden duerfen, eingeschraenkt oder ausgeschlossen werden."
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/secondaryResidentalArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/cemetery,http://www.w3.org/2004/02/skos/core#definition,Areas for cemeteries
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/industryArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11003"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingFacilitiesReservedArea,http://www.w3.org/2004/02/skos/core#definition,"Bestehende Bauwerke und Anlagen auf Vorbehaltsflaechen fuer oeffentlichen Zwecken dienenden Bauwerken und Anlagen (Verwaltungsgebaeude, Schule, Krankenanstalt, Altersheim, Heil- und Pflegeanstalt, Altstoffsammelzentrum, Jugendheim oder Jugendherberge, Seelsorgeeinrichtung, Kindergarten, Hallenbad, Feuerwehr, Luftschutzanlage, Hochwasserschutzanlagen, Ergaenzungsmoeglichkeiten fuer Vorbehaltsflaechen)"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyResidentialArea,http://www.w3.org/2004/02/skos/core#notation,multistoreyResidentialArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/embankmentArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/allotmentGarden,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/agricultureLand,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/trafficArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 12001, 12002, 12003, 12004, 12005"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compactedResidentialArea,http://www.w3.org/2004/02/skos/core#definition,Areas for compacted flat construction and for constructions fpr the daily needs of the inhabitants
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/industryArea,http://www.w3.org/2004/02/skos/core#prefLabel,Industriegebiet
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialBuildingLand,http://www.w3.org/2004/02/skos/core#notation,specialBuildingLand
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/SEAZoning,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compactedResidentialArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/protectionZone,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialBuildingLand,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialOnlyArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/commercialArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialGreenLand,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialOpenGreenLand,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/centreZone,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shoppingArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialOnlyArea,http://www.w3.org/2004/02/skos/core#prefLabel,Reines Wohngebiet
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialBuildingLand,http://www.w3.org/2004/02/skos/core#prefLabel,Special area of building land
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/limitedMixedUseArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11010"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/wasteStorage,http://www.w3.org/2004/02/skos/core#notation,wasteStorage
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/SEAZoning,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/reservedArea,http://www.w3.org/2004/02/skos/core#notation,reservedArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingBuilding,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/wasteStorage,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://purl.org/dc/terms/publisher,https://registry.inspire.gv.at/dataprovider/0046
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialBuildingLand,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#scopeNote,"INSPIRE extensibility: open, internal by value"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11006"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/protectionZone,http://www.w3.org/2004/02/skos/core#prefLabel,Protection zone in green land or flood areas
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/spaArea,http://www.w3.org/2004/02/skos/core#definition,Spa areas and related tourism businesses
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/embankmentArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialAgriculturalEnterprise,http://www.w3.org/2004/02/skos/core#notation,specialAgriculturalEnterprise
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/trafficArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 12001, 12002, 12003, 12004, 12005"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/afforestationArea,http://www.w3.org/2004/02/skos/core#notation,afforestationArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialAgriculturalEnterprise,http://www.w3.org/2004/02/skos/core#definition,"Areas for soilless livestock farming, animal park, biogas plant, livestock farming Â§ 30 Abs. 4 and other special forms of agricultural and forestry farms"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyCompactedResidentialArea,http://www.w3.org/2004/02/skos/core#prefLabel,Residental areas for multistorey and compacted flat construction
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/afforestationArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13005"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/SEAZoning,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/allotmentGarden,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialArea,http://www.w3.org/2004/02/skos/core#notation,residentialArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compostingPlant,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shippingPier,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compostingPlant,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13203"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingFacilitiesReservedArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/protectionZone,http://www.w3.org/2004/02/skos/core#notation,protectionZone
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingBuilding,http://www.w3.org/2004/02/skos/core#definition,"Existing building in green land with specific definition, like a special use of agricultural and forestry farms (living, replacement), restaurants, etc. or excisiting residential buildings"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/reservedArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/secondaryResidentalArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11005"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/wasteStorage,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/protectionZone,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13800, 13801"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/PZBuildingLand,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11502, 11503, 11500"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/technicalZone,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingBuilding,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/SEAZoning,http://www.w3.org/2004/02/skos/core#definition,Widmung fuer die eine Strategische Umweltpruefung erforderlich ist
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/allotmentGarden,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialBuildingLand,http://www.w3.org/2004/02/skos/core#definition,"Flaechen fuer Nutzungen, die einen besonderen Schutz erfordern oder zu sichern sind oder denen eine besondere Bedeutung zukommt, wie insbesonder Krankenanstalten, Schulen und Kirchen"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/wasteStorage,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13007, 13008"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/reservedArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingFacilitiesReservedArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 14101, 14102, 14103, 14104, 14105, 14106, 14107, 14108, 14109, 14110, 14111, 14112, 14100"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/industryArea,http://www.w3.org/2004/02/skos/core#prefLabel,Industry areas
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compactedResidentialArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/mixedUseArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialOpenGreenLand,http://www.w3.org/2004/02/skos/core#definition,"Greenways, separating green land and further"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shippingPier,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/protectionZone,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyCompactedResidentialArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialOnlyArea,http://www.w3.org/2004/02/skos/core#definition,Areas only for permanent residental buildings
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/embankmentArea,http://www.w3.org/2004/02/skos/core#definition,Aufschuettungsgebiete
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/centreZone,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shippingPier,http://www.w3.org/2004/02/skos/core#definition,"Flaechen an Wasserstrassen, die fuer den Ãbergang des Personen- oder Gueterverkehrs vom Wasserweg auf den Landweg bestimmt sind"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingFacilitiesReservedArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyCompactedResidentialArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/embankmentArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13006"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/technicalZone,http://www.w3.org/2004/02/skos/core#definition,Technical zone
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/resourceExtraction,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/villageArea,http://www.w3.org/2004/02/skos/core#definition,Areas which are intended for buildings of agricultural and forestry use in a dense arrangement.
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialOpenGreenLand,http://www.w3.org/2004/02/skos/core#definition,"Gruenzuege, Trenngruens und sonstige"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/spaArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/industryArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11003"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shippingPier,http://www.w3.org/2004/02/skos/core#prefLabel,Laendeflaeche
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/mixedUseArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/commercialArea,http://www.w3.org/2004/02/skos/core#definition,"Flaechen fuer Betriebe und Lagerplaetze, die die Umgebung nicht erheblich stoeren und fuer zugeordnete Buero- und Verwaltungsgebaeude"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/wasteStorage,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13007, 13008"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/reservedArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 14001, 14002, 14003, 14004, 14005, 14006, 14007, 14008, 14009, 14010, 14011, 14012, 14013, 14000"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/recreationalAreas,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13101, 13102, 13103, 13104, 13105, 13106, 13107, 13108, 13109, 13110, 13100"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/agricultureLand,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/mixedUseArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/mixedUseArea,http://www.w3.org/2004/02/skos/core#definition,Areas for small and medium-sized enterprises and construction as in residental areas
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingBuilding,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13601, 13602, 13603, 13010, 13011, 13701, 13702, 13703, 13704, 13012, 13013"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/spaArea,http://www.w3.org/2004/02/skos/core#definition,Flaechen fuer Kuranstalten und darauf abgestellte Tourismusbetriebe und Erholungseinrichtungen
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/embankmentArea,http://www.w3.org/2004/02/skos/core#definition,Embankment area
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialBuildingLand,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/protectionZone,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13800, 13801"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/spaArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/trafficArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/trafficArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compostingPlant,http://www.w3.org/2004/02/skos/core#prefLabel,composting plant
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/plantNursery,http://www.w3.org/2004/02/skos/core#definition,Areas for market gardens and plant nurserys
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/commercialArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/PZBuildingLand,http://www.w3.org/2004/02/skos/core#notation,PZBuildingLand
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/recreationalAreas
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/reservedArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialOpenGreenLand,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/allotmentGarden,http://www.w3.org/2004/02/skos/core#prefLabel,allotment garden
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compostingPlant,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/wasteStorage,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/PZBuildingLand,http://www.w3.org/2004/02/skos/core#definition,Schutz- oder Pufferzonen zur Gliederung und Abstimmung unterschiedlicher Widmungen
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialGreenLand,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13009, 13501, 13502, 13503, 13500"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/reservedArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialOpenGreenLand,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13003, 13004, 13200"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialOnlyArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialGreenLand,http://www.w3.org/2004/02/skos/core#definition,"Areas for shooting areas, wind power, radio installation and photocoltaic plants"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/spaArea,http://www.w3.org/2004/02/skos/core#prefLabel,Spa areas
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shoppingArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/villageArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/SEAZoning
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingBuilding
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingBuilding,http://www.w3.org/2004/02/skos/core#notation,existingBuilding
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingBuilding,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compactedResidentialArea,http://www.w3.org/2004/02/skos/core#notation,compactedResidentialArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialOpenGreenLand,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/allotmentGarden,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialGreenLand,http://www.w3.org/2004/02/skos/core#prefLabel,Sonderausweisung im Gruenland
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialOpenGreenLand
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shippingPier,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compostingPlant,http://www.w3.org/2004/02/skos/core#prefLabel,Kompostieranlage
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyCompactedResidentialArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingFacilitiesReservedArea,http://www.w3.org/2004/02/skos/core#prefLabel,Bestehende Einrichtungen auf Vorbehaltsflaechen
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialAgriculturalEnterprise,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialOpenGreenLand,http://www.w3.org/2004/02/skos/core#notation,specialOpenGreenLand
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/secondaryResidentalArea,http://www.w3.org/2004/02/skos/core#definition,Areas secondary residental buildings
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/recreationalAreas,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/resourceExtraction,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/secondaryResidentalArea,http://www.w3.org/2004/02/skos/core#prefLabel,Secondary residental areas
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://purl.org/dc/terms/created,2026-05-05T14:30:11+00:00
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/agricultureLand,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/wasteStorage,http://www.w3.org/2004/02/skos/core#definition,"Areas for landfilling and storage of waste, scrap and vehicle wrecks"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialOpenGreenLand,http://www.w3.org/2004/02/skos/core#prefLabel,Special open green land
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/industryArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/protectionZone
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/PZBuildingLand,http://www.w3.org/2004/02/skos/core#definition,Protection zone in building land for structuring different zoning
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialOnlyArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11007"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/mixedUseArea,http://www.w3.org/2004/02/skos/core#notation,mixedUseArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/secondaryResidentalArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compactedResidentialArea,http://www.w3.org/2004/02/skos/core#prefLabel,Wohngebiet fuer Gebaeude in verdichterer Flachbauweise
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/agricultureLand,http://www.w3.org/2004/02/skos/core#prefLabel,"Agriculture and forestry, wasteland"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/technicalZone,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialOpenGreenLand,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13003, 13004, 13200"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialAgriculturalEnterprise,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/commercialArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyCompactedResidentialArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11101"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/centreZone,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shoppingArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/villageArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/recreationalAreas,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/PZBuildingLand,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/embankmentArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/trafficArea,http://www.w3.org/2004/02/skos/core#definition,"Flaechen, die den fliessenden und ruhenden Verkehr dienen und besondere Verkehrsbedeutung besitzen, wie Parkplaetze, Parkhaeuser, unterirdische Parkflaechen und Fusswege"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/agricultureLand,http://www.w3.org/2004/02/skos/core#prefLabel,"Land- und Forstwirtschaft, oedland"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/afforestationArea,http://www.w3.org/2004/02/skos/core#prefLabel,Neuaufforstungsgebiete
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compactedResidentialArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/resourceExtraction,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compactedResidentialArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11103"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialOnlyArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialGreenLand,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/industryArea,http://www.w3.org/2004/02/skos/core#definition,Areas for large enterprises and storage places
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialBuildingLand,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11401"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/centreZone,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shoppingArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/villageArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialBuildingLand,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialOnlyArea,http://www.w3.org/2004/02/skos/core#prefLabel,Residental only areas
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialOpenGreenLand,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/plantNursery,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/reservedArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 14001, 14002, 14003, 14004, 14005, 14006, 14007, 14008, 14009, 14010, 14011, 14012, 14013, 14000"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyResidentialArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/limitedMixedUseArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/reservedArea,http://www.w3.org/2004/02/skos/core#definition,"Land reserved for public facilities (governmental office, school, hospital, retirement home, nursing home or sanatorium, waste collection center, youth center, counseling facility, kindergarden, indoor pool, fire department, air-raid shelter, flood protection, possible augmentation of facilty)"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/plantNursery,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13202"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/mixedUseArea,http://www.w3.org/2004/02/skos/core#prefLabel,Mixed use areas
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/protectionZone,http://www.w3.org/2004/02/skos/core#definition,Protection zone in green land
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/afforestationArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/resourceExtraction,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/centreZone,http://www.w3.org/2004/02/skos/core#prefLabel,Kerngebiet
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/cemetery,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13002"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compactedResidentialArea,http://www.w3.org/2004/02/skos/core#prefLabel,Residental areas for compacted flat construction
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialArea,http://www.w3.org/2004/02/skos/core#prefLabel,Wohngebiet
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/cemetery,http://www.w3.org/2004/02/skos/core#prefLabel,cemetery
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/trafficArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/wasteStorage,http://www.w3.org/2004/02/skos/core#definition,"Flaechen fuer die Ablagerung von Muell, Fahrzeugwracks und Altmaterial"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/plantNursery,http://www.w3.org/2004/02/skos/core#prefLabel,Gaertnerei
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compostingPlant,http://www.w3.org/2004/02/skos/core#definition,Flaechen fuer Kompostieranlagen
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/mixedUseArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11009"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/cemetery
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/SEAZoning,http://www.w3.org/2004/02/skos/core#notation,SEAZoning
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/resourceExtraction,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/villageArea,http://www.w3.org/2004/02/skos/core#prefLabel,Village areas
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/SEAZoning,http://www.w3.org/2004/02/skos/core#definition,Zoning with necessary Strategic Environmental Assessment
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/PZBuildingLand,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingFacilitiesReservedArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/spaArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11008"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/centreZone,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11002"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/SEAZoning,http://www.w3.org/2004/02/skos/core#prefLabel,SUP pflichtige Widmung
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/trafficArea,http://www.w3.org/2004/02/skos/core#prefLabel,Flaechenmaessige Darstellung - fliessender Verkehr
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/protectionZone,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/secondaryResidentalArea,http://www.w3.org/2004/02/skos/core#definition,Flaechen fuer Bauwerke fuer einen zeitweiligen Wohnbedarf
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://purl.org/dc/terms/type,http://inspire.ec.europa.eu/codelist/LandUseClassificationValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/SEAZoning,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/afforestationArea,http://www.w3.org/2004/02/skos/core#definition,Afforestation area
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/allotmentGarden,http://www.w3.org/2004/02/skos/core#prefLabel,Dauerkleingaerten
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyCompactedResidentialArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11101"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialAgriculturalEnterprise,http://www.w3.org/2004/02/skos/core#prefLabel,Gruenland fuer Sonderformen von land- und forstwirtschaftlichen Betrieben
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingFacilitiesReservedArea,http://www.w3.org/2004/02/skos/core#notation,existingFacilitiesReservedArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/recreationalAreas,http://www.w3.org/2004/02/skos/core#prefLabel,Erholungsflaechen
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compactedResidentialArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialOpenGreenLand,http://www.w3.org/2004/02/skos/core#prefLabel,Gruenflaeche mit besonderer Widmung
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/reservedArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/protectionZone,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyCompactedResidentialArea,http://www.w3.org/2004/02/skos/core#notation,multistoreyCompactedResidentialArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/SEAZoning,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shippingPier,http://www.w3.org/2004/02/skos/core#definition,Areas at waterways for passanger and freight transport
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/shoppingArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialBuildingLand
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialBuildingLand,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/plantNursery,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13202"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compactedResidentialArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11103"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/embankmentArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/plantNursery,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/centreZone,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shoppingArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/villageArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/embankmentArea,http://www.w3.org/2004/02/skos/core#notation,embankmentArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/technicalZone,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/embankmentArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compostingPlant,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shippingPier,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shippingPier,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11004"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialAgriculturalEnterprise
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/centreZone,http://www.w3.org/2004/02/skos/core#notation,centreZone
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/cemetery,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/trafficArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/industryArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/embankmentArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialGreenLand,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13009, 13501, 13502, 13503, 13500"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/technicalZone,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/PZBuildingLand,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/mixedUseArea,http://www.w3.org/2004/02/skos/core#prefLabel,Gemischtes Baugebiet
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/technicalZone
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compostingPlant,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/technicalZone,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/wasteStorage,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/villageArea,http://www.w3.org/2004/02/skos/core#definition,"Flaechen, die fuer Bauten land- und forstwirtschaftlicher Nutzung in verdichteter Anordnung bestimmt sind."
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialAgriculturalEnterprise,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13200, 13301, 13302, 13303, 13304, 13305, 13300"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingFacilitiesReservedArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialGreenLand,http://www.w3.org/2004/02/skos/core#notation,specialGreenLand
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/agricultureLand,http://www.w3.org/2004/02/skos/core#definition,Areas for agriculture and forestry and wasteland
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/allotmentGarden,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialGreenLand
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/agricultureLand,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialGreenLand,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyResidentialArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/recreationalAreas,http://www.w3.org/2004/02/skos/core#definition,"Flaechen fuer Erholungs- oder Sportanlagen wie Parkanlagen, Spiel- und Liegewiesen, Sport- und Spielflaechen, Freibaeder, Campingplaetze, Tennishallen, Golfplaetze, Reitsportanlagen, Gaststaetten und Schutzhuetten sowie Wintersportanlagen einschliesslich der Schipisten"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compostingPlant,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13203"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/afforestationArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/technicalZone,http://www.w3.org/2004/02/skos/core#notation,technicalZone
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingBuilding,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/wasteStorage,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialAgriculturalEnterprise,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/reservedArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compostingPlant,http://www.w3.org/2004/02/skos/core#notation,compostingPlant
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/trafficArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/afforestationArea,http://www.w3.org/2004/02/skos/core#definition,Neuaufforstungsgebiete
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialOnlyArea,http://www.w3.org/2004/02/skos/core#definition,"Flaechen einzig fuer Wohngebaeude, die einem dauernden Wohnbedarf dienen und fuer Bauwerke"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/wasteStorage,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialGreenLand,http://www.w3.org/2004/02/skos/core#definition,"Flaechen fuer Schiessstaetten, Windkraftanlagen, Funkanlagen und Photovoltaikanlagen"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyResidentialArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyCompactedResidentialArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/agricultureLand,http://www.w3.org/2004/02/skos/core#definition,Flaechen die fuer die Land- und Forstwirtschaft bestimmt sind oder oedland sind
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/reservedArea,http://www.w3.org/2004/02/skos/core#prefLabel,Vorbehaltsflaechen
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyResidentialArea,http://www.w3.org/2004/02/skos/core#definition,Flaechen fuer foerderbare mehrgeschossige Wohnbauten sowie fuer Bauwerke fuer den taeglichen Bedarf der Bewohnerinnen bzw. Bewohner
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/mixedUseArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/resourceExtraction,http://www.w3.org/2004/02/skos/core#notation,resourceExtraction
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/secondaryResidentalArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/afforestationArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyCompactedResidentialArea,http://www.w3.org/2004/02/skos/core#prefLabel,Wohngebiet fuer mehrgeschossige gefoerderte Wohnbauten oder Gebaeude in verdichterer Flachbauweise
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/centreZone,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11002"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/afforestationArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/spaArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/agricultureLand,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/spaArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shippingPier,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/plantNursery
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11006"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/centreZone,http://www.w3.org/2004/02/skos/core#definition,Areas with mainly urban structure
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/afforestationArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/spaArea,http://www.w3.org/2004/02/skos/core#prefLabel,Kurgebiet
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/commercialArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/commercialArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingFacilitiesReservedArea,http://www.w3.org/2004/02/skos/core#prefLabel,Existing facilities on reserved areas
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/trafficArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/technicalZone,http://www.w3.org/2004/02/skos/core#definition,Technische Widmung unter Ersichtlichmachungen gem. Â§ 30 ROG
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/mixedUseArea,http://www.w3.org/2004/02/skos/core#definition,"Flaechen fuer Klein- und Mittelbetriebe, Lagerplaetze und Bauwerke wie im Wohngebiet"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/allotmentGarden,http://www.w3.org/2004/02/skos/core#notation,allotmentGarden
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compactedResidentialArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/plantNursery,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/commercialArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11011"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialOpenGreenLand,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingBuilding,http://www.w3.org/2004/02/skos/core#prefLabel,Bestehende Gebaeude im Gruenland und deren spezifische Festlegung
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shoppingArea,http://www.w3.org/2004/02/skos/core#definition,Flaechen fuer Handelsbetriebe mit einer Gesamtverkaufsflaeche von > 300mÂ²
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/limitedMixedUseArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/PZBuildingLand,http://www.w3.org/2004/02/skos/core#prefLabel,Schutz- oder Pufferzone im Bauland
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/trafficArea,http://www.w3.org/2004/02/skos/core#definition,"Areas for steady and current traffic, like streets, parking area, multistorey parking space, unterground parking space and walkways"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/plantNursery,http://www.w3.org/2004/02/skos/core#notation,plantNursery
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/technicalZone,http://www.w3.org/2004/02/skos/core#prefLabel,Technische Widmung
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/recreationalAreas,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13101, 13102, 13103, 13104, 13105, 13106, 13107, 13108, 13109, 13110, 13100"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/commercialArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shippingPier,http://www.w3.org/2004/02/skos/core#prefLabel,Shipping pier
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/commercialArea,http://www.w3.org/2004/02/skos/core#definition,"Areas for enterprises and storage places, that do not significantly disturb the environment and related office- and amdinistration buildings"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/secondaryResidentalArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialAgriculturalEnterprise,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13200, 13301, 13302, 13303, 13304, 13305, 13300"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/centreZone,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialOpenGreenLand,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingBuilding,http://www.w3.org/2004/02/skos/core#definition,"Bestehende Gebaeude im Gruenland und deren spezifische Festlegung, wie in etwa fuer bestehende Gasthoefe, bestehende Wohngebaeude oder landwirtschaftliche Gebaeude"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/spaArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11008"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/limitedMixedUseArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/cemetery,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/plantNursery,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/SEAZoning,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 15001"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/reservedArea,http://www.w3.org/2004/02/skos/core#definition,"Vorbehaltsflaechen fuer oeffentlichen Zwecken dienenden Bauwerken und Anlagen (Verwaltungsgebaeude, Schule, Krankenanstalt, Altersheim, Heil- und Pflegeanstalt, Altstoffsammelzentrum, Jugendheim oder Jugendherberge, Seelsorgeeinrichtung, Kindergarten, Hallenbad, Feuerwehr, Luftschutzanlage, Hochwasserschutzanlagen, Ergaenzungsmoeglichkeiten fuer Vorbehaltsflaechen)"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shoppingArea,http://www.w3.org/2004/02/skos/core#prefLabel,"Wholesale and retail areas, shopping centers"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/resourceExtraction,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyCompactedResidentialArea,http://www.w3.org/2004/02/skos/core#definition,Areas for multi storey residental buildings or compacted flat construction and for constructions fpr the daily needs of the inhabitants
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/PZBuildingLand,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialArea,http://www.w3.org/2004/02/skos/core#prefLabel,Residental areas
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingBuilding,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13601, 13602, 13603, 13010, 13011, 13701, 13702, 13703, 13704, 13012, 13013"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shoppingArea,http://www.w3.org/2004/02/skos/core#definition,Areas for establishments selling durable and non-durable goods or merchandise for personal or household consumption or to other retailers.
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/secondaryResidentalArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialGreenLand,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/wasteStorage,http://www.w3.org/2004/02/skos/core#prefLabel,land filling and storage
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/villageArea,http://www.w3.org/2004/02/skos/core#notation,villageArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyResidentialArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/cemetery,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/resourceExtraction,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/plantNursery,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/protectionZone,http://www.w3.org/2004/02/skos/core#prefLabel,Schutzzone im Gruenland oder Ueberflutungsgebiet
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/cemetery,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/commercialArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11011"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/agricultureLand,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/PZBuildingLand,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/compactedResidentialArea,http://www.w3.org/2004/02/skos/core#definition,Flaechen fuer Gebaeude in verdichteter Flachbauweise sowie fuer Bauwerke fuer den taeglichen Bedarf der Bewohnerinnen bzw. Bewohner
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/agricultureLand,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13001"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/limitedMixedUseArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11010"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/cemetery,http://www.w3.org/2004/02/skos/core#notation,cemetery
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/agricultureLand,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 13001"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialGreenLand,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingBuilding,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialAgriculturalEnterprise,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/industryArea,http://www.w3.org/2004/02/skos/core#definition,Flaechen fuer Grossbetriebe und Lagerplaetze
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/industryArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyResidentialArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialOnlyArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialGreenLand,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/villageArea,http://www.w3.org/2004/02/skos/core#prefLabel,Dorfgebiet
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/embankmentArea,http://www.w3.org/2004/02/skos/core#prefLabel,Aufschuettungsgebiete
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/SEAZoning,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 15001"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/industryArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/recreationalAreas,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/centreZone,http://www.w3.org/2004/02/skos/core#prefLabel,Centre zone
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shoppingArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/villageArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/PZBuildingLand,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/mixedUseArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/PZBuildingLand
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/recreationalAreas,http://www.w3.org/2004/02/skos/core#notation,recreationalAreas
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialBuildingLand,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shoppingArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11301, 11302, 11303, 11304, 11305,"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/secondaryResidentalArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/industryArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyResidentialArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/trafficArea,http://www.w3.org/2004/02/skos/core#notation,trafficArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/resourceExtraction,http://www.w3.org/2004/02/skos/core#definition,"Abgrabungsgebiete fuer Sand, Kies, Lehm bzw. Steinbrueche"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/embankmentArea,http://www.w3.org/2004/02/skos/core#prefLabel,Embankment area
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shoppingArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/villageArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/industryArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/centreZone,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://purl.org/dc/terms/title,OOE Landnutzungsklassen
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/wasteStorage
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/reservedArea,http://www.w3.org/2004/02/skos/core#prefLabel,Reserved areas
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/centreZone,http://www.w3.org/2004/02/skos/core#definition,Flaechen mit ueberwiegend staedtischer oder typisch zentrumsbildender Struktur
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://purl.org/dc/terms/description,Austrian extension for Upper Austria specific land use classification
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/cemetery,http://www.w3.org/2004/02/skos/core#definition,Flaechen fuer Friedhoefe
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/compostingPlant
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/technicalZone,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 16002"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/protectionZone,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shoppingArea,http://www.w3.org/2004/02/skos/core#prefLabel,Geschaeftsgebiete
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/shippingPier,http://www.w3.org/2004/02/skos/core#notation,shippingPier
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/technicalZone,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/cemetery,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyCompactedResidentialArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/ooeLandUseValue/afforestationArea
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/spaArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/resourceExtraction,http://www.w3.org/2004/02/skos/core#prefLabel,resource extraction sites
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/reservedArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/ooeLandUseValue
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyResidentialArea,http://purl.org/dc/terms/description,"Def. OOE, Kennzahl 11102"
+https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialGreenLand,http://www.w3.org/2004/02/skos/core#prefLabel,Special green Land

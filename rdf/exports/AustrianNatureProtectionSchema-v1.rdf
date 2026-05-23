@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:ns1="http://www.w3.org/ns/adms#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/SSG">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:comment>http://inspire.ec.europa.eu/applicationschema/ps</rdfs:comment>
+    <rdfs:seeAlso>Banko, Environment Agency Austria, 2016</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/theme/ps"/>
+    <dcterms:description xml:lang="en">K, S</dcterms:description>
+    <dcterms:description xml:lang="de">K, S</dcterms:description>
+    <dcterms:subject rdf:resource="http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ"/>
+    <skos:definition xml:lang="en">KÃ¤rntner Nationalpark- und BiosphÃ¤renparkgesetz - K-NBG Â§ 5 ; LGBl. NÃ 5505-0: Â§ 5-7 (NÃ NPG) ; LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG)</skos:definition>
+    <skos:definition xml:lang="de">KÃ¤rntner Nationalpark- und BiosphÃ¤renparkgesetz - K-NBG Â§ 5 ; LGBl. NÃ 5505-0: Â§ 5-7 (NÃ NPG) ; LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG)</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"/>
+    <skos:notation>SSG</skos:notation>
+    <skos:prefLabel xml:lang="de">Sonderschutzgebiet im Nationalpark</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">National Park zone: special protection area</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/BeZ">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/ps"/>
+    <dcterms:description xml:lang="en">B, OÃ, St</dcterms:description>
+    <dcterms:description xml:lang="de">B, OÃ, St</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/ps"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ"/>
+    <skos:definition xml:lang="en">LGBl. Burgenland 27/1991 Â§ 45; LGBl 55/1983: OÃ¶. Nationalparkgesetz - OÃ¶. NPG (LGBl. 20/1997) Â§ 8; LGBl. Nr. 61/2002 (NP-Gesetz GesÃ¤use):Â§ 3</skos:definition>
+    <skos:definition xml:lang="de">LGBl. Burgenland 27/1991 Â§ 45; LGBl 55/1983: OÃ¶. Nationalparkgesetz - OÃ¶. NPG (LGBl. 20/1997) Â§ 8; LGBl. Nr. 61/2002 (NP-Gesetz GesÃ¤use):Â§ 3</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"/>
+    <skos:notation>BeZ</skos:notation>
+    <skos:prefLabel xml:lang="en">National Park zone: conservation zone</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Bewahrungszone im Nationalpark</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/AuZ">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/ps"/>
+    <dcterms:description xml:lang="en">K, NÃ, S, T, W</dcterms:description>
+    <dcterms:description xml:lang="de">K, NÃ, S, T, W</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/ps"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ"/>
+    <skos:definition xml:lang="en">KÃ¤rntner Nationalpark- und BiosphÃ¤renparkgesetz - K-NBG Â§ 5; NÃ Nationalparkgesetz LGBl. 5505-0 Â§ 7; LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG):Â§ 7; LGBl. Nr. 61/2002 (NP-Gesetz GesÃ¤use):Â§ 3; LGBl. Tirol 103/1991: Â§ 4 (T-NPG HT); LGBl. Nr. 37/1996 (W-NPG): Â§ 5</skos:definition>
+    <skos:definition xml:lang="de">KÃ¤rntner Nationalpark- und BiosphÃ¤renparkgesetz - K-NBG Â§ 5; NÃ Nationalparkgesetz LGBl. 5505-0 Â§ 7; LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG):Â§ 7; LGBl. Nr. 61/2002 (NP-Gesetz GesÃ¤use):Â§ 3; LGBl. Tirol 103/1991: Â§ 4 (T-NPG HT); LGBl. Nr. 37/1996 (W-NPG): Â§ 5</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"/>
+    <skos:notation>AuZ</skos:notation>
+    <skos:prefLabel xml:lang="en">National Park zone: outer zone</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Aussenzone im Nationalpark</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/ps"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-05T14:30:11+00:00</dcterms:created>
+    <dcterms:description xml:lang="en">Overview of Austrian nature protection designation categories defined by the nature protection laws of the federal states.</dcterms:description>
+    <dcterms:description xml:lang="de">Ãbersicht der in Ãsterreich verwendeten Schutzgebietskategorien nach den Naturschutzgesetzen der LÃ¤nder.</dcterms:description>
+    <dcterms:publisher rdf:resource="https://registry.inspire.gv.at/dataprovider/0008"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/ps"/>
+    <dcterms:title xml:lang="en">Nature protection categories</dcterms:title>
+    <dcterms:title xml:lang="de">Schutzgebietskategorien</dcterms:title>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_14"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_14_1"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13_3"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13_3_2"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13_3_1"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13_2"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13_2_9"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13_2_8"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13_2_7"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13_2_6"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13_2_5"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13_2_4"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13_2_3"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13_2_2"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13_2_1"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13_1"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13_1_7"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13_1_6"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13_1_5"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13_1_4"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13_1_3"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13_1_2"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13_1_1"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_12"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_12_3"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_12_3_1"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_12_2"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_12_2_2"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_12_2_1"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_12_1"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_12_1_3"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_12_1_2"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_12_1_1"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_4"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_4_2"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_4_1"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_3"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_3_3"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_3_2"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_3_2_2"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_3_2_1"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_3_1"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_2"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_2_2"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_2_2_2"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_2_2_1"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_2_1"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_1"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_1_4"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_1_3"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_1_3_2"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_1_3_1"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_1_2"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_1_2_2"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_1_2_1"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_11_1_1"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_10"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_10_4"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_10_3"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_10_2"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_10_1"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/8_10"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/8_10_3"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/8_10_2"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/8_10_1"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/1_3_2_10"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/1_3_2_10_3"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/1_3_2_10_2"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NP"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT/1_3_2_10_1"/>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:scopeNote>Banko, Environment Agency Austria, 2016</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/SoZ">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/ps"/>
+    <dcterms:description xml:lang="en">B</dcterms:description>
+    <dcterms:description xml:lang="de">B</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/ps"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ"/>
+    <skos:definition xml:lang="en">LGBl. Burgenland 27/1991 Â§ 45</skos:definition>
+    <skos:definition xml:lang="de">LGBl. Burgenland 27/1991 Â§ 45</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"/>
+    <skos:notation>SoZ</skos:notation>
+    <skos:prefLabel xml:lang="de">Sonderzone im Nationalpark</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">National Park zone: special zone</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/MaZ">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/ps"/>
+    <dcterms:description xml:lang="en">NÃ</dcterms:description>
+    <dcterms:description xml:lang="de">NÃ</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/ps"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ"/>
+    <skos:definition xml:lang="en">LGBl. NÃ 5505-0: Â§ 5-7 (NÃ NPG)</skos:definition>
+    <skos:definition xml:lang="de">LGBl. NÃ 5505-0: Â§ 5-7 (NÃ NPG)</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"/>
+    <skos:notation>MaZ</skos:notation>
+    <skos:prefLabel xml:lang="en">National Park zone: management zone</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Managementzone im Nationalpark</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/KeZ">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/ps"/>
+    <dcterms:description xml:lang="en">K, S, T</dcterms:description>
+    <dcterms:description xml:lang="de">K, S, T</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/ps"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ"/>
+    <skos:definition xml:lang="en">KÃ¤rntner Nationalpark- und BiosphÃ¤renparkgesetz - K-NBG Â§ 5; LGBl. NÃ 5505-0: Â§ 5-7 (NÃ NPG) ; LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG):; LGBl. Tirol 103/1991: Â§ 4 (T-NPG HT)</skos:definition>
+    <skos:definition xml:lang="de">KÃ¤rntner Nationalpark- und BiosphÃ¤renparkgesetz - K-NBG Â§ 5; LGBl. NÃ 5505-0: Â§ 5-7 (NÃ NPG) ; LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG):; LGBl. Tirol 103/1991: Â§ 4 (T-NPG HT)</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"/>
+    <skos:notation>KeZ</skos:notation>
+    <skos:prefLabel xml:lang="en">National Park zone: core zone</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Kernzone im Nationalpark</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/ps"/>
+    <dcterms:description xml:lang="de">B, K, NÃ, OÃ, S, St, T, W</dcterms:description>
+    <dcterms:description xml:lang="en">B, K, NÃ, OÃ, S, St, T, W</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/ps"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NP"/>
+    <skos:definition xml:lang="de">LGBl. Burgenland 27/1991 Â§ 45; LGBl KÃ¤rnten 55/1983: Â§ 5 (K-NBG); LGBl. NÃ 5505-0: Â§ 5-7 (NÃ NPG) ; LGBl. OÃ 20/1997: Â§ 8 (OÃ NPG); LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG):; LGBl. Nr. 61/2002 (NP-Gesetz GesÃ¤use):Â§ 3; LGBl. Tirol 103/1991: Â§ 4 (T-NPG HT); LGBl. Nr. 37/1996 (W-NPG): Â§ 5</skos:definition>
+    <skos:definition xml:lang="en">LGBl. Burgenland 27/1991 Â§ 45; LGBl KÃ¤rnten 55/1983: Â§ 5 (K-NBG); LGBl. NÃ 5505-0: Â§ 5-7 (NÃ NPG) ; LGBl. OÃ 20/1997: Â§ 8 (OÃ NPG); LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG):; LGBl. Nr. 61/2002 (NP-Gesetz GesÃ¤use):Â§ 3; LGBl. Tirol 103/1991: Â§ 4 (T-NPG HT); LGBl. Nr. 37/1996 (W-NPG): Â§ 5</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/SSG"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/SoZ"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NaZ"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/MaZ"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/KeZ"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/BeZ"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/AuZ"/>
+    <skos:notation>NPZ</skos:notation>
+    <skos:prefLabel xml:lang="en">National Park zone</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Nationalparkzone</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NaZ">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/ps"/>
+    <dcterms:description xml:lang="en">B, NÃ, OÃ, St, W</dcterms:description>
+    <dcterms:description xml:lang="de">B, NÃ, OÃ, St, W</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/ps"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ"/>
+    <skos:definition xml:lang="en">LGBl. Burgenland 27/1991 Â§ 45; LGBl. NÃ 5505-0: Â§ 5-7 (NÃ NPG) ; LGBl. OÃ 20/1997: Â§ 8 (OÃ NPG); LGBl. Nr. 61/2002 (NP-Gesetz GesÃ¤use):Â§ 3; LGBl. Nr. 37/1996 (W-NPG): Â§ 5</skos:definition>
+    <skos:definition xml:lang="de">LGBl. Burgenland 27/1991 Â§ 45; LGBl. NÃ 5505-0: Â§ 5-7 (NÃ NPG) ; LGBl. OÃ 20/1997: Â§ 8 (OÃ NPG); LGBl. Nr. 61/2002 (NP-Gesetz GesÃ¤use):Â§ 3; LGBl. Nr. 37/1996 (W-NPG): Â§ 5</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"/>
+    <skos:notation>NaZ</skos:notation>
+    <skos:prefLabel xml:lang="de">Naturzone im Nationalpark</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">National Park zone: nature zone</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NP">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/ps"/>
+    <dcterms:description xml:lang="de">B, K, NÃ, OÃ, S, St, T, W</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/ps"/>
+    <skos:definition xml:lang="de">LGBl. Burgenland 27/1991 Â§ 44; LGBl KÃ¤rnten 55/1983: Â§ 1 (K-NBG); LGBl. NiederÃ¶sterreich 3/1977 (LGBL. 5500-) Â§ 14; LGBl. OÃ 20/1997: Â§ 1 (OÃ NPG); LGBl. Salzburg 73/1999 Â§ 22; LGBl. Stmk. 61/2002: Â§ 1 (St - NPG G); LGBl. Tirol 103/1991: Â§ 3 (T-NPG HT); LGBl. Wien 53/2001 Â§ 21</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ"/>
+    <skos:notation>NP</skos:notation>
+    <skos:prefLabel xml:lang="de">Nationalpark</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+</rdf:RDF>

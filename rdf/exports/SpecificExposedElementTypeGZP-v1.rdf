@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:ns1="http://www.w3.org/ns/adms#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ30">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
+    <dcterms:description xml:lang="en">Def. UBA</dcterms:description>
+    <dcterms:description xml:lang="de">Def. UBA</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="de">Hochwasser hoher Wahrscheinlichkeit mit einem voraussichtlichen Wiederkehrintervall von 30 Jahren</skos:definition>
+    <skos:definition xml:lang="en">not available</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <skos:notation>UeberflutungsflaechenHQ30</skos:notation>
+    <skos:prefLabel xml:lang="en">ÃberflutungsflÃ¤chen HQ30</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">ÃberflutungsflÃ¤chen HQ30</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-05T14:30:11+00:00</dcterms:created>
+    <dcterms:publisher rdf:resource="https://registry.inspire.gv.at/dataprovider/0009"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <dcterms:title xml:lang="en">specific exposed area regarding GZP</dcterms:title>
+    <dcterms:title xml:lang="de">Spezifischer Typ gefÃ¤hrdeter Gebiete nach GZP</dcterms:title>
+    <dcterms:type rdf:resource="http://inspire.ec.europa.eu/codelist/SpecificExposedElementTypeValue"/>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ300"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ30"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/BlaueFunktionsbereiche"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/GelbeGefahrenzonen"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/Restrisikogebiete"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RoteGefahrenzonen"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RotGelbSchraffierteFunktionsbereiche"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ100"/>
+    <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/BlaueFunktionsbereiche">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
+    <dcterms:description xml:lang="en">Def. UBA</dcterms:description>
+    <dcterms:description xml:lang="de">Def. UBA</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="en">not available</skos:definition>
+    <skos:definition xml:lang="de">FlÃ¤chen, die fÃ¼r die DurchfÃ¼hrung sowie fÃ¼r die Aufrechterhaltung der Funktionen geplanter schutzwasserwirtschaftlicher MaÃnahmen benÃ¶tigt werden.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <skos:notation>BlaueFunktionsbereiche</skos:notation>
+    <skos:prefLabel xml:lang="en">Blaue Funktionsbereiche</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Blaue Funktionsbereiche</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RotGelbSchraffierteFunktionsbereiche">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
+    <dcterms:description xml:lang="en">Def. UBA</dcterms:description>
+    <dcterms:description xml:lang="de">Def. UBA</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="de">ÃberflutungsflÃ¤chen, die wesentlich zum Hochwasserabfluss beitragen und deren Abflusswirkung dazu beitrÃ¤gt, im durch den funktionierenden Hochwasserabfluss entlasteten Gebiet das GefÃ¤hrdungspotenzial zu verringern oder bei denen im Falle von abflussbeeintrÃ¤chtigenden MaÃnahmen negative Auswirkungen auf das Abflussverhalten des GewÃ¤ssers zu erwarten sind, welche das Schadenspotenzial erhÃ¶hen kÃ¶nnten.</skos:definition>
+    <skos:definition xml:lang="en">not available</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <skos:notation>RotGelbSchraffierteFunktionsbereiche</skos:notation>
+    <skos:prefLabel xml:lang="en">Rot-gelb schraffierte Funktionsbereiche</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Rot-gelb schraffierte Funktionsbereiche</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ300">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
+    <dcterms:description xml:lang="en">Def. UBA</dcterms:description>
+    <dcterms:description xml:lang="de">Def. UBA</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="de">Hochwasser niedriger Wahrscheinlichkeit mit einem voraussichtlichen Wiederkehrintervall von 300 Jahren (Extremereignisse)</skos:definition>
+    <skos:definition xml:lang="en">not available</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <skos:notation>UeberflutungsflaechenHQ300</skos:notation>
+    <skos:prefLabel xml:lang="en">ÃberflutungsflÃ¤chen HQ300</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">ÃberflutungsflÃ¤chen HQ300</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ100">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
+    <dcterms:description xml:lang="en">Def. UBA</dcterms:description>
+    <dcterms:description xml:lang="de">Def. UBA</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="de">Hochwasser mittlerer Wahrscheinlichkeit mit einem voraussichtlichen Wiederkehrintervall von zumindest 100 Jahren</skos:definition>
+    <skos:definition xml:lang="en">not available</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <skos:notation>UeberflutungsflaechenHQ100</skos:notation>
+    <skos:prefLabel xml:lang="en">ÃberflutungsflÃ¤chen HQ100</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">ÃberflutungsflÃ¤chen HQ100</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RoteGefahrenzonen">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
+    <dcterms:description xml:lang="en">Def. UBA</dcterms:description>
+    <dcterms:description xml:lang="de">Def. UBA</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="de">FlÃ¤chen, die durch das Bemessungsereignis mittlerer Wahrscheinlichkeit derart gefÃ¤hrdet sind, dass ihre stÃ¤ndige BenÃ¼tzung fÃ¼r Siedlungs- und Verkehrszwecke wegen der voraussichtlichen Schadenswirkungen nicht oder nur mit unverhÃ¤ltnismÃ¤Ãig hohem Aufwand mÃ¶glich ist (Gefahr fÃ¼r Leib und Leben).</skos:definition>
+    <skos:definition xml:lang="en">not available</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <skos:notation>RoteGefahrenzonen</skos:notation>
+    <skos:prefLabel xml:lang="en">Rote Gefahrenzonen</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Rote Gefahrenzonen</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/Restrisikogebiete">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
+    <dcterms:description xml:lang="en">Def. UBA</dcterms:description>
+    <dcterms:description xml:lang="de">Def. UBA</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="de">Zonen mit GefÃ¤hrdung niedriger Wahrscheinlichkeit (Restrisikogebiete') basieren auf dem Hochwasser niedriger Wahrscheinlichkeit (HQ300 oder Extremereignisse) und weisen auf die RestgefÃ¤hrdung beispielsweise bei Ãberschreiten des Schutzgrades bzw. erhÃ¶hte Schadenswirkung bei Versagen von SchutzmaÃnahmen hin.</skos:definition>
+    <skos:definition xml:lang="en">not available</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <skos:notation>Restrisikogebiete</skos:notation>
+    <skos:prefLabel xml:lang="en">Restrisikogebiete</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Restrisikogebiete</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/GelbeGefahrenzonen">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
+    <dcterms:description xml:lang="en">Def. UBA</dcterms:description>
+    <dcterms:description xml:lang="de">Def. UBA</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="de">Alle Ã¼brigen durch das Bemessungsereignis mittlerer Wahrscheinlichkeit betroffenen ÃberflutungsflÃ¤chen. In diesen FlÃ¤chen kÃ¶nnen unterschiedliche GefÃ¤hrdungen geringeren AusmaÃes oder BeeintrÃ¤chtigungen der Nutzung fÃ¼r Siedlungs- und Verkehrszwecke auftreten oder sind BeschÃ¤digungen von Bauobjekten und Verkehrsanlagen mÃ¶glich.</skos:definition>
+    <skos:definition xml:lang="en">not available</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <skos:notation>GelbeGefahrenzonen</skos:notation>
+    <skos:prefLabel xml:lang="en">Gelbe Gefahrenzonen</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Gelbe Gefahrenzonen</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+</rdf:RDF>

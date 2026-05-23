@@ -1,0 +1,14 @@
+subject,predicate,object
+https://registry.inspire.gv.at/codelist/LandUseClassificationValueNoe,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/LandUseClassificationValueNoe,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/LandUseClassificationValueNoe,http://purl.org/dc/terms/description,List of land use categories to be used in INSPIRE Land Use and agreed at a national or local level.
+https://registry.inspire.gv.at/codelist/LandUseClassificationValueNoe,http://purl.org/dc/terms/title,Klassifikation der Bodennutzung
+https://registry.inspire.gv.at/codelist/LandUseClassificationValueNoe,http://purl.org/dc/terms/title,Land Use Classification
+https://registry.inspire.gv.at/codelist/LandUseClassificationValueNoe,http://www.w3.org/2004/02/skos/core#scopeNote,"INSPIRE extensibility: open, internal by value"
+https://registry.inspire.gv.at/codelist/LandUseClassificationValueNoe,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/submitted
+https://registry.inspire.gv.at/codelist/LandUseClassificationValueNoe,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#ConceptScheme
+https://registry.inspire.gv.at/codelist/LandUseClassificationValueNoe,http://purl.org/dc/terms/type,http://inspire.ec.europa.eu/codelist/LandUseClassificationValue
+https://registry.inspire.gv.at/codelist/LandUseClassificationValueNoe,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/LandUseClassificationValueNoe,http://purl.org/dc/terms/created,2026-05-05T14:30:11+00:00
+https://registry.inspire.gv.at/codelist/LandUseClassificationValueNoe,http://www.w3.org/2002/07/owl#versionInfo,1.0.0
+https://registry.inspire.gv.at/codelist/LandUseClassificationValueNoe,http://purl.org/dc/terms/description,Liste der fÃ¼r das INSPIRE-Thema Bodennutzung zu verwendenden und auf nationaler oder lokaler Ebene abgestimmten Bodennutzungskategorien.

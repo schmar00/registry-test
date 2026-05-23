@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:ns1="http://www.w3.org/ns/adms#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/referenzart/LSE_FL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">LSE Flaeche</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/referenzart"/>
+    <skos:notation>LSE_FL</skos:notation>
+    <skos:prefLabel xml:lang="de">LSE Flaeche</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/referenzart"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/referenzart/PF">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">PflegeflÃ¤che</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/referenzart"/>
+    <skos:notation>PF</skos:notation>
+    <skos:prefLabel xml:lang="de">PflegeflÃ¤che</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/referenzart"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/referenzart/LSE_PKT">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">LSE Punkt</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/referenzart"/>
+    <skos:notation>LSE_PKT</skos:notation>
+    <skos:prefLabel xml:lang="de">LSE Punkt</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/referenzart"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/referenzart/HEIM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Heimgut</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/referenzart"/>
+    <skos:notation>HEIM</skos:notation>
+    <skos:prefLabel xml:lang="de">Heimgut</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/referenzart"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/referenzart/FO">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Forst</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/referenzart"/>
+    <skos:notation>FO</skos:notation>
+    <skos:prefLabel xml:lang="de">Forst</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/referenzart"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/referenzart">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-05T14:30:11+00:00</dcterms:created>
+    <dcterms:description xml:lang="en">Austrian extension for INVEKOS Referenzart</dcterms:description>
+    <dcterms:description xml:lang="de">Ãsterreich-Erweiterung fÃ¼r INVEKOS Referenzart</dcterms:description>
+    <dcterms:publisher rdf:resource="https://registry.inspire.gv.at/dataprovider/0095"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <dcterms:title xml:lang="de">INVEKOS Referenzart</dcterms:title>
+    <dcterms:title xml:lang="en">INVEKOS Referenzart</dcterms:title>
+    <dcterms:type rdf:resource="https://registry.gdi-de.org/codelist/de.iacs"/>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/referenzart/TF"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/referenzart/PF"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/referenzart/LSE_PKT"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/referenzart/LSE_FL"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/referenzart/ALM"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/referenzart/FO"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/referenzart/HEIM"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/referenzart/HW"/>
+    <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/referenzart/HW">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Hutweide</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/referenzart"/>
+    <skos:notation>HW</skos:notation>
+    <skos:prefLabel xml:lang="de">Hutweide</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/referenzart"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/referenzart/ALM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Alm</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/referenzart"/>
+    <skos:notation>ALM</skos:notation>
+    <skos:prefLabel xml:lang="de">Alm</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/referenzart"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/referenzart/TF">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Teich</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/referenzart"/>
+    <skos:notation>TF</skos:notation>
+    <skos:prefLabel xml:lang="de">Teich</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/referenzart"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+</rdf:RDF>

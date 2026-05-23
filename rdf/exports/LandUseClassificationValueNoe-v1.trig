@@ -1,0 +1,22 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://registry.inspire.gv.at/codelist/LandUseClassificationValueNoe:1> {
+    <https://registry.inspire.gv.at/codelist/LandUseClassificationValueNoe> a skos:ConceptScheme ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:created "2026-05-05T14:30:11+00:00"^^xsd:dateTime ;
+        dcterms:description "Liste der fÃ¼r das INSPIRE-Thema Bodennutzung zu verwendenden und auf nationaler oder lokaler Ebene abgestimmten Bodennutzungskategorien."@de,
+            "List of land use categories to be used in INSPIRE Land Use and agreed at a national or local level."@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        dcterms:title "Klassifikation der Bodennutzung"@de,
+            "Land Use Classification"@en ;
+        dcterms:type <http://inspire.ec.europa.eu/codelist/LandUseClassificationValue> ;
+        owl:versionInfo "1.0.0" ;
+        skos:scopeNote "INSPIRE governance level: national-technical",
+            "INSPIRE extensibility: open, internal by value"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/submitted> .
+}
+

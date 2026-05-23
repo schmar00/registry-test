@@ -1,0 +1,50 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://registry.inspire.gv.at/codelist/specificLanduse:1> {
+    <https://registry.inspire.gv.at/codelist/specificLanduse/golfCourse> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/selu> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "GolfplÃ¤tze sind eine besondere Form einer SportstÃ¤tte."@de,
+            "Golf Course"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/specificLanduse> ;
+        skos:notation "golfCourse" ;
+        skos:prefLabel "Golfplatz"@de,
+            "Golf Course"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/specificLanduse> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/specificLanduse/skiSlope> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/selu> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "Teil eines Berges, der fÃ¼r das Skifahren und das Snowboardfahren vorgesehen ist."@de,
+            "ki Slope"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/specificLanduse> ;
+        skos:notation "skiSlope" ;
+        skos:prefLabel "Skipiste"@de,
+            "Ski Slope"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/specificLanduse> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/specificLanduse> a skos:ConceptScheme ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/base2> ;
+        dcterms:created "2026-05-05T14:30:11+00:00"^^xsd:dateTime ;
+        dcterms:description "Liste der fÃ¼r das INSPIRE-Thema Bodennutzung zu verwendenden und auf nationaler oder lokaler Ebene abgestimmten Bodennutzungskategorien."@de,
+            "List of land use categories to be used in INSPIRE Land Use and agreed at a national or local level."@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/> ;
+        dcterms:title "spezifische Landnutzung"@de,
+            "specific Landuse"@en ;
+        dcterms:type <http://inspire.ec.europa.eu/codelist/LandUseClassificationValue> ;
+        owl:versionInfo "1.0.0" ;
+        skos:hasTopConcept <https://registry.inspire.gv.at/codelist/specificLanduse/golfCourse>,
+            <https://registry.inspire.gv.at/codelist/specificLanduse/skiSlope> ;
+        skos:scopeNote "INSPIRE governance level: national-technical",
+            "INSPIRE extensibility: open, internal by value"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/submitted> .
+}
+

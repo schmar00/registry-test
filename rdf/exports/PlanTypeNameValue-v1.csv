@@ -1,0 +1,67 @@
+subject,predicate,object
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue,http://purl.org/dc/terms/type,http://inspire.ec.europa.eu/codelist/PlanTypeNameValue
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan,http://www.w3.org/2004/02/skos/core#prefLabel,gravel control plan
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/PlanTypeNameValue
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea,http://www.w3.org/2004/02/skos/core#prefLabel,Gruenzone
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/PlanTypeNameValue
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram,http://www.w3.org/2004/02/skos/core#definition,Sectoral spatial planning programs specify the goals of the Province of Lower Austria for individual parts of the country and set binding measures. They form the basis for the further spatial development of Lower Austria.
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue,http://purl.org/dc/terms/description,Types of plans as defined in the Member States.
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue,http://purl.org/dc/terms/publisher,https://registry.inspire.gv.at/dataprovider/0021
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea,http://www.w3.org/2004/02/skos/core#definition,"Flaechen, die die Funktion fÃ¼r die Land- und Forstwirtschaft, die Erholung und den Tourismus, die Siedlungshygiene und die Klimaverhaeltnisse, die Siedlungs- und Raumgliederung, das typische Orts- und Landschaftsbild, die Sicherung oder Wiederherstellung eines ausgewogenen Natur- und Landschaftshaushalts beibehalten sollen und daher von Bebauung freigehalten werden mÃ¼ssen."
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan,http://www.w3.org/2004/02/skos/core#notation,gravelControlPlan
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan,http://www.w3.org/2004/02/skos/core#notation,zoningPlan
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/PlanTypeNameValue
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue,http://purl.org/dc/terms/title,Plan Type Name
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue,http://purl.org/dc/terms/description,Typen von PlÃ¤nen gemÃ¤Ã Definition in den Mitgliedstaaten.
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#ConceptScheme
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan,http://www.w3.org/2004/02/skos/core#definition,The zoning plan must classify the municipal area according to the intended goals and determine the types of zoning for all area.
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan,http://www.w3.org/2004/02/skos/core#prefLabel,Flaechenwidmungsplan
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/PlanTypeNameValue
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea,http://www.w3.org/2004/02/skos/core#definition,"Zones to be kept undeveloped to provide steady conditions for agricultural and forestry use, tourism and recreational purposes as well as to foster climate and sanitation; to preserve the characteristics of towns and landscapes and to retain traditional settlement patterns. Provide a substantial basis for the protection and restoration of the ecosystem."
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue,http://purl.org/dc/terms/title,Bezeichnung des Plantyps
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/plu
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea,http://www.w3.org/2004/02/skos/core#notation,greenArea
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/PlanTypeNameValue
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan,http://www.w3.org/2004/02/skos/core#definition,"Diese Flaechen (Zonen) sind auf Grund von naturschutz-, forstfachlichen, wasserrechtlichen und siedlungstechnischen GrÃ¼nden fÃ¼r Bergbau und einen Abbau nicht geeignet bzw. auf Grund von rechtlichen Bestimmung fÃ¼r Bergbau und einen Abbau auszuschlieÃen."
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/PlanTypeNameValue
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/plu
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan,http://www.w3.org/2004/02/skos/core#prefLabel,Kiesleitplan
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram,http://www.w3.org/2004/02/skos/core#definition,Sektorale Raumordnungsprogramme konkretisieren die Ziele des Landes NÃ fÃ¼r einzelne Landesteile und legen MaÃnahmen verbindlich fest. Sie sind die Grundlage fÃ¼r die weitere rÃ¤umliche Entwicklung NiederÃ¶sterreichs.
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/plu
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan,http://www.w3.org/2004/02/skos/core#definition,"Areas that are specifically excluded from any types of mining due to technical (i.e. conservation areas, forestry use, water regulations, settlement structures) or legal reasons."
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue,http://www.w3.org/2002/07/owl#versionInfo,1.0.0
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/base2
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/PlanTypeNameValue
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/plu
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram,http://www.w3.org/2004/02/skos/core#prefLabel,Sektorales Raumordnungsprogramm
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan,http://www.w3.org/2004/02/skos/core#definition,Der Flaechenwidmungsplan hat das Gemeindegebiet entsprechend den angestrebten Zielen zu gliedern und die Widmungsarten fÃ¼r alle Flaechen festzulegen.
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan,http://www.w3.org/2004/02/skos/core#prefLabel,Zoning Plan
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue,http://purl.org/dc/terms/created,2026-05-05T14:30:11+00:00
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea,http://www.w3.org/2004/02/skos/core#prefLabel,green area
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/PlanTypeNameValue
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue,http://www.w3.org/2004/02/skos/core#scopeNote,"INSPIRE extensibility: open, internal by value"
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram,http://www.w3.org/2004/02/skos/core#notation,sectoralSpatialPlanningProgram
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram,http://www.w3.org/2004/02/skos/core#prefLabel,Sectoral spatial planning program
+https://registry.inspire.gv.at/codelist/PlanTypeNameValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea

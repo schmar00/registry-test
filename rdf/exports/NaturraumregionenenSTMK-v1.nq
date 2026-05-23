@@ -1,0 +1,14 @@
+<https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK> <http://purl.org/dc/terms/created> "2026-05-05T14:30:11+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK:1> .
+<https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0" <https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK:1> .
+<https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK> <http://purl.org/dc/terms/subject> <http://inspire.ec.europa.eu/theme/br> <https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK:1> .
+<https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK> <http://purl.org/dc/terms/title> "Naturraumregionen Steiermark"@de <https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK:1> .
+<https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK> <http://purl.org/dc/terms/conformsTo> <http://inspire.ec.europa.eu/applicationschema/br> <https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK:1> .
+<https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK> <http://purl.org/dc/terms/type> <http://inspire.ec.europa.eu/codelist/RegionClassificationValue> <https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK:1> .
+<https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK> <http://www.w3.org/2004/02/skos/core#scopeNote> "INSPIRE extensibility: open, internal by value"@en <https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK:1> .
+<https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/submitted> <https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK:1> .
+<https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK> <http://purl.org/dc/terms/title> "Physiogeographic Ecoregions Styria"@en <https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK:1> .
+<https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK> <http://purl.org/dc/terms/description> "Physiogeographic Ecoregions in Styria"@en <https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK:1> .
+<https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK> <http://purl.org/dc/terms/description> "NaturrÃ¤umliche Gliederung der Steiermark"@de <https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK:1> .
+<https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK> <http://purl.org/dc/terms/publisher> <https://registry.inspire.gv.at/dataprovider/0008> <https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK:1> .
+<https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> <https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK:1> .
+

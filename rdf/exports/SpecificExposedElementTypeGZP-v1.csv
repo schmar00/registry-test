@@ -1,0 +1,132 @@
+subject,predicate,object
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ30,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP,http://purl.org/dc/terms/type,http://inspire.ec.europa.eu/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/BlaueFunktionsbereiche,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RotGelbSchraffierteFunktionsbereiche,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ300,http://www.w3.org/2004/02/skos/core#definition,not available
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP,http://www.w3.org/2002/07/owl#versionInfo,1.0.0
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#ConceptScheme
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ100,http://www.w3.org/2004/02/skos/core#prefLabel,ÃberflutungsflÃ¤chen HQ100
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ100,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RotGelbSchraffierteFunktionsbereiche,http://www.w3.org/2004/02/skos/core#prefLabel,Rot-gelb schraffierte Funktionsbereiche
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RoteGefahrenzonen,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RotGelbSchraffierteFunktionsbereiche,http://www.w3.org/2004/02/skos/core#definition,"ÃberflutungsflÃ¤chen, die wesentlich zum Hochwasserabfluss beitragen und deren Abflusswirkung dazu beitrÃ¤gt, im durch den funktionierenden Hochwasserabfluss entlasteten Gebiet das GefÃ¤hrdungspotenzial zu verringern oder bei denen im Falle von abflussbeeintrÃ¤chtigenden MaÃnahmen negative Auswirkungen auf das Abflussverhalten des GewÃ¤ssers zu erwarten sind, welche das Schadenspotenzial erhÃ¶hen kÃ¶nnten."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/BlaueFunktionsbereiche,http://www.w3.org/2004/02/skos/core#definition,not available
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ30,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ100,http://www.w3.org/2004/02/skos/core#definition,Hochwasser mittlerer Wahrscheinlichkeit mit einem voraussichtlichen Wiederkehrintervall von zumindest 100 Jahren
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/BlaueFunktionsbereiche,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/Restrisikogebiete,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RotGelbSchraffierteFunktionsbereiche,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ30
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RotGelbSchraffierteFunktionsbereiche,http://www.w3.org/2004/02/skos/core#notation,RotGelbSchraffierteFunktionsbereiche
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/Restrisikogebiete,http://www.w3.org/2004/02/skos/core#definition,not available
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RoteGefahrenzonen
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ100,http://purl.org/dc/terms/description,Def. UBA
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/Restrisikogebiete,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/BlaueFunktionsbereiche,http://www.w3.org/2004/02/skos/core#notation,BlaueFunktionsbereiche
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/GelbeGefahrenzonen,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ100,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RotGelbSchraffierteFunktionsbereiche,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/GelbeGefahrenzonen,http://www.w3.org/2004/02/skos/core#definition,not available
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/GelbeGefahrenzonen,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ300,http://purl.org/dc/terms/description,Def. UBA
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RotGelbSchraffierteFunktionsbereiche
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ100,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP,http://purl.org/dc/terms/title,specific exposed area regarding GZP
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ30,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ30,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ100,http://www.w3.org/2004/02/skos/core#definition,not available
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ300,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ300,http://www.w3.org/2004/02/skos/core#prefLabel,ÃberflutungsflÃ¤chen HQ300
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ300,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/GelbeGefahrenzonen,http://www.w3.org/2004/02/skos/core#definition,Alle Ã¼brigen durch das Bemessungsereignis mittlerer Wahrscheinlichkeit betroffenen ÃberflutungsflÃ¤chen. In diesen FlÃ¤chen kÃ¶nnen unterschiedliche GefÃ¤hrdungen geringeren AusmaÃes oder BeeintrÃ¤chtigungen der Nutzung fÃ¼r Siedlungs- und Verkehrszwecke auftreten oder sind BeschÃ¤digungen von Bauobjekten und Verkehrsanlagen mÃ¶glich.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/BlaueFunktionsbereiche,http://purl.org/dc/terms/description,Def. UBA
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/BlaueFunktionsbereiche
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ30,http://www.w3.org/2004/02/skos/core#prefLabel,ÃberflutungsflÃ¤chen HQ30
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ300,http://www.w3.org/2004/02/skos/core#definition,Hochwasser niedriger Wahrscheinlichkeit mit einem voraussichtlichen Wiederkehrintervall von 300 Jahren (Extremereignisse)
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/Restrisikogebiete,http://purl.org/dc/terms/description,Def. UBA
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/GelbeGefahrenzonen,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/BlaueFunktionsbereiche,http://www.w3.org/2004/02/skos/core#prefLabel,Blaue Funktionsbereiche
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/Restrisikogebiete,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ100,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RoteGefahrenzonen,http://www.w3.org/2004/02/skos/core#definition,not available
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/Restrisikogebiete,http://www.w3.org/2004/02/skos/core#definition,Zonen mit GefÃ¤hrdung niedriger Wahrscheinlichkeit (Restrisikogebiete') basieren auf dem Hochwasser niedriger Wahrscheinlichkeit (HQ300 oder Extremereignisse) und weisen auf die RestgefÃ¤hrdung beispielsweise bei Ãberschreiten des Schutzgrades bzw. erhÃ¶hte Schadenswirkung bei Versagen von SchutzmaÃnahmen hin.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RotGelbSchraffierteFunktionsbereiche,http://purl.org/dc/terms/description,Def. UBA
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/GelbeGefahrenzonen,http://purl.org/dc/terms/description,Def. UBA
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RoteGefahrenzonen,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP,http://purl.org/dc/terms/created,2026-05-05T14:30:11+00:00
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ30,http://www.w3.org/2004/02/skos/core#prefLabel,ÃberflutungsflÃ¤chen HQ30
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ300,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ300,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ300,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/BlaueFunktionsbereiche,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/GelbeGefahrenzonen,http://www.w3.org/2004/02/skos/core#prefLabel,Gelbe Gefahrenzonen
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ100,http://www.w3.org/2004/02/skos/core#notation,UeberflutungsflaechenHQ100
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/GelbeGefahrenzonen,http://www.w3.org/2004/02/skos/core#notation,GelbeGefahrenzonen
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ100
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ30,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RoteGefahrenzonen,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/GelbeGefahrenzonen,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/Restrisikogebiete,http://www.w3.org/2004/02/skos/core#prefLabel,Restrisikogebiete
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RoteGefahrenzonen,http://purl.org/dc/terms/description,Def. UBA
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RotGelbSchraffierteFunktionsbereiche,http://www.w3.org/2004/02/skos/core#prefLabel,Rot-gelb schraffierte Funktionsbereiche
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RotGelbSchraffierteFunktionsbereiche,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/BlaueFunktionsbereiche,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ300,http://purl.org/dc/terms/description,Def. UBA
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/BlaueFunktionsbereiche,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RotGelbSchraffierteFunktionsbereiche,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ300,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/Restrisikogebiete,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ30,http://www.w3.org/2004/02/skos/core#notation,UeberflutungsflaechenHQ30
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/GelbeGefahrenzonen,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ100,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ30,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/GelbeGefahrenzonen,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP,http://www.w3.org/2004/02/skos/core#scopeNote,"INSPIRE extensibility: open, internal by value"
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/GelbeGefahrenzonen,http://www.w3.org/2004/02/skos/core#prefLabel,Gelbe Gefahrenzonen
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RoteGefahrenzonen,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ300,http://www.w3.org/2004/02/skos/core#prefLabel,ÃberflutungsflÃ¤chen HQ300
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RotGelbSchraffierteFunktionsbereiche,http://purl.org/dc/terms/description,Def. UBA
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ30,http://purl.org/dc/terms/description,Def. UBA
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ30,http://www.w3.org/2004/02/skos/core#definition,Hochwasser hoher Wahrscheinlichkeit mit einem voraussichtlichen Wiederkehrintervall von 30 Jahren
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RotGelbSchraffierteFunktionsbereiche,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP,http://purl.org/dc/terms/title,Spezifischer Typ gefÃ¤hrdeter Gebiete nach GZP
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ300,http://www.w3.org/2004/02/skos/core#notation,UeberflutungsflaechenHQ300
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/Restrisikogebiete,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/BlaueFunktionsbereiche,http://www.w3.org/2004/02/skos/core#prefLabel,Blaue Funktionsbereiche
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RoteGefahrenzonen,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/Restrisikogebiete
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ100,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/BlaueFunktionsbereiche,http://www.w3.org/2004/02/skos/core#definition,"FlÃ¤chen, die fÃ¼r die DurchfÃ¼hrung sowie fÃ¼r die Aufrechterhaltung der Funktionen geplanter schutzwasserwirtschaftlicher MaÃnahmen benÃ¶tigt werden."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ100,http://purl.org/dc/terms/description,Def. UBA
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RoteGefahrenzonen,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/Restrisikogebiete,http://www.w3.org/2004/02/skos/core#prefLabel,Restrisikogebiete
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/BlaueFunktionsbereiche,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RoteGefahrenzonen,http://www.w3.org/2004/02/skos/core#prefLabel,Rote Gefahrenzonen
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ100,http://www.w3.org/2004/02/skos/core#prefLabel,ÃberflutungsflÃ¤chen HQ100
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RotGelbSchraffierteFunktionsbereiche,http://www.w3.org/2004/02/skos/core#definition,not available
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/GelbeGefahrenzonen,http://purl.org/dc/terms/description,Def. UBA
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/Restrisikogebiete,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/GelbeGefahrenzonen
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/GelbeGefahrenzonen,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ30,http://www.w3.org/2004/02/skos/core#definition,not available
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/Restrisikogebiete,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ300
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ30,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/Restrisikogebiete,http://www.w3.org/2004/02/skos/core#notation,Restrisikogebiete
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RoteGefahrenzonen,http://www.w3.org/2004/02/skos/core#definition,"FlÃ¤chen, die durch das Bemessungsereignis mittlerer Wahrscheinlichkeit derart gefÃ¤hrdet sind, dass ihre stÃ¤ndige BenÃ¼tzung fÃ¼r Siedlungs- und Verkehrszwecke wegen der voraussichtlichen Schadenswirkungen nicht oder nur mit unverhÃ¤ltnismÃ¤Ãig hohem Aufwand mÃ¶glich ist (Gefahr fÃ¼r Leib und Leben)."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/BlaueFunktionsbereiche,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RoteGefahrenzonen,http://www.w3.org/2004/02/skos/core#prefLabel,Rote Gefahrenzonen
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RotGelbSchraffierteFunktionsbereiche,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP,http://purl.org/dc/terms/publisher,https://registry.inspire.gv.at/dataprovider/0009
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RoteGefahrenzonen,http://purl.org/dc/terms/description,Def. UBA
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/BlaueFunktionsbereiche,http://purl.org/dc/terms/description,Def. UBA
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RoteGefahrenzonen,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RoteGefahrenzonen,http://www.w3.org/2004/02/skos/core#notation,RoteGefahrenzonen
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ30,http://purl.org/dc/terms/description,Def. UBA
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/Restrisikogebiete,http://purl.org/dc/terms/description,Def. UBA
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ100,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ300,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP

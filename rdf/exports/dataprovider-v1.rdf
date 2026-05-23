@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:ns1="http://www.w3.org/ns/adms#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:38:29.926000+00:00</dcterms:created>
+    <dcterms:description xml:lang="de">Das Ã¶sterreichische Geodatenstellenregister enthÃ¤lt die INSPIRE Datenanbieter.</dcterms:description>
+    <dcterms:description xml:lang="en">The Austrian data provider register contains the contributing data providers.</dcterms:description>
+    <dcterms:title xml:lang="en">INSPIRE data providers</dcterms:title>
+    <dcterms:title xml:lang="de">INSPIRE Datenanbieter</dcterms:title>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0131"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0130"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0115"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0111"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0090"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0080"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0078"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0068"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0067"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0065"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0064"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0061"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0056"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0052"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0051"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0049"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0038"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0033"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0027"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0024"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0015"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0014"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0013"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0012"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0011"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0010"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0003"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0002"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0001"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0025"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0023"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0005"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0009"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0008"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0018"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0021"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0043"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0095"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0006"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0019"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0046"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0022"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0061">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.726000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Hintere ZollamtsstraÃe 4, 1030 Wien</skos:definition>
+    <skos:notation>61</skos:notation>
+    <skos:prefLabel xml:lang="de">Land-, forst- und wasserwirtschaftliches Rechenzentrum GmbH</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0025">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.716000+00:00</dcterms:created>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/vbgLandUseValue"/>
+    <skos:definition xml:lang="de">Johannitergasse 6, 6800 Feldkirch</skos:definition>
+    <skos:notation>25</skos:notation>
+    <skos:prefLabel xml:lang="de">Land Vorarlberg - Amt der Vorarlberger Landesregierung</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0078">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.726000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Bert-KÃ¶llensperger-Str. 7, 6065 Thaur</skos:definition>
+    <skos:notation>78</skos:notation>
+    <skos:prefLabel xml:lang="de">TINETZ-Tiroler Netze GmbH</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0064">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.733000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">KasernenstraÃe 9, 7000 Eisenstadt</skos:definition>
+    <skos:notation>64</skos:notation>
+    <skos:prefLabel xml:lang="de">Netz Burgenland GmbH</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0008">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.730000+00:00</dcterms:created>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/specialisedZoneType"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/Biotoptypen_AT"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/Naturraumregionen"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/NaturraumregionenenSTMK"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S322"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330"/>
+    <skos:definition xml:lang="de">Spittelauer LÃ¤nde 5, 1090 Wien</skos:definition>
+    <skos:notation>8</skos:notation>
+    <skos:prefLabel xml:lang="de">Umweltbundesamt GmbH</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0014">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.737000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Donau-City-StraÃe 1, 1220 Wien</skos:definition>
+    <skos:notation>14</skos:notation>
+    <skos:prefLabel xml:lang="de">via donau - Ãsterreichische WasserstraÃen-Gesellschaft mbH</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0130">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.725000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">LeonhardgÃ¼rtel 10, 8010 Graz</skos:definition>
+    <skos:notation>130</skos:notation>
+    <skos:prefLabel xml:lang="de">Energienetze Steiermark GmbH</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0095">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.739000+00:00</dcterms:created>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/schlagnutzungsart"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/referenzart"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart"/>
+    <skos:definition xml:lang="de">Dresdner StraÃe 70, 1200 Wien</skos:definition>
+    <skos:notation>95</skos:notation>
+    <skos:prefLabel xml:lang="de">Agrarmarkt Austria</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0111">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.724000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">WeidachstraÃe 6, 6900 Bregenz</skos:definition>
+    <skos:notation>111</skos:notation>
+    <skos:prefLabel xml:lang="de">Vorarlberger Energienetze GmbH</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0001">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Spargelfeldstr. 191, 1220 Wien</skos:definition>
+    <skos:notation>1</skos:notation>
+    <skos:prefLabel xml:lang="de">Ãsterreichische Agentur fÃ¼r Gesundheit und ErnÃ¤hrungssicherheit GmbH</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0023">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.714000+00:00</dcterms:created>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <skos:definition xml:lang="de">Landhausg. 7, 8010 Graz</skos:definition>
+    <skos:notation>23</skos:notation>
+    <skos:prefLabel xml:lang="de">Land Steiermark - Amt der SteiermÃ¤rkischen Landesregierung</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0090">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.727000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Dietrichgasse 27, 1030 Wien</skos:definition>
+    <skos:notation>90</skos:notation>
+    <skos:prefLabel xml:lang="de">Federal Institute of Agricultural Economics</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0022">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.718000+00:00</dcterms:created>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <skos:definition xml:lang="de">Chiemseehof, 5010 Salzburg</skos:definition>
+    <skos:notation>22</skos:notation>
+    <skos:prefLabel xml:lang="de">Land Salzburg - Amt der Salzburger Landesregierung</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0010">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.714000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">RadetzkystraÃe 2, 1030 Wien</skos:definition>
+    <skos:notation>10</skos:notation>
+    <skos:prefLabel xml:lang="de">Bundesministerium fÃ¼r Klimaschutz, Umwelt, Energie, MobilitÃ¤t, Innovation und Technologie</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0033">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.736000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">BayerhamerstraÃe 16, 5020 Salzburg</skos:definition>
+    <skos:notation>33</skos:notation>
+    <skos:prefLabel xml:lang="de">Salzburg AG fÃ¼r Energie, Verkehr &amp; Telekommunikation</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0011">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.738000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">RotenturmstraÃe 5-9, 1011 Wien</skos:definition>
+    <skos:notation>11</skos:notation>
+    <skos:prefLabel xml:lang="de">ASFINAG Autobahnen- und SchnellstraÃen-Finanzierungs-Aktiengesellschaft</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0018">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.721000+00:00</dcterms:created>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/bglLandUseValue"/>
+    <skos:definition xml:lang="de">Europaplatz 1, 7000 Eisenstadt</skos:definition>
+    <skos:notation>18</skos:notation>
+    <skos:prefLabel xml:lang="de">Land Burgenland - Amt der BurgenlÃ¤ndischen Landesregierung</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0067">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.730000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">EVN Platz 1, 2344 Maria Enzersdorf</skos:definition>
+    <skos:notation>67</skos:notation>
+    <skos:prefLabel xml:lang="de">Netz NiederÃ¶sterreich GmbH</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0005">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.723000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Stubenring 1, 1010 Wien</skos:definition>
+    <skos:notation>5</skos:notation>
+    <skos:prefLabel xml:lang="de">Bundesministerium fÃ¼r Land- und Forstwirtschaft, Regionen und Wasserwirtschaft</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0068">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.733000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Arnulfplatz 2, 9020 Klagenfurt</skos:definition>
+    <skos:notation>68</skos:notation>
+    <skos:prefLabel xml:lang="de">KNG-KÃ¤rnten Netz GmbH</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0051">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.715000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Stubenring 1, 1011 Wien</skos:definition>
+    <skos:notation>51</skos:notation>
+    <skos:prefLabel xml:lang="de">Bundesministerium fÃ¼r Digitalisierung und Wirtschaftsstandort</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0043">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.720000+00:00</dcterms:created>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/OgdCategoryAustria"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/DirectiveRelevance"/>
+    <skos:definition xml:lang="de">Ballhausplatz 2, 1010 Wien</skos:definition>
+    <skos:notation>43</skos:notation>
+    <skos:prefLabel xml:lang="de">Bundeskanzleramt Ãsterreich</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0046">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.717000+00:00</dcterms:created>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <skos:definition xml:lang="de">Landhausplatz 1, 3109 St. PÃ¶lten</skos:definition>
+    <skos:notation>46</skos:notation>
+    <skos:prefLabel xml:lang="de">Land NiederÃ¶sterreich - Amt der NÃ Landesregierung</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0021">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.715000+00:00</dcterms:created>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/ooeLandUseValue"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"/>
+    <skos:definition xml:lang="de">Bahnhofplatz 1, 4021 Linz</skos:definition>
+    <skos:notation>21</skos:notation>
+    <skos:prefLabel xml:lang="de">Land OberÃ¶sterreich - Amt der OÃ Landesregierung</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0049">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.717000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">RoÃauer LÃ¤nde 1, 1090 Wien</skos:definition>
+    <skos:notation>49</skos:notation>
+    <skos:prefLabel xml:lang="de">Bundesministerium fÃ¼r Landesverteidigung</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0038">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.732000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Hohe Warte 38, 1190 Wien</skos:definition>
+    <skos:notation>38</skos:notation>
+    <skos:prefLabel xml:lang="de">Zentralanstalt fÃ¼r Meteorologie und Geodynamik</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0006">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.729000+00:00</dcterms:created>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"/>
+    <skos:definition xml:lang="de">Seckendorff-Gudent-Weg 8, 1131 Wien</skos:definition>
+    <skos:notation>6</skos:notation>
+    <skos:prefLabel xml:lang="de">Bundesforschungs- und Ausbildungszentrum fÃ¼r Wald, Naturgefahren und Landschaft</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0115">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.731000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Wagramer StraÃe 19, 1220 Wien</skos:definition>
+    <skos:notation>115</skos:notation>
+    <skos:prefLabel xml:lang="de">Austrian Power Grid AG</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0065">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.729000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Neubauzeile 99, 4030 Linz</skos:definition>
+    <skos:notation>65</skos:notation>
+    <skos:prefLabel xml:lang="de">Netz OberÃ¶sterreich GmbH</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0052">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.721000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Rathaus, 1082 Wien</skos:definition>
+    <skos:notation>52</skos:notation>
+    <skos:prefLabel xml:lang="de">Land Wien - Amt der Wiener Landesregierung</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0019">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.719000+00:00</dcterms:created>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <skos:definition xml:lang="de">FlatschacherstraÃe 70, 9020 Klagenfurt</skos:definition>
+    <skos:notation>19</skos:notation>
+    <skos:prefLabel xml:lang="de">Land KÃ¤rnten - Amt der KÃ¤rntner Landesregierung</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0015">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.727000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Neulinggasse 38, 1030 Wien</skos:definition>
+    <skos:notation>15</skos:notation>
+    <skos:prefLabel xml:lang="de">Geologische Bundesanstalt</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0003">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.720000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Johannesgasse 5, 1010 Wien</skos:definition>
+    <skos:notation>3</skos:notation>
+    <skos:prefLabel xml:lang="de">Bundesministerium fÃ¼r Finanzen</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0012">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.728000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Wagramer StraÃe 19, 1220 Wien</skos:definition>
+    <skos:notation>12</skos:notation>
+    <skos:prefLabel xml:lang="de">Austro Control</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0080">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.732000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Europaplatz 2, 1150 Wien</skos:definition>
+    <skos:notation>80</skos:notation>
+    <skos:prefLabel xml:lang="de">VERBUND Hydro Power GmbH</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0056">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.718000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Minoritenplatz 5, 1010 Wien</skos:definition>
+    <skos:notation>56</skos:notation>
+    <skos:prefLabel xml:lang="de">Bundesministerium fÃ¼r Bildung, Wissenschaft und Forschung</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0024">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.723000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Eduard-WallnÃ¶fer-Platz 3, 6020 Innsbruck</skos:definition>
+    <skos:notation>24</skos:notation>
+    <skos:prefLabel xml:lang="de">Land Tirol - Amt der Tiroler Landesregierung</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0002">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.739000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Schiffamtsgasse 1-3, 1020 Wien</skos:definition>
+    <skos:notation>2</skos:notation>
+    <skos:prefLabel xml:lang="de">Bundesamt fÃ¼r Eich- und Vermessungswesen</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0009">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.736000+00:00</dcterms:created>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <skos:definition xml:lang="de">Marxergasse 2, 1030 Wien</skos:definition>
+    <skos:notation>9</skos:notation>
+    <skos:prefLabel xml:lang="de">Forsttechnischer Dienst fÃ¼r Wildbach- und Lawinenverbauung</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0131">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.722000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Bahnhofplatz 5, 9020 Klagenfurt</skos:definition>
+    <skos:notation>131</skos:notation>
+    <skos:prefLabel xml:lang="de">Ãsterreichisches Institut fÃ¼r Verkehrsdateninfrastruktur</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0027">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.734000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Guglgasse 13, 1110 Wien</skos:definition>
+    <skos:notation>27</skos:notation>
+    <skos:prefLabel xml:lang="de">Statistik Austria</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0013">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.724000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Praterstern 3, 1020 Wien</skos:definition>
+    <skos:notation>13</skos:notation>
+    <skos:prefLabel xml:lang="de">ÃBB-Infrastruktur AG</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+</rdf:RDF>

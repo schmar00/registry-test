@@ -1,0 +1,264 @@
+[
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneType/exclusion",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/am"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "In exclusion zones is the erection of wind power plants not permitted."
+      },
+      {
+        "@language": "de",
+        "@value": "In Ausschlusszonen ist die Errichtung von Windkraftanlagen unzulÃ¤ssig."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "exclusion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "exclusion"
+      },
+      {
+        "@language": "de",
+        "@value": "Ausschluss"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneType"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneType/priority",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/am"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "In Vorrangzonen ist die Errichtung von Windkraftanlagen mit einer Nennleistung von mindestens 0,5 Megawatt zulÃ¤ssig fÃ¼r nachstehende Projekte, die folgende Voraussetzungen erfÃ¼llen: 1. bei der Neuerrichtung von Windkraftanlagen muss eine elektrische Gesamtleistung von mindestens 15 MW erreicht werden; 2. bei der Erweiterung von bestehenden Windkraftanlagen muss eine zusÃ¤tzliche elektrische Gesamtleistung von mindestens 7,5 MW erreicht werden; 3. bei sonstigen Erweiterungen von bestehenden Windkraftanlagen muss bereits vor der Erweiterung ein Verfahren nach UVP-G 2000, BGBl. I Nr. 80/2018, durchgefÃ¼hrt worden sein. Im Zuge einer allfÃ¤lligen UmweltvertrÃ¤glichkeitsprÃ¼fung soll durch geeignete MaÃnahmen sichergestellt werden, dass dauerbewirtschaftete SchutzhÃ¼tten und Weitwanderwege in ihrer Funktion nicht beeintrÃ¤chtigt werden."
+      },
+      {
+        "@language": "en",
+        "@value": "In priority zones, the erection of wind turbines with a rated output of at least 0.5 megawatts is permitted for the following projects that meet the following requirements: 1. the new construction of wind power plants must achieve a total electrical output of at least 15 MW 2. when expanding existing wind power plants, an additional total electrical output of at least 7.5 MW must be achieved; 3. in the case of other extensions of existing wind power plants, a procedure pursuant to UVP-G 2000, Federal Law Gazette I No. 80/2018, must have been carried out prior to the extension. In the course of any environmental impact assessment, suitable measures shall be taken to ensure that the function of permanently managed refuges and long-distance hiking trails is not impaired."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "priority"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Vorrang"
+      },
+      {
+        "@language": "en",
+        "@value": "priority"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneType"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneType",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
+      }
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-05-05T14:30:11+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "Klassifikation, die den Typ des Bewirtschaftungsgebiets, Schutzgebiets oder geregelten Gebiets definiert."
+      },
+      {
+        "@language": "en",
+        "@value": "Classification defining the type of Management, Restriction or Regulation Zone."
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://registry.inspire.gv.at/dataprovider/0008"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/am"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "de",
+        "@value": "spezifischer Code des Gebietstyps Ãsterreich"
+      },
+      {
+        "@language": "en",
+        "@value": "specialised Zone Type Code Austria"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@id": "http://inspire.ec.europa.eu/codelist/ZoneTypeCode"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1.0.0"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneType/suitability"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneType/priority"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneType/exclusion"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE extensibility: open, internal by value"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneType/suitability",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/am"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "In suitability zones is the installation of wind turbines with a rated output of at least 0.5 megawatts permitted."
+      },
+      {
+        "@language": "de",
+        "@value": "In Eignungszonen ist die Errichtung von Windkraftanlagen mit einer Nennleistung von mindestens 0,5 Megawatt zulÃ¤ssig."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "suitability"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "suitability"
+      },
+      {
+        "@language": "de",
+        "@value": "Eignung"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specialisedZoneType"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  }
+]

@@ -1,0 +1,210 @@
+subject|predicate|object
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/society|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Population and Society
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/educationAndScience|http://www.w3.org/2004/02/skos/core#prefLabel|education and science
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/health|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/geographyAndPlanning|http://www.w3.org/2004/02/skos/core#notation|geographyAndPlanning
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/educationAndScience|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Education, Culture, Sport, Science and Technology
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/OgdCategoryAustria/educationAndScience
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/population|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/agriculture|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/recreation|http://www.w3.org/2000/01/rdf-schema#seeAlso|https://www.data.gv.at/
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/economyAndTourism|http://www.w3.org/2004/02/skos/core#prefLabel|economy and tourism
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/economyAndTourism|http://www.w3.org/2000/01/rdf-schema#seeAlso|https://www.data.gv.at/
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/environment|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Environment or Energy
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/society|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/OgdCategoryAustria/economyAndTourism
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/society|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/finance|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Economy and Finance
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/society|http://www.w3.org/2000/01/rdf-schema#seeAlso|https://www.data.gv.at/
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/health|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/environment|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/transport|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Transport
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/OgdCategoryAustria/transport
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/OgdCategoryAustria/population
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/labourAndEmployment|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/recreation|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/transport|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/base2
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/OgdCategoryAustria/society
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/population|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Population and Society
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/geographyAndPlanning|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Regions and Cities
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/culture|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/finance|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/base2
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://purl.org/dc/terms/title|OGD Categories
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/transport|http://www.w3.org/2004/02/skos/core#prefLabel|transport
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/health|http://www.w3.org/2004/02/skos/core#prefLabel|Gesundheit
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/finance|http://www.w3.org/2004/02/skos/core#prefLabel|Finanzen und Rechnungswesen
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/OgdCategoryAustria/culture
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/geographyAndPlanning|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/population|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/population|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/OgdCategoryAustria/environment
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/recreation|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/geographyAndPlanning|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/health|http://www.w3.org/2004/02/skos/core#notation|health
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/finance|http://www.w3.org/2000/01/rdf-schema#seeAlso|https://www.data.gv.at/
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/economyAndTourism|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/transport|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/environment|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/base2
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/population|http://www.w3.org/2000/01/rdf-schema#seeAlso|https://www.data.gv.at/
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/environment|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/agriculture|http://www.w3.org/2000/01/rdf-schema#seeAlso|https://www.data.gv.at/
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/educationAndScience|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://purl.org/dc/terms/description|Categorization of data, data service or document according to OGD Austria.
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/population|http://www.w3.org/2004/02/skos/core#prefLabel|population
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/governmentAndPolitics|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/society|http://www.w3.org/2004/02/skos/core#notation|society
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/transport|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/environment|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/geographyAndPlanning|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/educationAndScience|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/economyAndTourism|http://www.w3.org/2004/02/skos/core#prefLabel|Wirtschaft und Tourismus
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/labourAndEmployment|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/health|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/geographyAndPlanning|http://www.w3.org/2004/02/skos/core#prefLabel|geography and planning
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/finance|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/governmentAndPolitics|http://www.w3.org/2004/02/skos/core#notation|governmentAndPolitics
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/geographyAndPlanning|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/environment|http://www.w3.org/2000/01/rdf-schema#seeAlso|https://www.data.gv.at/
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/culture|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/transport|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/society|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/base2
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/culture|http://www.w3.org/2004/02/skos/core#prefLabel|Kunst und Kultur
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/OgdCategoryAustria/agriculture
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/governmentAndPolitics|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/base2
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/labourAndEmployment|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Economy and Finance
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/transport|http://www.w3.org/2004/02/skos/core#prefLabel|Verkehr und Technik
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/governmentAndPolitics|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/finance|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Economy and Finance
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/labourAndEmployment|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/economyAndTourism|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/governmentAndPolitics|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://www.w3.org/2002/07/owl#versionInfo|1.0.0
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/agriculture|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#ConceptScheme
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/governmentAndPolitics|http://www.w3.org/2000/01/rdf-schema#seeAlso|https://www.data.gv.at/
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/agriculture|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/economyAndTourism|http://www.w3.org/2004/02/skos/core#notation|economyAndTourism
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/economyAndTourism|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/agriculture|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Agriculture, Fisheries, Forestry and Foods
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/culture|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/base2
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/OgdCategoryAustria/finance
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/environment|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/recreation|http://www.w3.org/2004/02/skos/core#notation|recreation
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/population|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/base2
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/society|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/economyAndTourism|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Economy and Finance
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/geographyAndPlanning|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Regions and Cities
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/economyAndTourism|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/culture|http://www.w3.org/2000/01/rdf-schema#seeAlso|https://www.data.gv.at/
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/environment|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Environment or Energy
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/transport|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/recreation|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Education, Culture and Sport
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/finance|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/economyAndTourism|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/agriculture|http://www.w3.org/2004/02/skos/core#prefLabel|agriculture
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/population|http://www.w3.org/2004/02/skos/core#prefLabel|Bevoelkerung
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/labourAndEmployment|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/finance|http://www.w3.org/2004/02/skos/core#notation|finance
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/society|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Population and Society
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/society|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/geographyAndPlanning|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/base2
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/agriculture|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/governmentAndPolitics|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/educationAndScience|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/governmentAndPolitics|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Government and Public Sector
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/population|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/OgdCategoryAustria/recreation
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/geographyAndPlanning|http://www.w3.org/2004/02/skos/core#prefLabel|Geographie und Planung
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/finance|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/educationAndScience|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/labourAndEmployment|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Economy and Finance
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/geographyAndPlanning|http://www.w3.org/2000/01/rdf-schema#seeAlso|https://www.data.gv.at/
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/recreation|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Education, Culture and Sport
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/labourAndEmployment|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/base2
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/transport|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/finance|http://www.w3.org/2004/02/skos/core#prefLabel|finance
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/labourAndEmployment|http://www.w3.org/2004/02/skos/core#prefLabel|labour and employment
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/recreation|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/OgdCategoryAustria/health
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/transport|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Transport
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/governmentAndPolitics|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Government and Public Sector
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://purl.org/dc/terms/created|2026-05-05T14:30:11+00:00
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/environment|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/environment|http://www.w3.org/2004/02/skos/core#notation|environment
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/transport|http://www.w3.org/2004/02/skos/core#notation|transport
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/culture|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/transport|http://www.w3.org/2000/01/rdf-schema#seeAlso|https://www.data.gv.at/
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/recreation|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://purl.org/dc/terms/publisher|https://registry.inspire.gv.at/dataprovider/0043
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/agriculture|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/population|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Population and Society
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/population|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/labourAndEmployment|http://www.w3.org/2000/01/rdf-schema#seeAlso|https://www.data.gv.at/
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/agriculture|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Agriculture, Fisheries, Forestry and Foods
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/governmentAndPolitics|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/agriculture|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/culture|http://www.w3.org/2004/02/skos/core#prefLabel|culture
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/society|http://www.w3.org/2004/02/skos/core#prefLabel|Gesellschaft und Soziales
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/society|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/economyAndTourism|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Economy and Finance
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/governmentAndPolitics|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/recreation|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/OgdCategoryAustria/labourAndEmployment
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/labourAndEmployment|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/educationAndScience|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/health|http://www.w3.org/2004/02/skos/core#prefLabel|health
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/recreation|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/geographyAndPlanning|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/educationAndScience|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Education, Culture, Sport, Science and Technology
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/culture|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Education, Culture and Sport
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/environment|http://www.w3.org/2004/02/skos/core#prefLabel|environment
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/culture|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/health|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/educationAndScience|http://www.w3.org/2004/02/skos/core#notation|educationAndScience
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://purl.org/dc/terms/title|OGD Kategorien
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/labourAndEmployment|http://www.w3.org/2004/02/skos/core#prefLabel|Arbeit
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/finance|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/population|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/culture|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/agriculture|http://www.w3.org/2004/02/skos/core#prefLabel|Land- und Forstwirtschaft
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/labourAndEmployment|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/educationAndScience|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/base2
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/governmentAndPolitics|http://www.w3.org/2004/02/skos/core#prefLabel|Verwaltung und Politik
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://purl.org/dc/terms/description|Kategorisierung des Datensatzes, Dienstes oder Dokuments nach OGD Austria.
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/OgdCategoryAustria/geographyAndPlanning
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/transport|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/health|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Health
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/base2
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/economyAndTourism|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/population|http://www.w3.org/2004/02/skos/core#notation|population
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/health|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/base2
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/finance|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/recreation|http://www.w3.org/2004/02/skos/core#prefLabel|Sport und Freizeit
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/recreation|http://www.w3.org/2004/02/skos/core#prefLabel|recreation
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/environment|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/health|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Health
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/geographyAndPlanning|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/educationAndScience|http://www.w3.org/2000/01/rdf-schema#seeAlso|https://www.data.gv.at/
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/finance|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/society|http://www.w3.org/2004/02/skos/core#prefLabel|society
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/culture|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/health|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/educationAndScience|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/OgdCategoryAustria
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/health|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/culture|http://www.w3.org/2004/02/skos/core#definition|Best possible matching europeandataportal.eu according Education, Culture and Sport
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/health|http://www.w3.org/2000/01/rdf-schema#seeAlso|https://www.data.gv.at/
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/governmentAndPolitics|http://www.w3.org/2004/02/skos/core#prefLabel|government and politics
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/labourAndEmployment|http://www.w3.org/2004/02/skos/core#notation|labourAndEmployment
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/society|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE extensibility: open, internal by value
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/agriculture|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/base2
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/environment|http://www.w3.org/2004/02/skos/core#prefLabel|Umwelt
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/culture|http://www.w3.org/2004/02/skos/core#notation|culture
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/OgdCategoryAustria/governmentAndPolitics
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/agriculture|http://www.w3.org/2004/02/skos/core#notation|agriculture
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/educationAndScience|http://www.w3.org/2004/02/skos/core#prefLabel|Bildung und Forschung
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/recreation|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/base2
+https://registry.inspire.gv.at/codelist/OgdCategoryAustria/economyAndTourism|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/base2

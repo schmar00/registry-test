@@ -1,0 +1,1055 @@
+subject,predicate,object
+https://registry.inspire.gv.at/codelist/hazardtype/torrents,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/toxicOrRadioactive,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/collision,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/rogueWave,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/extraTerrestrial,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/heavyRain,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/rockFall,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/drought,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/wildFire,http://www.w3.org/2004/02/skos/core#definition,"Any uncontrolled and non-prescribed combustion or burning of plants in a natural setting such as a forest, grassland, brush land or tundra, which consumes the nat ural fuels and spreadsbased on envi ronmental condi tions (e.g. , wind, topography) . Wildfires can be tri ggered by li ghtning or human actions."
+https://registry.inspire.gv.at/codelist/hazardtype,http://purl.org/dc/terms/title,Hazard Type
+https://registry.inspire.gv.at/codelist/hazardtype/shockwave,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/thunderstorm,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/coastalFlood,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/iceJamFlood,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/flood
+https://registry.inspire.gv.at/codelist/hazardtype/tropicalStorm,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm
+https://registry.inspire.gv.at/codelist/hazardtype/coldWave,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature
+https://registry.inspire.gv.at/codelist/hazardtype/hail,http://www.w3.org/2004/02/skos/core#definition,ice pellets or small hail (less than 5mm diameter in the Range with 20mm or more
+https://registry.inspire.gv.at/codelist/hazardtype/fireFollowingEarthquake,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/earthquake
+https://registry.inspire.gv.at/codelist/hazardtype/geomagneticStorm,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/lavaFlow,http://www.w3.org/2004/02/skos/core#notation,lavaFlow
+https://registry.inspire.gv.at/codelist/hazardtype/debrisFlow,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/shallowSeatedGliding,http://www.w3.org/2004/02/skos/core#definition,"Shallow seated, up to 2 m depth, slow to rapid movement of surface rocks with complex gliding and slide processes affects an area up to 10.000 square meter as well as a volume in a dominant range between 0.25 to 10 cubic meter."
+https://registry.inspire.gv.at/codelist/hazardtype/drought,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/rockFall,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/sinkhole,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/coastalFlood,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/infestation,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/rockFall,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation
+https://registry.inspire.gv.at/codelist/hazardtype/stormSurge,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/tropicalCyclone,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/airburst,http://www.w3.org/2004/02/skos/core#definition,An explosion of a comet or meteoroid within the Earths atmosphere without striking the ground.
+https://registry.inspire.gv.at/codelist/hazardtype/flood,http://www.w3.org/2004/02/skos/core#prefLabel,flood
+https://registry.inspire.gv.at/codelist/hazardtype/flood,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/hydrological
+https://registry.inspire.gv.at/codelist/hazardtype/frostFreeze,http://www.w3.org/2004/02/skos/core#definition,Freeze occurs when the air temperature is at 32 Grad Fahrenheidt or O grad Celsius or below overa widespread area for a cl imatologically significant perio d of time. Use of the term is usually rest ri ct ed to advect ive situatio ns or to occasions when wind or other conditio ns prevent frost . Frost and freeze are part icularl y damaging during the cr op growing season.
+https://registry.inspire.gv.at/codelist/hazardtype/mudFlow,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/wind,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/geophysical,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/stoneFall,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/deepGliding,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/riverineFlood,http://www.w3.org/2004/02/skos/core#prefLabel,Riverine Flood
+https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/torrents,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/wind,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm
+https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/extraTerrestrial
+https://registry.inspire.gv.at/codelist/hazardtype/toxicOrRadioactive,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/infestation,http://www.w3.org/2004/02/skos/core#prefLabel,infestation
+https://registry.inspire.gv.at/codelist/hazardtype/severeStorm,http://www.w3.org/2004/02/skos/core#definition,Severe thunderstorms are officially defined as storms that are capable of producing hail that is an inch or larger or wind gusts over 58 mph.
+https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/massMovement
+https://registry.inspire.gv.at/codelist/hazardtype/groundMovement,http://www.w3.org/2004/02/skos/core#prefLabel,groundMovement
+https://registry.inspire.gv.at/codelist/hazardtype/tsunami,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/prionDisease,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/disease
+https://registry.inspire.gv.at/codelist/hazardtype/prionDisease,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/torrents,http://www.w3.org/2004/02/skos/core#definition,has to be defined
+https://registry.inspire.gv.at/codelist/hazardtype/rogueWave,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedTiltingAndDrifting,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/allergens,http://www.w3.org/2004/02/skos/core#prefLabel,allergens
+https://registry.inspire.gv.at/codelist/hazardtype/tsunami,http://www.w3.org/2004/02/skos/core#definition,"A seri es of waves (with lo ng wavele ngths when traveli ng across the deep ocean) that ar e generated by a di splacement of massive amounts of wat er throughunderwat er earthquakes, volc anic eruptions or landsli des. Tsunami waves travel at very high speed across the ocean but as they begi n to reach shallow water they slo w down and the wave grows steeper."
+https://registry.inspire.gv.at/codelist/hazardtype/glacialLakeOutburst,http://www.w3.org/2004/02/skos/core#prefLabel,glacial lake outburst
+https://registry.inspire.gv.at/codelist/hazardtype/shallowSeated,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/shallowSeatedGliding
+https://registry.inspire.gv.at/codelist/hazardtype/winterStorm,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/fireFollowingEarthquake,http://www.w3.org/2004/02/skos/core#prefLabel,fire following earthquake
+https://registry.inspire.gv.at/codelist/hazardtype/tsunami,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/pyroclasticFlow
+https://registry.inspire.gv.at/codelist/hazardtype/spaceWeather,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm,http://www.w3.org/2004/02/skos/core#prefLabel,convective storm
+https://registry.inspire.gv.at/codelist/hazardtype/biological,http://www.w3.org/2004/02/skos/core#definition,Processes that are directly linked to living organisms or products produced by living organisms.
+https://registry.inspire.gv.at/codelist/hazardtype/tropicalCyclone,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/fog,http://www.w3.org/2004/02/skos/core#notation,fog
+https://registry.inspire.gv.at/codelist/hazardtype/hail,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/energeticParticles,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/deepSeated,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/shallowSeated,http://www.w3.org/2004/02/skos/core#prefLabel,shallowÂ seated
+https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/toxicOrRadioactive,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/stoneFall,http://www.w3.org/2004/02/skos/core#notation,stoneFall
+https://registry.inspire.gv.at/codelist/hazardtype/geophysical,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature,http://www.w3.org/2004/02/skos/core#prefLabel,extreme temperature
+https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/glacialLakeOutburst,http://www.w3.org/2004/02/skos/core#notation,glacialLakeOutburst
+https://registry.inspire.gv.at/codelist/hazardtype/collision,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/seiche,http://www.w3.org/2004/02/skos/core#prefLabel,Seiche
+https://registry.inspire.gv.at/codelist/hazardtype/subsidence,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/deepTiltingAndDrifting,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/deepSeated
+https://registry.inspire.gv.at/codelist/hazardtype/winterStorm,http://www.w3.org/2004/02/skos/core#notation,winterStorm
+https://registry.inspire.gv.at/codelist/hazardtype/boulderFall,http://www.w3.org/2004/02/skos/core#definition,Processes of downhill slope movements of rock fragments related to different types of ground failure.
+https://registry.inspire.gv.at/codelist/hazardtype/heatWave,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/infestation,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/animalIncident,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/tsunami,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/earthquake
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedGliding,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/mediumSeated
+https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/tornado
+https://registry.inspire.gv.at/codelist/hazardtype/hail,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/tropicalStorm,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/dustDevil,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/geomagneticStorm,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/airburst
+https://registry.inspire.gv.at/codelist/hazardtype/tropicalStorm,http://www.w3.org/2004/02/skos/core#definition,A cyclone of tropicla latidutes and depression when wind on the Beaufourt Scale are up to and in clouding force of 7.
+https://registry.inspire.gv.at/codelist/hazardtype/fireFollowingEarthquake,http://www.w3.org/2004/02/skos/core#notation,fireFollowingEarthquake
+https://registry.inspire.gv.at/codelist/hazardtype/deepSeated,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/deepGliding
+https://registry.inspire.gv.at/codelist/hazardtype/energeticParticles,http://www.w3.org/2004/02/skos/core#notation,energeticParticles
+https://registry.inspire.gv.at/codelist/hazardtype/insectInfestation,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/tropicalCyclone,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/frostFreeze,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/meteorological
+https://registry.inspire.gv.at/codelist/hazardtype/landslides,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/sinkhole,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/torrents,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/insectInfestation,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/infestation
+https://registry.inspire.gv.at/codelist/hazardtype/wind,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/earthquake,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/landslideEarthQuake
+https://registry.inspire.gv.at/codelist/hazardtype/flood,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/seiche
+https://registry.inspire.gv.at/codelist/hazardtype/LandFire,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/stoneFall,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/iceJamFlood,http://www.w3.org/2004/02/skos/core#notation,iceJamFlood
+https://registry.inspire.gv.at/codelist/hazardtype/frostFreeze,http://www.w3.org/2004/02/skos/core#definition,Freeze occurs when the air temperature is at (32 ÌF/ 0 ÌC) or below overa widespread area for a climatologically significant perio d of time. Use of the term is usually restricted to advect ive situations or to occasions when wind or other conditions prevent frost . Frost and freeze are particularly damaging during the cr op growing season.
+https://registry.inspire.gv.at/codelist/hazardtype/winterStorm,http://www.w3.org/2004/02/skos/core#definition,has to be defined
+https://registry.inspire.gv.at/codelist/hazardtype/tropicalCyclone,http://www.w3.org/2004/02/skos/core#prefLabel,tropicalCyclone
+https://registry.inspire.gv.at/codelist/hazardtype/meteorological,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/precipitation,http://www.w3.org/2004/02/skos/core#prefLabel,precipitation
+https://registry.inspire.gv.at/codelist/hazardtype/extraTerrestrial,http://www.w3.org/2004/02/skos/core#prefLabel,extra terrestrial
+https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/shockwave
+https://registry.inspire.gv.at/codelist/hazardtype/gustnado,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/subsidence,http://www.w3.org/2004/02/skos/core#prefLabel,subsidence
+https://registry.inspire.gv.at/codelist/hazardtype/deepSeated,http://www.w3.org/2004/02/skos/core#notation,deepSeated
+https://registry.inspire.gv.at/codelist/hazardtype/shallowSeated,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/drought,http://www.w3.org/2004/02/skos/core#prefLabel,drought
+https://registry.inspire.gv.at/codelist/hazardtype/stormSurge,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/landslides,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/torrents,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/magneticDisruption,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/wind,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/geophysical,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/subsidence,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeated,http://www.w3.org/2004/02/skos/core#definition,has to be defined
+https://registry.inspire.gv.at/codelist/hazardtype/disease,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/stoneFall,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/heatWave,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/landslides,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation
+https://registry.inspire.gv.at/codelist/hazardtype/torrents,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation
+https://registry.inspire.gv.at/codelist/hazardtype/infestation,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/insectInfestation
+https://registry.inspire.gv.at/codelist/hazardtype/infestation,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/blindtromben,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/prionDisease,http://www.w3.org/2004/02/skos/core#prefLabel,prion disease
+https://registry.inspire.gv.at/codelist/hazardtype/riverineFlood,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/flood,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/flashFlood
+https://registry.inspire.gv.at/codelist/hazardtype/geophysical,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/earthquake
+https://registry.inspire.gv.at/codelist/hazardtype/sinkhole,http://www.w3.org/2004/02/skos/core#prefLabel,sinkhole
+https://registry.inspire.gv.at/codelist/hazardtype/fungalDisease,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/disease
+https://registry.inspire.gv.at/codelist/hazardtype/prionDisease,http://www.w3.org/2004/02/skos/core#definition,"A type of biological hazard caused by prion proteins. Prion diseases or transmissible spongiform encephalopathies (TSEs) are a family of rare progressive neurodegenerative disorders that affect both humans and animals characterised by long incubation periods and neural loss. Examples are Bovine Spongiform Encephalophathy (BSE), Creutzfeldt-akob-Disease (CJD), Kuru, etc."
+https://registry.inspire.gv.at/codelist/hazardtype/parasiticDisease,http://www.w3.org/2004/02/skos/core#notation,parasiticDisease
+https://registry.inspire.gv.at/codelist/hazardtype/radioDisturbance,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/solarAndCosmicRadiation
+https://registry.inspire.gv.at/codelist/hazardtype/fungalDisease,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/groundMovement,http://www.w3.org/2004/02/skos/core#definition,Surface displacement of earth mat erials due to ground shaking triggered by earthquakes or volcanic eruptions.
+https://registry.inspire.gv.at/codelist/hazardtype/insectInfestation,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/geomagneticStorm,http://www.w3.org/2004/02/skos/core#prefLabel,Geomagnetic Storm
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedTiltingAndDrifting,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/snowAvalanche,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/animalIncident,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeated,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/sinkhole,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/iceJamFlood,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/hydrological,http://www.w3.org/2004/02/skos/core#notation,hydrological
+https://registry.inspire.gv.at/codelist/hazardtype/severeWinterConditions,http://www.w3.org/2004/02/skos/core#prefLabel,severe winter conditions
+https://registry.inspire.gv.at/codelist/hazardtype/meteoriteImpact,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects
+https://registry.inspire.gv.at/codelist/hazardtype/magneticDisruption,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/spaceWeather
+https://registry.inspire.gv.at/codelist/hazardtype/airburst,http://www.w3.org/2004/02/skos/core#notation,airburst
+https://registry.inspire.gv.at/codelist/hazardtype/earthquake,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/expansiveSoil,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/viralDisease,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/drought,http://www.w3.org/2004/02/skos/core#definition,"Drought may be considered in general terms a consequence of a reduction over an extended period of time in the amount of precipitation that is received, usually over a season or more in length. It is a temporary aberration, unlike aridity, which is a permanent feature of the climate. Seasonal aridity (i.e., a well-defined dry season) also needs to be distinguished from drought. It should be noted that drought is a normal, recurrent feature of climate, and it occurs in virtually all climatic regimes (UNDDR)."
+https://registry.inspire.gv.at/codelist/hazardtype,http://purl.org/dc/terms/created,2026-05-05T14:30:11+00:00
+https://registry.inspire.gv.at/codelist/hazardtype/riverineFlood,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#ConceptScheme
+https://registry.inspire.gv.at/codelist/hazardtype/subsidence,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/meteorological,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/expansiveSoil,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/earthquake,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/fireFollowingEarthquake
+https://registry.inspire.gv.at/codelist/hazardtype/insectInfestation,http://www.w3.org/2004/02/skos/core#definition,"The pervasive influx, swarming and/or hatching of insects affecting humans, animals, crops, and perishable goods. Examples are locusts and African Bees."
+https://registry.inspire.gv.at/codelist/hazardtype/shallowSeatedGliding,http://www.w3.org/2004/02/skos/core#notation,shallowSeatedGliding
+https://registry.inspire.gv.at/codelist/hazardtype/snowAvalanche,http://www.w3.org/2004/02/skos/core#definition,"Rapid downslope movement of a mix of snow and ice that slides, flows or falls rapidly down a mountainside under the force of gravity."
+https://registry.inspire.gv.at/codelist/hazardtype/severeStorm,http://www.w3.org/2004/02/skos/core#prefLabel,severe storm
+https://registry.inspire.gv.at/codelist/hazardtype/animalIncident,http://www.w3.org/2004/02/skos/core#notation,animalIncident
+https://registry.inspire.gv.at/codelist/hazardtype/disease,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/bacterialDisease,http://www.w3.org/2004/02/skos/core#definition,"An unusual increase in the number of incidents caused by the exposure to bacteria either through skin contact, ingestion orinhalation. Examples include salmonella, MSRA, and cholera, among others."
+https://registry.inspire.gv.at/codelist/hazardtype/snowAvalanche,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/coastalFlood,http://www.w3.org/2004/02/skos/core#notation,coastalFlood
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeated,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedGliding
+https://registry.inspire.gv.at/codelist/hazardtype/spaceWeather,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/liquefaction,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/massMovement
+https://registry.inspire.gv.at/codelist/hazardtype/infestation,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/shallowSeated,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/meteoriteImpact,http://www.w3.org/2004/02/skos/core#prefLabel,meteorite impact
+https://registry.inspire.gv.at/codelist/hazardtype/continuousRain,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/precipitation
+https://registry.inspire.gv.at/codelist/hazardtype/tsunami,http://www.w3.org/2004/02/skos/core#prefLabel,tsunami
+https://registry.inspire.gv.at/codelist/hazardtype/subsidence,http://www.w3.org/2004/02/skos/core#definition,"Subsidence refers to the sinking of the ground due to groundwater removal, mining, dissolution of limestone, e.g. karst, sinkholes, extraction of natural gas, and earthquakes,IRDR."
+https://registry.inspire.gv.at/codelist/hazardtype/LandFire,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/prionDisease,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm,http://www.w3.org/2004/02/skos/core#definition,"A type of meteorological hazard generated by the heat ing of ai r and the availabili ty of moist and unstable ai r masses. Convective storms range from lo calised thunders torms (with heavy rain and/ or hail, li ghtning, high winds, tornadoes) to meso-scal e, multi-day events."
+https://registry.inspire.gv.at/codelist/hazardtype/coldWave,http://www.w3.org/2004/02/skos/core#definition,"Popularly, a period of very cold weather."
+https://registry.inspire.gv.at/codelist/hazardtype/deepGliding,http://www.w3.org/2004/02/skos/core#prefLabel,deep gliding (antfriction)
+https://registry.inspire.gv.at/codelist/hazardtype/viralDisease,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/ashFall,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity
+https://registry.inspire.gv.at/codelist/hazardtype/infestation,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/extraTerrestrial,http://www.w3.org/2004/02/skos/core#notation,extraTerrestrial
+https://registry.inspire.gv.at/codelist/hazardtype/deepTiltingAndDrifting,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/climatological,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/hazardType,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/fog,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedGliding,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/mudFlow,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation,http://www.w3.org/2004/02/skos/core#prefLabel,gravitational slope deformation
+https://registry.inspire.gv.at/codelist/hazardtype/shallowSeated,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation
+https://registry.inspire.gv.at/codelist/hazardtype/rogueWave,http://www.w3.org/2004/02/skos/core#notation,rogueWave
+https://registry.inspire.gv.at/codelist/hazardtype/biological,http://www.w3.org/2004/02/skos/core#notation,biological
+https://registry.inspire.gv.at/codelist/hazardtype/LandFire,http://www.w3.org/2004/02/skos/core#notation,LandFire
+https://registry.inspire.gv.at/codelist/hazardtype/animalIncident,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/deepGliding,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/bacterialDisease,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/deepGliding,http://www.w3.org/2004/02/skos/core#definition,"Deep seated, with more than 50 m in depth, slow motion slope deformation of bedrocks with complex gliding and slide processes affects an area bigger than 1 Square kilometer as well a volume greater than 1 cubic kilometer."
+https://registry.inspire.gv.at/codelist/hazardtype/glacialLakeOutburst,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/epidemic,http://www.w3.org/2004/02/skos/core#notation,epidemic
+https://registry.inspire.gv.at/codelist/hazardtype/gustnado,http://www.w3.org/2004/02/skos/core#notation,gustnado
+https://registry.inspire.gv.at/codelist/hazardtype/severeWinterConditions,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/tornado,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeated,http://www.w3.org/2004/02/skos/core#prefLabel,mediumSeated
+https://registry.inspire.gv.at/codelist/hazardtype/precipitation,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/meteorological
+https://registry.inspire.gv.at/codelist/hazardtype/hazardType,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/hazardtype
+https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/forestFire,http://www.w3.org/2004/02/skos/core#notation,forestFire
+https://registry.inspire.gv.at/codelist/hazardtype/bacterialDisease,http://www.w3.org/2004/02/skos/core#prefLabel,bacterial disease
+https://registry.inspire.gv.at/codelist/hazardtype/animalIncident,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/heatWave,http://www.w3.org/2004/02/skos/core#definition,A period of abnormally and uncomfortably hot and usually humid weather.
+https://registry.inspire.gv.at/codelist/hazardtype/massMovement,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/snowAvalanche
+https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/gustnado,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/meteorological,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/climatological,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/heatWave,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/fog,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/stormSurge,http://www.w3.org/2004/02/skos/core#notation,stormSurge
+https://registry.inspire.gv.at/codelist/hazardtype/disease,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/prionDisease
+https://registry.inspire.gv.at/codelist/hazardtype/disease,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/extraTerrestrial,http://www.w3.org/2004/02/skos/core#definition,"A hazard caused by asteroids, meteoroids, and comets as they pass near-earth, enter the Earthâs atmosphere, and/or strike the Earth, and by changes in interplanetary conditions that effect the Earthâs magnetosphere, ionosphere, and thermosphere."
+https://registry.inspire.gv.at/codelist/hazardtype/extraTerrestrial,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/fog,http://www.w3.org/2004/02/skos/core#prefLabel,fog
+https://registry.inspire.gv.at/codelist/hazardtype/meteorological,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/coastalErosion,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/massMovement
+https://registry.inspire.gv.at/codelist/hazardtype/insectInfestation,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/debrisFlow,http://www.w3.org/2004/02/skos/core#notation,debrisFlow
+https://registry.inspire.gv.at/codelist/hazardtype/radioDisturbance,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/severeWinterConditions,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/tornado,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity,http://www.w3.org/2004/02/skos/core#definition,"A type of volcanic event near an opening/vent in the Earths surace including volcanic eruptions of lava, ash, hot vapour, gas, and pyroclastic material."
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeated,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/solarAndCosmicRadiation,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/extraTropicalStorm,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/disease,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/iceJamFlood,http://www.w3.org/2004/02/skos/core#prefLabel,Ice Jam Flood
+https://registry.inspire.gv.at/codelist/hazardtype/rogueWave,http://www.w3.org/2004/02/skos/core#prefLabel,Rogue Wave
+https://registry.inspire.gv.at/codelist/hazardtype/infestation,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/biological
+https://registry.inspire.gv.at/codelist/hazardtype/shallowSeated,http://www.w3.org/2004/02/skos/core#definition,has to be defined
+https://registry.inspire.gv.at/codelist/hazardtype/fog,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/earthquake,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/forestFire,http://www.w3.org/2004/02/skos/core#definition,A type of wildfire in a wooded area.
+https://registry.inspire.gv.at/codelist/hazardtype/boulderFall,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/wind,http://www.w3.org/2004/02/skos/core#notation,wind
+https://registry.inspire.gv.at/codelist/hazardtype/lavaFlow,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/riverineFlood,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/winterStorm
+https://registry.inspire.gv.at/codelist/hazardtype/hazardType,http://www.w3.org/2004/02/skos/core#definition,A generic classification of types of natural hazards
+https://registry.inspire.gv.at/codelist/hazardtype/deepTiltingAndDrifting,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/solarAndCosmicRadiation,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/radioDisturbance
+https://registry.inspire.gv.at/codelist/hazardtype/torrents,http://www.w3.org/2004/02/skos/core#notation,torrents
+https://registry.inspire.gv.at/codelist/hazardtype/stormSurge,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/heavySnowfall,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/flood,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/massMovement,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/hail,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/precipitation
+https://registry.inspire.gv.at/codelist/hazardtype/gustnado,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/biological,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/seiche,http://www.w3.org/2004/02/skos/core#definition,"A standing wave of water in a large semi- or fully-enclosed body of water (lakes or bays) created by strong winds and/or a large barometric pressure gradient,"
+https://registry.inspire.gv.at/codelist/hazardtype/ashFall,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/dustDevil,http://www.w3.org/2004/02/skos/core#definition,"Dust devils are occasionally strong enough to cause minor damage, up to EF0 on the Enhanced Fujita scale. Diameters range from about 3 m to greater than 30 m, their average height is about 200 m, but a few have been observed as high as 1 km or more. They have been observed to rotate anticyclonically as well as cyclonically. Although the vertical velocity is predominantly upward, the flow along the axis of large dust devils may be downward. Large dust devils may also contain secondary vortices. Dust devils are best developed on a hot, calm afternoon with clear skies, in a dry region when intense surface heating causes a very steep lapse rate of temperature in the lowest 100 m of the atmosphere. Related to Sand/dust storm (EM-Dat)"
+https://registry.inspire.gv.at/codelist/hazardtype/coldWave,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/shockwave,http://www.w3.org/2004/02/skos/core#definition,"A shockwave carries energy from a disturbance through a mediu (solid, liquid, gas) similar to a wave though it travels at much higher speed. It can be a type of extraterrestrial hazard caused by the explosion, e.g. airburst or impact of meteorites that generate energy shockwaves capable of shattering glass, collapsing walls, etc."
+https://registry.inspire.gv.at/codelist/hazardtype/snowAvalanche,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/mudFlow,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/shallowSeated
+https://registry.inspire.gv.at/codelist/hazardtype/derecho,http://www.w3.org/2004/02/skos/core#notation,derecho
+https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity,http://www.w3.org/2004/02/skos/core#definition,"A type of volcanic event near an opening/vent in the Earthâs surface including volcanic eruptions of lava, ash, hot vapour, gas, andpyrocl ast ic material."
+https://registry.inspire.gv.at/codelist/hazardtype/fungalDisease,http://www.w3.org/2004/02/skos/core#prefLabel,fungal disease
+https://registry.inspire.gv.at/codelist/hazardtype/tornado,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/hydrological,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/spaceWeather,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/solarAndCosmicRadiation
+https://registry.inspire.gv.at/codelist/hazardtype/sinkhole,http://www.w3.org/2004/02/skos/core#definition,"Subsidence refers to the sinking of the ground due to groundwater removal, mining, dissolution of limestone, e.g. karst, sinkholes, extraction of natural gas, and earthquakes, IRDR."
+https://registry.inspire.gv.at/codelist/hazardtype/spaceWeather,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/massMovement,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/subsidence
+https://registry.inspire.gv.at/codelist/hazardtype/hazardType,http://www.w3.org/2004/02/skos/core#prefLabel,HazardType
+https://registry.inspire.gv.at/codelist/hazardtype/fireFollowingEarthquake,http://www.w3.org/2004/02/skos/core#definition,"Urbanfires triggered by earthquakes. Particularly susceptible areasinclude densely spaced, wooden buildings that dominate local architecture, and where the ear thquake has damaged or ruptured wat er and gas pipelines. Small local fires have the potential to merge into conflagrations destroying many city blocks."
+https://registry.inspire.gv.at/codelist/hazardtype/mudFlow,http://www.w3.org/2004/02/skos/core#prefLabel,Mud flow
+https://registry.inspire.gv.at/codelist/hazardtype,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedTiltingAndDrifting,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/flood,http://www.w3.org/2004/02/skos/core#notation,flood
+https://registry.inspire.gv.at/codelist/hazardtype/epidemic,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/disease
+https://registry.inspire.gv.at/codelist/hazardtype/drought,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/viralDisease,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/meteorological,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/precipitation
+https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/meteoriteImpact
+https://registry.inspire.gv.at/codelist/hazardtype/flood,http://www.w3.org/2004/02/skos/core#definition,A type of flooding resulting from the overflow of water onto normally dry land in the floodplain adjacent to the water body.
+https://registry.inspire.gv.at/codelist/hazardtype/derecho,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/wildFire,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/LandFire,http://www.w3.org/2004/02/skos/core#prefLabel,land fire
+https://registry.inspire.gv.at/codelist/hazardtype/wildFire,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/LandFire
+https://registry.inspire.gv.at/codelist/hazardtype/spaceWeather,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/animalIncident,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/biological
+https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/hazardType
+https://registry.inspire.gv.at/codelist/hazardtype/seiche,http://www.w3.org/2004/02/skos/core#definition,"A standing wave of water in a large semi- or fully-enclosed body of water,lakes or bays, created by strong winds and/or a large barometric pressure gradient,"
+https://registry.inspire.gv.at/codelist/hazardtype/flood,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/climatological,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/deepTiltingAndDrifting,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/blindtromben,http://www.w3.org/2004/02/skos/core#notation,blindtromben
+https://registry.inspire.gv.at/codelist/hazardtype/animalIncident,http://www.w3.org/2004/02/skos/core#definition,Human encounters with dangerous or exotic animals in both urban and rural environments.
+https://registry.inspire.gv.at/codelist/hazardtype/tornado,http://www.w3.org/2004/02/skos/core#notation,tornado
+https://registry.inspire.gv.at/codelist/hazardtype/liquefaction,http://www.w3.org/2004/02/skos/core#notation,liquefaction
+https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/ashFall
+https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/deepSeated
+https://registry.inspire.gv.at/codelist/hazardtype/sinkhole,http://www.w3.org/2004/02/skos/core#notation,sinkhole
+https://registry.inspire.gv.at/codelist/hazardtype/coastalErosion,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/pyroclasticFlow,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/landslides
+https://registry.inspire.gv.at/codelist/hazardtype/stormSurge,http://www.w3.org/2004/02/skos/core#definition,An abnormal ri se in sea le vel generated by a tropi cal cyclo ne or other intense storms.
+https://registry.inspire.gv.at/codelist/hazardtype/boulderFall,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/geophysical,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/toxicOrRadioactive
+https://registry.inspire.gv.at/codelist/hazardtype/extraTropicalStorm,http://www.w3.org/2004/02/skos/core#prefLabel,extra tropical storm
+https://registry.inspire.gv.at/codelist/hazardtype/massMovement,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/lahar,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/hail,http://www.w3.org/2004/02/skos/core#notation,hail
+https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/lahar
+https://registry.inspire.gv.at/codelist/hazardtype/lahar,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity
+https://registry.inspire.gv.at/codelist/hazardtype/parasiticDisease,http://www.w3.org/2004/02/skos/core#prefLabel,parasitic disease
+https://registry.inspire.gv.at/codelist/hazardtype/drought,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/tropicalCyclone,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/meteorological
+https://registry.inspire.gv.at/codelist/hazardtype/heavyRain,http://www.w3.org/2004/02/skos/core#notation,heavyRain
+https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/tropicalStorm
+https://registry.inspire.gv.at/codelist/hazardtype/allergens,http://www.w3.org/2004/02/skos/core#definition,"Biological products or substances, such as pollen, that might cause allergy over a large number of people."
+https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/flood,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/gustnado,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/meteoriteImpact,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype,http://purl.org/dc/terms/title,Gefahrenart
+https://registry.inspire.gv.at/codelist/hazardtype/climatological,http://www.w3.org/2004/02/skos/core#prefLabel,climatological
+https://registry.inspire.gv.at/codelist/hazardtype/boulderFall,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation
+https://registry.inspire.gv.at/codelist/hazardtype/precipitation,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/hail
+https://registry.inspire.gv.at/codelist/hazardtype/flood,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/radioDisturbance,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/landslideEarthQuake,http://www.w3.org/2004/02/skos/core#prefLabel,earthquake landslide
+https://registry.inspire.gv.at/codelist/hazardtype/gustnado,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature,http://www.w3.org/2004/02/skos/core#definition,has to be defined
+https://registry.inspire.gv.at/codelist/hazardtype/hazardType,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/parasiticDisease,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/rogueWave,http://www.w3.org/2004/02/skos/core#definition,An unusual single crest of an ocean wave far out at sea that is much higher and/or steeper than other waves in the prevailing swell system.
+https://registry.inspire.gv.at/codelist/hazardtype/pyroclasticFlow,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/heatWave,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/tropicalStorm,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/shallowSeatedGliding,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/thunderstorm,http://www.w3.org/2004/02/skos/core#definition,"In general, a local storm, invariably produced by a cumulonimbus cloud and always accompanied by lightning and thunder, usually with strong gusts of wind, heavy rain, and sometimes with hail."
+https://registry.inspire.gv.at/codelist/hazardtype/pyroclasticFlow,http://www.w3.org/2004/02/skos/core#notation,pyroclasticFlow
+https://registry.inspire.gv.at/codelist/hazardtype/viralDisease,http://www.w3.org/2004/02/skos/core#definition,"Viruses cause familiar infectious diseases such as the common cold, flu and warts. They also cause severe illnesses such as HIV/AIDS, smallpox, and Ebola."
+https://registry.inspire.gv.at/codelist/hazardtype/dustDevil,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/stormSurge,http://www.w3.org/2004/02/skos/core#prefLabel,storm surge
+https://registry.inspire.gv.at/codelist/hazardtype/coldWave,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/lahar,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/iceJamFlood,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/hail,http://www.w3.org/2004/02/skos/core#prefLabel,hail
+https://registry.inspire.gv.at/codelist/hazardtype/severeStorm,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/liquefaction,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/hydrological,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/tsunami,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/precipitation,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/fog
+https://registry.inspire.gv.at/codelist/hazardtype/earthquake,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/geophysical,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity
+https://registry.inspire.gv.at/codelist/hazardtype/extraTropicalStorm,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/heavySnowfall,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/riverineFlood,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/shockwave,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/deepTiltingAndDrifting,http://www.w3.org/2004/02/skos/core#notation,deepTiltingAndDrifting
+https://registry.inspire.gv.at/codelist/hazardtype/drought,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/climatological
+https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/geophysical,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster
+https://registry.inspire.gv.at/codelist/hazardtype/allergens,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/biological,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/allergens
+https://registry.inspire.gv.at/codelist/hazardtype/climatological,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/wildFire
+https://registry.inspire.gv.at/codelist/hazardtype/earthquake,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/meteoriteImpact,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/lahar,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/wildFire,http://www.w3.org/2004/02/skos/core#prefLabel,wild fire
+https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects,http://www.w3.org/2004/02/skos/core#notation,nearEarthObjects
+https://registry.inspire.gv.at/codelist/hazardtype/rockFall,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/tropicalStorm,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/tsunami,http://www.w3.org/2004/02/skos/core#notation,tsunami
+https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedTiltingAndDrifting,http://www.w3.org/2004/02/skos/core#notation,mediumSeatedTiltingAndDrifting
+https://registry.inspire.gv.at/codelist/hazardtype/massMovement,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/viralDisease,http://www.w3.org/2004/02/skos/core#notation,viralDisease
+https://registry.inspire.gv.at/codelist/hazardtype/heavyRain,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/lahar,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/expansiveSoil,http://www.w3.org/2004/02/skos/core#prefLabel,expansive soil
+https://registry.inspire.gv.at/codelist/hazardtype,http://www.w3.org/2002/07/owl#versionInfo,1.0.0
+https://registry.inspire.gv.at/codelist/hazardtype/viralDisease,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/boulderFall,http://www.w3.org/2004/02/skos/core#prefLabel,boulder fall
+https://registry.inspire.gv.at/codelist/hazardtype/ashFall,http://www.w3.org/2004/02/skos/core#prefLabel,ash fall
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedGliding,http://www.w3.org/2004/02/skos/core#prefLabel,medium seated gliding (antfriction)
+https://registry.inspire.gv.at/codelist/hazardtype/animalIncident,http://www.w3.org/2004/02/skos/core#prefLabel,animal Incident
+https://registry.inspire.gv.at/codelist/hazardtype/parasiticDisease,http://www.w3.org/2004/02/skos/core#definition,"Exposure to a parasite-an organism living on or in a host-causes an unusual increase in the number of incidents. Exposure to parasites occurs mostly through contaminated water, food or contact with insects, animals (zoonotic), pets, etc. Examples are malaria, chagas disease, giardiasis and trichinellosis."
+https://registry.inspire.gv.at/codelist/hazardtype/coastalFlood,http://www.w3.org/2004/02/skos/core#prefLabel,coastal flood
+https://registry.inspire.gv.at/codelist/hazardtype/insectInfestation,http://www.w3.org/2004/02/skos/core#definition,"The pervasive influx, swarming and or hatching of insects affecting humans, animals, crops, and perishable goods. Examples are locusts and African Bees."
+https://registry.inspire.gv.at/codelist/hazardtype/disease,http://www.w3.org/2004/02/skos/core#notation,disease
+https://registry.inspire.gv.at/codelist/hazardtype/precipitation,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/infestation,http://www.w3.org/2004/02/skos/core#definition,Abnormal population increase of living organisms.
+https://registry.inspire.gv.at/codelist/hazardtype/fog,http://www.w3.org/2004/02/skos/core#definition,Water droplets that are suspended in the air near the Earths surface. Fog is simply a cloud that is in contact with the ground.
+https://registry.inspire.gv.at/codelist/hazardtype/airburst,http://www.w3.org/2004/02/skos/core#definition,An explosion of a comet or meteoroid within the Earthâs atmosphere without striking the ground.
+https://registry.inspire.gv.at/codelist/hazardtype/heavyRain,http://www.w3.org/2004/02/skos/core#definition,has to be defined
+https://registry.inspire.gv.at/codelist/hazardtype/snowAvalanche,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/shallowSeatedGliding,http://www.w3.org/2004/02/skos/core#prefLabel,shallow seated gliding (antfriction)
+https://registry.inspire.gv.at/codelist/hazardtype/dustDevil,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/coastalFlood,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/collision,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects
+https://registry.inspire.gv.at/codelist/hazardtype/flashFlood,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/wind
+https://registry.inspire.gv.at/codelist/hazardtype/viralDisease,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/epidemic,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/energeticParticles,http://www.w3.org/2004/02/skos/core#definition,"Emissions from solar radiation storms consisting of pieces of matter (e.g., protons and other charged particles) moving at very high speed. The magnetosphere and atmosphere block (solar) energetic particles (SEP) from reaching humans on Earth but they are damaging to the electronics of space-borne technology (such as satellites) and pose a radiation hazard to life in space and aircrafts travelling at high altitudes."
+https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/derecho
+https://registry.inspire.gv.at/codelist/hazardtype/rockFall,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/shockwave,http://www.w3.org/2004/02/skos/core#prefLabel,Shockwave
+https://registry.inspire.gv.at/codelist/hazardtype/flood,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/rogueWave
+https://registry.inspire.gv.at/codelist/hazardtype/bacterialDisease,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/magneticDisruption,http://www.w3.org/2004/02/skos/core#notation,magneticDisruption
+https://registry.inspire.gv.at/codelist/hazardtype/coastalErosion,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/mudFlow,http://www.w3.org/2004/02/skos/core#notation,mudFlow
+https://registry.inspire.gv.at/codelist/hazardtype/rogueWave,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/flood
+https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation,http://www.w3.org/2004/02/skos/core#notation,gravitationalSlopeDeformation
+https://registry.inspire.gv.at/codelist/hazardtype/heavySnowfall,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedGliding,http://www.w3.org/2004/02/skos/core#definition,"Medium seated, from 2 m up to 50 m in depth, slow motion slope deformation of bed- or surface rocks with complex gliding and slide processes affects an area bigger than 10 square meter up to 1 square kilometer as well as a volume in a range between 10 to 10.000 cubic meter."
+https://registry.inspire.gv.at/codelist/hazardtype/heavySnowfall,http://www.w3.org/2004/02/skos/core#prefLabel,heavy snowfall
+https://registry.inspire.gv.at/codelist/hazardtype/drought,http://www.w3.org/2004/02/skos/core#definition,has to be defined
+https://registry.inspire.gv.at/codelist/hazardtype/pyroclasticFlow,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/snowAvalanche,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/thunderstorm,http://www.w3.org/2004/02/skos/core#definition,has to be defined
+https://registry.inspire.gv.at/codelist/hazardtype/shallowSeatedGliding,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/frostFreeze
+https://registry.inspire.gv.at/codelist/hazardtype/bacterialDisease,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/magneticDisruption,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/dustDevil,http://www.w3.org/2004/02/skos/core#prefLabel,dust devil
+https://registry.inspire.gv.at/codelist/hazardtype/winterStorm,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster,http://www.w3.org/2004/02/skos/core#notation,naturalDisaster
+https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/hydrological,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/forestFire,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/magneticDisruption,http://www.w3.org/2004/02/skos/core#definition,Disturbances of the magnetic field of the Earth.
+https://registry.inspire.gv.at/codelist/hazardtype/climatological,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/wildFire,http://www.w3.org/2004/02/skos/core#notation,wildFire
+https://registry.inspire.gv.at/codelist/hazardtype/prionDisease,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/spaceWeather,http://www.w3.org/2004/02/skos/core#definition,"According to NASA, space weather is the dynamic conditions in the Earthâs outer space environment. It includes any event on the sun, in the solar wind, in near-Earth space and in our upper atmosphere that can affect the performance and reliability of space-borne and ground-based technological systems and through these, human life and endeavor."
+https://registry.inspire.gv.at/codelist/hazardtype/meteoriteImpact,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/torrents
+https://registry.inspire.gv.at/codelist/hazardtype/flood,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/coastalFlood
+https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/earthquake,http://www.w3.org/2004/02/skos/core#notation,earthquake
+https://registry.inspire.gv.at/codelist/hazardtype/flashFlood,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/parasiticDisease,http://www.w3.org/2004/02/skos/core#definition,"Exposure to a parasite and organism living on or in a host-causes an unusual increase in the number of incidents. Exposure to parasites occurs mostly through contaminated water, food or contact with insects, animals (zoonotic), pets, etc. Examples are malaria, chagas disease, giardiasis and trichinellosis."
+https://registry.inspire.gv.at/codelist/hazardtype/forestFire,http://www.w3.org/2004/02/skos/core#prefLabel,forest fire
+https://registry.inspire.gv.at/codelist/hazardtype/tropicalStorm,http://www.w3.org/2004/02/skos/core#prefLabel,tropical storm
+https://registry.inspire.gv.at/codelist/hazardtype/continuousRain,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/mudFlow,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/radioDisturbance,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/climatological,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/iceJamFlood,http://www.w3.org/2004/02/skos/core#definition,"The accumulation of floating ice restricting or blocking a riverâs flow and drainage. Ice jams tend to develop near river bends and obstructions (e.g., bridges)."
+https://registry.inspire.gv.at/codelist/hazardtype/forestFire,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/severeWinterConditions,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/collision,http://www.w3.org/2004/02/skos/core#prefLabel,Collision
+https://registry.inspire.gv.at/codelist/hazardtype/meteoriteImpact,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/frostFreeze,http://www.w3.org/2004/02/skos/core#notation,frostFreeze
+https://registry.inspire.gv.at/codelist/hazardtype/lahar,http://www.w3.org/2004/02/skos/core#prefLabel,Lahar
+https://registry.inspire.gv.at/codelist/hazardtype/earthquake,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/geophysical
+https://registry.inspire.gv.at/codelist/hazardtype/deepSeated,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/stoneFall,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation
+https://registry.inspire.gv.at/codelist/hazardtype/lavaFlow,http://www.w3.org/2004/02/skos/core#definition,The ejected magma that moves as a liquid mass downslope from a volcano during an eruption.
+https://registry.inspire.gv.at/codelist/hazardtype/heatWave,http://www.w3.org/2004/02/skos/core#prefLabel,heat wave
+https://registry.inspire.gv.at/codelist/hazardtype/solarAndCosmicRadiation,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/spaceWeather
+https://registry.inspire.gv.at/codelist/hazardtype/severeStorm,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/coldWave,http://www.w3.org/2004/02/skos/core#prefLabel,cold wave
+https://registry.inspire.gv.at/codelist/hazardtype/seiche,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/blindtromben,http://www.w3.org/2004/02/skos/core#definition,"In meteorology, a cloud column or inverted cloud cone, pendant from a cloud base. This supplementary feature occurs mostly with cumulus and cumulonimbus; when it reaches the earth's surface it constitutes the cloudy manifestation of an intense vortex, namely, a tornado or waterspout."
+https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/extraTerrestrial
+https://registry.inspire.gv.at/codelist/hazardtype/continuousRain,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/radioDisturbance,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/massMovement,http://www.w3.org/2004/02/skos/core#definition,"Mass movements can be defined as as any type of downslope movement of earth materials, such as sediment, soil and rock material. Mass movements are processes of erosion, transport and accumulation of material that occur on both gentle and steep slopes mainly owing to gravitational forces (IRDR Glossary). These movements are generally associated with other disasters such as earthquakes, floods, thunderstorms and heavy rainstorm. They can be also associated with manmade hazards like construction roads, buildings, structures, infrastructure facilities."
+https://registry.inspire.gv.at/codelist/hazardtype/massMovement,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/geophysical
+https://registry.inspire.gv.at/codelist/hazardtype/LandFire,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/debrisFlow,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/submitted
+https://registry.inspire.gv.at/codelist/hazardtype/debrisFlow,http://www.w3.org/2004/02/skos/core#prefLabel,debris flow
+https://registry.inspire.gv.at/codelist/hazardtype/hail,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/heavySnowfall,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/liquefaction,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster,http://www.w3.org/2004/02/skos/core#definition,has to be defined
+https://registry.inspire.gv.at/codelist/hazardtype/precipitation,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/landslideEarthQuake,http://www.w3.org/2004/02/skos/core#notation,landslideEarthQuake
+https://registry.inspire.gv.at/codelist/hazardtype/ashFall,http://www.w3.org/2004/02/skos/core#definition,"Fine, less than 4 mm in diameter, unconsolidated volcanic debris blown into the atmosphere during an eruption. Can remain airborne for long periods of time and travel considerable distance from the source."
+https://registry.inspire.gv.at/codelist/hazardtype/mudFlow,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/tornado,http://www.w3.org/2004/02/skos/core#prefLabel,tornado
+https://registry.inspire.gv.at/codelist/hazardtype/debrisFlow,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/meteorological,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster
+https://registry.inspire.gv.at/codelist/hazardtype/subsidence,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/massMovement
+https://registry.inspire.gv.at/codelist/hazardtype/landslides,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/earthquake,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/tsunami
+https://registry.inspire.gv.at/codelist/hazardtype/hydrological,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/fireFollowingEarthquake,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/heavySnowfall,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/expansiveSoil,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/massMovement
+https://registry.inspire.gv.at/codelist/hazardtype/liquefaction,http://www.w3.org/2004/02/skos/core#definition,The transformat ion of (partially) wat er-sat urat ed soil from a soli d stat e to a liqui d stat e caused by an earthquake. Li quefaction reduces the strength and stiffness of soil causing buildings to topple over.
+https://registry.inspire.gv.at/codelist/hazardtype/prionDisease,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/extraTerrestrial,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster
+https://registry.inspire.gv.at/codelist/hazardtype/airburst,http://www.w3.org/2004/02/skos/core#prefLabel,Airburst
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedTiltingAndDrifting,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/mediumSeated
+https://registry.inspire.gv.at/codelist/hazardtype/coldWave,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/solarAndCosmicRadiation,http://www.w3.org/2004/02/skos/core#definition,"Radiation from outer space, e.g. UV, gamma ray, etc."
+https://registry.inspire.gv.at/codelist/hazardtype/geophysical,http://www.w3.org/2004/02/skos/core#notation,geophysical
+https://registry.inspire.gv.at/codelist/hazardtype/heavyRain,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/frostFreeze,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/landslides,http://www.w3.org/2004/02/skos/core#definition,has to be defined
+https://registry.inspire.gv.at/codelist/hazardtype/allergens,http://www.w3.org/2004/02/skos/core#notation,allergens
+https://registry.inspire.gv.at/codelist/hazardtype/hydrological,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/severeStorm,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/meteorological,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm
+https://registry.inspire.gv.at/codelist/hazardtype/fungalDisease,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/mudFlow,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/blindtromben,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/epidemic,http://www.w3.org/2004/02/skos/core#prefLabel,epidemic
+https://registry.inspire.gv.at/codelist/hazardtype/toxicOrRadioactive,http://www.w3.org/2004/02/skos/core#notation,toxicOrRadioactive
+https://registry.inspire.gv.at/codelist/hazardtype/infestation,http://www.w3.org/2004/02/skos/core#notation,infestation
+https://registry.inspire.gv.at/codelist/hazardtype/hail,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/epidemic,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/biological
+https://registry.inspire.gv.at/codelist/hazardtype/severeStorm,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm
+https://registry.inspire.gv.at/codelist/hazardtype/deepGliding,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/airburst,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects
+https://registry.inspire.gv.at/codelist/hazardtype/precipitation,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/heavySnowfall
+https://registry.inspire.gv.at/codelist/hazardtype/rockFall,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/extraTropicalStorm,http://www.w3.org/2004/02/skos/core#notation,extraTropicalStorm
+https://registry.inspire.gv.at/codelist/hazardtype/forestFire,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/wildFire
+https://registry.inspire.gv.at/codelist/hazardtype/thunderstorm,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/wildFire,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/gustnado,http://www.w3.org/2004/02/skos/core#prefLabel,gustnado
+https://registry.inspire.gv.at/codelist/hazardtype/stormSurge,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm
+https://registry.inspire.gv.at/codelist/hazardtype/deepTiltingAndDrifting,http://www.w3.org/2004/02/skos/core#prefLabel,deep tilting and drifting
+https://registry.inspire.gv.at/codelist/hazardtype/blindtromben,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/wind
+https://registry.inspire.gv.at/codelist/hazardtype/earthquake,http://www.w3.org/2004/02/skos/core#definition,Sudden movement of a block of the Earthâs crust along a geological fault and associated ground shaking.
+https://registry.inspire.gv.at/codelist/hazardtype/winterStorm,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/disease,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/radioDisturbance,http://www.w3.org/2004/02/skos/core#definition,Triggered by x-ray emissions from the Sun hitting the Earthâs atmosphere and causing disturbances in the ionosphere such as jamming of high and/or low frequency radio signals. This affects satellite radio communication and Global Positioning Systems (GPS).
+https://registry.inspire.gv.at/codelist/hazardtype/gustnado,http://www.w3.org/2004/02/skos/core#definition,"Colloquial expression for a short-lived, shallow, generally weak, vertically oriented vortex found along a gust front. Gustnadoes are usually visualized by a rotating dust or debris cloud."
+https://registry.inspire.gv.at/codelist/hazardtype/geomagneticStorm,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature,http://www.w3.org/2004/02/skos/core#notation,extremeTemperature
+https://registry.inspire.gv.at/codelist/hazardtype/biological,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster
+https://registry.inspire.gv.at/codelist/hazardtype/heavySnowfall,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/precipitation
+https://registry.inspire.gv.at/codelist/hazardtype/frostFreeze,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeated,http://www.w3.org/2004/02/skos/core#notation,mediumSeated
+https://registry.inspire.gv.at/codelist/hazardtype/coastalErosion,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/expansiveSoil,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/deepSeated,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/tsunami,http://www.w3.org/2004/02/skos/core#definition,"A series of waves, with long wavelengths when traveling across the deep ocean, that are generated by a displacement of massive amounts of water through under water-earthquakes, volcanic eruptions or landslides. Tsunami waves travel at very high speed across the ocean but as they begi n to reach shallow water they slo w down and the wave grows steeper."
+https://registry.inspire.gv.at/codelist/hazardtype/fungalDisease,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedTiltingAndDrifting,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/blindtromben,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/extraTerrestrial,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/fog,http://www.w3.org/2004/02/skos/core#definition,Wat er droplets that ar e suspended in the ai r near the Earthâs surface. Fog is simply a cloud that is in contact with the ground.
+https://registry.inspire.gv.at/codelist/hazardtype/flashFlood,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/liquefaction,http://www.w3.org/2004/02/skos/core#prefLabel,liquefaction
+https://registry.inspire.gv.at/codelist/hazardtype/massMovement,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/coastalErosion
+https://registry.inspire.gv.at/codelist/hazardtype/climatological,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/glacialLakeOutburst
+https://registry.inspire.gv.at/codelist/hazardtype/deepTiltingAndDrifting,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/hail,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/deepSeated,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/riverineFlood,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/flood
+https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects,http://www.w3.org/2004/02/skos/core#prefLabel,near earth objects
+https://registry.inspire.gv.at/codelist/hazardtype/continuousRain,http://www.w3.org/2004/02/skos/core#prefLabel,continuous rain
+https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/hydrological
+https://registry.inspire.gv.at/codelist/hazardtype/energeticParticles,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/groundMovement,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/disease,http://www.w3.org/2004/02/skos/core#prefLabel,disease
+https://registry.inspire.gv.at/codelist/hazardtype/deepSeated,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation
+https://registry.inspire.gv.at/codelist/hazardtype/geomagneticStorm,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/magneticDisruption
+https://registry.inspire.gv.at/codelist/hazardtype/rogueWave,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/geophysical,http://www.w3.org/2004/02/skos/core#prefLabel,geophysical
+https://registry.inspire.gv.at/codelist/hazardtype,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/frostFreeze,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects,http://www.w3.org/2004/02/skos/core#definition,"According to the Action Team on Near-Earth Objects established by the Committee on the Peaceful Uses of Outer Space , a near-Earth object (NEO) is an asteroid or comet whose trajectory brings it within 1.3 astronomical units of the Sun and hence within 0.3 astronomical units, or approximately 45 million kilometres, of the Earthâs orbit. This includes objects that will come close to the Earth at some point in their future orbital evolution. NEOs generally result from objects that have experienced gravitational perturbations from nearby planets, moving them into orbits that allow them to come near to the Earth. A near-Earth asteroid is said to be a potentially hazardous asteroid when its orbit comes within 0.05 astronomical units of the Earthâs orbit and it has a measured absolute magnitude H<22 mag (an estimated diameter greater than 140 meters)."
+https://registry.inspire.gv.at/codelist/hazardtype/expansiveSoil,http://www.w3.org/2004/02/skos/core#definition,"Earthen material, particularly clays that, upon wetting, freezing, or drying will alternately expand or contract causing damage to foundations of buildings and other structures. Shrinkage is generally referred to as desiccation."
+https://registry.inspire.gv.at/codelist/hazardtype/sinkhole,http://www.w3.org/2004/02/skos/core#definition,"Subsidence refers to the sinking of the ground due to groundwater removal, mining, dissolution of limestone (e.g. karst, sinkholes), extraction of natural gas, and earthquakes. (IRDR)"
+https://registry.inspire.gv.at/codelist/hazardtype/mudFlow,http://www.w3.org/2004/02/skos/core#definition,"Shallow seated, up to 2 m depth, slow to rapid movement of water-saturated surface rocks with complex gliding and slide processes affects an area up to 10.000 square meter as well as a volume in a dominant range between 0.25 to 10 cubic meter."
+https://registry.inspire.gv.at/codelist/hazardtype/tropicalCyclone,http://www.w3.org/2004/02/skos/core#definition,"tropical cyclone originates over tropical or subtropical waters . It is characteri sed by a war m-core, non-frontal synoptic-scale cyclone with a low pressure centre, spiral rain bands and strong winds. Depending on their location, tropical cyclones are referred to as hurricanes (Atlantic, Nort heast Pacific), typhoons (Nort hwest Pacific), or cyclones (South Pacific and Indian Ocean"
+https://registry.inspire.gv.at/codelist/hazardtype/severeStorm,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/collision,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/rogueWave,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/wind,http://www.w3.org/2004/02/skos/core#prefLabel,wind
+https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/geophysical
+https://registry.inspire.gv.at/codelist/hazardtype/geomagneticStorm,http://www.w3.org/2004/02/skos/core#notation,geomagneticStorm
+https://registry.inspire.gv.at/codelist/hazardtype/expansiveSoil,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/shallowSeatedGliding,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/energeticParticles,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/frostFreeze,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/magneticDisruption,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/coastalErosion,http://www.w3.org/2004/02/skos/core#definition,"The temporary or permanent loss of sediments or landmass in coastal margins due to the action of waves, winds, tides, or anthropogenic activities."
+https://registry.inspire.gv.at/codelist/hazardtype/blindtromben,http://www.w3.org/2004/02/skos/core#prefLabel,blind tromben
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedGliding,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/stormSurge,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/severeStorm,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/glacialLakeOutburst,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/fungalDisease,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/blindtromben,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/ashFall,http://www.w3.org/2004/02/skos/core#definition,Fine (less than 4 mm in diameter)unconsolidated volcanic debris blown into the atmosphere during an eruption; can remain airborne for long periods of time and travel considerable distance from the source.
+https://registry.inspire.gv.at/codelist/hazardtype/collision,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/derecho,http://www.w3.org/2004/02/skos/core#definition,a storm system that moves a long distance rapidly and brings winds which can devastate an area several miles wide.
+https://registry.inspire.gv.at/codelist/hazardtype/winterStorm,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm
+https://registry.inspire.gv.at/codelist/hazardtype/groundMovement,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/fungalDisease,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/tropicalStorm,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/flood,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/iceJamFlood
+https://registry.inspire.gv.at/codelist/hazardtype/shallowSeated,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/severeStorm,http://www.w3.org/2004/02/skos/core#notation,severeStorm
+https://registry.inspire.gv.at/codelist/hazardtype/glacialLakeOutburst,http://www.w3.org/2004/02/skos/core#definition,has to be defined
+https://registry.inspire.gv.at/codelist/hazardtype/hazardType,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/landslides,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/torrents,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/toxicOrRadioactive,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/shallowSeated,http://www.w3.org/2004/02/skos/core#notation,shallowSeated
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedTiltingAndDrifting,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/geophysical,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/wind,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/pyroclasticFlow,http://www.w3.org/2004/02/skos/core#definition,"Extremely hot gases, ash, and other mat eri als of more than 1, 000 degrees Celsius that rapidly flow down the flank of a volc ano (more than 700 km/h) during an eruption."
+https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/geophysical
+https://registry.inspire.gv.at/codelist/hazardtype/sinkhole,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/boulderFall
+https://registry.inspire.gv.at/codelist/hazardtype/wind,http://www.w3.org/2004/02/skos/core#definition,Air in motion relative to the surface of the earth.
+https://registry.inspire.gv.at/codelist/hazardtype/dustDevil,http://www.w3.org/2004/02/skos/core#notation,dustDevil
+https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation,http://www.w3.org/2004/02/skos/core#definition,"A general term for the dislodgement and downslope transport of soil and rock material under the direct application of gravitational body stresses. In contrast to other erosion processes, the debris removed by mass wasting is not carried within, on, or under another medium. The mass properties of the material being transported depend on the interaction of the soil and rock particles and on the moisture content. Mass wasting includes slow displacements, such as creep and solifluction, and rapid movements such as rockfalls, rockslides, and cohesive debris flows (Jackson, 1997, p. 392). Includes both subaerial mass-wasting processes and subaqueous mass-wasting processes."
+https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/meteorological
+https://registry.inspire.gv.at/codelist/hazardtype/torrents,http://www.w3.org/2004/02/skos/core#prefLabel,torrents
+https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity,http://www.w3.org/2004/02/skos/core#notation,volcanicActivity
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedGliding,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/expansiveSoil,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/glacialLakeOutburst,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/severeWinterConditions,http://www.w3.org/2004/02/skos/core#notation,severeWinterConditions
+https://registry.inspire.gv.at/codelist/hazardtype/LandFire,http://www.w3.org/2004/02/skos/core#definition,A type of wildfire in a non wooded area.
+https://registry.inspire.gv.at/codelist/hazardtype/lavaFlow,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/extraTerrestrial,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/stoneFall
+https://registry.inspire.gv.at/codelist/hazardtype/geophysical,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeated,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/fungalDisease,http://www.w3.org/2004/02/skos/core#notation,fungalDisease
+https://registry.inspire.gv.at/codelist/hazardtype/extraTropicalStorm,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/disease,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/viralDisease
+https://registry.inspire.gv.at/codelist/hazardtype/tropicalCyclone,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/severeWinterConditions,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature
+https://registry.inspire.gv.at/codelist/hazardtype/spaceWeather,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/magneticDisruption
+https://registry.inspire.gv.at/codelist/hazardtype/extraTropicalStorm,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm
+https://registry.inspire.gv.at/codelist/hazardtype/meteorological,http://www.w3.org/2004/02/skos/core#notation,meteorological
+https://registry.inspire.gv.at/codelist/hazardtype/solarAndCosmicRadiation,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/precipitation,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/hazardType,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/ashFall,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/fireFollowingEarthquake,http://www.w3.org/2004/02/skos/core#definition,"Urban fires triggered by earthquakes. Particularly susceptible areasinclude densely spaced, wooden buildings that dominate local architecture, and where the ear thquake has damaged or ruptured wat er and gas pipelines. Small local fires have the potential to merge into conflagrations destroying many city blocks."
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedTiltingAndDrifting,http://www.w3.org/2004/02/skos/core#prefLabel,medium seated tilting and drifting
+https://registry.inspire.gv.at/codelist/hazardtype,http://purl.org/dc/terms/description,An additional classification of the natural hazard.
+https://registry.inspire.gv.at/codelist/hazardtype/coastalErosion,http://www.w3.org/2004/02/skos/core#prefLabel,coastal erosion
+https://registry.inspire.gv.at/codelist/hazardtype/radioDisturbance,http://www.w3.org/2004/02/skos/core#notation,radioDisturbance
+https://registry.inspire.gv.at/codelist/hazardtype/massMovement,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/expansiveSoil
+https://registry.inspire.gv.at/codelist/hazardtype/biological,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/animalIncident
+https://registry.inspire.gv.at/codelist/hazardtype/glacialLakeOutburst,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/shockwave,http://www.w3.org/2004/02/skos/core#notation,shockwave
+https://registry.inspire.gv.at/codelist/hazardtype/winterStorm,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/hydrological,http://www.w3.org/2004/02/skos/core#definition,"A hazard caused by the occurrence, movement, and distribution of surface and subsurface freshwater and saltwater."
+https://registry.inspire.gv.at/codelist/hazardtype/blindtromben,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/snowAvalanche,http://www.w3.org/2004/02/skos/core#notation,snowAvalanche
+https://registry.inspire.gv.at/codelist/hazardtype/continuousRain,http://www.w3.org/2004/02/skos/core#notation,continuousRain
+https://registry.inspire.gv.at/codelist/hazardtype/tornado,http://www.w3.org/2004/02/skos/core#definition,"A rotating column of air, in contact with the surface, pendant from a cumuliform cloud, and often visible as a funnel cloud and/or circulating debris/dust at the ground."
+https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/subsidence,http://www.w3.org/2004/02/skos/core#definition,"Subsidence refers to the sinking of the ground due to groundwater removal, mining, dissolution of limestone (e.g. karst, sinkholes), extraction of natural gas, and earthquakes. (IRDR)"
+https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedGliding,http://www.w3.org/2004/02/skos/core#notation,mediumSeatedGliding
+https://registry.inspire.gv.at/codelist/hazardtype/shockwave,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects
+https://registry.inspire.gv.at/codelist/hazardtype/precipitation,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/continuousRain
+https://registry.inspire.gv.at/codelist/hazardtype/meteorological,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/tropicalCyclone
+https://registry.inspire.gv.at/codelist/hazardtype/extraTropicalStorm,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/glacialLakeOutburst,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/biological,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/winterStorm,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/hazardType,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/hazardType,http://www.w3.org/2004/02/skos/core#notation,hazardType
+https://registry.inspire.gv.at/codelist/hazardtype/shallowSeatedGliding,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/shallowSeated
+https://registry.inspire.gv.at/codelist/hazardtype/toxicOrRadioactive,http://www.w3.org/2004/02/skos/core#prefLabel,toxicOrRadioactive
+https://registry.inspire.gv.at/codelist/hazardtype/flashFlood,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/collision,http://www.w3.org/2004/02/skos/core#definition,has to be defined
+https://registry.inspire.gv.at/codelist/hazardtype/subsidence,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/glacialLakeOutburst,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/climatological
+https://registry.inspire.gv.at/codelist/hazardtype/heatWave,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/LandFire,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/solarAndCosmicRadiation,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/ashFall,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/hydrological,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/flood
+https://registry.inspire.gv.at/codelist/hazardtype/flood,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/riverineFlood
+https://registry.inspire.gv.at/codelist/hazardtype/massMovement,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/liquefaction
+https://registry.inspire.gv.at/codelist/hazardtype/subsidence,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/spaceWeather,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/thunderstorm,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/disease,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/parasiticDisease
+https://registry.inspire.gv.at/codelist/hazardtype/flashFlood,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/blindtromben,http://www.w3.org/2004/02/skos/core#definition,"In meteorology, a cloud column or inverted cloud cone, pendant from a cloud base. This supplementary feature occurs mostly with cumulus and cumulonimbus, when it reaches the earth's surface it constitutes the cloudy manifestation of an intense vortex, namely, a tornado or waterspout."
+https://registry.inspire.gv.at/codelist/hazardtype/wildFire,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/landslides,http://www.w3.org/2004/02/skos/core#definition,"landslides, rock slide or avalanches"
+https://registry.inspire.gv.at/codelist/hazardtype/massMovement,http://www.w3.org/2004/02/skos/core#prefLabel,mass movement
+https://registry.inspire.gv.at/codelist/hazardtype/magneticDisruption,http://www.w3.org/2004/02/skos/core#prefLabel,magnetic disruption
+https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/frostFreeze,http://www.w3.org/2004/02/skos/core#prefLabel,frostFreeze
+https://registry.inspire.gv.at/codelist/hazardtype/massMovement,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/stoneFall,http://www.w3.org/2004/02/skos/core#definition,Processes of downhill slope movements of little rock fragments related to different types of ground failure.
+https://registry.inspire.gv.at/codelist/hazardtype/landslides,http://www.w3.org/2004/02/skos/core#prefLabel,landslides
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeated,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/LandFire,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/extraTropicalStorm,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/flashFlood,http://www.w3.org/2004/02/skos/core#prefLabel,Flash Flood
+https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/biological,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/iceJamFlood,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/extraTerrestrial,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeated,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/groundMovement,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/heavyRain,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/precipitation
+https://registry.inspire.gv.at/codelist/hazardtype/derecho,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/shallowSeated,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/insectInfestation,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeated,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation
+https://registry.inspire.gv.at/codelist/hazardtype/airburst,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/climatological,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster
+https://registry.inspire.gv.at/codelist/hazardtype/derecho,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm
+https://registry.inspire.gv.at/codelist/hazardtype/solarAndCosmicRadiation,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/energeticParticles,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/solarAndCosmicRadiation
+https://registry.inspire.gv.at/codelist/hazardtype/landslideEarthQuake,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/stormSurge,http://www.w3.org/2004/02/skos/core#definition,An abnormal rise in sea level generated by a tropical cyclone or other intense storms.
+https://registry.inspire.gv.at/codelist/hazardtype/massMovement,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedGliding,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedTiltingAndDrifting,http://www.w3.org/2004/02/skos/core#definition,"Medium seated, from 2 m up to 50 m in depth, slow or moderate motion slope deformation of bed- or surface rocks with rotational gliding and drifting processes affects an area bigger than 10 square meter up to 1 square kilometer as well as a volume in a range between 10 to 10.000 cubic meter."
+https://registry.inspire.gv.at/codelist/hazardtype/lahar,http://www.w3.org/2004/02/skos/core#definition,Hot or cold mixture of earthen mat eri al flowing on the slo pe of a volcano either during or between volc anic eruptions.
+https://registry.inspire.gv.at/codelist/hazardtype/lavaFlow,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/heavySnowfall,http://www.w3.org/2004/02/skos/core#notation,heavySnowfall
+https://registry.inspire.gv.at/codelist/hazardtype/toxicOrRadioactive,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/tornado,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm
+https://registry.inspire.gv.at/codelist/hazardtype/snowAvalanche,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/massMovement
+https://registry.inspire.gv.at/codelist/hazardtype/biological,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/parasiticDisease,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/heavyRain,http://www.w3.org/2004/02/skos/core#prefLabel,heavy rain
+https://registry.inspire.gv.at/codelist/hazardtype/derecho,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/derecho,http://www.w3.org/2004/02/skos/core#prefLabel,derecho
+https://registry.inspire.gv.at/codelist/hazardtype/ashFall,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/precipitation,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/heavyRain
+https://registry.inspire.gv.at/codelist/hazardtype/shockwave,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/gustnado,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/wind
+https://registry.inspire.gv.at/codelist/hazardtype/wildFire,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/liquefaction,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/expansiveSoil,http://www.w3.org/2004/02/skos/core#notation,expansiveSoil
+https://registry.inspire.gv.at/codelist/hazardtype/boulderFall,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype,http://www.w3.org/2004/02/skos/core#scopeNote,"INSPIRE extensibility: open, internal by value"
+https://registry.inspire.gv.at/codelist/hazardtype/meteorological,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature
+https://registry.inspire.gv.at/codelist/hazardtype/frostFreeze,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature
+https://registry.inspire.gv.at/codelist/hazardtype/disease,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/fungalDisease
+https://registry.inspire.gv.at/codelist/hazardtype/shockwave,http://www.w3.org/2004/02/skos/core#definition,"A shockwave carries energy from a disturbance through a mediu (solid, liquid, gas) similar to a wave though it travels at much higher speed. It can be a type of extraterrestrial hazard caused by the explosion (airburst) or impact of meteorites that generate energy shockwaves capable of shattering glass, collapsing walls, etc."
+https://registry.inspire.gv.at/codelist/hazardtype/iceJamFlood,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/solarAndCosmicRadiation,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/stormSurge
+https://registry.inspire.gv.at/codelist/hazardtype/meteoriteImpact,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/hail,http://www.w3.org/2004/02/skos/core#definition,ice pellets or small hail (less than 5mm diameter in the Range with 20mm or more.
+https://registry.inspire.gv.at/codelist/hazardtype/wildFire,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/forestFire
+https://registry.inspire.gv.at/codelist/hazardtype/tropicalCyclone,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/wildFire,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/earthquake,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/airburst,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/fog,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/LandFire,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/wildFire
+https://registry.inspire.gv.at/codelist/hazardtype/wind,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/dustDevil
+https://registry.inspire.gv.at/codelist/hazardtype/landslideEarthQuake,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/wildFire,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/climatological
+https://registry.inspire.gv.at/codelist/hazardtype/coldWave,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/heavyRain,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/derecho,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/rockFall,http://www.w3.org/2004/02/skos/core#definition,"Rockfall is the primary formational process, occurring either through the release of individual blocks or through larger-scale rockwall collapse, and exerts first-order control over the morphologic development of alpine hillslopes (Ballantyne and Harris, 1994, p. From: Treatise on Geomorphology, 2013."
+https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/shallowSeated
+https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/lavaFlow
+https://registry.inspire.gv.at/codelist/hazardtype/hydrological,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster
+https://registry.inspire.gv.at/codelist/hazardtype/severeWinterConditions,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/tornado,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/prionDisease,http://www.w3.org/2004/02/skos/core#notation,prionDisease
+https://registry.inspire.gv.at/codelist/hazardtype/geophysical,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/massMovement
+https://registry.inspire.gv.at/codelist/hazardtype/extraTerrestrial,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/spaceWeather
+https://registry.inspire.gv.at/codelist/hazardtype/parasiticDisease,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/deepTiltingAndDrifting,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster,http://www.w3.org/2004/02/skos/core#prefLabel,Natural Disaster
+https://registry.inspire.gv.at/codelist/hazardtype/liquefaction,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/ashFall,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/derecho,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/tropicalCyclone,http://www.w3.org/2004/02/skos/core#definition,"tropical cyclone originates over tropical or subtropical waters . It is characterised by a warm-core, non-frontal synoptic-scale cyclone with a low pressure centre, spiral rain bands and strong winds. Depending on their location, tropical cyclones are referred to as hurricanes (Atlantic, Nort heast Pacific), typhoons (Nort hwest Pacific), or cyclones (South Pacific and Indian Ocean"
+https://registry.inspire.gv.at/codelist/hazardtype/heatWave,http://www.w3.org/2004/02/skos/core#notation,heatWave
+https://registry.inspire.gv.at/codelist/hazardtype/coastalFlood,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/massMovement,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/sinkhole
+https://registry.inspire.gv.at/codelist/hazardtype/epidemic,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/lavaFlow,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity
+https://registry.inspire.gv.at/codelist/hazardtype/allergens,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/tornado,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/seiche,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/flood
+https://registry.inspire.gv.at/codelist/hazardtype/airburst,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/landslideEarthQuake,http://www.w3.org/2004/02/skos/core#definition,"Independent of the presence of water, mass movement may also be triggered by earthquakes."
+https://registry.inspire.gv.at/codelist/hazardtype/winterStorm,http://www.w3.org/2004/02/skos/core#prefLabel,winter storm
+https://registry.inspire.gv.at/codelist/hazardtype/landslideEarthQuake,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/bacterialDisease,http://www.w3.org/2004/02/skos/core#notation,bacterialDisease
+https://registry.inspire.gv.at/codelist/hazardtype/climatological,http://www.w3.org/2004/02/skos/core#notation,climatological
+https://registry.inspire.gv.at/codelist/hazardtype/fungalDisease,http://www.w3.org/2004/02/skos/core#definition,"Exposure to fungi either through skin contact, ingestion or inhalation of spores resulting in an unusual increase in the number of incidents. Examples are fungal pneumonia, fungal meningitis, etc."
+https://registry.inspire.gv.at/codelist/hazardtype/biological,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeated,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedTiltingAndDrifting
+https://registry.inspire.gv.at/codelist/hazardtype/liquefaction,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/lavaFlow,http://www.w3.org/2004/02/skos/core#definition,The ejected magma that moves as a li qui d mass downslo pe from a volcano during an eruption.
+https://registry.inspire.gv.at/codelist/hazardtype/coastalErosion,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/deepGliding,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/deepSeated
+https://registry.inspire.gv.at/codelist/hazardtype/wind,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/gustnado
+https://registry.inspire.gv.at/codelist/hazardtype/pyroclasticFlow,http://www.w3.org/2004/02/skos/core#prefLabel,pyroclastic flow
+https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/severeStorm
+https://registry.inspire.gv.at/codelist/hazardtype/bacterialDisease,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/viralDisease,http://www.w3.org/2004/02/skos/core#prefLabel,viral disease
+https://registry.inspire.gv.at/codelist/hazardtype/toxicOrRadioactive,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/geophysical
+https://registry.inspire.gv.at/codelist/hazardtype/parasiticDisease,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/flashFlood,http://www.w3.org/2004/02/skos/core#notation,flashFlood
+https://registry.inspire.gv.at/codelist/hazardtype/groundMovement,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/epidemic,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/airburst,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/continuousRain,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/earthquake,http://www.w3.org/2004/02/skos/core#prefLabel,earthquake
+https://registry.inspire.gv.at/codelist/hazardtype/allergens,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/debrisFlow,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/massMovement
+https://registry.inspire.gv.at/codelist/hazardtype/landslideEarthQuake,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/iceJamFlood,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/coldWave,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/groundMovement,http://www.w3.org/2004/02/skos/core#definition,Surface di splacement of earthen mat eri als due to ground shaking tri ggered by earthquakes or volc anic eruptions.
+https://registry.inspire.gv.at/codelist/hazardtype/dustDevil,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/wind
+https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/extraTropicalStorm
+https://registry.inspire.gv.at/codelist/hazardtype/groundMovement,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/magneticDisruption,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/geomagneticStorm
+https://registry.inspire.gv.at/codelist/hazardtype/shallowSeated,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/subsidence,http://www.w3.org/2004/02/skos/core#notation,subsidence
+https://registry.inspire.gv.at/codelist/hazardtype/airburst,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/flood,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/liquefaction,http://www.w3.org/2004/02/skos/core#definition,The transformat ion of partially water-saturat ed soil from a solid state to a liquid state caused by an earthquake. Liquefaction reduces the strength and stiffness of soil causing buildings to topple over.
+https://registry.inspire.gv.at/codelist/hazardtype/landslideEarthQuake,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/heatWave
+https://registry.inspire.gv.at/codelist/hazardtype/riverineFlood,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/dustDevil,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/shallowSeatedGliding,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/pyroclasticFlow,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity
+https://registry.inspire.gv.at/codelist/hazardtype/lavaFlow,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/insectInfestation,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/rockFall,http://www.w3.org/2004/02/skos/core#definition,"Rockfall is the primary formational process, occurring either through the release of individual blocks or through larger-scale rockwall collapse, and exerts first-order control over the morphologic development of alpine hillslopes (Ballantyne and Harris, 1994, p. From: Treatise on Geomorphology, 2013"
+https://registry.inspire.gv.at/codelist/hazardtype/disease,http://www.w3.org/2004/02/skos/core#definition,"Either an unusual, often sudden, increase in the number of incidents of an infectious disease that already existed in the region (e.g., flu, E.coli) or the appearance of an infectious disease previously absent from the region, e.g., plague, polio."
+https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/wildFire,http://www.w3.org/2004/02/skos/core#definition,"Any uncontrolled and non-prescri bed combustion or burning of plants in a nat ural setting such as a forest, grassland, brush la nd or tundra, which consumes the nat ural fuels and spreadsbased on envi ronmental condi tions (e.g. , wind, topography) . Wildfires can be tri ggered by li ghtning or human actions."
+https://registry.inspire.gv.at/codelist/hazardtype/magneticDisruption,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/shockwave,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/radioDisturbance,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/allergens,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/heatWave,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature
+https://registry.inspire.gv.at/codelist/hazardtype/forestFire,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/seiche,http://www.w3.org/2004/02/skos/core#notation,seiche
+https://registry.inspire.gv.at/codelist/hazardtype/climatological,http://www.w3.org/2004/02/skos/core#definition,has to be defined
+https://registry.inspire.gv.at/codelist/hazardtype/groundMovement,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/earthquake
+https://registry.inspire.gv.at/codelist/hazardtype/boulderFall,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/seiche,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/lavaFlow,http://www.w3.org/2004/02/skos/core#prefLabel,lava flow
+https://registry.inspire.gv.at/codelist/hazardtype,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/hazardtype/hazardType
+https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedGliding,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/rockFall,http://www.w3.org/2004/02/skos/core#notation,rockFall
+https://registry.inspire.gv.at/codelist/hazardtype/magneticDisruption,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/fog,http://www.w3.org/2004/02/skos/core#definition,has to be defined
+https://registry.inspire.gv.at/codelist/hazardtype/parasiticDisease,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/climatological,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/drought
+https://registry.inspire.gv.at/codelist/hazardtype/extraTropicalStorm,http://www.w3.org/2004/02/skos/core#definition,A cyclone of tropicla latidutes and depression when wind on the Beaufourt Scale are up to and in clouding force of 7.
+https://registry.inspire.gv.at/codelist/hazardtype/continuousRain,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/coastalFlood,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/flood
+https://registry.inspire.gv.at/codelist/hazardtype/flashFlood,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/flood
+https://registry.inspire.gv.at/codelist/hazardtype/lavaFlow,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/groundMovement,http://www.w3.org/2004/02/skos/core#notation,groundMovement
+https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/drought,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/landslideEarthQuake,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/earthquake
+https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/meteorological
+https://registry.inspire.gv.at/codelist/hazardtype/spaceWeather,http://www.w3.org/2004/02/skos/core#notation,spaceWeather
+https://registry.inspire.gv.at/codelist/hazardtype/ashFall,http://www.w3.org/2004/02/skos/core#notation,ashFall
+https://registry.inspire.gv.at/codelist/hazardtype/allergens,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/collision,http://www.w3.org/2004/02/skos/core#notation,collision
+https://registry.inspire.gv.at/codelist/hazardtype/continuousRain,http://www.w3.org/2004/02/skos/core#definition,has to be defined
+https://registry.inspire.gv.at/codelist/hazardtype/landslides,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/severeWinterConditions,http://www.w3.org/2004/02/skos/core#definition,has to be defined
+https://registry.inspire.gv.at/codelist/hazardtype/wind,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/coastalErosion,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/massMovement,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/debrisFlow
+https://registry.inspire.gv.at/codelist/hazardtype/stoneFall,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/debrisFlow,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/severeWinterConditions
+https://registry.inspire.gv.at/codelist/hazardtype/solarAndCosmicRadiation,http://www.w3.org/2004/02/skos/core#definition,"Radiation from outer space (UV, gamma ray, etc)."
+https://registry.inspire.gv.at/codelist/hazardtype/riverineFlood,http://www.w3.org/2004/02/skos/core#definition,A type of flooding resulting from the overflow of water from a stream or river channel onto normally dry land in the floodplain adjacent to the channel.
+https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/climatological
+https://registry.inspire.gv.at/codelist/hazardtype/parasiticDisease,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/disease
+https://registry.inspire.gv.at/codelist/hazardtype/spaceWeather,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/extraTerrestrial
+https://registry.inspire.gv.at/codelist/hazardtype/coastalErosion,http://www.w3.org/2004/02/skos/core#notation,coastalErosion
+https://registry.inspire.gv.at/codelist/hazardtype/forestFire,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/deepSeated,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/deepTiltingAndDrifting
+https://registry.inspire.gv.at/codelist/hazardtype/solarAndCosmicRadiation,http://www.w3.org/2004/02/skos/core#notation,solarAndCosmicRadiation
+https://registry.inspire.gv.at/codelist/hazardtype/seiche,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm,http://www.w3.org/2004/02/skos/core#notation,convectiveStorm
+https://registry.inspire.gv.at/codelist/hazardtype/massMovement,http://www.w3.org/2004/02/skos/core#notation,massMovement
+https://registry.inspire.gv.at/codelist/hazardtype/debrisFlow,http://www.w3.org/2004/02/skos/core#definition,has to be defined
+https://registry.inspire.gv.at/codelist/hazardtype/epidemic,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/insectInfestation,http://www.w3.org/2004/02/skos/core#prefLabel,insect infestation
+https://registry.inspire.gv.at/codelist/hazardtype/allergens,http://www.w3.org/2004/02/skos/core#definition,Biological products or substances (such as pollen) that might cause allergy over a large number of people.
+https://registry.inspire.gv.at/codelist/hazardtype/biological,http://www.w3.org/2004/02/skos/core#prefLabel,biological
+https://registry.inspire.gv.at/codelist/hazardtype/coastalFlood,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/rockFall
+https://registry.inspire.gv.at/codelist/hazardtype/heavySnowfall,http://www.w3.org/2004/02/skos/core#definition,has to be defined
+https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/toxicOrRadioactive,http://www.w3.org/2004/02/skos/core#definition,Processes related to the nature of substances that might pose a threat to human health.
+https://registry.inspire.gv.at/codelist/hazardtype/riverineFlood,http://www.w3.org/2004/02/skos/core#notation,riverineFlood
+https://registry.inspire.gv.at/codelist/hazardtype/precipitation,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/disease,http://www.w3.org/2004/02/skos/core#definition,"Either an unusual, often sudden, increase in the number of incidents of an infectious disease that already existed in the region (e.g., flu, E.coli) or the appearance of an infectious disease previously absent from the region (e.g., plague, polio)."
+https://registry.inspire.gv.at/codelist/hazardtype/drought,http://www.w3.org/2004/02/skos/core#notation,drought
+https://registry.inspire.gv.at/codelist/hazardtype/wind,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/blindtromben
+https://registry.inspire.gv.at/codelist/hazardtype/pyroclasticFlow,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/mediumSeated
+https://registry.inspire.gv.at/codelist/hazardtype/extraTerrestrial,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects
+https://registry.inspire.gv.at/codelist/hazardtype/shallowSeatedGliding,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/massMovement,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/debrisFlow,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/boulderFall,http://www.w3.org/2004/02/skos/core#notation,boulderFall
+https://registry.inspire.gv.at/codelist/hazardtype/flashFlood,http://www.w3.org/2004/02/skos/core#definition,"Heavy or excessive rainfall in a short period of time that produce immediate runoff, creating flooding conditions within minutes or a few hours during or after the rainfall."
+https://registry.inspire.gv.at/codelist/hazardtype/precipitation,http://www.w3.org/2004/02/skos/core#definition,All liquid or solid phase aqueous particles that originate in the atmosphere and fall to the earth's surface.
+https://registry.inspire.gv.at/codelist/hazardtype/fireFollowingEarthquake,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/meteoriteImpact,http://www.w3.org/2004/02/skos/core#definition,Solid materials from outer space reaching the Earth.
+https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/thunderstorm
+https://registry.inspire.gv.at/codelist/hazardtype/fog,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/energeticParticles,http://www.w3.org/2004/02/skos/core#prefLabel,Energetic Particles
+https://registry.inspire.gv.at/codelist/hazardtype/deepGliding,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/coldWave,http://www.w3.org/2004/02/skos/core#notation,coldWave
+https://registry.inspire.gv.at/codelist/hazardtype/deepGliding,http://www.w3.org/2004/02/skos/core#notation,deepGliding
+https://registry.inspire.gv.at/codelist/hazardtype/pyroclasticFlow,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/snowAvalanche,http://www.w3.org/2004/02/skos/core#prefLabel,snow avalanche
+https://registry.inspire.gv.at/codelist/hazardtype/lahar,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/coldWave
+https://registry.inspire.gv.at/codelist/hazardtype/tsunami,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/earthquake,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/groundMovement
+https://registry.inspire.gv.at/codelist/hazardtype/hazardType,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster
+https://registry.inspire.gv.at/codelist/hazardtype/forestFire,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/severeWinterConditions,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/epidemic,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/bacterialDisease,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/stoneFall,http://www.w3.org/2004/02/skos/core#prefLabel,stone fall
+https://registry.inspire.gv.at/codelist/hazardtype/prionDisease,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/meteorological,http://www.w3.org/2004/02/skos/core#prefLabel,meteorological
+https://registry.inspire.gv.at/codelist/hazardtype/meteoriteImpact,http://www.w3.org/2004/02/skos/core#notation,meteoriteImpact
+https://registry.inspire.gv.at/codelist/hazardtype/sinkhole,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/massMovement
+https://registry.inspire.gv.at/codelist/hazardtype/geomagneticStorm,http://www.w3.org/2004/02/skos/core#definition,"A type of extraterrestrial hazard caused by solar wind shockwaves that temporarily disturb the Earthâs magnetosphere. Geomagnetic storms can disrupt power grids, spacecraft operations, and satellite communications."
+https://registry.inspire.gv.at/codelist/hazardtype/viralDisease,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/disease
+https://registry.inspire.gv.at/codelist/hazardtype/geomagneticStorm,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/thunderstorm,http://www.w3.org/2004/02/skos/core#notation,thunderstorm
+https://registry.inspire.gv.at/codelist/hazardtype/pyroclasticFlow,http://www.w3.org/2004/02/skos/core#definition,"Extremely hot gases, ash, and other materials of more than 1.000 degrees Celsius that rapidly flow down the flank of a volcano (more than 700 km/h) during an eruption."
+https://registry.inspire.gv.at/codelist/hazardtype/seiche,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/thunderstorm,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/spaceWeather,http://www.w3.org/2004/02/skos/core#prefLabel,space weather
+https://registry.inspire.gv.at/codelist/hazardtype/geophysical,http://www.w3.org/2004/02/skos/core#definition,A hazard originating from solid earth. This term is used interchangeably with the term geological hazard.
+https://registry.inspire.gv.at/codelist/hazardtype/fireFollowingEarthquake,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/thunderstorm,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm
+https://registry.inspire.gv.at/codelist/hazardtype/tropicalStorm,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/shallowSeated,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/mudFlow
+https://registry.inspire.gv.at/codelist/hazardtype/disease,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/bacterialDisease
+https://registry.inspire.gv.at/codelist/hazardtype/tropicalStorm,http://www.w3.org/2004/02/skos/core#definition,A cyclone of tropical latidutes and depression when wind on the Beaufourt Scale are up to and in clouding force of 7.
+https://registry.inspire.gv.at/codelist/hazardtype/stoneFall,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/tropicalCyclone,http://www.w3.org/2004/02/skos/core#notation,tropicalCyclone
+https://registry.inspire.gv.at/codelist/hazardtype/dustDevil,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/deepSeated,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/deepGliding,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/bacterialDisease,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/disease
+https://registry.inspire.gv.at/codelist/hazardtype/allergens,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/biological
+https://registry.inspire.gv.at/codelist/hazardtype/energeticParticles,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/disease,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/epidemic
+https://registry.inspire.gv.at/codelist/hazardtype/seiche,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/biological
+https://registry.inspire.gv.at/codelist/hazardtype/epidemic,http://www.w3.org/2004/02/skos/core#definition,An outbreak of a disease that spreads rapidly among individuals in an area or population.
+https://registry.inspire.gv.at/codelist/hazardtype/landslides,http://www.w3.org/2004/02/skos/core#notation,landslides
+https://registry.inspire.gv.at/codelist/hazardtype/fog,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/hazardtype/precipitation
+https://registry.inspire.gv.at/codelist/hazardtype/deepSeated,http://www.w3.org/2004/02/skos/core#definition,has to be defined
+https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity,http://www.w3.org/2004/02/skos/core#prefLabel,volcanic activity
+https://registry.inspire.gv.at/codelist/hazardtype/deepSeated,http://www.w3.org/2004/02/skos/core#prefLabel,deep seated slope deformation
+https://registry.inspire.gv.at/codelist/hazardtype/precipitation,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/continuousRain,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/collision,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/rogueWave,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/animalIncident,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/hydrological,http://www.w3.org/2004/02/skos/core#prefLabel,hydrological
+https://registry.inspire.gv.at/codelist/hazardtype/lahar,http://www.w3.org/2004/02/skos/core#notation,lahar
+https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/hazardtype/geomagneticStorm,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/meteorological,http://www.w3.org/2004/02/skos/core#definition,"A hazard caused by short-lived, micro- to meso-scale extreme weather and atmospheric conditions that last from minutes to days."
+https://registry.inspire.gv.at/codelist/hazardtype/fireFollowingEarthquake,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/deepTiltingAndDrifting,http://www.w3.org/2004/02/skos/core#definition,"Deep seated, with more than 50 m in depth, slow motion slope deformation of bedrocks with rotational gliding and drifting processes affects an area bigger than 1 Square kilometer as well a volume greater than 1 cubic kilometer."
+https://registry.inspire.gv.at/codelist/hazardtype/tsunami,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/thunderstorm,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/tropicalStorm,http://www.w3.org/2004/02/skos/core#notation,tropicalStorm
+https://registry.inspire.gv.at/codelist/hazardtype/precipitation,http://www.w3.org/2004/02/skos/core#notation,precipitation
+https://registry.inspire.gv.at/codelist/hazardtype/boulderFall,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/biological,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/epidemic
+https://registry.inspire.gv.at/codelist/hazardtype/dustDevil,http://www.w3.org/2004/02/skos/core#definition,"Dust devils are occasionally strong enough to cause minor damage (up to EF0 on the Enhanced Fujita scale). Diameters range from about 3 m to greater than 30 m; their average height is about 200 m, but a few have been observed as high as 1 km or more. They have been observed to rotate anticyclonically as well as cyclonically. Although the vertical velocity is predominantly upward, the flow along the axis of large dust devils may be downward. Large dust devils may also contain secondary vortices. Dust devils are best developed on a hot, calm afternoon with clear skies, in a dry region when intense surface heating causes a very steep lapse rate of temperature in the lowest 100 m of the atmosphere. Related to Sand/dust storm (EM-Dat)"
+https://registry.inspire.gv.at/codelist/hazardtype/radioDisturbance,http://www.w3.org/2004/02/skos/core#prefLabel,Radio Disturbance
+https://registry.inspire.gv.at/codelist/hazardtype/sinkhole,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/heavyRain,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/stormSurge,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz
+https://registry.inspire.gv.at/codelist/hazardtype/meteorological,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/insectInfestation,http://www.w3.org/2004/02/skos/core#notation,insectInfestation
+https://registry.inspire.gv.at/codelist/hazardtype/coastalFlood,http://www.w3.org/2004/02/skos/core#definition,"Higher-than-normal water levels along the coast caused by tidal changes or thunderstorms that result in flooding, which can last from days to weeks."
+https://registry.inspire.gv.at/codelist/hazardtype/lahar,http://www.w3.org/2004/02/skos/core#definition,Hot or cold mixture of earthen material flowing on the slope of a volcano either during or between volcanic eruptions.
+https://registry.inspire.gv.at/codelist/hazardtype/energeticParticles,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/hazardtype/rockFall,http://www.w3.org/2004/02/skos/core#prefLabel,rockFall
+https://registry.inspire.gv.at/codelist/hazardtype/shockwave,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/hazardtype/fireFollowingEarthquake,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/hazardtype/solarAndCosmicRadiation,http://www.w3.org/2004/02/skos/core#prefLabel,solar and cosmic radiations
+https://registry.inspire.gv.at/codelist/hazardtype/thunderstorm,http://www.w3.org/2004/02/skos/core#prefLabel,thunderstorm
+https://registry.inspire.gv.at/codelist/hazardtype/solarAndCosmicRadiation,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/energeticParticles
+https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/collision
+https://registry.inspire.gv.at/codelist/hazardtype/biological,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/hazardtype/infestation

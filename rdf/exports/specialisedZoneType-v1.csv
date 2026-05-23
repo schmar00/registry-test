@@ -1,0 +1,53 @@
+subject,predicate,object
+https://registry.inspire.gv.at/codelist/specialisedZoneType/suitability,http://www.w3.org/2004/02/skos/core#notation,suitability
+https://registry.inspire.gv.at/codelist/specialisedZoneType/priority,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneType/priority,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneType/priority,http://www.w3.org/2004/02/skos/core#definition,"In priority zones, the erection of wind turbines with a rated output of at least 0.5 megawatts is permitted for the following projects that meet the following requirements: 1. the new construction of wind power plants must achieve a total electrical output of at least 15 MW 2. when expanding existing wind power plants, an additional total electrical output of at least 7.5 MW must be achieved; 3. in the case of other extensions of existing wind power plants, a procedure pursuant to UVP-G 2000, Federal Law Gazette I No. 80/2018, must have been carried out prior to the extension. In the course of any environmental impact assessment, suitable measures shall be taken to ensure that the function of permanently managed refuges and long-distance hiking trails is not impaired."
+https://registry.inspire.gv.at/codelist/specialisedZoneType,http://www.w3.org/2004/02/skos/core#scopeNote,"INSPIRE extensibility: open, internal by value"
+https://registry.inspire.gv.at/codelist/specialisedZoneType/priority,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/specialisedZoneType
+https://registry.inspire.gv.at/codelist/specialisedZoneType,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneType/suitability,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneType/priority,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneType/exclusion,http://www.w3.org/2004/02/skos/core#definition,In Ausschlusszonen ist die Errichtung von Windkraftanlagen unzulÃ¤ssig.
+https://registry.inspire.gv.at/codelist/specialisedZoneType,http://purl.org/dc/terms/description,"Classification defining the type of Management, Restriction or Regulation Zone."
+https://registry.inspire.gv.at/codelist/specialisedZoneType,http://purl.org/dc/terms/title,spezifischer Code des Gebietstyps Ãsterreich
+https://registry.inspire.gv.at/codelist/specialisedZoneType,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/specialisedZoneType/priority
+https://registry.inspire.gv.at/codelist/specialisedZoneType/priority,http://www.w3.org/2004/02/skos/core#prefLabel,Vorrang
+https://registry.inspire.gv.at/codelist/specialisedZoneType/exclusion,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneType/suitability,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/specialisedZoneType
+https://registry.inspire.gv.at/codelist/specialisedZoneType/exclusion,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/specialisedZoneType
+https://registry.inspire.gv.at/codelist/specialisedZoneType/suitability,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneType/exclusion,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneType/priority,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/specialisedZoneType
+https://registry.inspire.gv.at/codelist/specialisedZoneType/exclusion,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneType/priority,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneType/exclusion,http://www.w3.org/2004/02/skos/core#prefLabel,Ausschluss
+https://registry.inspire.gv.at/codelist/specialisedZoneType/suitability,http://www.w3.org/2004/02/skos/core#prefLabel,Eignung
+https://registry.inspire.gv.at/codelist/specialisedZoneType/suitability,http://www.w3.org/2004/02/skos/core#definition,"In Eignungszonen ist die Errichtung von Windkraftanlagen mit einer Nennleistung von mindestens 0,5 Megawatt zulÃ¤ssig."
+https://registry.inspire.gv.at/codelist/specialisedZoneType/priority,http://www.w3.org/2004/02/skos/core#notation,priority
+https://registry.inspire.gv.at/codelist/specialisedZoneType,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/specialisedZoneType/exclusion
+https://registry.inspire.gv.at/codelist/specialisedZoneType,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/specialisedZoneType/suitability
+https://registry.inspire.gv.at/codelist/specialisedZoneType/priority,http://www.w3.org/2004/02/skos/core#prefLabel,priority
+https://registry.inspire.gv.at/codelist/specialisedZoneType,http://purl.org/dc/terms/title,specialised Zone Type Code Austria
+https://registry.inspire.gv.at/codelist/specialisedZoneType/suitability,http://www.w3.org/2004/02/skos/core#definition,In suitability zones is the installation of wind turbines with a rated output of at least 0.5 megawatts permitted.
+https://registry.inspire.gv.at/codelist/specialisedZoneType/priority,http://www.w3.org/2004/02/skos/core#definition,"In Vorrangzonen ist die Errichtung von Windkraftanlagen mit einer Nennleistung von mindestens 0,5 Megawatt zulÃ¤ssig fÃ¼r nachstehende Projekte, die folgende Voraussetzungen erfÃ¼llen: 1. bei der Neuerrichtung von Windkraftanlagen muss eine elektrische Gesamtleistung von mindestens 15 MW erreicht werden; 2. bei der Erweiterung von bestehenden Windkraftanlagen muss eine zusÃ¤tzliche elektrische Gesamtleistung von mindestens 7,5 MW erreicht werden; 3. bei sonstigen Erweiterungen von bestehenden Windkraftanlagen muss bereits vor der Erweiterung ein Verfahren nach UVP-G 2000, BGBl. I Nr. 80/2018, durchgefÃ¼hrt worden sein. Im Zuge einer allfÃ¤lligen UmweltvertrÃ¤glichkeitsprÃ¼fung soll durch geeignete MaÃnahmen sichergestellt werden, dass dauerbewirtschaftete SchutzhÃ¼tten und Weitwanderwege in ihrer Funktion nicht beeintrÃ¤chtigt werden."
+https://registry.inspire.gv.at/codelist/specialisedZoneType/exclusion,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/specialisedZoneType
+https://registry.inspire.gv.at/codelist/specialisedZoneType/priority,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneType,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneType/suitability,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/am
+https://registry.inspire.gv.at/codelist/specialisedZoneType/exclusion,http://www.w3.org/2004/02/skos/core#definition,In exclusion zones is the erection of wind power plants not permitted.
+https://registry.inspire.gv.at/codelist/specialisedZoneType/suitability,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/specialisedZoneType
+https://registry.inspire.gv.at/codelist/specialisedZoneType,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneType,http://purl.org/dc/terms/publisher,https://registry.inspire.gv.at/dataprovider/0008
+https://registry.inspire.gv.at/codelist/specialisedZoneType,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#ConceptScheme
+https://registry.inspire.gv.at/codelist/specialisedZoneType,http://purl.org/dc/terms/type,http://inspire.ec.europa.eu/codelist/ZoneTypeCode
+https://registry.inspire.gv.at/codelist/specialisedZoneType/exclusion,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/am
+https://registry.inspire.gv.at/codelist/specialisedZoneType,http://purl.org/dc/terms/created,2026-05-05T14:30:11+00:00
+https://registry.inspire.gv.at/codelist/specialisedZoneType/suitability,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/specialisedZoneType,http://www.w3.org/2002/07/owl#versionInfo,1.0.0
+https://registry.inspire.gv.at/codelist/specialisedZoneType/exclusion,http://www.w3.org/2004/02/skos/core#prefLabel,exclusion
+https://registry.inspire.gv.at/codelist/specialisedZoneType/exclusion,http://www.w3.org/2004/02/skos/core#notation,exclusion
+https://registry.inspire.gv.at/codelist/specialisedZoneType/suitability,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/specialisedZoneType/exclusion,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/specialisedZoneType/suitability,http://www.w3.org/2004/02/skos/core#prefLabel,suitability
+https://registry.inspire.gv.at/codelist/specialisedZoneType,http://purl.org/dc/terms/description,"Klassifikation, die den Typ des Bewirtschaftungsgebiets, Schutzgebiets oder geregelten Gebiets definiert."

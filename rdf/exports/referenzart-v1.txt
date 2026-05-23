@@ -1,0 +1,102 @@
+subject|predicate|object
+https://registry.inspire.gv.at/codelist/referenzart/LSE_FL|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/referenzart/PF|http://www.w3.org/2004/02/skos/core#prefLabel|PflegeflÃ¤che
+https://registry.inspire.gv.at/codelist/referenzart/LSE_PKT|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/referenzart
+https://registry.inspire.gv.at/codelist/referenzart/HEIM|http://www.w3.org/2004/02/skos/core#prefLabel|Heimgut
+https://registry.inspire.gv.at/codelist/referenzart/FO|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/referenzart/PF|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/referenzart
+https://registry.inspire.gv.at/codelist/referenzart/FO|http://www.w3.org/2004/02/skos/core#definition|Forst
+https://registry.inspire.gv.at/codelist/referenzart|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/referenzart/HW
+https://registry.inspire.gv.at/codelist/referenzart/HW|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/referenzart/ALM|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/referenzart/LSE_FL|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/referenzart
+https://registry.inspire.gv.at/codelist/referenzart/ALM|http://www.w3.org/2004/02/skos/core#definition|Alm
+https://registry.inspire.gv.at/codelist/referenzart/PF|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/referenzart|http://purl.org/dc/terms/created|2026-05-05T14:30:11+00:00
+https://registry.inspire.gv.at/codelist/referenzart|http://www.w3.org/2002/07/owl#versionInfo|1.0.0
+https://registry.inspire.gv.at/codelist/referenzart|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#ConceptScheme
+https://registry.inspire.gv.at/codelist/referenzart/LSE_PKT|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/referenzart|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/referenzart/LSE_FL
+https://registry.inspire.gv.at/codelist/referenzart/TF|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/referenzart/PF|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/referenzart/HEIM|http://www.w3.org/2004/02/skos/core#definition|Heimgut
+https://registry.inspire.gv.at/codelist/referenzart/PF|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/referenzart
+https://registry.inspire.gv.at/codelist/referenzart/LSE_FL|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/referenzart/HW|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/referenzart/FO|http://www.w3.org/2004/02/skos/core#notation|FO
+https://registry.inspire.gv.at/codelist/referenzart|http://purl.org/dc/terms/description|Austrian extension for INVEKOS Referenzart
+https://registry.inspire.gv.at/codelist/referenzart|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/referenzart/HEIM
+https://registry.inspire.gv.at/codelist/referenzart/LSE_PKT|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/referenzart
+https://registry.inspire.gv.at/codelist/referenzart/TF|http://www.w3.org/2004/02/skos/core#definition|Teich
+https://registry.inspire.gv.at/codelist/referenzart/HW|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/referenzart|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/referenzart/TF
+https://registry.inspire.gv.at/codelist/referenzart|http://purl.org/dc/terms/title|INVEKOS Referenzart
+https://registry.inspire.gv.at/codelist/referenzart|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/referenzart/ALM
+https://registry.inspire.gv.at/codelist/referenzart/LSE_FL|http://www.w3.org/2004/02/skos/core#prefLabel|LSE Flaeche
+https://registry.inspire.gv.at/codelist/referenzart/FO|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/referenzart/ALM|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/referenzart/ALM|http://www.w3.org/2004/02/skos/core#notation|ALM
+https://registry.inspire.gv.at/codelist/referenzart/LSE_PKT|http://www.w3.org/2004/02/skos/core#notation|LSE_PKT
+https://registry.inspire.gv.at/codelist/referenzart/FO|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/referenzart
+https://registry.inspire.gv.at/codelist/referenzart/PF|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/referenzart|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/referenzart/FO
+https://registry.inspire.gv.at/codelist/referenzart/LSE_PKT|http://www.w3.org/2004/02/skos/core#definition|LSE Punkt
+https://registry.inspire.gv.at/codelist/referenzart/FO|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/referenzart|http://purl.org/dc/terms/description|Ãsterreich-Erweiterung fÃ¼r INVEKOS Referenzart
+https://registry.inspire.gv.at/codelist/referenzart/TF|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/referenzart
+https://registry.inspire.gv.at/codelist/referenzart/LSE_PKT|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/referenzart/HW|http://www.w3.org/2004/02/skos/core#definition|Hutweide
+https://registry.inspire.gv.at/codelist/referenzart/HEIM|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/referenzart/ALM|http://www.w3.org/2004/02/skos/core#prefLabel|Alm
+https://registry.inspire.gv.at/codelist/referenzart/HW|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/referenzart/HEIM|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/referenzart/TF|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/referenzart/ALM|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/referenzart/FO|http://www.w3.org/2004/02/skos/core#prefLabel|Forst
+https://registry.inspire.gv.at/codelist/referenzart/FO|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/referenzart|http://purl.org/dc/terms/title|INVEKOS Referenzart
+https://registry.inspire.gv.at/codelist/referenzart/TF|http://www.w3.org/2004/02/skos/core#notation|TF
+https://registry.inspire.gv.at/codelist/referenzart/HEIM|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/referenzart
+https://registry.inspire.gv.at/codelist/referenzart/LSE_FL|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/referenzart/LSE_PKT|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/referenzart|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/referenzart/FO|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/referenzart
+https://registry.inspire.gv.at/codelist/referenzart|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/referenzart/LSE_PKT
+https://registry.inspire.gv.at/codelist/referenzart/TF|http://www.w3.org/2004/02/skos/core#prefLabel|Teich
+https://registry.inspire.gv.at/codelist/referenzart/HEIM|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/referenzart/TF|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/referenzart/ALM|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/referenzart/PF|http://www.w3.org/2004/02/skos/core#definition|PflegeflÃ¤che
+https://registry.inspire.gv.at/codelist/referenzart|http://purl.org/dc/terms/type|https://registry.gdi-de.org/codelist/de.iacs
+https://registry.inspire.gv.at/codelist/referenzart/HW|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/referenzart
+https://registry.inspire.gv.at/codelist/referenzart|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/referenzart|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE extensibility: open, internal by value
+https://registry.inspire.gv.at/codelist/referenzart/LSE_FL|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/referenzart/ALM|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/referenzart
+https://registry.inspire.gv.at/codelist/referenzart|http://purl.org/dc/terms/publisher|https://registry.inspire.gv.at/dataprovider/0095
+https://registry.inspire.gv.at/codelist/referenzart/LSE_PKT|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/referenzart/TF|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/referenzart
+https://registry.inspire.gv.at/codelist/referenzart/PF|http://www.w3.org/2004/02/skos/core#notation|PF
+https://registry.inspire.gv.at/codelist/referenzart/FO|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/referenzart/PF|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/referenzart/HEIM|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/referenzart/HEIM|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/referenzart/LSE_PKT|http://www.w3.org/2004/02/skos/core#prefLabel|LSE Punkt
+https://registry.inspire.gv.at/codelist/referenzart/ALM|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/referenzart/LSE_FL|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/referenzart
+https://registry.inspire.gv.at/codelist/referenzart/HEIM|http://www.w3.org/2004/02/skos/core#notation|HEIM
+https://registry.inspire.gv.at/codelist/referenzart|http://purl.org/dc/terms/conformsTo|http://inspire.ec.europa.eu/applicationschema/lunom
+https://registry.inspire.gv.at/codelist/referenzart/HW|http://www.w3.org/2004/02/skos/core#prefLabel|Hutweide
+https://registry.inspire.gv.at/codelist/referenzart/LSE_FL|http://www.w3.org/2004/02/skos/core#notation|LSE_FL
+https://registry.inspire.gv.at/codelist/referenzart/HW|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/referenzart
+https://registry.inspire.gv.at/codelist/referenzart/LSE_FL|http://www.w3.org/2004/02/skos/core#definition|LSE Flaeche
+https://registry.inspire.gv.at/codelist/referenzart/LSE_PKT|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/referenzart/HW|http://www.w3.org/2004/02/skos/core#notation|HW
+https://registry.inspire.gv.at/codelist/referenzart/TF|http://www.w3.org/ns/adms#status|http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/referenzart|http://www.w3.org/2004/02/skos/core#hasTopConcept|https://registry.inspire.gv.at/codelist/referenzart/PF
+https://registry.inspire.gv.at/codelist/referenzart/HEIM|http://www.w3.org/2004/02/skos/core#topConceptOf|https://registry.inspire.gv.at/codelist/referenzart
+https://registry.inspire.gv.at/codelist/referenzart/ALM|http://www.w3.org/2004/02/skos/core#inScheme|https://registry.inspire.gv.at/codelist/referenzart
+https://registry.inspire.gv.at/codelist/referenzart/LSE_FL|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/referenzart/PF|http://www.w3.org/2004/02/skos/core#scopeNote|INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/referenzart/HW|http://purl.org/dc/terms/subject|http://inspire.ec.europa.eu/theme/lu
+https://registry.inspire.gv.at/codelist/referenzart/TF|http://www.w3.org/1999/02/22-rdf-syntax-ns#type|http://www.w3.org/2004/02/skos/core#Concept

@@ -1,0 +1,214 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart:1> {
+    <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/A> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "ACKERLAND"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        skos:notation "A" ;
+        skos:prefLabel "ACKERLAND"@de ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/AN> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "ACKER NICHT KPF BEIHILFEFÃHIG"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        skos:notation "AN" ;
+        skos:prefLabel "ACKER NICHT KPF BEIHILFEFÃHIG"@de ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/D> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "GEMEINSCHAFTSWEIDE"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        skos:notation "D" ;
+        skos:prefLabel "GEMEINSCHAFTSWEIDE"@de ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/DM> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "WEIDEFELDSTÃCK - MITBESTOSSEN"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        skos:notation "DM" ;
+        skos:prefLabel "WEIDEFELDSTÃCK - MITBESTOSSEN"@de ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/FO> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "FORST"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        skos:notation "FO" ;
+        skos:prefLabel "FORST"@de ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/G> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "GRÃNLAND"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        skos:notation "G" ;
+        skos:prefLabel "GRÃNLAND"@de ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/GA> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "GESCHÃTZTER ANBAU"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        skos:notation "GA" ;
+        skos:prefLabel "GESCHÃTZTER ANBAU"@de ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/L> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "ALMEN"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        skos:notation "L" ;
+        skos:prefLabel "ALMEN"@de ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/LM> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "ALMFELDSTÃCK - MITBESTOSSEN"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        skos:notation "LM" ;
+        skos:prefLabel "ALMFELDSTÃCK - MITBESTOSSEN"@de ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/NF> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "SONSTIGE NUTZFLÃCHE"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        skos:notation "NF" ;
+        skos:prefLabel "SONSTIGE NUTZFLÃCHE"@de ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/PF> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "PFLEGEFLÃCHE"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        skos:notation "PF" ;
+        skos:prefLabel "PFLEGEFLÃCHE"@de ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/ST> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/S> ;
+        skos:definition "SPEZIALKULTURFELDSTÃCKE IN TERASSENFORM"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        skos:notation "ST" ;
+        skos:prefLabel "SPEZIALKULTURFELDSTÃCKE IN TERASSENFORM"@de ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/TF> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "TEICHFLÃCHEN"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        skos:notation "TF" ;
+        skos:prefLabel "TEICHFLÃCHEN"@de ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WT> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI> ;
+        skos:definition "WEINGARTENFLÃCHEN IM ERTRAG INKL. JUNGANLAGEN UND SCHNITTWEINGÃRTEN - TERRASSENANLAGEN"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        skos:notation "WT" ;
+        skos:prefLabel "WEINGARTENFLÃCHEN TERRASSAN"@de ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/S> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "SPEZIALKULTUREN"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/ST> ;
+        skos:notation "S" ;
+        skos:prefLabel "SPEZIALKULTUREN"@de ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        skos:definition "WEINGARTENFLÃCHEN IM ERTRAG INKL. JUNGANLAGEN UND SCHNITTWEINGÃRTEN"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WT> ;
+        skos:notation "WI" ;
+        skos:prefLabel "WEINGARTENFLÃCHEN"@de ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> a skos:ConceptScheme ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:created "2026-05-05T14:30:11+00:00"^^xsd:dateTime ;
+        dcterms:description "Ãsterreich-Erweiterung fÃ¼r INVEKOS FeldstÃ¼ckart"@de,
+            "Austrian extension for INVEKOS FeldstÃ¼ckart"@en ;
+        dcterms:publisher <https://registry.inspire.gv.at/dataprovider/0095> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/lu> ;
+        dcterms:title "INVEKOS FeldstÃ¼cksnutzungsart"@de,
+            "INVEKOS FeldstÃ¼cksnutzungsart"@en ;
+        dcterms:type <https://registry.gdi-de.org/codelist/de.iacs> ;
+        owl:versionInfo "1.0.0" ;
+        skos:hasTopConcept <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/A>,
+            <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/AN>,
+            <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/D>,
+            <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/DM>,
+            <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/FO>,
+            <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/G>,
+            <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/GA>,
+            <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/L>,
+            <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/LM>,
+            <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/NF>,
+            <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/PF>,
+            <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/S>,
+            <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/TF>,
+            <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WI> ;
+        skos:scopeNote "INSPIRE extensibility: open, internal by value"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+}
+

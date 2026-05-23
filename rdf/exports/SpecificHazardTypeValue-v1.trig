@@ -1,0 +1,310 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue:1> {
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/blindtromben> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/wind> ;
+        skos:definition "In meteorology, a cloud column or inverted cloud cone, pendant from a cloud base. This supplementary feature occurs mostly with cumulus and cumulonimbus; when it reaches the earth's surface it constitutes the cloudy manifestation of an intense vortex, namely, a tornado or waterspout."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:notation "blindtromben" ;
+        skos:prefLabel "blindtromben"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/coldWave> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:definition "Popularly, a period of very cold weather."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:notation "coldWave" ;
+        skos:prefLabel "cold wave"@en ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/continuousRain> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/precipitation> ;
+        skos:definition "-"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:notation "continuousRain" ;
+        skos:prefLabel "continuous rain"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/ductileFlow> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/massWasting> ;
+        skos:definition "deformation without apparent loss of continuity at the scale of observation."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:notation "ductileFlow" ;
+        skos:prefLabel "ductile flow"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/dustDevil> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/wind> ;
+        skos:definition "Dust devils are occasionally strong enough to cause minor damage (up to EF0 on the Enhanced Fujita scale). Diameters range from about 3 m to greater than 30 m; their average height is about 200 m, but a few have been observed as high as 1 km or more. They have been observed to rotate anticyclonically as well as cyclonically. Although the vertical velocity is predominantly upward, the flow along the axis of large dust devils may be downward. Large dust devils may also contain secondary vortices. Dust devils are best developed on a hot, calm afternoon with clear skies, in a dry region when intense surface heating causes a very steep lapse rate of temperature in the lowest 100 m of the atmosphere."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:notation "dustDevil" ;
+        skos:prefLabel "dust devil"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/flood> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:definition "Processes of inundation of usually dry (emerged) land, or temporary covering by water of land not normally covered by water."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:notation "flood" ;
+        skos:prefLabel "flood"@en ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/fluviatileErosion> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:definition "Refers to the erosion, particle displacement (fluvial transport) by the flowing water, as well as corrasion by entrained solids."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:notation "fluviatileErosion" ;
+        skos:prefLabel "fluviatileErosion"@en ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/fog> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/precipitation> ;
+        skos:definition "Water droplets suspended in the atmosphere in the vicinity the earth's surface that affect visibility."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:notation "fog" ;
+        skos:prefLabel "fog"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/groundSubsidence> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/massWasting> ;
+        skos:definition "Subsidence is the sinking or settling of the ground surface. It can occur by a number of methods. Ground subsidence can result from the settlement of native low density soils, or the caving in of natural or man-made underground voids."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:notation "groundSubsidence" ;
+        skos:prefLabel "Ground Subsidence"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/gustnado> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/wind> ;
+        skos:definition "Colloquial expression for a short-lived, shallow, generally weak, vertically oriented vortex found along a gust front. Gustnadoes are usually visualized by a rotating dust or debris cloud."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:notation "gustnado" ;
+        skos:prefLabel "gustnado"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/hail> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/precipitation> ;
+        skos:definition "ice pellets or small hail (less than 5mm diameter in the Range with 20mm or more"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:notation "hail" ;
+        skos:prefLabel "hail"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/heatWave> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:definition "A period of abnormally and uncomfortably hot and usually humid weather."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:notation "heatWave" ;
+        skos:prefLabel "heat wave"@en ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/heavyRain> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/precipitation> ;
+        skos:definition "Rainfall greater than or equal to 50 mm in past 24 hours"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:notation "heavyRain" ;
+        skos:prefLabel "heavy rain"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/heavySnowfall> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/precipitation> ;
+        skos:definition "Heavy Snowfall greater than or equal to 50 mm in past 24 hours"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:notation "heavySnowfall" ;
+        skos:prefLabel "heavy snowfall"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/landslide> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/massWasting> ;
+        skos:definition "Processes of downhill slope movements of soil, rock, and organicMaterials related to different types of ground failure."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:notation "landslide" ;
+        skos:prefLabel "landslide"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/mudflow> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/massWasting> ;
+        skos:definition "mass of mud moving suddenly and quickly down a steep slope"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:notation "mudflow" ;
+        skos:prefLabel "mudflow"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/rockfall> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/massWasting> ;
+        skos:definition "is the falling of a newly detached mass of rock from a cliff or down a very steep slope. Rocks in a rockfall can be of any dimension, from the size of baseballs to houses."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:notation "rockfall" ;
+        skos:prefLabel "rockfall"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/snowAvalanche> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/massWasting> ;
+        skos:definition "A snow mass with typically a volume greater than 100 m3 and a minimum length of 50 meters that slides rapidly downhill."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:notation "snowAvalanche" ;
+        skos:prefLabel "snow avalanche"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/snowPressure> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/massWasting> ;
+        skos:definition "This refers to an excessive load of snow that damages the roof or the walls."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:notation "snowPressure" ;
+        skos:prefLabel "snow pressure"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/thunderstorm> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/precipitation> ;
+        skos:definition "In general, a local storm, invariably produced by a cumulonimbus cloud and always accompanied by lightning and thunder, usually with strong gusts of wind, heavy rain, and sometimes with hail."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:notation "thunderstorm" ;
+        skos:prefLabel "thunderstorm"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/tornado> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:broader <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/wind> ;
+        skos:definition "A rotating column of air, in contact with the surface, pendant from a cumuliform cloud, and often visible as a funnel cloud and/or circulating debris/dust at the ground."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:notation "tornado" ;
+        skos:prefLabel "tornado"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/wind> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:definition "Air in motion relative to the surface of the earth."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/blindtromben>,
+            <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/dustDevil>,
+            <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/gustnado>,
+            <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/tornado> ;
+        skos:notation "wind" ;
+        skos:prefLabel "wind"@en ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/precipitation> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:definition "All liquid or solid phase aqueous particles that originate in the atmosphere and fall to the earth's surface."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/continuousRain>,
+            <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/fog>,
+            <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/hail>,
+            <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/heavyRain>,
+            <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/heavySnowfall>,
+            <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/thunderstorm> ;
+        skos:notation "precipitation" ;
+        skos:prefLabel "precipitation"@en ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/massWasting> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        rdfs:seeAlso "national-technical" ;
+        skos:definition "the dislodgement and downslope transport of soil and rock material under the direct application of gravitational body stresses. In contrast to other erosion processes, the debris removed by mass wasting is not carried within, on, or under another medium. The mass properties of the material being transported depend on the interaction of the soil and rock particles and on the moisture content."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/ductileFlow>,
+            <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/groundSubsidence>,
+            <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/landslide>,
+            <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/mudflow>,
+            <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/rockfall>,
+            <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/snowAvalanche>,
+            <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/snowPressure> ;
+        skos:notation "massWasting" ;
+        skos:prefLabel "mass wasting"@en ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> a skos:ConceptScheme ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:created "2026-05-05T14:30:11+00:00"^^xsd:dateTime ;
+        dcterms:description "An additional classification of the natural hazard."@en ;
+        dcterms:publisher <https://registry.inspire.gv.at/dataprovider/0005> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        dcterms:title "Specific Hazard Type"@de,
+            "Specific Hazard Type"@en ;
+        owl:versionInfo "1.0.0" ;
+        skos:hasTopConcept <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/coldWave>,
+            <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/flood>,
+            <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/fluviatileErosion>,
+            <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/heatWave>,
+            <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/massWasting>,
+            <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/precipitation>,
+            <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue/wind> ;
+        skos:scopeNote "INSPIRE governance level: national-technical",
+            "INSPIRE extensibility: open, internal by value"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+}
+

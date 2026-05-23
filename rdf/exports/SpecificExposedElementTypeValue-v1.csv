@@ -1,0 +1,441 @@
+subject,predicate,object
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryArea,http://www.w3.org/2004/02/skos/core#prefLabel,forestry area
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redZone,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/formerRedZone,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/street,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/formerRedZone,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalObjects,http://www.w3.org/2004/02/skos/core#notation,agriculturalObjects
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/street,http://www.w3.org/2004/02/skos/core#prefLabel,street
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/gasPipelines
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/remainingRisk,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/formerRedZone,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/residentialBuilding,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingEconomicBenefit,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue,http://www.w3.org/2004/02/skos/core#scopeNote,"INSPIRE extensibility: open, internal by value"
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingEconomicBenefit
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/publicBuilding,http://www.w3.org/2004/02/skos/core#definition,Constructional facilities that serve the public and are therefore accessible to everyone.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/bridge,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/industrialAndCommercialBuilding,http://www.w3.org/2004/02/skos/core#prefLabel,industrial and commercial building
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/blueZone,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingEconomicBenefit,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/outsideArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/telecommunicationNetwork,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/formerRedZone,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryObjects,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterPipelines,http://www.w3.org/2004/02/skos/core#notation,waterPipelines
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/bridge,http://www.w3.org/2004/02/skos/core#definition,Structural objects or utilities that overcome obstacles through technical constructions.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/sewer,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/formerRedZone,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/formerRedZone,http://www.w3.org/2004/02/skos/core#prefLabel,former red zone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingEconomicBenefit,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redYellowZone,http://www.w3.org/2004/02/skos/core#prefLabel,Rot Gelbe Zone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/publicBuilding,http://www.w3.org/2004/02/skos/core#notation,publicBuilding
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/miscellaneousLoss,http://www.w3.org/2004/02/skos/core#notation,miscellaneousLoss
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/remainingRisk,http://www.w3.org/2004/02/skos/core#definition,Remaining areas of a flood with a rare probability of occurrence.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/bridge,http://www.w3.org/2004/02/skos/core#prefLabel,Bruecke
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue,http://purl.org/dc/terms/type,http://inspire.ec.europa.eu/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/electricalInstallations,http://www.w3.org/2004/02/skos/core#definition,Bauliche Infrastrukturanlagen zur Herstellung und Versorgung durch elektrischen Strom.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryArea,http://www.w3.org/2004/02/skos/core#definition,"FlÃ¤chen, die zur forstwirtschaftlichen Rohstofferzeugung als auch das Erbringen immaterieller Leistungen insbesondere als Schutz- und Erholungsraum."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/outsideArea,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops,http://www.w3.org/2004/02/skos/core#notation,agriculturalAndForestryCrops
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterPipelines,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/formerRedZone,http://www.w3.org/2004/02/skos/core#prefLabel,ehemals Rote Zone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redZone,http://www.w3.org/2004/02/skos/core#prefLabel,Rote Zone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/blueZone,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/street,http://www.w3.org/2004/02/skos/core#definition,Buildings used as transport routes connecting geographical locations on the land surface.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/residentialBuilding,http://www.w3.org/2004/02/skos/core#prefLabel,residential building
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/publicBuilding,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalBuilding,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/publicBuilding,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/railway,http://www.w3.org/2004/02/skos/core#definition,Structural objects to be assigned to railway network.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalBuilding,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestAndAgriculturalTrails,http://www.w3.org/2004/02/skos/core#prefLabel,Forst und Agrarwege
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterPipelines,http://www.w3.org/2004/02/skos/core#prefLabel,water pipelines
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalObjects,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/formerRedZone,http://www.w3.org/2004/02/skos/core#definition,"Hierbei handelt es sich um Restrisikogebiete im Wirkungsbereich von Hochwasserschutzanlagen. Wenn ein Hochwasserereignis das Bemessungsereignis Ã¼bersteigt bzw. in Folge eines technischen Gebrechens die Hochwasserschutzanlage nicht funktioniert, kommt es im Wirkungsbereich der Hochwasserschutzanlage zu Ãberflutungen in einem AusmaÃ Ã¤hnlich wie bei Nichtvorhandensein der Hochwasserschutzanlage. Neubauten sind in diesem Bereich hochwassergeschÃ¼tzt zu errichten."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/inventoryAndEquipment,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/yellowZone,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure,http://www.w3.org/2004/02/skos/core#prefLabel,Verkehrs und Leitungsinfrastruktur
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterPipelines
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/residentialBuilding,http://www.w3.org/2004/02/skos/core#notation,residentialBuilding
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/telecommunicationNetwork
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/railway,http://www.w3.org/2004/02/skos/core#definition,"Bauliche Objekte, die dem Zugverkehr zu zuordnen sind."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/remainingRisk,http://www.w3.org/2004/02/skos/core#notation,remainingRisk
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redYellowZone,http://www.w3.org/2004/02/skos/core#definition,"Diese Bereiche sind als Retentions-, Abfluss- und wasserwirtschaftliche Vorrangzonen vorgesehen und sind fÃ¼r den schadlosen Abfluss und HochwasserrÃ¼ckhalt im Hochwasserfall von groÃer Bedeutung."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestAndAgriculturalTrails,http://www.w3.org/2004/02/skos/core#prefLabel,Forest and agricultural trails
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalBuilding,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/sewer,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryObjects,http://www.w3.org/2004/02/skos/core#notation,forestryObjects
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/miscellaneousLoss,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryArea,http://www.w3.org/2004/02/skos/core#definition,"Areas used for the production of forest products and the provision of intangible services, in particular as a protected and recreational area."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalBuilding,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/sewer,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/telecommunicationNetwork,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterpathTransport,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/formerRedZone,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/electricalInstallations,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/protectionInfrastructure,http://www.w3.org/2004/02/skos/core#definition,"Constructional installations installed for the protection of infrastructure, objects and persons exposed to natural hazards."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/sewer,http://www.w3.org/2004/02/skos/core#definition,"Bauliche Infrastrukturanlagen zur Sammlung und Ableitung von Abwasser, Regen- oder Schmelzwasser durch unter- bzw. oberirdische KanÃ¤le."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/outsideArea,http://www.w3.org/2004/02/skos/core#notation,outsideArea
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/residentialBuilding,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/electricalInstallations
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/railway,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redZone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/electricalInstallations,http://www.w3.org/2004/02/skos/core#prefLabel,water path transport
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/street
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/yellowZone,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/outsideArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/outsideArea,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/bridge,http://www.w3.org/2004/02/skos/core#definition,"Bauliche Objekte oder Versorgungseinrichtungen, die durch technische Konstruktionen Hindernisse Ã¼berwinden."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue,http://purl.org/dc/terms/description,ZusÃ¤tzliche Bezeichnung gefÃ¤hrdeter Elemente fÃ¼r Ãsterreich.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/railway,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/blueZone,http://www.w3.org/2004/02/skos/core#definition,This area is a water-based demand zone and is identified to carry out and maintain the functions of planned flood protection management measures.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/residentialBuilding,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/remainingRisk,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/yellowZone,http://www.w3.org/2004/02/skos/core#prefLabel,yellow zone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/miscellaneousLoss,http://www.w3.org/2004/02/skos/core#definition,"SchÃ¤den, denen keine definierte Kategorie zuzuordnen sind."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryObjects,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/sewer,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/electricalInstallations,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/gasPipelines,http://www.w3.org/2004/02/skos/core#definition,Bauliche Infrastrukturanlagen zur Verteilung und Versorgung Erdgas doer anderen Brenngasen.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/protectionInfrastructure,http://www.w3.org/2004/02/skos/core#notation,protectionInfrastructure
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/yellowZone,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/miscellaneousLoss,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/telecommunicationNetwork,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities,http://www.w3.org/2004/02/skos/core#definition,"Bauliche Anlagen die zur privaten, Ã¶ffentlichen als auch wirtschaftlichen Nutzung verhergesehen sind."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redYellowZone,http://www.w3.org/2004/02/skos/core#notation,redYellowZone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalArea,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/yellowZone,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/protectionInfrastructure
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/railway,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/miscellaneousLoss,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/sewer,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/railway,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/miscellaneousLoss,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingEconomicBenefit,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalBuilding,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/blueZone,http://www.w3.org/2004/02/skos/core#prefLabel,blue zone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redYellowZone,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryObjects,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redYellowZone,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/telecommunicationNetwork,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops,http://www.w3.org/2004/02/skos/core#definition,Areas used for forestry and agricultural production of resources.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingEconomicBenefit,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalObjects,http://www.w3.org/2004/02/skos/core#prefLabel,landwirtschaftliche Objekte
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/telecommunicationNetwork,http://www.w3.org/2004/02/skos/core#notation,telecommunicationNetwork
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/remainingRisk,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterPipelines,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/protectionInfrastructure,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/residentialBuilding
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryObjects,http://www.w3.org/2004/02/skos/core#definition,Objects used for the production of forest materials and products.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/blueZone,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/railway,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalObjects,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/inventoryAndEquipment,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/protectionInfrastructure,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/industrialAndCommercialBuilding,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/remainingRisk,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redZone,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/remainingRisk,http://www.w3.org/2004/02/skos/core#definition,Restlicher Ãberflutungsbereich eines Hochwassers mit seltener Eintrittswahrscheinlichkeit.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/railway,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterpathTransport,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/remainingRisk,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/industrialAndCommercialBuilding,http://www.w3.org/2004/02/skos/core#definition,Construction equipment used for secondary sector activities (industrial and commercial).
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingEconomicBenefit,http://www.w3.org/2004/02/skos/core#definition,"Bauliche Anlagen, die vornehmlich zum Zwecke des Wirtschaftens wie Hotels, GasthÃ¤user, etc. und Kleingewerbe dient."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/protectionInfrastructure,http://www.w3.org/2004/02/skos/core#definition,"Bauliche Anlagen, die zum Schutz von Infastrukturobjekten und Personen durch Naturgefahren installiert worden sind."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/outsideArea,http://www.w3.org/2004/02/skos/core#definition,FlÃ¤chen die GebÃ¤ude und baulichen Anlagen direkt angrenzen.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/sewer,http://www.w3.org/2004/02/skos/core#notation,sewer
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterpathTransport,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterPipelines,http://www.w3.org/2004/02/skos/core#definition,"Bauliche Infrastrukturanlagen zum Transport von Wasser an Orte, an denen es auf natÃ¼rlichem Wege nicht zur VerfÃ¼gung steht."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/residentialBuilding,http://www.w3.org/2004/02/skos/core#prefLabel,Wohngebaeude
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalObjects
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/blueZone,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/protectionInfrastructure,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/formerRedZone,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalBuilding,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue,http://www.w3.org/2002/07/owl#versionInfo,1.0.0
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/protectionInfrastructure,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue,http://purl.org/dc/terms/created,2026-05-05T14:30:11+00:00
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/residentialBuilding,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingEconomicBenefit,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#ConceptScheme
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterpathTransport,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalArea,http://www.w3.org/2004/02/skos/core#definition,"FlÃ¤chen, die zur landwirtschaftlichen Rohstofferzeugung als auch BrachflÃ¤chen dienen. Landwirtschaftliche GebÃ¤ude- und HofflÃ¤chen sind nicht enthalten."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/protectionInfrastructure,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryObjects,http://www.w3.org/2004/02/skos/core#definition,Objekte die zur forstwirtschaftlichen Rohstofferzeugung dienen und Produkte.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/gasPipelines,http://www.w3.org/2004/02/skos/core#prefLabel,telecommunication network
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalObjects,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/sewer,http://www.w3.org/2004/02/skos/core#definition,Structural infrastructure facilities for the distribution and supply of natural gas or other fuels.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/yellowZone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities,http://www.w3.org/2004/02/skos/core#prefLabel,buildings and facilities
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterPipelines,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/residentialBuilding,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/blueZone,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalBuilding,http://www.w3.org/2004/02/skos/core#prefLabel,Agrargebaeude
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/gasPipelines,http://www.w3.org/2004/02/skos/core#prefLabel,Gasleitungen
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/sewer,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone,http://www.w3.org/2004/02/skos/core#prefLabel,classification zones
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/railway,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/inventoryAndEquipment,http://www.w3.org/2004/02/skos/core#definition,A set of mobile objects that are directly related to buildings and facilities.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/miscellaneousLoss
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalArea,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/publicBuilding,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/protectionInfrastructure,http://www.w3.org/2004/02/skos/core#prefLabel,Schutzinfrastruktur
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalObjects,http://www.w3.org/2004/02/skos/core#definition,PObjects used for agricultural production of materials and products (including animals and fish stocks).
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/street,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/residentialBuilding,http://www.w3.org/2004/02/skos/core#definition,Buildings that are primarily used for housing.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/remainingRisk
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterPipelines,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/publicBuilding,http://www.w3.org/2004/02/skos/core#prefLabel,public building
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities,http://www.w3.org/2004/02/skos/core#definition,"Buildings for private, public and commercial use."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/sewer
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redYellowZone,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue,http://purl.org/dc/terms/description,An additional classification of the natural hazard.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/publicBuilding,http://www.w3.org/2004/02/skos/core#definition,"Bauliche Anlagen, die der Ãffentlichkeit dienen und daher fÃ¼r jedermann zugÃ¤nglich sind."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalBuilding,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryObjects,http://www.w3.org/2004/02/skos/core#prefLabel,forestry objects
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/formerRedZone,http://www.w3.org/2004/02/skos/core#notation,formerRedZone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/inventoryAndEquipment,http://www.w3.org/2004/02/skos/core#prefLabel,inventory and equipment
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryArea
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterPipelines,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryObjects,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/electricalInstallations,http://www.w3.org/2004/02/skos/core#notation,electricalInstallations
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterPipelines,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/gasPipelines,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/industrialAndCommercialBuilding,http://www.w3.org/2004/02/skos/core#notation,industrialAndCommercialBuilding
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redYellowZone,http://www.w3.org/2004/02/skos/core#definition,"These areas are intended as retention, drainage and water management priority zones and are of great importance for the safe discharge and flood retention in flood situations."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/outsideArea,http://www.w3.org/2004/02/skos/core#definition,Areas directly adjoining buildings and facilities.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue,http://purl.org/dc/terms/title,Spezifischer Typ gefÃ¤hrdeter Elemente
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterpathTransport,http://www.w3.org/2004/02/skos/core#notation,waterpathTransport
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redZone,http://www.w3.org/2004/02/skos/core#notation,redZone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/blueZone,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/telecommunicationNetwork,http://www.w3.org/2004/02/skos/core#definition,Bauliche Infrastrukturanlagen zur Kommunikationsversorgung.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/industrialAndCommercialBuilding,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalObjects,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/street,http://www.w3.org/2004/02/skos/core#prefLabel,Strasse
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/inventoryAndEquipment,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redZone,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/miscellaneousLoss,http://www.w3.org/2004/02/skos/core#prefLabel,Sonstige Schaeden
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/residentialBuilding,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone,http://www.w3.org/2004/02/skos/core#definition,Gruppe von verwendeten Klassen.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/bridge
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalBuilding,http://www.w3.org/2004/02/skos/core#definition,"Bauliche Anlagen, die fÃ¼r die Erzeugung landwirtschaflicher Produkt, primaer als auch sekundÃ¤r genutzt werden."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/blueZone,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/street,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterPipelines,http://www.w3.org/2004/02/skos/core#prefLabel,Wasserleitungen
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/electricalInstallations,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestAndAgriculturalTrails,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryArea,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryArea,http://www.w3.org/2004/02/skos/core#prefLabel,forstwirtschaftliche Flaechen
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/miscellaneousLoss,http://www.w3.org/2004/02/skos/core#definition,Losses to which no defined category can be assigned.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterpathTransport,http://www.w3.org/2004/02/skos/core#definition,"Schiffbare WasserflÃ¤chen, FlÃ¼sse und KanÃ¤le und deren dazugehÃ¶rgigen baulichen Anlagen (z.B. Anlegesteg, Schleussen)"
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/electricalInstallations,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/outsideArea,http://www.w3.org/2004/02/skos/core#prefLabel,AuÃenanlage
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryObjects,http://www.w3.org/2004/02/skos/core#prefLabel,forstwirtschaftliche Objekte
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestAndAgriculturalTrails,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryArea,http://www.w3.org/2004/02/skos/core#notation,forestryArea
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/formerRedZone,http://www.w3.org/2004/02/skos/core#definition,"These are risk areas where flood protection systems are in operation. When a flood event exceeds the degree of protection or a technical fault occurs, the flood protection system does not function, flooding occurs to a degree similar to the absence of the flood protection system. New buildings are to be built flood-proof in this area."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/protectionInfrastructure,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalObjects,http://www.w3.org/2004/02/skos/core#prefLabel,agricultural objects
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalArea
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue,http://purl.org/dc/terms/title,Specific Exposed Element Type for Austria
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterpathTransport,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/electricalInstallations,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/protectionInfrastructure,http://www.w3.org/2004/02/skos/core#prefLabel,protection infrastructure
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestAndAgriculturalTrails,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/bridge,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/inventoryAndEquipment,http://www.w3.org/2004/02/skos/core#definition,"Gesamtheit mobiler Objekte, die GebÃ¤uden und baulichen Anlagen im direkten Zusammenhang stehen."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/remainingRisk,http://www.w3.org/2004/02/skos/core#prefLabel,Restrisiko
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingEconomicBenefit,http://www.w3.org/2004/02/skos/core#prefLabel,building economic benefit
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestAndAgriculturalTrails,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalObjects,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/inventoryAndEquipment,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/blueZone,http://www.w3.org/2004/02/skos/core#notation,blueZone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryObjects,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/bridge,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/publicBuilding,http://www.w3.org/2004/02/skos/core#prefLabel,Oeffentliche Gebaeude
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone,http://www.w3.org/2004/02/skos/core#prefLabel,Klassifikationszonen
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/bridge,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/electricalInstallations,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalBuilding
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalArea,http://www.w3.org/2004/02/skos/core#definition,Areas used for the production of agricultural products and fallow land. Agricultural buildings and yards are not included.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestAndAgriculturalTrails,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/bridge,http://www.w3.org/2004/02/skos/core#notation,bridge
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/industrialAndCommercialBuilding
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterpathTransport,http://www.w3.org/2004/02/skos/core#prefLabel,Wasserweg
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/outsideArea,http://www.w3.org/2004/02/skos/core#prefLabel,outside area
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryObjects,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/industrialAndCommercialBuilding,http://www.w3.org/2004/02/skos/core#definition,"Bauliche Anlagen, die fÃ¼r TÃ¤tigkeiten des SekundÃ¤rsektors (Industrie und Gewerbe) genutzt werden"
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/street,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryObjects
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalObjects,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities,http://www.w3.org/2004/02/skos/core#prefLabel,Gebaeude und bauliche Anlagen
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/publicBuilding,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/inventoryAndEquipment,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/gasPipelines,http://www.w3.org/2004/02/skos/core#notation,gasPipelines
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure,http://www.w3.org/2004/02/skos/core#notation,transporAndNetworkInfrastructure
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/residentialBuilding,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/sewer,http://www.w3.org/2004/02/skos/core#prefLabel,sewer
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/inventoryAndEquipment,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/street,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalArea,http://www.w3.org/2004/02/skos/core#prefLabel,agricultural area
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalBuilding,http://www.w3.org/2004/02/skos/core#notation,agriculturalBuilding
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/inventoryAndEquipment,http://www.w3.org/2004/02/skos/core#notation,inventoryAndEquipment
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterPipelines,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingEconomicBenefit,http://www.w3.org/2004/02/skos/core#definition,"Constructional facilities that are primarily used for the purpose of business activities such as hotels, restaurants, etc. and small businesses."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/gasPipelines,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redZone,http://www.w3.org/2004/02/skos/core#definition,Bereiche die von Hochwasser mit mittlerer Eintrittswahrscheinlichkeit besonders gefÃ¤hrdet sind. Es besteht Gefahr fÃ¼r Leib und Leben und diese FlÃ¤chen sind fÃ¼r die Bebauung nicht geeignet.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/blueZone,http://www.w3.org/2004/02/skos/core#definition,"Dieser Bereich ist eine wasserwirtschaftliche Bedarfszone und wird auf FlÃ¤chen ausgewiesen, die fÃ¼r die DurchfÃ¼hrung sowie Aufrechterhaltung der Funktionen geplanter schutzwasserwirtschaftlicher MaÃnahmen benÃ¶tigt werden."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/street,http://www.w3.org/2004/02/skos/core#definition,Bauliche Objekte die als Transportweg genutzt und auf der LandoberflÃ¤che geografische Positionen verbinden.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterpathTransport,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterPipelines,http://www.w3.org/2004/02/skos/core#definition,Structural infrastructure facilities for transporting water to places where it is not naturally available.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/gasPipelines,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redYellowZone,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/yellowZone,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryObjects,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/yellowZone,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalArea,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/electricalInstallations,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/bridge,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops,http://www.w3.org/2004/02/skos/core#definition,"FlÃ¤chen, die zur forst- und landwirtschaftlichen Rohstofferzeugung dienen."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestAndAgriculturalTrails,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/electricalInstallations,http://www.w3.org/2004/02/skos/core#definition,"Shipping water areas, rivers and canals and their associated structures (e. g. jetties, locks)."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/gasPipelines,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue,http://www.w3.org/2004/02/skos/core#hasTopConcept,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/industrialAndCommercialBuilding,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/telecommunicationNetwork,http://www.w3.org/2004/02/skos/core#prefLabel,electrical installations
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redYellowZone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/outsideArea,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/sewer,http://www.w3.org/2004/02/skos/core#prefLabel,Kanalisation
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone,http://www.w3.org/2004/02/skos/core#definition,Group of applied classification zones.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redZone,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryArea,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/telecommunicationNetwork,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/yellowZone,http://www.w3.org/2004/02/skos/core#prefLabel,Gelbe Zone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingEconomicBenefit,http://www.w3.org/2004/02/skos/core#notation,buildingEconomicBenefit
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/railway,http://www.w3.org/2004/02/skos/core#prefLabel,Eisenbahn
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalBuilding,http://www.w3.org/2004/02/skos/core#definition,"Constructional facilities used for the production of agricultural products, both primer and secondary."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/gasPipelines,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redYellowZone,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/miscellaneousLoss,http://www.w3.org/2004/02/skos/core#prefLabel,miscellaneous loss
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/inventoryAndEquipment,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/railway,http://www.w3.org/2004/02/skos/core#prefLabel,railway
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/electricalInstallations,http://www.w3.org/2004/02/skos/core#prefLabel,Elektrische Anlagen
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterpathTransport,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/remainingRisk,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/remainingRisk,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/railway,http://www.w3.org/2004/02/skos/core#notation,railway
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/remainingRisk,http://www.w3.org/2004/02/skos/core#prefLabel,remaining risk
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingEconomicBenefit,http://www.w3.org/2004/02/skos/core#prefLabel,Gebaeude Wirtschaftlicher Nutzen
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redYellowZone,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops,http://www.w3.org/2004/02/skos/core#prefLabel,Land und forstwirtschaftliche Kulturen
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redZone,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/industrialAndCommercialBuilding,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestAndAgriculturalTrails,http://www.w3.org/2004/02/skos/core#notation,forestAndAgriculturalTrails
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/gasPipelines,http://www.w3.org/2004/02/skos/core#definition,Structural infrastructure facilities for communication supply.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops,http://www.w3.org/2004/02/skos/core#topConceptOf,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure,http://www.w3.org/2004/02/skos/core#prefLabel,transport and network infrastructure
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redZone,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/sewer,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/telecommunicationNetwork,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure,http://www.w3.org/2004/02/skos/core#definition,Bauliche Objekte die der Verkehrs- und Leitungsinfrastruktur dienen.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalArea,http://www.w3.org/2004/02/skos/core#notation,agriculturalArea
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/publicBuilding
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redZone,http://www.w3.org/2004/02/skos/core#prefLabel,red zone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/blueZone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/gasPipelines,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/telecommunicationNetwork,http://www.w3.org/2004/02/skos/core#definition,Structural infrastructure facilities for the production and supply of electricity.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/inventoryAndEquipment,http://www.w3.org/2004/02/skos/core#prefLabel,Inventar und Geraetschaften
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/yellowZone,http://www.w3.org/2004/02/skos/core#definition,Bereiche die von Hochwasser mit mittlerer Eintrittswahrscheinlichkeit geringer gefÃ¤hrdet sind. Neubauten in dieser Zone sind hochwassergeschÃ¼tzt zu errichten.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalBuilding,http://www.w3.org/2004/02/skos/core#prefLabel,agricultural building
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestAndAgriculturalTrails,http://www.w3.org/2004/02/skos/core#definition,Structural objects that serve as a transport route for the appropriate management of agricultural and forestry properties.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryArea,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/yellowZone,http://www.w3.org/2004/02/skos/core#definition,Areas that are less vulnerable to floods with a medium probability of occurrence. New buildings in this zone are to be built flood-proof.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/industrialAndCommercialBuilding,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/gasPipelines,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingEconomicBenefit,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/publicBuilding,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/railway
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redZone,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/street,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/inventoryAndEquipment
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/miscellaneousLoss,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalArea,http://www.w3.org/2004/02/skos/core#prefLabel,landwirtschaftliche Flaechen
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/telecommunicationNetwork,http://www.w3.org/2004/02/skos/core#prefLabel,Fernmeldeleitungen
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redYellowZone,http://www.w3.org/2004/02/skos/core#prefLabel,red yellow zone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/formerRedZone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/yellowZone,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/miscellaneousLoss,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/outsideArea,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/bridge,http://www.w3.org/2004/02/skos/core#prefLabel,bridge
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities,http://www.w3.org/2004/02/skos/core#notation,buildingsAndFacilities
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/bridge,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone,http://www.w3.org/2004/02/skos/core#notation,classificationZone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue,http://www.w3.org/2004/02/skos/core#scopeNote,INSPIRE governance level: national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure,http://www.w3.org/2004/02/skos/core#definition,Buildings serving as transport and network infrastructure.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/street,http://www.w3.org/2004/02/skos/core#notation,street
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestAndAgriculturalTrails,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redYellowZone,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/publicBuilding,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue,http://www.w3.org/ns/adms#status,http://inspire.ec.europa.eu/registry/status/submitted
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestAndAgriculturalTrails,http://www.w3.org/2004/02/skos/core#definition,"Bauliche Objekte, die als Transportweg zur zweckmÃ¤Ãigen Bewirtschaftung von land- und forstwirtschaftlichen Liegenschaften dienen."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalObjects,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/miscellaneousLoss,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/outsideArea
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/residentialBuilding,http://www.w3.org/2004/02/skos/core#definition,"Bauliche Anlagen, die vornehmlich dem wohnen dienen."
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterpathTransport
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/industrialAndCommercialBuilding,http://www.w3.org/2004/02/skos/core#prefLabel,Industrie und Gewerbegebaeude
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/yellowZone,http://www.w3.org/2004/02/skos/core#notation,yellowZone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/street,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2004/02/skos/core#Concept
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/bridge,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/telecommunicationNetwork,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/outsideArea,http://purl.org/dc/terms/conformsTo,http://inspire.ec.europa.eu/applicationschema/nz-core
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalObjects,http://www.w3.org/2004/02/skos/core#definition,Objekte die zur landwirtschaftliche Rohstofferzeugung dienen und Produkte (auch Tier und FischbestÃ¤nde) .
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/blueZone,http://www.w3.org/2004/02/skos/core#prefLabel,Blaue Zone
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/protectionInfrastructure,http://purl.org/dc/terms/subject,http://inspire.ec.europa.eu/theme/nz
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redZone,http://www.w3.org/2004/02/skos/core#definition,Areas that are particularly at risk from floods with medium probability of occurrence. There is danger to life and these areas are not suitable for building.
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure,http://www.w3.org/2004/02/skos/core#narrower,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestAndAgriculturalTrails
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/publicBuilding,http://www.w3.org/2000/01/rdf-schema#seeAlso,national-technical
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops,http://www.w3.org/2004/02/skos/core#prefLabel,agricultural and forestry crops
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/industrialAndCommercialBuilding,http://www.w3.org/2004/02/skos/core#inScheme,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue
+https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/industrialAndCommercialBuilding,http://www.w3.org/2004/02/skos/core#broader,https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities

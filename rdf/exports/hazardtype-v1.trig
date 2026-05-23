@@ -1,0 +1,1164 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://registry.inspire.gv.at/codelist/hazardtype:1> {
+    <https://registry.inspire.gv.at/codelist/hazardtype> a skos:ConceptScheme ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz-core> ;
+        dcterms:created "2026-05-05T14:30:11+00:00"^^xsd:dateTime ;
+        dcterms:description "An additional classification of the natural hazard."@en ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        dcterms:title "Gefahrenart"@de,
+            "Hazard Type"@en ;
+        owl:versionInfo "1.0.0" ;
+        skos:hasTopConcept <https://registry.inspire.gv.at/codelist/hazardtype/hazardType> ;
+        skos:scopeNote "INSPIRE governance level: national-technical",
+            "INSPIRE extensibility: open, internal by value"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/submitted> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/LandFire> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/wildFire> ;
+        skos:definition "A type of wildfire in a non wooded area."@en ;
+        skos:notation "LandFire" ;
+        skos:prefLabel "land fire"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/airburst> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects> ;
+        skos:definition "An explosion of a comet or meteoroid within the Earths atmosphere without striking the ground."@en,
+            "An explosion of a comet or meteoroid within the Earthâs atmosphere without striking the ground."@en ;
+        skos:notation "airburst" ;
+        skos:prefLabel "Airburst"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/allergens> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/biological> ;
+        skos:definition "Biological products or substances (such as pollen) that might cause allergy over a large number of people."@en,
+            "Biological products or substances, such as pollen, that might cause allergy over a large number of people."@en ;
+        skos:notation "allergens" ;
+        skos:prefLabel "allergens"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/animalIncident> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/biological> ;
+        skos:definition "Human encounters with dangerous or exotic animals in both urban and rural environments."@en ;
+        skos:notation "animalIncident" ;
+        skos:prefLabel "animal Incident"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/ashFall> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity> ;
+        skos:definition "Fine (less than 4 mm in diameter)unconsolidated volcanic debris blown into the atmosphere during an eruption; can remain airborne for long periods of time and travel considerable distance from the source."@en,
+            "Fine, less than 4 mm in diameter, unconsolidated volcanic debris blown into the atmosphere during an eruption. Can remain airborne for long periods of time and travel considerable distance from the source."@en ;
+        skos:notation "ashFall" ;
+        skos:prefLabel "ash fall"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/bacterialDisease> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/disease> ;
+        skos:definition "An unusual increase in the number of incidents caused by the exposure to bacteria either through skin contact, ingestion orinhalation. Examples include salmonella, MSRA, and cholera, among others."@en ;
+        skos:notation "bacterialDisease" ;
+        skos:prefLabel "bacterial disease"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/blindtromben> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/wind> ;
+        skos:definition "In meteorology, a cloud column or inverted cloud cone, pendant from a cloud base. This supplementary feature occurs mostly with cumulus and cumulonimbus, when it reaches the earth's surface it constitutes the cloudy manifestation of an intense vortex, namely, a tornado or waterspout."@en,
+            "In meteorology, a cloud column or inverted cloud cone, pendant from a cloud base. This supplementary feature occurs mostly with cumulus and cumulonimbus; when it reaches the earth's surface it constitutes the cloudy manifestation of an intense vortex, namely, a tornado or waterspout."@en ;
+        skos:notation "blindtromben" ;
+        skos:prefLabel "blind tromben"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/boulderFall> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation> ;
+        skos:definition "Processes of downhill slope movements of rock fragments related to different types of ground failure."@en ;
+        skos:notation "boulderFall" ;
+        skos:prefLabel "boulder fall"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/coastalErosion> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/massMovement> ;
+        skos:definition "The temporary or permanent loss of sediments or landmass in coastal margins due to the action of waves, winds, tides, or anthropogenic activities."@en ;
+        skos:notation "coastalErosion" ;
+        skos:prefLabel "coastal erosion"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/coastalFlood> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/flood> ;
+        skos:definition "Higher-than-normal water levels along the coast caused by tidal changes or thunderstorms that result in flooding, which can last from days to weeks."@en ;
+        skos:notation "coastalFlood" ;
+        skos:prefLabel "coastal flood"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/coldWave> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature> ;
+        skos:definition "Popularly, a period of very cold weather."@en ;
+        skos:notation "coldWave" ;
+        skos:prefLabel "cold wave"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/collision> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects> ;
+        skos:definition "has to be defined"@en ;
+        skos:notation "collision" ;
+        skos:prefLabel "Collision"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/continuousRain> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/precipitation> ;
+        skos:definition "has to be defined"@en ;
+        skos:notation "continuousRain" ;
+        skos:prefLabel "continuous rain"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/debrisFlow> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/massMovement> ;
+        skos:definition "has to be defined"@en ;
+        skos:notation "debrisFlow" ;
+        skos:prefLabel "debris flow"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/deepGliding> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/deepSeated> ;
+        skos:definition "Deep seated, with more than 50 m in depth, slow motion slope deformation of bedrocks with complex gliding and slide processes affects an area bigger than 1 Square kilometer as well a volume greater than 1 cubic kilometer."@en ;
+        skos:notation "deepGliding" ;
+        skos:prefLabel "deep gliding (antfriction)"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/deepTiltingAndDrifting> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/deepSeated> ;
+        skos:definition "Deep seated, with more than 50 m in depth, slow motion slope deformation of bedrocks with rotational gliding and drifting processes affects an area bigger than 1 Square kilometer as well a volume greater than 1 cubic kilometer."@en ;
+        skos:notation "deepTiltingAndDrifting" ;
+        skos:prefLabel "deep tilting and drifting"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/derecho> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm> ;
+        skos:definition "a storm system that moves a long distance rapidly and brings winds which can devastate an area several miles wide."@en ;
+        skos:notation "derecho" ;
+        skos:prefLabel "derecho"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/drought> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/climatological> ;
+        skos:definition "Drought may be considered in general terms a consequence of a reduction over an extended period of time in the amount of precipitation that is received, usually over a season or more in length. It is a temporary aberration, unlike aridity, which is a permanent feature of the climate. Seasonal aridity (i.e., a well-defined dry season) also needs to be distinguished from drought. It should be noted that drought is a normal, recurrent feature of climate, and it occurs in virtually all climatic regimes (UNDDR)."@en,
+            "has to be defined"@en ;
+        skos:notation "drought" ;
+        skos:prefLabel "drought"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/dustDevil> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/wind> ;
+        skos:definition "Dust devils are occasionally strong enough to cause minor damage (up to EF0 on the Enhanced Fujita scale). Diameters range from about 3 m to greater than 30 m; their average height is about 200 m, but a few have been observed as high as 1 km or more. They have been observed to rotate anticyclonically as well as cyclonically. Although the vertical velocity is predominantly upward, the flow along the axis of large dust devils may be downward. Large dust devils may also contain secondary vortices. Dust devils are best developed on a hot, calm afternoon with clear skies, in a dry region when intense surface heating causes a very steep lapse rate of temperature in the lowest 100 m of the atmosphere. Related to Sand/dust storm (EM-Dat)"@en,
+            "Dust devils are occasionally strong enough to cause minor damage, up to EF0 on the Enhanced Fujita scale. Diameters range from about 3 m to greater than 30 m, their average height is about 200 m, but a few have been observed as high as 1 km or more. They have been observed to rotate anticyclonically as well as cyclonically. Although the vertical velocity is predominantly upward, the flow along the axis of large dust devils may be downward. Large dust devils may also contain secondary vortices. Dust devils are best developed on a hot, calm afternoon with clear skies, in a dry region when intense surface heating causes a very steep lapse rate of temperature in the lowest 100 m of the atmosphere. Related to Sand/dust storm (EM-Dat)"@en ;
+        skos:notation "dustDevil" ;
+        skos:prefLabel "dust devil"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/energeticParticles> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/solarAndCosmicRadiation> ;
+        skos:definition "Emissions from solar radiation storms consisting of pieces of matter (e.g., protons and other charged particles) moving at very high speed. The magnetosphere and atmosphere block (solar) energetic particles (SEP) from reaching humans on Earth but they are damaging to the electronics of space-borne technology (such as satellites) and pose a radiation hazard to life in space and aircrafts travelling at high altitudes."@en ;
+        skos:notation "energeticParticles" ;
+        skos:prefLabel "Energetic Particles"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/expansiveSoil> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/massMovement> ;
+        skos:definition "Earthen material, particularly clays that, upon wetting, freezing, or drying will alternately expand or contract causing damage to foundations of buildings and other structures. Shrinkage is generally referred to as desiccation."@en ;
+        skos:notation "expansiveSoil" ;
+        skos:prefLabel "expansive soil"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/extraTropicalStorm> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm> ;
+        skos:definition "A cyclone of tropicla latidutes and depression when wind on the Beaufourt Scale are up to and in clouding force of 7."@en ;
+        skos:notation "extraTropicalStorm" ;
+        skos:prefLabel "extra tropical storm"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/fireFollowingEarthquake> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/earthquake> ;
+        skos:definition "Urban fires triggered by earthquakes. Particularly susceptible areasinclude densely spaced, wooden buildings that dominate local architecture, and where the ear thquake has damaged or ruptured wat er and gas pipelines. Small local fires have the potential to merge into conflagrations destroying many city blocks."@en,
+            "Urbanfires triggered by earthquakes. Particularly susceptible areasinclude densely spaced, wooden buildings that dominate local architecture, and where the ear thquake has damaged or ruptured wat er and gas pipelines. Small local fires have the potential to merge into conflagrations destroying many city blocks."@en ;
+        skos:notation "fireFollowingEarthquake" ;
+        skos:prefLabel "fire following earthquake"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/flashFlood> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/flood> ;
+        skos:definition "Heavy or excessive rainfall in a short period of time that produce immediate runoff, creating flooding conditions within minutes or a few hours during or after the rainfall."@en ;
+        skos:notation "flashFlood" ;
+        skos:prefLabel "Flash Flood"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/fog> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/precipitation> ;
+        skos:definition "Wat er droplets that ar e suspended in the ai r near the Earthâs surface. Fog is simply a cloud that is in contact with the ground."@en,
+            "Water droplets that are suspended in the air near the Earths surface. Fog is simply a cloud that is in contact with the ground."@en,
+            "has to be defined"@en ;
+        skos:notation "fog" ;
+        skos:prefLabel "fog"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/forestFire> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/wildFire> ;
+        skos:definition "A type of wildfire in a wooded area."@en ;
+        skos:notation "forestFire" ;
+        skos:prefLabel "forest fire"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/frostFreeze> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature> ;
+        skos:definition "Freeze occurs when the air temperature is at (32 ÌF/ 0 ÌC) or below overa widespread area for a climatologically significant perio d of time. Use of the term is usually restricted to advect ive situations or to occasions when wind or other conditions prevent frost . Frost and freeze are particularly damaging during the cr op growing season."@en,
+            "Freeze occurs when the air temperature is at 32 Grad Fahrenheidt or O grad Celsius or below overa widespread area for a cl imatologically significant perio d of time. Use of the term is usually rest ri ct ed to advect ive situatio ns or to occasions when wind or other conditio ns prevent frost . Frost and freeze are part icularl y damaging during the cr op growing season."@en ;
+        skos:notation "frostFreeze" ;
+        skos:prefLabel "frostFreeze"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/fungalDisease> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/disease> ;
+        skos:definition "Exposure to fungi either through skin contact, ingestion or inhalation of spores resulting in an unusual increase in the number of incidents. Examples are fungal pneumonia, fungal meningitis, etc."@en ;
+        skos:notation "fungalDisease" ;
+        skos:prefLabel "fungal disease"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/geomagneticStorm> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/magneticDisruption> ;
+        skos:definition "A type of extraterrestrial hazard caused by solar wind shockwaves that temporarily disturb the Earthâs magnetosphere. Geomagnetic storms can disrupt power grids, spacecraft operations, and satellite communications."@en ;
+        skos:notation "geomagneticStorm" ;
+        skos:prefLabel "Geomagnetic Storm"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/glacialLakeOutburst> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/climatological> ;
+        skos:definition "has to be defined"@en ;
+        skos:notation "glacialLakeOutburst" ;
+        skos:prefLabel "glacial lake outburst"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/groundMovement> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/earthquake> ;
+        skos:definition "Surface di splacement of earthen mat eri als due to ground shaking tri ggered by earthquakes or volc anic eruptions."@en,
+            "Surface displacement of earth mat erials due to ground shaking triggered by earthquakes or volcanic eruptions."@en ;
+        skos:notation "groundMovement" ;
+        skos:prefLabel "groundMovement"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/gustnado> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/wind> ;
+        skos:definition "Colloquial expression for a short-lived, shallow, generally weak, vertically oriented vortex found along a gust front. Gustnadoes are usually visualized by a rotating dust or debris cloud."@en ;
+        skos:notation "gustnado" ;
+        skos:prefLabel "gustnado"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/hail> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/precipitation> ;
+        skos:definition "ice pellets or small hail (less than 5mm diameter in the Range with 20mm or more"@en,
+            "ice pellets or small hail (less than 5mm diameter in the Range with 20mm or more."@en ;
+        skos:notation "hail" ;
+        skos:prefLabel "hail"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/heatWave> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature> ;
+        skos:definition "A period of abnormally and uncomfortably hot and usually humid weather."@en ;
+        skos:notation "heatWave" ;
+        skos:prefLabel "heat wave"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/heavyRain> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/precipitation> ;
+        skos:definition "has to be defined"@en ;
+        skos:notation "heavyRain" ;
+        skos:prefLabel "heavy rain"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/heavySnowfall> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/precipitation> ;
+        skos:definition "has to be defined"@en ;
+        skos:notation "heavySnowfall" ;
+        skos:prefLabel "heavy snowfall"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/iceJamFlood> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/flood> ;
+        skos:definition "The accumulation of floating ice restricting or blocking a riverâs flow and drainage. Ice jams tend to develop near river bends and obstructions (e.g., bridges)."@en ;
+        skos:notation "iceJamFlood" ;
+        skos:prefLabel "Ice Jam Flood"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/insectInfestation> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/infestation> ;
+        skos:definition "The pervasive influx, swarming and or hatching of insects affecting humans, animals, crops, and perishable goods. Examples are locusts and African Bees."@en,
+            "The pervasive influx, swarming and/or hatching of insects affecting humans, animals, crops, and perishable goods. Examples are locusts and African Bees."@en ;
+        skos:notation "insectInfestation" ;
+        skos:prefLabel "insect infestation"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/lahar> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity> ;
+        skos:definition "Hot or cold mixture of earthen mat eri al flowing on the slo pe of a volcano either during or between volc anic eruptions."@en,
+            "Hot or cold mixture of earthen material flowing on the slope of a volcano either during or between volcanic eruptions."@en ;
+        skos:notation "lahar" ;
+        skos:prefLabel "Lahar"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/landslideEarthQuake> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/earthquake> ;
+        skos:definition "Independent of the presence of water, mass movement may also be triggered by earthquakes."@en ;
+        skos:notation "landslideEarthQuake" ;
+        skos:prefLabel "earthquake landslide"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/landslides> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation> ;
+        skos:definition "has to be defined"@en,
+            "landslides, rock slide or avalanches"@en ;
+        skos:notation "landslides" ;
+        skos:prefLabel "landslides"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/lavaFlow> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity> ;
+        skos:definition "The ejected magma that moves as a li qui d mass downslo pe from a volcano during an eruption."@en,
+            "The ejected magma that moves as a liquid mass downslope from a volcano during an eruption."@en ;
+        skos:notation "lavaFlow" ;
+        skos:prefLabel "lava flow"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/liquefaction> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/massMovement> ;
+        skos:definition "The transformat ion of (partially) wat er-sat urat ed soil from a soli d stat e to a liqui d stat e caused by an earthquake. Li quefaction reduces the strength and stiffness of soil causing buildings to topple over."@en,
+            "The transformat ion of partially water-saturat ed soil from a solid state to a liquid state caused by an earthquake. Liquefaction reduces the strength and stiffness of soil causing buildings to topple over."@en ;
+        skos:notation "liquefaction" ;
+        skos:prefLabel "liquefaction"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedGliding> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/mediumSeated> ;
+        skos:definition "Medium seated, from 2 m up to 50 m in depth, slow motion slope deformation of bed- or surface rocks with complex gliding and slide processes affects an area bigger than 10 square meter up to 1 square kilometer as well as a volume in a range between 10 to 10.000 cubic meter."@en ;
+        skos:notation "mediumSeatedGliding" ;
+        skos:prefLabel "medium seated gliding (antfriction)"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedTiltingAndDrifting> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/mediumSeated> ;
+        skos:definition "Medium seated, from 2 m up to 50 m in depth, slow or moderate motion slope deformation of bed- or surface rocks with rotational gliding and drifting processes affects an area bigger than 10 square meter up to 1 square kilometer as well as a volume in a range between 10 to 10.000 cubic meter."@en ;
+        skos:notation "mediumSeatedTiltingAndDrifting" ;
+        skos:prefLabel "medium seated tilting and drifting"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/meteoriteImpact> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects> ;
+        skos:definition "Solid materials from outer space reaching the Earth."@en ;
+        skos:notation "meteoriteImpact" ;
+        skos:prefLabel "meteorite impact"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/mudFlow> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/shallowSeated> ;
+        skos:definition "Shallow seated, up to 2 m depth, slow to rapid movement of water-saturated surface rocks with complex gliding and slide processes affects an area up to 10.000 square meter as well as a volume in a dominant range between 0.25 to 10 cubic meter."@en ;
+        skos:notation "mudFlow" ;
+        skos:prefLabel "Mud flow"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/parasiticDisease> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/disease> ;
+        skos:definition "Exposure to a parasite and organism living on or in a host-causes an unusual increase in the number of incidents. Exposure to parasites occurs mostly through contaminated water, food or contact with insects, animals (zoonotic), pets, etc. Examples are malaria, chagas disease, giardiasis and trichinellosis."@en,
+            "Exposure to a parasite-an organism living on or in a host-causes an unusual increase in the number of incidents. Exposure to parasites occurs mostly through contaminated water, food or contact with insects, animals (zoonotic), pets, etc. Examples are malaria, chagas disease, giardiasis and trichinellosis."@en ;
+        skos:notation "parasiticDisease" ;
+        skos:prefLabel "parasitic disease"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/prionDisease> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/disease> ;
+        skos:definition "A type of biological hazard caused by prion proteins. Prion diseases or transmissible spongiform encephalopathies (TSEs) are a family of rare progressive neurodegenerative disorders that affect both humans and animals characterised by long incubation periods and neural loss. Examples are Bovine Spongiform Encephalophathy (BSE), Creutzfeldt-akob-Disease (CJD), Kuru, etc."@en ;
+        skos:notation "prionDisease" ;
+        skos:prefLabel "prion disease"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/pyroclasticFlow> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity> ;
+        skos:definition "Extremely hot gases, ash, and other mat eri als of more than 1, 000 degrees Celsius that rapidly flow down the flank of a volc ano (more than 700 km/h) during an eruption."@en,
+            "Extremely hot gases, ash, and other materials of more than 1.000 degrees Celsius that rapidly flow down the flank of a volcano (more than 700 km/h) during an eruption."@en ;
+        skos:notation "pyroclasticFlow" ;
+        skos:prefLabel "pyroclastic flow"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/radioDisturbance> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/solarAndCosmicRadiation> ;
+        skos:definition "Triggered by x-ray emissions from the Sun hitting the Earthâs atmosphere and causing disturbances in the ionosphere such as jamming of high and/or low frequency radio signals. This affects satellite radio communication and Global Positioning Systems (GPS)."@en ;
+        skos:notation "radioDisturbance" ;
+        skos:prefLabel "Radio Disturbance"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/riverineFlood> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/flood> ;
+        skos:definition "A type of flooding resulting from the overflow of water from a stream or river channel onto normally dry land in the floodplain adjacent to the channel."@en ;
+        skos:notation "riverineFlood" ;
+        skos:prefLabel "Riverine Flood"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/rockFall> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation> ;
+        skos:definition "Rockfall is the primary formational process, occurring either through the release of individual blocks or through larger-scale rockwall collapse, and exerts first-order control over the morphologic development of alpine hillslopes (Ballantyne and Harris, 1994, p. From: Treatise on Geomorphology, 2013"@en,
+            "Rockfall is the primary formational process, occurring either through the release of individual blocks or through larger-scale rockwall collapse, and exerts first-order control over the morphologic development of alpine hillslopes (Ballantyne and Harris, 1994, p. From: Treatise on Geomorphology, 2013."@en ;
+        skos:notation "rockFall" ;
+        skos:prefLabel "rockFall"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/rogueWave> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/flood> ;
+        skos:definition "An unusual single crest of an ocean wave far out at sea that is much higher and/or steeper than other waves in the prevailing swell system."@en ;
+        skos:notation "rogueWave" ;
+        skos:prefLabel "Rogue Wave"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/seiche> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/flood> ;
+        skos:definition "A standing wave of water in a large semi- or fully-enclosed body of water (lakes or bays) created by strong winds and/or a large barometric pressure gradient,"@en,
+            "A standing wave of water in a large semi- or fully-enclosed body of water,lakes or bays, created by strong winds and/or a large barometric pressure gradient,"@en ;
+        skos:notation "seiche" ;
+        skos:prefLabel "Seiche"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/severeStorm> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm> ;
+        skos:definition "Severe thunderstorms are officially defined as storms that are capable of producing hail that is an inch or larger or wind gusts over 58 mph."@en ;
+        skos:notation "severeStorm" ;
+        skos:prefLabel "severe storm"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/severeWinterConditions> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature> ;
+        skos:definition "has to be defined"@en ;
+        skos:notation "severeWinterConditions" ;
+        skos:prefLabel "severe winter conditions"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/shallowSeatedGliding> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/shallowSeated> ;
+        skos:definition "Shallow seated, up to 2 m depth, slow to rapid movement of surface rocks with complex gliding and slide processes affects an area up to 10.000 square meter as well as a volume in a dominant range between 0.25 to 10 cubic meter."@en ;
+        skos:notation "shallowSeatedGliding" ;
+        skos:prefLabel "shallow seated gliding (antfriction)"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/shockwave> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects> ;
+        skos:definition "A shockwave carries energy from a disturbance through a mediu (solid, liquid, gas) similar to a wave though it travels at much higher speed. It can be a type of extraterrestrial hazard caused by the explosion (airburst) or impact of meteorites that generate energy shockwaves capable of shattering glass, collapsing walls, etc."@en,
+            "A shockwave carries energy from a disturbance through a mediu (solid, liquid, gas) similar to a wave though it travels at much higher speed. It can be a type of extraterrestrial hazard caused by the explosion, e.g. airburst or impact of meteorites that generate energy shockwaves capable of shattering glass, collapsing walls, etc."@en ;
+        skos:notation "shockwave" ;
+        skos:prefLabel "Shockwave"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/sinkhole> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/massMovement> ;
+        skos:definition "Subsidence refers to the sinking of the ground due to groundwater removal, mining, dissolution of limestone (e.g. karst, sinkholes), extraction of natural gas, and earthquakes. (IRDR)"@en,
+            "Subsidence refers to the sinking of the ground due to groundwater removal, mining, dissolution of limestone, e.g. karst, sinkholes, extraction of natural gas, and earthquakes, IRDR."@en ;
+        skos:notation "sinkhole" ;
+        skos:prefLabel "sinkhole"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/snowAvalanche> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/massMovement> ;
+        skos:definition "Rapid downslope movement of a mix of snow and ice that slides, flows or falls rapidly down a mountainside under the force of gravity."@en ;
+        skos:notation "snowAvalanche" ;
+        skos:prefLabel "snow avalanche"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/stoneFall> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation> ;
+        skos:definition "Processes of downhill slope movements of little rock fragments related to different types of ground failure."@en ;
+        skos:notation "stoneFall" ;
+        skos:prefLabel "stone fall"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/stormSurge> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm> ;
+        skos:definition "An abnormal ri se in sea le vel generated by a tropi cal cyclo ne or other intense storms."@en,
+            "An abnormal rise in sea level generated by a tropical cyclone or other intense storms."@en ;
+        skos:notation "stormSurge" ;
+        skos:prefLabel "storm surge"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/subsidence> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/massMovement> ;
+        skos:definition "Subsidence refers to the sinking of the ground due to groundwater removal, mining, dissolution of limestone (e.g. karst, sinkholes), extraction of natural gas, and earthquakes. (IRDR)"@en,
+            "Subsidence refers to the sinking of the ground due to groundwater removal, mining, dissolution of limestone, e.g. karst, sinkholes, extraction of natural gas, and earthquakes,IRDR."@en ;
+        skos:notation "subsidence" ;
+        skos:prefLabel "subsidence"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/thunderstorm> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm> ;
+        skos:definition "In general, a local storm, invariably produced by a cumulonimbus cloud and always accompanied by lightning and thunder, usually with strong gusts of wind, heavy rain, and sometimes with hail."@en,
+            "has to be defined"@en ;
+        skos:notation "thunderstorm" ;
+        skos:prefLabel "thunderstorm"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/tornado> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm> ;
+        skos:definition "A rotating column of air, in contact with the surface, pendant from a cumuliform cloud, and often visible as a funnel cloud and/or circulating debris/dust at the ground."@en ;
+        skos:notation "tornado" ;
+        skos:prefLabel "tornado"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/torrents> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation> ;
+        skos:definition "has to be defined"@en ;
+        skos:notation "torrents" ;
+        skos:prefLabel "torrents"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/toxicOrRadioactive> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/geophysical> ;
+        skos:definition "Processes related to the nature of substances that might pose a threat to human health."@en ;
+        skos:notation "toxicOrRadioactive" ;
+        skos:prefLabel "toxicOrRadioactive"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/tropicalCyclone> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/meteorological> ;
+        skos:definition "tropical cyclone originates over tropical or subtropical waters . It is characteri sed by a war m-core, non-frontal synoptic-scale cyclone with a low pressure centre, spiral rain bands and strong winds. Depending on their location, tropical cyclones are referred to as hurricanes (Atlantic, Nort heast Pacific), typhoons (Nort hwest Pacific), or cyclones (South Pacific and Indian Ocean"@en,
+            "tropical cyclone originates over tropical or subtropical waters . It is characterised by a warm-core, non-frontal synoptic-scale cyclone with a low pressure centre, spiral rain bands and strong winds. Depending on their location, tropical cyclones are referred to as hurricanes (Atlantic, Nort heast Pacific), typhoons (Nort hwest Pacific), or cyclones (South Pacific and Indian Ocean"@en ;
+        skos:notation "tropicalCyclone" ;
+        skos:prefLabel "tropicalCyclone"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/tropicalStorm> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm> ;
+        skos:definition "A cyclone of tropical latidutes and depression when wind on the Beaufourt Scale are up to and in clouding force of 7."@en,
+            "A cyclone of tropicla latidutes and depression when wind on the Beaufourt Scale are up to and in clouding force of 7."@en ;
+        skos:notation "tropicalStorm" ;
+        skos:prefLabel "tropical storm"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/tsunami> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/earthquake> ;
+        skos:definition "A seri es of waves (with lo ng wavele ngths when traveli ng across the deep ocean) that ar e generated by a di splacement of massive amounts of wat er throughunderwat er earthquakes, volc anic eruptions or landsli des. Tsunami waves travel at very high speed across the ocean but as they begi n to reach shallow water they slo w down and the wave grows steeper."@en,
+            "A series of waves, with long wavelengths when traveling across the deep ocean, that are generated by a displacement of massive amounts of water through under water-earthquakes, volcanic eruptions or landslides. Tsunami waves travel at very high speed across the ocean but as they begi n to reach shallow water they slo w down and the wave grows steeper."@en ;
+        skos:notation "tsunami" ;
+        skos:prefLabel "tsunami"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/viralDisease> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/disease> ;
+        skos:definition "Viruses cause familiar infectious diseases such as the common cold, flu and warts. They also cause severe illnesses such as HIV/AIDS, smallpox, and Ebola."@en ;
+        skos:notation "viralDisease" ;
+        skos:prefLabel "viral disease"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/winterStorm> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm> ;
+        skos:definition "has to be defined"@en ;
+        skos:notation "winterStorm" ;
+        skos:prefLabel "winter storm"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/epidemic> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/biological> ;
+        skos:definition "An outbreak of a disease that spreads rapidly among individuals in an area or population."@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/disease> ;
+        skos:notation "epidemic" ;
+        skos:prefLabel "epidemic"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/hazardType> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:definition "A generic classification of types of natural hazards"@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster> ;
+        skos:notation "hazardType" ;
+        skos:prefLabel "HazardType"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/hazardtype> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/hydrological> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster> ;
+        skos:definition "A hazard caused by the occurrence, movement, and distribution of surface and subsurface freshwater and saltwater."@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/flood> ;
+        skos:notation "hydrological" ;
+        skos:prefLabel "hydrological"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/infestation> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/biological> ;
+        skos:definition "Abnormal population increase of living organisms."@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/insectInfestation> ;
+        skos:notation "infestation" ;
+        skos:prefLabel "infestation"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/magneticDisruption> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/spaceWeather> ;
+        skos:definition "Disturbances of the magnetic field of the Earth."@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/geomagneticStorm> ;
+        skos:notation "magneticDisruption" ;
+        skos:prefLabel "magnetic disruption"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/deepSeated> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation> ;
+        skos:definition "has to be defined"@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/deepGliding>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/deepTiltingAndDrifting> ;
+        skos:notation "deepSeated" ;
+        skos:prefLabel "deep seated slope deformation"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/extraTerrestrial> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster> ;
+        skos:definition "A hazard caused by asteroids, meteoroids, and comets as they pass near-earth, enter the Earthâs atmosphere, and/or strike the Earth, and by changes in interplanetary conditions that effect the Earthâs magnetosphere, ionosphere, and thermosphere."@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/spaceWeather> ;
+        skos:notation "extraTerrestrial" ;
+        skos:prefLabel "extra terrestrial"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/mediumSeated> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation> ;
+        skos:definition "has to be defined"@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedGliding>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/mediumSeatedTiltingAndDrifting> ;
+        skos:notation "mediumSeated" ;
+        skos:prefLabel "mediumSeated"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/shallowSeated> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation> ;
+        skos:definition "has to be defined"@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/mudFlow>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/shallowSeatedGliding> ;
+        skos:notation "shallowSeated" ;
+        skos:prefLabel "shallowÂ seated"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/solarAndCosmicRadiation> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/spaceWeather> ;
+        skos:definition "Radiation from outer space (UV, gamma ray, etc)."@en,
+            "Radiation from outer space, e.g. UV, gamma ray, etc."@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/energeticParticles>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/radioDisturbance> ;
+        skos:notation "solarAndCosmicRadiation" ;
+        skos:prefLabel "solar and cosmic radiations"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/spaceWeather> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/extraTerrestrial> ;
+        skos:definition "According to NASA, space weather is the dynamic conditions in the Earthâs outer space environment. It includes any event on the sun, in the solar wind, in near-Earth space and in our upper atmosphere that can affect the performance and reliability of space-borne and ground-based technological systems and through these, human life and endeavor."@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/magneticDisruption>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/solarAndCosmicRadiation> ;
+        skos:notation "spaceWeather" ;
+        skos:prefLabel "space weather"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/wildFire> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/climatological> ;
+        skos:definition "Any uncontrolled and non-prescri bed combustion or burning of plants in a nat ural setting such as a forest, grassland, brush la nd or tundra, which consumes the nat ural fuels and spreadsbased on envi ronmental condi tions (e.g. , wind, topography) . Wildfires can be tri ggered by li ghtning or human actions."@en,
+            "Any uncontrolled and non-prescribed combustion or burning of plants in a natural setting such as a forest, grassland, brush land or tundra, which consumes the nat ural fuels and spreadsbased on envi ronmental condi tions (e.g. , wind, topography) . Wildfires can be tri ggered by li ghtning or human actions."@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/LandFire>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/forestFire> ;
+        skos:notation "wildFire" ;
+        skos:prefLabel "wild fire"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/climatological> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster> ;
+        skos:definition "has to be defined"@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/drought>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/glacialLakeOutburst>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/wildFire> ;
+        skos:notation "climatological" ;
+        skos:prefLabel "climatological"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/wind> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm> ;
+        skos:definition "Air in motion relative to the surface of the earth."@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/blindtromben>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/dustDevil>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/gustnado> ;
+        skos:notation "wind" ;
+        skos:prefLabel "wind"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/biological> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster> ;
+        skos:definition "Processes that are directly linked to living organisms or products produced by living organisms."@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/allergens>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/animalIncident>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/epidemic>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/infestation> ;
+        skos:notation "biological" ;
+        skos:prefLabel "biological"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/earthquake> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/geophysical> ;
+        skos:definition "Sudden movement of a block of the Earthâs crust along a geological fault and associated ground shaking."@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/fireFollowingEarthquake>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/groundMovement>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/landslideEarthQuake>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/tsunami> ;
+        skos:notation "earthquake" ;
+        skos:prefLabel "earthquake"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/meteorological> ;
+        skos:definition "has to be defined"@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/coldWave>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/frostFreeze>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/heatWave>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/severeWinterConditions> ;
+        skos:notation "extremeTemperature" ;
+        skos:prefLabel "extreme temperature"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/geophysical> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster> ;
+        skos:definition "A hazard originating from solid earth. This term is used interchangeably with the term geological hazard."@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/earthquake>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/massMovement>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/toxicOrRadioactive>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity> ;
+        skos:notation "geophysical" ;
+        skos:prefLabel "geophysical"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/meteorological> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster> ;
+        skos:definition "A hazard caused by short-lived, micro- to meso-scale extreme weather and atmospheric conditions that last from minutes to days."@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/extremeTemperature>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/precipitation>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/tropicalCyclone> ;
+        skos:notation "meteorological" ;
+        skos:prefLabel "meteorological"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/nearEarthObjects> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/extraTerrestrial> ;
+        skos:definition "According to the Action Team on Near-Earth Objects established by the Committee on the Peaceful Uses of Outer Space , a near-Earth object (NEO) is an asteroid or comet whose trajectory brings it within 1.3 astronomical units of the Sun and hence within 0.3 astronomical units, or approximately 45 million kilometres, of the Earthâs orbit. This includes objects that will come close to the Earth at some point in their future orbital evolution. NEOs generally result from objects that have experienced gravitational perturbations from nearby planets, moving them into orbits that allow them to come near to the Earth. A near-Earth asteroid is said to be a potentially hazardous asteroid when its orbit comes within 0.05 astronomical units of the Earthâs orbit and it has a measured absolute magnitude H<22 mag (an estimated diameter greater than 140 meters)."@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/airburst>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/collision>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/meteoriteImpact>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/shockwave> ;
+        skos:notation "nearEarthObjects" ;
+        skos:prefLabel "near earth objects"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/volcanicActivity> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/geophysical> ;
+        skos:definition "A type of volcanic event near an opening/vent in the Earths surace including volcanic eruptions of lava, ash, hot vapour, gas, and pyroclastic material."@en,
+            "A type of volcanic event near an opening/vent in the Earthâs surface including volcanic eruptions of lava, ash, hot vapour, gas, andpyrocl ast ic material."@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/ashFall>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/lahar>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/lavaFlow>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/pyroclasticFlow> ;
+        skos:notation "volcanicActivity" ;
+        skos:prefLabel "volcanic activity"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/disease> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/epidemic> ;
+        skos:definition "Either an unusual, often sudden, increase in the number of incidents of an infectious disease that already existed in the region (e.g., flu, E.coli) or the appearance of an infectious disease previously absent from the region (e.g., plague, polio)."@en,
+            "Either an unusual, often sudden, increase in the number of incidents of an infectious disease that already existed in the region (e.g., flu, E.coli) or the appearance of an infectious disease previously absent from the region, e.g., plague, polio."@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/bacterialDisease>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/fungalDisease>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/parasiticDisease>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/prionDisease>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/viralDisease> ;
+        skos:notation "disease" ;
+        skos:prefLabel "disease"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/precipitation> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/meteorological> ;
+        skos:definition "All liquid or solid phase aqueous particles that originate in the atmosphere and fall to the earth's surface."@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/continuousRain>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/fog>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/hail>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/heavyRain>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/heavySnowfall> ;
+        skos:notation "precipitation" ;
+        skos:prefLabel "precipitation"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/flood> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/hydrological> ;
+        skos:definition "A type of flooding resulting from the overflow of water onto normally dry land in the floodplain adjacent to the water body."@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/coastalFlood>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/flashFlood>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/iceJamFlood>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/riverineFlood>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/rogueWave>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/seiche> ;
+        skos:notation "flood" ;
+        skos:prefLabel "flood"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/naturalDisaster> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/hazardType> ;
+        skos:definition "has to be defined"@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/biological>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/climatological>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/extraTerrestrial>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/geophysical>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/hydrological>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/meteorological> ;
+        skos:notation "naturalDisaster" ;
+        skos:prefLabel "Natural Disaster"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/massMovement> ;
+        skos:definition "A general term for the dislodgement and downslope transport of soil and rock material under the direct application of gravitational body stresses. In contrast to other erosion processes, the debris removed by mass wasting is not carried within, on, or under another medium. The mass properties of the material being transported depend on the interaction of the soil and rock particles and on the moisture content. Mass wasting includes slow displacements, such as creep and solifluction, and rapid movements such as rockfalls, rockslides, and cohesive debris flows (Jackson, 1997, p. 392). Includes both subaerial mass-wasting processes and subaqueous mass-wasting processes."@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/boulderFall>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/deepSeated>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/landslides>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/mediumSeated>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/rockFall>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/shallowSeated>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/stoneFall>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/torrents> ;
+        skos:notation "gravitationalSlopeDeformation" ;
+        skos:prefLabel "gravitational slope deformation"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/massMovement> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/geophysical> ;
+        skos:definition "Mass movements can be defined as as any type of downslope movement of earth materials, such as sediment, soil and rock material. Mass movements are processes of erosion, transport and accumulation of material that occur on both gentle and steep slopes mainly owing to gravitational forces (IRDR Glossary). These movements are generally associated with other disasters such as earthquakes, floods, thunderstorms and heavy rainstorm. They can be also associated with manmade hazards like construction roads, buildings, structures, infrastructure facilities."@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/coastalErosion>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/debrisFlow>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/expansiveSoil>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/gravitationalSlopeDeformation>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/liquefaction>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/sinkhole>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/snowAvalanche>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/subsidence> ;
+        skos:notation "massMovement" ;
+        skos:prefLabel "mass movement"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/hazardtype/convectiveStorm> a skos:Concept ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/nz> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/nz> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/hazardtype/meteorological> ;
+        skos:definition "A type of meteorological hazard generated by the heat ing of ai r and the availabili ty of moist and unstable ai r masses. Convective storms range from lo calised thunders torms (with heavy rain and/ or hail, li ghtning, high winds, tornadoes) to meso-scal e, multi-day events."@en ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/hazardtype/derecho>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/extraTropicalStorm>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/severeStorm>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/stormSurge>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/thunderstorm>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/tornado>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/tropicalStorm>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/wind>,
+            <https://registry.inspire.gv.at/codelist/hazardtype/winterStorm> ;
+        skos:notation "convectiveStorm" ;
+        skos:prefLabel "convective storm"@en ;
+        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+}
+

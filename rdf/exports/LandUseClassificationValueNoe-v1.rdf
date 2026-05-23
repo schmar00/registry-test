@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:ns1="http://www.w3.org/ns/adms#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/LandUseClassificationValueNoe">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-05T14:30:11+00:00</dcterms:created>
+    <dcterms:description xml:lang="de">Liste der fÃ¼r das INSPIRE-Thema Bodennutzung zu verwendenden und auf nationaler oder lokaler Ebene abgestimmten Bodennutzungskategorien.</dcterms:description>
+    <dcterms:description xml:lang="en">List of land use categories to be used in INSPIRE Land Use and agreed at a national or local level.</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <dcterms:title xml:lang="en">Land Use Classification</dcterms:title>
+    <dcterms:title xml:lang="de">Klassifikation der Bodennutzung</dcterms:title>
+    <dcterms:type rdf:resource="http://inspire.ec.europa.eu/codelist/LandUseClassificationValue"/>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/submitted"/>
+  </rdf:Description>
+</rdf:RDF>
