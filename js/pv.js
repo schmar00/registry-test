@@ -502,7 +502,7 @@ function showCodelist(uri, cl) {
 
 // with pagination and sorting (client-side)###################################################
                 let version = jsonData.results.bindings[0].g.value.split(':')[2];
-                const fileName = 'rdf/' + cl + '-v' + version;
+                const fileName = 'rdf/exports/' + cl + '-v' + version;
                 const $meta = $('<div>', { class: 'mb-3' });
                 $meta.append(document.createTextNode(`This version: ${jsonData.results.bindings[0].g.value}`));
                 $meta.append($('<br>'));
