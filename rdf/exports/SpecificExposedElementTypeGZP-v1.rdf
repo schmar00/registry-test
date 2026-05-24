@@ -6,54 +6,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ300">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
-    <dcterms:description xml:lang="en">Def. UBA</dcterms:description>
-    <dcterms:description xml:lang="de">Def. UBA</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
-    <skos:definition xml:lang="de">Hochwasser niedriger Wahrscheinlichkeit mit einem voraussichtlichen Wiederkehrintervall von 300 Jahren (Extremereignisse)</skos:definition>
-    <skos:definition xml:lang="en">not available</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
-    <skos:notation>UeberflutungsflaechenHQ300</skos:notation>
-    <skos:prefLabel xml:lang="en">Überflutungsflächen HQ300</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Überflutungsflächen HQ300</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RoteGefahrenzonen">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
-    <dcterms:description xml:lang="en">Def. UBA</dcterms:description>
-    <dcterms:description xml:lang="de">Def. UBA</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
-    <skos:definition xml:lang="de">Flächen, die durch das Bemessungsereignis mittlerer Wahrscheinlichkeit derart gefährdet sind, dass ihre ständige Benützung für Siedlungs- und Verkehrszwecke wegen der voraussichtlichen Schadenswirkungen nicht oder nur mit unverhältnismäßig hohem Aufwand möglich ist (Gefahr für Leib und Leben).</skos:definition>
-    <skos:definition xml:lang="en">not available</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
-    <skos:notation>RoteGefahrenzonen</skos:notation>
-    <skos:prefLabel xml:lang="en">Rote Gefahrenzonen</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Rote Gefahrenzonen</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/BlaueFunktionsbereiche">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
-    <dcterms:description xml:lang="en">Def. UBA</dcterms:description>
-    <dcterms:description xml:lang="de">Def. UBA</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
-    <skos:definition xml:lang="en">not available</skos:definition>
-    <skos:definition xml:lang="de">Flächen, die für die Durchführung sowie für die Aufrechterhaltung der Funktionen geplanter schutzwasserwirtschaftlicher Maßnahmen benötigt werden.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
-    <skos:notation>BlaueFunktionsbereiche</skos:notation>
-    <skos:prefLabel xml:lang="en">Blaue Funktionsbereiche</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Blaue Funktionsbereiche</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
@@ -75,22 +27,6 @@
     <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/Restrisikogebiete">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
-    <dcterms:description xml:lang="en">Def. UBA</dcterms:description>
-    <dcterms:description xml:lang="de">Def. UBA</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
-    <skos:definition xml:lang="de">Zonen mit Gefährdung niedriger Wahrscheinlichkeit (Restrisikogebiete') basieren auf dem Hochwasser niedriger Wahrscheinlichkeit (HQ300 oder Extremereignisse) und weisen auf die Restgefährdung beispielsweise bei Überschreiten des Schutzgrades bzw. erhöhte Schadenswirkung bei Versagen von Schutzmaßnahmen hin.</skos:definition>
-    <skos:definition xml:lang="en">not available</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
-    <skos:notation>Restrisikogebiete</skos:notation>
-    <skos:prefLabel xml:lang="en">Restrisikogebiete</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Restrisikogebiete</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RotGelbSchraffierteFunktionsbereiche">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
@@ -103,6 +39,38 @@
     <skos:notation>RotGelbSchraffierteFunktionsbereiche</skos:notation>
     <skos:prefLabel xml:lang="en">Rot-gelb schraffierte Funktionsbereiche</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Rot-gelb schraffierte Funktionsbereiche</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/RoteGefahrenzonen">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
+    <dcterms:description xml:lang="en">Def. UBA</dcterms:description>
+    <dcterms:description xml:lang="de">Def. UBA</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="de">Flächen, die durch das Bemessungsereignis mittlerer Wahrscheinlichkeit derart gefährdet sind, dass ihre ständige Benützung für Siedlungs- und Verkehrszwecke wegen der voraussichtlichen Schadenswirkungen nicht oder nur mit unverhältnismäßig hohem Aufwand möglich ist (Gefahr für Leib und Leben).</skos:definition>
+    <skos:definition xml:lang="en">not available</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <skos:notation>RoteGefahrenzonen</skos:notation>
+    <skos:prefLabel xml:lang="en">Rote Gefahrenzonen</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Rote Gefahrenzonen</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/UeberflutungsflaechenHQ300">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
+    <dcterms:description xml:lang="en">Def. UBA</dcterms:description>
+    <dcterms:description xml:lang="de">Def. UBA</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="de">Hochwasser niedriger Wahrscheinlichkeit mit einem voraussichtlichen Wiederkehrintervall von 300 Jahren (Extremereignisse)</skos:definition>
+    <skos:definition xml:lang="en">not available</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <skos:notation>UeberflutungsflaechenHQ300</skos:notation>
+    <skos:prefLabel xml:lang="en">Überflutungsflächen HQ300</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Überflutungsflächen HQ300</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
@@ -123,18 +91,18 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/GelbeGefahrenzonen">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/Restrisikogebiete">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
     <dcterms:description xml:lang="en">Def. UBA</dcterms:description>
     <dcterms:description xml:lang="de">Def. UBA</dcterms:description>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
-    <skos:definition xml:lang="de">Alle übrigen durch das Bemessungsereignis mittlerer Wahrscheinlichkeit betroffenen Überflutungsflächen. In diesen Flächen können unterschiedliche Gefährdungen geringeren Ausmaßes oder Beeinträchtigungen der Nutzung für Siedlungs- und Verkehrszwecke auftreten oder sind Beschädigungen von Bauobjekten und Verkehrsanlagen möglich.</skos:definition>
+    <skos:definition xml:lang="de">Zonen mit Gefährdung niedriger Wahrscheinlichkeit (Restrisikogebiete') basieren auf dem Hochwasser niedriger Wahrscheinlichkeit (HQ300 oder Extremereignisse) und weisen auf die Restgefährdung beispielsweise bei Überschreiten des Schutzgrades bzw. erhöhte Schadenswirkung bei Versagen von Schutzmaßnahmen hin.</skos:definition>
     <skos:definition xml:lang="en">not available</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
-    <skos:notation>GelbeGefahrenzonen</skos:notation>
-    <skos:prefLabel xml:lang="en">Gelbe Gefahrenzonen</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Gelbe Gefahrenzonen</skos:prefLabel>
+    <skos:notation>Restrisikogebiete</skos:notation>
+    <skos:prefLabel xml:lang="en">Restrisikogebiete</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Restrisikogebiete</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
@@ -151,6 +119,38 @@
     <skos:notation>UeberflutungsflaechenHQ100</skos:notation>
     <skos:prefLabel xml:lang="en">Überflutungsflächen HQ100</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Überflutungsflächen HQ100</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/GelbeGefahrenzonen">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
+    <dcterms:description xml:lang="en">Def. UBA</dcterms:description>
+    <dcterms:description xml:lang="de">Def. UBA</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="de">Alle übrigen durch das Bemessungsereignis mittlerer Wahrscheinlichkeit betroffenen Überflutungsflächen. In diesen Flächen können unterschiedliche Gefährdungen geringeren Ausmaßes oder Beeinträchtigungen der Nutzung für Siedlungs- und Verkehrszwecke auftreten oder sind Beschädigungen von Bauobjekten und Verkehrsanlagen möglich.</skos:definition>
+    <skos:definition xml:lang="en">not available</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <skos:notation>GelbeGefahrenzonen</skos:notation>
+    <skos:prefLabel xml:lang="en">Gelbe Gefahrenzonen</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Gelbe Gefahrenzonen</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP/BlaueFunktionsbereiche">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
+    <dcterms:description xml:lang="en">Def. UBA</dcterms:description>
+    <dcterms:description xml:lang="de">Def. UBA</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="en">not available</skos:definition>
+    <skos:definition xml:lang="de">Flächen, die für die Durchführung sowie für die Aufrechterhaltung der Funktionen geplanter schutzwasserwirtschaftlicher Maßnahmen benötigt werden.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <skos:notation>BlaueFunktionsbereiche</skos:notation>
+    <skos:prefLabel xml:lang="en">Blaue Funktionsbereiche</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Blaue Funktionsbereiche</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>

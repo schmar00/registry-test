@@ -6,6 +6,22 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-05T14:30:11+00:00</dcterms:created>
+    <dcterms:description xml:lang="en">generalized habitat complexes that establish a functional relation between different habitat types and that are assessd in single projects</dcterms:description>
+    <dcterms:description xml:lang="de">generalisierte Habitatkomplexe, die eine funktionalen Zusammenhang zwischen mehreren Biotoptypen darstellen und im Rahmen von Einzelprojekten erhoben werden</dcterms:description>
+    <dcterms:publisher rdf:resource="https://registry.inspire.gv.at/dataprovider/0008"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
+    <dcterms:title xml:lang="en">generalized habitatcomplexes</dcterms:title>
+    <dcterms:title xml:lang="de">generalisierte Habitatkomplexe</dcterms:title>
+    <dcterms:type rdf:resource="http://inspire.ec.europa.eu/codelist/LocalNameCodeValue"/>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"/>
+    <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
@@ -17,6 +33,20 @@
     <skos:notation>TrockenrasenObjekt</skos:notation>
     <skos:prefLabel xml:lang="de">Trockenrasenobjekt</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Dry meadow object</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/AuenObjekt">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"/>
+    <skos:definition xml:lang="en">Inventory of floodplain objects in Austria (minimum area 20 ha) and detailed mapping in Carinthia and Styria (minimum area 5 ha).822 floodplain properties with a total area of 95,541 ha were designated.  Credits: Werner LAZOWSKI and Ulrich SCHWARZ, Aueninventar Austria: Report on the nationwide overview of floodplain objects, Vienna, 2011; Reference: Siehe: https://www.bmlrt.gv.at/dam/jcr:988293c2-2c0e-424d-86dd-91721197be61/%C3%96sterreichisches%20Aueninventar_Final_20111108.pdf</skos:definition>
+    <skos:definition xml:lang="de">Inventar der Auobjekte Österreichs (Minimalfläche 20 ha) und Detailkartierung in Kärnten und Steiermark (Minimalfläche 5 ha). 822 Auenobjekte mit einer Gesamtfläche von 95.541 ha. , Credits: Werner LAZOWSKI und Ulrich SCHWARZ, Aueninventar Österreich: Bericht zur bundesweiten Übersicht der Auobjekte, Wien, 2011; Siehe: https://www.bmlrt.gv.at/dam/jcr:988293c2-2c0e-424d-86dd-91721197be61/%C3%96sterreichisches%20Aueninventar_Final_20111108.pdf</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"/>
+    <skos:notation>AuenObjekt</skos:notation>
+    <skos:prefLabel xml:lang="en">Floodplain object</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Auenobjekt</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
@@ -52,22 +82,6 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-05T14:30:11+00:00</dcterms:created>
-    <dcterms:description xml:lang="en">generalized habitat complexes that establish a functional relation between different habitat types and that are assessd in single projects</dcterms:description>
-    <dcterms:description xml:lang="de">generalisierte Habitatkomplexe, die eine funktionalen Zusammenhang zwischen mehreren Biotoptypen darstellen und im Rahmen von Einzelprojekten erhoben werden</dcterms:description>
-    <dcterms:publisher rdf:resource="https://registry.inspire.gv.at/dataprovider/0008"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
-    <dcterms:title xml:lang="en">generalized habitatcomplexes</dcterms:title>
-    <dcterms:title xml:lang="de">generalisierte Habitatkomplexe</dcterms:title>
-    <dcterms:type rdf:resource="http://inspire.ec.europa.eu/codelist/LocalNameCodeValue"/>
-    <owl:versionInfo>1.0.0</owl:versionInfo>
-    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"/>
-    <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
@@ -79,20 +93,6 @@
     <skos:notation>FeuchtgebietsObjekt</skos:notation>
     <skos:prefLabel xml:lang="en">Wetland object</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Feuchtgebietsobjekt</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/AuenObjekt">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/hb"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"/>
-    <skos:definition xml:lang="en">Inventory of floodplain objects in Austria (minimum area 20 ha) and detailed mapping in Carinthia and Styria (minimum area 5 ha).822 floodplain properties with a total area of 95,541 ha were designated.  Credits: Werner LAZOWSKI and Ulrich SCHWARZ, Aueninventar Austria: Report on the nationwide overview of floodplain objects, Vienna, 2011; Reference: Siehe: https://www.bmlrt.gv.at/dam/jcr:988293c2-2c0e-424d-86dd-91721197be61/%C3%96sterreichisches%20Aueninventar_Final_20111108.pdf</skos:definition>
-    <skos:definition xml:lang="de">Inventar der Auobjekte Österreichs (Minimalfläche 20 ha) und Detailkartierung in Kärnten und Steiermark (Minimalfläche 5 ha). 822 Auenobjekte mit einer Gesamtfläche von 95.541 ha. , Credits: Werner LAZOWSKI und Ulrich SCHWARZ, Aueninventar Österreich: Bericht zur bundesweiten Übersicht der Auobjekte, Wien, 2011; Siehe: https://www.bmlrt.gv.at/dam/jcr:988293c2-2c0e-424d-86dd-91721197be61/%C3%96sterreichisches%20Aueninventar_Final_20111108.pdf</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"/>
-    <skos:notation>AuenObjekt</skos:notation>
-    <skos:prefLabel xml:lang="en">Floodplain object</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Auenobjekt</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>

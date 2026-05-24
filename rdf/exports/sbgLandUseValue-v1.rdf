@@ -6,42 +6,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BADG">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Ländliche Dorfgebiete sind Flächen, die bestimmt sind a) vorwiegend für land- und forstwirtschaftliche sowie berufsgärtnerische Betriebsbauten; b) daneben für Betriebsbauten, die überwiegend den wirtschaftlichen Bedürfnissen der Bewohner dieses Gebietes dienen, und für die in Z 1 und 2 lit d angeführten Bauten;</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>BADG</skos:notation>
-    <skos:prefLabel xml:lang="de">Ländliche Dorfgebiete</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BABG">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gebiete für Beherbergungsgroßbetriebe sind Flächen, die für Beherbergungsgroßbetriebe samt den für diese Betriebe notwendigen Nebenanlagen (Garagen, Hallenbäder, Tennisplätze udgl) bestimmt sind. Daneben sind Betriebe des Handels und des Gewerbes, die im selben Bau errichtet werden und auf die die Voraussetzungen der Z 2 lit c zutreffen, sowie Versammlungs-, Vergnügungs- und Veranstaltungsstätten zulässig. Bei der Ausweisung solcher Gebiete ist auch die jeweils insgesamt höchstzulässige Zahl an Gästezimmern festzulegen</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>BABG</skos:notation>
-    <skos:prefLabel xml:lang="de">Gebeite für Beherbergungsgroßbetriebe</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAEW">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Erweiterte Wohngebiete sind Flächen, die bestimmt sind für a) Wohnbauten; b) hiezu gehörige, dem Bedarf der Bewohner dienende Nebenanlagen (Garagen, Gartenhäuschen, Gewächshäuser udgl); c) Betriebe, die keine erhebliche Geruchs- oder Lärmbelästigung, sonstige Luftverunreinigung oder Erschütterung für die Nachbarschaft und keinen übermäßigen Straßenverkehr verursachen und keine Gefährdung der Umgebung durch Explosion oder Strahlung zu verursachen geeignet sind; d) Bauten für Erziehungs-, Bildungs- und sonstige kulturelle und soziale Aufgaben sowie der öffentlichen Verwaltung;</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>BAEW</skos:notation>
-    <skos:prefLabel xml:lang="de">Erweiterte Wohngebiete</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
@@ -94,38 +58,26 @@
     <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAIG">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLSO">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Industriegebiete sind Flächen, die bestimmt sind für a) Betriebe, auch wenn sie eine übermäßige Beeinträchtigung der Umgebung verursachen oder eine besondere räumliche Ausdehnung aufweisen; nicht jedoch Betriebe, die in hohem Maß Explosions- oder Strahlungsgefahr für die Umgebung erwarten lassen; b) betriebsbedingte Wohnungen und Einrichtungen</skos:definition>
+    <skos:definition xml:lang="de">Sonstige Flächen sind alle sonstigen, nicht als Bauland oder als Verkehrsfläche ausgewiesenen Flächen</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>BAIG</skos:notation>
-    <skos:prefLabel xml:lang="de">Industriegebiete</skos:prefLabel>
+    <skos:notation>GLSO</skos:notation>
+    <skos:prefLabel xml:lang="de">Sonstige nicht als Bauland oder Verkehrsfläche ausgewiesene Flächen</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BABE">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAHV">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Betriebsgebiete sind Flächen, die bestimmt sind a) vorwiegend für Betriebe, auf die die Voraussetzungen der Z 2 lit c zutreffen; b) daneben für Bauten der öffentlichen Verwaltung sowie für betrieblich bedingte Wohnbauten</skos:definition>
+    <skos:definition xml:lang="de">Als Verbrauchermärkte gelten Handelsgroßbetriebe, die in ihrem Warensortiment ausschließlich oder überwiegend Lebens- und Genußmittel an Letztverbraucher anbieten</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>BABE</skos:notation>
-    <skos:prefLabel xml:lang="de">Betriebsgebiete</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLOL">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Ödland</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>GLOL</skos:notation>
-    <skos:prefLabel xml:lang="de">Ödland</skos:prefLabel>
+    <skos:notation>BAHV</skos:notation>
+    <skos:prefLabel xml:lang="de">Verbrauchermärkte</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
@@ -138,30 +90,6 @@
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
     <skos:notation>GLEG</skos:notation>
     <skos:prefLabel xml:lang="de">Erholungsgebiete</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLSC">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Schipisten sind für die Ausübung des Wintersports bestimmt</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>GLSC</skos:notation>
-    <skos:prefLabel xml:lang="de">Schipisten</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/VEBL">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Bundes- und Landesstraßen und sonstige Straßen von überörtlicher Bedeutung samt den im Abs. 1 angeführten Nebenanlagen und Grünstreifen, Haupt- und Nebenbahnen samt ihren Nebenanlagen sowie Flugplätze sind unter Kenntlichmachung der jeweiligen Verwendung ebenfalls als Verkehrsflächen auszuweisen, ohne dass sich daraus für ihre Planung, Errichtung und Änderung auf Grund dieses Gesetzes Beschränkungen ergeben.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>VEBL</skos:notation>
-    <skos:prefLabel xml:lang="de">Bundes- und Landesstraßen</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
@@ -190,6 +118,138 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLIM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Anmerkung zu Immissionsschutzstreifen: In der Beurteilungspraxis erweist sich - als Faustregel - ein Abstand von 30 m zwischen Gewerbegebiet und schutzwürdigem Gebiet (ohne zusätzliche Maßnahmen) als absolutes Minimum.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <skos:notation>GLIM</skos:notation>
+    <skos:prefLabel xml:lang="de">Immissionsschutzstreifen</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLKG">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Kleingartengebiete sind Flächen, die für nicht berufsgärtnerisch genutzte kleine Gärten mit Erholungsfunktion bestimmt sind</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <skos:notation>GLKG</skos:notation>
+    <skos:prefLabel xml:lang="de">Kleingartengebiete</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAZG">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Zweitwohnungsgebiete sind Flächen, die bestimmt sind a) vorwiegend für Bauten mit einer oder mehreren Zweitwohnungen, insbesondere auch in der Form von Apartmenthäusern und Feriensiedlungen; daneben für b) andere Wohnbauten; c) hiezu gehörige, dem Bedarf der Bewohner dienende Nebenanlagen (Garagen, Gartenhäuschen, Gewächshäuser udgl); d) Betriebe, die keine erhebliche Beeinträchtigung oder keine Gefährdung für die Nachbarschaft zu verursachen geeignet und für eine zweckentsprechende Benützung dieses Gebietes erforderlich sind (Versorgungsbetriebe, Hallenbäder udgl)</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <skos:notation>BAZG</skos:notation>
+    <skos:prefLabel xml:lang="de">Zweitwohngebiete</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLOL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Ödland</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <skos:notation>GLOL</skos:notation>
+    <skos:prefLabel xml:lang="de">Ödland</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAIG">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Industriegebiete sind Flächen, die bestimmt sind für a) Betriebe, auch wenn sie eine übermäßige Beeinträchtigung der Umgebung verursachen oder eine besondere räumliche Ausdehnung aufweisen; nicht jedoch Betriebe, die in hohem Maß Explosions- oder Strahlungsgefahr für die Umgebung erwarten lassen; b) betriebsbedingte Wohnungen und Einrichtungen</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <skos:notation>BAIG</skos:notation>
+    <skos:prefLabel xml:lang="de">Industriegebiete</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAHC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Als CandC-Märkte gelten Handelsgroßbetriebe, die grundsätzlich nur Wiederverkäufern zugänglich sind.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <skos:notation>BAHC</skos:notation>
+    <skos:prefLabel xml:lang="de">C+C Märkte</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLFH">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Friedhöfe</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <skos:notation>GLFH</skos:notation>
+    <skos:prefLabel xml:lang="de">Friedhöfe</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/VESO">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Bundes- und Landesstraßen und sonstige Straßen von überörtlicher Bedeutung samt den im Abs. 1 angeführten Nebenanlagen und Grünstreifen, Haupt- und Nebenbahnen samt ihren Nebenanlagen sowie Flugplätze sind unter Kenntlichmachung der jeweiligen Verwendung ebenfalls als Verkehrsflächen auszuweisen, ohne dass sich daraus für ihre Planung, Errichtung und Änderung auf Grund dieses Gesetzes Beschränkungen ergeben.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <skos:notation>VESO</skos:notation>
+    <skos:prefLabel xml:lang="de">Sonstige Straßen von überörtlicher Bedeutung</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAHB">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Als Bau-, Möbel- oder Gartenmärkte gelten Handelsgroßbetriebe, die Waren für Baumaßnahmen, die Raumausstattung bzw die Raum- oder Gartengestaltung sowie allenfalls in geringfügigem Ausmaß Lebens- und Genußmittel anbieten.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <skos:notation>BAHB</skos:notation>
+    <skos:prefLabel xml:lang="de">Bau-, Möbel- oder Gartenmärkte</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAEW">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Erweiterte Wohngebiete sind Flächen, die bestimmt sind für a) Wohnbauten; b) hiezu gehörige, dem Bedarf der Bewohner dienende Nebenanlagen (Garagen, Gartenhäuschen, Gewächshäuser udgl); c) Betriebe, die keine erhebliche Geruchs- oder Lärmbelästigung, sonstige Luftverunreinigung oder Erschütterung für die Nachbarschaft und keinen übermäßigen Straßenverkehr verursachen und keine Gefährdung der Umgebung durch Explosion oder Strahlung zu verursachen geeignet sind; d) Bauten für Erziehungs-, Bildungs- und sonstige kulturelle und soziale Aufgaben sowie der öffentlichen Verwaltung;</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <skos:notation>BAEW</skos:notation>
+    <skos:prefLabel xml:lang="de">Erweiterte Wohngebiete</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BADG">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Ländliche Dorfgebiete sind Flächen, die bestimmt sind a) vorwiegend für land- und forstwirtschaftliche sowie berufsgärtnerische Betriebsbauten; b) daneben für Betriebsbauten, die überwiegend den wirtschaftlichen Bedürfnissen der Bewohner dieses Gebietes dienen, und für die in Z 1 und 2 lit d angeführten Bauten;</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <skos:notation>BADG</skos:notation>
+    <skos:prefLabel xml:lang="de">Ländliche Dorfgebiete</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BARW">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
@@ -198,6 +258,18 @@
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
     <skos:notation>BARW</skos:notation>
     <skos:prefLabel xml:lang="de">Reine Wohngebiete</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLGG">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Gewässer stellen größere stehende und fließende Gewässer dar</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <skos:notation>GLGG</skos:notation>
+    <skos:prefLabel xml:lang="de">Größere Gewässer</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
@@ -214,14 +286,26 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAKG">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLSC">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Kerngebiete sind Flächen, die bestimmt sind a) für Betriebe des Handels und des Gewerbes, auf die die Voraussetzungen der Z 2 lit c zutreffen, für Bauten der in Z 2 lit d genannten Art, sowie für Versammlungs-, Vergnügungs- und Veranstaltungsstätten sowie für Bauten des Fremdenverkehrs samt den dazugehörigen Anlagen und Einrichtungen; b) für sonstige in Z 1 und 2 angeführte Bauten mit allenfalls besonderer Verdichtung;</skos:definition>
+    <skos:definition xml:lang="de">Schipisten sind für die Ausübung des Wintersports bestimmt</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>BAKG</skos:notation>
-    <skos:prefLabel xml:lang="de">Kerngebiete</skos:prefLabel>
+    <skos:notation>GLSC</skos:notation>
+    <skos:prefLabel xml:lang="de">Schipisten</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAHF">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Als Fachmärkte gelten Handelsgroßbetriebe, die Waren einer oder mehrerer Warengruppen sowie allenfalls im geringfügigen Ausmaß Lebens- und Genußmittel anbieten, mit Ausnahme von Bau-, Möbel- oder Gartenmärkten.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <skos:notation>BAHF</skos:notation>
+    <skos:prefLabel xml:lang="de">Fachmärkte</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
@@ -238,26 +322,50 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/VEGM">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLGB">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Als Verkehrsflächen sind wichtige Verkehrsflächen der Gemeinde samt den dazugehörigen baulichen Anlagen und den angrenzenden Grünstreifen auszuweisen, die für die Anlage oder ihren Schutz notwendig sind. Dazu gehören auch solche Verkehrsflächen, die in nächster Zukunft einem solchen Zweck gewidmet werden sollen.</skos:definition>
+    <skos:definition xml:lang="de">Abstandsflächen sind zur Trennung von Gebieten unterschiedlicher Widmung oder zur Siedlungsgliederung bestimmt</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>VEGM</skos:notation>
-    <skos:prefLabel xml:lang="de">Wichtige Verkehrsflächen der Gemeinde</skos:prefLabel>
+    <skos:notation>GLGB</skos:notation>
+    <skos:prefLabel xml:lang="de">Abstandsflächen</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAZG">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLSP">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Zweitwohnungsgebiete sind Flächen, die bestimmt sind a) vorwiegend für Bauten mit einer oder mehreren Zweitwohnungen, insbesondere auch in der Form von Apartmenthäusern und Feriensiedlungen; daneben für b) andere Wohnbauten; c) hiezu gehörige, dem Bedarf der Bewohner dienende Nebenanlagen (Garagen, Gartenhäuschen, Gewächshäuser udgl); d) Betriebe, die keine erhebliche Beeinträchtigung oder keine Gefährdung für die Nachbarschaft zu verursachen geeignet und für eine zweckentsprechende Benützung dieses Gebietes erforderlich sind (Versorgungsbetriebe, Hallenbäder udgl)</skos:definition>
+    <skos:definition xml:lang="de">Sportanlagen sind für Sportanlagen einschließlich Freibäder und Spielplätze bestimmt; bei der Ausweisung ist der Verwendungszweck der Sportanlage festzulegen</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>BAZG</skos:notation>
-    <skos:prefLabel xml:lang="de">Zweitwohngebiete</skos:prefLabel>
+    <skos:notation>GLSP</skos:notation>
+    <skos:prefLabel xml:lang="de">Gebiete für Sportanlagen, Spielplätze, Freibäder</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAKG">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Kerngebiete sind Flächen, die bestimmt sind a) für Betriebe des Handels und des Gewerbes, auf die die Voraussetzungen der Z 2 lit c zutreffen, für Bauten der in Z 2 lit d genannten Art, sowie für Versammlungs-, Vergnügungs- und Veranstaltungsstätten sowie für Bauten des Fremdenverkehrs samt den dazugehörigen Anlagen und Einrichtungen; b) für sonstige in Z 1 und 2 angeführte Bauten mit allenfalls besonderer Verdichtung;</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <skos:notation>BAKG</skos:notation>
+    <skos:prefLabel xml:lang="de">Kerngebiete</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAHE">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Als Einkaufszentren gelten Handelsgroßbetriebe, die eine geplante Konzentration von Einzelhandels- und Dienstleistungsbetrieben darstellen, die zueinander in einem räumlichen Naheverhältnis stehen und eine funktionale Einheit bilden.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <skos:notation>BAHE</skos:notation>
+    <skos:prefLabel xml:lang="de">Einkaufszentren</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
@@ -286,194 +394,26 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLIM">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Anmerkung zu Immissionsschutzstreifen: In der Beurteilungspraxis erweist sich - als Faustregel - ein Abstand von 30 m zwischen Gewerbegebiet und schutzwürdigem Gebiet (ohne zusätzliche Maßnahmen) als absolutes Minimum.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>GLIM</skos:notation>
-    <skos:prefLabel xml:lang="de">Immissionsschutzstreifen</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAHE">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Als Einkaufszentren gelten Handelsgroßbetriebe, die eine geplante Konzentration von Einzelhandels- und Dienstleistungsbetrieben darstellen, die zueinander in einem räumlichen Naheverhältnis stehen und eine funktionale Einheit bilden.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>BAHE</skos:notation>
-    <skos:prefLabel xml:lang="de">Einkaufszentren</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLSO">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Sonstige Flächen sind alle sonstigen, nicht als Bauland oder als Verkehrsfläche ausgewiesenen Flächen</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>GLSO</skos:notation>
-    <skos:prefLabel xml:lang="de">Sonstige nicht als Bauland oder Verkehrsfläche ausgewiesene Flächen</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAHF">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Als Fachmärkte gelten Handelsgroßbetriebe, die Waren einer oder mehrerer Warengruppen sowie allenfalls im geringfügigen Ausmaß Lebens- und Genußmittel anbieten, mit Ausnahme von Bau-, Möbel- oder Gartenmärkten.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>BAHF</skos:notation>
-    <skos:prefLabel xml:lang="de">Fachmärkte</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/VEFP">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/VEBL">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
     <skos:definition xml:lang="de">Bundes- und Landesstraßen und sonstige Straßen von überörtlicher Bedeutung samt den im Abs. 1 angeführten Nebenanlagen und Grünstreifen, Haupt- und Nebenbahnen samt ihren Nebenanlagen sowie Flugplätze sind unter Kenntlichmachung der jeweiligen Verwendung ebenfalls als Verkehrsflächen auszuweisen, ohne dass sich daraus für ihre Planung, Errichtung und Änderung auf Grund dieses Gesetzes Beschränkungen ergeben.</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>VEFP</skos:notation>
-    <skos:prefLabel xml:lang="de">Flugplätze</skos:prefLabel>
+    <skos:notation>VEBL</skos:notation>
+    <skos:prefLabel xml:lang="de">Bundes- und Landesstraßen</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLSP">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BABE">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Sportanlagen sind für Sportanlagen einschließlich Freibäder und Spielplätze bestimmt; bei der Ausweisung ist der Verwendungszweck der Sportanlage festzulegen</skos:definition>
+    <skos:definition xml:lang="de">Betriebsgebiete sind Flächen, die bestimmt sind a) vorwiegend für Betriebe, auf die die Voraussetzungen der Z 2 lit c zutreffen; b) daneben für Bauten der öffentlichen Verwaltung sowie für betrieblich bedingte Wohnbauten</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>GLSP</skos:notation>
-    <skos:prefLabel xml:lang="de">Gebiete für Sportanlagen, Spielplätze, Freibäder</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLFH">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Friedhöfe</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>GLFH</skos:notation>
-    <skos:prefLabel xml:lang="de">Friedhöfe</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAHV">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Als Verbrauchermärkte gelten Handelsgroßbetriebe, die in ihrem Warensortiment ausschließlich oder überwiegend Lebens- und Genußmittel an Letztverbraucher anbieten</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>BAHV</skos:notation>
-    <skos:prefLabel xml:lang="de">Verbrauchermärkte</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLKG">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Kleingartengebiete sind Flächen, die für nicht berufsgärtnerisch genutzte kleine Gärten mit Erholungsfunktion bestimmt sind</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>GLKG</skos:notation>
-    <skos:prefLabel xml:lang="de">Kleingartengebiete</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLGG">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gewässer stellen größere stehende und fließende Gewässer dar</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>GLGG</skos:notation>
-    <skos:prefLabel xml:lang="de">Größere Gewässer</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAHC">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Als CandC-Märkte gelten Handelsgroßbetriebe, die grundsätzlich nur Wiederverkäufern zugänglich sind.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>BAHC</skos:notation>
-    <skos:prefLabel xml:lang="de">C+C Märkte</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BAHB">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Als Bau-, Möbel- oder Gartenmärkte gelten Handelsgroßbetriebe, die Waren für Baumaßnahmen, die Raumausstattung bzw die Raum- oder Gartengestaltung sowie allenfalls in geringfügigem Ausmaß Lebens- und Genußmittel anbieten.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>BAHB</skos:notation>
-    <skos:prefLabel xml:lang="de">Bau-, Möbel- oder Gartenmärkte</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLLG">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Ländliche Gebiete (Grünland im engeren Sinn) sind Flächen, die für die land- oder forstwirtschaftliche oder berufsgärtnerische Nutzung bestimmt sind</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>GLLG</skos:notation>
-    <skos:prefLabel xml:lang="de">Ländliche Gebiete</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLGB">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Abstandsflächen sind zur Trennung von Gebieten unterschiedlicher Widmung oder zur Siedlungsgliederung bestimmt</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>GLGB</skos:notation>
-    <skos:prefLabel xml:lang="de">Abstandsflächen</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/VESO">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Bundes- und Landesstraßen und sonstige Straßen von überörtlicher Bedeutung samt den im Abs. 1 angeführten Nebenanlagen und Grünstreifen, Haupt- und Nebenbahnen samt ihren Nebenanlagen sowie Flugplätze sind unter Kenntlichmachung der jeweiligen Verwendung ebenfalls als Verkehrsflächen auszuweisen, ohne dass sich daraus für ihre Planung, Errichtung und Änderung auf Grund dieses Gesetzes Beschränkungen ergeben.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>VESO</skos:notation>
-    <skos:prefLabel xml:lang="de">Sonstige Straßen von überörtlicher Bedeutung</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BALK">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Ländliche Kerngebiete sind Flächen im Bereich bereits überwiegend bebauter Gebiete, die bestimmt sind für a) Klein- und Mittelbetriebe des Handels und des Gewerbes, die keine übermäßige Geruchs- oder Lärmbelästigung, sonstige Luftverunreinigung oder Erschütterung für die Nachbarschaft und keinen übermäßigen Straßenverkehr verursachen und keine Gefährdung der Umgebung durch Explosions- oder Strahlungsgefahr zu verursachen geeignet sind; b) Bauten des Fremdenverkehrs; c) land- und forstwirtschaftliche Betriebsbauten; d) sonstige in Z 2 angeführte Bauten;</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:notation>BALK</skos:notation>
-    <skos:prefLabel xml:lang="de">Ländliche Kerngebiete</skos:prefLabel>
+    <skos:notation>BABE</skos:notation>
+    <skos:prefLabel xml:lang="de">Betriebsgebiete</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
@@ -490,6 +430,18 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/GLLG">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Ländliche Gebiete (Grünland im engeren Sinn) sind Flächen, die für die land- oder forstwirtschaftliche oder berufsgärtnerische Nutzung bestimmt sind</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <skos:notation>GLLG</skos:notation>
+    <skos:prefLabel xml:lang="de">Ländliche Gebiete</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BASF">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
@@ -498,6 +450,54 @@
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
     <skos:notation>BASF</skos:notation>
     <skos:prefLabel xml:lang="de">Sonderflächen</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/VEGM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Als Verkehrsflächen sind wichtige Verkehrsflächen der Gemeinde samt den dazugehörigen baulichen Anlagen und den angrenzenden Grünstreifen auszuweisen, die für die Anlage oder ihren Schutz notwendig sind. Dazu gehören auch solche Verkehrsflächen, die in nächster Zukunft einem solchen Zweck gewidmet werden sollen.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <skos:notation>VEGM</skos:notation>
+    <skos:prefLabel xml:lang="de">Wichtige Verkehrsflächen der Gemeinde</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BALK">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Ländliche Kerngebiete sind Flächen im Bereich bereits überwiegend bebauter Gebiete, die bestimmt sind für a) Klein- und Mittelbetriebe des Handels und des Gewerbes, die keine übermäßige Geruchs- oder Lärmbelästigung, sonstige Luftverunreinigung oder Erschütterung für die Nachbarschaft und keinen übermäßigen Straßenverkehr verursachen und keine Gefährdung der Umgebung durch Explosions- oder Strahlungsgefahr zu verursachen geeignet sind; b) Bauten des Fremdenverkehrs; c) land- und forstwirtschaftliche Betriebsbauten; d) sonstige in Z 2 angeführte Bauten;</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <skos:notation>BALK</skos:notation>
+    <skos:prefLabel xml:lang="de">Ländliche Kerngebiete</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/BABG">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Gebiete für Beherbergungsgroßbetriebe sind Flächen, die für Beherbergungsgroßbetriebe samt den für diese Betriebe notwendigen Nebenanlagen (Garagen, Hallenbäder, Tennisplätze udgl) bestimmt sind. Daneben sind Betriebe des Handels und des Gewerbes, die im selben Bau errichtet werden und auf die die Voraussetzungen der Z 2 lit c zutreffen, sowie Versammlungs-, Vergnügungs- und Veranstaltungsstätten zulässig. Bei der Ausweisung solcher Gebiete ist auch die jeweils insgesamt höchstzulässige Zahl an Gästezimmern festzulegen</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <skos:notation>BABG</skos:notation>
+    <skos:prefLabel xml:lang="de">Gebeite für Beherbergungsgroßbetriebe</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/sbgLandUseValue/VEFP">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Bundes- und Landesstraßen und sonstige Straßen von überörtlicher Bedeutung samt den im Abs. 1 angeführten Nebenanlagen und Grünstreifen, Haupt- und Nebenbahnen samt ihren Nebenanlagen sowie Flugplätze sind unter Kenntlichmachung der jeweiligen Verwendung ebenfalls als Verkehrsflächen auszuweisen, ohne dass sich daraus für ihre Planung, Errichtung und Änderung auf Grund dieses Gesetzes Beschränkungen ergeben.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <skos:notation>VEFP</skos:notation>
+    <skos:prefLabel xml:lang="de">Flugplätze</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>

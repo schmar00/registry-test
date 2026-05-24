@@ -6,32 +6,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/recreationalFunction">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry"/>
-    <skos:definition xml:lang="en">The recreational function refers especially to the effects of the forest as a recreational area for people visiting the forest.</skos:definition>
-    <skos:definition xml:lang="de">Die Erholungsfunktion ist insbesondere die Wirkung des Waldes als Erholungsraum auf die Waldbesucher.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"/>
-    <skos:notation>recreationalFunction</skos:notation>
-    <skos:prefLabel xml:lang="en">recreational function</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Erholungsfunktion</skos:prefLabel>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/welfareFunction">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry"/>
-    <skos:definition xml:lang="en">The welfare function refers to the effects of the forest on the environment, especially on balancing the climate and the water regime and on cleaning and renewing air and water.</skos:definition>
-    <skos:definition xml:lang="de">Die Wohlfahrtsfunktion ist der Einfluss des Waldes auf die Umwelt und zwar insbesondere auf den Ausgleich des Klimas und des Wasserhaushaltes, sowie auf die Reinigung und Erneuerung von Luft und Wasser.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"/>
-    <skos:notation>welfareFunction</skos:notation>
-    <skos:prefLabel xml:lang="de">Wohlfahrtsfunktion</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">welfare function</skos:prefLabel>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
@@ -66,17 +40,17 @@
     <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/productiveFunction">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/protectiveFunction">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
     <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry"/>
-    <skos:definition xml:lang="de">Wald mit Nutzfunktion fuer wirtschaftliche und nachhaltige Hervorbringung des Rohstoffes Holz.</skos:definition>
-    <skos:definition xml:lang="en">Forest with productive function for economic and sustainable production of the raw material 'wood”.</skos:definition>
+    <skos:definition xml:lang="de">Wald mit Schutzfunktion, insbesondere vor Elementargefahren und schaedigenden Umwelteinfluessen, sowie die Erhaltung der Bodenkraft gegen Bodenabschwemmung und -verwehung, Geroellbildung und Hangrutschung.</skos:definition>
+    <skos:definition xml:lang="en">Forest with protective function, especially against natural hazards and detrimental environmental impacts, as well as endangered of eroding forces of wind, water or gravity.</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"/>
-    <skos:notation>productiveFunction</skos:notation>
-    <skos:prefLabel xml:lang="en">productive function</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Nutzfunktion</skos:prefLabel>
+    <skos:notation>protectiveFunction</skos:notation>
+    <skos:prefLabel xml:lang="de">Schutzfunktion</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">protective function</skos:prefLabel>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/nonForestAreas">
@@ -92,17 +66,43 @@
     <skos:prefLabel xml:lang="de">Nicht Wald</skos:prefLabel>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/protectiveFunction">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/productiveFunction">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
     <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry"/>
-    <skos:definition xml:lang="de">Wald mit Schutzfunktion, insbesondere vor Elementargefahren und schaedigenden Umwelteinfluessen, sowie die Erhaltung der Bodenkraft gegen Bodenabschwemmung und -verwehung, Geroellbildung und Hangrutschung.</skos:definition>
-    <skos:definition xml:lang="en">Forest with protective function, especially against natural hazards and detrimental environmental impacts, as well as endangered of eroding forces of wind, water or gravity.</skos:definition>
+    <skos:definition xml:lang="de">Wald mit Nutzfunktion fuer wirtschaftliche und nachhaltige Hervorbringung des Rohstoffes Holz.</skos:definition>
+    <skos:definition xml:lang="en">Forest with productive function for economic and sustainable production of the raw material 'wood”.</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"/>
-    <skos:notation>protectiveFunction</skos:notation>
-    <skos:prefLabel xml:lang="de">Schutzfunktion</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">protective function</skos:prefLabel>
+    <skos:notation>productiveFunction</skos:notation>
+    <skos:prefLabel xml:lang="en">productive function</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Nutzfunktion</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/recreationalFunction">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry"/>
+    <skos:definition xml:lang="en">The recreational function refers especially to the effects of the forest as a recreational area for people visiting the forest.</skos:definition>
+    <skos:definition xml:lang="de">Die Erholungsfunktion ist insbesondere die Wirkung des Waldes als Erholungsraum auf die Waldbesucher.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"/>
+    <skos:notation>recreationalFunction</skos:notation>
+    <skos:prefLabel xml:lang="en">recreational function</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Erholungsfunktion</skos:prefLabel>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/welfareFunction">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry"/>
+    <skos:definition xml:lang="en">The welfare function refers to the effects of the forest on the environment, especially on balancing the climate and the water regime and on cleaning and renewing air and water.</skos:definition>
+    <skos:definition xml:lang="de">Die Wohlfahrtsfunktion ist der Einfluss des Waldes auf die Umwelt und zwar insbesondere auf den Ausgleich des Klimas und des Wasserhaushaltes, sowie auf die Reinigung und Erneuerung von Luft und Wasser.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"/>
+    <skos:notation>welfareFunction</skos:notation>
+    <skos:prefLabel xml:lang="de">Wohlfahrtsfunktion</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">welfare function</skos:prefLabel>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
 </rdf:RDF>

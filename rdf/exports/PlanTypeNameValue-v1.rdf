@@ -20,18 +20,24 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/plu"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Sektorale Raumordnungsprogramme konkretisieren die Ziele des Landes NÖ für einzelne Landesteile und legen Maßnahmen verbindlich fest. Sie sind die Grundlage für die weitere räumliche Entwicklung Niederösterreichs.</skos:definition>
-    <skos:definition xml:lang="en">Sectoral spatial planning programs specify the goals of the Province of Lower Austria for individual parts of the country and set binding measures. They form the basis for the further spatial development of Lower Austria.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
-    <skos:notation>sectoralSpatialPlanningProgram</skos:notation>
-    <skos:prefLabel xml:lang="de">Sektorales Raumordnungsprogramm</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Sectoral spatial planning program</skos:prefLabel>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/PlanTypeNameValue">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/base2"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-05T14:30:11+00:00</dcterms:created>
+    <dcterms:description xml:lang="de">Typen von Plänen gemäß Definition in den Mitgliedstaaten.</dcterms:description>
+    <dcterms:description xml:lang="en">Types of plans as defined in the Member States.</dcterms:description>
+    <dcterms:publisher rdf:resource="https://registry.inspire.gv.at/dataprovider/0021"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/"/>
+    <dcterms:title xml:lang="de">Bezeichnung des Plantyps</dcterms:title>
+    <dcterms:title xml:lang="en">Plan Type Name</dcterms:title>
+    <dcterms:type rdf:resource="http://inspire.ec.europa.eu/codelist/PlanTypeNameValue"/>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram"/>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
+    <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea">
@@ -62,24 +68,18 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/PlanTypeNameValue">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/base2"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-05T14:30:11+00:00</dcterms:created>
-    <dcterms:description xml:lang="de">Typen von Plänen gemäß Definition in den Mitgliedstaaten.</dcterms:description>
-    <dcterms:description xml:lang="en">Types of plans as defined in the Member States.</dcterms:description>
-    <dcterms:publisher rdf:resource="https://registry.inspire.gv.at/dataprovider/0021"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/"/>
-    <dcterms:title xml:lang="de">Bezeichnung des Plantyps</dcterms:title>
-    <dcterms:title xml:lang="en">Plan Type Name</dcterms:title>
-    <dcterms:type rdf:resource="http://inspire.ec.europa.eu/codelist/PlanTypeNameValue"/>
-    <owl:versionInfo>1.0.0</owl:versionInfo>
-    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan"/>
-    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan"/>
-    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea"/>
-    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram"/>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/plu"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Sektorale Raumordnungsprogramme konkretisieren die Ziele des Landes NÖ für einzelne Landesteile und legen Maßnahmen verbindlich fest. Sie sind die Grundlage für die weitere räumliche Entwicklung Niederösterreichs.</skos:definition>
+    <skos:definition xml:lang="en">Sectoral spatial planning programs specify the goals of the Province of Lower Austria for individual parts of the country and set binding measures. They form the basis for the further spatial development of Lower Austria.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
+    <skos:notation>sectoralSpatialPlanningProgram</skos:notation>
+    <skos:prefLabel xml:lang="de">Sektorales Raumordnungsprogramm</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sectoral spatial planning program</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
 </rdf:RDF>

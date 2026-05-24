@@ -1,6 +1,6 @@
 [
   {
-    "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram",
+    "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -17,11 +17,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Sektorale Raumordnungsprogramme konkretisieren die Ziele des Landes NÖ für einzelne Landesteile und legen Maßnahmen verbindlich fest. Sie sind die Grundlage für die weitere räumliche Entwicklung Niederösterreichs."
+        "@value": "Diese Flaechen (Zonen) sind auf Grund von naturschutz-, forstfachlichen, wasserrechtlichen und siedlungstechnischen Gründen für Bergbau und einen Abbau nicht geeignet bzw. auf Grund von rechtlichen Bestimmung für Bergbau und einen Abbau auszuschließen."
       },
       {
         "@language": "en",
-        "@value": "Sectoral spatial planning programs specify the goals of the Province of Lower Austria for individual parts of the country and set binding measures. They form the basis for the further spatial development of Lower Austria."
+        "@value": "Areas that are specifically excluded from any types of mining due to technical (i.e. conservation areas, forestry use, water regulations, settlement structures) or legal reasons."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -31,17 +31,78 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "sectoralSpatialPlanningProgram"
+        "@value": "gravelControlPlan"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Sektorales Raumordnungsprogramm"
+        "@value": "Kiesleitplan"
       },
       {
         "@language": "en",
-        "@value": "Sectoral spatial planning program"
+        "@value": "gravel control plan"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/plu"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Zones to be kept undeveloped to provide steady conditions for agricultural and forestry use, tourism and recreational purposes as well as to foster climate and sanitation; to preserve the characteristics of towns and landscapes and to retain traditional settlement patterns. Provide a substantial basis for the protection and restoration of the ecosystem."
+      },
+      {
+        "@language": "de",
+        "@value": "Flaechen, die die Funktion für die Land- und Forstwirtschaft, die Erholung und den Tourismus, die Siedlungshygiene und die Klimaverhaeltnisse, die Siedlungs- und Raumgliederung, das typische Orts- und Landschaftsbild, die Sicherung oder Wiederherstellung eines ausgewogenen Natur- und Landschaftshaushalts beibehalten sollen und daher von Bebauung freigehalten werden müssen."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "greenArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Gruenzone"
+      },
+      {
+        "@language": "en",
+        "@value": "green area"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -146,68 +207,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/plu"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Zones to be kept undeveloped to provide steady conditions for agricultural and forestry use, tourism and recreational purposes as well as to foster climate and sanitation; to preserve the characteristics of towns and landscapes and to retain traditional settlement patterns. Provide a substantial basis for the protection and restoration of the ecosystem."
-      },
-      {
-        "@language": "de",
-        "@value": "Flaechen, die die Funktion für die Land- und Forstwirtschaft, die Erholung und den Tourismus, die Siedlungshygiene und die Klimaverhaeltnisse, die Siedlungs- und Raumgliederung, das typische Orts- und Landschaftsbild, die Sicherung oder Wiederherstellung eines ausgewogenen Natur- und Landschaftshaushalts beibehalten sollen und daher von Bebauung freigehalten werden müssen."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "greenArea"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Gruenzone"
-      },
-      {
-        "@language": "en",
-        "@value": "green area"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue/gravelControlPlan",
+    "@id": "https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -224,11 +224,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Diese Flaechen (Zonen) sind auf Grund von naturschutz-, forstfachlichen, wasserrechtlichen und siedlungstechnischen Gründen für Bergbau und einen Abbau nicht geeignet bzw. auf Grund von rechtlichen Bestimmung für Bergbau und einen Abbau auszuschließen."
+        "@value": "Sektorale Raumordnungsprogramme konkretisieren die Ziele des Landes NÖ für einzelne Landesteile und legen Maßnahmen verbindlich fest. Sie sind die Grundlage für die weitere räumliche Entwicklung Niederösterreichs."
       },
       {
         "@language": "en",
-        "@value": "Areas that are specifically excluded from any types of mining due to technical (i.e. conservation areas, forestry use, water regulations, settlement structures) or legal reasons."
+        "@value": "Sectoral spatial planning programs specify the goals of the Province of Lower Austria for individual parts of the country and set binding measures. They form the basis for the further spatial development of Lower Austria."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -238,17 +238,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "gravelControlPlan"
+        "@value": "sectoralSpatialPlanningProgram"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Kiesleitplan"
+        "@value": "Sektorales Raumordnungsprogramm"
       },
       {
         "@language": "en",
-        "@value": "gravel control plan"
+        "@value": "Sectoral spatial planning program"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [

@@ -1,188 +1,5 @@
 [
   {
-    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/saproWindEnergy",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/am"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "The aim of this development program is to define supra-local guidelines for the spatially compatible expansion of wind energy in Styria."
-      },
-      {
-        "@language": "de",
-        "@value": "Dieses Entwicklungsprogramm hat die Festlegung von überörtlichen Vorgaben zum raumverträglichen Ausbau der Windenergie in der Steiermark zum Ziel."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "saproWindEnergy"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "SAPRO Windenergiezone"
-      },
-      {
-        "@language": "en",
-        "@value": "SAPRO Wind Energy Zone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Jagdkastaster",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/am"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "hunting areas"
-      },
-      {
-        "@language": "de",
-        "@value": "Ausweisung von Jagdteilgebieten aufgrund von jeweiligen Jagdgesetzen."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "Jagdkastaster"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Jagdgebiet"
-      },
-      {
-        "@language": "en",
-        "@value": "hunting areas"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Hydropeaking",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/am"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Water stretch with anthropogenically caused runoff fluctuations and the occurrence of hydropeaking."
-      },
-      {
-        "@language": "de",
-        "@value": "Gewässerstrecke mit anthropogen bedingten Wasserführungsschwankungen mit Schwall-Sunk-Erscheinungen."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "Hydropeaking"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Schwallstrecke"
-      },
-      {
-        "@language": "en",
-        "@value": "Hydropeaking"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
     "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -289,7 +106,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Bewirtschaftungsgebiete",
+    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Hydropeaking",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -303,14 +120,19 @@
         "@id": "http://inspire.ec.europa.eu/theme/am"
       }
     ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@language": "de",
-        "@value": "Landwirtschaftliche Lagen Österreichs auf Basis NUTS III Gebiete"
+        "@language": "en",
+        "@value": "Water stretch with anthropogenically caused runoff fluctuations and the occurrence of hydropeaking."
       },
       {
-        "@language": "en",
-        "@value": "Agricultural areas of Austria based on NUTS III regions"
+        "@language": "de",
+        "@value": "Gewässerstrecke mit anthropogen bedingten Wasserführungsschwankungen mit Schwall-Sunk-Erscheinungen."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -320,22 +142,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "Bewirtschaftungsgebiete"
+        "@value": "Hydropeaking"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Landwirtschaftliche Bewirtschaftungsgebiete"
+        "@value": "Schwallstrecke"
       },
       {
         "@language": "en",
-        "@value": "Agricultural management areas"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
+        "@value": "Hydropeaking"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -350,7 +167,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/LandwirtschaftlicheHauptproduktionsgebiete",
+    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Almhauptregionen",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -367,11 +184,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "Small and main agricultural production areas in Austria based on political municipalities"
+        "@value": "Alpine pasture regions and main Alpine pasture regions of Austria on the basis of political municipalities"
       },
       {
         "@language": "de",
-        "@value": "Landwirtschaftliche Klein- und Hauptproduktionsgebiete Österreichs auf Basis politischer Gemeinden"
+        "@value": "Almregionen und Almhauptregionen Österreichs auf Basis politischer Gemeinden"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -381,17 +198,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "LandwirtschaftlicheHauptproduktionsgebiete"
+        "@value": "Almhauptregionen"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Main agricultural production areas"
+        "@value": "main alpine regions"
       },
       {
         "@language": "de",
-        "@value": "Landwirtschaftliche Hauptproduktionsgebiete"
+        "@value": "Almhauptregionen"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -543,7 +360,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Almhauptregionen",
+    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Bewirtschaftungsgebiete",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -559,12 +376,12 @@
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@language": "en",
-        "@value": "Alpine pasture regions and main Alpine pasture regions of Austria on the basis of political municipalities"
+        "@language": "de",
+        "@value": "Landwirtschaftliche Lagen Österreichs auf Basis NUTS III Gebiete"
       },
       {
-        "@language": "de",
-        "@value": "Almregionen und Almhauptregionen Österreichs auf Basis politischer Gemeinden"
+        "@language": "en",
+        "@value": "Agricultural areas of Austria based on NUTS III regions"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -574,83 +391,22 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "Almhauptregionen"
+        "@value": "Bewirtschaftungsgebiete"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
-        "@language": "en",
-        "@value": "main alpine regions"
+        "@language": "de",
+        "@value": "Landwirtschaftliche Bewirtschaftungsgebiete"
       },
       {
-        "@language": "de",
-        "@value": "Almhauptregionen"
+        "@language": "en",
+        "@value": "Agricultural management areas"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/WaterAbstraction",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/am"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Section of a flowing water which is affected by anthropogenically caused drainage or restraint due to a reduction of its natural runoff."
-      },
-      {
-        "@language": "de",
-        "@value": "Abschnitt eines Gewässers, der durch anthropogen bedingte Ableitung bzw. durch anthropogen bedingten Rückhalt von einer Abminderung des natürlichen Abflusses betroffen ist."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "WaterAbstraction"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Water abstraction"
-      },
-      {
-        "@language": "de",
-        "@value": "Restwasserstrecke"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -707,6 +463,67 @@
       {
         "@language": "de",
         "@value": "Fischereikataster"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/saproWindEnergy",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/am"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The aim of this development program is to define supra-local guidelines for the spatially compatible expansion of wind energy in Styria."
+      },
+      {
+        "@language": "de",
+        "@value": "Dieses Entwicklungsprogramm hat die Festlegung von überörtlichen Vorgaben zum raumverträglichen Ausbau der Windenergie in der Steiermark zum Ziel."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "saproWindEnergy"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "SAPRO Windenergiezone"
+      },
+      {
+        "@language": "en",
+        "@value": "SAPRO Wind Energy Zone"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -787,6 +604,67 @@
     ]
   },
   {
+    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/LandwirtschaftlicheHauptproduktionsgebiete",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/am"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Small and main agricultural production areas in Austria based on political municipalities"
+      },
+      {
+        "@language": "de",
+        "@value": "Landwirtschaftliche Klein- und Hauptproduktionsgebiete Österreichs auf Basis politischer Gemeinden"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "LandwirtschaftlicheHauptproduktionsgebiete"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Main agricultural production areas"
+      },
+      {
+        "@language": "de",
+        "@value": "Landwirtschaftliche Hauptproduktionsgebiete"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
     "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Impoundment",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -834,6 +712,128 @@
       {
         "@language": "en",
         "@value": "Impoundment"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/WaterAbstraction",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/am"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Section of a flowing water which is affected by anthropogenically caused drainage or restraint due to a reduction of its natural runoff."
+      },
+      {
+        "@language": "de",
+        "@value": "Abschnitt eines Gewässers, der durch anthropogen bedingte Ableitung bzw. durch anthropogen bedingten Rückhalt von einer Abminderung des natürlichen Abflusses betroffen ist."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "WaterAbstraction"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Water abstraction"
+      },
+      {
+        "@language": "de",
+        "@value": "Restwasserstrecke"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Jagdkastaster",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/am"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/am"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "hunting areas"
+      },
+      {
+        "@language": "de",
+        "@value": "Ausweisung von Jagdteilgebieten aufgrund von jeweiligen Jagdgesetzen."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "Jagdkastaster"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Jagdgebiet"
+      },
+      {
+        "@language": "en",
+        "@value": "hunting areas"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [

@@ -1,5 +1,211 @@
 [
   {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Bauliche Anlagen die zur privaten, öffentlichen als auch wirtschaftlichen Nutzung verhergesehen sind."
+      },
+      {
+        "@language": "en",
+        "@value": "Buildings for private, public and commercial use."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/residentialBuilding"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/publicBuilding"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalBuilding"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingEconomicBenefit"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/industrialAndCommercialBuilding"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/inventoryAndEquipment"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/outsideArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "buildingsAndFacilities"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "buildings and facilities"
+      },
+      {
+        "@language": "de",
+        "@value": "Gebaeude und bauliche Anlagen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterPipelines",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Structural infrastructure facilities for transporting water to places where it is not naturally available."
+      },
+      {
+        "@language": "de",
+        "@value": "Bauliche Infrastrukturanlagen zum Transport von Wasser an Orte, an denen es auf natürlichem Wege nicht zur Verfügung steht."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "waterPipelines"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "water pipelines"
+      },
+      {
+        "@language": "de",
+        "@value": "Wasserleitungen"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/bridge",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Structural objects or utilities that overcome obstacles through technical constructions."
+      },
+      {
+        "@language": "de",
+        "@value": "Bauliche Objekte oder Versorgungseinrichtungen, die durch technische Konstruktionen Hindernisse überwinden."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "bridge"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Bruecke"
+      },
+      {
+        "@language": "en",
+        "@value": "bridge"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
     "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -93,67 +299,6 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redYellowZone",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "These areas are intended as retention, drainage and water management priority zones and are of great importance for the safe discharge and flood retention in flood situations."
-      },
-      {
-        "@language": "de",
-        "@value": "Diese Bereiche sind als Retentions-, Abfluss- und wasserwirtschaftliche Vorrangzonen vorgesehen und sind für den schadlosen Abfluss und Hochwasserrückhalt im Hochwasserfall von großer Bedeutung."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "redYellowZone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Rot Gelbe Zone"
-      },
-      {
-        "@language": "en",
-        "@value": "red yellow zone"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
     "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/residentialBuilding",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -206,6 +351,913 @@
       {
         "@language": "en",
         "@value": "residential building"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/publicBuilding",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Constructional facilities that serve the public and are therefore accessible to everyone."
+      },
+      {
+        "@language": "de",
+        "@value": "Bauliche Anlagen, die der Öffentlichkeit dienen und daher für jedermann zugänglich sind."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "publicBuilding"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "public building"
+      },
+      {
+        "@language": "de",
+        "@value": "Oeffentliche Gebaeude"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/yellowZone",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Bereiche die von Hochwasser mit mittlerer Eintrittswahrscheinlichkeit geringer gefährdet sind. Neubauten in dieser Zone sind hochwassergeschützt zu errichten."
+      },
+      {
+        "@language": "en",
+        "@value": "Areas that are less vulnerable to floods with a medium probability of occurrence. New buildings in this zone are to be built flood-proof."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "yellowZone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "yellow zone"
+      },
+      {
+        "@language": "de",
+        "@value": "Gelbe Zone"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/inventoryAndEquipment",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Gesamtheit mobiler Objekte, die Gebäuden und baulichen Anlagen im direkten Zusammenhang stehen."
+      },
+      {
+        "@language": "en",
+        "@value": "A set of mobile objects that are directly related to buildings and facilities."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "inventoryAndEquipment"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "inventory and equipment"
+      },
+      {
+        "@language": "de",
+        "@value": "Inventar und Geraetschaften"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/remainingRisk",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Restlicher Überflutungsbereich eines Hochwassers mit seltener Eintrittswahrscheinlichkeit."
+      },
+      {
+        "@language": "en",
+        "@value": "Remaining areas of a flood with a rare probability of occurrence."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "remainingRisk"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Restrisiko"
+      },
+      {
+        "@language": "en",
+        "@value": "remaining risk"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/protectionInfrastructure",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Constructional installations installed for the protection of infrastructure, objects and persons exposed to natural hazards."
+      },
+      {
+        "@language": "de",
+        "@value": "Bauliche Anlagen, die zum Schutz von Infastrukturobjekten und Personen durch Naturgefahren installiert worden sind."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "protectionInfrastructure"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Schutzinfrastruktur"
+      },
+      {
+        "@language": "en",
+        "@value": "protection infrastructure"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalArea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Flächen, die zur landwirtschaftlichen Rohstofferzeugung als auch Brachflächen dienen. Landwirtschaftliche Gebäude- und Hofflächen sind nicht enthalten."
+      },
+      {
+        "@language": "en",
+        "@value": "Areas used for the production of agricultural products and fallow land. Agricultural buildings and yards are not included."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "agriculturalArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "landwirtschaftliche Flaechen"
+      },
+      {
+        "@language": "en",
+        "@value": "agricultural area"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/industrialAndCommercialBuilding",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Construction equipment used for secondary sector activities (industrial and commercial)."
+      },
+      {
+        "@language": "de",
+        "@value": "Bauliche Anlagen, die für Tätigkeiten des Sekundärsektors (Industrie und Gewerbe) genutzt werden"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "industrialAndCommercialBuilding"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Industrie und Gewerbegebaeude"
+      },
+      {
+        "@language": "en",
+        "@value": "industrial and commercial building"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalObjects",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "PObjects used for agricultural production of materials and products (including animals and fish stocks)."
+      },
+      {
+        "@language": "de",
+        "@value": "Objekte die zur landwirtschaftliche Rohstofferzeugung dienen und Produkte (auch Tier und Fischbestände) ."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "agriculturalObjects"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "landwirtschaftliche Objekte"
+      },
+      {
+        "@language": "en",
+        "@value": "agricultural objects"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/street",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Buildings used as transport routes connecting geographical locations on the land surface."
+      },
+      {
+        "@language": "de",
+        "@value": "Bauliche Objekte die als Transportweg genutzt und auf der Landoberfläche geografische Positionen verbinden."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "street"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "street"
+      },
+      {
+        "@language": "de",
+        "@value": "Strasse"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingEconomicBenefit",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Constructional facilities that are primarily used for the purpose of business activities such as hotels, restaurants, etc. and small businesses."
+      },
+      {
+        "@language": "de",
+        "@value": "Bauliche Anlagen, die vornehmlich zum Zwecke des Wirtschaftens wie Hotels, Gasthäuser, etc. und Kleingewerbe dient."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "buildingEconomicBenefit"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Gebaeude Wirtschaftlicher Nutzen"
+      },
+      {
+        "@language": "en",
+        "@value": "building economic benefit"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/outsideArea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Flächen die Gebäude und baulichen Anlagen direkt angrenzen."
+      },
+      {
+        "@language": "en",
+        "@value": "Areas directly adjoining buildings and facilities."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "outsideArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "outside area"
+      },
+      {
+        "@language": "de",
+        "@value": "Außenanlage"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalBuilding",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Constructional facilities used for the production of agricultural products, both primer and secondary."
+      },
+      {
+        "@language": "de",
+        "@value": "Bauliche Anlagen, die für die Erzeugung landwirtschaflicher Produkt, primaer als auch sekundär genutzt werden."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "agriculturalBuilding"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "agricultural building"
+      },
+      {
+        "@language": "de",
+        "@value": "Agrargebaeude"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterpathTransport",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Schiffbare Wasserflächen, Flüsse und Kanäle und deren dazugehörgigen baulichen Anlagen (z.B. Anlegesteg, Schleussen)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "waterpathTransport"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Wasserweg"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryObjects",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Objekte die zur forstwirtschaftlichen Rohstofferzeugung dienen und Produkte."
+      },
+      {
+        "@language": "en",
+        "@value": "Objects used for the production of forest materials and products."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "forestryObjects"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "forstwirtschaftliche Objekte"
+      },
+      {
+        "@language": "en",
+        "@value": "forestry objects"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/blueZone",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "This area is a water-based demand zone and is identified to carry out and maintain the functions of planned flood protection management measures."
+      },
+      {
+        "@language": "de",
+        "@value": "Dieser Bereich ist eine wasserwirtschaftliche Bedarfszone und wird auf Flächen ausgewiesen, die für die Durchführung sowie Aufrechterhaltung der Funktionen geplanter schutzwasserwirtschaftlicher Maßnahmen benötigt werden."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "blueZone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "blue zone"
+      },
+      {
+        "@language": "de",
+        "@value": "Blaue Zone"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -301,7 +1353,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryObjects",
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/miscellaneousLoss",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -320,19 +1372,14 @@
         "@value": "national-technical"
       }
     ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops"
-      }
-    ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Objekte die zur forstwirtschaftlichen Rohstofferzeugung dienen und Produkte."
+        "@value": "Schäden, denen keine definierte Kategorie zuzuordnen sind."
       },
       {
         "@language": "en",
-        "@value": "Objects used for the production of forest materials and products."
+        "@value": "Losses to which no defined category can be assigned."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -342,139 +1389,22 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "forestryObjects"
+        "@value": "miscellaneousLoss"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "forstwirtschaftliche Objekte"
+        "@value": "Sonstige Schaeden"
       },
       {
         "@language": "en",
-        "@value": "forestry objects"
+        "@value": "miscellaneous loss"
       }
     ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/yellowZone",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Bereiche die von Hochwasser mit mittlerer Eintrittswahrscheinlichkeit geringer gefährdet sind. Neubauten in dieser Zone sind hochwassergeschützt zu errichten."
-      },
-      {
-        "@language": "en",
-        "@value": "Areas that are less vulnerable to floods with a medium probability of occurrence. New buildings in this zone are to be built flood-proof."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
         "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "yellowZone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "yellow zone"
-      },
-      {
-        "@language": "de",
-        "@value": "Gelbe Zone"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/outsideArea",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Flächen die Gebäude und baulichen Anlagen direkt angrenzen."
-      },
-      {
-        "@language": "en",
-        "@value": "Areas directly adjoining buildings and facilities."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "outsideArea"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "outside area"
-      },
-      {
-        "@language": "de",
-        "@value": "Außenanlage"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -545,365 +1475,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/bridge",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Structural objects or utilities that overcome obstacles through technical constructions."
-      },
-      {
-        "@language": "de",
-        "@value": "Bauliche Objekte oder Versorgungseinrichtungen, die durch technische Konstruktionen Hindernisse überwinden."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "bridge"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Bruecke"
-      },
-      {
-        "@language": "en",
-        "@value": "bridge"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/inventoryAndEquipment",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Gesamtheit mobiler Objekte, die Gebäuden und baulichen Anlagen im direkten Zusammenhang stehen."
-      },
-      {
-        "@language": "en",
-        "@value": "A set of mobile objects that are directly related to buildings and facilities."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "inventoryAndEquipment"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "inventory and equipment"
-      },
-      {
-        "@language": "de",
-        "@value": "Inventar und Geraetschaften"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/railway",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Structural objects to be assigned to railway network."
-      },
-      {
-        "@language": "de",
-        "@value": "Bauliche Objekte, die dem Zugverkehr zu zuordnen sind."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "railway"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "railway"
-      },
-      {
-        "@language": "de",
-        "@value": "Eisenbahn"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalBuilding",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Constructional facilities used for the production of agricultural products, both primer and secondary."
-      },
-      {
-        "@language": "de",
-        "@value": "Bauliche Anlagen, die für die Erzeugung landwirtschaflicher Produkt, primaer als auch sekundär genutzt werden."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "agriculturalBuilding"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "agricultural building"
-      },
-      {
-        "@language": "de",
-        "@value": "Agrargebaeude"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/telecommunicationNetwork",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Structural infrastructure facilities for the production and supply of electricity."
-      },
-      {
-        "@language": "de",
-        "@value": "Bauliche Infrastrukturanlagen zur Kommunikationsversorgung."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "telecommunicationNetwork"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Fernmeldeleitungen"
-      },
-      {
-        "@language": "en",
-        "@value": "electrical installations"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterpathTransport",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Schiffbare Wasserflächen, Flüsse und Kanäle und deren dazugehörgigen baulichen Anlagen (z.B. Anlegesteg, Schleussen)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "waterpathTransport"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Wasserweg"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalArea",
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryArea",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -930,11 +1502,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Flächen, die zur landwirtschaftlichen Rohstofferzeugung als auch Brachflächen dienen. Landwirtschaftliche Gebäude- und Hofflächen sind nicht enthalten."
+        "@value": "Flächen, die zur forstwirtschaftlichen Rohstofferzeugung als auch das Erbringen immaterieller Leistungen insbesondere als Schutz- und Erholungsraum."
       },
       {
         "@language": "en",
-        "@value": "Areas used for the production of agricultural products and fallow land. Agricultural buildings and yards are not included."
+        "@value": "Areas used for the production of forest products and the provision of intangible services, in particular as a protected and recreational area."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -944,528 +1516,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "agriculturalArea"
+        "@value": "forestryArea"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "landwirtschaftliche Flaechen"
+        "@value": "forstwirtschaftliche Flaechen"
       },
       {
         "@language": "en",
-        "@value": "agricultural area"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/protectionInfrastructure",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Constructional installations installed for the protection of infrastructure, objects and persons exposed to natural hazards."
-      },
-      {
-        "@language": "de",
-        "@value": "Bauliche Anlagen, die zum Schutz von Infastrukturobjekten und Personen durch Naturgefahren installiert worden sind."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "protectionInfrastructure"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Schutzinfrastruktur"
-      },
-      {
-        "@language": "en",
-        "@value": "protection infrastructure"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/sewer",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Structural infrastructure facilities for the distribution and supply of natural gas or other fuels."
-      },
-      {
-        "@language": "de",
-        "@value": "Bauliche Infrastrukturanlagen zur Sammlung und Ableitung von Abwasser, Regen- oder Schmelzwasser durch unter- bzw. oberirdische Kanäle."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "sewer"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "sewer"
-      },
-      {
-        "@language": "de",
-        "@value": "Kanalisation"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/remainingRisk",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Restlicher Überflutungsbereich eines Hochwassers mit seltener Eintrittswahrscheinlichkeit."
-      },
-      {
-        "@language": "en",
-        "@value": "Remaining areas of a flood with a rare probability of occurrence."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "remainingRisk"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Restrisiko"
-      },
-      {
-        "@language": "en",
-        "@value": "remaining risk"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingEconomicBenefit",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Constructional facilities that are primarily used for the purpose of business activities such as hotels, restaurants, etc. and small businesses."
-      },
-      {
-        "@language": "de",
-        "@value": "Bauliche Anlagen, die vornehmlich zum Zwecke des Wirtschaftens wie Hotels, Gasthäuser, etc. und Kleingewerbe dient."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "buildingEconomicBenefit"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Gebaeude Wirtschaftlicher Nutzen"
-      },
-      {
-        "@language": "en",
-        "@value": "building economic benefit"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Bauliche Anlagen die zur privaten, öffentlichen als auch wirtschaftlichen Nutzung verhergesehen sind."
-      },
-      {
-        "@language": "en",
-        "@value": "Buildings for private, public and commercial use."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/residentialBuilding"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/publicBuilding"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalBuilding"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingEconomicBenefit"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/industrialAndCommercialBuilding"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/inventoryAndEquipment"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/outsideArea"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "buildingsAndFacilities"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "buildings and facilities"
-      },
-      {
-        "@language": "de",
-        "@value": "Gebaeude und bauliche Anlagen"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/electricalInstallations",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Shipping water areas, rivers and canals and their associated structures (e. g. jetties, locks)."
-      },
-      {
-        "@language": "de",
-        "@value": "Bauliche Infrastrukturanlagen zur Herstellung und Versorgung durch elektrischen Strom."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "electricalInstallations"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "water path transport"
-      },
-      {
-        "@language": "de",
-        "@value": "Elektrische Anlagen"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/blueZone",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "This area is a water-based demand zone and is identified to carry out and maintain the functions of planned flood protection management measures."
-      },
-      {
-        "@language": "de",
-        "@value": "Dieser Bereich ist eine wasserwirtschaftliche Bedarfszone und wird auf Flächen ausgewiesen, die für die Durchführung sowie Aufrechterhaltung der Funktionen geplanter schutzwasserwirtschaftlicher Maßnahmen benötigt werden."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "blueZone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "blue zone"
-      },
-      {
-        "@language": "de",
-        "@value": "Blaue Zone"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/formerRedZone",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "These are risk areas where flood protection systems are in operation. When a flood event exceeds the degree of protection or a technical fault occurs, the flood protection system does not function, flooding occurs to a degree similar to the absence of the flood protection system. New buildings are to be built flood-proof in this area."
-      },
-      {
-        "@language": "de",
-        "@value": "Hierbei handelt es sich um Restrisikogebiete im Wirkungsbereich von Hochwasserschutzanlagen. Wenn ein Hochwasserereignis das Bemessungsereignis übersteigt bzw. in Folge eines technischen Gebrechens die Hochwasserschutzanlage nicht funktioniert, kommt es im Wirkungsbereich der Hochwasserschutzanlage zu Überflutungen in einem Ausmaß ähnlich wie bei Nichtvorhandensein der Hochwasserschutzanlage. Neubauten sind in diesem Bereich hochwassergeschützt zu errichten."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "formerRedZone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "former red zone"
-      },
-      {
-        "@language": "de",
-        "@value": "ehemals Rote Zone"
+        "@value": "forestry area"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -1536,7 +1597,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/publicBuilding",
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/sewer",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1557,17 +1618,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities"
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "Constructional facilities that serve the public and are therefore accessible to everyone."
+        "@value": "Structural infrastructure facilities for the distribution and supply of natural gas or other fuels."
       },
       {
         "@language": "de",
-        "@value": "Bauliche Anlagen, die der Öffentlichkeit dienen und daher für jedermann zugänglich sind."
+        "@value": "Bauliche Infrastrukturanlagen zur Sammlung und Ableitung von Abwasser, Regen- oder Schmelzwasser durch unter- bzw. oberirdische Kanäle."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1577,17 +1638,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "publicBuilding"
+        "@value": "sewer"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "public building"
+        "@value": "sewer"
       },
       {
         "@language": "de",
-        "@value": "Oeffentliche Gebaeude"
+        "@value": "Kanalisation"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -1597,7 +1658,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalObjects",
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/formerRedZone",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1618,17 +1679,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops"
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "PObjects used for agricultural production of materials and products (including animals and fish stocks)."
+        "@value": "These are risk areas where flood protection systems are in operation. When a flood event exceeds the degree of protection or a technical fault occurs, the flood protection system does not function, flooding occurs to a degree similar to the absence of the flood protection system. New buildings are to be built flood-proof in this area."
       },
       {
         "@language": "de",
-        "@value": "Objekte die zur landwirtschaftliche Rohstofferzeugung dienen und Produkte (auch Tier und Fischbestände) ."
+        "@value": "Hierbei handelt es sich um Restrisikogebiete im Wirkungsbereich von Hochwasserschutzanlagen. Wenn ein Hochwasserereignis das Bemessungsereignis übersteigt bzw. in Folge eines technischen Gebrechens die Hochwasserschutzanlage nicht funktioniert, kommt es im Wirkungsbereich der Hochwasserschutzanlage zu Überflutungen in einem Ausmaß ähnlich wie bei Nichtvorhandensein der Hochwasserschutzanlage. Neubauten sind in diesem Bereich hochwassergeschützt zu errichten."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1638,17 +1699,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "agriculturalObjects"
+        "@value": "formerRedZone"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
-        "@language": "de",
-        "@value": "landwirtschaftliche Objekte"
+        "@language": "en",
+        "@value": "former red zone"
       },
       {
-        "@language": "en",
-        "@value": "agricultural objects"
+        "@language": "de",
+        "@value": "ehemals Rote Zone"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -1658,7 +1719,129 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/miscellaneousLoss",
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/gasPipelines",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Structural infrastructure facilities for communication supply."
+      },
+      {
+        "@language": "de",
+        "@value": "Bauliche Infrastrukturanlagen zur Verteilung und Versorgung Erdgas doer anderen Brenngasen."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "gasPipelines"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "telecommunication network"
+      },
+      {
+        "@language": "de",
+        "@value": "Gasleitungen"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/telecommunicationNetwork",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/nz"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Structural infrastructure facilities for the production and supply of electricity."
+      },
+      {
+        "@language": "de",
+        "@value": "Bauliche Infrastrukturanlagen zur Kommunikationsversorgung."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "telecommunicationNetwork"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Fernmeldeleitungen"
+      },
+      {
+        "@language": "en",
+        "@value": "electrical installations"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1680,11 +1863,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Schäden, denen keine definierte Kategorie zuzuordnen sind."
+        "@value": "Flächen, die zur forst- und landwirtschaftlichen Rohstofferzeugung dienen."
       },
       {
         "@language": "en",
-        "@value": "Losses to which no defined category can be assigned."
+        "@value": "Areas used for forestry and agricultural production of resources."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1692,19 +1875,33 @@
         "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
       }
     ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryObjects"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryArea"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalObjects"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalArea"
+      }
+    ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "miscellaneousLoss"
+        "@value": "agriculturalAndForestryCrops"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Sonstige Schaeden"
+        "@value": "Land und forstwirtschaftliche Kulturen"
       },
       {
         "@language": "en",
-        "@value": "miscellaneous loss"
+        "@value": "agricultural and forestry crops"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -1719,7 +1916,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryArea",
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/redYellowZone",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1740,17 +1937,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops"
+        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/classificationZone"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@language": "de",
-        "@value": "Flächen, die zur forstwirtschaftlichen Rohstofferzeugung als auch das Erbringen immaterieller Leistungen insbesondere als Schutz- und Erholungsraum."
+        "@language": "en",
+        "@value": "These areas are intended as retention, drainage and water management priority zones and are of great importance for the safe discharge and flood retention in flood situations."
       },
       {
-        "@language": "en",
-        "@value": "Areas used for the production of forest products and the provision of intangible services, in particular as a protected and recreational area."
+        "@language": "de",
+        "@value": "Diese Bereiche sind als Retentions-, Abfluss- und wasserwirtschaftliche Vorrangzonen vorgesehen und sind für den schadlosen Abfluss und Hochwasserrückhalt im Hochwasserfall von großer Bedeutung."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1760,17 +1957,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "forestryArea"
+        "@value": "redYellowZone"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "forstwirtschaftliche Flaechen"
+        "@value": "Rot Gelbe Zone"
       },
       {
         "@language": "en",
-        "@value": "forestry area"
+        "@value": "red yellow zone"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -1780,68 +1977,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/industrialAndCommercialBuilding",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/buildingsAndFacilities"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Construction equipment used for secondary sector activities (industrial and commercial)."
-      },
-      {
-        "@language": "de",
-        "@value": "Bauliche Anlagen, die für Tätigkeiten des Sekundärsektors (Industrie und Gewerbe) genutzt werden"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "industrialAndCommercialBuilding"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Industrie und Gewerbegebaeude"
-      },
-      {
-        "@language": "en",
-        "@value": "industrial and commercial building"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/street",
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/electricalInstallations",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1868,11 +2004,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "Buildings used as transport routes connecting geographical locations on the land surface."
+        "@value": "Shipping water areas, rivers and canals and their associated structures (e. g. jetties, locks)."
       },
       {
         "@language": "de",
-        "@value": "Bauliche Objekte die als Transportweg genutzt und auf der Landoberfläche geografische Positionen verbinden."
+        "@value": "Bauliche Infrastrukturanlagen zur Herstellung und Versorgung durch elektrischen Strom."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1882,78 +2018,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "street"
+        "@value": "electricalInstallations"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "street"
+        "@value": "water path transport"
       },
       {
         "@language": "de",
-        "@value": "Strasse"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/waterPipelines",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/transporAndNetworkInfrastructure"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Structural infrastructure facilities for transporting water to places where it is not naturally available."
-      },
-      {
-        "@language": "de",
-        "@value": "Bauliche Infrastrukturanlagen zum Transport von Wasser an Orte, an denen es auf natürlichem Wege nicht zur Verfügung steht."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "waterPipelines"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "water pipelines"
-      },
-      {
-        "@language": "de",
-        "@value": "Wasserleitungen"
+        "@value": "Elektrische Anlagen"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -2044,82 +2119,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalAndForestryCrops",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/nz-core"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/nz"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Flächen, die zur forst- und landwirtschaftlichen Rohstofferzeugung dienen."
-      },
-      {
-        "@language": "en",
-        "@value": "Areas used for forestry and agricultural production of resources."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryObjects"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/forestryArea"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalObjects"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/agriculturalArea"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "agriculturalAndForestryCrops"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Land und forstwirtschaftliche Kulturen"
-      },
-      {
-        "@language": "en",
-        "@value": "agricultural and forestry crops"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/gasPipelines",
+    "@id": "https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeValue/railway",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -2146,11 +2146,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "Structural infrastructure facilities for communication supply."
+        "@value": "Structural objects to be assigned to railway network."
       },
       {
         "@language": "de",
-        "@value": "Bauliche Infrastrukturanlagen zur Verteilung und Versorgung Erdgas doer anderen Brenngasen."
+        "@value": "Bauliche Objekte, die dem Zugverkehr zu zuordnen sind."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -2160,17 +2160,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "gasPipelines"
+        "@value": "railway"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "telecommunication network"
+        "@value": "railway"
       },
       {
         "@language": "de",
-        "@value": "Gasleitungen"
+        "@value": "Eisenbahn"
       }
     ],
     "http://www.w3.org/ns/adms#status": [

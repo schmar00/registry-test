@@ -1,5 +1,502 @@
 [
   {
+    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/specialUseOpenland",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. STMRK"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. STMRK"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "sind Flächen, wenn auf Grund ihrer besonderen Standortgunst die flächenhafte Nutzung im Vordergrund steht und diese nicht typischerweise einem Baulandgebiet zuzuordnen ist. Insbesondere sind das Flächen für Erwerbsgärtnereien, Erholungszwecke, Spielzwecke, Parkanlagen, Friedhöfe,…"
+      },
+      {
+        "@language": "en",
+        "@value": "are areas if, due to their particular locational advantages, the focus is on land use and this is not typically assigned to a building land area. In particular, these are areas for commercial nurseries, recreational purposes, playgrounds, parks, cemeteries, etc."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "specialUseOpenland"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Special use in the open land"
+      },
+      {
+        "@language": "de",
+        "@value": "Sondernutzung im Freiland"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/fAResidentialArea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. STMRK"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. STMRK"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "FA-Residential area are undeveloped gaps in the building land, which can be declared a residential area once the legal criteria are met."
+      },
+      {
+        "@language": "de",
+        "@value": "AF-Wohnen sind unbebaute Lücken  im Bauland, die nach Vorliegen der rechtlichen Kriterien als Wohngebiet erklärt werden können."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "fAResidentialArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "FA-Residential area"
+      },
+      {
+        "@language": "de",
+        "@value": "AF-Wohnen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/trafficAreas",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. STMRK"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. STMRK"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Verkehrsflächen sind solche Flächen, die für die Abwicklung des fließenden und ruhenden Verkehrs, sowie für die Aufschließung des Baulandes und des Freilandes vorgesehen sind."
+      },
+      {
+        "@language": "en",
+        "@value": "Traffic areas are those areas which are intended for the handling of moving and stationary traffic, as well as for the development of building land and open land"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "trafficAreas"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Verkehr"
+      },
+      {
+        "@language": "en",
+        "@value": "Traffic areas"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/rAVillage",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. STMRK"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. STMRK"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "SG-Dorf  sind nicht vollwertige Baulandflächen, die nach Beseitigung von Mängel zu vollwertigen Dorfgebiet werden."
+      },
+      {
+        "@language": "en",
+        "@value": "RA-Villages are not fully-fledged building land which, once defects have been remedied, become fully-fledged village areas."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "rAVillage"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "SG-Dorf"
+      },
+      {
+        "@language": "en",
+        "@value": "RA-Village"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/dAIndustry",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. STMRK"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. STMRK"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "DA-Industry are not yet fully developed industrial sites, but their production is expected and they are not designated as redevelopment sites."
+      },
+      {
+        "@language": "de",
+        "@value": "AS-Industrie sind noch nicht vollwertige Industrieflächen, deren Herstellung aber zu erwarten ist und die nicht als Sanierungsgebiete ausgewiesen sind."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "dAIndustry"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "DA-Industry"
+      },
+      {
+        "@language": "de",
+        "@value": "AS-Industrie"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/rAIndustry",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. STMRK"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. STMRK"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "SG-Industrie sind nicht vollwertige Baulandflächen, die nach Beseitigung von Mängel zu vollwertigen Industriegebieten werden."
+      },
+      {
+        "@language": "en",
+        "@value": "RA-Industrial areas are not fully fledged building land, which become fully fledged industrial areas once defects have been remedied."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "rAIndustry"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "SG-Industrie"
+      },
+      {
+        "@language": "en",
+        "@value": "RA-Industry"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/forest",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. STMRK"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. STMRK"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "laut Forstbehörde als Wald festgelegte Areale."
+      },
+      {
+        "@language": "en",
+        "@value": "areas designated as forests according to the Forest Service."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "forest"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Wald"
+      },
+      {
+        "@language": "en",
+        "@value": "Forest"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
     "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/dAResidentialArea",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -71,7 +568,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/specialUseOpenland",
+    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/rAResidentialArea",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -98,11 +595,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "sind Flächen, wenn auf Grund ihrer besonderen Standortgunst die flächenhafte Nutzung im Vordergrund steht und diese nicht typischerweise einem Baulandgebiet zuzuordnen ist. Insbesondere sind das Flächen für Erwerbsgärtnereien, Erholungszwecke, Spielzwecke, Parkanlagen, Friedhöfe,…"
+        "@value": "SG-Wohnen sind nicht vollwertige Baulandflächen, die nach Beseitigung von Mängel zu vollwertigen Wohngebieten werden."
       },
       {
         "@language": "en",
-        "@value": "are areas if, due to their particular locational advantages, the focus is on land use and this is not typically assigned to a building land area. In particular, these are areas for commercial nurseries, recreational purposes, playgrounds, parks, cemeteries, etc."
+        "@value": "RA-Residential areas are not fully-fledged building land that becomes fully-fledged residential areas after defects have been remedied."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -112,17 +609,230 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "specialUseOpenland"
+        "@value": "rAResidentialArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "SG-Wohnen"
+      },
+      {
+        "@language": "en",
+        "@value": "RA-Residential area"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/fAVillage",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. STMRK"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. STMRK"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "FA-Village are undeveloped gaps in the building land, which can be declared a village area once the legal criteria have been met."
+      },
+      {
+        "@language": "de",
+        "@value": "AF-Dorf sind unbebaute Lücken  im Bauland, die nach Vorliegen der rechtlichen Kriterien als Dorfgebiet erklärt werden können."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "fAVillage"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Special use in the open land"
+        "@value": "FA-Village"
       },
       {
         "@language": "de",
-        "@value": "Sondernutzung im Freiland"
+        "@value": "AF-Dorf"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/industryAndCommerce",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. STMRK"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. STMRK"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "sind Flächen für Gewerbe und Industrie inklusive Verwaltungsgebäuden und die für die Aufrechterhaltung erforderlichen Wohnungen."
+      },
+      {
+        "@language": "en",
+        "@value": "are areas for trade and industry including administrative buildings and the apartments required for maintenance."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "industryAndCommerce"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Industry and commerce"
+      },
+      {
+        "@language": "de",
+        "@value": "Industrie und Gewerbe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/mainAreas",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. STMRK"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. STMRK"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Kerngebiete sind Flächen mit einer im Vergleich zu anderen Baugebieten höheren Nutzungsvielfalt und Bebauungsdichte."
+      },
+      {
+        "@language": "en",
+        "@value": "Are areas with a higher variety of uses and building density compared to other building areas."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "mainAreas"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Main areas"
+      },
+      {
+        "@language": "de",
+        "@value": "Kerngebiet"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -340,78 +1050,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/dAVillage",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. STMRK"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. STMRK"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "DA-Village are not yet fully-fledged village areas, but their production is expected and they are not designated as redevelopment areas."
-      },
-      {
-        "@language": "de",
-        "@value": "AS-Dorf sind noch nicht vollwertige Dorfflächen, deren Herstellung aber zu erwarten ist und die nicht als Sanierungsgebiete ausgewiesen sind."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "dAVillage"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "DA-Village"
-      },
-      {
-        "@language": "de",
-        "@value": "AS-Dorf"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/shoppingCenters",
+    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/openland",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -438,11 +1077,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "sind Flächen für Einkaufszentren."
+        "@value": "Alle nicht als Bauland und Verkehrsland festgelegte Grundflächen gehören zum Freiland. Im Freiland können Sondernutzungen festgelegt werden (z.B.: öffentliche Parkanlagen)."
       },
       {
         "@language": "en",
-        "@value": "are areas for shopping centers."
+        "@value": "All land not designated as building land or traffic land belongs to the open land. Special uses can be defined in the open land (e.g.: public parks)."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -452,301 +1091,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "shoppingCenters"
+        "@value": "openland"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Shopping centers"
+        "@value": "Openland"
       },
       {
         "@language": "de",
-        "@value": "Einkaufszentren"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/fAVillage",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. STMRK"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. STMRK"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "FA-Village are undeveloped gaps in the building land, which can be declared a village area once the legal criteria have been met."
-      },
-      {
-        "@language": "de",
-        "@value": "AF-Dorf sind unbebaute Lücken  im Bauland, die nach Vorliegen der rechtlichen Kriterien als Dorfgebiet erklärt werden können."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "fAVillage"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "FA-Village"
-      },
-      {
-        "@language": "de",
-        "@value": "AF-Dorf"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/rAIndustry",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. STMRK"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. STMRK"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "SG-Industrie sind nicht vollwertige Baulandflächen, die nach Beseitigung von Mängel zu vollwertigen Industriegebieten werden."
-      },
-      {
-        "@language": "en",
-        "@value": "RA-Industrial areas are not fully fledged building land, which become fully fledged industrial areas once defects have been remedied."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "rAIndustry"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "SG-Industrie"
-      },
-      {
-        "@language": "en",
-        "@value": "RA-Industry"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/waterBodies",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. STMRK"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. STMRK"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Making visible the supra-local legally effective definition of water bodies."
-      },
-      {
-        "@language": "de",
-        "@value": "Ersichtlichmachung der überörtlich rechtwirksamen Festlegung Gewässer."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "waterBodies"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Water Bodies"
-      },
-      {
-        "@language": "de",
-        "@value": "Gewässer"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/fAResidentialArea",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. STMRK"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. STMRK"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "FA-Residential area are undeveloped gaps in the building land, which can be declared a residential area once the legal criteria are met."
-      },
-      {
-        "@language": "de",
-        "@value": "AF-Wohnen sind unbebaute Lücken  im Bauland, die nach Vorliegen der rechtlichen Kriterien als Wohngebiet erklärt werden können."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "fAResidentialArea"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "FA-Residential area"
-      },
-      {
-        "@language": "de",
-        "@value": "AF-Wohnen"
+        "@value": "Freiland"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -837,7 +1192,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/dAIndustry",
+    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/waterBodies",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -864,11 +1219,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "DA-Industry are not yet fully developed industrial sites, but their production is expected and they are not designated as redevelopment sites."
+        "@value": "Making visible the supra-local legally effective definition of water bodies."
       },
       {
         "@language": "de",
-        "@value": "AS-Industrie sind noch nicht vollwertige Industrieflächen, deren Herstellung aber zu erwarten ist und die nicht als Sanierungsgebiete ausgewiesen sind."
+        "@value": "Ersichtlichmachung der überörtlich rechtwirksamen Festlegung Gewässer."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -878,17 +1233,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "dAIndustry"
+        "@value": "waterBodies"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "DA-Industry"
+        "@value": "Water Bodies"
       },
       {
         "@language": "de",
-        "@value": "AS-Industrie"
+        "@value": "Gewässer"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -908,7 +1263,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/industryAndCommerce",
+    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/shoppingCenters",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -935,11 +1290,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "sind Flächen für Gewerbe und Industrie inklusive Verwaltungsgebäuden und die für die Aufrechterhaltung erforderlichen Wohnungen."
+        "@value": "sind Flächen für Einkaufszentren."
       },
       {
         "@language": "en",
-        "@value": "are areas for trade and industry including administrative buildings and the apartments required for maintenance."
+        "@value": "are areas for shopping centers."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -949,372 +1304,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "industryAndCommerce"
+        "@value": "shoppingCenters"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Industry and commerce"
+        "@value": "Shopping centers"
       },
       {
         "@language": "de",
-        "@value": "Industrie und Gewerbe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/trafficAreas",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. STMRK"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. STMRK"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Verkehrsflächen sind solche Flächen, die für die Abwicklung des fließenden und ruhenden Verkehrs, sowie für die Aufschließung des Baulandes und des Freilandes vorgesehen sind."
-      },
-      {
-        "@language": "en",
-        "@value": "Traffic areas are those areas which are intended for the handling of moving and stationary traffic, as well as for the development of building land and open land"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "trafficAreas"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Verkehr"
-      },
-      {
-        "@language": "en",
-        "@value": "Traffic areas"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/mainAreas",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. STMRK"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. STMRK"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Kerngebiete sind Flächen mit einer im Vergleich zu anderen Baugebieten höheren Nutzungsvielfalt und Bebauungsdichte."
-      },
-      {
-        "@language": "en",
-        "@value": "Are areas with a higher variety of uses and building density compared to other building areas."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "mainAreas"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Main areas"
-      },
-      {
-        "@language": "de",
-        "@value": "Kerngebiet"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/forest",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. STMRK"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. STMRK"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "laut Forstbehörde als Wald festgelegte Areale."
-      },
-      {
-        "@language": "en",
-        "@value": "areas designated as forests according to the Forest Service."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "forest"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Wald"
-      },
-      {
-        "@language": "en",
-        "@value": "Forest"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/rAResidentialArea",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. STMRK"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. STMRK"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "SG-Wohnen sind nicht vollwertige Baulandflächen, die nach Beseitigung von Mängel zu vollwertigen Wohngebieten werden."
-      },
-      {
-        "@language": "en",
-        "@value": "RA-Residential areas are not fully-fledged building land that becomes fully-fledged residential areas after defects have been remedied."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "rAResidentialArea"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "SG-Wohnen"
-      },
-      {
-        "@language": "en",
-        "@value": "RA-Residential area"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/rAVillage",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. STMRK"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. STMRK"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "SG-Dorf  sind nicht vollwertige Baulandflächen, die nach Beseitigung von Mängel zu vollwertigen Dorfgebiet werden."
-      },
-      {
-        "@language": "en",
-        "@value": "RA-Villages are not fully-fledged building land which, once defects have been remedied, become fully-fledged village areas."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "rAVillage"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "SG-Dorf"
-      },
-      {
-        "@language": "en",
-        "@value": "RA-Village"
+        "@value": "Einkaufszentren"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
@@ -1405,7 +1405,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/openland",
+    "@id": "https://registry.inspire.gv.at/codelist/stmLandUseValue/dAVillage",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1431,12 +1431,12 @@
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@language": "de",
-        "@value": "Alle nicht als Bauland und Verkehrsland festgelegte Grundflächen gehören zum Freiland. Im Freiland können Sondernutzungen festgelegt werden (z.B.: öffentliche Parkanlagen)."
+        "@language": "en",
+        "@value": "DA-Village are not yet fully-fledged village areas, but their production is expected and they are not designated as redevelopment areas."
       },
       {
-        "@language": "en",
-        "@value": "All land not designated as building land or traffic land belongs to the open land. Special uses can be defined in the open land (e.g.: public parks)."
+        "@language": "de",
+        "@value": "AS-Dorf sind noch nicht vollwertige Dorfflächen, deren Herstellung aber zu erwarten ist und die nicht als Sanierungsgebiete ausgewiesen sind."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1446,17 +1446,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "openland"
+        "@value": "dAVillage"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Openland"
+        "@value": "DA-Village"
       },
       {
         "@language": "de",
-        "@value": "Freiland"
+        "@value": "AS-Dorf"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [

@@ -6,6 +6,48 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/purpleReferenceArea">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="de">Gebiete, deren gegenwärtiger Zustand erhalten werden muss, um die Schutzfunktion auch in Zukunft zu gewährleisten (z.B. natürliche Umleitungsdämme, hochwasserrückhaltende Flächen in Form von Geländemulden), werden als violette Hinweisbereiche ausgewiesen.</skos:definition>
+    <skos:definition xml:lang="en">Areas whose present state has to be preserved in order to ensure the protective function also in the future (e.g. natural diversion dams, flood retarding areas in the form of terrain synclines) are identified as purple reference areas.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
+    <skos:notation>purpleReferenceArea</skos:notation>
+    <skos:prefLabel xml:lang="de">Violetter Hinweisbereich</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">purple reference area</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/blueReservationArea">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="en">Blue reservation areas are areas which are to be kept free for future technical (e.g. construction of a sedimentation basin) or biological control measures (e.g. afforestation).</skos:definition>
+    <skos:definition xml:lang="de">Blaue Vorbehaltsbereiche sind Flächen, die für zukünftige technische (z.B. Bau eines Absetzbeckens) oder biologische Bekämpfungsmaßnahmen (z.B. Aufforstungen) freigehalten werden sollen.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
+    <skos:notation>blueReservationArea</skos:notation>
+    <skos:prefLabel xml:lang="en">blue reservation area</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Blauer Vorbehaltsbereich</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/yellowHazardZone">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="en">In yellow hazard zones the permanent use for settlement and transport purposes is impaired by snow avalanches /torrential floods. Building in these areas is only possible with specific building control requirements</skos:definition>
+    <skos:definition xml:lang="de">In gelben Gefahrenzonen ist die dauerhafte Nutzung für Siedlungs- und Transportzwecke durch Lawinen/sturzflutartiges Hochwasser beeinträchtigt. Das Bauen in diesen Gebieten ist nur unter besonderen Auflagen möglich.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
+    <skos:notation>yellowHazardZone</skos:notation>
+    <skos:prefLabel xml:lang="en">yellow hazard zone</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Gelbe Gefahrenzone</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/partiallyRelevantArea">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
@@ -16,6 +58,20 @@
     <skos:notation>partiallyRelevantArea</skos:notation>
     <skos:prefLabel xml:lang="de">Raumrelevanter Bereich</skos:prefLabel>
     <skos:prefLabel xml:lang="en">patially relevant area</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/redHazardZone">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="en">In red hazard zones the threat due to snow avalanches /torrential floods is so high that permanent settlement is not possible or only possible with a disproportionately high expenditure. The construction of new buildings is not recommended.</skos:definition>
+    <skos:definition xml:lang="de">In den roten Gefahrenzonen ist die Bedrohung durch Lawinen/sturzflutartiges Hochwasser so hoch, dass eine dauerhafte Besiedlung nicht oder nur mit unverhältnismäßig hohem Aufwand möglich ist. Der Bau neuer Gebäude wird nicht empfohlen.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
+    <skos:notation>redHazardZone</skos:notation>
+    <skos:prefLabel xml:lang="de">Rote Gefahrenzone</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">red hazard zone</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
@@ -44,20 +100,6 @@
     <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/planArea">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
-    <skos:definition xml:lang="en">The plan area defines the municipality or parts of a municipality for which the hazard zone map was elaborated.</skos:definition>
-    <skos:definition xml:lang="de">Das Plangebiet im Sinne der Gefahrenzonenplanung der WLV umfasst gemäß § 3 der GZP-Verordnung in der Regel das Gebiet einer Gemeinde. Es darf aber, falls erforderlich und begründbar, auch auf Teile eines Gemeindegebietes beschränkt werden.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
-    <skos:notation>planArea</skos:notation>
-    <skos:prefLabel xml:lang="de">Plangebiet</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">plan area</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/torrentCatchmentAreas">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
@@ -68,62 +110,6 @@
     <skos:notation>torrentCatchmentAreas</skos:notation>
     <skos:prefLabel xml:lang="de">Wildbach-Einzugsgebiet</skos:prefLabel>
     <skos:prefLabel xml:lang="en">torrent catchment areas</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/redHazardZone">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
-    <skos:definition xml:lang="en">In red hazard zones the threat due to snow avalanches /torrential floods is so high that permanent settlement is not possible or only possible with a disproportionately high expenditure. The construction of new buildings is not recommended.</skos:definition>
-    <skos:definition xml:lang="de">In den roten Gefahrenzonen ist die Bedrohung durch Lawinen/sturzflutartiges Hochwasser so hoch, dass eine dauerhafte Besiedlung nicht oder nur mit unverhältnismäßig hohem Aufwand möglich ist. Der Bau neuer Gebäude wird nicht empfohlen.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
-    <skos:notation>redHazardZone</skos:notation>
-    <skos:prefLabel xml:lang="de">Rote Gefahrenzone</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">red hazard zone</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/yellowHazardZone">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
-    <skos:definition xml:lang="en">In yellow hazard zones the permanent use for settlement and transport purposes is impaired by snow avalanches /torrential floods. Building in these areas is only possible with specific building control requirements</skos:definition>
-    <skos:definition xml:lang="de">In gelben Gefahrenzonen ist die dauerhafte Nutzung für Siedlungs- und Transportzwecke durch Lawinen/sturzflutartiges Hochwasser beeinträchtigt. Das Bauen in diesen Gebieten ist nur unter besonderen Auflagen möglich.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
-    <skos:notation>yellowHazardZone</skos:notation>
-    <skos:prefLabel xml:lang="en">yellow hazard zone</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Gelbe Gefahrenzone</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/purpleReferenceArea">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
-    <skos:definition xml:lang="de">Gebiete, deren gegenwärtiger Zustand erhalten werden muss, um die Schutzfunktion auch in Zukunft zu gewährleisten (z.B. natürliche Umleitungsdämme, hochwasserrückhaltende Flächen in Form von Geländemulden), werden als violette Hinweisbereiche ausgewiesen.</skos:definition>
-    <skos:definition xml:lang="en">Areas whose present state has to be preserved in order to ensure the protective function also in the future (e.g. natural diversion dams, flood retarding areas in the form of terrain synclines) are identified as purple reference areas.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
-    <skos:notation>purpleReferenceArea</skos:notation>
-    <skos:prefLabel xml:lang="de">Violetter Hinweisbereich</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">purple reference area</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/avalancheCatchmentArea">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
-    <skos:definition xml:lang="en">The avalanche catchment area indicates the eligibility of an avalanche to be fed, the area in which it breaks off and the area in which it deposits. A snow mass with typically a volume greater than 100 m³ and a minimum length of 50 meters that slides rapidly downhill.</skos:definition>
-    <skos:definition xml:lang="de">Das Lawinen-Einzugsgebiet kennzeichnet den Nähr-, Abbruch- und Ablagerungsbereich einer Lawine. Eine Schneemasse mit typischerweise einem Volumen von mehr als 100 m³ und einer Mindestlänge von 50 Metern, die schnell talwärts rutscht.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
-    <skos:notation>avalancheCatchmentArea</skos:notation>
-    <skos:prefLabel xml:lang="de">Lawinen-Einzugsgebiet</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">avalanche catchment area</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
@@ -142,16 +128,30 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/blueReservationArea">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/planArea">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
-    <skos:definition xml:lang="en">Blue reservation areas are areas which are to be kept free for future technical (e.g. construction of a sedimentation basin) or biological control measures (e.g. afforestation).</skos:definition>
-    <skos:definition xml:lang="de">Blaue Vorbehaltsbereiche sind Flächen, die für zukünftige technische (z.B. Bau eines Absetzbeckens) oder biologische Bekämpfungsmaßnahmen (z.B. Aufforstungen) freigehalten werden sollen.</skos:definition>
+    <skos:definition xml:lang="en">The plan area defines the municipality or parts of a municipality for which the hazard zone map was elaborated.</skos:definition>
+    <skos:definition xml:lang="de">Das Plangebiet im Sinne der Gefahrenzonenplanung der WLV umfasst gemäß § 3 der GZP-Verordnung in der Regel das Gebiet einer Gemeinde. Es darf aber, falls erforderlich und begründbar, auch auf Teile eines Gemeindegebietes beschränkt werden.</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
-    <skos:notation>blueReservationArea</skos:notation>
-    <skos:prefLabel xml:lang="en">blue reservation area</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Blauer Vorbehaltsbereich</skos:prefLabel>
+    <skos:notation>planArea</skos:notation>
+    <skos:prefLabel xml:lang="de">Plangebiet</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">plan area</skos:prefLabel>
+    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV/avalancheCatchmentArea">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/nz"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/nz"/>
+    <skos:definition xml:lang="en">The avalanche catchment area indicates the eligibility of an avalanche to be fed, the area in which it breaks off and the area in which it deposits. A snow mass with typically a volume greater than 100 m³ and a minimum length of 50 meters that slides rapidly downhill.</skos:definition>
+    <skos:definition xml:lang="de">Das Lawinen-Einzugsgebiet kennzeichnet den Nähr-, Abbruch- und Ablagerungsbereich einer Lawine. Eine Schneemasse mit typischerweise einem Volumen von mehr als 100 m³ und einer Mindestlänge von 50 Metern, die schnell talwärts rutscht.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
+    <skos:notation>avalancheCatchmentArea</skos:notation>
+    <skos:prefLabel xml:lang="de">Lawinen-Einzugsgebiet</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">avalanche catchment area</skos:prefLabel>
     <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>

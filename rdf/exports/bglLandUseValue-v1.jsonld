@@ -1,53 +1,5 @@
 [
   {
-    "@id": "https://registry.inspire.gv.at/codelist/bglLandUseValue/Weinbauriede",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Weinbauriede sind Weinbaufluren oder Teile einer Weinbauflur, die sich durch natürliche oder künstliche Grenzen oder infolge der weinbaulichen Nutzung als selbstständiger Gebietsteil darstellt und entweder schon bisher als Weinbauriede bezeichnet wurde oder infolge der Lage und Bodenbeschaffenheit die Hervorbringung gleichartiger und gleichwertiger Weine erwarten lässt"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/bglLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "Weinbauriede"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Weinbauriede"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/bglLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
     "@id": "https://registry.inspire.gv.at/codelist/bglLandUseValue",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -112,6 +64,54 @@
       {
         "@language": "en",
         "@value": "INSPIRE extensibility: open, internal by value"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/bglLandUseValue/Weinbauriede",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Weinbauriede sind Weinbaufluren oder Teile einer Weinbauflur, die sich durch natürliche oder künstliche Grenzen oder infolge der weinbaulichen Nutzung als selbstständiger Gebietsteil darstellt und entweder schon bisher als Weinbauriede bezeichnet wurde oder infolge der Lage und Bodenbeschaffenheit die Hervorbringung gleichartiger und gleichwertiger Weine erwarten lässt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/bglLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "Weinbauriede"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Weinbauriede"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/bglLandUseValue"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
