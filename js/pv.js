@@ -902,7 +902,7 @@ const REF_LINKS = [n.dcterms + 'references'];
 const RELATIONS_1 = [n.skos + 'broader', n.skos + 'narrower', n.skos + 'related'];
 const RELATIONS_2 = [n.skos + 'exactMatch', n.skos + 'closeMatch', n.skos + 'relatedMatch', n.skos + 'broadMatch', n.skos + 'narrowMatch'];
 const RELATIONS_3 = [n.dbpo + 'category', n.owl + 'sameAs', n.dcterms + 'relation', n.dcterms + 'hasPart', n.dcterms + 'isPartOf'];
-const WEB_LINK = [n.dcterms + 'source', n.dcterms + 'isReferencedBy', n.dcterms + 'subject', n.dcterms + 'isRequiredBy', n.dcterms + 'identifier', n.foaf + 'isPrimaryTopicOf', n.schema + 'subjectOf', n.foaf + 'page', n.schema + 'hasMap'];
+const WEB_LINK = [n.dcterms + 'source', n.dcterms + 'isReferencedBy', n.dcterms + 'subject', n.dcterms + 'conformsTo', n.dcterms + 'isRequiredBy', n.dcterms + 'identifier', n.foaf + 'isPrimaryTopicOf', n.schema + 'subjectOf', n.foaf + 'page', n.schema + 'hasMap'];
 const ICONS = [n.foaf + 'isPrimaryTopicOf', n.schema + 'subjectOf', n.foaf + 'page', n.dcterms + 'isPartOf', n.dcterms + 'hasPart'];
 const appIcons = ['<i class="fab fa-twitter"></i>', '<i class="fas fa-blog"></i>', '<i class="fab fa-youtube"></i>', '<i class="fab fa-wikipedia-w"></i>'];
 const VISUALIZATION = [n.dbpo + 'colourHexCode'];
@@ -917,17 +917,17 @@ const FRONT_LIST = {
     apps: ICONS,
     abstract: DESCRIPTION_1,
     scope: DESCRIPTION_3,
-    citation: CITATION,
+    //citation: CITATION,
     relatedConcepts: [...RELATIONS_1, ...RELATIONS_2, ...RELATIONS_3],
 };
 const TECHNICAL_LIST = {
-    descriptions: [...REPLACES, ...STATUS, ...NOTATION, ...PREF_LABEL, ...SYNONYMS, ...DESCRIPTION_1, ...DESCRIPTION_2],
-    scientificReferences: [...CITATION, ...REF_LINKS],
+    descriptions: [...NOTATION, ...PREF_LABEL, ...SYNONYMS, ...DESCRIPTION_1, ...STATUS, ...DESCRIPTION_2],
+    //scientificReferences: [...CITATION, ...REF_LINKS],
     semanticRelations: [...RELATIONS_1, ...RELATIONS_2, ...RELATIONS_3],
     seeAlso: [...WEB_LINK],
     images: [...PICTURE, ...VISUALIZATION],
-    location: LOCATION,
-    creator: CREATOR
+    location: LOCATION
+    //creator: CREATOR
 };
 
 function rdfTS(v) { //create RDF narrowers for download
