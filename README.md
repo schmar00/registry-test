@@ -16,11 +16,11 @@ Bundled vendor scripts include `js/jquery.min.js`, `js/bootstrap.bundle.min.js`,
 
 ![Registry](registry.png)
 
-The publication process of the Codelist-Registry is a structured workflow involving four key stakeholders: the **Geodata Office** (initiator and technical lead), the **Support Office** (editorial management and final approval), the **Operational Service Operator** (technical implementation, SKOS modeling, and QA), and the **Production System Operator** (deployment and mirroring).
+The publication process of the Codelist-Registry is a structured workflow involving four key stakeholders: the **Data Provider** (initiator and technical lead), the **Assistantship** (editorial management and final approval), the **Service Operator** (technical implementation, SKOS modeling, and QA), and the **Production System Operator** (deployment and mirroring).
 
 The process follows five distinct phases:
 
-1.  **Editorial Review & Requirements Management:** The process begins when a Geodata Office requests an update. The Support Office validates core requirements, including publisher identification, status definition (e.g., Valid, Superseded), URI design, and the structural definition of Linked Open Data (SKOS) models, such as multilingualism and external mappings.
+1.  **Editorial Review & Requirements Management:** The process begins when a Data Provider requests an update. The Assistantship validates core requirements, including publisher identification, status definition (e.g., Valid, Superseded), URI design, and the structural definition of Linked Open Data (SKOS) models, such as multilingualism and external mappings.
 2.  **Technical Implementation & QA:** Once editorial requirements are set, the Operational Operator performs technical modeling using **PoolParty**. This phase involves transforming raw data into SKOS hierarchies, validating RDF formats, and ensuring the stability of the testing infrastructure.
 3.  **Data Finalization & Dataset Creation:** Following editorial approval, datasets are refined via VSCode to ensure UTF-8 encoding and RDF integrity. A critical component is the creation of versioned **N-Quads** datasets using **Named Graphs**, allowing each codelist to maintain its own version history. These are then aggregated into a single, comprehensive master file representing the current state of the registry.
 4.  **Deployment & Distribution:** The updated N-Quads files are published to a GitHub repository. To ensure wide accessibility, the system generates various exports in multiple formats, including RDF (Turtle, JSON-LD) and structured text (CSV, TSV). Simultaneously, the **Jena Fuseki** Triple Store is updated, enabling immediate data retrieval via a SPARQL endpoint.
