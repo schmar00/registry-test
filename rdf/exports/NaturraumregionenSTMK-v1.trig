@@ -14,7 +14,7 @@
         skos:notation "aFB" ;
         skos:prefLabel "Aflenzer Becken"@de,
             "Aflenzer basin"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -27,7 +27,7 @@
         skos:notation "aUB" ;
         skos:prefLabel "Ausseer Becken"@de,
             "Ausseer basin"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -40,7 +40,7 @@
         skos:notation "bWW" ;
         skos:prefLabel "Bucklige Welt"@de,
             "Bucklige Welt"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -53,7 +53,7 @@
         skos:notation "dSG" ;
         skos:prefLabel "Dachsteingruppe"@de,
             "Dachsteingruppe"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -66,7 +66,7 @@
         skos:notation "eEA" ;
         skos:prefLabel "Eisenerzer Alpen"@de,
             "Eisenerzer Alps"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -79,7 +79,7 @@
         skos:notation "eNA" ;
         skos:prefLabel "Ennstaler Alpen"@de,
             "Ennstaler Alps"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -92,7 +92,7 @@
         skos:notation "fBA" ;
         skos:prefLabel "Fischbacher Alpen"@de,
             "Fischbacher Alps"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -105,7 +105,7 @@
         skos:notation "fST" ;
         skos:prefLabel "Feistritztal"@de,
             "Feistritztal"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -118,7 +118,7 @@
         skos:notation "gGB" ;
         skos:prefLabel "Gratwein-Gratkorner Becken"@de,
             "Gratwein-Gratkorner basin"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -131,7 +131,7 @@
         skos:notation "gNA" ;
         skos:prefLabel "Gleinalpe"@de,
             "Gleinalpe"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -144,7 +144,7 @@
         skos:notation "gTA" ;
         skos:prefLabel "Gurktaler Alpen"@de,
             "Gurktaler Alps"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -157,7 +157,7 @@
         skos:notation "gZF" ;
         skos:prefLabel "Grazer Feld"@de,
             "Grazer Feld"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -170,7 +170,7 @@
         skos:notation "hSG" ;
         skos:prefLabel "Hochschwabgruppe"@de,
             "Hochschwabgruppe"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -183,7 +183,7 @@
         skos:notation "jGL" ;
         skos:prefLabel "Joglland"@de,
             "Joglland"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -196,7 +196,7 @@
         skos:notation "jKB" ;
         skos:prefLabel "Judenburg-Knittelfelder Becken"@de,
             "Judenburg-Knittelfelder basin"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -209,7 +209,7 @@
         skos:notation "kNT" ;
         skos:prefLabel "Kainachtal"@de,
             "Kainachtal"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -222,7 +222,7 @@
         skos:notation "kOA" ;
         skos:prefLabel "Koralpe"@de,
             "Koralpe"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -235,7 +235,7 @@
         skos:notation "kVB" ;
         skos:prefLabel "Koeflach-Voitsberger Becken"@de,
             "Koeflach-Voitsberger basin"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -248,7 +248,7 @@
         skos:notation "lFT" ;
         skos:prefLabel "Lafnitztal"@de,
             "Lafnitztal"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -261,7 +261,7 @@
         skos:notation "lST" ;
         skos:prefLabel "Liesingtal"@de,
             "Liesingtal"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -274,7 +274,7 @@
         skos:notation "lZF" ;
         skos:prefLabel "Leibnitzer Feld"@de,
             "Leibnitzer Feld"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -287,7 +287,7 @@
         skos:notation "lZT" ;
         skos:prefLabel "Lassnitztal"@de,
             "Lassnitztal"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -300,7 +300,7 @@
         skos:notation "mDB" ;
         skos:prefLabel "Mitterndorfer Becken"@de,
             "Mitterndorfer basin"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -313,7 +313,7 @@
         skos:notation "mET" ;
         skos:prefLabel "Mittleres Ennstal"@de,
             "Middle Ennstal"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -326,7 +326,7 @@
         skos:notation "mMT" ;
         skos:prefLabel "Mittleres Murtal"@de,
             "middle Murtal"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -339,7 +339,7 @@
         skos:notation "mMzT" ;
         skos:prefLabel "Mittleres Muerztal"@de,
             "Middle Muerztal"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -352,7 +352,7 @@
         skos:notation "mSA" ;
         skos:prefLabel "Muerzsteger Alpen"@de,
             "Muerzsteger Alps"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -365,7 +365,7 @@
         skos:notation "mTA" ;
         skos:prefLabel "Muerztaler Alpen"@de,
             "Muerztaler Alps"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -378,7 +378,7 @@
         skos:notation "mUB" ;
         skos:prefLabel "Murberge"@de,
             "Murberge"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -391,7 +391,7 @@
         skos:notation "mZP" ;
         skos:prefLabel "Mariazeller Passlandschaft"@de,
             "Mariazell pass landscape"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -404,7 +404,7 @@
         skos:notation "nPL" ;
         skos:prefLabel "Neumarkter Passlandschaft"@de,
             "Neumarkter pass landscape"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -417,7 +417,7 @@
         skos:notation "oET" ;
         skos:prefLabel "Oberes Ennstal"@de,
             "Upper Ennstal"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -430,7 +430,7 @@
         skos:notation "oGB" ;
         skos:prefLabel "oestliches Grazer Bergland"@de,
             "eastern Graz Highlands"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -443,7 +443,7 @@
         skos:notation "oMT" ;
         skos:prefLabel "Oberes Murtal"@de,
             "Upper Murtal"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -456,7 +456,7 @@
         skos:notation "oPL" ;
         skos:prefLabel "Obdacher Passlandschaft"@de,
             "Obdacher pass landscape"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -469,7 +469,7 @@
         skos:notation "oSR" ;
         skos:prefLabel "Oststeirisches Riedelland"@de,
             "east styrian Riedelland"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -482,7 +482,7 @@
         skos:notation "pLT" ;
         skos:prefLabel "Poelstal"@de,
             "Poelstal"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -495,7 +495,7 @@
         skos:notation "pSB" ;
         skos:prefLabel "Passailer Becken"@de,
             "Passailer basin"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -508,7 +508,7 @@
         skos:notation "pSR" ;
         skos:prefLabel "Possruck"@de,
             "Possruck"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -521,7 +521,7 @@
         skos:notation "pTT" ;
         skos:prefLabel "Paltental"@de,
             "Paltental"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -534,7 +534,7 @@
         skos:notation "rBT" ;
         skos:prefLabel "Raabtal"@de,
             "Raabtal"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -547,7 +547,7 @@
         skos:notation "sBA" ;
         skos:prefLabel "StSteiermarklpe"@de,
             "Stupalpe"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -560,7 +560,7 @@
         skos:notation "sBR" ;
         skos:prefLabel "Suedburgenlaendisches Riedelland"@de,
             "South Burgenlaendisches Riedelland"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -573,7 +573,7 @@
         skos:notation "sKT" ;
         skos:prefLabel "Seckauer Tauern"@de,
             "Seckauer Tauern"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -586,7 +586,7 @@
         skos:notation "sMT" ;
         skos:prefLabel "Schladminger Tauern"@de,
             "Schladminger Tauern"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -599,7 +599,7 @@
         skos:notation "sSL" ;
         skos:prefLabel "Sausal"@de,
             "Sausal"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -612,7 +612,7 @@
         skos:notation "sTA" ;
         skos:prefLabel "Seetaler Alpen"@de,
             "Seetaler Alps"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -625,7 +625,7 @@
         skos:notation "sUT" ;
         skos:prefLabel "Sulmtal"@de,
             "Sulmtal"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -638,7 +638,7 @@
         skos:notation "tFB" ;
         skos:prefLabel "Trofaiacher Becken"@de,
             "Trofaiacher basin"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -651,7 +651,7 @@
         skos:notation "tTG" ;
         skos:prefLabel "Totes Gebirge"@de,
             "Totes Gebirge"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -664,7 +664,7 @@
         skos:notation "tZA" ;
         skos:prefLabel "Tuernitzer Alpen"@de,
             "Tuernitzer Alps"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -677,7 +677,7 @@
         skos:notation "uET" ;
         skos:prefLabel "Unteres Ennstal"@de,
             "Lower Ennstal"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -690,7 +690,7 @@
         skos:notation "uMT" ;
         skos:prefLabel "Unteres Murtal"@de,
             "lower Murtal"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -703,7 +703,7 @@
         skos:notation "uMzT" ;
         skos:prefLabel "Unteres Muerztal"@de,
             "Lower Muerztal"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -716,7 +716,7 @@
         skos:notation "wGB" ;
         skos:prefLabel "Westliches Grazer Bergland"@de,
             "western Graz Highlands"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -729,7 +729,7 @@
         skos:notation "wLT" ;
         skos:prefLabel "Woelzer Tauern"@de,
             "Woelzer Tauern"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -742,7 +742,7 @@
         skos:notation "wSB" ;
         skos:prefLabel "Windische Buehel"@de,
             "Windische Buehel"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -755,7 +755,7 @@
         skos:notation "wSL" ;
         skos:prefLabel "Wechsel"@de,
             "Wechsel"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -768,7 +768,7 @@
         skos:notation "wSR" ;
         skos:prefLabel "Weststeirisches Riedelland"@de,
             "west styrian Riedelland"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -781,7 +781,7 @@
         skos:notation "yTA" ;
         skos:prefLabel "Ybbstaler Alpen"@de,
             "Ybbstaler Alps"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 

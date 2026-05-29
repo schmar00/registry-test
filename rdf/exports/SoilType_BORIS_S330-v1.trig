@@ -13,7 +13,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1111" ;
         skos:prefLabel "Carbonatfreier Grobmaterial-Rohboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1112> a skos:Concept ;
@@ -24,7 +24,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1112" ;
         skos:prefLabel "Carbonathaltiger Grobmaterial-Rohboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1121> a skos:Concept ;
@@ -35,7 +35,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1121" ;
         skos:prefLabel "carbonatfreier Feinmaterial - Rohboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1122> a skos:Concept ;
@@ -46,7 +46,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1122" ;
         skos:prefLabel "carbonathaltiger Feinmaterial - Rohboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1221> a skos:Concept ;
@@ -57,7 +57,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1221" ;
         skos:prefLabel "Proto- Rendzina"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1222> a skos:Concept ;
@@ -68,7 +68,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1222" ;
         skos:prefLabel "Mull- Rendzina"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1223> a skos:Concept ;
@@ -79,7 +79,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1223" ;
         skos:prefLabel "Mullartige- Rendzina"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1224> a skos:Concept ;
@@ -90,7 +90,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1224" ;
         skos:prefLabel "Moder- Rendzina"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1225> a skos:Concept ;
@@ -101,7 +101,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1225" ;
         skos:prefLabel "Tangel- Rendzina"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1226> a skos:Concept ;
@@ -112,7 +112,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1226" ;
         skos:prefLabel "Pech- Rendzina"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1227> a skos:Concept ;
@@ -123,7 +123,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1227" ;
         skos:prefLabel "Carbonathaltiger Fels-Auflagehumusboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1231> a skos:Concept ;
@@ -134,7 +134,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1231" ;
         skos:prefLabel "Mull- Kalklehm-Rendzina"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1232> a skos:Concept ;
@@ -145,7 +145,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1232" ;
         skos:prefLabel "Moder- Kalklehm-Rendzina"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1241> a skos:Concept ;
@@ -156,7 +156,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1241" ;
         skos:prefLabel "Proto- Pararendzina"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1242> a skos:Concept ;
@@ -167,7 +167,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1242" ;
         skos:prefLabel "Mull- Pararendzina"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1243> a skos:Concept ;
@@ -178,7 +178,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1243" ;
         skos:prefLabel "Moder- Pararendzina"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1251> a skos:Concept ;
@@ -189,7 +189,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1251" ;
         skos:prefLabel "Proto- Ranker"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1252> a skos:Concept ;
@@ -200,7 +200,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1252" ;
         skos:prefLabel "Typischer- Ranker"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1253> a skos:Concept ;
@@ -211,7 +211,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1253" ;
         skos:prefLabel "Carbonatfreier Fels-Auflagehumusboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1261> a skos:Concept ;
@@ -222,7 +222,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1261" ;
         skos:prefLabel "typischer Tschernosem"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1262> a skos:Concept ;
@@ -233,7 +233,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1262" ;
         skos:prefLabel "brauner Tschernosem"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1263> a skos:Concept ;
@@ -244,7 +244,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1263" ;
         skos:prefLabel "Rumpf Tschernosem"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1270> a skos:Concept ;
@@ -255,7 +255,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1270" ;
         skos:prefLabel "Para-Tschernosem"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1311> a skos:Concept ;
@@ -266,7 +266,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1311" ;
         skos:prefLabel "typische Braunerde"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1312> a skos:Concept ;
@@ -277,7 +277,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1312" ;
         skos:prefLabel "podsolige Braunerde"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1313> a skos:Concept ;
@@ -288,7 +288,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1313" ;
         skos:prefLabel "Carbonathaltige Braunerde"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1314> a skos:Concept ;
@@ -299,7 +299,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1314" ;
         skos:prefLabel "Relikt- Braunerde"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1321> a skos:Concept ;
@@ -310,7 +310,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1321" ;
         skos:prefLabel "Rezente Parabraunerde"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1322> a skos:Concept ;
@@ -321,7 +321,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1322" ;
         skos:prefLabel "Relikt- Parabraunerde"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1410> a skos:Concept ;
@@ -332,7 +332,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1410" ;
         skos:prefLabel "Semipodsol"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1421> a skos:Concept ;
@@ -343,7 +343,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1421" ;
         skos:prefLabel "Eisen-Humus- Podsol"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1422> a skos:Concept ;
@@ -354,7 +354,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1422" ;
         skos:prefLabel "Eisen- Podsol"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1423> a skos:Concept ;
@@ -365,7 +365,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1423" ;
         skos:prefLabel "Humus- Podsol"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1431> a skos:Concept ;
@@ -376,7 +376,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1431" ;
         skos:prefLabel "Eisen-Humus- Staupodsol"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1432> a skos:Concept ;
@@ -387,7 +387,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1432" ;
         skos:prefLabel "Eisen- Staupodsol"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1433> a skos:Concept ;
@@ -398,7 +398,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1433" ;
         skos:prefLabel "Humus- Staupodsol"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1510> a skos:Concept ;
@@ -409,7 +409,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1510" ;
         skos:prefLabel "Kalkbraunlehm"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1520> a skos:Concept ;
@@ -420,7 +420,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1520" ;
         skos:prefLabel "Kalkrotlehm"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1610> a skos:Concept ;
@@ -431,7 +431,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1610" ;
         skos:prefLabel "Farb-Substratboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1620> a skos:Concept ;
@@ -442,7 +442,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1620" ;
         skos:prefLabel "Textursubstratboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1742> a skos:Concept ;
@@ -453,7 +453,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1742" ;
         skos:prefLabel "Carbonathaltiger Rigolboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1751> a skos:Concept ;
@@ -464,7 +464,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1751" ;
         skos:prefLabel "Planieboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1752> a skos:Concept ;
@@ -475,7 +475,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1752" ;
         skos:prefLabel "Haldenboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1761> a skos:Concept ;
@@ -486,7 +486,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1761" ;
         skos:prefLabel "Carbonatfreier Deponieboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1762> a skos:Concept ;
@@ -497,7 +497,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1762" ;
         skos:prefLabel "Carbonathaltiger Deponieboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1771> a skos:Concept ;
@@ -508,7 +508,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1771" ;
         skos:prefLabel "Steinringboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1772> a skos:Concept ;
@@ -519,7 +519,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1772" ;
         skos:prefLabel "Steinpolygonboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1773> a skos:Concept ;
@@ -530,7 +530,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1773" ;
         skos:prefLabel "Steinnetzboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1774> a skos:Concept ;
@@ -541,7 +541,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1774" ;
         skos:prefLabel "Girlandenboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1775> a skos:Concept ;
@@ -552,7 +552,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1775" ;
         skos:prefLabel "Streifenboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1811> a skos:Concept ;
@@ -563,7 +563,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1811" ;
         skos:prefLabel "Carbonatfreier Auboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1812> a skos:Concept ;
@@ -574,7 +574,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1812" ;
         skos:prefLabel "Carbonathaltiger Auboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1821> a skos:Concept ;
@@ -585,7 +585,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1821" ;
         skos:prefLabel "Carbonatfreier Augley"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1822> a skos:Concept ;
@@ -596,7 +596,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1822" ;
         skos:prefLabel "Carbonathaltiger Augley"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1831> a skos:Concept ;
@@ -607,7 +607,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1831" ;
         skos:prefLabel "Carbonatfreier Schwemmboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1832> a skos:Concept ;
@@ -618,7 +618,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1832" ;
         skos:prefLabel "Carbonathaltiger Schwemmboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1841> a skos:Concept ;
@@ -629,7 +629,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1841" ;
         skos:prefLabel "Carbonatfreier Rohauboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1842> a skos:Concept ;
@@ -640,7 +640,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1842" ;
         skos:prefLabel "Carbonathaltiger Rohauboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1910> a skos:Concept ;
@@ -651,7 +651,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1910" ;
         skos:prefLabel "Typischer Pseudogley"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1921> a skos:Concept ;
@@ -662,7 +662,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1921" ;
         skos:prefLabel "Typischer Stagnogley"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1922> a skos:Concept ;
@@ -673,7 +673,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1922" ;
         skos:prefLabel "Anmooriger Stagnogley"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1930> a skos:Concept ;
@@ -684,7 +684,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1930" ;
         skos:prefLabel "Hangpseudogley"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1940> a skos:Concept ;
@@ -695,7 +695,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1940" ;
         skos:prefLabel "Haftnässe-Pseudogley"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1950> a skos:Concept ;
@@ -706,7 +706,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "1950" ;
         skos:prefLabel "Reliktpseudogley"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2011> a skos:Concept ;
@@ -717,7 +717,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "2011" ;
         skos:prefLabel "Typischer Gley"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2012> a skos:Concept ;
@@ -728,7 +728,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "2012" ;
         skos:prefLabel "Brauner Gley"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2021> a skos:Concept ;
@@ -739,7 +739,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "2021" ;
         skos:prefLabel "Typischer Naßgley"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2022> a skos:Concept ;
@@ -750,7 +750,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "2022" ;
         skos:prefLabel "Anmooriger Naßgley"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2023> a skos:Concept ;
@@ -761,7 +761,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "2023" ;
         skos:prefLabel "Torf- Naßgley"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2031> a skos:Concept ;
@@ -772,7 +772,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "2031" ;
         skos:prefLabel "Typischer Hanggley"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2032> a skos:Concept ;
@@ -783,7 +783,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "2032" ;
         skos:prefLabel "Anmooriger Hanggley"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2033> a skos:Concept ;
@@ -794,7 +794,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "2033" ;
         skos:prefLabel "Torf Hanggley"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2111> a skos:Concept ;
@@ -805,7 +805,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "2111" ;
         skos:prefLabel "Typisches Niedermoor"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2112> a skos:Concept ;
@@ -816,7 +816,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "2112" ;
         skos:prefLabel "Übergangsmoor"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2120> a skos:Concept ;
@@ -827,7 +827,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "2120" ;
         skos:prefLabel "Anmoor"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2131> a skos:Concept ;
@@ -838,7 +838,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "2131" ;
         skos:prefLabel "Carbonatfreie Feuchtschwarzerde"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2132> a skos:Concept ;
@@ -849,7 +849,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "2132" ;
         skos:prefLabel "Carbonathaltige Feuchtschwarzerde"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2140> a skos:Concept ;
@@ -860,7 +860,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "2140" ;
         skos:prefLabel "Hochmoor"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2210> a skos:Concept ;
@@ -871,7 +871,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "2210" ;
         skos:prefLabel "Dy"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2220> a skos:Concept ;
@@ -882,7 +882,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "2220" ;
         skos:prefLabel "Gyttja"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2230> a skos:Concept ;
@@ -893,7 +893,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "2230" ;
         skos:prefLabel "Saprobel"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2310> a skos:Concept ;
@@ -904,7 +904,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "2310" ;
         skos:prefLabel "Solontschak"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2320> a skos:Concept ;
@@ -915,7 +915,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "2320" ;
         skos:prefLabel "Solonetz"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2330> a skos:Concept ;
@@ -926,7 +926,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "2330" ;
         skos:prefLabel "Solontschak-Solonetz"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2400> a skos:Concept ;
@@ -936,7 +936,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         skos:notation "2400" ;
         skos:prefLabel "nicht identifizierbare Böden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -949,7 +949,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1120> ;
         skos:notation "1100" ;
         skos:prefLabel "Terrestrische Rohböden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -963,7 +963,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1112> ;
         skos:notation "1110" ;
         skos:prefLabel "Grobmaterial-Rohboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1120> a skos:Concept ;
@@ -976,7 +976,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1122> ;
         skos:notation "1120" ;
         skos:prefLabel "Feinmaterial-Rohboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1230> a skos:Concept ;
@@ -989,7 +989,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1232> ;
         skos:notation "1230" ;
         skos:prefLabel "Kalklehm-Rendzina"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1300> a skos:Concept ;
@@ -1001,7 +1001,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1320> ;
         skos:notation "1300" ;
         skos:prefLabel "Braunerden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1015,7 +1015,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1322> ;
         skos:notation "1320" ;
         skos:prefLabel "Parabraunerde"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1500> a skos:Concept ;
@@ -1027,7 +1027,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1520> ;
         skos:notation "1500" ;
         skos:prefLabel "Kalklehme"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1040,7 +1040,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1620> ;
         skos:notation "1600" ;
         skos:prefLabel "Substratböden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1054,7 +1054,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1752> ;
         skos:notation "1750" ;
         skos:prefLabel "Schüttungsboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1760> a skos:Concept ;
@@ -1067,7 +1067,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1762> ;
         skos:notation "1760" ;
         skos:prefLabel "Deponieboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1810> a skos:Concept ;
@@ -1080,7 +1080,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1812> ;
         skos:notation "1810" ;
         skos:prefLabel "Auboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1820> a skos:Concept ;
@@ -1093,7 +1093,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1822> ;
         skos:notation "1820" ;
         skos:prefLabel "Augley"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1830> a skos:Concept ;
@@ -1106,7 +1106,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1832> ;
         skos:notation "1830" ;
         skos:prefLabel "Schwemmboden Schwemmboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1840> a skos:Concept ;
@@ -1119,7 +1119,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1842> ;
         skos:notation "1840" ;
         skos:prefLabel "Rohauboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1920> a skos:Concept ;
@@ -1132,7 +1132,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1922> ;
         skos:notation "1920" ;
         skos:prefLabel "Stagnogley"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2010> a skos:Concept ;
@@ -1145,7 +1145,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2012> ;
         skos:notation "2010" ;
         skos:prefLabel "Gley"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2110> a skos:Concept ;
@@ -1158,7 +1158,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2112> ;
         skos:notation "2110" ;
         skos:prefLabel "Niedermoor"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2130> a skos:Concept ;
@@ -1171,7 +1171,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2132> ;
         skos:notation "2130" ;
         skos:prefLabel "Feuchtschwarzerde"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1240> a skos:Concept ;
@@ -1185,7 +1185,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1243> ;
         skos:notation "1240" ;
         skos:prefLabel "Pararendzina"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1250> a skos:Concept ;
@@ -1199,7 +1199,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1253> ;
         skos:notation "1250" ;
         skos:prefLabel "Ranker"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1260> a skos:Concept ;
@@ -1213,7 +1213,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1263> ;
         skos:notation "1260" ;
         skos:prefLabel "Tschernosem"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1400> a skos:Concept ;
@@ -1226,7 +1226,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1430> ;
         skos:notation "1400" ;
         skos:prefLabel "Podsole"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1241,7 +1241,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1423> ;
         skos:notation "1420" ;
         skos:prefLabel "Podsol"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1430> a skos:Concept ;
@@ -1255,7 +1255,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1433> ;
         skos:notation "1430" ;
         skos:prefLabel "Staupodsol"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2000> a skos:Concept ;
@@ -1268,7 +1268,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2030> ;
         skos:notation "2000" ;
         skos:prefLabel "Gleye"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1283,7 +1283,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2023> ;
         skos:notation "2020" ;
         skos:prefLabel "Naßgley"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2030> a skos:Concept ;
@@ -1297,7 +1297,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2033> ;
         skos:notation "2030" ;
         skos:prefLabel "Hanggley (Quellgley)"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2200> a skos:Concept ;
@@ -1310,7 +1310,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2230> ;
         skos:notation "2200" ;
         skos:prefLabel "Unterwasserböden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1324,7 +1324,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2330> ;
         skos:notation "2300" ;
         skos:prefLabel "Salzböden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1340,7 +1340,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1314> ;
         skos:notation "1310" ;
         skos:prefLabel "Braunerde"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1700> a skos:Concept ;
@@ -1354,7 +1354,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1770> ;
         skos:notation "1700" ;
         skos:prefLabel "Umgelagerte Böden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1369,7 +1369,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1840> ;
         skos:notation "1800" ;
         skos:prefLabel "Auböden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1384,7 +1384,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2140> ;
         skos:notation "2100" ;
         skos:prefLabel "Moore, Anmoore und Feuchtschwarzerden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1401,7 +1401,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1775> ;
         skos:notation "1770" ;
         skos:prefLabel "Frostmusterboden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1900> a skos:Concept ;
@@ -1416,7 +1416,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1950> ;
         skos:notation "1900" ;
         skos:prefLabel "Pseudogleye"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1433,7 +1433,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1270> ;
         skos:notation "1200" ;
         skos:prefLabel "Terrestrische Humusböden"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1452,7 +1452,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/1227> ;
         skos:notation "1220" ;
         skos:prefLabel "Rendzina"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> a skos:ConceptScheme ;

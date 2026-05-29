@@ -12,7 +12,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/referenzart> ;
         skos:notation "ALM" ;
         skos:prefLabel "Alm"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/referenzart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -23,7 +23,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/referenzart> ;
         skos:notation "FO" ;
         skos:prefLabel "Forst"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/referenzart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -34,7 +34,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/referenzart> ;
         skos:notation "HEIM" ;
         skos:prefLabel "Heimgut"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/referenzart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -45,7 +45,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/referenzart> ;
         skos:notation "HW" ;
         skos:prefLabel "Hutweide"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/referenzart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -56,7 +56,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/referenzart> ;
         skos:notation "LSE_FL" ;
         skos:prefLabel "LSE Flaeche"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/referenzart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -67,7 +67,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/referenzart> ;
         skos:notation "LSE_PKT" ;
         skos:prefLabel "LSE Punkt"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/referenzart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -78,7 +78,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/referenzart> ;
         skos:notation "PF" ;
         skos:prefLabel "Pflegefläche"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/referenzart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -89,7 +89,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/referenzart> ;
         skos:notation "TF" ;
         skos:prefLabel "Teich"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/referenzart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 

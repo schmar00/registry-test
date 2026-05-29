@@ -15,7 +15,7 @@
         skos:notation "ALSAG_Gebiete" ;
         skos:prefLabel "Gebiete gemaess Altlastensanierungsgesetz"@de,
             "Contaminated Site Area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -28,7 +28,7 @@
         skos:notation "Almhauptregionen" ;
         skos:prefLabel "Almhauptregionen"@de,
             "main alpine regions"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -41,14 +41,14 @@
         skos:notation "Bewirtschaftungsgebiete" ;
         skos:prefLabel "Landwirtschaftliche Bewirtschaftungsgebiete"@de,
             "Agricultural management areas"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Hydropeaking> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
-        rdfs:seeAlso "national-technical" ;
+        rdfs:seeAlso "national-technical"@en ;
         skos:definition "Gewässerstrecke mit anthropogen bedingten Wasserführungsschwankungen mit Schwall-Sunk-Erscheinungen."@de,
             "Water stretch with anthropogenically caused runoff fluctuations and the occurrence of hydropeaking."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> ;
@@ -61,7 +61,7 @@
     <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/Impoundment> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
-        rdfs:seeAlso "national-technical" ;
+        rdfs:seeAlso "national-technical"@en ;
         skos:definition "Gewässerstrecke mit anthropogen bedingter Reduktionen der mittleren Fließgeschwindigkeit im Querprofil auf unter 0.3 Meter pro Sekunde bei Mittelwasser (MQ)."@de,
             "Water stretch with anthropogenically caused reductions of average flow velocity in cross sections to less than 0.3 meters per second for medium water level."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> ;
@@ -80,7 +80,7 @@
         skos:notation "Jagdkastaster" ;
         skos:prefLabel "Jagdgebiet"@de,
             "hunting areas"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -93,7 +93,7 @@
         skos:notation "LandwirtschaftlicheHauptproduktionsgebiete" ;
         skos:prefLabel "Landwirtschaftliche Hauptproduktionsgebiete"@de,
             "Main agricultural production areas"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -108,14 +108,14 @@
         skos:notation "Sanierungsgebiet_Luftreinhalteprogramm" ;
         skos:prefLabel "Sanierungsgebiet Luftreinhalteprogramm"@de,
             "air quality improvement zone"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt/WaterAbstraction> a skos:Concept ;
         dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/am> ;
         dcterms:subject <http://inspire.ec.europa.eu/theme/am> ;
-        rdfs:seeAlso "national-technical" ;
+        rdfs:seeAlso "national-technical"@en ;
         skos:definition "Abschnitt eines Gewässers, der durch anthropogen bedingte Ableitung bzw. durch anthropogen bedingten Rückhalt von einer Abminderung des natürlichen Abflusses betroffen ist."@de,
             "Section of a flowing water which is affected by anthropogenically caused drainage or restraint due to a reduction of its natural runoff."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> ;
@@ -134,7 +134,7 @@
         skos:notation "fishingCadastre" ;
         skos:prefLabel "Fischereikataster"@de,
             "fishing cadastre"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -147,7 +147,7 @@
         skos:notation "saproWindEnergy" ;
         skos:prefLabel "SAPRO Windenergiezone"@de,
             "SAPRO Wind Energy Zone"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -160,7 +160,7 @@
         skos:notation "wISPointinformation" ;
         skos:prefLabel "WIS-Punktinformationen"@de,
             "waterinformationsystem"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 

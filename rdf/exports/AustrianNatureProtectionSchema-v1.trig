@@ -19,7 +19,7 @@
         skos:notation "AuZ" ;
         skos:prefLabel "Aussenzone im Nationalpark"@de,
             "National Park zone: outer zone"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/BeZ> a skos:Concept ;
@@ -35,7 +35,7 @@
         skos:notation "BeZ" ;
         skos:prefLabel "Bewahrungszone im Nationalpark"@de,
             "National Park zone: conservation zone"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/KeZ> a skos:Concept ;
@@ -51,7 +51,7 @@
         skos:notation "KeZ" ;
         skos:prefLabel "Kernzone im Nationalpark"@de,
             "National Park zone: core zone"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/MaZ> a skos:Concept ;
@@ -67,7 +67,7 @@
         skos:notation "MaZ" ;
         skos:prefLabel "Managementzone im Nationalpark"@de,
             "National Park zone: management zone"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NaZ> a skos:Concept ;
@@ -83,7 +83,7 @@
         skos:notation "NaZ" ;
         skos:prefLabel "Naturzone im Nationalpark"@de,
             "National Park zone: nature zone"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/SSG> a skos:Concept ;
@@ -92,7 +92,7 @@
             "K, S"@en ;
         dcterms:subject <http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/> ;
         rdfs:comment "http://inspire.ec.europa.eu/applicationschema/ps" ;
-        rdfs:seeAlso "Banko, Environment Agency Austria, 2016" ;
+        rdfs:seeAlso "Banko, Environment Agency Austria, 2016"@en ;
         skos:broader <https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ> ;
         skos:definition "Kärntner Nationalpark- und Biosphärenparkgesetz - K-NBG § 5 ; LGBl. NÖ 5505-0: § 5-7 (NÖ NPG) ; LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG)"@de,
             "Kärntner Nationalpark- und Biosphärenparkgesetz - K-NBG § 5 ; LGBl. NÖ 5505-0: § 5-7 (NÖ NPG) ; LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG)"@en ;
@@ -115,7 +115,7 @@
         skos:notation "SoZ" ;
         skos:prefLabel "Sonderzone im Nationalpark"@de,
             "National Park zone: special zone"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NP> a skos:Concept ;
@@ -128,7 +128,7 @@
         skos:narrower <https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ> ;
         skos:notation "NP" ;
         skos:prefLabel "Nationalpark"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -152,7 +152,7 @@
         skos:notation "NPZ" ;
         skos:prefLabel "Nationalparkzone"@de,
             "National Park zone"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema> a skos:ConceptScheme ;
@@ -237,9 +237,9 @@
             <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_13_3_2>,
             <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_14>,
             <https://registry.inspire.gv.at/codelist/Biotoptypen_AT/9_14_1> ;
-        skos:scopeNote "Banko, Environment Agency Austria, 2016",
-            "INSPIRE governance level: national-technical",
-            "INSPIRE extensibility: open, internal by value"@en ;
+        skos:scopeNote "Banko, Environment Agency Austria, 2016"@en,
+            "INSPIRE extensibility: open, internal by value"@en,
+            "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 }
 

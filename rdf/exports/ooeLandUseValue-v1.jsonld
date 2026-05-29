@@ -1,360 +1,5 @@
 [
   {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialGreenLand",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. OOE, Kennzahl 13009, 13501, 13502, 13503, 13500"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. OOE, Kennzahl 13009, 13501, 13502, 13503, 13500"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Flaechen fuer Schiessstaetten, Windkraftanlagen, Funkanlagen und Photovoltaikanlagen"
-      },
-      {
-        "@language": "en",
-        "@value": "Areas for shooting areas, wind power, radio installation and photocoltaic plants"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "specialGreenLand"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Special green Land"
-      },
-      {
-        "@language": "de",
-        "@value": "Sonderausweisung im Gruenland"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/agricultureLand",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. OOE, Kennzahl 13001"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. OOE, Kennzahl 13001"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Flaechen die fuer die Land- und Forstwirtschaft bestimmt sind oder oedland sind"
-      },
-      {
-        "@language": "en",
-        "@value": "Areas for agriculture and forestry and wasteland"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "agricultureLand"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Land- und Forstwirtschaft, oedland"
-      },
-      {
-        "@language": "en",
-        "@value": "Agriculture and forestry, wasteland"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/reservedArea",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. OOE, Kennzahl 14001, 14002, 14003, 14004, 14005, 14006, 14007, 14008, 14009, 14010, 14011, 14012, 14013, 14000"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. OOE, Kennzahl 14001, 14002, 14003, 14004, 14005, 14006, 14007, 14008, 14009, 14010, 14011, 14012, 14013, 14000"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Vorbehaltsflaechen fuer oeffentlichen Zwecken dienenden Bauwerken und Anlagen (Verwaltungsgebaeude, Schule, Krankenanstalt, Altersheim, Heil- und Pflegeanstalt, Altstoffsammelzentrum, Jugendheim oder Jugendherberge, Seelsorgeeinrichtung, Kindergarten, Hallenbad, Feuerwehr, Luftschutzanlage, Hochwasserschutzanlagen, Ergaenzungsmoeglichkeiten fuer Vorbehaltsflaechen)"
-      },
-      {
-        "@language": "en",
-        "@value": "Land reserved for public facilities (governmental office, school, hospital, retirement home, nursing home or sanatorium, waste collection center, youth center, counseling facility, kindergarden, indoor pool, fire department, air-raid shelter, flood protection, possible augmentation of facilty)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "reservedArea"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Vorbehaltsflaechen"
-      },
-      {
-        "@language": "en",
-        "@value": "Reserved areas"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/compostingPlant",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. OOE, Kennzahl 13203"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. OOE, Kennzahl 13203"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Flaechen fuer Kompostieranlagen"
-      },
-      {
-        "@language": "en",
-        "@value": "Areas for composting plants"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "compostingPlant"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Kompostieranlage"
-      },
-      {
-        "@language": "en",
-        "@value": "composting plant"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/spaArea",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. OOE, Kennzahl 11008"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. OOE, Kennzahl 11008"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Spa areas and related tourism businesses"
-      },
-      {
-        "@language": "de",
-        "@value": "Flaechen fuer Kuranstalten und darauf abgestellte Tourismusbetriebe und Erholungseinrichtungen"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "spaArea"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Spa areas"
-      },
-      {
-        "@language": "de",
-        "@value": "Kurgebiet"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
     "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingBuilding",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -411,215 +56,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyCompactedResidentialArea",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
         "@language": "en",
-        "@value": "Def. OOE, Kennzahl 11101"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. OOE, Kennzahl 11101"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Flaechen fuer foerderbare mehrgeschossige Wohnbauten oder Gebaeude in verdichteter Flachbauweise sowie fuer Bauwerke fuer den taeglichen Bedarf der Bewohnerinnen bzw. Bewohner"
-      },
-      {
-        "@language": "en",
-        "@value": "Areas for multi storey residental buildings or compacted flat construction and for constructions fpr the daily needs of the inhabitants"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "multistoreyCompactedResidentialArea"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Wohngebiet fuer mehrgeschossige gefoerderte Wohnbauten oder Gebaeude in verdichterer Flachbauweise"
-      },
-      {
-        "@language": "en",
-        "@value": "Residental areas for multistorey and compacted flat construction"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingFacilitiesReservedArea",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@value": "Def. OOE, Kennzahl 14101, 14102, 14103, 14104, 14105, 14106, 14107, 14108, 14109, 14110, 14111, 14112, 14100"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": "Existing facilities on land reserved for public facilities (governmental office, school, hospital, retirement home, nursing home or sanatorium, waste collection center, youth center, counseling facility, kindergarden, indoor pool, fire department, air-raid shelter, flood protection, possible augmentation of facilty)"
-      },
-      {
-        "@value": "Bestehende Bauwerke und Anlagen auf Vorbehaltsflaechen fuer oeffentlichen Zwecken dienenden Bauwerken und Anlagen (Verwaltungsgebaeude, Schule, Krankenanstalt, Altersheim, Heil- und Pflegeanstalt, Altstoffsammelzentrum, Jugendheim oder Jugendherberge, Seelsorgeeinrichtung, Kindergarten, Hallenbad, Feuerwehr, Luftschutzanlage, Hochwasserschutzanlagen, Ergaenzungsmoeglichkeiten fuer Vorbehaltsflaechen)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "existingFacilitiesReservedArea"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Existing facilities on reserved areas"
-      },
-      {
-        "@language": "de",
-        "@value": "Bestehende Einrichtungen auf Vorbehaltsflaechen"
-      },
-      {
-        "@value": "Bestehende Einrichtungen auf Vorbehaltsflaechen"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/trafficArea",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. OOE, Kennzahl 12001, 12002, 12003, 12004, 12005"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. OOE, Kennzahl 12001, 12002, 12003, 12004, 12005"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Flaechen, die den fliessenden und ruhenden Verkehr dienen und besondere Verkehrsbedeutung besitzen, wie Parkplaetze, Parkhaeuser, unterirdische Parkflaechen und Fusswege"
-      },
-      {
-        "@language": "en",
-        "@value": "Areas for steady and current traffic, like streets, parking area, multistorey parking space, unterground parking space and walkways"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "trafficArea"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Traffic area"
-      },
-      {
-        "@language": "de",
-        "@value": "Flaechenmaessige Darstellung - fliessender Verkehr"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -691,6 +128,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -706,7 +144,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/cemetery",
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/industryArea",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -718,11 +156,11 @@
     "http://purl.org/dc/terms/description": [
       {
         "@language": "en",
-        "@value": "Def. OOE, Kennzahl 13002"
+        "@value": "Def. OOE, Kennzahl 11003"
       },
       {
         "@language": "de",
-        "@value": "Def. OOE, Kennzahl 13002"
+        "@value": "Def. OOE, Kennzahl 11003"
       }
     ],
     "http://purl.org/dc/terms/subject": [
@@ -733,11 +171,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Flaechen fuer Friedhoefe"
+        "@value": "Flaechen fuer Grossbetriebe und Lagerplaetze"
       },
       {
         "@language": "en",
-        "@value": "Areas for cemeteries"
+        "@value": "Areas for large enterprises and storage places"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -747,21 +185,22 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "cemetery"
+        "@value": "industryArea"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "cemetery"
+        "@value": "Industry areas"
       },
       {
         "@language": "de",
-        "@value": "Friedhof"
+        "@value": "Industriegebiet"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -777,7 +216,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialOnlyArea",
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/allotmentGarden",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -789,11 +228,11 @@
     "http://purl.org/dc/terms/description": [
       {
         "@language": "en",
-        "@value": "Def. OOE, Kennzahl 11007"
+        "@value": "Def. OOE, Kennzahl 13201"
       },
       {
         "@language": "de",
-        "@value": "Def. OOE, Kennzahl 11007"
+        "@value": "Def. OOE, Kennzahl 13201"
       }
     ],
     "http://purl.org/dc/terms/subject": [
@@ -804,11 +243,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Flaechen einzig fuer Wohngebaeude, die einem dauernden Wohnbedarf dienen und fuer Bauwerke"
+        "@value": "Flaechen fuer Dauerkleingaerten"
       },
       {
         "@language": "en",
-        "@value": "Areas only for permanent residental buildings"
+        "@value": "Areas for allotment gardens"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -818,21 +257,94 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "residentialOnlyArea"
+        "@value": "allotmentGarden"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Dauerkleingaerten"
+      },
+      {
+        "@language": "en",
+        "@value": "allotment garden"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/recreationalAreas",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. OOE, Kennzahl 13101, 13102, 13103, 13104, 13105, 13106, 13107, 13108, 13109, 13110, 13100"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. OOE, Kennzahl 13101, 13102, 13103, 13104, 13105, 13106, 13107, 13108, 13109, 13110, 13100"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Flaechen fuer Erholungs- oder Sportanlagen wie Parkanlagen, Spiel- und Liegewiesen, Sport- und Spielflaechen, Freibaeder, Campingplaetze, Tennishallen, Golfplaetze, Reitsportanlagen, Gaststaetten und Schutzhuetten sowie Wintersportanlagen einschliesslich der Schipisten"
+      },
+      {
+        "@language": "en",
+        "@value": "Areas for recreational, parks, playgrounds, sports facilities, outdoor swimming pools, campsites, tennis halls, golf courses, equestrian facilitiies, winter sport facilities, protective huts and slopes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "recreationalAreas"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Residental only areas"
+        "@value": "recreational areas"
       },
       {
         "@language": "de",
-        "@value": "Reines Wohngebiet"
+        "@value": "Erholungsflaechen"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -904,77 +416,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialAgriculturalEnterprise",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
         "@language": "en",
-        "@value": "Def. OOE, Kennzahl 13200, 13301, 13302, 13303, 13304, 13305, 13300"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. OOE, Kennzahl 13200, 13301, 13302, 13303, 13304, 13305, 13300"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Flaechen fuer land- und forstwirtschaftliche Betriebe mit nicht herkoemmlichen Produktionsformen (Betriebe der bodenunabhaengigen Haltung landwirtschaftlicher Nutztiere, Tierparks, Zucht und Haltung von Tieren, die keine landwirtschaftlichen Nutztiere sind und dgl.)"
-      },
-      {
-        "@language": "en",
-        "@value": "Areas for soilless livestock farming, animal park, biogas plant, livestock farming § 30 Abs. 4 and other special forms of agricultural and forestry farms"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "specialAgriculturalEnterprise"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Special agricultural enterprise"
-      },
-      {
-        "@language": "de",
-        "@value": "Gruenland fuer Sonderformen von land- und forstwirtschaftlichen Betrieben"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -1046,6 +488,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -1061,7 +504,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialArea",
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialOpenGreenLand",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1073,11 +516,11 @@
     "http://purl.org/dc/terms/description": [
       {
         "@language": "en",
-        "@value": "Def. OOE, Kennzahl 11006"
+        "@value": "Def. OOE, Kennzahl 13003, 13004, 13200"
       },
       {
         "@language": "de",
-        "@value": "Def. OOE, Kennzahl 11006"
+        "@value": "Def. OOE, Kennzahl 13003, 13004, 13200"
       }
     ],
     "http://purl.org/dc/terms/subject": [
@@ -1088,11 +531,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Flaechen fuer Wohngebaeude, die einem dauernden Wohnbedarf dienen und fuer Bauwerke, die den wirtschaftlichen, sozialen oder kulturellen Beduerfnissen vorwiegend der Bewohnerinnen bzw. Bewohner dienen"
+        "@value": "Gruenzuege, Trenngruens und sonstige"
       },
       {
         "@language": "en",
-        "@value": "Areas for permanent residental buildings and constructions for the economic, social and culturell needs of the inhabitants"
+        "@value": "Greenways, separating green land and further"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1102,21 +545,449 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "residentialArea"
+        "@value": "specialOpenGreenLand"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Special open green land"
+      },
+      {
+        "@language": "de",
+        "@value": "Gruenflaeche mit besonderer Widmung"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialGreenLand",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. OOE, Kennzahl 13009, 13501, 13502, 13503, 13500"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. OOE, Kennzahl 13009, 13501, 13502, 13503, 13500"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Flaechen fuer Schiessstaetten, Windkraftanlagen, Funkanlagen und Photovoltaikanlagen"
+      },
+      {
+        "@language": "en",
+        "@value": "Areas for shooting areas, wind power, radio installation and photocoltaic plants"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "specialGreenLand"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Special green Land"
+      },
+      {
+        "@language": "de",
+        "@value": "Sonderausweisung im Gruenland"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/afforestationArea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. OOE, Kennzahl 13005"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. OOE, Kennzahl 13005"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Neuaufforstungsgebiete"
+      },
+      {
+        "@language": "en",
+        "@value": "Afforestation area"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "afforestationArea"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Wohngebiet"
+        "@value": "Neuaufforstungsgebiete"
       },
       {
         "@language": "en",
-        "@value": "Residental areas"
+        "@value": "Afforestation area"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/protectionZone",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. OOE, Kennzahl 13800, 13801"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. OOE, Kennzahl 13800, 13801"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Schutzzone im Gruenland oder Ueberflutungsgebiet mit spezifischer Festlegung"
+      },
+      {
+        "@language": "en",
+        "@value": "Protection zone in green land"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "protectionZone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Schutzzone im Gruenland oder Ueberflutungsgebiet"
+      },
+      {
+        "@language": "en",
+        "@value": "Protection zone in green land or flood areas"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/wasteStorage",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. OOE, Kennzahl 13007, 13008"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. OOE, Kennzahl 13007, 13008"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Flaechen fuer die Ablagerung von Muell, Fahrzeugwracks und Altmaterial"
+      },
+      {
+        "@language": "en",
+        "@value": "Areas for landfilling and storage of waste, scrap and vehicle wrecks"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "wasteStorage"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "land filling and storage"
+      },
+      {
+        "@language": "de",
+        "@value": "Ablagerungsplaetze"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/existingFacilitiesReservedArea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Def. OOE, Kennzahl 14101, 14102, 14103, 14104, 14105, 14106, 14107, 14108, 14109, 14110, 14111, 14112, 14100"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Existing facilities on land reserved for public facilities (governmental office, school, hospital, retirement home, nursing home or sanatorium, waste collection center, youth center, counseling facility, kindergarden, indoor pool, fire department, air-raid shelter, flood protection, possible augmentation of facilty)"
+      },
+      {
+        "@language": "de",
+        "@value": "Bestehende Bauwerke und Anlagen auf Vorbehaltsflaechen fuer oeffentlichen Zwecken dienenden Bauwerken und Anlagen (Verwaltungsgebaeude, Schule, Krankenanstalt, Altersheim, Heil- und Pflegeanstalt, Altstoffsammelzentrum, Jugendheim oder Jugendherberge, Seelsorgeeinrichtung, Kindergarten, Hallenbad, Feuerwehr, Luftschutzanlage, Hochwasserschutzanlagen, Ergaenzungsmoeglichkeiten fuer Vorbehaltsflaechen)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "existingFacilitiesReservedArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Existing facilities on reserved areas"
+      },
+      {
+        "@language": "de",
+        "@value": "Bestehende Einrichtungen auf Vorbehaltsflaechen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/limitedMixedUseArea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. OOE, Kennzahl 11010"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. OOE, Kennzahl 11010"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Zur funktionalen Gliederung kann in gemischten Baugebieten die Zulaessigkeit von Bauwerken und Anlagen, die in Wohngebieten errichtet werden duerfen, eingeschraenkt oder ausgeschlossen werden."
+      },
+      {
+        "@language": "en",
+        "@value": "Possibility in mixed used areas to excluse or restrict residental constructions for functional structuring"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "limitedMixedUseArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Limited mixed use areas"
+      },
+      {
+        "@language": "de",
+        "@value": "Eingeschraenkt Gemischtes Baugebiet"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -1188,6 +1059,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -1203,7 +1075,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/SEAZoning",
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/multistoreyCompactedResidentialArea",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1215,11 +1087,11 @@
     "http://purl.org/dc/terms/description": [
       {
         "@language": "en",
-        "@value": "Def. OOE, Kennzahl 15001"
+        "@value": "Def. OOE, Kennzahl 11101"
       },
       {
         "@language": "de",
-        "@value": "Def. OOE, Kennzahl 15001"
+        "@value": "Def. OOE, Kennzahl 11101"
       }
     ],
     "http://purl.org/dc/terms/subject": [
@@ -1229,12 +1101,12 @@
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@language": "en",
-        "@value": "Zoning with necessary Strategic Environmental Assessment"
+        "@language": "de",
+        "@value": "Flaechen fuer foerderbare mehrgeschossige Wohnbauten oder Gebaeude in verdichteter Flachbauweise sowie fuer Bauwerke fuer den taeglichen Bedarf der Bewohnerinnen bzw. Bewohner"
       },
       {
-        "@language": "de",
-        "@value": "Widmung fuer die eine Strategische Umweltpruefung erforderlich ist"
+        "@language": "en",
+        "@value": "Areas for multi storey residental buildings or compacted flat construction and for constructions fpr the daily needs of the inhabitants"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1244,21 +1116,310 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "SEAZoning"
+        "@value": "multistoreyCompactedResidentialArea"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "SUP pflichtige Widmung"
+        "@value": "Wohngebiet fuer mehrgeschossige gefoerderte Wohnbauten oder Gebaeude in verdichterer Flachbauweise"
       },
       {
         "@language": "en",
-        "@value": "SEA zoning"
+        "@value": "Residental areas for multistorey and compacted flat construction"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialArea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. OOE, Kennzahl 11006"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. OOE, Kennzahl 11006"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Flaechen fuer Wohngebaeude, die einem dauernden Wohnbedarf dienen und fuer Bauwerke, die den wirtschaftlichen, sozialen oder kulturellen Beduerfnissen vorwiegend der Bewohnerinnen bzw. Bewohner dienen"
+      },
+      {
+        "@language": "en",
+        "@value": "Areas for permanent residental buildings and constructions for the economic, social and culturell needs of the inhabitants"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "residentialArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Wohngebiet"
+      },
+      {
+        "@language": "en",
+        "@value": "Residental areas"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/PZBuildingLand",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. OOE, Kennzahl 11502, 11503, 11500"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. OOE, Kennzahl 11502, 11503, 11500"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Schutz- oder Pufferzonen zur Gliederung und Abstimmung unterschiedlicher Widmungen"
+      },
+      {
+        "@language": "en",
+        "@value": "Protection zone in building land for structuring different zoning"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "PZBuildingLand"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Schutz- oder Pufferzone im Bauland"
+      },
+      {
+        "@language": "en",
+        "@value": "Protection zone in building land (grassy and open space or structural measures)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/technicalZone",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. OOE, Kennzahl 16002"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. OOE, Kennzahl 16002"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Technische Widmung unter Ersichtlichmachungen gem. § 30 ROG"
+      },
+      {
+        "@language": "en",
+        "@value": "Technical zone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "technicalZone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Technische Widmung"
+      },
+      {
+        "@language": "en",
+        "@value": "Technical zone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/shoppingArea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. OOE, Kennzahl 11301, 11302, 11303, 11304, 11305,"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. OOE, Kennzahl 11301, 11302, 11303, 11304, 11305,"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Flaechen fuer Handelsbetriebe mit einer Gesamtverkaufsflaeche von > 300m²"
+      },
+      {
+        "@language": "en",
+        "@value": "Areas for establishments selling durable and non-durable goods or merchandise for personal or household consumption or to other retailers."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "shoppingArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Wholesale and retail areas, shopping centers"
+      },
+      {
+        "@language": "de",
+        "@value": "Geschaeftsgebiete"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -1455,7 +1616,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/villageArea",
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/secondaryResidentalArea",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1467,11 +1628,11 @@
     "http://purl.org/dc/terms/description": [
       {
         "@language": "en",
-        "@value": "Def. OOE, Kennzahl 11001"
+        "@value": "Def. OOE, Kennzahl 11005"
       },
       {
         "@language": "de",
-        "@value": "Def. OOE, Kennzahl 11001"
+        "@value": "Def. OOE, Kennzahl 11005"
       }
     ],
     "http://purl.org/dc/terms/subject": [
@@ -1482,11 +1643,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Flaechen, die fuer Bauten land- und forstwirtschaftlicher Nutzung in verdichteter Anordnung bestimmt sind."
+        "@value": "Flaechen fuer Bauwerke fuer einen zeitweiligen Wohnbedarf"
       },
       {
         "@language": "en",
-        "@value": "Areas which are intended for buildings of agricultural and forestry use in a dense arrangement."
+        "@value": "Areas secondary residental buildings"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1496,21 +1657,22 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "villageArea"
+        "@value": "secondaryResidentalArea"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
-        "@language": "en",
-        "@value": "Village areas"
+        "@language": "de",
+        "@value": "Zweitwohngebiet"
       },
       {
-        "@language": "de",
-        "@value": "Dorfgebiet"
+        "@language": "en",
+        "@value": "Secondary residental areas"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -1526,7 +1688,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/limitedMixedUseArea",
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/residentialOnlyArea",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1538,11 +1700,11 @@
     "http://purl.org/dc/terms/description": [
       {
         "@language": "en",
-        "@value": "Def. OOE, Kennzahl 11010"
+        "@value": "Def. OOE, Kennzahl 11007"
       },
       {
         "@language": "de",
-        "@value": "Def. OOE, Kennzahl 11010"
+        "@value": "Def. OOE, Kennzahl 11007"
       }
     ],
     "http://purl.org/dc/terms/subject": [
@@ -1553,11 +1715,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Zur funktionalen Gliederung kann in gemischten Baugebieten die Zulaessigkeit von Bauwerken und Anlagen, die in Wohngebieten errichtet werden duerfen, eingeschraenkt oder ausgeschlossen werden."
+        "@value": "Flaechen einzig fuer Wohngebaeude, die einem dauernden Wohnbedarf dienen und fuer Bauwerke"
       },
       {
         "@language": "en",
-        "@value": "Possibility in mixed used areas to excluse or restrict residental constructions for functional structuring"
+        "@value": "Areas only for permanent residental buildings"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1567,163 +1729,22 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "limitedMixedUseArea"
+        "@value": "residentialOnlyArea"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Limited mixed use areas"
+        "@value": "Residental only areas"
       },
       {
         "@language": "de",
-        "@value": "Eingeschraenkt Gemischtes Baugebiet"
+        "@value": "Reines Wohngebiet"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/shippingPier",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
         "@language": "en",
-        "@value": "Def. OOE, Kennzahl 11004"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. OOE, Kennzahl 11004"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Flaechen an Wasserstrassen, die fuer den Übergang des Personen- oder Gueterverkehrs vom Wasserweg auf den Landweg bestimmt sind"
-      },
-      {
-        "@language": "en",
-        "@value": "Areas at waterways for passanger and freight transport"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "shippingPier"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Shipping pier"
-      },
-      {
-        "@language": "de",
-        "@value": "Laendeflaeche"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/plantNursery",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. OOE, Kennzahl 13202"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. OOE, Kennzahl 13202"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Flaechen fuer Gaertnereien"
-      },
-      {
-        "@language": "en",
-        "@value": "Areas for market gardens and plant nurserys"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "plantNursery"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Market garden and plant nursery"
-      },
-      {
-        "@language": "de",
-        "@value": "Gaertnerei"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -1795,6 +1816,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -1810,7 +1832,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/shoppingArea",
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/spaArea",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1822,11 +1844,11 @@
     "http://purl.org/dc/terms/description": [
       {
         "@language": "en",
-        "@value": "Def. OOE, Kennzahl 11301, 11302, 11303, 11304, 11305,"
+        "@value": "Def. OOE, Kennzahl 11008"
       },
       {
         "@language": "de",
-        "@value": "Def. OOE, Kennzahl 11301, 11302, 11303, 11304, 11305,"
+        "@value": "Def. OOE, Kennzahl 11008"
       }
     ],
     "http://purl.org/dc/terms/subject": [
@@ -1836,12 +1858,12 @@
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@language": "de",
-        "@value": "Flaechen fuer Handelsbetriebe mit einer Gesamtverkaufsflaeche von > 300m²"
+        "@language": "en",
+        "@value": "Spa areas and related tourism businesses"
       },
       {
-        "@language": "en",
-        "@value": "Areas for establishments selling durable and non-durable goods or merchandise for personal or household consumption or to other retailers."
+        "@language": "de",
+        "@value": "Flaechen fuer Kuranstalten und darauf abgestellte Tourismusbetriebe und Erholungseinrichtungen"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1851,21 +1873,22 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "shoppingArea"
+        "@value": "spaArea"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Wholesale and retail areas, shopping centers"
+        "@value": "Spa areas"
       },
       {
         "@language": "de",
-        "@value": "Geschaeftsgebiete"
+        "@value": "Kurgebiet"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -1881,7 +1904,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/secondaryResidentalArea",
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/agricultureLand",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1893,11 +1916,11 @@
     "http://purl.org/dc/terms/description": [
       {
         "@language": "en",
-        "@value": "Def. OOE, Kennzahl 11005"
+        "@value": "Def. OOE, Kennzahl 13001"
       },
       {
         "@language": "de",
-        "@value": "Def. OOE, Kennzahl 11005"
+        "@value": "Def. OOE, Kennzahl 13001"
       }
     ],
     "http://purl.org/dc/terms/subject": [
@@ -1908,11 +1931,11 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Flaechen fuer Bauwerke fuer einen zeitweiligen Wohnbedarf"
+        "@value": "Flaechen die fuer die Land- und Forstwirtschaft bestimmt sind oder oedland sind"
       },
       {
         "@language": "en",
-        "@value": "Areas secondary residental buildings"
+        "@value": "Areas for agriculture and forestry and wasteland"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1922,731 +1945,22 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "secondaryResidentalArea"
+        "@value": "agricultureLand"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Zweitwohngebiet"
+        "@value": "Land- und Forstwirtschaft, oedland"
       },
       {
         "@language": "en",
-        "@value": "Secondary residental areas"
+        "@value": "Agriculture and forestry, wasteland"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/PZBuildingLand",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
         "@language": "en",
-        "@value": "Def. OOE, Kennzahl 11502, 11503, 11500"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. OOE, Kennzahl 11502, 11503, 11500"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Schutz- oder Pufferzonen zur Gliederung und Abstimmung unterschiedlicher Widmungen"
-      },
-      {
-        "@language": "en",
-        "@value": "Protection zone in building land for structuring different zoning"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "PZBuildingLand"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Schutz- oder Pufferzone im Bauland"
-      },
-      {
-        "@language": "en",
-        "@value": "Protection zone in building land (grassy and open space or structural measures)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/industryArea",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. OOE, Kennzahl 11003"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. OOE, Kennzahl 11003"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Flaechen fuer Grossbetriebe und Lagerplaetze"
-      },
-      {
-        "@language": "en",
-        "@value": "Areas for large enterprises and storage places"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "industryArea"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Industry areas"
-      },
-      {
-        "@language": "de",
-        "@value": "Industriegebiet"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialOpenGreenLand",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. OOE, Kennzahl 13003, 13004, 13200"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. OOE, Kennzahl 13003, 13004, 13200"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Gruenzuege, Trenngruens und sonstige"
-      },
-      {
-        "@language": "en",
-        "@value": "Greenways, separating green land and further"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "specialOpenGreenLand"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Special open green land"
-      },
-      {
-        "@language": "de",
-        "@value": "Gruenflaeche mit besonderer Widmung"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/recreationalAreas",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. OOE, Kennzahl 13101, 13102, 13103, 13104, 13105, 13106, 13107, 13108, 13109, 13110, 13100"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. OOE, Kennzahl 13101, 13102, 13103, 13104, 13105, 13106, 13107, 13108, 13109, 13110, 13100"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Flaechen fuer Erholungs- oder Sportanlagen wie Parkanlagen, Spiel- und Liegewiesen, Sport- und Spielflaechen, Freibaeder, Campingplaetze, Tennishallen, Golfplaetze, Reitsportanlagen, Gaststaetten und Schutzhuetten sowie Wintersportanlagen einschliesslich der Schipisten"
-      },
-      {
-        "@language": "en",
-        "@value": "Areas for recreational, parks, playgrounds, sports facilities, outdoor swimming pools, campsites, tennis halls, golf courses, equestrian facilitiies, winter sport facilities, protective huts and slopes"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "recreationalAreas"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "recreational areas"
-      },
-      {
-        "@language": "de",
-        "@value": "Erholungsflaechen"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/wasteStorage",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. OOE, Kennzahl 13007, 13008"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. OOE, Kennzahl 13007, 13008"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Flaechen fuer die Ablagerung von Muell, Fahrzeugwracks und Altmaterial"
-      },
-      {
-        "@language": "en",
-        "@value": "Areas for landfilling and storage of waste, scrap and vehicle wrecks"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "wasteStorage"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "land filling and storage"
-      },
-      {
-        "@language": "de",
-        "@value": "Ablagerungsplaetze"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/centreZone",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. OOE, Kennzahl 11002"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. OOE, Kennzahl 11002"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Flaechen mit ueberwiegend staedtischer oder typisch zentrumsbildender Struktur"
-      },
-      {
-        "@language": "en",
-        "@value": "Areas with mainly urban structure"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "centreZone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Kerngebiet"
-      },
-      {
-        "@language": "en",
-        "@value": "Centre zone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/allotmentGarden",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. OOE, Kennzahl 13201"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. OOE, Kennzahl 13201"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Flaechen fuer Dauerkleingaerten"
-      },
-      {
-        "@language": "en",
-        "@value": "Areas for allotment gardens"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "allotmentGarden"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Dauerkleingaerten"
-      },
-      {
-        "@language": "en",
-        "@value": "allotment garden"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/protectionZone",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. OOE, Kennzahl 13800, 13801"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. OOE, Kennzahl 13800, 13801"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Schutzzone im Gruenland oder Ueberflutungsgebiet mit spezifischer Festlegung"
-      },
-      {
-        "@language": "en",
-        "@value": "Protection zone in green land"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "protectionZone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Schutzzone im Gruenland oder Ueberflutungsgebiet"
-      },
-      {
-        "@language": "en",
-        "@value": "Protection zone in green land or flood areas"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/afforestationArea",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. OOE, Kennzahl 13005"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. OOE, Kennzahl 13005"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Neuaufforstungsgebiete"
-      },
-      {
-        "@language": "en",
-        "@value": "Afforestation area"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "afforestationArea"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Neuaufforstungsgebiete"
-      },
-      {
-        "@language": "en",
-        "@value": "Afforestation area"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/technicalZone",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. OOE, Kennzahl 16002"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. OOE, Kennzahl 16002"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Technische Widmung unter Ersichtlichmachungen gem. § 30 ROG"
-      },
-      {
-        "@language": "en",
-        "@value": "Technical zone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "technicalZone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Technische Widmung"
-      },
-      {
-        "@language": "en",
-        "@value": "Technical zone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -2718,6 +2032,511 @@
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/trafficArea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. OOE, Kennzahl 12001, 12002, 12003, 12004, 12005"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. OOE, Kennzahl 12001, 12002, 12003, 12004, 12005"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Flaechen, die den fliessenden und ruhenden Verkehr dienen und besondere Verkehrsbedeutung besitzen, wie Parkplaetze, Parkhaeuser, unterirdische Parkflaechen und Fusswege"
+      },
+      {
+        "@language": "en",
+        "@value": "Areas for steady and current traffic, like streets, parking area, multistorey parking space, unterground parking space and walkways"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "trafficArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Traffic area"
+      },
+      {
+        "@language": "de",
+        "@value": "Flaechenmaessige Darstellung - fliessender Verkehr"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/cemetery",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. OOE, Kennzahl 13002"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. OOE, Kennzahl 13002"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Flaechen fuer Friedhoefe"
+      },
+      {
+        "@language": "en",
+        "@value": "Areas for cemeteries"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "cemetery"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "cemetery"
+      },
+      {
+        "@language": "de",
+        "@value": "Friedhof"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/shippingPier",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. OOE, Kennzahl 11004"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. OOE, Kennzahl 11004"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Flaechen an Wasserstrassen, die fuer den Übergang des Personen- oder Gueterverkehrs vom Wasserweg auf den Landweg bestimmt sind"
+      },
+      {
+        "@language": "en",
+        "@value": "Areas at waterways for passanger and freight transport"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "shippingPier"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Shipping pier"
+      },
+      {
+        "@language": "de",
+        "@value": "Laendeflaeche"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/centreZone",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. OOE, Kennzahl 11002"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. OOE, Kennzahl 11002"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Flaechen mit ueberwiegend staedtischer oder typisch zentrumsbildender Struktur"
+      },
+      {
+        "@language": "en",
+        "@value": "Areas with mainly urban structure"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "centreZone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Kerngebiet"
+      },
+      {
+        "@language": "en",
+        "@value": "Centre zone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/SEAZoning",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. OOE, Kennzahl 15001"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. OOE, Kennzahl 15001"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Zoning with necessary Strategic Environmental Assessment"
+      },
+      {
+        "@language": "de",
+        "@value": "Widmung fuer die eine Strategische Umweltpruefung erforderlich ist"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "SEAZoning"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "SUP pflichtige Widmung"
+      },
+      {
+        "@language": "en",
+        "@value": "SEA zoning"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/compostingPlant",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. OOE, Kennzahl 13203"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. OOE, Kennzahl 13203"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Flaechen fuer Kompostieranlagen"
+      },
+      {
+        "@language": "en",
+        "@value": "Areas for composting plants"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "compostingPlant"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Kompostieranlage"
+      },
+      {
+        "@language": "en",
+        "@value": "composting plant"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/villageArea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. OOE, Kennzahl 11001"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. OOE, Kennzahl 11001"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Flaechen, die fuer Bauten land- und forstwirtschaftlicher Nutzung in verdichteter Anordnung bestimmt sind."
+      },
+      {
+        "@language": "en",
+        "@value": "Areas which are intended for buildings of agricultural and forestry use in a dense arrangement."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "villageArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Village areas"
+      },
+      {
+        "@language": "de",
+        "@value": "Dorfgebiet"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -2789,6 +2608,223 @@
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/plantNursery",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. OOE, Kennzahl 13202"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. OOE, Kennzahl 13202"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Flaechen fuer Gaertnereien"
+      },
+      {
+        "@language": "en",
+        "@value": "Areas for market gardens and plant nurserys"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "plantNursery"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Market garden and plant nursery"
+      },
+      {
+        "@language": "de",
+        "@value": "Gaertnerei"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/specialAgriculturalEnterprise",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. OOE, Kennzahl 13200, 13301, 13302, 13303, 13304, 13305, 13300"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. OOE, Kennzahl 13200, 13301, 13302, 13303, 13304, 13305, 13300"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Flaechen fuer land- und forstwirtschaftliche Betriebe mit nicht herkoemmlichen Produktionsformen (Betriebe der bodenunabhaengigen Haltung landwirtschaftlicher Nutztiere, Tierparks, Zucht und Haltung von Tieren, die keine landwirtschaftlichen Nutztiere sind und dgl.)"
+      },
+      {
+        "@language": "en",
+        "@value": "Areas for soilless livestock farming, animal park, biogas plant, livestock farming § 30 Abs. 4 and other special forms of agricultural and forestry farms"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "specialAgriculturalEnterprise"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Special agricultural enterprise"
+      },
+      {
+        "@language": "de",
+        "@value": "Gruenland fuer Sonderformen von land- und forstwirtschaftlichen Betrieben"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue/reservedArea",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. OOE, Kennzahl 14001, 14002, 14003, 14004, 14005, 14006, 14007, 14008, 14009, 14010, 14011, 14012, 14013, 14000"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. OOE, Kennzahl 14001, 14002, 14003, 14004, 14005, 14006, 14007, 14008, 14009, 14010, 14011, 14012, 14013, 14000"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Vorbehaltsflaechen fuer oeffentlichen Zwecken dienenden Bauwerken und Anlagen (Verwaltungsgebaeude, Schule, Krankenanstalt, Altersheim, Heil- und Pflegeanstalt, Altstoffsammelzentrum, Jugendheim oder Jugendherberge, Seelsorgeeinrichtung, Kindergarten, Hallenbad, Feuerwehr, Luftschutzanlage, Hochwasserschutzanlagen, Ergaenzungsmoeglichkeiten fuer Vorbehaltsflaechen)"
+      },
+      {
+        "@language": "en",
+        "@value": "Land reserved for public facilities (governmental office, school, hospital, retirement home, nursing home or sanatorium, waste collection center, youth center, counseling facility, kindergarden, indoor pool, fire department, air-raid shelter, flood protection, possible augmentation of facilty)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/ooeLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "reservedArea"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Vorbehaltsflaechen"
+      },
+      {
+        "@language": "en",
+        "@value": "Reserved areas"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
       }
     ],

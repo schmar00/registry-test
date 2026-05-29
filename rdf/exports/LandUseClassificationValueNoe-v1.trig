@@ -15,8 +15,8 @@
             "Land Use Classification"@en ;
         dcterms:type <http://inspire.ec.europa.eu/codelist/LandUseClassificationValue> ;
         owl:versionInfo "1.0.0" ;
-        skos:scopeNote "INSPIRE governance level: national-technical",
-            "INSPIRE extensibility: open, internal by value"@en ;
+        skos:scopeNote "INSPIRE extensibility: open, internal by value"@en,
+            "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/submitted> .
 }
 

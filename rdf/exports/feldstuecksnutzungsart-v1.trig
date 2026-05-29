@@ -12,7 +12,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         skos:notation "A" ;
         skos:prefLabel "ACKERLAND"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -23,7 +23,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         skos:notation "AN" ;
         skos:prefLabel "ACKER NICHT KPF BEIHILFEFÄHIG"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -34,7 +34,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         skos:notation "D" ;
         skos:prefLabel "GEMEINSCHAFTSWEIDE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -45,7 +45,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         skos:notation "DM" ;
         skos:prefLabel "WEIDEFELDSTÜCK - MITBESTOSSEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -56,7 +56,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         skos:notation "FO" ;
         skos:prefLabel "FORST"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -67,7 +67,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         skos:notation "G" ;
         skos:prefLabel "GRÜNLAND"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -78,7 +78,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         skos:notation "GA" ;
         skos:prefLabel "GESCHÜTZTER ANBAU"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -89,7 +89,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         skos:notation "L" ;
         skos:prefLabel "ALMEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -100,7 +100,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         skos:notation "LM" ;
         skos:prefLabel "ALMFELDSTÜCK - MITBESTOSSEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -111,7 +111,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         skos:notation "NF" ;
         skos:prefLabel "SONSTIGE NUTZFLÄCHE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -122,7 +122,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         skos:notation "PF" ;
         skos:prefLabel "PFLEGEFLÄCHE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -134,7 +134,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         skos:notation "ST" ;
         skos:prefLabel "SPEZIALKULTURFELDSTÜCKE IN TERASSENFORM"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/TF> a skos:Concept ;
@@ -144,7 +144,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         skos:notation "TF" ;
         skos:prefLabel "TEICHFLÄCHEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -156,7 +156,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         skos:notation "WT" ;
         skos:prefLabel "WEINGARTENFLÄCHEN TERRASSAN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/S> a skos:Concept ;
@@ -167,7 +167,7 @@
         skos:narrower <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/ST> ;
         skos:notation "S" ;
         skos:prefLabel "SPEZIALKULTUREN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -179,7 +179,7 @@
         skos:narrower <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/WT> ;
         skos:notation "WI" ;
         skos:prefLabel "WEINGARTENFLÄCHEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 

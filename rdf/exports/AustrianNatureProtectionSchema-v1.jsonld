@@ -1,5 +1,637 @@
 [
   {
+    "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/BeZ",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/ps"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "B, OÖ, St"
+      },
+      {
+        "@language": "de",
+        "@value": "B, OÖ, St"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/ps"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "LGBl. Burgenland 27/1991 § 45; LGBl 55/1983: Oö. Nationalparkgesetz - Oö. NPG (LGBl. 20/1997) § 8; LGBl. Nr. 61/2002 (NP-Gesetz Gesäuse):§ 3"
+      },
+      {
+        "@language": "de",
+        "@value": "LGBl. Burgenland 27/1991 § 45; LGBl 55/1983: Oö. Nationalparkgesetz - Oö. NPG (LGBl. 20/1997) § 8; LGBl. Nr. 61/2002 (NP-Gesetz Gesäuse):§ 3"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "BeZ"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "National Park zone: conservation zone"
+      },
+      {
+        "@language": "de",
+        "@value": "Bewahrungszone im Nationalpark"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/MaZ",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/ps"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "NÖ"
+      },
+      {
+        "@language": "de",
+        "@value": "NÖ"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/ps"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "LGBl. NÖ 5505-0: § 5-7 (NÖ NPG)"
+      },
+      {
+        "@language": "de",
+        "@value": "LGBl. NÖ 5505-0: § 5-7 (NÖ NPG)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "MaZ"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "National Park zone: management zone"
+      },
+      {
+        "@language": "de",
+        "@value": "Managementzone im Nationalpark"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/AuZ",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/ps"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "K, NÖ, S, T, W"
+      },
+      {
+        "@language": "de",
+        "@value": "K, NÖ, S, T, W"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/ps"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Kärntner Nationalpark- und Biosphärenparkgesetz - K-NBG § 5; NÖ Nationalparkgesetz LGBl. 5505-0 § 7; LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG):§ 7; LGBl. Nr. 61/2002 (NP-Gesetz Gesäuse):§ 3; LGBl. Tirol 103/1991: § 4 (T-NPG HT); LGBl. Nr. 37/1996 (W-NPG): § 5"
+      },
+      {
+        "@language": "de",
+        "@value": "Kärntner Nationalpark- und Biosphärenparkgesetz - K-NBG § 5; NÖ Nationalparkgesetz LGBl. 5505-0 § 7; LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG):§ 7; LGBl. Nr. 61/2002 (NP-Gesetz Gesäuse):§ 3; LGBl. Tirol 103/1991: § 4 (T-NPG HT); LGBl. Nr. 37/1996 (W-NPG): § 5"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "AuZ"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "National Park zone: outer zone"
+      },
+      {
+        "@language": "de",
+        "@value": "Aussenzone im Nationalpark"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/SSG",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/ps"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "K, S"
+      },
+      {
+        "@language": "de",
+        "@value": "K, S"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "http://inspire.ec.europa.eu/applicationschema/ps"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@language": "en",
+        "@value": "Banko, Environment Agency Austria, 2016"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Kärntner Nationalpark- und Biosphärenparkgesetz - K-NBG § 5 ; LGBl. NÖ 5505-0: § 5-7 (NÖ NPG) ; LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG)"
+      },
+      {
+        "@language": "de",
+        "@value": "Kärntner Nationalpark- und Biosphärenparkgesetz - K-NBG § 5 ; LGBl. NÖ 5505-0: § 5-7 (NÖ NPG) ; LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "SSG"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Sonderschutzgebiet im Nationalpark"
+      },
+      {
+        "@language": "en",
+        "@value": "National Park zone: special protection area"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/SoZ",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/ps"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "B"
+      },
+      {
+        "@language": "de",
+        "@value": "B"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/ps"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "LGBl. Burgenland 27/1991 § 45"
+      },
+      {
+        "@language": "de",
+        "@value": "LGBl. Burgenland 27/1991 § 45"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "SoZ"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Sonderzone im Nationalpark"
+      },
+      {
+        "@language": "en",
+        "@value": "National Park zone: special zone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NP",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/ps"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "B, K, NÖ, OÖ, S, St, T, W"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/ps"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "LGBl. Burgenland 27/1991 § 44; LGBl Kärnten 55/1983: § 1 (K-NBG); LGBl. Niederösterreich 3/1977 (LGBL. 5500-) § 14; LGBl. OÖ 20/1997: § 1 (OÖ NPG); LGBl. Salzburg 73/1999 § 22; LGBl. Stmk. 61/2002: § 1 (St - NPG G); LGBl. Tirol 103/1991: § 3 (T-NPG HT); LGBl. Wien 53/2001 § 21"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "NP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Nationalpark"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/KeZ",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/ps"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "K, S, T"
+      },
+      {
+        "@language": "de",
+        "@value": "K, S, T"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/ps"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Kärntner Nationalpark- und Biosphärenparkgesetz - K-NBG § 5; LGBl. NÖ 5505-0: § 5-7 (NÖ NPG) ; LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG):; LGBl. Tirol 103/1991: § 4 (T-NPG HT)"
+      },
+      {
+        "@language": "de",
+        "@value": "Kärntner Nationalpark- und Biosphärenparkgesetz - K-NBG § 5; LGBl. NÖ 5505-0: § 5-7 (NÖ NPG) ; LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG):; LGBl. Tirol 103/1991: § 4 (T-NPG HT)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "KeZ"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "National Park zone: core zone"
+      },
+      {
+        "@language": "de",
+        "@value": "Kernzone im Nationalpark"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/ps"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "B, K, NÖ, OÖ, S, St, T, W"
+      },
+      {
+        "@language": "en",
+        "@value": "B, K, NÖ, OÖ, S, St, T, W"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/ps"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "LGBl. Burgenland 27/1991 § 45; LGBl Kärnten 55/1983: § 5 (K-NBG); LGBl. NÖ 5505-0: § 5-7 (NÖ NPG) ; LGBl. OÖ 20/1997: § 8 (OÖ NPG); LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG):; LGBl. Nr. 61/2002 (NP-Gesetz Gesäuse):§ 3; LGBl. Tirol 103/1991: § 4 (T-NPG HT); LGBl. Nr. 37/1996 (W-NPG): § 5"
+      },
+      {
+        "@language": "en",
+        "@value": "LGBl. Burgenland 27/1991 § 45; LGBl Kärnten 55/1983: § 5 (K-NBG); LGBl. NÖ 5505-0: § 5-7 (NÖ NPG) ; LGBl. OÖ 20/1997: § 8 (OÖ NPG); LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG):; LGBl. Nr. 61/2002 (NP-Gesetz Gesäuse):§ 3; LGBl. Tirol 103/1991: § 4 (T-NPG HT); LGBl. Nr. 37/1996 (W-NPG): § 5"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/SSG"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/SoZ"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NaZ"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/MaZ"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/KeZ"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/BeZ"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/AuZ"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "NPZ"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "National Park zone"
+      },
+      {
+        "@language": "de",
+        "@value": "Nationalparkzone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
     "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -270,189 +902,16 @@
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
       },
       {
+        "@language": "en",
         "@value": "Banko, Environment Agency Austria, 2016"
       },
       {
         "@language": "en",
         "@value": "INSPIRE extensibility: open, internal by value"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/KeZ",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/ps"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "K, S, T"
-      },
-      {
-        "@language": "de",
-        "@value": "K, S, T"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/ps"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Kärntner Nationalpark- und Biosphärenparkgesetz - K-NBG § 5; LGBl. NÖ 5505-0: § 5-7 (NÖ NPG) ; LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG):; LGBl. Tirol 103/1991: § 4 (T-NPG HT)"
-      },
-      {
-        "@language": "de",
-        "@value": "Kärntner Nationalpark- und Biosphärenparkgesetz - K-NBG § 5; LGBl. NÖ 5505-0: § 5-7 (NÖ NPG) ; LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG):; LGBl. Tirol 103/1991: § 4 (T-NPG HT)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "KeZ"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "National Park zone: core zone"
-      },
-      {
-        "@language": "de",
-        "@value": "Kernzone im Nationalpark"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/ps"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "de",
-        "@value": "B, K, NÖ, OÖ, S, St, T, W"
-      },
-      {
-        "@language": "en",
-        "@value": "B, K, NÖ, OÖ, S, St, T, W"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/ps"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NP"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "LGBl. Burgenland 27/1991 § 45; LGBl Kärnten 55/1983: § 5 (K-NBG); LGBl. NÖ 5505-0: § 5-7 (NÖ NPG) ; LGBl. OÖ 20/1997: § 8 (OÖ NPG); LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG):; LGBl. Nr. 61/2002 (NP-Gesetz Gesäuse):§ 3; LGBl. Tirol 103/1991: § 4 (T-NPG HT); LGBl. Nr. 37/1996 (W-NPG): § 5"
-      },
-      {
-        "@language": "en",
-        "@value": "LGBl. Burgenland 27/1991 § 45; LGBl Kärnten 55/1983: § 5 (K-NBG); LGBl. NÖ 5505-0: § 5-7 (NÖ NPG) ; LGBl. OÖ 20/1997: § 8 (OÖ NPG); LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG):; LGBl. Nr. 61/2002 (NP-Gesetz Gesäuse):§ 3; LGBl. Tirol 103/1991: § 4 (T-NPG HT); LGBl. Nr. 37/1996 (W-NPG): § 5"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/SSG"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/SoZ"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NaZ"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/MaZ"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/KeZ"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/BeZ"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/AuZ"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "NPZ"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "National Park zone"
-      },
-      {
-        "@language": "de",
-        "@value": "Nationalparkzone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -528,456 +987,8 @@
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/AuZ",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/ps"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "K, NÖ, S, T, W"
-      },
-      {
-        "@language": "de",
-        "@value": "K, NÖ, S, T, W"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/ps"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Kärntner Nationalpark- und Biosphärenparkgesetz - K-NBG § 5; NÖ Nationalparkgesetz LGBl. 5505-0 § 7; LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG):§ 7; LGBl. Nr. 61/2002 (NP-Gesetz Gesäuse):§ 3; LGBl. Tirol 103/1991: § 4 (T-NPG HT); LGBl. Nr. 37/1996 (W-NPG): § 5"
-      },
-      {
-        "@language": "de",
-        "@value": "Kärntner Nationalpark- und Biosphärenparkgesetz - K-NBG § 5; NÖ Nationalparkgesetz LGBl. 5505-0 § 7; LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG):§ 7; LGBl. Nr. 61/2002 (NP-Gesetz Gesäuse):§ 3; LGBl. Tirol 103/1991: § 4 (T-NPG HT); LGBl. Nr. 37/1996 (W-NPG): § 5"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "AuZ"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "National Park zone: outer zone"
-      },
-      {
-        "@language": "de",
-        "@value": "Aussenzone im Nationalpark"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/BeZ",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/ps"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "B, OÖ, St"
-      },
-      {
-        "@language": "de",
-        "@value": "B, OÖ, St"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/ps"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "LGBl. Burgenland 27/1991 § 45; LGBl 55/1983: Oö. Nationalparkgesetz - Oö. NPG (LGBl. 20/1997) § 8; LGBl. Nr. 61/2002 (NP-Gesetz Gesäuse):§ 3"
-      },
-      {
-        "@language": "de",
-        "@value": "LGBl. Burgenland 27/1991 § 45; LGBl 55/1983: Oö. Nationalparkgesetz - Oö. NPG (LGBl. 20/1997) § 8; LGBl. Nr. 61/2002 (NP-Gesetz Gesäuse):§ 3"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BeZ"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "National Park zone: conservation zone"
-      },
-      {
-        "@language": "de",
-        "@value": "Bewahrungszone im Nationalpark"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/MaZ",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/ps"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "NÖ"
-      },
-      {
-        "@language": "de",
-        "@value": "NÖ"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/ps"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "LGBl. NÖ 5505-0: § 5-7 (NÖ NPG)"
-      },
-      {
-        "@language": "de",
-        "@value": "LGBl. NÖ 5505-0: § 5-7 (NÖ NPG)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "MaZ"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "National Park zone: management zone"
-      },
-      {
-        "@language": "de",
-        "@value": "Managementzone im Nationalpark"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/SoZ",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/ps"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "B"
-      },
-      {
-        "@language": "de",
-        "@value": "B"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/ps"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "LGBl. Burgenland 27/1991 § 45"
-      },
-      {
-        "@language": "de",
-        "@value": "LGBl. Burgenland 27/1991 § 45"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "SoZ"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Sonderzone im Nationalpark"
-      },
-      {
-        "@language": "en",
-        "@value": "National Park zone: special zone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NP",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/ps"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "de",
-        "@value": "B, K, NÖ, OÖ, S, St, T, W"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/ps"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "LGBl. Burgenland 27/1991 § 44; LGBl Kärnten 55/1983: § 1 (K-NBG); LGBl. Niederösterreich 3/1977 (LGBL. 5500-) § 14; LGBl. OÖ 20/1997: § 1 (OÖ NPG); LGBl. Salzburg 73/1999 § 22; LGBl. Stmk. 61/2002: § 1 (St - NPG G); LGBl. Tirol 103/1991: § 3 (T-NPG HT); LGBl. Wien 53/2001 § 21"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "NP"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Nationalpark"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/SSG",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/ps"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "K, S"
-      },
-      {
-        "@language": "de",
-        "@value": "K, S"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://www.umweltbundesamt.at/umweltsituation/naturschutz/sg/"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "http://inspire.ec.europa.eu/applicationschema/ps"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "Banko, Environment Agency Austria, 2016"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema/NPZ"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Kärntner Nationalpark- und Biosphärenparkgesetz - K-NBG § 5 ; LGBl. NÖ 5505-0: § 5-7 (NÖ NPG) ; LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG)"
-      },
-      {
-        "@language": "de",
-        "@value": "Kärntner Nationalpark- und Biosphärenparkgesetz - K-NBG § 5 ; LGBl. NÖ 5505-0: § 5-7 (NÖ NPG) ; LGBl Nr 3/2015 (Salzburger Nationalparkgesetz 2014 - S.NPG)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "SSG"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Sonderschutzgebiet im Nationalpark"
-      },
-      {
-        "@language": "en",
-        "@value": "National Park zone: special protection area"
       }
     ],
     "http://www.w3.org/ns/adms#status": [

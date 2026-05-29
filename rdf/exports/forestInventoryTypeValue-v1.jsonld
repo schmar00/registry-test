@@ -1,5 +1,285 @@
 [
   {
+    "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/welfareFunction",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The welfare function refers to the effects of the forest on the environment, especially on balancing the climate and the water regime and on cleaning and renewing air and water."
+      },
+      {
+        "@language": "de",
+        "@value": "Die Wohlfahrtsfunktion ist der Einfluss des Waldes auf die Umwelt und zwar insbesondere auf den Ausgleich des Klimas und des Wasserhaushaltes, sowie auf die Reinigung und Erneuerung von Luft und Wasser."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "welfareFunction"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Wohlfahrtsfunktion"
+      },
+      {
+        "@language": "en",
+        "@value": "welfare function"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/recreationalFunction",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The recreational function refers especially to the effects of the forest as a recreational area for people visiting the forest."
+      },
+      {
+        "@language": "de",
+        "@value": "Die Erholungsfunktion ist insbesondere die Wirkung des Waldes als Erholungsraum auf die Waldbesucher."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "recreationalFunction"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "recreational function"
+      },
+      {
+        "@language": "de",
+        "@value": "Erholungsfunktion"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/protectiveFunction",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Wald mit Schutzfunktion, insbesondere vor Elementargefahren und schaedigenden Umwelteinfluessen, sowie die Erhaltung der Bodenkraft gegen Bodenabschwemmung und -verwehung, Geroellbildung und Hangrutschung."
+      },
+      {
+        "@language": "en",
+        "@value": "Forest with protective function, especially against natural hazards and detrimental environmental impacts, as well as endangered of eroding forces of wind, water or gravity."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "protectiveFunction"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Schutzfunktion"
+      },
+      {
+        "@language": "en",
+        "@value": "protective function"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/productiveFunction",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Wald mit Nutzfunktion fuer wirtschaftliche und nachhaltige Hervorbringung des Rohstoffes Holz."
+      },
+      {
+        "@language": "en",
+        "@value": "Forest with productive function for economic and sustainable production of the raw material 'wood”."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "productiveFunction"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "productive function"
+      },
+      {
+        "@language": "de",
+        "@value": "Nutzfunktion"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/nonForestAreas",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Wald in unterrepraesentativer Auspraegung (z.B. Gebiete mit intensiver landwirtschaftlicher Nutzung, Gletscher oder Seen)."
+      },
+      {
+        "@language": "en",
+        "@value": "Area is almost entirely non-forest (e.g. areas of intensive agricultural use, glaciers or lakes)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "nonForestAreas"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "non forest areas"
+      },
+      {
+        "@language": "de",
+        "@value": "Nicht Wald"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
     "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -73,118 +353,6 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/nonForestAreas",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Wald in unterrepraesentativer Auspraegung (z.B. Gebiete mit intensiver landwirtschaftlicher Nutzung, Gletscher oder Seen)."
-      },
-      {
-        "@language": "en",
-        "@value": "Area is almost entirely non-forest (e.g. areas of intensive agricultural use, glaciers or lakes)."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "nonForestAreas"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "non forest areas"
-      },
-      {
-        "@language": "de",
-        "@value": "Nicht Wald"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/protectiveFunction",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Wald mit Schutzfunktion, insbesondere vor Elementargefahren und schaedigenden Umwelteinfluessen, sowie die Erhaltung der Bodenkraft gegen Bodenabschwemmung und -verwehung, Geroellbildung und Hangrutschung."
-      },
-      {
-        "@language": "en",
-        "@value": "Forest with protective function, especially against natural hazards and detrimental environmental impacts, as well as endangered of eroding forces of wind, water or gravity."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "protectiveFunction"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Schutzfunktion"
-      },
-      {
-        "@language": "en",
-        "@value": "protective function"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
     "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -249,174 +417,6 @@
       {
         "@language": "en",
         "@value": "INSPIRE extensibility: open, internal by value"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/welfareFunction",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "The welfare function refers to the effects of the forest on the environment, especially on balancing the climate and the water regime and on cleaning and renewing air and water."
-      },
-      {
-        "@language": "de",
-        "@value": "Die Wohlfahrtsfunktion ist der Einfluss des Waldes auf die Umwelt und zwar insbesondere auf den Ausgleich des Klimas und des Wasserhaushaltes, sowie auf die Reinigung und Erneuerung von Luft und Wasser."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "welfareFunction"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Wohlfahrtsfunktion"
-      },
-      {
-        "@language": "en",
-        "@value": "welfare function"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/productiveFunction",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Wald mit Nutzfunktion fuer wirtschaftliche und nachhaltige Hervorbringung des Rohstoffes Holz."
-      },
-      {
-        "@language": "en",
-        "@value": "Forest with productive function for economic and sustainable production of the raw material 'wood”."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "productiveFunction"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "productive function"
-      },
-      {
-        "@language": "de",
-        "@value": "Nutzfunktion"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/recreationalFunction",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue/forestry"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "The recreational function refers especially to the effects of the forest as a recreational area for people visiting the forest."
-      },
-      {
-        "@language": "de",
-        "@value": "Die Erholungsfunktion ist insbesondere die Wirkung des Waldes als Erholungsraum auf die Waldbesucher."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "recreationalFunction"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "recreational function"
-      },
-      {
-        "@language": "de",
-        "@value": "Erholungsfunktion"
       }
     ],
     "http://www.w3.org/ns/adms#status": [

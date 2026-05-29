@@ -16,7 +16,7 @@
         skos:notation "bETR" ;
         skos:prefLabel "BETR"@de,
             "BETR"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -31,7 +31,7 @@
         skos:notation "bHNDL" ;
         skos:prefLabel "BHNDL"@de,
             "BHNDL"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -46,7 +46,7 @@
         skos:notation "bRUN" ;
         skos:prefLabel "BRUN"@de,
             "BRUN"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -61,7 +61,7 @@
         skos:notation "eNTSORG" ;
         skos:prefLabel "ENTSORG"@de,
             "ENTSORG"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -76,7 +76,7 @@
         skos:notation "gWANL" ;
         skos:prefLabel "GWANL"@de,
             "GWANL"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -91,7 +91,7 @@
         skos:notation "kLRANL" ;
         skos:prefLabel "KLRANL"@de,
             "KLRANL"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -106,7 +106,7 @@
         skos:notation "kRAFT" ;
         skos:prefLabel "KRAFT"@de,
             "KRAFT"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -121,7 +121,7 @@
         skos:notation "kRFTW" ;
         skos:prefLabel "KRFTW"@de,
             "KRFTW"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -136,7 +136,7 @@
         skos:notation "mUEHL" ;
         skos:prefLabel "MUEHL"@de,
             "MUEHL"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -151,7 +151,7 @@
         skos:notation "oWANL" ;
         skos:prefLabel "OWANL"@de,
             "OWANL"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -166,7 +166,7 @@
         skos:notation "qU" ;
         skos:prefLabel "QU"@de,
             "QU"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -181,7 +181,7 @@
         skos:notation "rEGEN" ;
         skos:prefLabel "REGEN"@de,
             "REGEN"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -196,7 +196,7 @@
         skos:notation "sEE" ;
         skos:prefLabel "SEE"@de,
             "SEE"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -211,7 +211,7 @@
         skos:notation "sOANL" ;
         skos:prefLabel "SOANL"@de,
             "SOANL"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -226,7 +226,7 @@
         skos:notation "sONST" ;
         skos:prefLabel "SONST"@de,
             "SONST"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -241,7 +241,7 @@
         skos:notation "sPEICHER" ;
         skos:prefLabel "SPEICHER"@de,
             "SPEICHER"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -256,7 +256,7 @@
         skos:notation "sTAU" ;
         skos:prefLabel "STAU"@de,
             "STAU"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -271,7 +271,7 @@
         skos:notation "vERF" ;
         skos:prefLabel "VERF"@de,
             "VERF"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -286,7 +286,7 @@
         skos:notation "vSRGANL" ;
         skos:prefLabel "VSRGANL"@de,
             "VSRGANL"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -301,7 +301,7 @@
         skos:notation "wNUTZ" ;
         skos:prefLabel "WNUTZ"@de,
             "WNUTZ"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 

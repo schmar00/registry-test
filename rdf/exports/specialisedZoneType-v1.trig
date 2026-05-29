@@ -14,7 +14,7 @@
         skos:notation "exclusion" ;
         skos:prefLabel "Ausschluss"@de,
             "exclusion"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneType> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -27,7 +27,7 @@
         skos:notation "priority" ;
         skos:prefLabel "Vorrang"@de,
             "priority"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneType> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -40,7 +40,7 @@
         skos:notation "suitability" ;
         skos:prefLabel "Eignung"@de,
             "suitability"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specialisedZoneType> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 

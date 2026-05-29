@@ -1,5 +1,129 @@
 [
   {
+    "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/hb"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Mapping of dry meadows in Austria"
+      },
+      {
+        "@language": "de",
+        "@value": "Flächenhaft abgegrenzte Trockenrasen Österreichs mit Stand 1986; vielfach schon sehr veralterte Information, Gesamtanzahl der flächenhaft abgegrenzten Trockenrasen: 682. Erstabgrenzung anhand der topographischen Karte ÖK 50; Abgrenzung vor allem in Ostösterreich (Sauberer), Ergänzung im Jahr 2008 durch VINCA und Aufbereitung durch Digitalisierung."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "TrockenrasenObjekt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Trockenrasenobjekt"
+      },
+      {
+        "@language": "en",
+        "@value": "Dry meadow object"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/hb"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Invntory of Wetlands in Austria; total area of wetlands assessd in Nov. 2008 ammounts to 2744 km2 divided into 889 wetland objects"
+      },
+      {
+        "@language": "de",
+        "@value": "Abgrenzung der Feuchtgebiete gemäß Feuchtgebietsinventar, Abgrenzung generalisiert; Insgesamt umfasst das Feuchtgebietsinventar Österreich im November 2008 insgesamt 889 Feuchtgebiete. Die Gesamtfläche der beschriebenen Gebiete beträgt mehr als 2744.0 km2. Das Inventar wird laufend durch Expertenmeldungen laufend erweitert."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "FeuchtgebietsObjekt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Wetland object"
+      },
+      {
+        "@language": "de",
+        "@value": "Feuchtgebietsobjekt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
     "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -73,128 +197,6 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/hb"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Mapping of dry meadows in Austria"
-      },
-      {
-        "@language": "de",
-        "@value": "Flächenhaft abgegrenzte Trockenrasen Österreichs mit Stand 1986; vielfach schon sehr veralterte Information, Gesamtanzahl der flächenhaft abgegrenzten Trockenrasen: 682. Erstabgrenzung anhand der topographischen Karte ÖK 50; Abgrenzung vor allem in Ostösterreich (Sauberer), Ergänzung im Jahr 2008 durch VINCA und Aufbereitung durch Digitalisierung."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "TrockenrasenObjekt"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Trockenrasenobjekt"
-      },
-      {
-        "@language": "en",
-        "@value": "Dry meadow object"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/hb"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Moorflächen aus dem Moorschutzkatalog (Steiner et al. 1992), Hrsg.: Bundesministerium für Gesundheit und Umweltschutz, Credits: Gert Michael STEINER unter Mitarbeit von P. Englmaier, M. Fink, F, Grünweis, I. Höfner I. Korner, A. Ströhle und W. Wolf (im Auftrag des Bundesministeriums für Gesundheit und Umweltschutz), Wien, 1992"
-      },
-      {
-        "@language": "en",
-        "@value": "Bog and mire inventory"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "MoorObjekt"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Moorobjekt"
-      },
-      {
-        "@language": "en",
-        "@value": "Bog and Mire object"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
     "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -255,12 +257,75 @@
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
         "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/hb"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Moorflächen aus dem Moorschutzkatalog (Steiner et al. 1992), Hrsg.: Bundesministerium für Gesundheit und Umweltschutz, Credits: Gert Michael STEINER unter Mitarbeit von P. Englmaier, M. Fink, F, Grünweis, I. Höfner I. Korner, A. Ströhle und W. Wolf (im Auftrag des Bundesministeriums für Gesundheit und Umweltschutz), Wien, 1992"
+      },
+      {
+        "@language": "en",
+        "@value": "Bog and mire inventory"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "MoorObjekt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Moorobjekt"
+      },
+      {
+        "@language": "en",
+        "@value": "Bog and Mire object"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
@@ -321,67 +386,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/hb"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/hb"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
         "@language": "en",
-        "@value": "Invntory of Wetlands in Austria; total area of wetlands assessd in Nov. 2008 ammounts to 2744 km2 divided into 889 wetland objects"
-      },
-      {
-        "@language": "de",
-        "@value": "Abgrenzung der Feuchtgebiete gemäß Feuchtgebietsinventar, Abgrenzung generalisiert; Insgesamt umfasst das Feuchtgebietsinventar Österreich im November 2008 insgesamt 889 Feuchtgebiete. Die Gesamtfläche der beschriebenen Gebiete beträgt mehr als 2744.0 km2. Das Inventar wird laufend durch Expertenmeldungen laufend erweitert."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "FeuchtgebietsObjekt"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Wetland object"
-      },
-      {
-        "@language": "de",
-        "@value": "Feuchtgebietsobjekt"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
         "@value": "INSPIRE governance level: national-technical"
       }
     ],

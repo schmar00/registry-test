@@ -18,7 +18,7 @@
     <dcterms:type rdf:resource="http://inspire.ec.europa.eu/codelist/LandUseClassificationValue"/>
     <owl:versionInfo>1.0.0</owl:versionInfo>
     <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/submitted"/>
   </rdf:Description>
 </rdf:RDF>

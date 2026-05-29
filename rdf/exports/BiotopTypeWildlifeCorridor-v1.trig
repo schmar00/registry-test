@@ -16,7 +16,7 @@
         skos:notation "coreArea" ;
         skos:prefLabel "Kernzone"@de,
             "core area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -31,7 +31,7 @@
         skos:notation "corridorA" ;
         skos:prefLabel "Korridor - A"@de,
             "corridor - A"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -46,7 +46,7 @@
         skos:notation "corridorB" ;
         skos:prefLabel "Korridor - B"@de,
             "corridor - B"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -61,7 +61,7 @@
         skos:notation "redAreaA" ;
         skos:prefLabel "Rotzone - A"@de,
             "red area - A"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -76,7 +76,7 @@
         skos:notation "redAreaB" ;
         skos:prefLabel "Rotzone - B"@de,
             "red area - B"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -91,7 +91,7 @@
         skos:notation "steppingStone" ;
         skos:prefLabel "Trittstein"@de,
             "stepping stone"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -106,7 +106,7 @@
         skos:notation "transitionArea" ;
         skos:prefLabel "Uebergangszone"@de,
             "transition area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -121,7 +121,7 @@
         skos:notation "yellowAreaA" ;
         skos:prefLabel "Gelbzone - A"@de,
             "yellow area - A"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -136,7 +136,7 @@
         skos:notation "yellowAreaB" ;
         skos:prefLabel "Gelbzone - B"@de,
             "yellow area -B"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 

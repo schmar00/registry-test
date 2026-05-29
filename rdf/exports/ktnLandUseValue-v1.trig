@@ -12,7 +12,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "A1" ;
         skos:prefLabel "Bauland - Dorfgebiet"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -23,7 +23,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "A1114xxx" ;
         skos:prefLabel "Bauland - Sondergebiet mit mehrgeschossiger Widmung"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -34,7 +34,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "A1115xxx" ;
         skos:prefLabel "Bauland - Sondergebiet mit Vorbehalt"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -45,7 +45,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "A1116xxx" ;
         skos:prefLabel "Bauland - Sondergebiet mit Sonderwidmung"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -56,7 +56,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "A13xxx" ;
         skos:prefLabel "Bauland - Sondergebiet"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -67,7 +67,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "A14xxx" ;
         skos:prefLabel "Bauland - Mehrgeschossige Widmung"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -78,7 +78,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "A15xxx" ;
         skos:prefLabel "Bauland - Vorbehaltsflaeche"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -89,7 +89,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "A16xxx" ;
         skos:prefLabel "Bauland - Sonderwidmung"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -100,7 +100,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "A2" ;
         skos:prefLabel "Bauland - Wohngebiet"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -111,7 +111,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "A200xxxx" ;
         skos:prefLabel "Bauland - Sonderwidmung mit Vorbehalt"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -122,7 +122,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "A3" ;
         skos:prefLabel "Bauland - Kurgebiet"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -133,7 +133,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "A4" ;
         skos:prefLabel "Bauland - Gemischtes Baugebiet"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -144,7 +144,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "A5" ;
         skos:prefLabel "Bauland - Geschaeftsgebiet"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -155,7 +155,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "A6" ;
         skos:prefLabel "Bauland - Reines Wohngebiet"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -166,7 +166,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "A7" ;
         skos:prefLabel "Bauland - Reines Kurgebiet"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -177,7 +177,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "A8" ;
         skos:prefLabel "Bauland - Gewerbegebiet"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -188,7 +188,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "A9" ;
         skos:prefLabel "Bauland - Industriegebiet"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -199,7 +199,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "B10xx" ;
         skos:prefLabel "Gruenland - Materialgewinnungsstaette und Materiallagerstaette"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -210,7 +210,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "B11xx" ;
         skos:prefLabel "Gruenland - Friedhof"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -221,7 +221,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "B12xx" ;
         skos:prefLabel "Gruenland - Sprengstofflager, Schiessstaette"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -232,7 +232,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "B13xx" ;
         skos:prefLabel "Gruenland - Schutzstreifen als Immissionsschutz"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -243,7 +243,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "B15xxx" ;
         skos:prefLabel "Gruenland - Sonstige Gruenlandtypen"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -254,7 +254,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "B16xx" ;
         skos:prefLabel "Gruenland - Abfallbehandlungsanlage, Abfallagerstaette"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -265,7 +265,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "B5xx" ;
         skos:prefLabel "Gruenland - Erholungsflaeche mit oder ohne Beifuegung einer spezifischen Erholungsnutzung"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -276,7 +276,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "B6xx" ;
         skos:prefLabel "Gruenland - Sportanlage, Vergnuegungs- und Veranstaltungsstaette"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -287,7 +287,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "B7xx" ;
         skos:prefLabel "Gruenland - Campingplatz"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -298,7 +298,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "B8xx" ;
         skos:prefLabel "Gruenland - Erwerbsgaertnerei u. ae."@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -309,7 +309,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "B9xx" ;
         skos:prefLabel "Gruenland - Bienenhaus, Jagdhuette u. ae."@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -320,7 +320,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "Bxxx" ;
         skos:prefLabel "Gruenland - Fuer die Land- und Forstwirtschaft bestimmte Flaeche, oedland"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -331,7 +331,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "Cxxx" ;
         skos:prefLabel "Verkehrsflaeche - Verkehrsflaeche in der Gemeinde"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -342,7 +342,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "D15" ;
         skos:prefLabel "Ersichtlichmachungen - Gewaesser, See"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -353,7 +353,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "D1xx" ;
         skos:prefLabel "Ersichtlichmachungen - Autobahn(mit Schutzzone)"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -364,7 +364,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "D2xx" ;
         skos:prefLabel "Ersichtlichmachungen - Bundesstrasse"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -375,7 +375,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "D3102" ;
         skos:prefLabel "Ersichtlichmachungen - Altlast"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -386,7 +386,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "D3xx" ;
         skos:prefLabel "Ersichtlichmachungen - Landesstrasse"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -397,7 +397,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "D4xx" ;
         skos:prefLabel "Ersichtlichmachungen - Haupt-, Nebenbahn, Anschlussbahn, Materialbahn"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -408,7 +408,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         skos:notation "D7xx" ;
         skos:prefLabel "Ersichtlichmachungen - Flugplatz"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 

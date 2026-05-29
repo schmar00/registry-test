@@ -6,22 +6,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/railway">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
-    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Flächen die durch rechtwirksame überörtliche Festlegungen für den Bahnbetrieb festgelegt wurden.</skos:definition>
-    <skos:definition xml:lang="en">Areas that have been defined for railway operation by legally effective supra-local regulations.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <skos:notation>railway</skos:notation>
-    <skos:prefLabel xml:lang="en">Railway</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Bahn</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/fAVillage">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
@@ -34,23 +18,279 @@
     <skos:notation>fAVillage</skos:notation>
     <skos:prefLabel xml:lang="en">FA-Village</skos:prefLabel>
     <skos:prefLabel xml:lang="de">AF-Dorf</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/residentialAreas">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/dAResidentialArea">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
     <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Wohnen sind Gebiete die ausschließlich oder vornehmlich für Wohnzwecke bestimmt sind.</skos:definition>
-    <skos:definition xml:lang="en">Residential areas are areas that are exclusively or primarily intended for residential purposes.</skos:definition>
+    <skos:definition xml:lang="en">DA-Residential areas are not yet fully-fledged residential areas, but their construction is expected and they are not designated as redevelopment areas.</skos:definition>
+    <skos:definition xml:lang="de">AS-Wohnen sind noch nicht vollwertige Wohnflächen, deren Herstellung aber zu erwarten ist und die nicht als Sanierungsgebiete ausgewiesen sind.</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <skos:notation>residentialAreas</skos:notation>
-    <skos:prefLabel xml:lang="de">Wohnen</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Residential areas</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>dAResidentialArea</skos:notation>
+    <skos:prefLabel xml:lang="en">DA-Residential area</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">AS-Wohnen</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/dAIndustry">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
+    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="en">DA-Industry are not yet fully developed industrial sites, but their production is expected and they are not designated as redevelopment sites.</skos:definition>
+    <skos:definition xml:lang="de">AS-Industrie sind noch nicht vollwertige Industrieflächen, deren Herstellung aber zu erwarten ist und die nicht als Sanierungsgebiete ausgewiesen sind.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <skos:notation>dAIndustry</skos:notation>
+    <skos:prefLabel xml:lang="en">DA-Industry</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">AS-Industrie</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/villageAreas">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
+    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="en">Village areas are areas which are intended for buildings of agricultural and forestry use in a dense arrangement.</skos:definition>
+    <skos:definition xml:lang="de">Dorfgebiet sind Flächen, die für Bauten  land- und forstwirtschaftlicher Nutzung in verdichteter Anordnung bestimmt sind.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <skos:notation>villageAreas</skos:notation>
+    <skos:prefLabel xml:lang="en">Village areas</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Dorfgebiet</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/rAIndustry">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
+    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">SG-Industrie sind nicht vollwertige Baulandflächen, die nach Beseitigung von Mängel zu vollwertigen Industriegebieten werden.</skos:definition>
+    <skos:definition xml:lang="en">RA-Industrial areas are not fully fledged building land, which become fully fledged industrial areas once defects have been remedied.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <skos:notation>rAIndustry</skos:notation>
+    <skos:prefLabel xml:lang="de">SG-Industrie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">RA-Industry</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/dAVillage">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
+    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="en">DA-Village are not yet fully-fledged village areas, but their production is expected and they are not designated as redevelopment areas.</skos:definition>
+    <skos:definition xml:lang="de">AS-Dorf sind noch nicht vollwertige Dorfflächen, deren Herstellung aber zu erwarten ist und die nicht als Sanierungsgebiete ausgewiesen sind.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <skos:notation>dAVillage</skos:notation>
+    <skos:prefLabel xml:lang="en">DA-Village</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">AS-Dorf</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/specialUseOpenland">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
+    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">sind Flächen, wenn auf Grund ihrer besonderen Standortgunst die flächenhafte Nutzung im Vordergrund steht und diese nicht typischerweise einem Baulandgebiet zuzuordnen ist. Insbesondere sind das Flächen für Erwerbsgärtnereien, Erholungszwecke, Spielzwecke, Parkanlagen, Friedhöfe,…</skos:definition>
+    <skos:definition xml:lang="en">are areas if, due to their particular locational advantages, the focus is on land use and this is not typically assigned to a building land area. In particular, these are areas for commercial nurseries, recreational purposes, playgrounds, parks, cemeteries, etc.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <skos:notation>specialUseOpenland</skos:notation>
+    <skos:prefLabel xml:lang="en">Special use in the open land</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Sondernutzung im Freiland</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/waterBodies">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
+    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="en">Making visible the supra-local legally effective definition of water bodies.</skos:definition>
+    <skos:definition xml:lang="de">Ersichtlichmachung der überörtlich rechtwirksamen Festlegung Gewässer.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <skos:notation>waterBodies</skos:notation>
+    <skos:prefLabel xml:lang="en">Water Bodies</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Gewässer</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/forest">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
+    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">laut Forstbehörde als Wald festgelegte Areale.</skos:definition>
+    <skos:definition xml:lang="en">areas designated as forests according to the Forest Service.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <skos:notation>forest</skos:notation>
+    <skos:prefLabel xml:lang="de">Wald</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Forest</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/fAResidentialArea">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
+    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="en">FA-Residential area are undeveloped gaps in the building land, which can be declared a residential area once the legal criteria are met.</skos:definition>
+    <skos:definition xml:lang="de">AF-Wohnen sind unbebaute Lücken  im Bauland, die nach Vorliegen der rechtlichen Kriterien als Wohngebiet erklärt werden können.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <skos:notation>fAResidentialArea</skos:notation>
+    <skos:prefLabel xml:lang="en">FA-Residential area</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">AF-Wohnen</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/rAVillage">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
+    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">SG-Dorf  sind nicht vollwertige Baulandflächen, die nach Beseitigung von Mängel zu vollwertigen Dorfgebiet werden.</skos:definition>
+    <skos:definition xml:lang="en">RA-Villages are not fully-fledged building land which, once defects have been remedied, become fully-fledged village areas.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <skos:notation>rAVillage</skos:notation>
+    <skos:prefLabel xml:lang="de">SG-Dorf</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">RA-Village</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/trafficAreas">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
+    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Verkehrsflächen sind solche Flächen, die für die Abwicklung des fließenden und ruhenden Verkehrs, sowie für die Aufschließung des Baulandes und des Freilandes vorgesehen sind.</skos:definition>
+    <skos:definition xml:lang="en">Traffic areas are those areas which are intended for the handling of moving and stationary traffic, as well as for the development of building land and open land</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <skos:notation>trafficAreas</skos:notation>
+    <skos:prefLabel xml:lang="de">Verkehr</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Traffic areas</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/mainAreas">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
+    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Kerngebiete sind Flächen mit einer im Vergleich zu anderen Baugebieten höheren Nutzungsvielfalt und Bebauungsdichte.</skos:definition>
+    <skos:definition xml:lang="en">Are areas with a higher variety of uses and building density compared to other building areas.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <skos:notation>mainAreas</skos:notation>
+    <skos:prefLabel xml:lang="en">Main areas</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Kerngebiet</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/openland">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
+    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Alle nicht als Bauland und Verkehrsland festgelegte Grundflächen gehören zum Freiland. Im Freiland können Sondernutzungen festgelegt werden (z.B.: öffentliche Parkanlagen).</skos:definition>
+    <skos:definition xml:lang="en">All land not designated as building land or traffic land belongs to the open land. Special uses can be defined in the open land (e.g.: public parks).</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <skos:notation>openland</skos:notation>
+    <skos:prefLabel xml:lang="en">Openland</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Freiland</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/rAResidentialArea">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
+    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">SG-Wohnen sind nicht vollwertige Baulandflächen, die nach Beseitigung von Mängel zu vollwertigen Wohngebieten werden.</skos:definition>
+    <skos:definition xml:lang="en">RA-Residential areas are not fully-fledged building land that becomes fully-fledged residential areas after defects have been remedied.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <skos:notation>rAResidentialArea</skos:notation>
+    <skos:prefLabel xml:lang="de">SG-Wohnen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">RA-Residential area</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/shoppingCenters">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
+    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">sind Flächen für Einkaufszentren.</skos:definition>
+    <skos:definition xml:lang="en">are areas for shopping centers.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <skos:notation>shoppingCenters</skos:notation>
+    <skos:prefLabel xml:lang="en">Shopping centers</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Einkaufszentren</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/industryAndCommerce">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
+    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">sind Flächen für Gewerbe und Industrie inklusive Verwaltungsgebäuden und die für die Aufrechterhaltung erforderlichen Wohnungen.</skos:definition>
+    <skos:definition xml:lang="en">are areas for trade and industry including administrative buildings and the apartments required for maintenance.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <skos:notation>industryAndCommerce</skos:notation>
+    <skos:prefLabel xml:lang="en">Industry and commerce</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Industrie und Gewerbe</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/railway">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
+    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Flächen die durch rechtwirksame überörtliche Festlegungen für den Bahnbetrieb festgelegt wurden.</skos:definition>
+    <skos:definition xml:lang="en">Areas that have been defined for railway operation by legally effective supra-local regulations.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
+    <skos:notation>railway</skos:notation>
+    <skos:prefLabel xml:lang="en">Railway</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Bahn</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
@@ -88,259 +328,19 @@
     <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/forest">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/residentialAreas">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
     <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">laut Forstbehörde als Wald festgelegte Areale.</skos:definition>
-    <skos:definition xml:lang="en">areas designated as forests according to the Forest Service.</skos:definition>
+    <skos:definition xml:lang="de">Wohnen sind Gebiete die ausschließlich oder vornehmlich für Wohnzwecke bestimmt sind.</skos:definition>
+    <skos:definition xml:lang="en">Residential areas are areas that are exclusively or primarily intended for residential purposes.</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <skos:notation>forest</skos:notation>
-    <skos:prefLabel xml:lang="de">Wald</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Forest</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/fAResidentialArea">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
-    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="en">FA-Residential area are undeveloped gaps in the building land, which can be declared a residential area once the legal criteria are met.</skos:definition>
-    <skos:definition xml:lang="de">AF-Wohnen sind unbebaute Lücken  im Bauland, die nach Vorliegen der rechtlichen Kriterien als Wohngebiet erklärt werden können.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <skos:notation>fAResidentialArea</skos:notation>
-    <skos:prefLabel xml:lang="en">FA-Residential area</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">AF-Wohnen</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/rAVillage">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
-    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">SG-Dorf  sind nicht vollwertige Baulandflächen, die nach Beseitigung von Mängel zu vollwertigen Dorfgebiet werden.</skos:definition>
-    <skos:definition xml:lang="en">RA-Villages are not fully-fledged building land which, once defects have been remedied, become fully-fledged village areas.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <skos:notation>rAVillage</skos:notation>
-    <skos:prefLabel xml:lang="de">SG-Dorf</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">RA-Village</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/rAIndustry">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
-    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">SG-Industrie sind nicht vollwertige Baulandflächen, die nach Beseitigung von Mängel zu vollwertigen Industriegebieten werden.</skos:definition>
-    <skos:definition xml:lang="en">RA-Industrial areas are not fully fledged building land, which become fully fledged industrial areas once defects have been remedied.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <skos:notation>rAIndustry</skos:notation>
-    <skos:prefLabel xml:lang="de">SG-Industrie</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">RA-Industry</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/dAResidentialArea">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
-    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="en">DA-Residential areas are not yet fully-fledged residential areas, but their construction is expected and they are not designated as redevelopment areas.</skos:definition>
-    <skos:definition xml:lang="de">AS-Wohnen sind noch nicht vollwertige Wohnflächen, deren Herstellung aber zu erwarten ist und die nicht als Sanierungsgebiete ausgewiesen sind.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <skos:notation>dAResidentialArea</skos:notation>
-    <skos:prefLabel xml:lang="en">DA-Residential area</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">AS-Wohnen</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/dAVillage">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
-    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="en">DA-Village are not yet fully-fledged village areas, but their production is expected and they are not designated as redevelopment areas.</skos:definition>
-    <skos:definition xml:lang="de">AS-Dorf sind noch nicht vollwertige Dorfflächen, deren Herstellung aber zu erwarten ist und die nicht als Sanierungsgebiete ausgewiesen sind.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <skos:notation>dAVillage</skos:notation>
-    <skos:prefLabel xml:lang="en">DA-Village</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">AS-Dorf</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/openland">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
-    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Alle nicht als Bauland und Verkehrsland festgelegte Grundflächen gehören zum Freiland. Im Freiland können Sondernutzungen festgelegt werden (z.B.: öffentliche Parkanlagen).</skos:definition>
-    <skos:definition xml:lang="en">All land not designated as building land or traffic land belongs to the open land. Special uses can be defined in the open land (e.g.: public parks).</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <skos:notation>openland</skos:notation>
-    <skos:prefLabel xml:lang="en">Openland</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Freiland</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/trafficAreas">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
-    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Verkehrsflächen sind solche Flächen, die für die Abwicklung des fließenden und ruhenden Verkehrs, sowie für die Aufschließung des Baulandes und des Freilandes vorgesehen sind.</skos:definition>
-    <skos:definition xml:lang="en">Traffic areas are those areas which are intended for the handling of moving and stationary traffic, as well as for the development of building land and open land</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <skos:notation>trafficAreas</skos:notation>
-    <skos:prefLabel xml:lang="de">Verkehr</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Traffic areas</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/villageAreas">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
-    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="en">Village areas are areas which are intended for buildings of agricultural and forestry use in a dense arrangement.</skos:definition>
-    <skos:definition xml:lang="de">Dorfgebiet sind Flächen, die für Bauten  land- und forstwirtschaftlicher Nutzung in verdichteter Anordnung bestimmt sind.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <skos:notation>villageAreas</skos:notation>
-    <skos:prefLabel xml:lang="en">Village areas</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Dorfgebiet</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/waterBodies">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
-    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="en">Making visible the supra-local legally effective definition of water bodies.</skos:definition>
-    <skos:definition xml:lang="de">Ersichtlichmachung der überörtlich rechtwirksamen Festlegung Gewässer.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <skos:notation>waterBodies</skos:notation>
-    <skos:prefLabel xml:lang="en">Water Bodies</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Gewässer</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/specialUseOpenland">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
-    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">sind Flächen, wenn auf Grund ihrer besonderen Standortgunst die flächenhafte Nutzung im Vordergrund steht und diese nicht typischerweise einem Baulandgebiet zuzuordnen ist. Insbesondere sind das Flächen für Erwerbsgärtnereien, Erholungszwecke, Spielzwecke, Parkanlagen, Friedhöfe,…</skos:definition>
-    <skos:definition xml:lang="en">are areas if, due to their particular locational advantages, the focus is on land use and this is not typically assigned to a building land area. In particular, these are areas for commercial nurseries, recreational purposes, playgrounds, parks, cemeteries, etc.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <skos:notation>specialUseOpenland</skos:notation>
-    <skos:prefLabel xml:lang="en">Special use in the open land</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Sondernutzung im Freiland</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/mainAreas">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
-    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Kerngebiete sind Flächen mit einer im Vergleich zu anderen Baugebieten höheren Nutzungsvielfalt und Bebauungsdichte.</skos:definition>
-    <skos:definition xml:lang="en">Are areas with a higher variety of uses and building density compared to other building areas.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <skos:notation>mainAreas</skos:notation>
-    <skos:prefLabel xml:lang="en">Main areas</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Kerngebiet</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/shoppingCenters">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
-    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">sind Flächen für Einkaufszentren.</skos:definition>
-    <skos:definition xml:lang="en">are areas for shopping centers.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <skos:notation>shoppingCenters</skos:notation>
-    <skos:prefLabel xml:lang="en">Shopping centers</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Einkaufszentren</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/dAIndustry">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
-    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="en">DA-Industry are not yet fully developed industrial sites, but their production is expected and they are not designated as redevelopment sites.</skos:definition>
-    <skos:definition xml:lang="de">AS-Industrie sind noch nicht vollwertige Industrieflächen, deren Herstellung aber zu erwarten ist und die nicht als Sanierungsgebiete ausgewiesen sind.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <skos:notation>dAIndustry</skos:notation>
-    <skos:prefLabel xml:lang="en">DA-Industry</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">AS-Industrie</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/industryAndCommerce">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
-    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">sind Flächen für Gewerbe und Industrie inklusive Verwaltungsgebäuden und die für die Aufrechterhaltung erforderlichen Wohnungen.</skos:definition>
-    <skos:definition xml:lang="en">are areas for trade and industry including administrative buildings and the apartments required for maintenance.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <skos:notation>industryAndCommerce</skos:notation>
-    <skos:prefLabel xml:lang="en">Industry and commerce</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Industrie und Gewerbe</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/stmLandUseValue/rAResidentialArea">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">Def. STMRK</dcterms:description>
-    <dcterms:description xml:lang="de">Def. STMRK</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">SG-Wohnen sind nicht vollwertige Baulandflächen, die nach Beseitigung von Mängel zu vollwertigen Wohngebieten werden.</skos:definition>
-    <skos:definition xml:lang="en">RA-Residential areas are not fully-fledged building land that becomes fully-fledged residential areas after defects have been remedied.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
-    <skos:notation>rAResidentialArea</skos:notation>
-    <skos:prefLabel xml:lang="de">SG-Wohnen</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">RA-Residential area</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>residentialAreas</skos:notation>
+    <skos:prefLabel xml:lang="de">Wohnen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Residential areas</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/stmLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>

@@ -1,135 +1,5 @@
 [
   {
-    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_9_2_MixedTrees",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lc"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_9_Trees"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2_4_9_2_MixedTrees"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "mixed trees"
-      },
-      {
-        "@language": "de",
-        "@value": "Mischung Laub/Nadel"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_Water",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lc"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_Abiotic"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "The chemical substance of water (H2O), either in liquid or in frozen solid state of aggregation."
-      },
-      {
-        "@language": "de",
-        "@value": "Die Landbedeckung Wasser wird nach ihren Aggregatzuständen unterschieden."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_7_SnowIce"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_6_SurfaceWater"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1_3_Water"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "water"
-      },
-      {
-        "@language": "de",
-        "@value": "Wasser"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
     "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_11_DwarfShrubs",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -196,62 +66,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_9_1_DeciduousTrees",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lc"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_9_Trees"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2_4_9_1_DeciduousTrees"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Laubbäume"
-      },
-      {
         "@language": "en",
-        "@value": "deciduous trees"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -262,7 +77,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_2_3_PermanentBareSoil",
+    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_1_2_OtherConstructedArea",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -274,11 +89,11 @@
     "http://purl.org/dc/terms/description": [
       {
         "@language": "de",
-        "@value": "identisch mit EAGLE-Klasse: 1223_BareSoils - Da diese Klasse - wie die anderen - noch rein auf spektrale Merkmalen basiert, deckt sie eine sehr breite Nutzungspalette ab. Meist kommt diese Klasse im landwirtschaftlichen Bereich vor, es handelt sich dabei um Böden ohne Vegetationsbedeckung, aber mit reichlichem Humusgehalt (=Erde). Je geringer der Humusgehalt, desto mehr geht die Klasse offener Boden in die Klasse 'Schotter/Sand' über. Die Abgrenzung zum Grünbewuchs erfolgt über den Vegetationsindex (Einteilung in: keine, wenig, mittel und hoch siehe 'Grünbewuchs)). Der Vegetationsanteil beträgt maximal 10%. - Die im Gemüsebau manchmal anzutreffende temporäre Abdeckung von Äckern bzw. Ackerstreifen mittels schwarzen und weißen Folien soll als 'offener Boden' klassifiziert werden."
+        "@value": "identisch mit EAGLE-Klasse: 1112_OtherConstructions - Beinhaltet befestigte Straßen, Gehsteige, Parkplätze und sonstige befestigte Flächen, wie z.B. Tennisplätze, Sportlaufbahnen etc. Auch befestigte Baunebenflächen und Manipulationsflächen in Gewerbe- und Industrie fallen darunter. Ebenso in diese Kategorie fallen die dauerhaft angelegten landwirtschaftlichen Güterwege und Zu- und Abfahrten zu Industrie- und Gewerbegebieten sowie Lagerplätzen. - Plätze in Anlagen mit permanenter Nutzung sind in der Regel als befestigt anzusehen (Kompostanlagen, Industrielager, LKW-Abstellplätze etc.). Vorübergehend zur Lagerung benutzte Flächen sind in der Regel nicht durch Aufbringung von Fremdmaterial charakterisiert, aber die menschliche Intention ist klar erkennbar, der Oberboden angeschoben und das Erdreich verdichtet (Holzlager, Materialdepots von Baustellen etc.). - Abgrenzung: Bei der Klasse Schotter/Sand handelt es sich hingegen um natürliche Prozesse."
       },
       {
         "@language": "en",
-        "@value": "identical to EAGLE class: 1223_BareSoils"
+        "@value": "identical to EAGLE class: 1112_OtherConstructions - Includes: e.g. asphalt, concrete, pave dings like on roads, parking lots, squares, storages areas, airport run ways, quays, sealed bottom pools, unvegetated cemeteries. - Excludes: gravel bed of railway track. It is an artificial surface but not impervious, better to be placed under Gravel, Pebble"
       }
     ],
     "http://purl.org/dc/terms/subject": [
@@ -293,17 +108,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_2_NonBuiltUp"
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_1_BuiltUp"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "de",
-        "@value": "Nicht vegetationsbedeckter, offener Boden."
+        "@value": "Künstlich angelegte, ganz oder teilweise versiegelte Flächen, insbesondere asphaltierte, betonierte, bekieste, geschotterte, gemergelte sowie mit Steinen oder Platten belegte Böden (© Schweizer Arealstatistik)."
       },
       {
         "@language": "en",
-        "@value": "Mixture of mineral and organic material that is capable of sustaining plant life, but being unvegetated at the moment of observation (primarily bare arable land)."
+        "@value": "Flat surfaces covered by any type of impervious material which that is used for artificial surface pavements (e.g. asphalt, concrete, tarmacadam)."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -313,315 +128,22 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "1_2_3_PermanentBareSoil"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "permanent bare soil"
-      },
-      {
-        "@language": "de",
-        "@value": "offener Boden (dauerhaft)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_7_2_Ice",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "de",
-        "@value": "identisch mit EAGLE-Klasse: 322_IceAndGlaciers - Eis findet sich in erster Linie in der alpinen Höhenzone wieder (innerhalb von LISA werden kaum Winteraufnahmen von gefrorenen Flüssen und Seen verwendet). Eis weist spektral eine deutlich unterschiedliche Signatur als Schnee auf (bläuliche Farbtöne). Eis bildet damit den Hauptbestandteil von Gletscherflächen. Vielfach ist das eigentliche Eis jedoch durch Schutt- und Moränenmaterial überdeckt und kann nicht als solches identifiziert werden."
-      },
-      {
-        "@language": "en",
-        "@value": "identical to EAGLE class: 322_IceAndGlaciers"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lc"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_7_SnowIce"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Vorwiegend mit Gletscher und Firn bedeckte Flächen."
-      },
-      {
-        "@language": "en",
-        "@value": "Glaciers in alpine zones."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1_3_7_2_Ice"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "ice"
-      },
-      {
-        "@language": "de",
-        "@value": "Eis"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_6_SurfaceWater",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "de",
-        "@value": "identisch mit EAGLE-Klasse: 312_InlandWater - Zeitliche Dynamik: Wasserflächen unterliegen einer unbestimmten zeitlichen Dynamik, die von Tag, Woche, Monat und Jahr abhängig sein kann. Da Wasser als Landbedeckungsklasse manchmal nur sehr temporär und zeitlich beschränkt auftreten kann, ist dies bei der Ausweisung von flächenstatistischen Bilanzen zu Landbedeckungsveränderungen zu berücksichtigen (ähnliche Problematik wie bei Schneebedeckung bzw. Schatten)"
-      },
-      {
-        "@language": "en",
-        "@value": "identical to EAGLE class: 312_InlandWater"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lc"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_Water"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Offene Wasserflächen von stehenden und fließenden Gewässern. Bei teilweise überschirmten Gewässern (kleinere Bachläufe) wird nur die tatsächliche luftbildsichtbare Wasserfläche ausgewiesen - es sei denn, daß Laserscanning Daten eine leichte und automatisierte Differenzierung auch überschirmter Wasserflächen gestatten."
-      },
-      {
-        "@language": "en",
-        "@value": "All kinds of inland surface water with no direct interference or interchange with open sea water."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1_3_6_SurfaceWater"
+        "@value": "1_1_2_OtherConstructedArea"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Wasseroberfläche"
+        "@value": "sonstige befestigte Fläche"
       },
       {
         "@language": "en",
-        "@value": "surface water"
+        "@value": "other constructed area"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_12_2_HerbaceousPeriodically",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "de",
-        "@value": "flächen, die größtenteils als Acker genutzt werden"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lc"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_12_Herbaceous"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
         "@language": "en",
-        "@value": "herbeceous vegetation that is not permanently covered with vegetation throughout a year. Bare soil can be observed at least once per year"
-      },
-      {
-        "@language": "de",
-        "@value": "Flächen, die im Laufe eines Jahres zumindest einmal eine Bodenbearbeitung aufweisen."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2_5_12_2_HerbaceousPeriodically"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "herbaceous periodically"
-      },
-      {
-        "@language": "de",
-        "@value": "Grünbewuchs periodisch"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_Herbaceous",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lc"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_Biotic"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Flächen, die von nicht verholzter Vegetation bedeckt sind"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_13_Reeds"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_12_Herbaceous"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2_5_Herbaceous"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "nicht verholzt"
-      },
-      {
-        "@language": "en",
-        "@value": "herbaceous"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -699,6 +221,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -709,7 +232,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_10_Bushes",
+    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_12_Herbaceous",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -720,12 +243,12 @@
     ],
     "http://purl.org/dc/terms/description": [
       {
-        "@language": "de",
-        "@value": "identisch mit EAGLE-Klasse: 2121_RegularBushes/Shrubs - Die im Siedlungsbereich häufig anzutreffenden Hecken und Gebüschreihen werden erst ab einer Breite von 1m erfasst. Für die Überprüfung der Genauigkeit gilt die generelle Evaluierungsbreite von 3m. - Weinreben werden aufgrund ihrer geringen Breite, aber der erkennbaren linearen Struktur, unter 'Grünbewuchs' mit dem Attribut 'lineare, parallele Struktur' geführt."
+        "@language": "en",
+        "@value": "identical to EAGLE class: 22_Herbaceous"
       },
       {
-        "@language": "en",
-        "@value": "identical to EAGLE class: 2121_RegularBushes/Shrubs"
+        "@language": "de",
+        "@value": "identisch mit EAGLE-Klasse: 22_Herbaceous - Abgrenzung von benachbarten Objekten gleicher Klassenzugehörigkeit: Insbesondere in der Klasse Grünbewuchs ist es wichtig - ähnlich wie in der Klasse offener Boden jene Objekte zu erfassen, die eine geschlossene räumliche Einheit bilden. Grünbewuchsflächen können aneinander angrenzen und trotzdem werden sie räumlich differenziert, da sie sich - Auch sämtliche Ackerflächen, die eine luftbildsichtbare Vegetation aufweisen fallen in diese Kategorie (Weizen, Mais, Erdäpfel, etc.). Die Grünflächen enthalten somit alle vegetationsbedeckten aber nicht bestockten Flächen. Darunter fallen sowohl natürliche Wiesen, Wirtschaftsgrünland, Parkanlagen, Rasenflächen in Hausgärten, Grünbegleitstreifen etc."
       }
     ],
     "http://purl.org/dc/terms/subject": [
@@ -740,17 +263,102 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_Woody"
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_Herbaceous"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@language": "en",
-        "@value": "woody plants with a height between 0,5 and 5m."
+        "@language": "de",
+        "@value": "Sämtliche mit sichtbarer niedriger Vegetation (Gras oder Krautvegetation) bedeckte Flächen. Die innere Differenzierung des Grünbewuchse ('einzelne Schläge als getrennte Segmente' - Landschaftsstruktur) ist dabei mitzuerfassen. Der Deckungsgrad durch oberirdische Pflanzenteile muß mindestens 10% innerhalb der Referenzfläche einnehmen."
       },
       {
+        "@language": "en",
+        "@value": "This large class contains all kind of arable crops, pastures, meadows and natural grasslands. As for bare soil it is in the context of agricultural use not essential to assign the object the correct class, as the class of an object is a rather random issue depending on the acquisition date. However it is important to differentiate objects of the same class, if they are located next to each other, and if they can differentiate according to their vegetation index and physiognomic appearance."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_12_2_HerbaceousPeriodically"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_12_1_HerbaceousPermanent"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2_5_12_Herbaceous"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
         "@language": "de",
-        "@value": "Mit Krummholzbestände (z.B. Latsche), Büschen (z.B. Grünerle), Sträuchern (z.B. Hecken) bewachsene Flächen. Die Höhe liegt unter 5 m aber fast immer über 0,5 m. Der Deckungsgrad mit Gebüschen liegt dabei >50%. Jungwuchs und Dickungen mit einer Höhe < 5 m fallen ebenfalls in diese Klasse."
+        "@value": "Grünbewuchs"
+      },
+      {
+        "@language": "en",
+        "@value": "herbaceous"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_1_1_Building",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "identisch mit EAGLE-Klasse: 1111_Buildings - Diese Klasse beinhaltet Gebäude und Gebäudekomplexe. Gebäude sind aus Sicht der Raumplanung ab einer Größe von 50 m² zu erfassen, da diese Größe die minimale Fläche eines Gebäudes ist, welches als Hauptgebäude (ganzjährige Wohnung und/oder betriebliche Arbeitsstätte) geeignet ist. Die minimale Höhe eines Gebäudes wird nicht definiert. - Im Bau befindliche Gebäude, bei welchen die Dachkonstruktion noch nicht abgeschlossen ist, werden als 'sonstige befestigte Flächen' klassifiziert."
+      },
+      {
+        "@language": "en",
+        "@value": "identical to EAGLE class: 1111_Buildings"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lc"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_1_BuiltUp"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Überdachte, auf Dauer errichtete Bauwerke, die geeignet oder bestimmt sind, dem Schutz oder der Unterbringung von Menschen, Tieren oder Sachen zu dienen."
+      },
+      {
+        "@language": "en",
+        "@value": "Roof-covered constructions like single buildings or block of buildings with a significant height difference from the surrounding surface"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -760,21 +368,412 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "2_4_10_Bushes"
+        "@value": "1_1_1_Building"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "de",
-        "@value": "Gebüsch"
+        "@value": "Gebäude"
       },
       {
         "@language": "en",
-        "@value": "bushes"
+        "@value": "building"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_Abiotic",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lc"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Flächen, die keine vegetationsbedeckung aufweisen (abiotisch)"
+      },
+      {
+        "@language": "en",
+        "@value": "Any unvegetated surfaces, either covered with man-made artificial structures or geologically natural material surfaces (with or without anthropogenic influence or impact)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_Water"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_2_NonBuiltUp"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_1_BuiltUp"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1_Abiotic"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "nicht vegetationsbedeckt"
+      },
+      {
+        "@language": "en",
+        "@value": "abiotic"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_Biotic",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Includes: - Any vegetated land surface, either naturally grown, semi-natural or artificially planted vegetation (e.g. crops, urban parks), with or without anthropogenic influence."
+      },
+      {
+        "@language": "de",
+        "@value": "Vegetationsbedeckte Flächen weisen eine bestimmte Dichte der Biomasse zum Zeitpunkt der Aufnahme auf. Diese Vegetationsdichte kann durch entsprechende Parameter wie z.B. dem NDVI aus Fernerkundungsdaten ermittelt werden. Für deren Ermittlung ist die Verfügbarkeit von spektraler Information aus dem nahen Infrarot Bereich erforderlich (IR-Luftbilder oder Satellitenbilder). - Der Vegetationsindex ist je nach Phänologie saisonalen und jährlichen Änderungen unterworfen. Trotz dieser Änderungen ist der Vegetationsindex ein wichtiges Attribut und wird zur Differenzierung sowie räumlichen Trennung dieser Klassen herangezogen werden."
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lc"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Biotic surfaces have to be differentiated according to their attributes (e.g. coniferous percentage, biomass density, wetness, etc.)"
+      },
+      {
+        "@language": "de",
+        "@value": "Flächen mit einer Vegetationsbedeckung (biotisch)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_Woody"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_Herbaceous"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2_Biotic"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "biotic"
+      },
+      {
+        "@language": "de",
+        "@value": "vegetationsbedeckt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_12_2_HerbaceousPeriodically",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "flächen, die größtenteils als Acker genutzt werden"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lc"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_12_Herbaceous"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "herbeceous vegetation that is not permanently covered with vegetation throughout a year. Bare soil can be observed at least once per year"
+      },
+      {
+        "@language": "de",
+        "@value": "Flächen, die im Laufe eines Jahres zumindest einmal eine Bodenbearbeitung aufweisen."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2_5_12_2_HerbaceousPeriodically"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "herbaceous periodically"
+      },
+      {
+        "@language": "de",
+        "@value": "Grünbewuchs periodisch"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_13_Reeds",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "identisch mit EAGLE-Klasse: 2212_Reeds, Bamboos and Canes"
+      },
+      {
+        "@language": "en",
+        "@value": "identical to EAGLE class: 2212_Reeds, Bamboos and Canes"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lc"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_Herbaceous"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Schilf kommt in größerem Ausmaß z.B. im Schilfgürtel des Neusiedler Sees vor und ist spektral eindeutig von anderen Klassen zu unterscheiden. Kleinsträumig ist Schilf mit Wasserflächen assoziiert (MVU = 500 m²)"
+      },
+      {
+        "@language": "en",
+        "@value": "Reed is a common name for several tall, grass-like plants of wetlands. They are all members of the order Poales (in the modern, expanded circumscription) (© wikipedia)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2_5_13_Reeds"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Schilf"
+      },
+      {
+        "@language": "en",
+        "@value": "reeds"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_6_SurfaceWater",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "identisch mit EAGLE-Klasse: 312_InlandWater - Zeitliche Dynamik: Wasserflächen unterliegen einer unbestimmten zeitlichen Dynamik, die von Tag, Woche, Monat und Jahr abhängig sein kann. Da Wasser als Landbedeckungsklasse manchmal nur sehr temporär und zeitlich beschränkt auftreten kann, ist dies bei der Ausweisung von flächenstatistischen Bilanzen zu Landbedeckungsveränderungen zu berücksichtigen (ähnliche Problematik wie bei Schneebedeckung bzw. Schatten)"
+      },
+      {
+        "@language": "en",
+        "@value": "identical to EAGLE class: 312_InlandWater"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lc"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_Water"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Offene Wasserflächen von stehenden und fließenden Gewässern. Bei teilweise überschirmten Gewässern (kleinere Bachläufe) wird nur die tatsächliche luftbildsichtbare Wasserfläche ausgewiesen - es sei denn, daß Laserscanning Daten eine leichte und automatisierte Differenzierung auch überschirmter Wasserflächen gestatten."
+      },
+      {
+        "@language": "en",
+        "@value": "All kinds of inland surface water with no direct interference or interchange with open sea water."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1_3_6_SurfaceWater"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Wasseroberfläche"
+      },
+      {
+        "@language": "en",
+        "@value": "surface water"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -849,9 +848,238 @@
         "@value": "INSPIRE extensibility: open, internal by value"
       },
       {
+        "@language": "en",
         "@value": "Banko, Environment Agency Austria, 2016"
       },
       {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_2_4_Screes",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "identisch mit EAGLE-Klasse: 1221_MineralFragments - Die Abgrenzung zu den 'sonstigen befestigten Flächen': frisch ausgehobenes Material oder temporär zwischengelagertes Material wird als Schutt/Sand bezeichnet. Wichtiges Unterscheidungskriterium zu 'sonstige befestigte Flächen' ist auch, ob der Oberboden eindeutig erkennbar durch menschliche Tätigkeiten abgeschoben (durch z.B. Bagger) und das darunterliegende Material verfestigt wurde (sonstige befestigte Flächen, z.B. Lager- und Umschlagplätze) bzw. die Flächen mit Fremdmaterial befestigt wurden (sonstige befestigte Flächen)."
+      },
+      {
+        "@language": "en",
+        "@value": "identical to EAGLE class: 1221_MineralFragments"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lc"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_2_NonBuiltUp"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Screes come to be through physical disintegration of geological formations and are the result of becoming smaller and smaller along time. They are accumulated on site due to sedimentary processes or human activity. Further subdivision is made according to their particle size and constellation."
+      },
+      {
+        "@language": "de",
+        "@value": "Schutt und Sand: Lockersedimente wie Schuttfluren, Geröllfelder, Schotterflächen und sandige Bereiche bis hin zu Geröll (bis ca. max. 2 m Durchmesser) ohne erkennbare Beimischung von Humus. Der Vegetationsanteil beträgt maximal 10%."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1_2_4_Screes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "screes"
+      },
+      {
+        "@language": "de",
+        "@value": "Schotter"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_7_2_Ice",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "identisch mit EAGLE-Klasse: 322_IceAndGlaciers - Eis findet sich in erster Linie in der alpinen Höhenzone wieder (innerhalb von LISA werden kaum Winteraufnahmen von gefrorenen Flüssen und Seen verwendet). Eis weist spektral eine deutlich unterschiedliche Signatur als Schnee auf (bläuliche Farbtöne). Eis bildet damit den Hauptbestandteil von Gletscherflächen. Vielfach ist das eigentliche Eis jedoch durch Schutt- und Moränenmaterial überdeckt und kann nicht als solches identifiziert werden."
+      },
+      {
+        "@language": "en",
+        "@value": "identical to EAGLE class: 322_IceAndGlaciers"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lc"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_7_SnowIce"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Vorwiegend mit Gletscher und Firn bedeckte Flächen."
+      },
+      {
+        "@language": "en",
+        "@value": "Glaciers in alpine zones."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1_3_7_2_Ice"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "ice"
+      },
+      {
+        "@language": "de",
+        "@value": "Eis"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_12_1_HerbaceousPermanent",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "Flächen, die Größtenteils als Grünland genutzt werden."
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lc"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_12_Herbaceous"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "herbeceous vegetation that is permanently covered with vegetation throughout a year"
+      },
+      {
+        "@language": "de",
+        "@value": "Flächen, die über ein ganzes Jahr hinweg durch Grünbewuchs bedeckt sind und keine unterjährliche Bodenbearbeitung auzfweisen."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2_5_12_1_HerbaceousPermanent"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "herbaceous permanent"
+      },
+      {
+        "@language": "de",
+        "@value": "Grünbewuchs dauerhaft"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -939,243 +1167,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_2_5_BareRock",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "de",
-        "@value": "identisch mit EAGLE-Klasse: 1211_BareRocks - Natura 2000: Felsflächen beinhalten bedeutende Lebensraumtypen mit großflächigem Vorkommen. Weitere Differenzierung über Geologie. - - 8210 Kalkfelsen mit Felsspaltenvegetation (Flächenschätzung 50.000-240.000 ha) - - 8220 Silikatfelsen mit Felsspaltenvegetation (Flächenschätzung 10.000-100.000 ha) - Hinweis: Felsbereiche sind oft sehr stark von topographischen Schattenflächen beeinflußt. Im Sinne eines flächenstatistisch korrekten Monitoring ist auf die Befüllung dieser Schattenflächen durch Ersatzdaten (Übernahme veralteter Daten bzw. Heranziehen weiterer Satellitenbildaufnahmen) besonders zu achten."
-      },
-      {
         "@language": "en",
-        "@value": "identical to EAGLE class: 1211_BareRocks - Includes: - e.g. solid (closed) rock formations, fresh lava flows, quarries, mineral extraction sites, open pit mines"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lc"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_2_NonBuiltUp"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "The rock surface is continuous except perhaps for a few cracks in the material. Some areas may be covered by shallow layers of soil or there could be isolated pockets of soil or a mixture of both."
-      },
-      {
-        "@language": "de",
-        "@value": "Felsen und anstehendes festes Gestein. Anhäufungen von Gestein (Gesteinsfelder) werden ab einem durchschnittlichen Durchmesser von 2m als 'Fels/Gestein' ausgewiesen, darunter als 'Schotter/Sand'."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1_2_5_BareRock"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "bare rock"
-      },
-      {
-        "@language": "de",
-        "@value": "Fels"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_Abiotic",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lc"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Flächen, die keine vegetationsbedeckung aufweisen (abiotisch)"
-      },
-      {
-        "@language": "en",
-        "@value": "Any unvegetated surfaces, either covered with man-made artificial structures or geologically natural material surfaces (with or without anthropogenic influence or impact)."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_Water"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_2_NonBuiltUp"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_1_BuiltUp"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1_Abiotic"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "nicht vegetationsbedeckt"
-      },
-      {
-        "@language": "en",
-        "@value": "abiotic"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_12_Herbaceous",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "identical to EAGLE class: 22_Herbaceous"
-      },
-      {
-        "@language": "de",
-        "@value": "identisch mit EAGLE-Klasse: 22_Herbaceous - Abgrenzung von benachbarten Objekten gleicher Klassenzugehörigkeit: Insbesondere in der Klasse Grünbewuchs ist es wichtig - ähnlich wie in der Klasse offener Boden jene Objekte zu erfassen, die eine geschlossene räumliche Einheit bilden. Grünbewuchsflächen können aneinander angrenzen und trotzdem werden sie räumlich differenziert, da sie sich - Auch sämtliche Ackerflächen, die eine luftbildsichtbare Vegetation aufweisen fallen in diese Kategorie (Weizen, Mais, Erdäpfel, etc.). Die Grünflächen enthalten somit alle vegetationsbedeckten aber nicht bestockten Flächen. Darunter fallen sowohl natürliche Wiesen, Wirtschaftsgrünland, Parkanlagen, Rasenflächen in Hausgärten, Grünbegleitstreifen etc."
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lc"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_Herbaceous"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Sämtliche mit sichtbarer niedriger Vegetation (Gras oder Krautvegetation) bedeckte Flächen. Die innere Differenzierung des Grünbewuchse ('einzelne Schläge als getrennte Segmente' - Landschaftsstruktur) ist dabei mitzuerfassen. Der Deckungsgrad durch oberirdische Pflanzenteile muß mindestens 10% innerhalb der Referenzfläche einnehmen."
-      },
-      {
-        "@language": "en",
-        "@value": "This large class contains all kind of arable crops, pastures, meadows and natural grasslands. As for bare soil it is in the context of agricultural use not essential to assign the object the correct class, as the class of an object is a rather random issue depending on the acquisition date. However it is important to differentiate objects of the same class, if they are located next to each other, and if they can differentiate according to their vegetation index and physiognomic appearance."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_12_2_HerbaceousPeriodically"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_12_1_HerbaceousPermanent"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2_5_12_Herbaceous"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Grünbewuchs"
-      },
-      {
-        "@language": "en",
-        "@value": "herbaceous"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -1256,6 +1248,628 @@
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_2_5_BareRock",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "identisch mit EAGLE-Klasse: 1211_BareRocks - Natura 2000: Felsflächen beinhalten bedeutende Lebensraumtypen mit großflächigem Vorkommen. Weitere Differenzierung über Geologie. - - 8210 Kalkfelsen mit Felsspaltenvegetation (Flächenschätzung 50.000-240.000 ha) - - 8220 Silikatfelsen mit Felsspaltenvegetation (Flächenschätzung 10.000-100.000 ha) - Hinweis: Felsbereiche sind oft sehr stark von topographischen Schattenflächen beeinflußt. Im Sinne eines flächenstatistisch korrekten Monitoring ist auf die Befüllung dieser Schattenflächen durch Ersatzdaten (Übernahme veralteter Daten bzw. Heranziehen weiterer Satellitenbildaufnahmen) besonders zu achten."
+      },
+      {
+        "@language": "en",
+        "@value": "identical to EAGLE class: 1211_BareRocks - Includes: - e.g. solid (closed) rock formations, fresh lava flows, quarries, mineral extraction sites, open pit mines"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lc"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_2_NonBuiltUp"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The rock surface is continuous except perhaps for a few cracks in the material. Some areas may be covered by shallow layers of soil or there could be isolated pockets of soil or a mixture of both."
+      },
+      {
+        "@language": "de",
+        "@value": "Felsen und anstehendes festes Gestein. Anhäufungen von Gestein (Gesteinsfelder) werden ab einem durchschnittlichen Durchmesser von 2m als 'Fels/Gestein' ausgewiesen, darunter als 'Schotter/Sand'."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1_2_5_BareRock"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "bare rock"
+      },
+      {
+        "@language": "de",
+        "@value": "Fels"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_7_1_Snow",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "identisch mit EAGLE-Klasse: 321_Snow - Zeitliche Dynamik: Die Schneebedeckung ist zeitlich variable (Wochen, Monats-, Jahresdynamik). Dies ist bei der Etablierung eines Monitoringsystemes zu berücksichtigen, da keine echten Landbedeckungsänderungen unterhalb der Schneedecke feststellbar sind, dürfen die vom Schnee bedeckten Flächen auch nicht in Änderungsstatistiken übernommen werden. Wie bei großflächig beschatteten Bereichen sind auch bei Schneeflächen auf die Befüllung durch Ersatzdaten (Übernahme alter Daten bzw. Heranziehen weiterer Satellitenbildaufnahmen) besonders zu achten."
+      },
+      {
+        "@language": "en",
+        "@value": "identical to EAGLE class: 321_Snow"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lc"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_7_SnowIce"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Permanent snow in alpine areas. Temporary snow coverage must not be mapped."
+      },
+      {
+        "@language": "de",
+        "@value": "Die Schneebedeckung ist naturgemäß in erster Linie vom Zeitpunkt der Aufnahme mittels Fernerkundungsdaten abhängig. Jedoch stellt sie sowohl in Luft- als auch in Satellitenbildern eine relativ einfach zu differenzierende Landbedeckungsklasse dar. Schnee überdeckt eine andere Landbedeckungsklasse, die aber zum Zeitpunkt der Aufnahme eben nicht feststellbar ist, sofern keine Information aus einer Vorperiode zur Verfügung steht. Vielfach befinden sich auch Eisflächen (Gletscher) unter dem Schnee."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1_3_7_1_Snow"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "snow"
+      },
+      {
+        "@language": "de",
+        "@value": "Schnee"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_10_Bushes",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "identisch mit EAGLE-Klasse: 2121_RegularBushes/Shrubs - Die im Siedlungsbereich häufig anzutreffenden Hecken und Gebüschreihen werden erst ab einer Breite von 1m erfasst. Für die Überprüfung der Genauigkeit gilt die generelle Evaluierungsbreite von 3m. - Weinreben werden aufgrund ihrer geringen Breite, aber der erkennbaren linearen Struktur, unter 'Grünbewuchs' mit dem Attribut 'lineare, parallele Struktur' geführt."
+      },
+      {
+        "@language": "en",
+        "@value": "identical to EAGLE class: 2121_RegularBushes/Shrubs"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lc"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_Woody"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "woody plants with a height between 0,5 and 5m."
+      },
+      {
+        "@language": "de",
+        "@value": "Mit Krummholzbestände (z.B. Latsche), Büschen (z.B. Grünerle), Sträuchern (z.B. Hecken) bewachsene Flächen. Die Höhe liegt unter 5 m aber fast immer über 0,5 m. Der Deckungsgrad mit Gebüschen liegt dabei >50%. Jungwuchs und Dickungen mit einer Höhe < 5 m fallen ebenfalls in diese Klasse."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2_4_10_Bushes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Gebüsch"
+      },
+      {
+        "@language": "en",
+        "@value": "bushes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_7_SnowIce",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lc"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_Water"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Snow and Ice (solid aggregated water)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_7_2_Ice"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_7_1_Snow"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1_3_7_SnowIce"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "snow/ice"
+      },
+      {
+        "@language": "de",
+        "@value": "Schnee und Eis"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_Herbaceous",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lc"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_Biotic"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Flächen, die von nicht verholzter Vegetation bedeckt sind"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_13_Reeds"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_12_Herbaceous"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2_5_Herbaceous"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "nicht verholzt"
+      },
+      {
+        "@language": "en",
+        "@value": "herbaceous"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_9_1_DeciduousTrees",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lc"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_9_Trees"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2_4_9_1_DeciduousTrees"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Laubbäume"
+      },
+      {
+        "@language": "en",
+        "@value": "deciduous trees"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_9_3_ConiferousTrees",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lc"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_9_Trees"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2_4_9_3_ConiferousTrees"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Nadelbäume"
+      },
+      {
+        "@language": "en",
+        "@value": "coniferous trees"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_2_3_PermanentBareSoil",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "identisch mit EAGLE-Klasse: 1223_BareSoils - Da diese Klasse - wie die anderen - noch rein auf spektrale Merkmalen basiert, deckt sie eine sehr breite Nutzungspalette ab. Meist kommt diese Klasse im landwirtschaftlichen Bereich vor, es handelt sich dabei um Böden ohne Vegetationsbedeckung, aber mit reichlichem Humusgehalt (=Erde). Je geringer der Humusgehalt, desto mehr geht die Klasse offener Boden in die Klasse 'Schotter/Sand' über. Die Abgrenzung zum Grünbewuchs erfolgt über den Vegetationsindex (Einteilung in: keine, wenig, mittel und hoch siehe 'Grünbewuchs)). Der Vegetationsanteil beträgt maximal 10%. - Die im Gemüsebau manchmal anzutreffende temporäre Abdeckung von Äckern bzw. Ackerstreifen mittels schwarzen und weißen Folien soll als 'offener Boden' klassifiziert werden."
+      },
+      {
+        "@language": "en",
+        "@value": "identical to EAGLE class: 1223_BareSoils"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lc"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_2_NonBuiltUp"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Nicht vegetationsbedeckter, offener Boden."
+      },
+      {
+        "@language": "en",
+        "@value": "Mixture of mineral and organic material that is capable of sustaining plant life, but being unvegetated at the moment of observation (primarily bare arable land)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1_2_3_PermanentBareSoil"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "permanent bare soil"
+      },
+      {
+        "@language": "de",
+        "@value": "offener Boden (dauerhaft)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_9_2_MixedTrees",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lc"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_9_Trees"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2_4_9_2_MixedTrees"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "mixed trees"
+      },
+      {
+        "@language": "de",
+        "@value": "Mischung Laub/Nadel"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -1339,6 +1953,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -1349,79 +1964,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_12_1_HerbaceousPermanent",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "de",
-        "@value": "Flächen, die Größtenteils als Grünland genutzt werden."
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lc"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_12_Herbaceous"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "herbeceous vegetation that is permanently covered with vegetation throughout a year"
-      },
-      {
-        "@language": "de",
-        "@value": "Flächen, die über ein ganzes Jahr hinweg durch Grünbewuchs bedeckt sind und keine unterjährliche Bodenbearbeitung auzfweisen."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2_5_12_1_HerbaceousPermanent"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "herbaceous permanent"
-      },
-      {
-        "@language": "de",
-        "@value": "Grünbewuchs dauerhaft"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_7_SnowIce",
+    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_Water",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -1442,13 +1985,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_Water"
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_Abiotic"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "Snow and Ice (solid aggregated water)"
+        "@value": "The chemical substance of water (H2O), either in liquid or in frozen solid state of aggregation."
+      },
+      {
+        "@language": "de",
+        "@value": "Die Landbedeckung Wasser wird nach ihren Aggregatzuständen unterschieden."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1457,550 +2004,31 @@
       }
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_7_2_Ice"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_7_1_Snow"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1_3_7_SnowIce"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "snow/ice"
-      },
-      {
-        "@language": "de",
-        "@value": "Schnee und Eis"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_13_Reeds",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "de",
-        "@value": "identisch mit EAGLE-Klasse: 2212_Reeds, Bamboos and Canes"
-      },
-      {
-        "@language": "en",
-        "@value": "identical to EAGLE class: 2212_Reeds, Bamboos and Canes"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lc"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_Herbaceous"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Schilf kommt in größerem Ausmaß z.B. im Schilfgürtel des Neusiedler Sees vor und ist spektral eindeutig von anderen Klassen zu unterscheiden. Kleinsträumig ist Schilf mit Wasserflächen assoziiert (MVU = 500 m²)"
-      },
-      {
-        "@language": "en",
-        "@value": "Reed is a common name for several tall, grass-like plants of wetlands. They are all members of the order Poales (in the modern, expanded circumscription) (© wikipedia)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2_5_13_Reeds"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Schilf"
-      },
-      {
-        "@language": "en",
-        "@value": "reeds"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_1_1_Building",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "de",
-        "@value": "identisch mit EAGLE-Klasse: 1111_Buildings - Diese Klasse beinhaltet Gebäude und Gebäudekomplexe. Gebäude sind aus Sicht der Raumplanung ab einer Größe von 50 m² zu erfassen, da diese Größe die minimale Fläche eines Gebäudes ist, welches als Hauptgebäude (ganzjährige Wohnung und/oder betriebliche Arbeitsstätte) geeignet ist. Die minimale Höhe eines Gebäudes wird nicht definiert. - Im Bau befindliche Gebäude, bei welchen die Dachkonstruktion noch nicht abgeschlossen ist, werden als 'sonstige befestigte Flächen' klassifiziert."
-      },
-      {
-        "@language": "en",
-        "@value": "identical to EAGLE class: 1111_Buildings"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lc"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_1_BuiltUp"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Überdachte, auf Dauer errichtete Bauwerke, die geeignet oder bestimmt sind, dem Schutz oder der Unterbringung von Menschen, Tieren oder Sachen zu dienen."
-      },
-      {
-        "@language": "en",
-        "@value": "Roof-covered constructions like single buildings or block of buildings with a significant height difference from the surrounding surface"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1_1_1_Building"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Gebäude"
-      },
-      {
-        "@language": "en",
-        "@value": "building"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_1_2_OtherConstructedArea",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "de",
-        "@value": "identisch mit EAGLE-Klasse: 1112_OtherConstructions - Beinhaltet befestigte Straßen, Gehsteige, Parkplätze und sonstige befestigte Flächen, wie z.B. Tennisplätze, Sportlaufbahnen etc. Auch befestigte Baunebenflächen und Manipulationsflächen in Gewerbe- und Industrie fallen darunter. Ebenso in diese Kategorie fallen die dauerhaft angelegten landwirtschaftlichen Güterwege und Zu- und Abfahrten zu Industrie- und Gewerbegebieten sowie Lagerplätzen. - Plätze in Anlagen mit permanenter Nutzung sind in der Regel als befestigt anzusehen (Kompostanlagen, Industrielager, LKW-Abstellplätze etc.). Vorübergehend zur Lagerung benutzte Flächen sind in der Regel nicht durch Aufbringung von Fremdmaterial charakterisiert, aber die menschliche Intention ist klar erkennbar, der Oberboden angeschoben und das Erdreich verdichtet (Holzlager, Materialdepots von Baustellen etc.). - Abgrenzung: Bei der Klasse Schotter/Sand handelt es sich hingegen um natürliche Prozesse."
-      },
-      {
-        "@language": "en",
-        "@value": "identical to EAGLE class: 1112_OtherConstructions - Includes: e.g. asphalt, concrete, pave dings like on roads, parking lots, squares, storages areas, airport run ways, quays, sealed bottom pools, unvegetated cemeteries. - Excludes: gravel bed of railway track. It is an artificial surface but not impervious, better to be placed under Gravel, Pebble"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lc"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_1_BuiltUp"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Künstlich angelegte, ganz oder teilweise versiegelte Flächen, insbesondere asphaltierte, betonierte, bekieste, geschotterte, gemergelte sowie mit Steinen oder Platten belegte Böden (© Schweizer Arealstatistik)."
-      },
-      {
-        "@language": "en",
-        "@value": "Flat surfaces covered by any type of impervious material which that is used for artificial surface pavements (e.g. asphalt, concrete, tarmacadam)."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1_1_2_OtherConstructedArea"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "sonstige befestigte Fläche"
-      },
-      {
-        "@language": "en",
-        "@value": "other constructed area"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_7_1_Snow",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "de",
-        "@value": "identisch mit EAGLE-Klasse: 321_Snow - Zeitliche Dynamik: Die Schneebedeckung ist zeitlich variable (Wochen, Monats-, Jahresdynamik). Dies ist bei der Etablierung eines Monitoringsystemes zu berücksichtigen, da keine echten Landbedeckungsänderungen unterhalb der Schneedecke feststellbar sind, dürfen die vom Schnee bedeckten Flächen auch nicht in Änderungsstatistiken übernommen werden. Wie bei großflächig beschatteten Bereichen sind auch bei Schneeflächen auf die Befüllung durch Ersatzdaten (Übernahme alter Daten bzw. Heranziehen weiterer Satellitenbildaufnahmen) besonders zu achten."
-      },
-      {
-        "@language": "en",
-        "@value": "identical to EAGLE class: 321_Snow"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lc"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
       {
         "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_7_SnowIce"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Permanent snow in alpine areas. Temporary snow coverage must not be mapped."
       },
       {
-        "@language": "de",
-        "@value": "Die Schneebedeckung ist naturgemäß in erster Linie vom Zeitpunkt der Aufnahme mittels Fernerkundungsdaten abhängig. Jedoch stellt sie sowohl in Luft- als auch in Satellitenbildern eine relativ einfach zu differenzierende Landbedeckungsklasse dar. Schnee überdeckt eine andere Landbedeckungsklasse, die aber zum Zeitpunkt der Aufnahme eben nicht feststellbar ist, sofern keine Information aus einer Vorperiode zur Verfügung steht. Vielfach befinden sich auch Eisflächen (Gletscher) unter dem Schnee."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
+        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_6_SurfaceWater"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "1_3_7_1_Snow"
+        "@value": "1_3_Water"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "snow"
+        "@value": "water"
       },
       {
         "@language": "de",
-        "@value": "Schnee"
+        "@value": "Wasser"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_2_4_Screes",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "de",
-        "@value": "identisch mit EAGLE-Klasse: 1221_MineralFragments - Die Abgrenzung zu den 'sonstigen befestigten Flächen': frisch ausgehobenes Material oder temporär zwischengelagertes Material wird als Schutt/Sand bezeichnet. Wichtiges Unterscheidungskriterium zu 'sonstige befestigte Flächen' ist auch, ob der Oberboden eindeutig erkennbar durch menschliche Tätigkeiten abgeschoben (durch z.B. Bagger) und das darunterliegende Material verfestigt wurde (sonstige befestigte Flächen, z.B. Lager- und Umschlagplätze) bzw. die Flächen mit Fremdmaterial befestigt wurden (sonstige befestigte Flächen)."
-      },
-      {
         "@language": "en",
-        "@value": "identical to EAGLE class: 1221_MineralFragments"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lc"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_2_NonBuiltUp"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Screes come to be through physical disintegration of geological formations and are the result of becoming smaller and smaller along time. They are accumulated on site due to sedimentary processes or human activity. Further subdivision is made according to their particle size and constellation."
-      },
-      {
-        "@language": "de",
-        "@value": "Schutt und Sand: Lockersedimente wie Schuttfluren, Geröllfelder, Schotterflächen und sandige Bereiche bis hin zu Geröll (bis ca. max. 2 m Durchmesser) ohne erkennbare Beimischung von Humus. Der Vegetationsanteil beträgt maximal 10%."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "1_2_4_Screes"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "screes"
-      },
-      {
-        "@language": "de",
-        "@value": "Schotter"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_Biotic",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Includes: - Any vegetated land surface, either naturally grown, semi-natural or artificially planted vegetation (e.g. crops, urban parks), with or without anthropogenic influence."
-      },
-      {
-        "@language": "de",
-        "@value": "Vegetationsbedeckte Flächen weisen eine bestimmte Dichte der Biomasse zum Zeitpunkt der Aufnahme auf. Diese Vegetationsdichte kann durch entsprechende Parameter wie z.B. dem NDVI aus Fernerkundungsdaten ermittelt werden. Für deren Ermittlung ist die Verfügbarkeit von spektraler Information aus dem nahen Infrarot Bereich erforderlich (IR-Luftbilder oder Satellitenbilder). - Der Vegetationsindex ist je nach Phänologie saisonalen und jährlichen Änderungen unterworfen. Trotz dieser Änderungen ist der Vegetationsindex ein wichtiges Attribut und wird zur Differenzierung sowie räumlichen Trennung dieser Klassen herangezogen werden."
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lc"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Biotic surfaces have to be differentiated according to their attributes (e.g. coniferous percentage, biomass density, wetness, etc.)"
-      },
-      {
-        "@language": "de",
-        "@value": "Flächen mit einer Vegetationsbedeckung (biotisch)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_Woody"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_Herbaceous"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2_Biotic"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "biotic"
-      },
-      {
-        "@language": "de",
-        "@value": "vegetationsbedeckt"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_9_3_ConiferousTrees",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lcn"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lc"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "http://www.landinformationsystem.at/en-us/lisa/overview.aspx"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_9_Trees"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/LISALandCoverClassValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "2_4_9_3_ConiferousTrees"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Nadelbäume"
-      },
-      {
-        "@language": "en",
-        "@value": "coniferous trees"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
         "@value": "INSPIRE governance level: national-technical"
       }
     ],

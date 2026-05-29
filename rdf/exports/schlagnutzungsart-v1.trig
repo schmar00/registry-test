@@ -12,7 +12,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "0" ;
         skos:prefLabel "NICHT DEFINIERT"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -23,7 +23,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "101" ;
         skos:prefLabel "HARTWEIZEN (DURUM)"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -34,7 +34,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "105" ;
         skos:prefLabel "KOERNERMAIS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -45,7 +45,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "106" ;
         skos:prefLabel "MAIS CORN-COB-MIX (CCM)"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -56,7 +56,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "107" ;
         skos:prefLabel "ZUCKERMAIS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -67,7 +67,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "109" ;
         skos:prefLabel "SILOMAIS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -78,7 +78,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "110" ;
         skos:prefLabel "WINTERGERSTE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -89,7 +89,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "111" ;
         skos:prefLabel "SOMMERGERSTE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -100,7 +100,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "112" ;
         skos:prefLabel "WINTERHAFER"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -111,7 +111,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "113" ;
         skos:prefLabel "WINTERMENGGETREIDE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -122,7 +122,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "114" ;
         skos:prefLabel "SOMMERMENGGETREIDE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -133,7 +133,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "115" ;
         skos:prefLabel "ERBSEN - GETREIDE GEMENGE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -144,7 +144,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "116" ;
         skos:prefLabel "WINTERTRITICALE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -155,7 +155,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "117" ;
         skos:prefLabel "SORGHUM"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -166,7 +166,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "118" ;
         skos:prefLabel "HIRSE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -177,7 +177,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "119" ;
         skos:prefLabel "BUCHWEIZEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -188,7 +188,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "120" ;
         skos:prefLabel "KANARIENSAAT"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -199,7 +199,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "125" ;
         skos:prefLabel "WINTERGERSTE / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -210,7 +210,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "126" ;
         skos:prefLabel "SOMMERGERSTE / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -221,7 +221,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "127" ;
         skos:prefLabel "WINTERMENGGETREIDE / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -232,7 +232,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "128" ;
         skos:prefLabel "SOMMERMENGGETREIDE / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -243,7 +243,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "129" ;
         skos:prefLabel "ERBSEN - GETREIDE GEMENGE / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -254,7 +254,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "130" ;
         skos:prefLabel "WINTERTRITICALE / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -265,7 +265,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "131" ;
         skos:prefLabel "MAIS CORN-COB-MIX (CCM) / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -276,7 +276,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "132" ;
         skos:prefLabel "HIRSE / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -287,7 +287,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "133" ;
         skos:prefLabel "WINTERHAFER / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -298,7 +298,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "134" ;
         skos:prefLabel "ZUCKERMAIS / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -309,7 +309,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "135" ;
         skos:prefLabel "GRUENMAIS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -320,7 +320,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "137" ;
         skos:prefLabel "SOMMERWEICHWEIZEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -331,7 +331,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "138" ;
         skos:prefLabel "WINTERWEICHWEIZEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -342,7 +342,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "139" ;
         skos:prefLabel "SOMMERWEICHWEIZEN / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -353,7 +353,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "140" ;
         skos:prefLabel "WINTERWEICHWEIZEN / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -364,7 +364,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "141" ;
         skos:prefLabel "SOMMERROGGEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -375,7 +375,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "142" ;
         skos:prefLabel "WINTERROGGEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -386,7 +386,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "143" ;
         skos:prefLabel "SOMMERROGGEN / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -397,7 +397,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "144" ;
         skos:prefLabel "WINTERROGGEN / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -408,7 +408,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "145" ;
         skos:prefLabel "WINTERDINKEL (SPELZ)"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -419,7 +419,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "146" ;
         skos:prefLabel "SOMMERDINKEL (SPELZ)"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -430,7 +430,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "147" ;
         skos:prefLabel "SOMMERDINKEL (SPELZ) / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -441,7 +441,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "148" ;
         skos:prefLabel "WINTERDINKEL (SPELZ) / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -452,7 +452,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "149" ;
         skos:prefLabel "EMMER ODER EINKORN (SOMMERUNG)"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -463,7 +463,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "150" ;
         skos:prefLabel "EMMER ODER EINKORN (WINTERUNG)"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -474,7 +474,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "151" ;
         skos:prefLabel "EMMER ODER EINKORN (SOMMERUNG) / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -485,7 +485,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "152" ;
         skos:prefLabel "EMMER ODER EINKORN (WINTERUNG) / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -496,7 +496,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "153" ;
         skos:prefLabel "WINTERGERSTE / BUCHWEIZEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -507,7 +507,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "154" ;
         skos:prefLabel "SUDANGRAS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -518,7 +518,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "155" ;
         skos:prefLabel "SOMMERHAFER"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -529,7 +529,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "156" ;
         skos:prefLabel "SOMMERHAFER / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -540,7 +540,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "157" ;
         skos:prefLabel "SOMMERTRITICALE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -551,7 +551,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "158" ;
         skos:prefLabel "SOMMERTRITICALE / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -562,7 +562,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "159" ;
         skos:prefLabel "FRUEHKARTOFFELN / MAIS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -573,7 +573,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "160" ;
         skos:prefLabel "WINTERWEICHWEIZEN / BUCHWEIZEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -584,7 +584,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "161" ;
         skos:prefLabel "SOMMERGERSTE / BUCHWEIZEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -595,7 +595,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "162" ;
         skos:prefLabel "WINTERTRITICALE / FUTTERRUEBE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -606,7 +606,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "163" ;
         skos:prefLabel "SOMMERHAFER / FUTTERRUEBE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -617,7 +617,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "164" ;
         skos:prefLabel "ERBSEN - GETREIDE GEMENGE / BUCHWEIZEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -628,7 +628,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "165" ;
         skos:prefLabel "WINTERHARTWEIZEN (DURUM)"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -639,7 +639,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "166" ;
         skos:prefLabel "SOMMERHARTWEIZEN (DURUM)"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -650,7 +650,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "167" ;
         skos:prefLabel "WINTERHARTWEIZEN (DURUM) / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -661,7 +661,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "168" ;
         skos:prefLabel "SOMMERHARTWEIZEN (DURUM) / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -672,7 +672,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "169" ;
         skos:prefLabel "WINTERHARTWEIZEN (DURUM) / BUCHWEIZEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -683,7 +683,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "170" ;
         skos:prefLabel "SOMMERHARTWEIZEN (DURUM) / BUCHWEIZEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -694,7 +694,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "171" ;
         skos:prefLabel "WINTERTRITICALE / HIRSE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -705,7 +705,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "172" ;
         skos:prefLabel "MAIS / KAEFERBOHNEN IN GETRENNTEN REIHEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -716,7 +716,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "173" ;
         skos:prefLabel "SAATMAISVERMEHRUNG"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -727,7 +727,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "174" ;
         skos:prefLabel "WINTERGERSTE/SILOMAIS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -738,7 +738,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "175" ;
         skos:prefLabel "WINTERGERSTE/KOERNERMAIS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -749,7 +749,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "176" ;
         skos:prefLabel "WINTERGERSTE/KLEEGRAS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -760,7 +760,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "177" ;
         skos:prefLabel "WINTERGERSTE/FUTTERGRAESER"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -771,7 +771,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "178" ;
         skos:prefLabel "WINTERGERSTE/KLEE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -782,7 +782,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "179" ;
         skos:prefLabel "REIS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -793,7 +793,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "180" ;
         skos:prefLabel "KRESSE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -804,7 +804,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "181" ;
         skos:prefLabel "SOMMERGERSTE (HERBSTANBAU)"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -815,7 +815,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "182" ;
         skos:prefLabel "SOMMERGERSTE (HERBSTANBAU) / FELDGEMÜSE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -826,7 +826,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "183" ;
         skos:prefLabel "SOMMERGERSTE (HERBSTANBAU) / BUCHWEIZEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -837,7 +837,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "184" ;
         skos:prefLabel "KLEEGRAS / SILOMAIS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -848,7 +848,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "185" ;
         skos:prefLabel "SOMMERHAFER / KLEEGRAS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -859,7 +859,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "201" ;
         skos:prefLabel "KOERNERERBSEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -870,7 +870,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "202" ;
         skos:prefLabel "ACKERBOHNEN (PUFFBOHNEN)"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -881,7 +881,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "203" ;
         skos:prefLabel "SUESSLUPINEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -892,7 +892,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "204" ;
         skos:prefLabel "KOERNERERBSEN / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -904,7 +904,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "205" ;
         skos:prefLabel "ACKERBOHNEN (PUFFBOHNEN) / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -915,7 +915,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "206" ;
         skos:prefLabel "ACKERBOHNEN - GETREIDE GEMENGE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -926,7 +926,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "207" ;
         skos:prefLabel "BITTERLUPINEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -937,7 +937,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "208" ;
         skos:prefLabel "ACKERBOHNEN / ERBSENGEMENGE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -948,7 +948,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "209" ;
         skos:prefLabel "ESPARSETTE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -959,7 +959,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "210" ;
         skos:prefLabel "PELUSCHKE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -970,7 +970,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "211" ;
         skos:prefLabel "WINTERACKERBOHNEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -981,7 +981,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "212" ;
         skos:prefLabel "SOMMERACKERBOHNEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -992,7 +992,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "213" ;
         skos:prefLabel "WINTERKÖRNERERBSEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1003,7 +1003,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "214" ;
         skos:prefLabel "SOMMERKÖRNERERBSEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1014,7 +1014,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "289" ;
         skos:prefLabel "VAR KB"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1025,7 +1025,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "301" ;
         skos:prefLabel "WINTERRAPS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1036,7 +1036,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "302" ;
         skos:prefLabel "SOMMERRAPS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1047,7 +1047,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "303" ;
         skos:prefLabel "WINTERRUEBSEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1058,7 +1058,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "304" ;
         skos:prefLabel "SOMMERRUEBSEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1069,7 +1069,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "307" ;
         skos:prefLabel "SONNENBLUMEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1080,7 +1080,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "308" ;
         skos:prefLabel "SOJABOHNEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1091,7 +1091,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "309" ;
         skos:prefLabel "SOJABOHNEN / SOMMERWICKEN IN GETRENNTEN REIHEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1102,7 +1102,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "310" ;
         skos:prefLabel "OELLEIN (NICHT ZUR FASERGEWINNUNG)"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1113,7 +1113,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "311" ;
         skos:prefLabel "OELLEIN (NICHT ZUR FASERGEWINNUNG) / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1124,7 +1124,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "350" ;
         skos:prefLabel "LSE FELDGEHOELZ / BAUM- / GEBUESCHGRUPPE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1135,7 +1135,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "351" ;
         skos:prefLabel "LSE HECKE / UFERGEHOELZ"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1146,7 +1146,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "352" ;
         skos:prefLabel "GLOEZ GRABEN / UFERRANDSTREIFEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1157,7 +1157,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "353" ;
         skos:prefLabel "LSE RAIN / BOESCHUNG / TROCKENSTEINMAUER"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1168,7 +1168,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "354" ;
         skos:prefLabel "GLOEZ STEINRIEGEL / STEINHAGE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1179,7 +1179,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "355" ;
         skos:prefLabel "GLOEZ TEICH / TUEMPEL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1190,7 +1190,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "356" ;
         skos:prefLabel "LSE BAEUME / BUESCHE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1201,7 +1201,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "357" ;
         skos:prefLabel "GLOEZ NATURDENKMAL PUNKT"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1212,7 +1212,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "358" ;
         skos:prefLabel "GLOEZ NATURDENKMAL FLAECHE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1223,7 +1223,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "359" ;
         skos:prefLabel "GLÖZ FELDGEHÖLZ / BAUM- / GEBÜSCHGRUPPE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1234,7 +1234,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "360" ;
         skos:prefLabel "GLÖZ HECKE / UFERGEHÖLZ"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1245,7 +1245,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "361" ;
         skos:prefLabel "GLÖZ RAIN / BÖSCHUNG / TROCKENSTEINMAUER"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1256,7 +1256,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "362" ;
         skos:prefLabel "GLÖZ GRABEN / UFERRANDSTREIFEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1267,7 +1267,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "363" ;
         skos:prefLabel "GLÖZ NATURDENKMAL FLÄCHE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1278,7 +1278,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "364" ;
         skos:prefLabel "GLÖZ STEINRIEGEL / STEINHAGE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1289,7 +1289,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "365" ;
         skos:prefLabel "GLÖZ TEICH / TÜMPEL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1300,7 +1300,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "366" ;
         skos:prefLabel "LSE MEHRNUTZENHECKE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1311,7 +1311,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "387" ;
         skos:prefLabel "VARIANTE 1 NPF"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1322,7 +1322,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "388" ;
         skos:prefLabel "VARIANTE 2 NPF"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1333,7 +1333,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "389" ;
         skos:prefLabel "VARIANTE 3 NPF"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1344,7 +1344,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "390" ;
         skos:prefLabel "VARIANTE 4 NPF"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1355,7 +1355,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "391" ;
         skos:prefLabel "VARIANTE 5 NPF"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1366,7 +1366,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "392" ;
         skos:prefLabel "VARIANTE 6 NPF"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1377,7 +1377,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "393" ;
         skos:prefLabel "VARIANTE 1"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1388,7 +1388,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "394" ;
         skos:prefLabel "VARIANTE 2"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1399,7 +1399,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "395" ;
         skos:prefLabel "VARIANTE 3"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1410,7 +1410,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "396" ;
         skos:prefLabel "VARIANTE 4"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1421,7 +1421,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "397" ;
         skos:prefLabel "VARIANTE 5"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1432,7 +1432,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "398" ;
         skos:prefLabel "VARIANTE 6"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1443,7 +1443,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "399" ;
         skos:prefLabel "VARIANTE 7"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1454,7 +1454,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "403" ;
         skos:prefLabel "VARIANTE 3 - OEPUL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1465,7 +1465,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "404" ;
         skos:prefLabel "VARIANTE 4 - OEPUL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1476,7 +1476,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "405" ;
         skos:prefLabel "VARIANTE 5 - OEPUL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1487,7 +1487,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "406" ;
         skos:prefLabel "VARIANTE 6 - OEPUL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1498,7 +1498,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "407" ;
         skos:prefLabel "VARIANTE 4 MIT MZ - OEPUL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1509,7 +1509,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "408" ;
         skos:prefLabel "VARIANTE 5 MIT MZ - OEPUL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1520,7 +1520,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "409" ;
         skos:prefLabel "VARIANTE 6 MIT MZ - OEPUL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1531,7 +1531,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "413" ;
         skos:prefLabel "VARIANTE 4 - GREENING (AB 2018 OVFPV)"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1542,7 +1542,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "421" ;
         skos:prefLabel "VARIANTE 5 MIT MZ - GREENING (AB 2018 OVFPV) + ÖPUL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1553,7 +1553,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "425" ;
         skos:prefLabel "SL: TRITICALE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1564,7 +1564,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "426" ;
         skos:prefLabel "SL: SOJABOHNEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1575,7 +1575,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "430" ;
         skos:prefLabel "SL: SENF"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1586,7 +1586,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "434" ;
         skos:prefLabel "SL: MARIENDISTELN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1597,7 +1597,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "436" ;
         skos:prefLabel "SL: TIMOTHE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1608,7 +1608,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "437" ;
         skos:prefLabel "SL: SONSTIGES"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1619,7 +1619,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "442" ;
         skos:prefLabel "SL: BIOGAS - MAIS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1630,7 +1630,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "447" ;
         skos:prefLabel "SL: VERFEUERUNG GERSTE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1641,7 +1641,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "452" ;
         skos:prefLabel "SL: WINTERRAPS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1652,7 +1652,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "453" ;
         skos:prefLabel "SLG: GRUENBRACHE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1663,7 +1663,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "454" ;
         skos:prefLabel "SL: VERFEUERUNG TRITICALE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1674,7 +1674,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "456" ;
         skos:prefLabel "SL: BIOGAS GRAESER"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1685,7 +1685,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "457" ;
         skos:prefLabel "SL: BIOGAS KLEEGRAS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1696,7 +1696,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "458" ;
         skos:prefLabel "SL: BIOGAS SONNENBLUMEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1707,7 +1707,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "460" ;
         skos:prefLabel "SLE: GRUENBRACHE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1718,7 +1718,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "461" ;
         skos:prefLabel "SLB: GRUENBRACHE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1729,7 +1729,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "462" ;
         skos:prefLabel "SLU: GRUENBRACHE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1740,7 +1740,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "464" ;
         skos:prefLabel "SL: CCM"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1751,7 +1751,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "465" ;
         skos:prefLabel "SL: SILOMAIS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1762,7 +1762,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "466" ;
         skos:prefLabel "SL: GRAESER"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1773,7 +1773,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "467" ;
         skos:prefLabel "SL: KLEEGRAS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1784,7 +1784,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "468" ;
         skos:prefLabel "SL: SOMMERGERSTE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1795,7 +1795,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "469" ;
         skos:prefLabel "SL: WINTERGERSTE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1806,7 +1806,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "470" ;
         skos:prefLabel "SL: SOMMERHAFER"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1817,7 +1817,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "472" ;
         skos:prefLabel "SL: SOMMERROGGEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1828,7 +1828,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "473" ;
         skos:prefLabel "SL: WINTERROGGEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1839,7 +1839,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "474" ;
         skos:prefLabel "SL: SOMMERWEICHWEIZEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1850,7 +1850,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "475" ;
         skos:prefLabel "SL: WINTERWEICHWEIZEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1861,7 +1861,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "477" ;
         skos:prefLabel "SL: SOMMERTRITICALE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1872,7 +1872,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "478" ;
         skos:prefLabel "SL: WINTERTRITICALE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1883,7 +1883,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "479" ;
         skos:prefLabel "SL: SOMMERMENGGETREIDE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1894,7 +1894,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "480" ;
         skos:prefLabel "SL: WINTERMENGGETREIDE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1905,7 +1905,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "482" ;
         skos:prefLabel "SL: LUZERNE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1916,7 +1916,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "484" ;
         skos:prefLabel "SL: GRUENBRACHE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1927,7 +1927,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "485" ;
         skos:prefLabel "SL: SOMMERRAPS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1938,7 +1938,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "486" ;
         skos:prefLabel "SL: SONNENBLUMEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1949,7 +1949,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "487" ;
         skos:prefLabel "SL: ENERGIEHOLZ"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1960,7 +1960,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "488" ;
         skos:prefLabel "SL: ELEFANTENGRAS (CHINASCHILF, MISCANTHUS SINENSIS)"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1971,7 +1971,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "491" ;
         skos:prefLabel "SL: WEICHWEIZEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1982,7 +1982,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "493" ;
         skos:prefLabel "SL: GERSTE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -1993,7 +1993,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "494" ;
         skos:prefLabel "SL: HAFER"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2004,7 +2004,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "495" ;
         skos:prefLabel "SL: KOERNERMAIS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2015,7 +2015,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "503" ;
         skos:prefLabel "MOHN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2026,7 +2026,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "504" ;
         skos:prefLabel "KUEMMEL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2037,7 +2037,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "506" ;
         skos:prefLabel "SENF"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2048,7 +2048,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "507" ;
         skos:prefLabel "HEIL- UND GEWUERZPFLANZEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2059,7 +2059,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "508" ;
         skos:prefLabel "GEWUERZPFLANZEN (PETERSILIE, SCHNITTLAUCH)"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2070,7 +2070,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "509" ;
         skos:prefLabel "SOMMERMOHN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2081,7 +2081,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "510" ;
         skos:prefLabel "WINTERMOHN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2092,7 +2092,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "513" ;
         skos:prefLabel "FRUEHKARTOFFELN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2103,7 +2103,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "519" ;
         skos:prefLabel "STAERKEINDUSTRIEKARTOFFELN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2114,7 +2114,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "520" ;
         skos:prefLabel "FRUEHKARTOFFELN / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2125,7 +2125,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "524" ;
         skos:prefLabel "SPEISEKARTOFFELN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2136,7 +2136,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "525" ;
         skos:prefLabel "SPEISEINDUSTRIEKARTOFFELN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2147,7 +2147,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "526" ;
         skos:prefLabel "SPEISEKARTOFFELN / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2158,7 +2158,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "527" ;
         skos:prefLabel "SAATKARTOFFELN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2169,7 +2169,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "528" ;
         skos:prefLabel "FUTTERKARTOFFELN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2180,7 +2180,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "529" ;
         skos:prefLabel "FRUEHKARTOFFELN / BUCHWEIZEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2191,7 +2191,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "535" ;
         skos:prefLabel "SOMMERKUEMMEL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2202,7 +2202,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "536" ;
         skos:prefLabel "WINTERKUEMMEL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2213,7 +2213,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "537" ;
         skos:prefLabel "JOHANNISKRAUT"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2224,7 +2224,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "538" ;
         skos:prefLabel "HEILPFLANZEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2235,7 +2235,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "539" ;
         skos:prefLabel "GEWUERZPFLANZEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2246,7 +2246,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "540" ;
         skos:prefLabel "GEWUERZFENCHEL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2257,7 +2257,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "551" ;
         skos:prefLabel "SG: DINKEL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2268,7 +2268,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "553" ;
         skos:prefLabel "SG: OELLEIN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2279,7 +2279,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "558" ;
         skos:prefLabel "SG: FRANZ. RAYGRAS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2290,7 +2290,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "559" ;
         skos:prefLabel "SG: KNAULGRAS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2301,7 +2301,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "562" ;
         skos:prefLabel "SG: WIESENSCHWINGEL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2312,7 +2312,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "569" ;
         skos:prefLabel "SG: BASTARDRAYGRAS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2323,7 +2323,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "571" ;
         skos:prefLabel "SG: TIMOTHEGRAS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2334,7 +2334,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "573" ;
         skos:prefLabel "SG: WIESENRISPENGRAS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2345,7 +2345,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "582" ;
         skos:prefLabel "SG: ROTKLEE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2356,7 +2356,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "588" ;
         skos:prefLabel "SG: HANF"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2367,7 +2367,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "589" ;
         skos:prefLabel "SG: ERBSE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2378,7 +2378,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "590" ;
         skos:prefLabel "SG: ACKERBOHNE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2389,7 +2389,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "621" ;
         skos:prefLabel "WICKEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2400,7 +2400,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "622" ;
         skos:prefLabel "LINSEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2411,7 +2411,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "623" ;
         skos:prefLabel "KICHERERBSEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2422,7 +2422,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "624" ;
         skos:prefLabel "SOMMERWICKEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2433,7 +2433,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "625" ;
         skos:prefLabel "WINTERWICKEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2444,7 +2444,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "626" ;
         skos:prefLabel "PLATTERBSEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2455,7 +2455,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "627" ;
         skos:prefLabel "SOMMERLINSEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2466,7 +2466,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "628" ;
         skos:prefLabel "WINTERLINSEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2477,7 +2477,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "631" ;
         skos:prefLabel "FUTTERRUEBEN (RUNKELRUEBEN, BURGUND KOHLRUEBEN)"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2488,7 +2488,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "633" ;
         skos:prefLabel "KLEE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2499,7 +2499,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "634" ;
         skos:prefLabel "KLEEGRAS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2510,7 +2510,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "635" ;
         skos:prefLabel "LUZERNE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2521,7 +2521,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "636" ;
         skos:prefLabel "WECHSELWIESE (EGART, ACKERWEIDE)"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2532,7 +2532,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "637" ;
         skos:prefLabel "FUTTERGRAESER"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2543,7 +2543,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "638" ;
         skos:prefLabel "WICKEN - GETREIDE GEMENGE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2554,7 +2554,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "641" ;
         skos:prefLabel "ENERGIEGRAS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2565,7 +2565,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "642" ;
         skos:prefLabel "ACKERWEIDE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2576,7 +2576,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "651" ;
         skos:prefLabel "ZUCKERRUEBEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2587,7 +2587,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "653" ;
         skos:prefLabel "FELDGEMUESE OHNE ERNTE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2598,7 +2598,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "654" ;
         skos:prefLabel "BLUMEN UND ZIERPFLANZEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2609,7 +2609,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "657" ;
         skos:prefLabel "FLACHS (FASERLEIN) ZUR FASERERZEUGUNG"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2620,7 +2620,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "658" ;
         skos:prefLabel "HANF"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2631,7 +2631,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "659" ;
         skos:prefLabel "REBSCHULEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2642,7 +2642,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "660" ;
         skos:prefLabel "EINJAEHRIGE BAUMSCHULEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2653,7 +2653,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "661" ;
         skos:prefLabel "SONSTIGE ACKERFLAECHEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2664,7 +2664,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "663" ;
         skos:prefLabel "FUTTERGRAESER / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2675,7 +2675,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "664" ;
         skos:prefLabel "KLEE / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2686,7 +2686,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "665" ;
         skos:prefLabel "KLEEGRAS / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2697,7 +2697,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "671" ;
         skos:prefLabel "SONSTIGE ACKERKULTUREN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2708,7 +2708,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "672" ;
         skos:prefLabel "LANDSCHAFTSELEMENT A"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2719,7 +2719,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "673" ;
         skos:prefLabel "MEHRJAEHRIGE BAUMSCHULEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2730,7 +2730,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "674" ;
         skos:prefLabel "FELDGEMUESE FRISCHMARKT 1 ERNTE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2741,7 +2741,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "675" ;
         skos:prefLabel "FELDGEMUESE FRISCHMARKT 2 ODER MEHR ERNTEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2752,7 +2752,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "676" ;
         skos:prefLabel "FELDGEMUESE EINLEGEGURKEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2763,7 +2763,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "677" ;
         skos:prefLabel "FELDGEMUESE VERARBEITUNG 1 ERNTE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2774,7 +2774,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "678" ;
         skos:prefLabel "BEERENOBST"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2785,7 +2785,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "679" ;
         skos:prefLabel "SONSTIGES FELDFUTTER"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2796,7 +2796,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "680" ;
         skos:prefLabel "MARIENDISTELN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2807,7 +2807,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "681" ;
         skos:prefLabel "GRUENSCHNITTROGGEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2818,7 +2818,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "682" ;
         skos:prefLabel "PHACELIA"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2829,7 +2829,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "683" ;
         skos:prefLabel "FELDGEMUESE VERARBEITUNG 2 ODER MEHR ERNTEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2840,7 +2840,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "684" ;
         skos:prefLabel "GLOEZ A"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2851,7 +2851,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "685" ;
         skos:prefLabel "ENERGIEHOLZ A"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2862,7 +2862,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "686" ;
         skos:prefLabel "ELEFANTENGRAS (CHINASCHILF, MISCANTHUS SINENSIS)"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2873,7 +2873,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "687" ;
         skos:prefLabel "BLUEHFLAECHE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2884,7 +2884,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "688" ;
         skos:prefLabel "BODENGESUNDUNG ACKER"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2895,7 +2895,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "689" ;
         skos:prefLabel "LEINDOTTER"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2906,7 +2906,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "690" ;
         skos:prefLabel "OELRETTICH"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2917,7 +2917,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "691" ;
         skos:prefLabel "RUEBENVERMEHRUNG"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2928,7 +2928,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "692" ;
         skos:prefLabel "FELDGEMUESE EINKULTURIG 1 ERNTE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2939,7 +2939,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "693" ;
         skos:prefLabel "FELDGEMUESE EINKULTURIG 2 ODER MEHR ERNTEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2950,7 +2950,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "694" ;
         skos:prefLabel "FELDGEMUESE MEHRKULTURIG"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2961,7 +2961,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "695" ;
         skos:prefLabel "FELDGEMUESE VERARBEITUNG"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2972,7 +2972,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "696" ;
         skos:prefLabel "FELDGEMUESE EINKULTURIG"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2983,7 +2983,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "697" ;
         skos:prefLabel "FELDGEMUESE VERARBEITUNG EINKULTURIG"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -2994,7 +2994,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "698" ;
         skos:prefLabel "FELDGEMUESE VERARBEITUNG MEHRKULTURIG"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3005,7 +3005,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "699" ;
         skos:prefLabel "FELDGEMUESE FRISCHMARKT UND VERARBEITUNG MEHRKULTURIG"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3016,7 +3016,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "701" ;
         skos:prefLabel "EINMAEHDIGE WIESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3027,7 +3027,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "702" ;
         skos:prefLabel "MEHRMAEHDIGE WIESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3038,7 +3038,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "703" ;
         skos:prefLabel "KULTURWEIDE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3049,7 +3049,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "704" ;
         skos:prefLabel "STREUWIESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3060,7 +3060,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "705" ;
         skos:prefLabel "EINMAEHDIGE STREUOBSTWIESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3071,7 +3071,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "706" ;
         skos:prefLabel "MEHRMAEHDIGE STREUOBSTWIESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3082,7 +3082,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "707" ;
         skos:prefLabel "HUTWEIDE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3093,7 +3093,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "708" ;
         skos:prefLabel "BERGMAEHDER"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3104,7 +3104,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "710" ;
         skos:prefLabel "SONSTIGE GRUENLANDFLAECHEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3115,7 +3115,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "711" ;
         skos:prefLabel "STREUOBST / KULTURWEIDE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3126,7 +3126,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "712" ;
         skos:prefLabel "STREUOBST / HUTWEIDE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3137,7 +3137,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "713" ;
         skos:prefLabel "LANDSCHAFTSELEMENT G"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3148,7 +3148,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "714" ;
         skos:prefLabel "GLOEZ G"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3159,7 +3159,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "715" ;
         skos:prefLabel "DAUERWEIDE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3170,7 +3170,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "716" ;
         skos:prefLabel "MAEHWIESE/-WEIDE ZWEI NUTZUNGEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3181,7 +3181,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "717" ;
         skos:prefLabel "MAEHWIESE/-WEIDE DREI UND MEHR NUTZUNGEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3192,7 +3192,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "718" ;
         skos:prefLabel "ENERGIEHOLZ G"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3203,7 +3203,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "719" ;
         skos:prefLabel "NATURDENKMAL G"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3214,7 +3214,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "721" ;
         skos:prefLabel "GRUENLANDBRACHE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3225,7 +3225,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "722" ;
         skos:prefLabel "SONSTIGE HUTWEIDEFLAECHEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3236,7 +3236,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "751" ;
         skos:prefLabel "OELKUERBIS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3247,7 +3247,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "752" ;
         skos:prefLabel "SONSTIGE OELFRUECHTE (SAFLOR, ...)"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3258,7 +3258,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "755" ;
         skos:prefLabel "ERDBEEREN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3269,7 +3269,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "756" ;
         skos:prefLabel "ERDBEEREN / FELDGEMUESE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3280,7 +3280,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "758" ;
         skos:prefLabel "AMARANTH"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3291,7 +3291,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "759" ;
         skos:prefLabel "QUINOA"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3302,7 +3302,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "762" ;
         skos:prefLabel "HOPFEN A"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3313,7 +3313,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "763" ;
         skos:prefLabel "GRUENSCHNITTROGGEN / SUDANGRAS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3324,7 +3324,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "764" ;
         skos:prefLabel "GRUENSCHNITTROGGEN / MAIS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3335,7 +3335,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "765" ;
         skos:prefLabel "GRUENSCHNITTROGGEN / HIRSE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3346,7 +3346,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "766" ;
         skos:prefLabel "GRUENSCHNITTROGGEN / SONNENBLUME"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3357,7 +3357,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "767" ;
         skos:prefLabel "ROLLRASEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3368,7 +3368,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "768" ;
         skos:prefLabel "SPEISEKUERBIS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3379,7 +3379,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "769" ;
         skos:prefLabel "TOPINAMBUR"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3390,7 +3390,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "770" ;
         skos:prefLabel "NATURDENKMAL A"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3401,7 +3401,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "771" ;
         skos:prefLabel "GRUENBRACHE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3412,7 +3412,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "772" ;
         skos:prefLabel "GINKGO"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3423,7 +3423,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "773" ;
         skos:prefLabel "BIENENTRACHTBRACHE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3434,7 +3434,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "774" ;
         skos:prefLabel "DURCHWACHSENE SILPHIE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3445,7 +3445,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "805" ;
         skos:prefLabel "MEHRJAEHRIGE BAUMSCHULEN S"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3456,7 +3456,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "806" ;
         skos:prefLabel "OBST/HOPFEN BODENGESUNDUNG"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3467,7 +3467,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "809" ;
         skos:prefLabel "ANDERES OBST"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3478,7 +3478,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "810" ;
         skos:prefLabel "SONSTIGE SPEZIALKULTURFLAECHEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3489,7 +3489,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "812" ;
         skos:prefLabel "KIRSCHEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3500,7 +3500,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "813" ;
         skos:prefLabel "MARILLEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3511,7 +3511,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "814" ;
         skos:prefLabel "PFIRSICHE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3522,7 +3522,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "817" ;
         skos:prefLabel "TAFELAEPFEL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3533,7 +3533,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "818" ;
         skos:prefLabel "TAFELBIRNEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3544,7 +3544,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "819" ;
         skos:prefLabel "WEICHSELN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3555,7 +3555,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "820" ;
         skos:prefLabel "ZWETSCHKEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3566,7 +3566,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "821" ;
         skos:prefLabel "HOPFEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3577,7 +3577,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "824" ;
         skos:prefLabel "FREILANDGEMUESE FRISCHMARKT 1 ERNTE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3588,7 +3588,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "825" ;
         skos:prefLabel "FREILANDGEMUESE FRISCHMARKT 2 ODER MEHR ERNTEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3599,7 +3599,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "828" ;
         skos:prefLabel "QUITTEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3610,7 +3610,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "829" ;
         skos:prefLabel "NEKTARINEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3621,7 +3621,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "830" ;
         skos:prefLabel "PFLAUMEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3632,7 +3632,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "831" ;
         skos:prefLabel "STRAUCHBEEREN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3643,7 +3643,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "832" ;
         skos:prefLabel "HOLUNDER"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3654,7 +3654,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "833" ;
         skos:prefLabel "HEIL- UND GEWUERZPFLANZEN S"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3665,7 +3665,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "834" ;
         skos:prefLabel "BLUMEN UND ZIERPFLANZEN S"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3676,7 +3676,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "837" ;
         skos:prefLabel "BLUMEN UND ZIERPFLANZEN IM GEWAECHSHAUS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3687,7 +3687,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "838" ;
         skos:prefLabel "BLUMEN UND ZIERPFLANZEN IM FOLIENTUNNEL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3698,7 +3698,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "839" ;
         skos:prefLabel "GEMUESE IM GEWAECHSHAUS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3709,7 +3709,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "840" ;
         skos:prefLabel "GEMUESE IM FOLIENTUNNEL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3720,7 +3720,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "842" ;
         skos:prefLabel "SCHALENFRUECHTE (WALNUESSE, HASELNUESSE, ...)"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3731,7 +3731,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "843" ;
         skos:prefLabel "SONSTIGE FLAECHEN: GESCHUETZTER ANBAU"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3742,7 +3742,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "844" ;
         skos:prefLabel "EDELKASTANIEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3753,7 +3753,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "845" ;
         skos:prefLabel "SONSTIGE KULTUREN IM GEWAECHSHAUS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3764,7 +3764,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "846" ;
         skos:prefLabel "SONSTIGE KULTUREN IM FOLIENTUNNEL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3775,7 +3775,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "847" ;
         skos:prefLabel "HEILPFLANZEN IM GEWAECHSHAUS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3786,7 +3786,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "848" ;
         skos:prefLabel "HEILPFLANZEN IM FOLIENTUNNEL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3797,7 +3797,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "849" ;
         skos:prefLabel "GEWUERZPFLANZEN IM GEWAECHSHAUS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3808,7 +3808,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "850" ;
         skos:prefLabel "GEWUERZPFLANZEN IM FOLIENTUNNEL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3819,7 +3819,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "851" ;
         skos:prefLabel "OBST IM GEWAECHSHAUS"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3830,7 +3830,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "852" ;
         skos:prefLabel "OBST IM FOLIENTUNNEL"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3841,7 +3841,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "853" ;
         skos:prefLabel "NATURDENKMAL S"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3852,7 +3852,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "860" ;
         skos:prefLabel "EINJAEHRIGE BAUMSCHULEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3863,7 +3863,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "861" ;
         skos:prefLabel "MEHRJAEHRIGE BAUMSCHULEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3874,7 +3874,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "862" ;
         skos:prefLabel "REBSCHULEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3885,7 +3885,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "863" ;
         skos:prefLabel "ENERGIEHOLZ OHNE ROBINIE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3896,7 +3896,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "864" ;
         skos:prefLabel "ENERGIEHOLZ ROBINIE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3907,7 +3907,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "865" ;
         skos:prefLabel "ANDERE DAUERKULTUREN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3918,7 +3918,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "901" ;
         skos:prefLabel "WEIN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3929,7 +3929,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "902" ;
         skos:prefLabel "WEIN BODENGESUNDUNG"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3940,7 +3940,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "906" ;
         skos:prefLabel "SCHNITTWEINGARTEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3951,7 +3951,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "907" ;
         skos:prefLabel "SONSTIGE WEINFLAECHEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3962,7 +3962,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "908" ;
         skos:prefLabel "NATURDENKMAL WI"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3973,7 +3973,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "920" ;
         skos:prefLabel "NATURSCHUTZFACHLICH WERTVOLLE PFLEGEFLAECHE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3984,7 +3984,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "948" ;
         skos:prefLabel "SONSTIGE AUFFORSTUNGSFLAECHE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -3995,7 +3995,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "949" ;
         skos:prefLabel "LANDSCHAFTSELEMENT ACKER"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -4006,7 +4006,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "950" ;
         skos:prefLabel "LANDSCHAFTSELEMENT GRUENLAND"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -4017,7 +4017,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "951" ;
         skos:prefLabel "CHRISTBAEUME AUF ACKERLAND"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -4028,7 +4028,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "952" ;
         skos:prefLabel "CHRISTBAEUME AUF GRUENLAND"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -4039,7 +4039,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "953" ;
         skos:prefLabel "AUFFORSTUNG AUF ACKERLAND"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -4050,7 +4050,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "954" ;
         skos:prefLabel "AUFFORSTUNG AUF GRUENLAND"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -4061,7 +4061,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "955" ;
         skos:prefLabel "NEUAUFFORSTUNGSPFLEGE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -4072,7 +4072,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "956" ;
         skos:prefLabel "PFLEGE VON WALD"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -4083,7 +4083,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "957" ;
         skos:prefLabel "HAUS / GEMUESEGARTEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -4094,7 +4094,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "958" ;
         skos:prefLabel "ENERGIEWALD"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -4105,7 +4105,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "959" ;
         skos:prefLabel "20 JAEHRIGE STILLLEGUNG"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -4116,7 +4116,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "960" ;
         skos:prefLabel "WALDUMWELTMASSNAHMEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -4127,7 +4127,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "961" ;
         skos:prefLabel "ERSTAUFFORSTUNG"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -4138,7 +4138,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "962" ;
         skos:prefLabel "NATURA 2000 - FORST"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -4149,7 +4149,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "964" ;
         skos:prefLabel "ERSTAUFFORSTUNG ALT"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -4160,7 +4160,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "965" ;
         skos:prefLabel "FORST GENETISCHE RESSOURCEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -4171,7 +4171,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "980" ;
         skos:prefLabel "TEICHFLAECHEN"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -4182,7 +4182,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "990" ;
         skos:prefLabel "ALMFUTTERFLAECHE"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -4193,7 +4193,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         skos:notation "991" ;
         skos:prefLabel "NATURDENKMAL ALM"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 

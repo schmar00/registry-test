@@ -7,6 +7,51 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/DirectiveRelevance/inspireIdentified">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>http://data.europa.eu/eli/dir/2007/2/oj</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/base2"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme"/>
+    <skos:definition xml:lang="de">Datensatz, Dienst ist INSPIRE-relevant.</skos:definition>
+    <skos:definition xml:lang="en">Data and data service has a INSPIRE relevance.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/DirectiveRelevance"/>
+    <skos:notation>inspireIdentified</skos:notation>
+    <skos:prefLabel xml:lang="de">INSPIRE identifiziert</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">INSPIRE identified</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/DirectiveRelevance"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/DirectiveRelevance/ogdIdentified">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>https://www.data.gv.at/</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/base2"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme"/>
+    <skos:definition xml:lang="de">Datensatz, Dienst oder Dokument wird auf dem Open Governmental Data Portal veröffentlicht.</skos:definition>
+    <skos:definition xml:lang="en">Data and data service or document is published at the OGD Portal.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/DirectiveRelevance"/>
+    <skos:notation>ogdIdentified</skos:notation>
+    <skos:prefLabel xml:lang="de">OGD identifiziert</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">OGD identified</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/DirectiveRelevance"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/DirectiveRelevance/psiKonform">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>http://data.europa.eu/eli/dir/2019/1024/oj</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/base2"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme"/>
+    <skos:definition xml:lang="de">Datensatz, Dienst oder Dokument ist konform zur Public-Sector-Information Richtlinie.</skos:definition>
+    <skos:definition xml:lang="en">Data and data service or document is compliant with EU Public Sector Information Directive.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/DirectiveRelevance"/>
+    <skos:notation>psiKonform</skos:notation>
+    <skos:prefLabel xml:lang="de">PSI konform</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">PSI conform</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/DirectiveRelevance"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/DirectiveRelevance">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/base2"/>
@@ -22,52 +67,7 @@
     <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/DirectiveRelevance/ogdIdentified"/>
     <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/DirectiveRelevance/inspireIdentified"/>
     <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/DirectiveRelevance/psiKonform">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdfs:seeAlso>http://data.europa.eu/eli/dir/2019/1024/oj</rdfs:seeAlso>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/base2"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme"/>
-    <skos:definition xml:lang="de">Datensatz, Dienst oder Dokument ist konform zur Public-Sector-Information Richtlinie.</skos:definition>
-    <skos:definition xml:lang="en">Data and data service or document is compliant with EU Public Sector Information Directive.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/DirectiveRelevance"/>
-    <skos:notation>psiKonform</skos:notation>
-    <skos:prefLabel xml:lang="de">PSI konform</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">PSI conform</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/DirectiveRelevance"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/DirectiveRelevance/ogdIdentified">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdfs:seeAlso>https://www.data.gv.at/</rdfs:seeAlso>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/base2"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme"/>
-    <skos:definition xml:lang="de">Datensatz, Dienst oder Dokument wird auf dem Open Governmental Data Portal veröffentlicht.</skos:definition>
-    <skos:definition xml:lang="en">Data and data service or document is published at the OGD Portal.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/DirectiveRelevance"/>
-    <skos:notation>ogdIdentified</skos:notation>
-    <skos:prefLabel xml:lang="de">OGD identifiziert</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">OGD identified</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/DirectiveRelevance"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/DirectiveRelevance/inspireIdentified">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdfs:seeAlso>http://data.europa.eu/eli/dir/2007/2/oj</rdfs:seeAlso>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/base2"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme"/>
-    <skos:definition xml:lang="de">Datensatz, Dienst ist INSPIRE-relevant.</skos:definition>
-    <skos:definition xml:lang="en">Data and data service has a INSPIRE relevance.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/DirectiveRelevance"/>
-    <skos:notation>inspireIdentified</skos:notation>
-    <skos:prefLabel xml:lang="de">INSPIRE identifiziert</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">INSPIRE identified</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/DirectiveRelevance"/>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
 </rdf:RDF>

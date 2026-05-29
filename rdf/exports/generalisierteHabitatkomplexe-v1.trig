@@ -15,7 +15,7 @@
         skos:notation "AuenObjekt" ;
         skos:prefLabel "Auenobjekt"@de,
             "Floodplain object"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/FeuchtgebietsObjekt> a skos:Concept ;
@@ -28,7 +28,7 @@
         skos:notation "FeuchtgebietsObjekt" ;
         skos:prefLabel "Feuchtgebietsobjekt"@de,
             "Wetland object"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/MoorObjekt> a skos:Concept ;
@@ -41,7 +41,7 @@
         skos:notation "MoorObjekt" ;
         skos:prefLabel "Moorobjekt"@de,
             "Bog and Mire object"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/TrockenrasenObjekt> a skos:Concept ;
@@ -54,7 +54,7 @@
         skos:notation "TrockenrasenObjekt" ;
         skos:prefLabel "Trockenrasenobjekt"@de,
             "Dry meadow object"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe/Naturschutzinventare> a skos:Concept ;
@@ -70,7 +70,7 @@
         skos:notation "Naturschutzinventare" ;
         skos:prefLabel "Naturschutzinventare"@de,
             "Nature conservation inventories"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 

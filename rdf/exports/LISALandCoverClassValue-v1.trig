@@ -19,7 +19,7 @@
         skos:notation "1_1_1_Building" ;
         skos:prefLabel "Gebäude"@de,
             "building"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_1_2_OtherConstructedArea> a skos:Concept ;
@@ -35,7 +35,7 @@
         skos:notation "1_1_2_OtherConstructedArea" ;
         skos:prefLabel "sonstige befestigte Fläche"@de,
             "other constructed area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_2_3_PermanentBareSoil> a skos:Concept ;
@@ -51,7 +51,7 @@
         skos:notation "1_2_3_PermanentBareSoil" ;
         skos:prefLabel "offener Boden (dauerhaft)"@de,
             "permanent bare soil"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_2_4_Screes> a skos:Concept ;
@@ -67,7 +67,7 @@
         skos:notation "1_2_4_Screes" ;
         skos:prefLabel "Schotter"@de,
             "screes"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_2_5_BareRock> a skos:Concept ;
@@ -83,7 +83,7 @@
         skos:notation "1_2_5_BareRock" ;
         skos:prefLabel "Fels"@de,
             "bare rock"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_6_SurfaceWater> a skos:Concept ;
@@ -99,7 +99,7 @@
         skos:notation "1_3_6_SurfaceWater" ;
         skos:prefLabel "Wasseroberfläche"@de,
             "surface water"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_7_1_Snow> a skos:Concept ;
@@ -115,7 +115,7 @@
         skos:notation "1_3_7_1_Snow" ;
         skos:prefLabel "Schnee"@de,
             "snow"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_7_2_Ice> a skos:Concept ;
@@ -131,7 +131,7 @@
         skos:notation "1_3_7_2_Ice" ;
         skos:prefLabel "Eis"@de,
             "ice"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_10_Bushes> a skos:Concept ;
@@ -147,7 +147,7 @@
         skos:notation "2_4_10_Bushes" ;
         skos:prefLabel "Gebüsch"@de,
             "bushes"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_11_DwarfShrubs> a skos:Concept ;
@@ -163,7 +163,7 @@
         skos:notation "2_4_11_DwarfShrubs" ;
         skos:prefLabel "Zwergstrauch"@de,
             "dwarf shrubs"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_9_1_DeciduousTrees> a skos:Concept ;
@@ -175,7 +175,7 @@
         skos:notation "2_4_9_1_DeciduousTrees" ;
         skos:prefLabel "Laubbäume"@de,
             "deciduous trees"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_9_2_MixedTrees> a skos:Concept ;
@@ -187,7 +187,7 @@
         skos:notation "2_4_9_2_MixedTrees" ;
         skos:prefLabel "Mischung Laub/Nadel"@de,
             "mixed trees"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_9_3_ConiferousTrees> a skos:Concept ;
@@ -199,7 +199,7 @@
         skos:notation "2_4_9_3_ConiferousTrees" ;
         skos:prefLabel "Nadelbäume"@de,
             "coniferous trees"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_12_1_HerbaceousPermanent> a skos:Concept ;
@@ -214,7 +214,7 @@
         skos:notation "2_5_12_1_HerbaceousPermanent" ;
         skos:prefLabel "Grünbewuchs dauerhaft"@de,
             "herbaceous permanent"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_12_2_HerbaceousPeriodically> a skos:Concept ;
@@ -229,7 +229,7 @@
         skos:notation "2_5_12_2_HerbaceousPeriodically" ;
         skos:prefLabel "Grünbewuchs periodisch"@de,
             "herbaceous periodically"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_13_Reeds> a skos:Concept ;
@@ -245,7 +245,7 @@
         skos:notation "2_5_13_Reeds" ;
         skos:prefLabel "Schilf"@de,
             "reeds"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_1_BuiltUp> a skos:Concept ;
@@ -262,7 +262,7 @@
         skos:notation "1_1_BuiltUp" ;
         skos:prefLabel "befestigte Fläche"@de,
             "built-up"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_7_SnowIce> a skos:Concept ;
@@ -277,7 +277,7 @@
         skos:notation "1_3_7_SnowIce" ;
         skos:prefLabel "Schnee und Eis"@de,
             "snow/ice"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_3_Water> a skos:Concept ;
@@ -293,7 +293,7 @@
         skos:notation "1_3_Water" ;
         skos:prefLabel "Wasser"@de,
             "water"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_12_Herbaceous> a skos:Concept ;
@@ -311,7 +311,7 @@
         skos:notation "2_5_12_Herbaceous" ;
         skos:prefLabel "Grünbewuchs"@de,
             "herbaceous"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_5_Herbaceous> a skos:Concept ;
@@ -326,7 +326,7 @@
         skos:notation "2_5_Herbaceous" ;
         skos:prefLabel "nicht verholzt"@de,
             "herbaceous"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_Biotic> a skos:Concept ;
@@ -343,7 +343,7 @@
         skos:notation "2_Biotic" ;
         skos:prefLabel "vegetationsbedeckt"@de,
             "biotic"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -362,7 +362,7 @@
         skos:notation "1_2_NonBuiltUp" ;
         skos:prefLabel "nicht befestigte Fläche"@de,
             "non built-up"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_Abiotic> a skos:Concept ;
@@ -378,7 +378,7 @@
         skos:notation "1_Abiotic" ;
         skos:prefLabel "nicht vegetationsbedeckt"@de,
             "abiotic"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -398,7 +398,7 @@
         skos:notation "2_4_9_Trees" ;
         skos:prefLabel "bestockte Fläche"@de,
             "trees"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_4_Woody> a skos:Concept ;
@@ -415,7 +415,7 @@
         skos:notation "2_4_Woody" ;
         skos:prefLabel "verholzt"@de,
             "woody"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue> a skos:ConceptScheme ;
@@ -430,9 +430,9 @@
         owl:versionInfo "1.0.0" ;
         skos:hasTopConcept <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/1_Abiotic>,
             <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue/2_Biotic> ;
-        skos:scopeNote "Banko, Environment Agency Austria, 2016",
-            "INSPIRE governance level: national-technical",
-            "INSPIRE extensibility: open, internal by value"@en ;
+        skos:scopeNote "Banko, Environment Agency Austria, 2016"@en,
+            "INSPIRE extensibility: open, internal by value"@en,
+            "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 }
 

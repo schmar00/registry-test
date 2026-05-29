@@ -6,42 +6,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2330">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2300"/>
-    <skos:definition xml:lang="de">Rigolboden</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>2330</skos:notation>
-    <skos:prefLabel xml:lang="de">Rigolboden</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1803">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1800"/>
-    <skos:definition xml:lang="de">Brauner Tschernosem</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1803</skos:notation>
-    <skos:prefLabel xml:lang="de">Brauner Tschernosem</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2201">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2200"/>
-    <skos:definition xml:lang="de">Braunlehm</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>2201</skos:notation>
-    <skos:prefLabel xml:lang="de">Braunlehm</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2000">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
@@ -52,198 +16,128 @@
     <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2001"/>
     <skos:notation>2000</skos:notation>
     <skos:prefLabel xml:lang="de">Podsolgruppe</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1902">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1703">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1700"/>
+    <skos:definition xml:lang="de">Ranker</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>1703</skos:notation>
+    <skos:prefLabel xml:lang="de">Ranker</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1501">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1500"/>
+    <skos:definition xml:lang="de">Solontschak</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>1501</skos:notation>
+    <skos:prefLabel xml:lang="de">Solontschak</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1401">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1400"/>
+    <skos:definition xml:lang="de">typischer Gley</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>1401</skos:notation>
+    <skos:prefLabel xml:lang="de">typischer Gley</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1903">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
     <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1900"/>
-    <skos:definition xml:lang="de">Lockersedimentbraunerde</skos:definition>
+    <skos:definition xml:lang="de">Parabraunerde</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1902</skos:notation>
-    <skos:prefLabel xml:lang="de">Lockersedimentbraunerde</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>1903</skos:notation>
+    <skos:prefLabel xml:lang="de">Parabraunerde</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1103">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1804">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1100"/>
-    <skos:definition xml:lang="de">Niedermoor / Flachmoor</skos:definition>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1800"/>
+    <skos:definition xml:lang="de">Paratschernosem</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1103</skos:notation>
-    <skos:prefLabel xml:lang="de">Niedermoor / Flachmoor</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>1804</skos:notation>
+    <skos:prefLabel xml:lang="de">Paratschernosem</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2320">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1403">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2300"/>
-    <skos:definition xml:lang="de">gestörter Boden</skos:definition>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1400"/>
+    <skos:definition xml:lang="de">Hanggley</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2323"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2322"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2321"/>
-    <skos:notation>2320</skos:notation>
-    <skos:prefLabel xml:lang="de">gestörter Boden</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>1403</skos:notation>
+    <skos:prefLabel xml:lang="de">Hanggley</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2202">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2323">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2200"/>
-    <skos:definition xml:lang="de">Rotlehm</skos:definition>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2320"/>
+    <skos:definition xml:lang="de">Gartenboden</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>2202</skos:notation>
-    <skos:prefLabel xml:lang="de">Rotlehm</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>2323</skos:notation>
+    <skos:prefLabel xml:lang="de">Gartenboden</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1400">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:definition xml:lang="de">Gleygruppe</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1403"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1402"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1401"/>
-    <skos:notation>1400</skos:notation>
-    <skos:prefLabel xml:lang="de">Gleygruppe</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1901">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1900"/>
-    <skos:definition xml:lang="de">Felsbraunerde</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1901</skos:notation>
-    <skos:prefLabel xml:lang="de">Felsbraunerde</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2313">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2312">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
     <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2310"/>
-    <skos:definition xml:lang="de">Struktur-Ortsboden</skos:definition>
+    <skos:definition xml:lang="de">Textur-Ortsboden</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>2313</skos:notation>
-    <skos:prefLabel xml:lang="de">Struktur-Ortsboden</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>2312</skos:notation>
+    <skos:prefLabel xml:lang="de">Textur-Ortsboden</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1900">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1503">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:definition xml:lang="de">Braunerdegruppe</skos:definition>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1500"/>
+    <skos:definition xml:lang="de">Solonetz</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1903"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1902"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1901"/>
-    <skos:notation>1900</skos:notation>
-    <skos:prefLabel xml:lang="de">Braunerdegruppe</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>1503</skos:notation>
+    <skos:prefLabel xml:lang="de">Solonetz</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1300">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1502">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:definition xml:lang="de">Aubodengruppe</skos:definition>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1500"/>
+    <skos:definition xml:lang="de">Solontschak - Solonetz</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1304"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1303"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1302"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1301"/>
-    <skos:notation>1300</skos:notation>
-    <skos:prefLabel xml:lang="de">Aubodengruppe</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2102">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2100"/>
-    <skos:definition xml:lang="de">extremer Pseudogley</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>2102</skos:notation>
-    <skos:prefLabel xml:lang="de">extremer Pseudogley</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1303">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1300"/>
-    <skos:definition xml:lang="de">brauner Auboden</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1303</skos:notation>
-    <skos:prefLabel xml:lang="de">brauner Auboden</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2300">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:definition xml:lang="de">atypische Böden</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2340"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2330"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2320"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2310"/>
-    <skos:notation>2300</skos:notation>
-    <skos:prefLabel xml:lang="de">atypische Böden</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1304">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1300"/>
-    <skos:definition xml:lang="de">Schwemmboden</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1304</skos:notation>
-    <skos:prefLabel xml:lang="de">Schwemmboden</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2200">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:definition xml:lang="de">Reliktbodengruppe</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2205"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2204"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2203"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2202"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2201"/>
-    <skos:notation>2200</skos:notation>
-    <skos:prefLabel xml:lang="de">Reliktbodengruppe</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>1502</skos:notation>
+    <skos:prefLabel xml:lang="de">Solontschak - Solonetz</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1302">
@@ -255,7 +149,91 @@
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
     <skos:notation>1302</skos:notation>
     <skos:prefLabel xml:lang="de">grauer Auboden</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2204">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2200"/>
+    <skos:definition xml:lang="de">Reliktpseudogley</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>2204</skos:notation>
+    <skos:prefLabel xml:lang="de">Reliktpseudogley</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2103">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2100"/>
+    <skos:definition xml:lang="de">Stagnogley</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>2103</skos:notation>
+    <skos:prefLabel xml:lang="de">Stagnogley</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1702">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1700"/>
+    <skos:definition xml:lang="de">Pararendsina</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>1702</skos:notation>
+    <skos:prefLabel xml:lang="de">Pararendsina</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2102">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2100"/>
+    <skos:definition xml:lang="de">extremer Pseudogley</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>2102</skos:notation>
+    <skos:prefLabel xml:lang="de">extremer Pseudogley</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2201">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2200"/>
+    <skos:definition xml:lang="de">Braunlehm</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>2201</skos:notation>
+    <skos:prefLabel xml:lang="de">Braunlehm</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1901">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1900"/>
+    <skos:definition xml:lang="de">Felsbraunerde</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>1901</skos:notation>
+    <skos:prefLabel xml:lang="de">Felsbraunerde</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2322">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2320"/>
+    <skos:definition xml:lang="de">Kulturrohboden</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>2322</skos:notation>
+    <skos:prefLabel xml:lang="de">Kulturrohboden</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172">
@@ -288,28 +266,230 @@
     <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2205">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2100">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:definition xml:lang="de">Pseudogley-Gruppe</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2104"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2103"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2102"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2101"/>
+    <skos:notation>2100</skos:notation>
+    <skos:prefLabel xml:lang="de">Pseudogley-Gruppe</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2002">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2000"/>
+    <skos:definition xml:lang="de">typischer Podsol</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>2002</skos:notation>
+    <skos:prefLabel xml:lang="de">typischer Podsol</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2001">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2000"/>
+    <skos:definition xml:lang="de">Semipodsol</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>2001</skos:notation>
+    <skos:prefLabel xml:lang="de">Semipodsol</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2321">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2320"/>
+    <skos:definition xml:lang="de">Restboden</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>2321</skos:notation>
+    <skos:prefLabel xml:lang="de">Restboden</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1100">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:definition xml:lang="de">Moor- und Anmoorgruppe</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1103"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1102"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1101"/>
+    <skos:notation>1100</skos:notation>
+    <skos:prefLabel xml:lang="de">Moor- und Anmoorgruppe</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1900">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:definition xml:lang="de">Braunerdegruppe</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1903"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1902"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1901"/>
+    <skos:notation>1900</skos:notation>
+    <skos:prefLabel xml:lang="de">Braunerdegruppe</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1805">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1800"/>
+    <skos:definition xml:lang="de">Feuchtschwarzerde</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>1805</skos:notation>
+    <skos:prefLabel xml:lang="de">Feuchtschwarzerde</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2300">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:definition xml:lang="de">atypische Böden</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2340"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2330"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2320"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2310"/>
+    <skos:notation>2300</skos:notation>
+    <skos:prefLabel xml:lang="de">atypische Böden</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2203">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
     <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2200"/>
-    <skos:definition xml:lang="de">Terra Fusca</skos:definition>
+    <skos:definition xml:lang="de">Roterde</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>2205</skos:notation>
-    <skos:prefLabel xml:lang="de">Terra Fusca</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>2203</skos:notation>
+    <skos:prefLabel xml:lang="de">Roterde</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2312">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2311">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
     <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2310"/>
-    <skos:definition xml:lang="de">Textur-Ortsboden</skos:definition>
+    <skos:definition xml:lang="de">Farb-Ortsboden</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>2312</skos:notation>
-    <skos:prefLabel xml:lang="de">Textur-Ortsboden</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>2311</skos:notation>
+    <skos:prefLabel xml:lang="de">Farb-Ortsboden</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1701">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1700"/>
+    <skos:definition xml:lang="de">Rendsina</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>1701</skos:notation>
+    <skos:prefLabel xml:lang="de">Rendsina</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1801">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1800"/>
+    <skos:definition xml:lang="de">Gebirgsschwarzerde</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>1801</skos:notation>
+    <skos:prefLabel xml:lang="de">Gebirgsschwarzerde</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1101">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1100"/>
+    <skos:definition xml:lang="de">Hochmoor</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>1101</skos:notation>
+    <skos:prefLabel xml:lang="de">Hochmoor</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2200">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:definition xml:lang="de">Reliktbodengruppe</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2205"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2204"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2203"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2202"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2201"/>
+    <skos:notation>2200</skos:notation>
+    <skos:prefLabel xml:lang="de">Reliktbodengruppe</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1602">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1600"/>
+    <skos:definition xml:lang="de">Lockersediment-Rohboden</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>1602</skos:notation>
+    <skos:prefLabel xml:lang="de">Lockersediment-Rohboden</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1303">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1300"/>
+    <skos:definition xml:lang="de">brauner Auboden</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>1303</skos:notation>
+    <skos:prefLabel xml:lang="de">brauner Auboden</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1500">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:definition xml:lang="de">Salzbodengruppe</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1503"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1502"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1501"/>
+    <skos:notation>1500</skos:notation>
+    <skos:prefLabel xml:lang="de">Salzbodengruppe</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1800">
@@ -325,59 +505,73 @@
     <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1801"/>
     <skos:notation>1800</skos:notation>
     <skos:prefLabel xml:lang="de">Schwarzerdegruppe</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2103">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1400">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2100"/>
-    <skos:definition xml:lang="de">Stagnogley</skos:definition>
+    <skos:definition xml:lang="de">Gleygruppe</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>2103</skos:notation>
-    <skos:prefLabel xml:lang="de">Stagnogley</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2101">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2100"/>
-    <skos:definition xml:lang="de">typischer Pseudogley</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>2101</skos:notation>
-    <skos:prefLabel xml:lang="de">typischer Pseudogley</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1500">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:definition xml:lang="de">Salzbodengruppe</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1503"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1502"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1501"/>
-    <skos:notation>1500</skos:notation>
-    <skos:prefLabel xml:lang="de">Salzbodengruppe</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1403"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1402"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1401"/>
+    <skos:notation>1400</skos:notation>
+    <skos:prefLabel xml:lang="de">Gleygruppe</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2203">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1600">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:definition xml:lang="de">Rohbodengruppe</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1602"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1601"/>
+    <skos:notation>1600</skos:notation>
+    <skos:prefLabel xml:lang="de">Rohbodengruppe</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1601">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1600"/>
+    <skos:definition xml:lang="de">Gesteinsrohboden</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>1601</skos:notation>
+    <skos:prefLabel xml:lang="de">Gesteinsrohboden</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2202">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
     <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2200"/>
-    <skos:definition xml:lang="de">Roterde</skos:definition>
+    <skos:definition xml:lang="de">Rotlehm</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>2203</skos:notation>
-    <skos:prefLabel xml:lang="de">Roterde</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>2202</skos:notation>
+    <skos:prefLabel xml:lang="de">Rotlehm</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1103">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1100"/>
+    <skos:definition xml:lang="de">Niedermoor / Flachmoor</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>1103</skos:notation>
+    <skos:prefLabel xml:lang="de">Niedermoor / Flachmoor</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1700">
@@ -391,212 +585,32 @@
     <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1701"/>
     <skos:notation>1700</skos:notation>
     <skos:prefLabel xml:lang="de">Rendsina - Ranker - Gruppe</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1702">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1802">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1700"/>
-    <skos:definition xml:lang="de">Pararendsina</skos:definition>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1800"/>
+    <skos:definition xml:lang="de">Tschernosem</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1702</skos:notation>
-    <skos:prefLabel xml:lang="de">Pararendsina</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>1802</skos:notation>
+    <skos:prefLabel xml:lang="de">Tschernosem</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2311">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1803">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2310"/>
-    <skos:definition xml:lang="de">Farb-Ortsboden</skos:definition>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1800"/>
+    <skos:definition xml:lang="de">Brauner Tschernosem</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>2311</skos:notation>
-    <skos:prefLabel xml:lang="de">Farb-Ortsboden</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2341">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2340"/>
-    <skos:definition xml:lang="de">Haldenboden, Planieboden</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>2341</skos:notation>
-    <skos:prefLabel xml:lang="de">Haldenboden, Planieboden</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1703">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1700"/>
-    <skos:definition xml:lang="de">Ranker</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1703</skos:notation>
-    <skos:prefLabel xml:lang="de">Ranker</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2400">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:definition xml:lang="de">nicht identifizierbare Böden</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>2400</skos:notation>
-    <skos:prefLabel xml:lang="de">nicht identifizierbare Böden</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1201">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:definition xml:lang="de">Anmoor</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1201</skos:notation>
-    <skos:prefLabel xml:lang="de">Anmoor</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2001">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2000"/>
-    <skos:definition xml:lang="de">Semipodsol</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>2001</skos:notation>
-    <skos:prefLabel xml:lang="de">Semipodsol</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1502">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1500"/>
-    <skos:definition xml:lang="de">Solontschak - Solonetz</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1502</skos:notation>
-    <skos:prefLabel xml:lang="de">Solontschak - Solonetz</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2342">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2340"/>
-    <skos:definition xml:lang="de">Kolluvium, Bodensedimente</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>2342</skos:notation>
-    <skos:prefLabel xml:lang="de">Kolluvium, Bodensedimente</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2104">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2100"/>
-    <skos:definition xml:lang="de">Hangpseudogley</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>2104</skos:notation>
-    <skos:prefLabel xml:lang="de">Hangpseudogley</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1101">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1100"/>
-    <skos:definition xml:lang="de">Hochmoor</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1101</skos:notation>
-    <skos:prefLabel xml:lang="de">Hochmoor</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1601">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1600"/>
-    <skos:definition xml:lang="de">Gesteinsrohboden</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1601</skos:notation>
-    <skos:prefLabel xml:lang="de">Gesteinsrohboden</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1903">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1900"/>
-    <skos:definition xml:lang="de">Parabraunerde</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1903</skos:notation>
-    <skos:prefLabel xml:lang="de">Parabraunerde</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1602">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1600"/>
-    <skos:definition xml:lang="de">Lockersediment-Rohboden</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1602</skos:notation>
-    <skos:prefLabel xml:lang="de">Lockersediment-Rohboden</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1401">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1400"/>
-    <skos:definition xml:lang="de">typischer Gley</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1401</skos:notation>
-    <skos:prefLabel xml:lang="de">typischer Gley</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1402">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1400"/>
-    <skos:definition xml:lang="de">extremer Gley</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1402</skos:notation>
-    <skos:prefLabel xml:lang="de">extremer Gley</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2323">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2320"/>
-    <skos:definition xml:lang="de">Gartenboden</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>2323</skos:notation>
-    <skos:prefLabel xml:lang="de">Gartenboden</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>1803</skos:notation>
+    <skos:prefLabel xml:lang="de">Brauner Tschernosem</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1102">
@@ -608,119 +622,7 @@
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
     <skos:notation>1102</skos:notation>
     <skos:prefLabel xml:lang="de">Übergangsmoor</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1301">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1300"/>
-    <skos:definition xml:lang="de">Rohauboden</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1301</skos:notation>
-    <skos:prefLabel xml:lang="de">Rohauboden</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2100">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:definition xml:lang="de">Pseudogley-Gruppe</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2104"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2103"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2102"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2101"/>
-    <skos:notation>2100</skos:notation>
-    <skos:prefLabel xml:lang="de">Pseudogley-Gruppe</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1805">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1800"/>
-    <skos:definition xml:lang="de">Feuchtschwarzerde</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1805</skos:notation>
-    <skos:prefLabel xml:lang="de">Feuchtschwarzerde</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1701">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1700"/>
-    <skos:definition xml:lang="de">Rendsina</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1701</skos:notation>
-    <skos:prefLabel xml:lang="de">Rendsina</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2002">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2000"/>
-    <skos:definition xml:lang="de">typischer Podsol</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>2002</skos:notation>
-    <skos:prefLabel xml:lang="de">typischer Podsol</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/0">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:definition xml:lang="de">keine Angabe</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>0</skos:notation>
-    <skos:prefLabel xml:lang="de">keine Angabe</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1801">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1800"/>
-    <skos:definition xml:lang="de">Gebirgsschwarzerde</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1801</skos:notation>
-    <skos:prefLabel xml:lang="de">Gebirgsschwarzerde</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2322">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2320"/>
-    <skos:definition xml:lang="de">Kulturrohboden</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>2322</skos:notation>
-    <skos:prefLabel xml:lang="de">Kulturrohboden</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2321">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2320"/>
-    <skos:definition xml:lang="de">Restboden</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>2321</skos:notation>
-    <skos:prefLabel xml:lang="de">Restboden</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2340">
@@ -734,94 +636,55 @@
     <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2341"/>
     <skos:notation>2340</skos:notation>
     <skos:prefLabel xml:lang="de">Schüttungsboden</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1503">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1301">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1500"/>
-    <skos:definition xml:lang="de">Solonetz</skos:definition>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1300"/>
+    <skos:definition xml:lang="de">Rohauboden</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1503</skos:notation>
-    <skos:prefLabel xml:lang="de">Solonetz</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>1301</skos:notation>
+    <skos:prefLabel xml:lang="de">Rohauboden</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1804">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2313">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1800"/>
-    <skos:definition xml:lang="de">Paratschernosem</skos:definition>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2310"/>
+    <skos:definition xml:lang="de">Struktur-Ortsboden</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1804</skos:notation>
-    <skos:prefLabel xml:lang="de">Paratschernosem</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>2313</skos:notation>
+    <skos:prefLabel xml:lang="de">Struktur-Ortsboden</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1100">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2330">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:definition xml:lang="de">Moor- und Anmoorgruppe</skos:definition>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2300"/>
+    <skos:definition xml:lang="de">Rigolboden</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1103"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1102"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1101"/>
-    <skos:notation>1100</skos:notation>
-    <skos:prefLabel xml:lang="de">Moor- und Anmoorgruppe</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>2330</skos:notation>
+    <skos:prefLabel xml:lang="de">Rigolboden</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/0">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:definition xml:lang="de">keine Angabe</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>0</skos:notation>
+    <skos:prefLabel xml:lang="de">keine Angabe</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1403">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1400"/>
-    <skos:definition xml:lang="de">Hanggley</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1403</skos:notation>
-    <skos:prefLabel xml:lang="de">Hanggley</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2204">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2200"/>
-    <skos:definition xml:lang="de">Reliktpseudogley</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>2204</skos:notation>
-    <skos:prefLabel xml:lang="de">Reliktpseudogley</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1501">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1500"/>
-    <skos:definition xml:lang="de">Solontschak</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1501</skos:notation>
-    <skos:prefLabel xml:lang="de">Solontschak</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1802">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1800"/>
-    <skos:definition xml:lang="de">Tschernosem</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:notation>1802</skos:notation>
-    <skos:prefLabel xml:lang="de">Tschernosem</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2310">
@@ -836,21 +699,158 @@
     <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2311"/>
     <skos:notation>2310</skos:notation>
     <skos:prefLabel xml:lang="de">Ortsboden</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1600">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2205">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
-    <skos:definition xml:lang="de">Rohbodengruppe</skos:definition>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2200"/>
+    <skos:definition xml:lang="de">Terra Fusca</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1602"/>
-    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1601"/>
-    <skos:notation>1600</skos:notation>
-    <skos:prefLabel xml:lang="de">Rohbodengruppe</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>2205</skos:notation>
+    <skos:prefLabel xml:lang="de">Terra Fusca</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1304">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1300"/>
+    <skos:definition xml:lang="de">Schwemmboden</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>1304</skos:notation>
+    <skos:prefLabel xml:lang="de">Schwemmboden</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2101">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2100"/>
+    <skos:definition xml:lang="de">typischer Pseudogley</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>2101</skos:notation>
+    <skos:prefLabel xml:lang="de">typischer Pseudogley</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2342">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2340"/>
+    <skos:definition xml:lang="de">Kolluvium, Bodensedimente</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>2342</skos:notation>
+    <skos:prefLabel xml:lang="de">Kolluvium, Bodensedimente</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2400">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:definition xml:lang="de">nicht identifizierbare Böden</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>2400</skos:notation>
+    <skos:prefLabel xml:lang="de">nicht identifizierbare Böden</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1300">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:definition xml:lang="de">Aubodengruppe</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1304"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1303"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1302"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1301"/>
+    <skos:notation>1300</skos:notation>
+    <skos:prefLabel xml:lang="de">Aubodengruppe</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1402">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1400"/>
+    <skos:definition xml:lang="de">extremer Gley</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>1402</skos:notation>
+    <skos:prefLabel xml:lang="de">extremer Gley</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2320">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2300"/>
+    <skos:definition xml:lang="de">gestörter Boden</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2323"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2322"/>
+    <skos:narrower rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2321"/>
+    <skos:notation>2320</skos:notation>
+    <skos:prefLabel xml:lang="de">gestörter Boden</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1902">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1900"/>
+    <skos:definition xml:lang="de">Lockersedimentbraunerde</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>1902</skos:notation>
+    <skos:prefLabel xml:lang="de">Lockersedimentbraunerde</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1201">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:definition xml:lang="de">Anmoor</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>1201</skos:notation>
+    <skos:prefLabel xml:lang="de">Anmoor</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2104">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2100"/>
+    <skos:definition xml:lang="de">Hangpseudogley</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>2104</skos:notation>
+    <skos:prefLabel xml:lang="de">Hangpseudogley</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2341">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/so"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+    <skos:broader rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/2340"/>
+    <skos:definition xml:lang="de">Haldenboden, Planieboden</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172"/>
+    <skos:notation>2341</skos:notation>
+    <skos:prefLabel xml:lang="de">Haldenboden, Planieboden</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
 </rdf:RDF>

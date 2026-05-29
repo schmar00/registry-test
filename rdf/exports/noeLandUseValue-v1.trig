@@ -18,7 +18,7 @@
         skos:notation "buildingLandCommercialUse" ;
         skos:prefLabel "Bauland Betriebsnutzung"@de,
             "building land commercial use"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -33,7 +33,7 @@
         skos:notation "buildingLandCoreAreaCommercialFacilities" ;
         skos:prefLabel "Bauland-Kerngebiet Handelseinrichtungen"@de,
             "Building land core area commercial facilities"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -51,7 +51,7 @@
         skos:notation "buildingLandResidentialOrMixedUse" ;
         skos:prefLabel "Bauland Wohn oder Mischnutzung"@de,
             "Building land residential or mixed use"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -68,7 +68,7 @@
         skos:notation "buildingLandSpecialZone" ;
         skos:prefLabel "Bauland-Sondergebiet"@de,
             "Building land special zone"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -80,7 +80,7 @@
         skos:inScheme <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         skos:notation "centralZone" ;
         skos:prefLabel "Zentrumszone"@de ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -97,7 +97,7 @@
         skos:notation "centreZone" ;
         skos:prefLabel "Zentrumszone"@de,
             "Centre zone"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -114,7 +114,7 @@
         skos:notation "greenLandAgricultureAndForestryFarm" ;
         skos:prefLabel "Gruenland land- und forstwirtschaftliche Hofstelle"@de,
             "Green land agricultural and forestry farm"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -131,7 +131,7 @@
         skos:notation "greenLandBuildingWorthyOfPreservation" ;
         skos:prefLabel "Erhaltenswerte Gebaeude im Gruenland"@de,
             "Green land building worthy of preservation"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -148,7 +148,7 @@
         skos:notation "greenLandCampsite" ;
         skos:prefLabel "Gruenland Campingplatz"@de,
             "Green land campsite"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -165,7 +165,7 @@
         skos:notation "greenLandCemetery" ;
         skos:prefLabel "Gruenland-Friedhof"@de,
             "Green land cemetery"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -182,7 +182,7 @@
         skos:notation "greenLandLandfill" ;
         skos:prefLabel "Gruenland Aushubdeponie"@de,
             "Green land landfill"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -199,7 +199,7 @@
         skos:notation "greenLandMarketGardenAndPlantNursery" ;
         skos:prefLabel "Gruenland Gaertnerei"@de,
             "Green land market garden and plant nursery"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -216,7 +216,7 @@
         skos:notation "greenLandOpenSpaceArea" ;
         skos:prefLabel "Gruenland Freihalteflaeche Gruenland"@de,
             "Green land open space area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -231,7 +231,7 @@
         skos:notation "greenLandParkArea" ;
         skos:prefLabel "Gruenland-Parkanlagen"@de,
             "Green land - park area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -248,7 +248,7 @@
         skos:notation "greenLandPhotvoltaicPlant" ;
         skos:prefLabel "Gruenland Photovoltaikanlage"@de,
             "Green land photovoltaic plant"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -265,7 +265,7 @@
         skos:notation "greenLandPlayground" ;
         skos:prefLabel "Gruenland Spielplatz"@de,
             "Green land playground"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -282,7 +282,7 @@
         skos:notation "greenLandResourceExtractionSite" ;
         skos:prefLabel "Gruenland Materialgewinnungsstaette"@de,
             "Green land resource extraction site"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -297,7 +297,7 @@
         skos:notation "greenLandShelter" ;
         skos:prefLabel "Gruenland-Schutzhaus"@de,
             "Green land - shelter"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -314,7 +314,7 @@
         skos:notation "greenLandSmallGardenPlot" ;
         skos:prefLabel "Gruenland Kleingarten"@de,
             "Green land small garden plot"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -331,7 +331,7 @@
         skos:notation "greenLandSportsFacility" ;
         skos:prefLabel "Gruenland Sportstaette"@de,
             "Green land sports facility"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -346,7 +346,7 @@
         skos:notation "greenLandStorageSpace" ;
         skos:prefLabel "Gruenland-Lagerplatz"@de,
             "Green land - storage space"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -361,7 +361,7 @@
         skos:notation "greenLandWasteLand" ;
         skos:prefLabel "Gruenland-Oedland"@de,
             "Green land-waste land"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -378,7 +378,7 @@
         skos:notation "greenLandWasteTreatmentFacility" ;
         skos:prefLabel "Gruenland-Abfallbehandlungsanlage"@de,
             "Green land waste treatment facility"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -395,7 +395,7 @@
         skos:notation "greenLandWindPowerPlant" ;
         skos:prefLabel "Gruenland Windkraftanlage"@de,
             "Green land wind power plant"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -412,7 +412,7 @@
         skos:notation "greenLandWineCellarLane" ;
         skos:prefLabel "GruenlandKellergasse"@de,
             "Green land wine cellar lane"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 

@@ -16,7 +16,7 @@
         skos:notation "agriculture" ;
         skos:prefLabel "Land- und Forstwirtschaft"@de,
             "agriculture"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -30,7 +30,7 @@
         skos:notation "culture" ;
         skos:prefLabel "Kunst und Kultur"@de,
             "culture"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -44,7 +44,7 @@
         skos:notation "economyAndTourism" ;
         skos:prefLabel "Wirtschaft und Tourismus"@de,
             "economy and tourism"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -58,7 +58,7 @@
         skos:notation "educationAndScience" ;
         skos:prefLabel "Bildung und Forschung"@de,
             "education and science"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -72,7 +72,7 @@
         skos:notation "environment" ;
         skos:prefLabel "Umwelt"@de,
             "environment"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -86,7 +86,7 @@
         skos:notation "finance" ;
         skos:prefLabel "Finanzen und Rechnungswesen"@de,
             "finance"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -100,7 +100,7 @@
         skos:notation "geographyAndPlanning" ;
         skos:prefLabel "Geographie und Planung"@de,
             "geography and planning"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -114,7 +114,7 @@
         skos:notation "governmentAndPolitics" ;
         skos:prefLabel "Verwaltung und Politik"@de,
             "government and politics"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -128,7 +128,7 @@
         skos:notation "health" ;
         skos:prefLabel "Gesundheit"@de,
             "health"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -142,7 +142,7 @@
         skos:notation "labourAndEmployment" ;
         skos:prefLabel "Arbeit"@de,
             "labour and employment"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -156,7 +156,7 @@
         skos:notation "population" ;
         skos:prefLabel "Bevoelkerung"@de,
             "population"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -170,7 +170,7 @@
         skos:notation "recreation" ;
         skos:prefLabel "Sport und Freizeit"@de,
             "recreation"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -184,7 +184,7 @@
         skos:notation "society" ;
         skos:prefLabel "Gesellschaft und Soziales"@de,
             "society"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -198,7 +198,7 @@
         skos:notation "transport" ;
         skos:prefLabel "Verkehr und Technik"@de,
             "transport"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -226,8 +226,8 @@
             <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/recreation>,
             <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/society>,
             <https://registry.inspire.gv.at/codelist/OgdCategoryAustria/transport> ;
-        skos:scopeNote "INSPIRE governance level: national-technical",
-            "INSPIRE extensibility: open, internal by value"@en ;
+        skos:scopeNote "INSPIRE extensibility: open, internal by value"@en,
+            "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 }
 

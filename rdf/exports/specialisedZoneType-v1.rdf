@@ -6,20 +6,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specialisedZoneType/exclusion">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/am"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/am"/>
-    <skos:definition xml:lang="en">In exclusion zones is the erection of wind power plants not permitted.</skos:definition>
-    <skos:definition xml:lang="de">In Ausschlusszonen ist die Errichtung von Windkraftanlagen unzulässig.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/specialisedZoneType"/>
-    <skos:notation>exclusion</skos:notation>
-    <skos:prefLabel xml:lang="en">exclusion</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Ausschluss</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specialisedZoneType"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specialisedZoneType/suitability">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/am"/>
@@ -30,7 +16,21 @@
     <skos:notation>suitability</skos:notation>
     <skos:prefLabel xml:lang="en">suitability</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Eignung</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specialisedZoneType"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specialisedZoneType/priority">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/am"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/am"/>
+    <skos:definition xml:lang="de">In Vorrangzonen ist die Errichtung von Windkraftanlagen mit einer Nennleistung von mindestens 0,5 Megawatt zulässig für nachstehende Projekte, die folgende Voraussetzungen erfüllen: 1. bei der Neuerrichtung von Windkraftanlagen muss eine elektrische Gesamtleistung von mindestens 15 MW erreicht werden; 2. bei der Erweiterung von bestehenden Windkraftanlagen muss eine zusätzliche elektrische Gesamtleistung von mindestens 7,5 MW erreicht werden; 3. bei sonstigen Erweiterungen von bestehenden Windkraftanlagen muss bereits vor der Erweiterung ein Verfahren nach UVP-G 2000, BGBl. I Nr. 80/2018, durchgeführt worden sein. Im Zuge einer allfälligen Umweltverträglichkeitsprüfung soll durch geeignete Maßnahmen sichergestellt werden, dass dauerbewirtschaftete Schutzhütten und Weitwanderwege in ihrer Funktion nicht beeinträchtigt werden.</skos:definition>
+    <skos:definition xml:lang="en">In priority zones, the erection of wind turbines with a rated output of at least 0.5 megawatts is permitted for the following projects that meet the following requirements: 1. the new construction of wind power plants must achieve a total electrical output of at least 15 MW 2. when expanding existing wind power plants, an additional total electrical output of at least 7.5 MW must be achieved; 3. in the case of other extensions of existing wind power plants, a procedure pursuant to UVP-G 2000, Federal Law Gazette I No. 80/2018, must have been carried out prior to the extension. In the course of any environmental impact assessment, suitable measures shall be taken to ensure that the function of permanently managed refuges and long-distance hiking trails is not impaired.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/specialisedZoneType"/>
+    <skos:notation>priority</skos:notation>
+    <skos:prefLabel xml:lang="de">Vorrang</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">priority</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specialisedZoneType"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
@@ -52,17 +52,17 @@
     <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specialisedZoneType/priority">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specialisedZoneType/exclusion">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/am"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/am"/>
-    <skos:definition xml:lang="de">In Vorrangzonen ist die Errichtung von Windkraftanlagen mit einer Nennleistung von mindestens 0,5 Megawatt zulässig für nachstehende Projekte, die folgende Voraussetzungen erfüllen: 1. bei der Neuerrichtung von Windkraftanlagen muss eine elektrische Gesamtleistung von mindestens 15 MW erreicht werden; 2. bei der Erweiterung von bestehenden Windkraftanlagen muss eine zusätzliche elektrische Gesamtleistung von mindestens 7,5 MW erreicht werden; 3. bei sonstigen Erweiterungen von bestehenden Windkraftanlagen muss bereits vor der Erweiterung ein Verfahren nach UVP-G 2000, BGBl. I Nr. 80/2018, durchgeführt worden sein. Im Zuge einer allfälligen Umweltverträglichkeitsprüfung soll durch geeignete Maßnahmen sichergestellt werden, dass dauerbewirtschaftete Schutzhütten und Weitwanderwege in ihrer Funktion nicht beeinträchtigt werden.</skos:definition>
-    <skos:definition xml:lang="en">In priority zones, the erection of wind turbines with a rated output of at least 0.5 megawatts is permitted for the following projects that meet the following requirements: 1. the new construction of wind power plants must achieve a total electrical output of at least 15 MW 2. when expanding existing wind power plants, an additional total electrical output of at least 7.5 MW must be achieved; 3. in the case of other extensions of existing wind power plants, a procedure pursuant to UVP-G 2000, Federal Law Gazette I No. 80/2018, must have been carried out prior to the extension. In the course of any environmental impact assessment, suitable measures shall be taken to ensure that the function of permanently managed refuges and long-distance hiking trails is not impaired.</skos:definition>
+    <skos:definition xml:lang="en">In exclusion zones is the erection of wind power plants not permitted.</skos:definition>
+    <skos:definition xml:lang="de">In Ausschlusszonen ist die Errichtung von Windkraftanlagen unzulässig.</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/specialisedZoneType"/>
-    <skos:notation>priority</skos:notation>
-    <skos:prefLabel xml:lang="de">Vorrang</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">priority</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>exclusion</skos:notation>
+    <skos:prefLabel xml:lang="en">exclusion</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Ausschluss</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specialisedZoneType"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>

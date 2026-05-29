@@ -67,73 +67,13 @@
         "@value": "INSPIRE extensibility: open, internal by value"
       },
       {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
     "http://www.w3.org/ns/adms#status": [
       {
         "@id": "http://inspire.ec.europa.eu/registry/status/submitted"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/specificLandUseAT/forestInventoryTypeValue",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@value": "https://bfw.ac.at"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Codeliste der österreichischen Waldinventurtypen"
-      },
-      {
-        "@language": "en",
-        "@value": "Code list of Austrian forest Inventory types"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specificLandUseAT"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "forestInventoryTypeValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Waldinventar Typen"
-      },
-      {
-        "@language": "en",
-        "@value": "Forest Inventory Type"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/specificLandUseAT"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
       }
     ]
   },
@@ -185,6 +125,67 @@
       {
         "@language": "de",
         "@value": "INVEKOS Klassen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificLandUseAT"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/specificLandUseAT/forestInventoryTypeValue",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "https://bfw.ac.at"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Codeliste der österreichischen Waldinventurtypen"
+      },
+      {
+        "@language": "en",
+        "@value": "Code list of Austrian forest Inventory types"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/specificLandUseAT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "forestInventoryTypeValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Waldinventar Typen"
+      },
+      {
+        "@language": "en",
+        "@value": "Forest Inventory Type"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [

@@ -14,7 +14,7 @@
         skos:notation "avalancheCatchmentArea" ;
         skos:prefLabel "Lawinen-Einzugsgebiet"@de,
             "avalanche catchment area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -27,7 +27,7 @@
         skos:notation "blueReservationArea" ;
         skos:prefLabel "Blauer Vorbehaltsbereich"@de,
             "blue reservation area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -40,7 +40,7 @@
         skos:notation "brownReferenceArea" ;
         skos:prefLabel "Brauner Hinweisbereich"@de,
             "brown reference area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -53,7 +53,7 @@
         skos:notation "partiallyRelevantArea" ;
         skos:prefLabel "Raumrelevanter Bereich"@de,
             "patially relevant area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -66,7 +66,7 @@
         skos:notation "planArea" ;
         skos:prefLabel "Plangebiet"@de,
             "plan area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -79,7 +79,7 @@
         skos:notation "purpleReferenceArea" ;
         skos:prefLabel "Violetter Hinweisbereich"@de,
             "purple reference area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -92,7 +92,7 @@
         skos:notation "redHazardZone" ;
         skos:prefLabel "Rote Gefahrenzone"@de,
             "red hazard zone"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -105,7 +105,7 @@
         skos:notation "torrentCatchmentAreas" ;
         skos:prefLabel "Wildbach-Einzugsgebiet"@de,
             "torrent catchment areas"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -118,7 +118,7 @@
         skos:notation "yellowHazardZone" ;
         skos:prefLabel "Gelbe Gefahrenzone"@de,
             "yellow hazard zone"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 

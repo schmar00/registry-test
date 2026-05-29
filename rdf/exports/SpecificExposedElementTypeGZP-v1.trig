@@ -16,7 +16,7 @@
         skos:notation "BlaueFunktionsbereiche" ;
         skos:prefLabel "Blaue Funktionsbereiche"@de,
             "Blaue Funktionsbereiche"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -31,7 +31,7 @@
         skos:notation "GelbeGefahrenzonen" ;
         skos:prefLabel "Gelbe Gefahrenzonen"@de,
             "Gelbe Gefahrenzonen"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -46,7 +46,7 @@
         skos:notation "Restrisikogebiete" ;
         skos:prefLabel "Restrisikogebiete"@de,
             "Restrisikogebiete"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -61,7 +61,7 @@
         skos:notation "RotGelbSchraffierteFunktionsbereiche" ;
         skos:prefLabel "Rot-gelb schraffierte Funktionsbereiche"@de,
             "Rot-gelb schraffierte Funktionsbereiche"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -76,7 +76,7 @@
         skos:notation "RoteGefahrenzonen" ;
         skos:prefLabel "Rote Gefahrenzonen"@de,
             "Rote Gefahrenzonen"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -91,7 +91,7 @@
         skos:notation "UeberflutungsflaechenHQ100" ;
         skos:prefLabel "Überflutungsflächen HQ100"@de,
             "Überflutungsflächen HQ100"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -106,7 +106,7 @@
         skos:notation "UeberflutungsflaechenHQ30" ;
         skos:prefLabel "Überflutungsflächen HQ30"@de,
             "Überflutungsflächen HQ30"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -121,7 +121,7 @@
         skos:notation "UeberflutungsflaechenHQ300" ;
         skos:prefLabel "Überflutungsflächen HQ300"@de,
             "Überflutungsflächen HQ300"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 

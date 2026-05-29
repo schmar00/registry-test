@@ -15,7 +15,7 @@
         skos:notation "KlBeck" ;
         skos:prefLabel "Klagenfurter Becken"@de,
             "Basin of Klagenfurt"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/Naturraumregionen/NAV> a skos:Concept ;
@@ -28,7 +28,7 @@
         skos:notation "NAV" ;
         skos:prefLabel "Nördliches Alpenvorland"@de,
             "northern foothils of the Alps"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/Naturraumregionen/NAlpMiWest> a skos:Concept ;
@@ -41,7 +41,7 @@
         skos:notation "NAlpMiWest" ;
         skos:prefLabel "Mittlere und westliche Nordalpen"@de,
             "middle and western Northalps"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/Naturraumregionen/NAlpOst> a skos:Concept ;
@@ -54,7 +54,7 @@
         skos:notation "NAlpOst" ;
         skos:prefLabel "Östliche Nordalpen"@de,
             "eastern Northalps"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/Naturraumregionen/NoeGrGnHL> a skos:Concept ;
@@ -67,7 +67,7 @@
         skos:notation "NoeGrGnHL" ;
         skos:prefLabel "Nördliches Granit- und Gneishochland"@de,
             "Bohemian Mountains"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/Naturraumregionen/Pann> a skos:Concept ;
@@ -80,7 +80,7 @@
         skos:notation "Pann" ;
         skos:prefLabel "Pannonische Flach- und Hügelländer"@de,
             "pannonian lowland and hills"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/Naturraumregionen/SAlp> a skos:Concept ;
@@ -93,7 +93,7 @@
         skos:notation "SAlp" ;
         skos:prefLabel "Südalpen"@de,
             "Southalps"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/Naturraumregionen/SoeAV> a skos:Concept ;
@@ -106,7 +106,7 @@
         skos:notation "SoeAV" ;
         skos:prefLabel "Südöstliches Alpenvorland"@de,
             "southern foothils of the Alps"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/Naturraumregionen/ZAlpSO> a skos:Concept ;
@@ -119,7 +119,7 @@
         skos:notation "ZAlpSO" ;
         skos:prefLabel "Zentralalpen - südöstlicher Teil"@de,
             "central Alps - southeastern part"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/Naturraumregionen/ZAlpZ> a skos:Concept ;
@@ -132,7 +132,7 @@
         skos:notation "ZAlpZ" ;
         skos:prefLabel "Zentralalpen - zentraler Teil"@de,
             "central Alps - central part"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/Naturraumregionen/NAlp> a skos:Concept ;
@@ -147,7 +147,7 @@
         skos:notation "NAlp" ;
         skos:prefLabel "Nordalpen"@de,
             "Northalps"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/Naturraumregionen/ZAlp> a skos:Concept ;
@@ -162,7 +162,7 @@
         skos:notation "ZAlp" ;
         skos:prefLabel "Zentralalpen"@de,
             "central Alps"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/Naturraumregionen/ALP> a skos:Concept ;
@@ -178,7 +178,7 @@
         skos:notation "ALP" ;
         skos:prefLabel "Alpine Region"@de,
             "alpine region"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/Naturraumregionen> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -195,7 +195,7 @@
         skos:notation "KONT" ;
         skos:prefLabel "Kontinentale Region"@de,
             "continental region"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/Naturraumregionen> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 

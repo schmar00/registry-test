@@ -1,5 +1,1867 @@
 [
   {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VBE",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/E"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "In the zoning plan, as far as special zonings are not determined, the significant conditions for spatial planning, like railways, must be visualized."
+      },
+      {
+        "@language": "de",
+        "@value": "Im Flächenwidmungsplan sind, soweit nicht besondere Widmungen festgelegt werden, die für die Raumplanung bedeutsamen Gegebenheiten, wie Eisenbahnen ersichtlich zu machen."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "VBE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Verkehrsfläche Bahn Ersichtlichmachung"
+      },
+      {
+        "@language": "en",
+        "@value": "traffic area - rail visualization"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BEB",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Future development zones' may only be determined as a consecutive zoning under § 12 section 4 or in the case of rezonings, ruled in § 23 sec. 2 lit. a, Code of Spatial Planning of Vorarlberg. Land, that is not suitable as building zones, must not be zoned in future development zones. Future development zones can be subdivided into core-, residential-, mixed- or operating areas. A distinction is made between category I and category II areas, which are designated for operating facilities."
+      },
+      {
+        "@language": "de",
+        "@value": "Bauerwartungsflächen dürfen nur als Folgewidmung nach §12 Abs. 4 oder bei Umwidmungen nach §23 Abs.2 lit. a Raumplanungsgesetz festgelegt werden. Flächen, die gemäß § 13 Abs. 2 als Bauflächen nicht geeignet sind, dürfen nicht als Bauerwartungsflächen gewidmet werden. Bauerwartungsflächen können in Kern-, Wohn-, Misch- oder Betriebsgebiete unterteilt werden. Es wird zwischen Gebieten, die für Betriebsanlagen bestimmt sind, der Kategorien I und II unterschieden."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "BEB"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "future development zone - operating area"
+      },
+      {
+        "@language": "de",
+        "@value": "Bauerwartungsfläche-Betriebsgebiet"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VF",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Als Verkehrsflächen können Flächen für Straßen und Eisenbahntrassen einschließlich der dazugehörigen Anlagen festgelegt werden."
+      },
+      {
+        "@language": "en",
+        "@value": "Areas and the associated facilities can be determined as traffic areas"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VB"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VS"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VSP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "VF"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "traffic area"
+      },
+      {
+        "@language": "de",
+        "@value": "Verkehrsfläche"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VSPE",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/E"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "In the zoning plan, as far as special zonings are not determined, the significant conditions for spatial planning, like planned state- and federal highways, must be visualized."
+      },
+      {
+        "@language": "de",
+        "@value": "Im Flächenwidmungsplan sind, soweit nicht besondere Widmungen festgelegt werden, die für die Raumplanung bedeutsamen Gegebenheiten, wie geplante Landes-und Bundesstraßen ersichtlich zu machen."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "VSPE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Verkehrsfläche Straße Planung Ersichtlichmachung"
+      },
+      {
+        "@language": "en",
+        "@value": "traffic area - street planning visualization"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/F",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Area designated for dedicated use."
+      },
+      {
+        "@language": "de",
+        "@value": "Fläche für dezidierte Nutzung daklariert."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/FF"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/FL"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/FS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "F"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Freifläche"
+      },
+      {
+        "@language": "en",
+        "@value": "open space"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BK",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/B"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Building zones in the zoning plan (of a municipality) are built-up areas and areas, that are suitable for building due to the natural conditions and are needed as building zones in a foreseeable time, but within 7 years at the longest, and where services can be provided within that time limit. Building zones must be divided into core areas, residential-, mixed- or operating areas, according to necessity and expediency. Core areas are areas in central, local location, which are primarily designated for buildings for administration, trade, educational and other cultural and social facilities, other services and appartments. Other buildings and facilites are permitted, if the character of a core area is not disturbed."
+      },
+      {
+        "@language": "de",
+        "@value": "Bauflächen sind im Flächenwidmungsplan bereits bebaute Flächen und Flächen, die sich aufgrund der natürlichen Verhältnisse für die Bebauung eignen und in absehbarer Zeit, längstens aber innert 7 Jahren, als Bauflächen benötigt werden und innerhalb dieser Frist erschlossen werden können. Bauflächen sind nach Erfordernis und Zweckmäßigkeit in Kern-, Wohn-, Misch- oder Betriebsgebiete zu unterteilen. Kerngebiete sind Gebiete in zentraler innerörtlicher Lage, die vornehmlich für Gebäude für Verwaltung, Handel, Bildungs-und andere kulturelle und soziale Einrichtungen, sonstige Dienstleistungen und Wohnungen bestimmt sind. Andere Gebäude und Anlagen sind zulässig, wenn der Charakter als Kerngebiet nicht gestört wird."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "BK"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "building zone - core area"
+      },
+      {
+        "@language": "de",
+        "@value": "Baufläche-Kerngebiet"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/E",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Areas with intended use has to be determined in the zoning plan."
+      },
+      {
+        "@language": "de",
+        "@value": "Im Flächenwidmungsplan sind, soweit nicht besondere Widmungen festgelegt werden, die für die Raumplanung bedeutsamen Gegebenheiten, ersichtlich zu machen."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/W"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VSPE"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VSE"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/FG"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/V"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VBE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "E"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Ersichtlichmachung"
+      },
+      {
+        "@language": "en",
+        "@value": "visualization"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BEB-I",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Future development zones' may only be determined as a consecutive zoning under § 12 section 4 or in the case of rezonings, ruled in § 23 sec. 2 lit. a, Code of Spatial Planning of Vorarlberg. Land, that is not suitable as building zones, must not be zoned in future development zones. Future development zones can be subdivided into core-, residential-, mixed- or operating areas. Category I operating areas are areas that are intended for operating facilities that do not cause any significant disturbance to the vicinity of the operating area. In the operating area of Category I, the construction of apartments is permitted for those employed in businesses in the area concerned, as well as buildings and facilities that serve the supply and social needs of the population working in such areas. If this is necessary according to the circumstances relevant for spatial planning, zones can be defined in the operating area Category I for the purpose of securing suitable areas for production companies in which buildings and facilities according to Paragraph 6, second sentence lit. a, b or c are not permitted."
+      },
+      {
+        "@language": "de",
+        "@value": "Bauerwartungsflächen dürfen nur als Folgewidmung nach §12 Abs. 4 oder bei Umwidmungen nach §23 Abs.2 lit. a Raumplanungsgesetz festgelegt werden. Flächen, die gemäß § 13 Abs. 2 als Bauflächen nicht geeignet sind, dürfen nicht als Bauerwartungsflächen gewidmet werden. Bauerwartungsflächen können in Kern-, Wohn-, Misch- oder Betriebsgebiete unterteilt werden. Betriebsgebiete Kategorie I sind Gebiete, die für Betriebsanlagen bestimmt sind, die keine wesentlichen Störungen für die Umgebung des Betriebsgebiets verursachen. Im Betriebsgebiet Kategorie I ist die Errichtung von Wohnungen für die in Betrieben des betreffenden Gebiets Beschäftigten sowie von Gebäuden und Anlagen zulässig, die der Versorgung und den sozialen Bedürfnissen der in solchen Gebieten arbeitenden Bevölkerung dienen. Wenn dies nach den für die Raumplanung maßgeblichen Verhältnissen erforderlich ist, können im Betriebsgebiet Kategorie I zum Zwecke der Sicherung geeigneter Flächen für Produktionsbetriebe Zonen festgelegt werden, in denen Gebäude und Anlagen nach Abs. 6 zweiter Satz lit. a, b oder c nicht zulässig sind."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "BEB-I"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "future development zone - category I operating area"
+      },
+      {
+        "@language": "de",
+        "@value": "Bauerwartungsfläche-Betriebsgebiet Kategorie I"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/B",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Bauflächen sind im Flächenwidmungsplan bereits bebaute Flächen und Flächen, die sich aufgrund der natürlichen Verhältnisse für die Bebauung eignen"
+      },
+      {
+        "@language": "en",
+        "@value": "Building areas are areas in the zoning plan that have already been built on and areas that are suitable for building on the basis of natural conditions."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BW"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BM"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BK"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BB-I"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BB-II"
+      },
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BB"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "B"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Baufläche"
+      },
+      {
+        "@language": "en",
+        "@value": "building zone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VS",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VF"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Areas for streets including the associated facilities can be determined as traffic areas. Other projects on these areas are only permitted, if the purpose [of the project] does not interfere with the zoning as traffic area."
+      },
+      {
+        "@language": "de",
+        "@value": "Als Verkehrsflächen können Flächen für Straßen und Eisenbahntrassen einschließlich der dazugehörigen Anlagen festgelegt werden. Andere Vorhaben sind auf solchen Flächen nur zulässig, wenn der Zweck der Widmung als Verkehrsfläche nicht entgegensteht."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "VS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Verkehrsfläche Straße"
+      },
+      {
+        "@language": "en",
+        "@value": "traffic area - street"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VB",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VF"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Areas for railway lines including the associated facilities can be determined as traffic areas. Other projects on these areas are only permitted, if the purpose [of the project] does not interfere with the zoning as traffic area."
+      },
+      {
+        "@language": "de",
+        "@value": "Als Verkehrsflächen können Flächen für Straßen und Eisenbahntrassen einschließlich der dazugehörigen Anlagen festgelegt werden. Andere Vorhaben sind auf solchen Flächen nur zulässig, wenn der Zweck der Widmung als Verkehrsfläche nicht entgegensteht."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "VB"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Verkehrsfläche Bahn"
+      },
+      {
+        "@language": "en",
+        "@value": "traffic area - railway"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/FL",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/F"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "In Landwirtschaftsgebieten ist die Errichtung von Gebäuden und Anlagen zulässig, soweit dies für die bodenabhängige land- und forstwirtschaftliche Nutzung einschließlich der dazu gehörenden erforderlichen Wohnräume und Wohngebäude und für Nebengewerbe der Land-und Forstwirtschaft sowie die häusliche Nebenbeschäftigung notwendig ist."
+      },
+      {
+        "@language": "en",
+        "@value": "In agricultural areas, the construction of buildings and facilities is permitted, as far as it is necessary in terms of the soil-dependent agricultural and silvicultural use, including the associated, necessary residential spaces and residential buildings and for the subsidiary occupation of agriculture and silviculture as well as the domestic external activity."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "FL"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "open space - agricultural area"
+      },
+      {
+        "@language": "de",
+        "@value": "Freifläche-Landwirtschaftsgebiet"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BEM",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Future development zones' may only be determined as a consecutive zoning under § 12 section 4 or in the case of rezonings, ruled in § 23 sec. 2 lit. a, Code of Spatial Planning of Vorarlberg. Land, that is not suitable as building zones, must not be zoned in future development zones. Future development zones can be subdivided into core-, residential-, mixed- or operating areas. Mixed areas are areas, in which residential buildings and other buildings and facilities are permitted, that do not cause a significant disturbance to the living."
+      },
+      {
+        "@language": "de",
+        "@value": "Bauerwartungsflächen dürfen nur als Folgewidmung nach §12 Abs. 4 oder bei Umwidmungen nach §23 Abs.2 lit. a Raumplanungsgesetz festgelegt werden. Flächen, die gemäß § 13 Abs. 2 als Bauflächen nicht geeignet sind, dürfen nicht als Bauerwartungsflächen gewidmet werden. Bauerwartungsflächen können in Kern-, Wohn-, Misch- oder Betriebsgebiete unterteilt werden. Mischgebiete sind Gebiete, in denen Wohngebäude und sonstige Gebäude und Anlagen zulässig sind, die das Wohnen nicht wesentlich stören."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "BEM"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "future development zone - mixed area"
+      },
+      {
+        "@language": "de",
+        "@value": "Bauerwartungsfläche-Mischgebiet"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/FF",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/F"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Zones shall be determined as areas to be kept clear that, in the public interest, especially for the protection of the landscape and the site of local character or due to the natural conditions (groundwater level, soil condition, risk of avalanches, of flooding, of landslide, of rockfall and of slide etc.) have to be kept free of building. All open spaces, that are not zoned as agricultural or exceptional areas, are areas to be kept clear. On forest areas, the construction of buildings and facilities is permitted, as far as it is necessary for silvicultural purposes."
+      },
+      {
+        "@language": "de",
+        "@value": "Als Freihaltegebiete sind Freiflächen festzulegen, die im öffentlichen Interesse, insbesondere zum Schutz des Landschafts-und Ortsbildes oder wegen der natürlichen Verhältnisse (Grundwasserstand, Bodenbeschaffenheit,Lawinen-, Hochwasser-, Vermurungs-, Steinschlag-und Rutschgefahr usw.) von einer Bebauung freizuhalten sind. Alle Freiflächen, die nicht als Landwirtschaftsgebiete oder Sondergebiete gewidmet sind, sind Freihaltegebiete. Auf Waldflächen ist die Errichtung von Gebäuden und Anlagen zulässig, soweit dies für forstwirtschaftliche Zwecke notwendig ist."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "FF"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "open space - area to be kept clear"
+      },
+      {
+        "@language": "de",
+        "@value": "Freifläche-Freihaltegebiet"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/W",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/E"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "In the zoning plan, as far as special zonings are not determined, the significant conditions for spatial planning, like public waters, must be visualized."
+      },
+      {
+        "@language": "de",
+        "@value": "Im Flächenwidmungsplan sind, soweit nicht besondere Widmungen festgelegt werden, die für die Raumplanung bedeutsamen Gegebenheiten, wie öffentliche Gewässer ersichtlich zu machen."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "W"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "waters"
+      },
+      {
+        "@language": "de",
+        "@value": "Gewässer"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BB-II",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/B"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Building zones in the zoning plan (of a municipality) are built-up areas and areas, that are suitable for building due to the natural conditions and are needed as building zones in a foreseeable time, but within 7 years at the longest, and where services can be provided within that time limit. Building zones must be divided into core areas, residential-, mixed- or operating areas, according to necessity and expediency. Category II operating areas are areas, which are primarily destined for operating facilites, that must not be be errected in category I operating areas. In category II operating areas must not be built a) appartments, with the exception of operationally necessary appartments for the supervisory- and maintenance staff, if they are integrated into the business, b) buildings and facilities for sports or leisure purposes c) buildings and facilities for the purpose of trade, provided that the trade does not take place exclusively for the resale of non-basic goods or subordinately in production plants for the sale of goods of predominantly own production."
+      },
+      {
+        "@language": "de",
+        "@value": "Bauflächen sind im Flächenwidmungsplan bereits bebaute Flächen und Flächen, die sich aufgrund der natürlichen Verhältnisse für die Bebauung eignen und in absehbarer Zeit, längstens aber innert 7 Jahren, als Bauflächen benötigt werden und innerhalb dieser Frist erschlossen werden können. Bauflächen sind nach Erfordernis und Zweckmäßigkeit in Kern-, Wohn-, Misch- oder Betriebsgebiete zu unterteilen. Betriebsgebiete Kategorie II sind Gebiete, die vornehmlich für Betriebsanlagen, die im Betriebsgebiet Kategorie I nicht errichtet werden dürfen, bestimmt sind. In Betriebsgebieten Kategorie II dürfen nicht errichtet werden a) Wohnungen, ausgenommen betriebsnotwendige Wohnungen für das Aufsichts-und Wartungspersonal, wenn diese in den Betrieb integriert sind, b) Gebäude und Anlagen für Sport-und Freizeitzwecke und c) Gebäude und Anlagen für Zwecke des Handels, sofern der Handel nicht ausschließlich zum Weiterverkauf von Waren des nicht täglichen Bedarfs oder untergeordnet in Produktionsbetrieben zum Verkauf von Waren überwiegend eigener Produktion erfolgt."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "BB-II"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "building zone - category II operating area"
+      },
+      {
+        "@language": "de",
+        "@value": "Baufläche-Betriebsgebiet Kategorie II"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BEB-II",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Future development zones' may only be determined as a consecutive zoning under § 12 section 4 or in the case of rezonings, ruled in § 23 sec. 2 lit. a, Code of Spatial Planning of Vorarlberg. Land, that is not suitable as building zones, must not be zoned in future development zones. Future development zones can be subdivided into core-, residential-, mixed- or operating areas. Category II operating areas are areas, which are primarily destined for operating facilites, that must not be be errected in category I operating areas. In category II operating areas must not be built a) appartments, with the exception of operationally necessary appartments for the supervisory- and maintenance staff, if they are integrated into the business, b) buildings and facilities for sports or leisure purposes c) buildings and facilities for the purpose of trade, provided that the trade does not take place exclusively for the resale of non-basic goods or subordinately in production plants for the sale of goods of predominantly own production."
+      },
+      {
+        "@language": "de",
+        "@value": "Bauerwartungsflächen dürfen nur als Folgewidmung nach §12 Abs. 4 oder bei Umwidmungen nach §23 Abs.2 lit. a Raumplanungsgesetz festgelegt werden. Flächen, die gemäß § 13 Abs. 2 als Bauflächen nicht geeignet sind, dürfen nicht als Bauerwartungsflächen gewidmet werden. Bauerwartungsflächen können in Kern-, Wohn-, Misch- oder Betriebsgebiete unterteilt werden. Betriebsgebiete Kategorie II sind Gebiete, die vornehmlich für Betriebsanlagen, die im Betriebsgebiet Kategorie I nicht errichtet werden dürfen, bestimmt sind. In Betriebsgebieten Kategorie II dürfen nicht errichtet werden a) Wohnungen, ausgenommen betriebsnotwendige Wohnungen für das Aufsichts-und Wartungspersonal, wenn diese in den Betrieb integriert sind, b) Gebäude und Anlagen für Sport-und Freizeitzwecke und c) Gebäude und Anlagen für Zwecke des Handels, sofern der Handel nicht ausschließlich zum Weiterverkauf von Waren des nicht täglichen Bedarfs oder untergeordnet in Produktionsbetrieben zum Verkauf von Waren überwiegend eigener Produktion erfolgt."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "BEB-II"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "future development area - category II operating area"
+      },
+      {
+        "@language": "de",
+        "@value": "Bauerwartungsfläche-Betriebsgebiet Kategorie II"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BEW",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Future development zones' may only be determined as a consecutive zoning under § 12 section 4 or in the case of rezonings, ruled in § 23 sec. 2 lit. a, Code of Spatial Planning of Vorarlberg. Land, that is not suitable as building zones, must not be zoned in future development zones. Future development zones can be subdivided into core-, residential-, mixed- or operating areas. Residential areas are areas, which are designated for residential buildings. Other buildings and facilities can be errected, if the housing and also otherwise the character as a residential area is not violated."
+      },
+      {
+        "@language": "de",
+        "@value": "Bauerwartungsflächen dürfen nur als Folgewidmung nach §12 Abs. 4 oder bei Umwidmungen nach §23 Abs.2 lit. a Raumplanungsgesetz festgelegt werden. Flächen, die gemäß § 13 Abs. 2 als Bauflächen nicht geeignet sind, dürfen nicht als Bauerwartungsflächen gewidmet werden. Bauerwartungsflächen können in Kern-, Wohn-, Misch- oder Betriebsgebiete unterteilt werden. Wohngebiete sind Gebiete, die für Wohngebäude bestimmt sind. Andere Gebäude und Anlagen dürfen in Wohngebieten errichtet werden, wenn dadurch das Wohnen und auch sonst der Charakter als Wohngebiet nicht gestört wird."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "BEW"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "future development zone - residential area"
+      },
+      {
+        "@language": "de",
+        "@value": "Bauerwartungsfläche-Wohngebiet"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/V",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/E"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "In building zones, future development areas or open spaces (base zoning), such areas can be determined, that serve purposes of common needs or are expected to be needed within 20 years fo these purposes (reserved area). The intended use has to be determined in the zoning plan."
+      },
+      {
+        "@language": "de",
+        "@value": "In Bauflächen, Bauerwartungsflächen oder Freiflächen (Grundwidmung) können Flächen festgelegt werden, die Zwecken des Gemeinbedarfs dienen oder für solche Zwecke voraussichtlich innerhalb von 20 Jahren benötigt werden (Vorbehaltsflächen). Die vorgesehene Verwendung ist im Flächenwidmungsplan anzugeben."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "V"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Vorbehaltsfläche"
+      },
+      {
+        "@language": "en",
+        "@value": "reserved area"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BEK",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Future development zones' may only be determined as a consecutive zoning under § 12 section 4 or in the case of rezonings, ruled in § 23 sec. 2 lit. a, Code of Spatial Planning of Vorarlberg. Land, that is not suitable as building zones, must not be zoned in future development zones. Future development zones can be subdivided into core-, residential-, mixed- or operating areas. Core areas are areas in central, local location, which are primarily designated for buildings for administration, trade, educational and other cultural and social facilities, other services and appartments. Other buildings and facilites are permitted, if the character of a core area is not violated."
+      },
+      {
+        "@language": "de",
+        "@value": "Bauerwartungsflächen dürfen nur als Folgewidmung nach §12 Abs. 4 oder bei Umwidmungen nach §23 Abs.2 lit. a Raumplanungsgesetz festgelegt werden."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "BEK"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "future development zone - core area"
+      },
+      {
+        "@language": "de",
+        "@value": "Bauerwartungsfläche"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BB",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/B"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Building zones in the zoning plan (of a municipality) are built-up areas and areas, that are suitable for building due to the natural conditions and are needed as building zones in a foreseeable time, but within 7 years at the longest, and where services can be provided within that time limit. Building zones must be divided into core areas, residential-, mixed- or operating areas, according to necessity and expediency. A distinction is made between category I and category II areas, which are designated for operating facilities."
+      },
+      {
+        "@language": "de",
+        "@value": "Bauflächen sind im Flächenwidmungsplan bereits bebaute Flächen und Flächen, die sich aufgrund der natürlichen Verhältnisse für die Bebauung eignen und in absehbarer Zeit, längstens aber innert 7 Jahren, als Bauflächen benötigt werden und innerhalb dieser Frist erschlossen werden können. Bauflächen sind nach Erfordernis und Zweckmäßigkeit in Kern-, Wohn-, Misch- oder Betriebsgebiete zu unterteilen. Es wird zwischen Gebieten, die für Betriebsanlagen bestimmt sind, der Kategorien I und II unterschieden."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "BB"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "building zone - operating area"
+      },
+      {
+        "@language": "de",
+        "@value": "Baufläche-Betriebsgebiet"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BB-I",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/B"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Building zones in the zoning plan (of a municipality) are built-up areas and areas, that are suitable for building due to the natural conditions and are needed as building zones in a foreseeable time, but within 7 years at the longest, and where services can be provided within that time limit. Building zones must be divided into core areas, residential-, mixed- or operating areas, according to necessity and expediency. Category I operating areas are areas that are intended for operating facilities that do not cause any significant disturbance to the vicinity of the operating area. In the operating area of Category I, the construction of apartments is permitted for those employed in businesses in the area concerned, as well as buildings and facilities that serve the supply and social needs of the population working in such areas. If this is necessary according to the circumstances relevant for spatial planning, zones can be defined in the operating area Category I for the purpose of securing suitable areas for production companies in which buildings and facilities according to Paragraph 6, second sentence lit. a, b or c are not permitted."
+      },
+      {
+        "@language": "de",
+        "@value": "Bauflächen sind im Flächenwidmungsplan bereits bebaute Flächen und Flächen, die sich aufgrund der natürlichen Verhältnisse für die Bebauung eignen und in absehbarer Zeit, längstens aber innert 7 Jahren, als Bauflächen benötigt werden und innerhalb dieser Frist erschlossen werden können. Bauflächen sind nach Erfordernis und Zweckmäßigkeit in Kern-, Wohn-, Misch- oder Betriebsgebiete zu unterteilen. Betriebsgebiete Kategorie I sind Gebiete, die für Betriebsanlagen bestimmt sind, die keine wesentlichen Störungen für die Umgebung des Betriebsgebiets verursachen. Im Betriebsgebiet Kategorie I ist die Errichtung von Wohnungen für die in Betrieben des betreffenden Gebiets Beschäftigten sowie von Gebäuden und Anlagen zulässig, die der Versorgung und den sozialen Bedürfnissen der in solchen Gebieten arbeitenden Bevölkerung dienen. Wenn dies nach den für die Raumplanung maßgeblichen Verhältnissen erforderlich ist, können im Betriebsgebiet Kategorie I zum Zwecke der Sicherung geeigneter Flächen für Produktionsbetriebe Zonen festgelegt werden, in denen Gebäude und Anlagen nach Abs. 6 zweiter Satz lit. a, b oder c nicht zulässig sind."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "BB-I"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "building zone - category I operating area"
+      },
+      {
+        "@language": "de",
+        "@value": "Baufläche-Betriebsgebiet Kategorie I"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/FS",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/F"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Zones can be determined as exceptional areas, on which buildings and facilities can be errected, that are tied to a specific location or are highly suited for a specific location, as e.g. areas for allotments, commercial gardening, playgrounds, recreational- and sports facilities, camping grounds, excurison inns, refuges, stone quarries, gravel pits, facilities to load spring water as well as the extraction of ground water, shooting ranges and explosive storage depots. The intended use has to be cited in the zoning."
+      },
+      {
+        "@language": "de",
+        "@value": "Als Sondergebiete können Flächen festgelegt werden, auf denen Gebäude und Anlagen errichtet werden dürfen, die ihrer Zweckwidmung nach an einen bestimmten Standort gebunden sind oder sich an einem bestimmten Standort besonders eignen, wie z.B. Flächen für Kleingärten, gewerbliche Gärtnereien, Kinderspielplätze, Erholungs-und Sportanlagen, Campingplätze, Ausflugsgasthöfe, Schutzhütten, Steinbrüche, Kiesgruben, Anlagen zur Fassung von Quell-sowie zur Entnahme von Grundwasser, Schießstätten und Sprengmittellager. Der vorgesehene Verwendungszweck ist in der Widmung anzuführen."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "FS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "open space - exceptional area"
+      },
+      {
+        "@language": "de",
+        "@value": "Freifläche-Sondergebiet"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/FG",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/E"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "In the zoning plan, as far as special zonings are not determined, the significant conditions for spatial planning, like forest areas, must be visualised."
+      },
+      {
+        "@language": "de",
+        "@value": "Im Flächenwidmungsplan sind, soweit nicht besondere Widmungen festgelegt werden, die für die Raumplanung bedeutsamen Gegebenheiten, wie Waldflächen ersichtlich zu machen."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "FG"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Waldfläche"
+      },
+      {
+        "@language": "en",
+        "@value": "forest area"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BW",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Def. VBG"
+      },
+      {
+        "@language": "de",
+        "@value": "Def. VBG"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://inspire.ec.europa.eu/theme/lu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/B"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Building zones in the zoning plan (of a municipality) are built-up areas and areas, that are suitable for building due to the natural conditions and are needed as building zones in a foreseeable time, but within 7 years at the longest, and where services can be provided within that time limit. Building zones must be divided into core areas, residential-, mixed- or operating areas, according to necessity and expediency. Residential areas are areas, which are designated for residential buildings. Other buildings and facilities can be errected, if the housing and also otherwise the character as a residential area is not violated."
+      },
+      {
+        "@language": "de",
+        "@value": "Bauflächen sind im Flächenwidmungsplan bereits bebaute Flächen und Flächen, die sich aufgrund der natürlichen Verhältnisse für die Bebauung eignen und in absehbarer Zeit, längstens aber innert 7 Jahren, als Bauflächen benötigt werden und innerhalb dieser Frist erschlossen werden können. Bauflächen sind nach Erfordernis und Zweckmäßigkeit in Kern-, Wohn-, Misch- oder Betriebsgebiete zu unterteilen. Wohngebiete sind Gebiete, die für Wohngebäude bestimmt sind. Andere Gebäude und Anlagen dürfen in Wohngebieten errichtet werden, wenn dadurch das Wohnen und auch sonst der Charakter als Wohngebiet nicht gestört wird."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "BW"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "building zone - residential area"
+      },
+      {
+        "@language": "de",
+        "@value": "Baufläche-Wohngebiet"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "INSPIRE governance level: national-technical"
+      }
+    ],
+    "http://www.w3.org/ns/adms#status": [
+      {
+        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
+      }
+    ]
+  },
+  {
     "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -146,219 +2008,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BW",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
         "@language": "en",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/B"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Building zones in the zoning plan (of a municipality) are built-up areas and areas, that are suitable for building due to the natural conditions and are needed as building zones in a foreseeable time, but within 7 years at the longest, and where services can be provided within that time limit. Building zones must be divided into core areas, residential-, mixed- or operating areas, according to necessity and expediency. Residential areas are areas, which are designated for residential buildings. Other buildings and facilities can be errected, if the housing and also otherwise the character as a residential area is not violated."
-      },
-      {
-        "@language": "de",
-        "@value": "Bauflächen sind im Flächenwidmungsplan bereits bebaute Flächen und Flächen, die sich aufgrund der natürlichen Verhältnisse für die Bebauung eignen und in absehbarer Zeit, längstens aber innert 7 Jahren, als Bauflächen benötigt werden und innerhalb dieser Frist erschlossen werden können. Bauflächen sind nach Erfordernis und Zweckmäßigkeit in Kern-, Wohn-, Misch- oder Betriebsgebiete zu unterteilen. Wohngebiete sind Gebiete, die für Wohngebäude bestimmt sind. Andere Gebäude und Anlagen dürfen in Wohngebieten errichtet werden, wenn dadurch das Wohnen und auch sonst der Charakter als Wohngebiet nicht gestört wird."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BW"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "building zone - residential area"
-      },
-      {
-        "@language": "de",
-        "@value": "Baufläche-Wohngebiet"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BEB",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BE"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Future development zones' may only be determined as a consecutive zoning under § 12 section 4 or in the case of rezonings, ruled in § 23 sec. 2 lit. a, Code of Spatial Planning of Vorarlberg. Land, that is not suitable as building zones, must not be zoned in future development zones. Future development zones can be subdivided into core-, residential-, mixed- or operating areas. A distinction is made between category I and category II areas, which are designated for operating facilities."
-      },
-      {
-        "@language": "de",
-        "@value": "Bauerwartungsflächen dürfen nur als Folgewidmung nach §12 Abs. 4 oder bei Umwidmungen nach §23 Abs.2 lit. a Raumplanungsgesetz festgelegt werden. Flächen, die gemäß § 13 Abs. 2 als Bauflächen nicht geeignet sind, dürfen nicht als Bauerwartungsflächen gewidmet werden. Bauerwartungsflächen können in Kern-, Wohn-, Misch- oder Betriebsgebiete unterteilt werden. Es wird zwischen Gebieten, die für Betriebsanlagen bestimmt sind, der Kategorien I und II unterschieden."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BEB"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "future development zone - operating area"
-      },
-      {
-        "@language": "de",
-        "@value": "Bauerwartungsfläche-Betriebsgebiet"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VBE",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/E"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "In the zoning plan, as far as special zonings are not determined, the significant conditions for spatial planning, like railways, must be visualized."
-      },
-      {
-        "@language": "de",
-        "@value": "Im Flächenwidmungsplan sind, soweit nicht besondere Widmungen festgelegt werden, die für die Raumplanung bedeutsamen Gegebenheiten, wie Eisenbahnen ersichtlich zu machen."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "VBE"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Verkehrsfläche Bahn Ersichtlichmachung"
-      },
-      {
-        "@language": "en",
-        "@value": "traffic area - rail visualization"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -445,1457 +2095,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/W",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
         "@language": "en",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/E"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "In the zoning plan, as far as special zonings are not determined, the significant conditions for spatial planning, like public waters, must be visualized."
-      },
-      {
-        "@language": "de",
-        "@value": "Im Flächenwidmungsplan sind, soweit nicht besondere Widmungen festgelegt werden, die für die Raumplanung bedeutsamen Gegebenheiten, wie öffentliche Gewässer ersichtlich zu machen."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "W"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "waters"
-      },
-      {
-        "@language": "de",
-        "@value": "Gewässer"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/V",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/E"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "In building zones, future development areas or open spaces (base zoning), such areas can be determined, that serve purposes of common needs or are expected to be needed within 20 years fo these purposes (reserved area). The intended use has to be determined in the zoning plan."
-      },
-      {
-        "@language": "de",
-        "@value": "In Bauflächen, Bauerwartungsflächen oder Freiflächen (Grundwidmung) können Flächen festgelegt werden, die Zwecken des Gemeinbedarfs dienen oder für solche Zwecke voraussichtlich innerhalb von 20 Jahren benötigt werden (Vorbehaltsflächen). Die vorgesehene Verwendung ist im Flächenwidmungsplan anzugeben."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "V"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Vorbehaltsfläche"
-      },
-      {
-        "@language": "en",
-        "@value": "reserved area"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BM",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/B"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Building zones in the zoning plan (of a municipality) are built-up areas and areas, that are suitable for building due to the natural conditions and are needed as building zones in a foreseeable time, but within 7 years at the longest, and where services can be provided within that time limit. Building zones must be divided into core areas, residential-, mixed- or operating areas, according to necessity and expediency. Mixed areas are areas, in which residential buildings and other buildings and facilities are permitted, that do not cause a significant disturbance to the living."
-      },
-      {
-        "@language": "de",
-        "@value": "Bauflächen sind im Flächenwidmungsplan bereits bebaute Flächen und Flächen, die sich aufgrund der natürlichen Verhältnisse für die Bebauung eignen und in absehbarer Zeit, längstens aber innert 7 Jahren, als Bauflächen benötigt werden und innerhalb dieser Frist erschlossen werden können. Bauflächen sind nach Erfordernis und Zweckmäßigkeit in Kern-, Wohn-, Misch- oder Betriebsgebiete zu unterteilen. Mischgebiete sind Gebiete, in denen Wohngebäude und sonstige Gebäude und Anlagen zulässig sind, die das Wohnen nicht wesentlich stören."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BM"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "building zone - mixed area"
-      },
-      {
-        "@language": "de",
-        "@value": "Baufläche-Mischgebiet"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/FL",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/F"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "In Landwirtschaftsgebieten ist die Errichtung von Gebäuden und Anlagen zulässig, soweit dies für die bodenabhängige land- und forstwirtschaftliche Nutzung einschließlich der dazu gehörenden erforderlichen Wohnräume und Wohngebäude und für Nebengewerbe der Land-und Forstwirtschaft sowie die häusliche Nebenbeschäftigung notwendig ist."
-      },
-      {
-        "@language": "en",
-        "@value": "In agricultural areas, the construction of buildings and facilities is permitted, as far as it is necessary in terms of the soil-dependent agricultural and silvicultural use, including the associated, necessary residential spaces and residential buildings and for the subsidiary occupation of agriculture and silviculture as well as the domestic external activity."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "FL"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "open space - agricultural area"
-      },
-      {
-        "@language": "de",
-        "@value": "Freifläche-Landwirtschaftsgebiet"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VS",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VF"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Areas for streets including the associated facilities can be determined as traffic areas. Other projects on these areas are only permitted, if the purpose [of the project] does not interfere with the zoning as traffic area."
-      },
-      {
-        "@language": "de",
-        "@value": "Als Verkehrsflächen können Flächen für Straßen und Eisenbahntrassen einschließlich der dazugehörigen Anlagen festgelegt werden. Andere Vorhaben sind auf solchen Flächen nur zulässig, wenn der Zweck der Widmung als Verkehrsfläche nicht entgegensteht."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "VS"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Verkehrsfläche Straße"
-      },
-      {
-        "@language": "en",
-        "@value": "traffic area - street"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BB-I",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/B"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Building zones in the zoning plan (of a municipality) are built-up areas and areas, that are suitable for building due to the natural conditions and are needed as building zones in a foreseeable time, but within 7 years at the longest, and where services can be provided within that time limit. Building zones must be divided into core areas, residential-, mixed- or operating areas, according to necessity and expediency. Category I operating areas are areas that are intended for operating facilities that do not cause any significant disturbance to the vicinity of the operating area. In the operating area of Category I, the construction of apartments is permitted for those employed in businesses in the area concerned, as well as buildings and facilities that serve the supply and social needs of the population working in such areas. If this is necessary according to the circumstances relevant for spatial planning, zones can be defined in the operating area Category I for the purpose of securing suitable areas for production companies in which buildings and facilities according to Paragraph 6, second sentence lit. a, b or c are not permitted."
-      },
-      {
-        "@language": "de",
-        "@value": "Bauflächen sind im Flächenwidmungsplan bereits bebaute Flächen und Flächen, die sich aufgrund der natürlichen Verhältnisse für die Bebauung eignen und in absehbarer Zeit, längstens aber innert 7 Jahren, als Bauflächen benötigt werden und innerhalb dieser Frist erschlossen werden können. Bauflächen sind nach Erfordernis und Zweckmäßigkeit in Kern-, Wohn-, Misch- oder Betriebsgebiete zu unterteilen. Betriebsgebiete Kategorie I sind Gebiete, die für Betriebsanlagen bestimmt sind, die keine wesentlichen Störungen für die Umgebung des Betriebsgebiets verursachen. Im Betriebsgebiet Kategorie I ist die Errichtung von Wohnungen für die in Betrieben des betreffenden Gebiets Beschäftigten sowie von Gebäuden und Anlagen zulässig, die der Versorgung und den sozialen Bedürfnissen der in solchen Gebieten arbeitenden Bevölkerung dienen. Wenn dies nach den für die Raumplanung maßgeblichen Verhältnissen erforderlich ist, können im Betriebsgebiet Kategorie I zum Zwecke der Sicherung geeigneter Flächen für Produktionsbetriebe Zonen festgelegt werden, in denen Gebäude und Anlagen nach Abs. 6 zweiter Satz lit. a, b oder c nicht zulässig sind."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BB-I"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "building zone - category I operating area"
-      },
-      {
-        "@language": "de",
-        "@value": "Baufläche-Betriebsgebiet Kategorie I"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BEW",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BE"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Future development zones' may only be determined as a consecutive zoning under § 12 section 4 or in the case of rezonings, ruled in § 23 sec. 2 lit. a, Code of Spatial Planning of Vorarlberg. Land, that is not suitable as building zones, must not be zoned in future development zones. Future development zones can be subdivided into core-, residential-, mixed- or operating areas. Residential areas are areas, which are designated for residential buildings. Other buildings and facilities can be errected, if the housing and also otherwise the character as a residential area is not violated."
-      },
-      {
-        "@language": "de",
-        "@value": "Bauerwartungsflächen dürfen nur als Folgewidmung nach §12 Abs. 4 oder bei Umwidmungen nach §23 Abs.2 lit. a Raumplanungsgesetz festgelegt werden. Flächen, die gemäß § 13 Abs. 2 als Bauflächen nicht geeignet sind, dürfen nicht als Bauerwartungsflächen gewidmet werden. Bauerwartungsflächen können in Kern-, Wohn-, Misch- oder Betriebsgebiete unterteilt werden. Wohngebiete sind Gebiete, die für Wohngebäude bestimmt sind. Andere Gebäude und Anlagen dürfen in Wohngebieten errichtet werden, wenn dadurch das Wohnen und auch sonst der Charakter als Wohngebiet nicht gestört wird."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BEW"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "future development zone - residential area"
-      },
-      {
-        "@language": "de",
-        "@value": "Bauerwartungsfläche-Wohngebiet"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BB-II",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/B"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Building zones in the zoning plan (of a municipality) are built-up areas and areas, that are suitable for building due to the natural conditions and are needed as building zones in a foreseeable time, but within 7 years at the longest, and where services can be provided within that time limit. Building zones must be divided into core areas, residential-, mixed- or operating areas, according to necessity and expediency. Category II operating areas are areas, which are primarily destined for operating facilites, that must not be be errected in category I operating areas. In category II operating areas must not be built a) appartments, with the exception of operationally necessary appartments for the supervisory- and maintenance staff, if they are integrated into the business, b) buildings and facilities for sports or leisure purposes c) buildings and facilities for the purpose of trade, provided that the trade does not take place exclusively for the resale of non-basic goods or subordinately in production plants for the sale of goods of predominantly own production."
-      },
-      {
-        "@language": "de",
-        "@value": "Bauflächen sind im Flächenwidmungsplan bereits bebaute Flächen und Flächen, die sich aufgrund der natürlichen Verhältnisse für die Bebauung eignen und in absehbarer Zeit, längstens aber innert 7 Jahren, als Bauflächen benötigt werden und innerhalb dieser Frist erschlossen werden können. Bauflächen sind nach Erfordernis und Zweckmäßigkeit in Kern-, Wohn-, Misch- oder Betriebsgebiete zu unterteilen. Betriebsgebiete Kategorie II sind Gebiete, die vornehmlich für Betriebsanlagen, die im Betriebsgebiet Kategorie I nicht errichtet werden dürfen, bestimmt sind. In Betriebsgebieten Kategorie II dürfen nicht errichtet werden a) Wohnungen, ausgenommen betriebsnotwendige Wohnungen für das Aufsichts-und Wartungspersonal, wenn diese in den Betrieb integriert sind, b) Gebäude und Anlagen für Sport-und Freizeitzwecke und c) Gebäude und Anlagen für Zwecke des Handels, sofern der Handel nicht ausschließlich zum Weiterverkauf von Waren des nicht täglichen Bedarfs oder untergeordnet in Produktionsbetrieben zum Verkauf von Waren überwiegend eigener Produktion erfolgt."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BB-II"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "building zone - category II operating area"
-      },
-      {
-        "@language": "de",
-        "@value": "Baufläche-Betriebsgebiet Kategorie II"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BEM",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BE"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Future development zones' may only be determined as a consecutive zoning under § 12 section 4 or in the case of rezonings, ruled in § 23 sec. 2 lit. a, Code of Spatial Planning of Vorarlberg. Land, that is not suitable as building zones, must not be zoned in future development zones. Future development zones can be subdivided into core-, residential-, mixed- or operating areas. Mixed areas are areas, in which residential buildings and other buildings and facilities are permitted, that do not cause a significant disturbance to the living."
-      },
-      {
-        "@language": "de",
-        "@value": "Bauerwartungsflächen dürfen nur als Folgewidmung nach §12 Abs. 4 oder bei Umwidmungen nach §23 Abs.2 lit. a Raumplanungsgesetz festgelegt werden. Flächen, die gemäß § 13 Abs. 2 als Bauflächen nicht geeignet sind, dürfen nicht als Bauerwartungsflächen gewidmet werden. Bauerwartungsflächen können in Kern-, Wohn-, Misch- oder Betriebsgebiete unterteilt werden. Mischgebiete sind Gebiete, in denen Wohngebäude und sonstige Gebäude und Anlagen zulässig sind, die das Wohnen nicht wesentlich stören."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BEM"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "future development zone - mixed area"
-      },
-      {
-        "@language": "de",
-        "@value": "Bauerwartungsfläche-Mischgebiet"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BEK",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BE"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Future development zones' may only be determined as a consecutive zoning under § 12 section 4 or in the case of rezonings, ruled in § 23 sec. 2 lit. a, Code of Spatial Planning of Vorarlberg. Land, that is not suitable as building zones, must not be zoned in future development zones. Future development zones can be subdivided into core-, residential-, mixed- or operating areas. Core areas are areas in central, local location, which are primarily designated for buildings for administration, trade, educational and other cultural and social facilities, other services and appartments. Other buildings and facilites are permitted, if the character of a core area is not violated."
-      },
-      {
-        "@language": "de",
-        "@value": "Bauerwartungsflächen dürfen nur als Folgewidmung nach §12 Abs. 4 oder bei Umwidmungen nach §23 Abs.2 lit. a Raumplanungsgesetz festgelegt werden."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BEK"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "future development zone - core area"
-      },
-      {
-        "@language": "de",
-        "@value": "Bauerwartungsfläche"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BEB-I",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BE"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Future development zones' may only be determined as a consecutive zoning under § 12 section 4 or in the case of rezonings, ruled in § 23 sec. 2 lit. a, Code of Spatial Planning of Vorarlberg. Land, that is not suitable as building zones, must not be zoned in future development zones. Future development zones can be subdivided into core-, residential-, mixed- or operating areas. Category I operating areas are areas that are intended for operating facilities that do not cause any significant disturbance to the vicinity of the operating area. In the operating area of Category I, the construction of apartments is permitted for those employed in businesses in the area concerned, as well as buildings and facilities that serve the supply and social needs of the population working in such areas. If this is necessary according to the circumstances relevant for spatial planning, zones can be defined in the operating area Category I for the purpose of securing suitable areas for production companies in which buildings and facilities according to Paragraph 6, second sentence lit. a, b or c are not permitted."
-      },
-      {
-        "@language": "de",
-        "@value": "Bauerwartungsflächen dürfen nur als Folgewidmung nach §12 Abs. 4 oder bei Umwidmungen nach §23 Abs.2 lit. a Raumplanungsgesetz festgelegt werden. Flächen, die gemäß § 13 Abs. 2 als Bauflächen nicht geeignet sind, dürfen nicht als Bauerwartungsflächen gewidmet werden. Bauerwartungsflächen können in Kern-, Wohn-, Misch- oder Betriebsgebiete unterteilt werden. Betriebsgebiete Kategorie I sind Gebiete, die für Betriebsanlagen bestimmt sind, die keine wesentlichen Störungen für die Umgebung des Betriebsgebiets verursachen. Im Betriebsgebiet Kategorie I ist die Errichtung von Wohnungen für die in Betrieben des betreffenden Gebiets Beschäftigten sowie von Gebäuden und Anlagen zulässig, die der Versorgung und den sozialen Bedürfnissen der in solchen Gebieten arbeitenden Bevölkerung dienen. Wenn dies nach den für die Raumplanung maßgeblichen Verhältnissen erforderlich ist, können im Betriebsgebiet Kategorie I zum Zwecke der Sicherung geeigneter Flächen für Produktionsbetriebe Zonen festgelegt werden, in denen Gebäude und Anlagen nach Abs. 6 zweiter Satz lit. a, b oder c nicht zulässig sind."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BEB-I"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "future development zone - category I operating area"
-      },
-      {
-        "@language": "de",
-        "@value": "Bauerwartungsfläche-Betriebsgebiet Kategorie I"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/FG",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/E"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "In the zoning plan, as far as special zonings are not determined, the significant conditions for spatial planning, like forest areas, must be visualised."
-      },
-      {
-        "@language": "de",
-        "@value": "Im Flächenwidmungsplan sind, soweit nicht besondere Widmungen festgelegt werden, die für die Raumplanung bedeutsamen Gegebenheiten, wie Waldflächen ersichtlich zu machen."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "FG"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Waldfläche"
-      },
-      {
-        "@language": "en",
-        "@value": "forest area"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BEB-II",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BE"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Future development zones' may only be determined as a consecutive zoning under § 12 section 4 or in the case of rezonings, ruled in § 23 sec. 2 lit. a, Code of Spatial Planning of Vorarlberg. Land, that is not suitable as building zones, must not be zoned in future development zones. Future development zones can be subdivided into core-, residential-, mixed- or operating areas. Category II operating areas are areas, which are primarily destined for operating facilites, that must not be be errected in category I operating areas. In category II operating areas must not be built a) appartments, with the exception of operationally necessary appartments for the supervisory- and maintenance staff, if they are integrated into the business, b) buildings and facilities for sports or leisure purposes c) buildings and facilities for the purpose of trade, provided that the trade does not take place exclusively for the resale of non-basic goods or subordinately in production plants for the sale of goods of predominantly own production."
-      },
-      {
-        "@language": "de",
-        "@value": "Bauerwartungsflächen dürfen nur als Folgewidmung nach §12 Abs. 4 oder bei Umwidmungen nach §23 Abs.2 lit. a Raumplanungsgesetz festgelegt werden. Flächen, die gemäß § 13 Abs. 2 als Bauflächen nicht geeignet sind, dürfen nicht als Bauerwartungsflächen gewidmet werden. Bauerwartungsflächen können in Kern-, Wohn-, Misch- oder Betriebsgebiete unterteilt werden. Betriebsgebiete Kategorie II sind Gebiete, die vornehmlich für Betriebsanlagen, die im Betriebsgebiet Kategorie I nicht errichtet werden dürfen, bestimmt sind. In Betriebsgebieten Kategorie II dürfen nicht errichtet werden a) Wohnungen, ausgenommen betriebsnotwendige Wohnungen für das Aufsichts-und Wartungspersonal, wenn diese in den Betrieb integriert sind, b) Gebäude und Anlagen für Sport-und Freizeitzwecke und c) Gebäude und Anlagen für Zwecke des Handels, sofern der Handel nicht ausschließlich zum Weiterverkauf von Waren des nicht täglichen Bedarfs oder untergeordnet in Produktionsbetrieben zum Verkauf von Waren überwiegend eigener Produktion erfolgt."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BEB-II"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "future development area - category II operating area"
-      },
-      {
-        "@language": "de",
-        "@value": "Bauerwartungsfläche-Betriebsgebiet Kategorie II"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/FS",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/F"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Zones can be determined as exceptional areas, on which buildings and facilities can be errected, that are tied to a specific location or are highly suited for a specific location, as e.g. areas for allotments, commercial gardening, playgrounds, recreational- and sports facilities, camping grounds, excurison inns, refuges, stone quarries, gravel pits, facilities to load spring water as well as the extraction of ground water, shooting ranges and explosive storage depots. The intended use has to be cited in the zoning."
-      },
-      {
-        "@language": "de",
-        "@value": "Als Sondergebiete können Flächen festgelegt werden, auf denen Gebäude und Anlagen errichtet werden dürfen, die ihrer Zweckwidmung nach an einen bestimmten Standort gebunden sind oder sich an einem bestimmten Standort besonders eignen, wie z.B. Flächen für Kleingärten, gewerbliche Gärtnereien, Kinderspielplätze, Erholungs-und Sportanlagen, Campingplätze, Ausflugsgasthöfe, Schutzhütten, Steinbrüche, Kiesgruben, Anlagen zur Fassung von Quell-sowie zur Entnahme von Grundwasser, Schießstätten und Sprengmittellager. Der vorgesehene Verwendungszweck ist in der Widmung anzuführen."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "FS"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "open space - exceptional area"
-      },
-      {
-        "@language": "de",
-        "@value": "Freifläche-Sondergebiet"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/E",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Areas with intended use has to be determined in the zoning plan."
-      },
-      {
-        "@language": "de",
-        "@value": "Im Flächenwidmungsplan sind, soweit nicht besondere Widmungen festgelegt werden, die für die Raumplanung bedeutsamen Gegebenheiten, ersichtlich zu machen."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/W"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VSPE"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VSE"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/FG"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/V"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VBE"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "E"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Ersichtlichmachung"
-      },
-      {
-        "@language": "en",
-        "@value": "visualization"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VSPE",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/E"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "In the zoning plan, as far as special zonings are not determined, the significant conditions for spatial planning, like planned state- and federal highways, must be visualized."
-      },
-      {
-        "@language": "de",
-        "@value": "Im Flächenwidmungsplan sind, soweit nicht besondere Widmungen festgelegt werden, die für die Raumplanung bedeutsamen Gegebenheiten, wie geplante Landes-und Bundesstraßen ersichtlich zu machen."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "VSPE"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Verkehrsfläche Straße Planung Ersichtlichmachung"
-      },
-      {
-        "@language": "en",
-        "@value": "traffic area - street planning visualization"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BK",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/B"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Building zones in the zoning plan (of a municipality) are built-up areas and areas, that are suitable for building due to the natural conditions and are needed as building zones in a foreseeable time, but within 7 years at the longest, and where services can be provided within that time limit. Building zones must be divided into core areas, residential-, mixed- or operating areas, according to necessity and expediency. Core areas are areas in central, local location, which are primarily designated for buildings for administration, trade, educational and other cultural and social facilities, other services and appartments. Other buildings and facilites are permitted, if the character of a core area is not disturbed."
-      },
-      {
-        "@language": "de",
-        "@value": "Bauflächen sind im Flächenwidmungsplan bereits bebaute Flächen und Flächen, die sich aufgrund der natürlichen Verhältnisse für die Bebauung eignen und in absehbarer Zeit, längstens aber innert 7 Jahren, als Bauflächen benötigt werden und innerhalb dieser Frist erschlossen werden können. Bauflächen sind nach Erfordernis und Zweckmäßigkeit in Kern-, Wohn-, Misch- oder Betriebsgebiete zu unterteilen. Kerngebiete sind Gebiete in zentraler innerörtlicher Lage, die vornehmlich für Gebäude für Verwaltung, Handel, Bildungs-und andere kulturelle und soziale Einrichtungen, sonstige Dienstleistungen und Wohnungen bestimmt sind. Andere Gebäude und Anlagen sind zulässig, wenn der Charakter als Kerngebiet nicht gestört wird."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BK"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "building zone - core area"
-      },
-      {
-        "@language": "de",
-        "@value": "Baufläche-Kerngebiet"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BB",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/B"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Building zones in the zoning plan (of a municipality) are built-up areas and areas, that are suitable for building due to the natural conditions and are needed as building zones in a foreseeable time, but within 7 years at the longest, and where services can be provided within that time limit. Building zones must be divided into core areas, residential-, mixed- or operating areas, according to necessity and expediency. A distinction is made between category I and category II areas, which are designated for operating facilities."
-      },
-      {
-        "@language": "de",
-        "@value": "Bauflächen sind im Flächenwidmungsplan bereits bebaute Flächen und Flächen, die sich aufgrund der natürlichen Verhältnisse für die Bebauung eignen und in absehbarer Zeit, längstens aber innert 7 Jahren, als Bauflächen benötigt werden und innerhalb dieser Frist erschlossen werden können. Bauflächen sind nach Erfordernis und Zweckmäßigkeit in Kern-, Wohn-, Misch- oder Betriebsgebiete zu unterteilen. Es wird zwischen Gebieten, die für Betriebsanlagen bestimmt sind, der Kategorien I und II unterschieden."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "BB"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "building zone - operating area"
-      },
-      {
-        "@language": "de",
-        "@value": "Baufläche-Betriebsgebiet"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/FF",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/F"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Zones shall be determined as areas to be kept clear that, in the public interest, especially for the protection of the landscape and the site of local character or due to the natural conditions (groundwater level, soil condition, risk of avalanches, of flooding, of landslide, of rockfall and of slide etc.) have to be kept free of building. All open spaces, that are not zoned as agricultural or exceptional areas, are areas to be kept clear. On forest areas, the construction of buildings and facilities is permitted, as far as it is necessary for silvicultural purposes."
-      },
-      {
-        "@language": "de",
-        "@value": "Als Freihaltegebiete sind Freiflächen festzulegen, die im öffentlichen Interesse, insbesondere zum Schutz des Landschafts-und Ortsbildes oder wegen der natürlichen Verhältnisse (Grundwasserstand, Bodenbeschaffenheit,Lawinen-, Hochwasser-, Vermurungs-, Steinschlag-und Rutschgefahr usw.) von einer Bebauung freizuhalten sind. Alle Freiflächen, die nicht als Landwirtschaftsgebiete oder Sondergebiete gewidmet sind, sind Freihaltegebiete. Auf Waldflächen ist die Errichtung von Gebäuden und Anlagen zulässig, soweit dies für forstwirtschaftliche Zwecke notwendig ist."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "FF"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "open space - area to be kept clear"
-      },
-      {
-        "@language": "de",
-        "@value": "Freifläche-Freihaltegebiet"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VF",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Als Verkehrsflächen können Flächen für Straßen und Eisenbahntrassen einschließlich der dazugehörigen Anlagen festgelegt werden."
-      },
-      {
-        "@language": "en",
-        "@value": "Areas and the associated facilities can be determined as traffic areas"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VB"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VS"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VSP"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "VF"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "traffic area"
-      },
-      {
-        "@language": "de",
-        "@value": "Verkehrsfläche"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -1972,6 +2172,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
       }
     ],
@@ -1982,180 +2183,7 @@
     ]
   },
   {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/B",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "de",
-        "@value": "Bauflächen sind im Flächenwidmungsplan bereits bebaute Flächen und Flächen, die sich aufgrund der natürlichen Verhältnisse für die Bebauung eignen"
-      },
-      {
-        "@language": "en",
-        "@value": "Building areas are areas in the zoning plan that have already been built on and areas that are suitable for building on the basis of natural conditions."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BW"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BM"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BK"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BB-I"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BB-II"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BB"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "B"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Baufläche"
-      },
-      {
-        "@language": "en",
-        "@value": "building zone"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/F",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "http://inspire.ec.europa.eu/applicationschema/lunom"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "de",
-        "@value": "Def. VBG"
-      },
-      {
-        "@language": "en",
-        "@value": "Def. VBG"
-      }
-    ],
-    "http://purl.org/dc/terms/subject": [
-      {
-        "@id": "http://inspire.ec.europa.eu/theme/lu"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Area designated for dedicated use."
-      },
-      {
-        "@language": "de",
-        "@value": "Fläche für dezidierte Nutzung daklariert."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/FF"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/FL"
-      },
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/FS"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "F"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "de",
-        "@value": "Freifläche"
-      },
-      {
-        "@language": "en",
-        "@value": "open space"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@value": "INSPIRE governance level: national-technical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue"
-      }
-    ],
-    "http://www.w3.org/ns/adms#status": [
-      {
-        "@id": "http://inspire.ec.europa.eu/registry/status/valid"
-      }
-    ]
-  },
-  {
-    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VB",
+    "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/BM",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -2181,17 +2209,17 @@
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/VF"
+        "@id": "https://registry.inspire.gv.at/codelist/vbgLandUseValue/B"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "Areas for railway lines including the associated facilities can be determined as traffic areas. Other projects on these areas are only permitted, if the purpose [of the project] does not interfere with the zoning as traffic area."
+        "@value": "Building zones in the zoning plan (of a municipality) are built-up areas and areas, that are suitable for building due to the natural conditions and are needed as building zones in a foreseeable time, but within 7 years at the longest, and where services can be provided within that time limit. Building zones must be divided into core areas, residential-, mixed- or operating areas, according to necessity and expediency. Mixed areas are areas, in which residential buildings and other buildings and facilities are permitted, that do not cause a significant disturbance to the living."
       },
       {
         "@language": "de",
-        "@value": "Als Verkehrsflächen können Flächen für Straßen und Eisenbahntrassen einschließlich der dazugehörigen Anlagen festgelegt werden. Andere Vorhaben sind auf solchen Flächen nur zulässig, wenn der Zweck der Widmung als Verkehrsfläche nicht entgegensteht."
+        "@value": "Bauflächen sind im Flächenwidmungsplan bereits bebaute Flächen und Flächen, die sich aufgrund der natürlichen Verhältnisse für die Bebauung eignen und in absehbarer Zeit, längstens aber innert 7 Jahren, als Bauflächen benötigt werden und innerhalb dieser Frist erschlossen werden können. Bauflächen sind nach Erfordernis und Zweckmäßigkeit in Kern-, Wohn-, Misch- oder Betriebsgebiete zu unterteilen. Mischgebiete sind Gebiete, in denen Wohngebäude und sonstige Gebäude und Anlagen zulässig sind, die das Wohnen nicht wesentlich stören."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -2201,21 +2229,22 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "VB"
+        "@value": "BM"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
-        "@language": "de",
-        "@value": "Verkehrsfläche Bahn"
+        "@language": "en",
+        "@value": "building zone - mixed area"
       },
       {
-        "@language": "en",
-        "@value": "traffic area - railway"
+        "@language": "de",
+        "@value": "Baufläche-Mischgebiet"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
+        "@language": "en",
         "@value": "INSPIRE governance level: national-technical"
       }
     ],

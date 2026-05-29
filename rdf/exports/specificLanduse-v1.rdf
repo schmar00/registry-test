@@ -16,7 +16,7 @@
     <skos:notation>skiSlope</skos:notation>
     <skos:prefLabel xml:lang="en">Ski Slope</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Skipiste</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specificLanduse"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
@@ -34,7 +34,7 @@
     <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/specificLanduse/skiSlope"/>
     <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/specificLanduse/golfCourse"/>
     <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/submitted"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specificLanduse/golfCourse">
@@ -47,7 +47,7 @@
     <skos:notation>golfCourse</skos:notation>
     <skos:prefLabel xml:lang="de">Golfplatz</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Golf Course</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specificLanduse"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>

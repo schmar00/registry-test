@@ -6,17 +6,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/bglLandUseValue/Weinbauriede">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Weinbauriede sind Weinbaufluren oder Teile einer Weinbauflur, die sich durch natürliche oder künstliche Grenzen oder infolge der weinbaulichen Nutzung als selbstständiger Gebietsteil darstellt und entweder schon bisher als Weinbauriede bezeichnet wurde oder infolge der Lage und Bodenbeschaffenheit die Hervorbringung gleichartiger und gleichwertiger Weine erwarten lässt</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/bglLandUseValue"/>
-    <skos:notation>Weinbauriede</skos:notation>
-    <skos:prefLabel xml:lang="de">Weinbauriede</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/bglLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/bglLandUseValue">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
@@ -31,6 +20,17 @@
     <owl:versionInfo>1.0.0</owl:versionInfo>
     <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/bglLandUseValue/Weinbauriede"/>
     <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/bglLandUseValue/Weinbauriede">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Weinbauriede sind Weinbaufluren oder Teile einer Weinbauflur, die sich durch natürliche oder künstliche Grenzen oder infolge der weinbaulichen Nutzung als selbstständiger Gebietsteil darstellt und entweder schon bisher als Weinbauriede bezeichnet wurde oder infolge der Lage und Bodenbeschaffenheit die Hervorbringung gleichartiger und gleichwertiger Weine erwarten lässt</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/bglLandUseValue"/>
+    <skos:notation>Weinbauriede</skos:notation>
+    <skos:prefLabel xml:lang="de">Weinbauriede</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/bglLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
 </rdf:RDF>

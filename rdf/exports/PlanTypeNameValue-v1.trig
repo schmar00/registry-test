@@ -14,7 +14,7 @@
         skos:notation "gravelControlPlan" ;
         skos:prefLabel "Kiesleitplan"@de,
             "gravel control plan"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/PlanTypeNameValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -27,7 +27,7 @@
         skos:notation "greenArea" ;
         skos:prefLabel "Gruenzone"@de,
             "green area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/PlanTypeNameValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -40,7 +40,7 @@
         skos:notation "sectoralSpatialPlanningProgram" ;
         skos:prefLabel "Sektorales Raumordnungsprogramm"@de,
             "Sectoral spatial planning program"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/PlanTypeNameValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -53,7 +53,7 @@
         skos:notation "zoningPlan" ;
         skos:prefLabel "Flaechenwidmungsplan"@de,
             "Zoning Plan"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/PlanTypeNameValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -72,8 +72,8 @@
             <https://registry.inspire.gv.at/codelist/PlanTypeNameValue/greenArea>,
             <https://registry.inspire.gv.at/codelist/PlanTypeNameValue/sectoralSpatialPlanningProgram>,
             <https://registry.inspire.gv.at/codelist/PlanTypeNameValue/zoningPlan> ;
-        skos:scopeNote "INSPIRE governance level: national-technical",
-            "INSPIRE extensibility: open, internal by value"@en ;
+        skos:scopeNote "INSPIRE extensibility: open, internal by value"@en,
+            "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 }
 

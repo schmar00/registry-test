@@ -17,7 +17,7 @@
         skos:notation "BB" ;
         skos:prefLabel "Baufläche-Betriebsgebiet"@de,
             "building zone - operating area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/BB-I> a skos:Concept ;
@@ -32,7 +32,7 @@
         skos:notation "BB-I" ;
         skos:prefLabel "Baufläche-Betriebsgebiet Kategorie I"@de,
             "building zone - category I operating area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/BB-II> a skos:Concept ;
@@ -47,7 +47,7 @@
         skos:notation "BB-II" ;
         skos:prefLabel "Baufläche-Betriebsgebiet Kategorie II"@de,
             "building zone - category II operating area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/BEB> a skos:Concept ;
@@ -62,7 +62,7 @@
         skos:notation "BEB" ;
         skos:prefLabel "Bauerwartungsfläche-Betriebsgebiet"@de,
             "future development zone - operating area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/BEB-I> a skos:Concept ;
@@ -77,7 +77,7 @@
         skos:notation "BEB-I" ;
         skos:prefLabel "Bauerwartungsfläche-Betriebsgebiet Kategorie I"@de,
             "future development zone - category I operating area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/BEB-II> a skos:Concept ;
@@ -92,7 +92,7 @@
         skos:notation "BEB-II" ;
         skos:prefLabel "Bauerwartungsfläche-Betriebsgebiet Kategorie II"@de,
             "future development area - category II operating area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/BEK> a skos:Concept ;
@@ -107,7 +107,7 @@
         skos:notation "BEK" ;
         skos:prefLabel "Bauerwartungsfläche"@de,
             "future development zone - core area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/BEM> a skos:Concept ;
@@ -122,7 +122,7 @@
         skos:notation "BEM" ;
         skos:prefLabel "Bauerwartungsfläche-Mischgebiet"@de,
             "future development zone - mixed area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/BEW> a skos:Concept ;
@@ -137,7 +137,7 @@
         skos:notation "BEW" ;
         skos:prefLabel "Bauerwartungsfläche-Wohngebiet"@de,
             "future development zone - residential area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/BK> a skos:Concept ;
@@ -152,7 +152,7 @@
         skos:notation "BK" ;
         skos:prefLabel "Baufläche-Kerngebiet"@de,
             "building zone - core area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/BM> a skos:Concept ;
@@ -167,7 +167,7 @@
         skos:notation "BM" ;
         skos:prefLabel "Baufläche-Mischgebiet"@de,
             "building zone - mixed area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/BW> a skos:Concept ;
@@ -182,7 +182,7 @@
         skos:notation "BW" ;
         skos:prefLabel "Baufläche-Wohngebiet"@de,
             "building zone - residential area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/FF> a skos:Concept ;
@@ -197,7 +197,7 @@
         skos:notation "FF" ;
         skos:prefLabel "Freifläche-Freihaltegebiet"@de,
             "open space - area to be kept clear"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/FG> a skos:Concept ;
@@ -212,7 +212,7 @@
         skos:notation "FG" ;
         skos:prefLabel "Waldfläche"@de,
             "forest area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/FL> a skos:Concept ;
@@ -227,7 +227,7 @@
         skos:notation "FL" ;
         skos:prefLabel "Freifläche-Landwirtschaftsgebiet"@de,
             "open space - agricultural area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/FS> a skos:Concept ;
@@ -242,7 +242,7 @@
         skos:notation "FS" ;
         skos:prefLabel "Freifläche-Sondergebiet"@de,
             "open space - exceptional area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/V> a skos:Concept ;
@@ -257,7 +257,7 @@
         skos:notation "V" ;
         skos:prefLabel "Vorbehaltsfläche"@de,
             "reserved area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/VB> a skos:Concept ;
@@ -272,7 +272,7 @@
         skos:notation "VB" ;
         skos:prefLabel "Verkehrsfläche Bahn"@de,
             "traffic area - railway"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/VBE> a skos:Concept ;
@@ -287,7 +287,7 @@
         skos:notation "VBE" ;
         skos:prefLabel "Verkehrsfläche Bahn Ersichtlichmachung"@de,
             "traffic area - rail visualization"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/VS> a skos:Concept ;
@@ -302,7 +302,7 @@
         skos:notation "VS" ;
         skos:prefLabel "Verkehrsfläche Straße"@de,
             "traffic area - street"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/VSE> a skos:Concept ;
@@ -317,7 +317,7 @@
         skos:notation "VSE" ;
         skos:prefLabel "Verkehrsfläche Straße Ersichtlichmachung"@de,
             "traffic area - street visualization"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/VSP> a skos:Concept ;
@@ -332,7 +332,7 @@
         skos:notation "VSP" ;
         skos:prefLabel "Verkehrsfläche Straße Planung"@de,
             "traffic area - street planning"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/VSPE> a skos:Concept ;
@@ -347,7 +347,7 @@
         skos:notation "VSPE" ;
         skos:prefLabel "Verkehrsfläche Straße Planung Ersichtlichmachung"@de,
             "traffic area - street planning visualization"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/W> a skos:Concept ;
@@ -362,7 +362,7 @@
         skos:notation "W" ;
         skos:prefLabel "Gewässer"@de,
             "waters"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/vbgLandUseValue/F> a skos:Concept ;
@@ -379,7 +379,7 @@
         skos:notation "F" ;
         skos:prefLabel "Freifläche"@de,
             "open space"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/vbgLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -397,7 +397,7 @@
         skos:notation "VF" ;
         skos:prefLabel "Verkehrsfläche"@de,
             "traffic area"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/vbgLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -418,7 +418,7 @@
         skos:notation "B" ;
         skos:prefLabel "Baufläche"@de,
             "building zone"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/vbgLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -439,7 +439,7 @@
         skos:notation "BE" ;
         skos:prefLabel "Bauerwartungsfläche-Kerngebiet"@de,
             "future development zone"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/vbgLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
@@ -460,7 +460,7 @@
         skos:notation "E" ;
         skos:prefLabel "Ersichtlichmachung"@de,
             "visualization"@en ;
-        skos:scopeNote "INSPIRE governance level: national-technical" ;
+        skos:scopeNote "INSPIRE governance level: national-technical"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/vbgLandUseValue> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 

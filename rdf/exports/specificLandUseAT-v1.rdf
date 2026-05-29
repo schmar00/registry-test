@@ -7,17 +7,16 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specificLandUseAT/forestInventoryTypeValue">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specificLandUseAT/landUseZoningTypeValue">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdfs:seeAlso>https://bfw.ac.at</rdfs:seeAlso>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Codeliste der österreichischen Waldinventurtypen</skos:definition>
-    <skos:definition xml:lang="en">Code list of Austrian forest Inventory types</skos:definition>
+    <skos:definition xml:lang="de">Gruppierung der österreichischen Bodennutzungs Typen</skos:definition>
+    <skos:definition xml:lang="en">A group for Austrain land use classification types</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/specificLandUseAT"/>
-    <skos:notation>forestInventoryTypeValue</skos:notation>
-    <skos:prefLabel xml:lang="de">Waldinventar Typen</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Forest Inventory Type</skos:prefLabel>
+    <skos:notation>landUseZoningTypeValue</skos:notation>
+    <skos:prefLabel xml:lang="de">Landnutzungszonen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land Use Zoning Type</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specificLandUseAT"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
@@ -36,8 +35,22 @@
     <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/specificLandUseAT/invekosTypeValue"/>
     <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/codelist/specificLandUseAT/forestInventoryTypeValue"/>
     <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/submitted"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specificLandUseAT/forestInventoryTypeValue">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso>https://bfw.ac.at</rdfs:seeAlso>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Codeliste der österreichischen Waldinventurtypen</skos:definition>
+    <skos:definition xml:lang="en">Code list of Austrian forest Inventory types</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/specificLandUseAT"/>
+    <skos:notation>forestInventoryTypeValue</skos:notation>
+    <skos:prefLabel xml:lang="de">Waldinventar Typen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Forest Inventory Type</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specificLandUseAT"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specificLandUseAT/invekosTypeValue">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -50,19 +63,6 @@
     <skos:notation>invekosTypeValue</skos:notation>
     <skos:prefLabel xml:lang="en">INVEKOS Type</skos:prefLabel>
     <skos:prefLabel xml:lang="de">INVEKOS Klassen</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specificLandUseAT"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/specificLandUseAT/landUseZoningTypeValue">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruppierung der österreichischen Bodennutzungs Typen</skos:definition>
-    <skos:definition xml:lang="en">A group for Austrain land use classification types</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/specificLandUseAT"/>
-    <skos:notation>landUseZoningTypeValue</skos:notation>
-    <skos:prefLabel xml:lang="de">Landnutzungszonen</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">land Use Zoning Type</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/specificLandUseAT"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>

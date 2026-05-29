@@ -6,122 +6,73 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandAgricultureAndForestryFarm">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/centreZone">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">§ 20 (2) Z 1b</dcterms:description>
-    <dcterms:description xml:lang="de">§ 20 (2) Z 1b</dcterms:description>
+    <dcterms:description xml:lang="en">§ 14 (2) Z 15 § 18 (1)</dcterms:description>
+    <dcterms:description xml:lang="de">§ 14 (2) Z 15 § 18 (1)</dcterms:description>
     <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
-    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland land- und forstwirtschaftliche Hofstellen.</skos:definition>
-    <skos:definition xml:lang="en">Green land - agricultural and forestry farms.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <skos:notation>greenLandAgricultureAndForestryFarm</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland land- und forstwirtschaftliche Hofstelle</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Green land agricultural and forestry farm</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandOpenSpaceArea">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">§ 20 (2) Z 18</dcterms:description>
-    <dcterms:description xml:lang="de">§ 20 (2) Z 18</dcterms:description>
-    <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
-    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="en">Green land - open space areas (to be left completely undeveloped).</skos:definition>
-    <skos:definition xml:lang="de">Freihalteflaechen (ist von jeglicher Bebauung frei zu halten).</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <skos:notation>greenLandOpenSpaceArea</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland Freihalteflaeche Gruenland</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Green land open space area</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCemetery">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">§ 20 (2) Z 11</dcterms:description>
-    <dcterms:description xml:lang="de">§ 20 (2) Z 11</dcterms:description>
-    <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
-    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland Friedhoefe.</skos:definition>
-    <skos:definition xml:lang="en">Green land cemeteries.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <skos:notation>greenLandCemetery</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland-Friedhof</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Green land cemetery</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCommercialUse">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">§ 16 (1) Z 3 and 4</dcterms:description>
-    <dcterms:description xml:lang="de">§ 16 (1) Z 3 and 4</dcterms:description>
-    <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
-    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Fasst die Baulandwidmungsarten Industriegebiete (BI) und Betriebsgebiete (BB) zusammen.</skos:definition>
-    <skos:definition xml:lang="en">Covers building land use types industrial areas (BI) and commercial (BB) areas.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <skos:notation>buildingLandCommercialUse</skos:notation>
-    <skos:prefLabel xml:lang="en">building land commercial use</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Bauland Betriebsnutzung</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/centralZone">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
     <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
     <skos:definition xml:lang="de">Zentrumszone.</skos:definition>
+    <skos:definition xml:lang="en">The land use type 'Building land - core area commercial facilities' is only in this zone allowed.</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <skos:notation>centralZone</skos:notation>
+    <skos:notation>centreZone</skos:notation>
     <skos:prefLabel xml:lang="de">Zentrumszone</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">Centre zone</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandSpecialZone">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandLandfill">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">§ 16 (1) Z 6 and 16 (2)</dcterms:description>
-    <dcterms:description xml:lang="de">§ 16 (1) Z 6 and 16 (2)</dcterms:description>
+    <dcterms:description xml:lang="en">§ 20 (2) Z 14</dcterms:description>
+    <dcterms:description xml:lang="de">§ 20 (2) Z 14</dcterms:description>
     <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
     <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="en">Building land - special zones for uses that require particular protection such as hospitals, schools, nursing homes, or that are to be assigned a specific location, such as asphalt mixing plants, or that cannot be categorised under other building use types, such as barracks or sports facilities.</skos:definition>
-    <skos:definition xml:lang="de">Bauland Sondergebiete, fuer Nutzungen, die einen besonderen Schutz wie Krankenanstalten, Schulen, Pflegeheime erfordern oder denen ein bestimmter Standort zugeordnet werden soll wie Asphaltmischanalgen oder die sich nicht in die anderen Baulandwidmungen einordnen lassen wie Kasernen oder Sportanlagen.</skos:definition>
+    <skos:definition xml:lang="de">Gruenland Aushubdeponien.</skos:definition>
+    <skos:definition xml:lang="en">Green land - landfills.</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <skos:notation>buildingLandSpecialZone</skos:notation>
-    <skos:prefLabel xml:lang="en">Building land special zone</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Bauland-Sondergebiet</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>greenLandLandfill</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland Aushubdeponie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Green land landfill</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCoreAreaCommercialFacilities">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteLand">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">§ 20 (2) Z 16</dcterms:description>
+    <dcterms:description xml:lang="de">§ 20 (2) Z 16</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Gruenland Oedland/Oekoflaechen: Flaechen, die keiner oder nur einer unbedeutenden wirtschaftlichen Nutzung dienen.</skos:definition>
+    <skos:definition xml:lang="en">Green land - uncultivated/ecological areas: areas that serve no or only insignificant economic purpose</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <skos:notation>greenLandWasteLand</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland-Oedland</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Green land-waste land</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWineCellarLane">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">§ 20 (2) Z 20</dcterms:description>
+    <dcterms:description xml:lang="de">§ 20 (2) Z 20</dcterms:description>
     <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
     <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="en">Building land - core area commercial facilities.</skos:definition>
-    <skos:definition xml:lang="de">Bauland Kerngebiet-Handelseinrichtungen</skos:definition>
+    <skos:definition xml:lang="de">Gruenland Kellergassen.</skos:definition>
+    <skos:definition xml:lang="en">Green land - wine cellar lanes.</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <skos:notation>buildingLandCoreAreaCommercialFacilities</skos:notation>
-    <skos:prefLabel xml:lang="en">Building land core area commercial facilities</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Bauland-Kerngebiet Handelseinrichtungen</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>greenLandWineCellarLane</skos:notation>
+    <skos:prefLabel xml:lang="de">GruenlandKellergasse</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Green land wine cellar lane</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
@@ -139,79 +90,41 @@
     <skos:notation>greenLandResourceExtractionSite</skos:notation>
     <skos:prefLabel xml:lang="de">Gruenland Materialgewinnungsstaette</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Green land resource extraction site</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPlayground">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSmallGardenPlot">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">§ 20 (2) Z 9</dcterms:description>
-    <dcterms:description xml:lang="de">§ 20 (2) Z 9</dcterms:description>
+    <dcterms:description xml:lang="en">§ 20 (2) Z 7</dcterms:description>
+    <dcterms:description xml:lang="de">§ 20 (2) Z 7</dcterms:description>
     <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
     <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland Spielplaetze.</skos:definition>
-    <skos:definition xml:lang="en">Green land - playgrounds.</skos:definition>
+    <skos:definition xml:lang="de">Gruenland Kleingaerten.</skos:definition>
+    <skos:definition xml:lang="en">Green land - small garden plots.</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <skos:notation>greenLandPlayground</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland Spielplatz</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Green land playground</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>greenLandSmallGardenPlot</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland Kleingarten</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Green land small garden plot</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPhotvoltaicPlant">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandShelter">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">§ 20 (2) Z 21</dcterms:description>
-    <dcterms:description xml:lang="de">§ 20 (2) Z 21</dcterms:description>
-    <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
-    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
+    <dcterms:description xml:lang="en">§ 20 (2) Z 3</dcterms:description>
+    <dcterms:description xml:lang="de">§ 20 (2) Z 3</dcterms:description>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland Photovoltaikanlagen.</skos:definition>
-    <skos:definition xml:lang="en">Green land - photovoltaic plants.</skos:definition>
+    <skos:definition xml:lang="de">Gruenland Schutzhauuser: Gast- und Beherbergungsbetriebe sowie Unterstandshuetten, die für die Beduerfnisse des fußwegigen Tourismus erforderlich sind.</skos:definition>
+    <skos:definition xml:lang="en">Green land - shelters: guesthouses, lodgings and shelter structures that are required to meet the needs of pedestrian tourism</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <skos:notation>greenLandPhotvoltaicPlant</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland Photovoltaikanlage</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Green land photovoltaic plant</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandMarketGardenAndPlantNursery">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">§ 20 (2) Z 6</dcterms:description>
-    <dcterms:description xml:lang="de">§ 20 (2) Z 6</dcterms:description>
-    <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
-    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland Gaertnereien.</skos:definition>
-    <skos:definition xml:lang="en">Green land - market gardens and plant nurseries.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <skos:notation>greenLandMarketGardenAndPlantNursery</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland Gaertnerei</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Green land market garden and plant nursery</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCampsite">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">§ 20 (2) Z 10</dcterms:description>
-    <dcterms:description xml:lang="de">§ 20 (2) Z 10</dcterms:description>
-    <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
-    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland Campingplaetze.</skos:definition>
-    <skos:definition xml:lang="en">Green land - campsites.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <skos:notation>greenLandCampsite</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland Campingplatz</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Green land campsite</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>greenLandShelter</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland-Schutzhaus</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Green land - shelter</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
@@ -255,146 +168,6 @@
     <skos:scopeNote xml:lang="en">INSPIRE extensibility: open, internal by value</skos:scopeNote>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWineCellarLane">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">§ 20 (2) Z 20</dcterms:description>
-    <dcterms:description xml:lang="de">§ 20 (2) Z 20</dcterms:description>
-    <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
-    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland Kellergassen.</skos:definition>
-    <skos:definition xml:lang="en">Green land - wine cellar lanes.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <skos:notation>greenLandWineCellarLane</skos:notation>
-    <skos:prefLabel xml:lang="de">GruenlandKellergasse</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Green land wine cellar lane</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/centreZone">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">§ 14 (2) Z 15 § 18 (1)</dcterms:description>
-    <dcterms:description xml:lang="de">§ 14 (2) Z 15 § 18 (1)</dcterms:description>
-    <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
-    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Zentrumszone.</skos:definition>
-    <skos:definition xml:lang="en">The land use type 'Building land - core area commercial facilities' is only in this zone allowed.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <skos:notation>centreZone</skos:notation>
-    <skos:prefLabel xml:lang="de">Zentrumszone</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Centre zone</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteTreatmentFacility">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">§ 20 (2) Z 13</dcterms:description>
-    <dcterms:description xml:lang="de">§ 20 (2) Z 13</dcterms:description>
-    <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
-    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland Abfallbehandlungsanlagen.</skos:definition>
-    <skos:definition xml:lang="en">Green land - waste treatment facilities.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <skos:notation>greenLandWasteTreatmentFacility</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland-Abfallbehandlungsanlage</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Green land waste treatment facility</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandLandfill">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">§ 20 (2) Z 14</dcterms:description>
-    <dcterms:description xml:lang="de">§ 20 (2) Z 14</dcterms:description>
-    <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
-    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland Aushubdeponien.</skos:definition>
-    <skos:definition xml:lang="en">Green land - landfills.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <skos:notation>greenLandLandfill</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland Aushubdeponie</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Green land landfill</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSportsFacility">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">§ 20 (2) Z 8</dcterms:description>
-    <dcterms:description xml:lang="de">§ 20 (2) Z 8</dcterms:description>
-    <dcterms:description xml:lang="en">v</dcterms:description>
-    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland Sportstaetten.</skos:definition>
-    <skos:definition xml:lang="en">Green land - sports facilities.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <skos:notation>greenLandSportsFacility</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland Sportstaette</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Green land sports facility</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandBuildingWorthyOfPreservation">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">§ 20 (2) Z 4</dcterms:description>
-    <dcterms:description xml:lang="de">§ 20 (2) Z 4</dcterms:description>
-    <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
-    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="en">Green land - buildings worthy of preservation.</skos:definition>
-    <skos:definition xml:lang="de">Erhaltenswerte Gebaeude im Gruenland.</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <skos:notation>greenLandBuildingWorthyOfPreservation</skos:notation>
-    <skos:prefLabel xml:lang="en">Green land building worthy of preservation</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Erhaltenswerte Gebaeude im Gruenland</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandShelter">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">§ 20 (2) Z 3</dcterms:description>
-    <dcterms:description xml:lang="de">§ 20 (2) Z 3</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland Schutzhauuser: Gast- und Beherbergungsbetriebe sowie Unterstandshuetten, die für die Beduerfnisse des fußwegigen Tourismus erforderlich sind.</skos:definition>
-    <skos:definition xml:lang="en">Green land - shelters: guesthouses, lodgings and shelter structures that are required to meet the needs of pedestrian tourism</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <skos:notation>greenLandShelter</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland-Schutzhaus</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Green land - shelter</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteLand">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">§ 20 (2) Z 16</dcterms:description>
-    <dcterms:description xml:lang="de">§ 20 (2) Z 16</dcterms:description>
-    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland Oedland/Oekoflaechen: Flaechen, die keiner oder nur einer unbedeutenden wirtschaftlichen Nutzung dienen.</skos:definition>
-    <skos:definition xml:lang="en">Green land - uncultivated/ecological areas: areas that serve no or only insignificant economic purpose</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <skos:notation>greenLandWasteLand</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland-Oedland</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Green land-waste land</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandResidentialOrMixedUse">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
@@ -410,25 +183,38 @@
     <skos:notation>buildingLandResidentialOrMixedUse</skos:notation>
     <skos:prefLabel xml:lang="de">Bauland Wohn oder Mischnutzung</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Building land residential or mixed use</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSmallGardenPlot">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/centralZone">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">§ 20 (2) Z 7</dcterms:description>
-    <dcterms:description xml:lang="de">§ 20 (2) Z 7</dcterms:description>
+    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Zentrumszone.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <skos:notation>centralZone</skos:notation>
+    <skos:prefLabel xml:lang="de">Zentrumszone</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandOpenSpaceArea">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">§ 20 (2) Z 18</dcterms:description>
+    <dcterms:description xml:lang="de">§ 20 (2) Z 18</dcterms:description>
     <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
     <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland Kleingaerten.</skos:definition>
-    <skos:definition xml:lang="en">Green land - small garden plots.</skos:definition>
+    <skos:definition xml:lang="en">Green land - open space areas (to be left completely undeveloped).</skos:definition>
+    <skos:definition xml:lang="de">Freihalteflaechen (ist von jeglicher Bebauung frei zu halten).</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <skos:notation>greenLandSmallGardenPlot</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland Kleingarten</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Green land small garden plot</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>greenLandOpenSpaceArea</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland Freihalteflaeche Gruenland</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Green land open space area</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
@@ -446,23 +232,61 @@
     <skos:notation>greenLandWindPowerPlant</skos:notation>
     <skos:prefLabel xml:lang="de">Gruenland Windkraftanlage</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Green land wind power plant</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandStorageSpace">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandSpecialZone">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
-    <dcterms:description xml:lang="en">§ 20 (2) Z 15</dcterms:description>
-    <dcterms:description xml:lang="de">§ 20 (2) Z 15</dcterms:description>
+    <dcterms:description xml:lang="en">§ 16 (1) Z 6 and 16 (2)</dcterms:description>
+    <dcterms:description xml:lang="de">§ 16 (1) Z 6 and 16 (2)</dcterms:description>
+    <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
+    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
     <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
-    <skos:definition xml:lang="de">Gruenland Lagerplaetze: Flaechen, die der vorübergehenden Lagerung von Waren aller Art - außerhalb von Gebaeuden - dienen.</skos:definition>
-    <skos:definition xml:lang="en">Green land - storage spaces: areas intended for temporary storage of all types of goods outside of buildings.</skos:definition>
+    <skos:definition xml:lang="en">Building land - special zones for uses that require particular protection such as hospitals, schools, nursing homes, or that are to be assigned a specific location, such as asphalt mixing plants, or that cannot be categorised under other building use types, such as barracks or sports facilities.</skos:definition>
+    <skos:definition xml:lang="de">Bauland Sondergebiete, fuer Nutzungen, die einen besonderen Schutz wie Krankenanstalten, Schulen, Pflegeheime erfordern oder denen ein bestimmter Standort zugeordnet werden soll wie Asphaltmischanalgen oder die sich nicht in die anderen Baulandwidmungen einordnen lassen wie Kasernen oder Sportanlagen.</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
-    <skos:notation>greenLandStorageSpace</skos:notation>
-    <skos:prefLabel xml:lang="de">Gruenland-Lagerplatz</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Green land - storage space</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:notation>buildingLandSpecialZone</skos:notation>
+    <skos:prefLabel xml:lang="en">Building land special zone</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Bauland-Sondergebiet</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCemetery">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">§ 20 (2) Z 11</dcterms:description>
+    <dcterms:description xml:lang="de">§ 20 (2) Z 11</dcterms:description>
+    <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
+    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Gruenland Friedhoefe.</skos:definition>
+    <skos:definition xml:lang="en">Green land cemeteries.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <skos:notation>greenLandCemetery</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland-Friedhof</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Green land cemetery</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandWasteTreatmentFacility">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">§ 20 (2) Z 13</dcterms:description>
+    <dcterms:description xml:lang="de">§ 20 (2) Z 13</dcterms:description>
+    <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
+    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Gruenland Abfallbehandlungsanlagen.</skos:definition>
+    <skos:definition xml:lang="en">Green land - waste treatment facilities.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <skos:notation>greenLandWasteTreatmentFacility</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland-Abfallbehandlungsanlage</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Green land waste treatment facility</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
@@ -478,7 +302,183 @@
     <skos:notation>greenLandParkArea</skos:notation>
     <skos:prefLabel xml:lang="de">Gruenland-Parkanlagen</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Green land - park area</skos:prefLabel>
-    <skos:scopeNote>INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPlayground">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">§ 20 (2) Z 9</dcterms:description>
+    <dcterms:description xml:lang="de">§ 20 (2) Z 9</dcterms:description>
+    <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
+    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Gruenland Spielplaetze.</skos:definition>
+    <skos:definition xml:lang="en">Green land - playgrounds.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <skos:notation>greenLandPlayground</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland Spielplatz</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Green land playground</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandPhotvoltaicPlant">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">§ 20 (2) Z 21</dcterms:description>
+    <dcterms:description xml:lang="de">§ 20 (2) Z 21</dcterms:description>
+    <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
+    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Gruenland Photovoltaikanlagen.</skos:definition>
+    <skos:definition xml:lang="en">Green land - photovoltaic plants.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <skos:notation>greenLandPhotvoltaicPlant</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland Photovoltaikanlage</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Green land photovoltaic plant</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandMarketGardenAndPlantNursery">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">§ 20 (2) Z 6</dcterms:description>
+    <dcterms:description xml:lang="de">§ 20 (2) Z 6</dcterms:description>
+    <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
+    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Gruenland Gaertnereien.</skos:definition>
+    <skos:definition xml:lang="en">Green land - market gardens and plant nurseries.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <skos:notation>greenLandMarketGardenAndPlantNursery</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland Gaertnerei</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Green land market garden and plant nursery</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandCampsite">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">§ 20 (2) Z 10</dcterms:description>
+    <dcterms:description xml:lang="de">§ 20 (2) Z 10</dcterms:description>
+    <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
+    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Gruenland Campingplaetze.</skos:definition>
+    <skos:definition xml:lang="en">Green land - campsites.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <skos:notation>greenLandCampsite</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland Campingplatz</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Green land campsite</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCommercialUse">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">§ 16 (1) Z 3 and 4</dcterms:description>
+    <dcterms:description xml:lang="de">§ 16 (1) Z 3 and 4</dcterms:description>
+    <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
+    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Fasst die Baulandwidmungsarten Industriegebiete (BI) und Betriebsgebiete (BB) zusammen.</skos:definition>
+    <skos:definition xml:lang="en">Covers building land use types industrial areas (BI) and commercial (BB) areas.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <skos:notation>buildingLandCommercialUse</skos:notation>
+    <skos:prefLabel xml:lang="en">building land commercial use</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Bauland Betriebsnutzung</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandStorageSpace">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">§ 20 (2) Z 15</dcterms:description>
+    <dcterms:description xml:lang="de">§ 20 (2) Z 15</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Gruenland Lagerplaetze: Flaechen, die der vorübergehenden Lagerung von Waren aller Art - außerhalb von Gebaeuden - dienen.</skos:definition>
+    <skos:definition xml:lang="en">Green land - storage spaces: areas intended for temporary storage of all types of goods outside of buildings.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <skos:notation>greenLandStorageSpace</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland-Lagerplatz</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Green land - storage space</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandBuildingWorthyOfPreservation">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">§ 20 (2) Z 4</dcterms:description>
+    <dcterms:description xml:lang="de">§ 20 (2) Z 4</dcterms:description>
+    <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
+    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="en">Green land - buildings worthy of preservation.</skos:definition>
+    <skos:definition xml:lang="de">Erhaltenswerte Gebaeude im Gruenland.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <skos:notation>greenLandBuildingWorthyOfPreservation</skos:notation>
+    <skos:prefLabel xml:lang="en">Green land building worthy of preservation</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Erhaltenswerte Gebaeude im Gruenland</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandSportsFacility">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">§ 20 (2) Z 8</dcterms:description>
+    <dcterms:description xml:lang="de">§ 20 (2) Z 8</dcterms:description>
+    <dcterms:description xml:lang="en">v</dcterms:description>
+    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Gruenland Sportstaetten.</skos:definition>
+    <skos:definition xml:lang="en">Green land - sports facilities.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <skos:notation>greenLandSportsFacility</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland Sportstaette</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Green land sports facility</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/buildingLandCoreAreaCommercialFacilities">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
+    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="en">Building land - core area commercial facilities.</skos:definition>
+    <skos:definition xml:lang="de">Bauland Kerngebiet-Handelseinrichtungen</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <skos:notation>buildingLandCoreAreaCommercialFacilities</skos:notation>
+    <skos:prefLabel xml:lang="en">Building land core area commercial facilities</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Bauland-Kerngebiet Handelseinrichtungen</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/codelist/noeLandUseValue/greenLandAgricultureAndForestryFarm">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:conformsTo rdf:resource="http://inspire.ec.europa.eu/applicationschema/lunom"/>
+    <dcterms:description xml:lang="en">§ 20 (2) Z 1b</dcterms:description>
+    <dcterms:description xml:lang="de">§ 20 (2) Z 1b</dcterms:description>
+    <dcterms:description xml:lang="en">Def. NOE</dcterms:description>
+    <dcterms:description xml:lang="de">Def. NOE</dcterms:description>
+    <dcterms:subject rdf:resource="http://inspire.ec.europa.eu/theme/lu"/>
+    <skos:definition xml:lang="de">Gruenland land- und forstwirtschaftliche Hofstellen.</skos:definition>
+    <skos:definition xml:lang="en">Green land - agricultural and forestry farms.</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
+    <skos:notation>greenLandAgricultureAndForestryFarm</skos:notation>
+    <skos:prefLabel xml:lang="de">Gruenland land- und forstwirtschaftliche Hofstelle</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Green land agricultural and forestry farm</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">INSPIRE governance level: national-technical</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/codelist/noeLandUseValue"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
